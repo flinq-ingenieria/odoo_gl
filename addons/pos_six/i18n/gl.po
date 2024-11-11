@@ -1,0 +1,64 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_six
+#
+# Translators:
+# Martin Trigaux, 2021
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 14:14\n"
+"PO-Revision-Date: 2024-11-08 14:14\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: pos_six
+#. openerp-web
+#: code:addons/pos_six/static/src/js/payment_six.js:0
+#, python-format
+msgid "Balance Failed"
+msgstr "Balance errado"
+
+#. module: pos_six
+#: model:ir.model,name:pos_six.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Configuración do TPV"
+
+#. module: pos_six
+#: model:ir.model,name:pos_six.model_pos_payment_method
+msgid "Point of Sale Payment Methods"
+msgstr "Métodos de pago no punto de venda "
+
+#. module: pos_six
+#. openerp-web
+#: code:addons/pos_six/static/src/xml/BalanceButton.xml:0
+#, python-format
+msgid "Send Balance"
+msgstr "Enviar saldo"
+
+#. module: pos_six
+#: model:ir.model.fields,field_description:pos_six.field_pos_payment_method__six_terminal_ip
+msgid "Six Terminal IP"
+msgstr "IP do Terminal Six"
+
+#. module: pos_six
+#. openerp-web
+#: code:addons/pos_six/static/src/js/payment_six.js:0
+#, python-format
+msgid "The balance operation failed."
+msgstr "A operación de balance fallou."
+
+#. module: pos_six
+#. openerp-web
+#: code:addons/pos_six/static/src/js/payment_six.js:0
+#, python-format
+msgid "Transaction was not processed correctly"
+msgstr "A transacción non se procesou correctamente"

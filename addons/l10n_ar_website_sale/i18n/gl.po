@@ -1,0 +1,79 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_ar_website_sale
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 16:03\n"
+"PO-Revision-Date: 2024-11-08 16:03\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: l10n_ar_website_sale
+#: model_terms:ir.ui.view,arch_db:l10n_ar_website_sale.partner_info
+msgid "AFIP Responsibility"
+msgstr "Responsabilidade AFIP"
+
+#. module: l10n_ar_website_sale
+#: model_terms:ir.ui.view,arch_db:l10n_ar_website_sale.partner_info
+msgid "AFIP Responsibility..."
+msgstr "Responsabilidade AFIP..."
+
+#. module: l10n_ar_website_sale
+#: code:addons/l10n_ar_website_sale/models/ir_ui_view.py:0
+#, python-format
+msgid "B2B fields must always be displayed with Argentinian website."
+msgstr "Os campos B2B deben aparecer sempre co sitio web Arxentino."
+
+#. module: l10n_ar_website_sale
+#: model_terms:ir.ui.view,arch_db:l10n_ar_website_sale.partner_info
+msgid ""
+"Changing AFIP Responsibility type is not allowed once document(s) have been "
+"issued for your account. Please contact us directly for this operation."
+msgstr ""
+"Cambiar o tipo de Responsabilidade AFIP non esta permitido unha vez que "
+"haxan factura(s) emitadas á túa conta. Por favor contactenos directamente "
+"para esta operación."
+
+#. module: l10n_ar_website_sale
+#: model_terms:ir.ui.view,arch_db:l10n_ar_website_sale.partner_info
+msgid ""
+"Changing Identification type is not allowed once document(s) have been "
+"issued for your account. Please contact us directly for this operation."
+msgstr ""
+"Cambiar o Tipo de Identificación non esta permitido unha vez que haxan "
+"factura(s) emitadas á túa conta. Por favor contactenos directamente para "
+"esta operación."
+
+#. module: l10n_ar_website_sale
+#: code:addons/l10n_ar_website_sale/controllers/main.py:0
+#, python-format
+msgid ""
+"For the selected AFIP Responsibility you will need to set CUIT "
+"Identification Type"
+msgstr ""
+"Para a Responsabilidade AFIP seleccionada debes seleccionar o tipo de "
+"identificación CUIT"
+
+#. module: l10n_ar_website_sale
+#: model_terms:ir.ui.view,arch_db:l10n_ar_website_sale.partner_info
+msgid "Identification Type"
+msgstr "Tipo de Identificación"
+
+#. module: l10n_ar_website_sale
+#: model_terms:ir.ui.view,arch_db:l10n_ar_website_sale.partner_info
+msgid "Identification Type..."
+msgstr "Tipo de Identificación"
+
+#. module: l10n_ar_website_sale
+#: model_terms:ir.ui.view,arch_db:l10n_ar_website_sale.address_b2b
+msgid "Number"
+msgstr "Número"

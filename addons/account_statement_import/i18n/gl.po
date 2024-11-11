@@ -1,0 +1,673 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_bank_statement_import
+#
+# Translators:
+# Martin Trigaux, 2019
+# Pedro M. Baeza <pedro.baeza@gmail.com>, 2019
+# Rick Hunter <rick_hunter_ec@yahoo.com>, 2019
+# Angel Moya - PESOL <angel.moya@pesol.es>, 2019
+# Rick Hunter <rick.hunter.ec@gmail.com>, 2019
+# Gabriel Umana <gabriel.umana@delfixcr.com>, 2019
+# Cristopher Cravioto <ccr@odoo.com>, 2019
+# fr33co <fr33codev@gmail.com>, 2019
+# Jhonsons Jimenez <jhonson1195@gmail.com>, 2019
+# Jesse Garza <jga@odoo.com>, 2019
+# Jon Perez <jop@odoo.com>, 2019
+# Mariana Santos Romo <msn@odoo.com>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 04:08\n"
+"PO-Revision-Date: 2024-11-08 04:08\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: account_statement_import
+#: code:addons/account_statement_import/wizard/account_statement_import.py:0
+#, python-format
+msgid "%d transactions had already been imported and were ignored."
+msgstr "%d transaccións foron xa importadas e serán ignoradas."
+
+#. module: account_statement_import
+#: code:addons/account_statement_import/wizard/account_statement_import.py:0
+#, python-format
+msgid "1 transaction had already been imported and was ignored."
+msgstr "1 transacción foi xa importada e será ignorada."
+
+#. module: account_statement_import
+#: code:addons/account_statement_import/wizard/account_statement_import.py:0
+#, python-format
+msgid "Already imported items"
+msgstr "Elementos xa importados"
+
+#. module: account_statement_import
+#: model_terms:ir.ui.view,arch_db:account_statement_import.account_statement_import_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: account_statement_import
+#: code:addons/account_statement_import/wizard/account_statement_import.py:0
+#, python-format
+msgid ""
+"Could not find any bank account with number '%(account_number)s' linked to "
+"partner '%(partner_name)s'. You should create the bank account and set it on"
+" the related bank journal. If the related bank journal doesn't exist yet, "
+"you should create a new one."
+msgstr ""
+"Non se puido atopar ningunha conta bancaria co número '%(account_number)s' "
+"vinculada ao partner '%(partner_name)s'. Debe crear a conta bancaria e "
+"establecela no diario bancario relacionado. Se o diario bancario relacionado"
+" aínda non existe, debe crear un novo."
+
+#. module: account_statement_import
+#: model:ir.model.fields,field_description:account_statement_import.field_account_statement_import__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: account_statement_import
+#: model:ir.model.fields,field_description:account_statement_import.field_account_statement_import__create_date
+msgid "Created on"
+msgstr "Creado o"
+
+#. module: account_statement_import
+#: model:ir.model.fields,field_description:account_statement_import.field_account_statement_import__display_name
+msgid "Display Name"
+msgstr "Nome mostrado"
+
+#. module: account_statement_import
+#: model:ir.model.fields,help:account_statement_import.field_account_statement_import__statement_file
+msgid ""
+"Get you bank statements in electronic format from your bank and select them "
+"here."
+msgstr ""
+"Obteña os seus extractos bancarios en formato electrónico do seu banco e "
+"seleccióneos aquí."
+
+#. module: account_statement_import
+#: model:ir.model.fields,field_description:account_statement_import.field_account_statement_import__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_statement_import
+#: code:addons/account_statement_import/models/account_journal.py:0
+#, python-format
+msgid "Import"
+msgstr "Importar"
+
+#. module: account_statement_import
+#: model_terms:ir.ui.view,arch_db:account_statement_import.journal_dashboard_view_inherit
+msgid "Import (OCA)"
+msgstr "Importar (OCA)"
+
+#. module: account_statement_import
+#: model:ir.actions.act_window,name:account_statement_import.account_statement_import_action
+msgid "Import Bank Statement File"
+msgstr "Importar Arquivo de Extracto Bancario"
+
+#. module: account_statement_import
+#: model:ir.model,name:account_statement_import.model_account_statement_import
+msgid "Import Bank Statement Files"
+msgstr "Importar extracto bancario"
+
+#. module: account_statement_import
+#: model:ir.ui.menu,name:account_statement_import.account_statement_import_menu
+msgid "Import Statement"
+msgstr "Importar extracto"
+
+#. module: account_statement_import
+#: model_terms:ir.ui.view,arch_db:account_statement_import.journal_dashboard_view_inherit
+msgid "Import Statement (OCA)"
+msgstr "Importar Extracto (OCA)"
+
+#. module: account_statement_import
+#: model_terms:ir.ui.view,arch_db:account_statement_import.account_statement_import_form
+msgid "Import and View"
+msgstr "Importar e Ver"
+
+#. module: account_statement_import
+#: model:ir.model,name:account_statement_import.model_account_journal
+msgid "Journal"
+msgstr "Diario"
+
+#. module: account_statement_import
+#: model:ir.model.fields,field_description:account_statement_import.field_account_statement_import____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: account_statement_import
+#: model:ir.model.fields,field_description:account_statement_import.field_account_statement_import__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: account_statement_import
+#: model:ir.model.fields,field_description:account_statement_import.field_account_statement_import__write_date
+msgid "Last Updated on"
+msgstr "Última actualización o"
+
+#. module: account_statement_import
+#: code:addons/account_statement_import/wizard/account_statement_import.py:0
+#, python-format
+msgid "Missing currency code in the bank statement file."
+msgstr "Falta o código de moeda no arquivo do extracto bancario."
+
+#. module: account_statement_import
+#: code:addons/account_statement_import/wizard/account_statement_import.py:0
+#, python-format
+msgid "Missing payment_ref on a transaction."
+msgstr "Falta o payment_ref nunha transacción."
+
+#. module: account_statement_import
+#: model:ir.model.fields,field_description:account_statement_import.field_account_statement_import__statement_file
+msgid "Statement File"
+msgstr "Arquivo de Declaración"
+
+#. module: account_statement_import
+#: model:ir.model.fields,field_description:account_statement_import.field_account_statement_import__statement_filename
+msgid "Statement Filename"
+msgstr "Nome de Arquivo de Declaración"
+
+#. module: account_statement_import
+#: model_terms:ir.ui.view,arch_db:account_statement_import.account_statement_import_form
+msgid "Supported formats:"
+msgstr "Formatos compatibles:"
+
+#. module: account_statement_import
+#: code:addons/account_statement_import/wizard/account_statement_import.py:0
+#, python-format
+msgid "The Bank Accounting Account is not set on the journal '%s'."
+msgstr "A conta contable bancaria non está configurada no diario '%s'."
+
+#. module: account_statement_import
+#: code:addons/account_statement_import/wizard/account_statement_import.py:0
+#, python-format
+msgid ""
+"The bank account with number '%(account_number)s' exists in Odoo but it is "
+"not set on any bank journal. You should set it on the related bank journal. "
+"If the related bank journal doesn't exist yet, you should create a new one."
+msgstr ""
+"A conta bancaria co número '%(account_number)s' existe en Odoo pero non está"
+" establecida en ningún diario bancario. Debes establecela no diario bancario"
+" relacionado. Se o diario bancario relacionado aínda non existe, debe crear "
+"un novo."
+
+#. module: account_statement_import
+#: code:addons/account_statement_import/wizard/account_statement_import.py:0
+#, python-format
+msgid ""
+"The bank statement file uses currency '%s' but there is no such currency in "
+"Odoo."
+msgstr ""
+"O arquivo do extracto bancario utiliza a divisa '%s' pero non existe tal "
+"divisa en Odoo."
+
+#. module: account_statement_import
+#: code:addons/account_statement_import/wizard/account_statement_import.py:0
+#, python-format
+msgid ""
+"The currency of the bank statement (%(currency_name)s) is not the same as "
+"the currency of the journal '%(journal_name)s' (%(journal_currency_name)s)."
+msgstr ""
+"A divisa do extracto bancario (%(currency_name)s) non é a mesma que a divisa"
+" do diario '%(journal_name)s' (%(journal_currency_name)s)."
+
+#. module: account_statement_import
+#: code:addons/account_statement_import/wizard/account_statement_import.py:0
+#, python-format
+msgid ""
+"The format of this bank statement file doesn't contain the bank account "
+"number, so you must start the wizard from the right bank journal in the "
+"dashboard."
+msgstr ""
+"O formato deste arquivo de extracto bancario non contén o número de conta "
+"bancaria, polo que debe iniciar o asistente desde o diario bancario correcto"
+" no taboleiro."
+
+#. module: account_statement_import
+#: code:addons/account_statement_import/wizard/account_statement_import.py:0
+#, python-format
+msgid ""
+"The journal found for the file is not consistent with the selected journal. "
+"You should use the proper journal or use the generic button on the top of "
+"the Accounting Dashboard"
+msgstr ""
+"O diario atopado para o ficheiro non coincide co diario seleccionado. Debe "
+"utilizar o diario adecuado ou utilizar o botón xenérico da parte superior do"
+" Panel de contabilidade"
+
+#. module: account_statement_import
+#: code:addons/account_statement_import/wizard/account_statement_import.py:0
+#, python-format
+msgid "The parsing of the statement file returned an invalid result."
+msgstr ""
+"A análise sintáctico do arquivo de sentenza devolveu un resultado non "
+"válido."
+
+#. module: account_statement_import
+#: code:addons/account_statement_import/wizard/account_statement_import.py:0
+#, python-format
+msgid ""
+"This bank statement file format is not supported.\n"
+"Did you install the Odoo module to support this format?"
+msgstr ""
+"Este formato de arquivo de extracto bancario non é compatible.\n"
+"Instalou o módulo Odoo para admitir este formato?"
+
+#. module: account_statement_import
+#: model_terms:ir.ui.view,arch_db:account_statement_import.account_statement_import_form
+msgid "Upload Bank Statements"
+msgstr "Cargar Extractos Bancarios"
+
+#. module: account_statement_import
+#: model_terms:ir.ui.view,arch_db:account_statement_import.account_statement_import_form
+msgid "Upload a bank statement file"
+msgstr "Subir un arquivo de extracto bancario"
+
+#. module: account_statement_import
+#: code:addons/account_statement_import/wizard/account_statement_import.py:0
+#, python-format
+msgid ""
+"You have already imported this file, or this file only contains already "
+"imported transactions."
+msgstr ""
+"Xa importou este arquivo, ou este arquivo só contén transaccións xa "
+"importadas."
+
+#. module: account_statement_import
+#: model_terms:ir.ui.view,arch_db:account_statement_import.journal_dashboard_view_inherit
+msgid "or"
+msgstr "ou"
+
+#~ msgid "A bank account transaction can be imported only once!"
+#~ msgstr "Unha transacción bancaria só pódese importar unha vez!"
+
+#~ msgid "Bank Statement Line"
+#~ msgstr "Liña de extracto bancario"
+
+#~ msgid "Import ID"
+#~ msgstr "ID de importación"
+
+#, fuzzy
+#~ msgid "Partner Bank Account"
+#~ msgstr "Contas bancaria"
+
+#~ msgid ""
+#~ "The currency of the bank statement (%s) is not the same as the currency of "
+#~ "the journal '%s' (%s)."
+#~ msgstr ""
+#~ "A moeda do extracto bancario  (%s) non é a mesma que a moeda do diario '%s' "
+#~ "(%s)."
+
+#~ msgid "This file doesn't contain any statement."
+#~ msgstr "Este arquivo non contén ningún extracto."
+
+#~ msgid "This file doesn't contain any transaction."
+#~ msgstr "Este arquivo non contén ningunha transacción."
+
+#~ msgid "Account Holder"
+#~ msgstr "Titular"
+
+#~ msgid "Account Number"
+#~ msgstr "Número de conta"
+
+#~ msgid "Account Types Allowed"
+#~ msgstr "Tipos de conta permitidos"
+
+#~ msgid "Accounts Allowed"
+#~ msgstr "Contas permitidas"
+
+#~ msgid "Action Needed"
+#~ msgstr "Acción requirida"
+
+#~ msgid "Active"
+#~ msgstr "Activo"
+
+#~ msgid "Activities"
+#~ msgstr "Actividades"
+
+#~ msgid "Activity Exception Decoration"
+#~ msgstr "Decoración de Actividade  de Excepción"
+
+#~ msgid "Activity State"
+#~ msgstr "Estado da actividade"
+
+#~ msgid "Alias"
+#~ msgstr "Alias"
+
+#~ msgid "Alias Name"
+#~ msgstr "Pseudónimo"
+
+#~ msgid "Alias domain"
+#~ msgstr "Pseudónimo do dominio"
+
+#~ msgid "At Least One Inbound"
+#~ msgstr "Polo menos un elemento entrante"
+
+#~ msgid "At Least One Outbound"
+#~ msgstr "Polo menos un elemento saínte"
+
+#~ msgid "Attachment Count"
+#~ msgstr "Cálculo de arquivos adxuntos"
+
+#~ msgid "Bank"
+#~ msgstr "Banco"
+
+#~ msgid "Bank Feeds"
+#~ msgstr "Canles de comunicación bancarios"
+
+#~ msgid "Bank Journal Name"
+#~ msgstr "Nome do diario do banco"
+
+#~ msgid "Bank setup manual config"
+#~ msgstr "Configuración manual de datos bancarios"
+
+#~ msgid ""
+#~ "Cannot find in which journal import this statement. Please manually select a"
+#~ " journal."
+#~ msgstr ""
+#~ "Non se pode atopar un diario no que importar este extracto. Por favor "
+#~ "seleccione manualmente un diario."
+
+#~ msgid ""
+#~ "Check this box if you don't want to share the same sequence for invoices and"
+#~ " credit notes made from this journal"
+#~ msgstr ""
+#~ "Marque esta casa se non desexa compartir a mesma secuencia de facturas e "
+#~ "notas de crédito deste diario"
+
+#~ msgid "Color Index"
+#~ msgstr "Índice de Cores"
+
+#~ msgid "Communication Standard"
+#~ msgstr "Estándar de Comunicación"
+
+#~ msgid "Communication Type"
+#~ msgstr "Tipo de comunicación"
+
+#~ msgid "Company"
+#~ msgstr "Compañía"
+
+#~ msgid "Company related to this journal"
+#~ msgstr "Compañía relacionada con este diario"
+
+#~ msgid "Credit Note Entry Sequence"
+#~ msgstr "Secuencia de entradas de factura rectificativa"
+
+#~ msgid "Credit Notes Next Number"
+#~ msgstr "Número Seguinte das Notas de Crédito"
+
+#~ msgid "Currency"
+#~ msgstr "Moeda"
+
+#~ msgid "Dedicated Credit Note Sequence"
+#~ msgstr "Secuencia de facturas rectificativas dedicada"
+
+#~ msgid "Default Credit Account"
+#~ msgstr "Conta acredora por defecto"
+
+#~ msgid "Default Debit Account"
+#~ msgstr "Conta debedora por defecto"
+
+#~ msgid "Defines how the bank statements will be registered"
+#~ msgstr "Define como se rexistrarán os extractos bancarios"
+
+#~ msgid "Entry Sequence"
+#~ msgstr "Secuencia do asento"
+
+#~ msgid "Filename"
+#~ msgstr "Nome de arquivo"
+
+#~ msgid "Files"
+#~ msgstr "Arquivos"
+
+#~ msgid "Followers"
+#~ msgstr "Seguidores"
+
+#~ msgid "Followers (Channels)"
+#~ msgstr "Seguidores (Canles)"
+
+#~ msgid "Followers (Partners)"
+#~ msgstr "Seguidores (Empresas)"
+
+#~ msgid "For Incoming Payments"
+#~ msgstr "Para pagos recibidos"
+
+#~ msgid "For Outgoing Payments"
+#~ msgstr "Para pagos saíntes"
+
+#~ msgid "Icon"
+#~ msgstr "Icona"
+
+#~ msgid "Icon to indicate an exception activity."
+#~ msgstr "Icona para indicar unha actividade de excepción."
+
+#~ msgid "If checked, new messages require your attention."
+#~ msgstr "Se está marcado hai novas mensaxes que requiren a súa atención."
+
+#~ msgid "If checked, some messages have a delivery error."
+#~ msgstr "Se se atopa marcado, algunhas mensaxes teñen erro de envío."
+
+#~ msgid "Is Follower"
+#~ msgstr "É un seguidor"
+
+#~ msgid "It acts as a default account for credit amount"
+#~ msgstr "Actúa como unha conta por defecto para os importes no haber."
+
+#~ msgid "It acts as a default account for debit amount"
+#~ msgstr "Actúa como unha conta por defecto para importes no debe."
+
+#~ msgid "Journal Creation"
+#~ msgstr "Creación de diario"
+
+#~ msgid "Journal Groups"
+#~ msgstr "Grupos de Diarios"
+
+#~ msgid "Journal Name"
+#~ msgstr "Nome do diario"
+
+#~ msgid "Kanban Dashboard"
+#~ msgstr "Taboleiro Kanban"
+
+#~ msgid "Kanban Dashboard Graph"
+#~ msgstr "Gráfico de Taboleiro Kanban"
+
+#~ msgid "Loss Account"
+#~ msgstr "Conta de perdas"
+
+#~ msgid "Main Attachment"
+#~ msgstr "Adxuntos principais"
+
+#~ msgid ""
+#~ "Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+#~ "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
+#~ "Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+#~ msgstr ""
+#~ "Manual: págase en efectivo, con cheque ou calquera outro método fóra de Odoo.\n"
+#~ "Electrónico: págase automaticamente a través dun adquirente de pagos ao solicitar unha transacción nunha tarxeta gardada polo cliente ao comprar ou subscribirse en liña (token de pago).\n"
+#~ "Depósito por lotes: realiza varios cheques de clientes á vez ao xerar un depósito por lotes para enviar ao seu banco. Ao codificar o extracto bancario en Odoo, suxírese conciliar a transacción co depósito por lotes. Habilite esta opción desde a configuración."
+
+#~ msgid ""
+#~ "Manual:Pay bill by cash or any other method outside of Odoo.\n"
+#~ "Check:Pay bill by check and print it from Odoo.\n"
+#~ "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
+#~ msgstr ""
+#~ "Manual: Pague a factura en efectivo ou calquera outro método fóra de Odoo.\n"
+#~ "Cheque: pague factura con cheque e imprima desde Odoo.\n"
+#~ "Transferencia SEPA: Pague a factura dun arquivo de Transferencia SEPA que envíe ao seu banco. Habilite esta opción desde a configuración."
+
+#~ msgid "Message Delivery error"
+#~ msgstr "Erro de Envío de Mensaxe"
+
+#~ msgid "Messages"
+#~ msgstr "Mensaxes"
+
+#~ msgid "Next Activity Deadline"
+#~ msgstr "Seguinte prazo de actividade"
+
+#~ msgid "Next Activity Summary"
+#~ msgstr "Resumo da seguinte actividade"
+
+#~ msgid "Next Activity Type"
+#~ msgstr "Seguinte tipo de actividade"
+
+#~ msgid "Next Number"
+#~ msgstr "Próximo número"
+
+#~ msgid "No currency found matching '%s'."
+#~ msgstr "Non se atopou ningunha moeda casando '%s'."
+
+#~ msgid "Number of Actions"
+#~ msgstr "Número de accións"
+
+#~ msgid "Number of errors"
+#~ msgstr "Numero de erros"
+
+#~ msgid "Number of messages which requires an action"
+#~ msgstr "Número de mensaxes que requiren unha acción"
+
+#~ msgid "Number of messages with delivery error"
+#~ msgstr "Número de mensaxes con erro de envío"
+
+#~ msgid "Number of unread messages"
+#~ msgstr "Número de mensaxes non leidos"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Profit Account"
+#~ msgstr "Conta de beneficios"
+
+#~ msgid "Responsible User"
+#~ msgstr "Usuario responsable"
+
+#~ msgid "SMS Delivery error"
+#~ msgstr "Erro de entrega do SMS"
+
+#~ msgid ""
+#~ "Select 'Sale' for customer invoices journals.\n"
+#~ "Select 'Purchase' for vendor bills journals.\n"
+#~ "Select 'Cash' or 'Bank' for journals that are used in customer or vendor payments.\n"
+#~ "Select 'General' for miscellaneous operations journals."
+#~ msgstr ""
+#~ "Seleccione 'Vendas' para diarios de facturas de cliente.\n"
+#~ "Seleccione 'Compras' para diarios de facturas de provedor.\n"
+#~ "Seleccione 'Caixa' ou 'Banco' para diarios que se usan para pagos de clientes e provedores. Seleccione 'Xeral' para diarios que conteñen operacións varias."
+
+#~ msgid "Sequence"
+#~ msgstr "Secuencia"
+
+#~ msgid "Set active to false to hide the Journal without removing it."
+#~ msgstr "Estableza active a false para ocultar o diario sen eliminalo."
+
+#~ msgid "Short Code"
+#~ msgstr "Código curto"
+
+#~ msgid "Show journal on dashboard"
+#~ msgstr "Mostrar diario no taboleiro"
+
+#~ msgid ""
+#~ "Status based on activities\n"
+#~ "Overdue: Due date is already passed\n"
+#~ "Today: Activity date is today\n"
+#~ "Planned: Future activities."
+#~ msgstr ""
+#~ "Estado baseado en actividades\n"
+#~ "Vencida: a data tope xa pasou\n"
+#~ "Hoxe: A data tope é hoxe\n"
+#~ "Planificada: futuras actividades."
+
+#~ msgid "The currency used to enter statement"
+#~ msgstr "A divisa utilizada para introducir asentos."
+
+#~ msgid "The journal entries of this journal will be named using this prefix."
+#~ msgstr "Os asentos deste diario será nomeados usando este prefixo."
+
+#~ msgid "The next sequence number will be used for the next credit note."
+#~ msgstr ""
+#~ "O seguinte número de secuencia que se usará para a seguinte factura "
+#~ "rectificativa."
+
+#~ msgid "The next sequence number will be used for the next invoice."
+#~ msgstr "O seguinte número de secuencia usarase para a próxima factura."
+
+#~ msgid ""
+#~ "This field contains the information related to the numbering of the credit "
+#~ "note entries of this journal."
+#~ msgstr ""
+#~ "Este campo contén a información relacionada coa numeración dos asentos das "
+#~ "facturas rectificativas deste diario."
+
+#~ msgid ""
+#~ "This field contains the information related to the numbering of the journal "
+#~ "entries of this journal."
+#~ msgstr ""
+#~ "Este campo contén información relacionada coa numeración dos asentos deste "
+#~ "diario."
+
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#~ msgid "Type of the exception activity on record."
+#~ msgstr "Tipo de actividade de excepción rexistrada."
+
+#~ msgid "Unread Messages"
+#~ msgstr "Mensaxes sen ler"
+
+#~ msgid "Unread Messages Counter"
+#~ msgstr "Contador de mensaxes sen ler"
+
+#~ msgid "Upload"
+#~ msgstr "Cargar"
+
+#~ msgid "Used to order Journals in the dashboard view"
+#~ msgstr "Usado para ordenar os diarios no vista taboleiro"
+
+#~ msgid ""
+#~ "Used to register a loss when the ending balance of a cash register differs "
+#~ "from what the system computes"
+#~ msgstr ""
+#~ "Usado para rexistrar unha perda cando o saldo final dun rexistro de caixa "
+#~ "difire do que o sistema calcula"
+
+#~ msgid ""
+#~ "Used to register a profit when the ending balance of a cash register differs"
+#~ " from what the system computes"
+#~ msgstr ""
+#~ "Usado para rexistrar unha ganancia cando o saldo final dun rexistro de caixa"
+#~ " difire do que o sistema calcula"
+
+#~ msgid "Website Messages"
+#~ msgstr "Mensaxes do sitio web"
+
+#~ msgid "Website communication history"
+#~ msgstr "Historial de comunicacións do sitio web"
+
+#~ msgid "Whether this journal should be displayed on the dashboard or not"
+#~ msgstr "Se este diario debe mostrarse no taboleiro ou non"
+
+#~ msgid "You already have imported that file."
+#~ msgstr "Xa importou ese arquivo."
+
+#~ msgid ""
+#~ "You can set here the default communication that will appear on customer "
+#~ "invoices, once validated, to help the customer to refer to that particular "
+#~ "invoice when making the payment."
+#~ msgstr ""
+#~ "Pode establecer aquí a comunicación predeterminada que aparecerá nas "
+#~ "facturas do cliente, unha vez validada, para axudar ao cliente para "
+#~ "consultar esa factura en particular ao realizar o pago."
+
+#~ msgid ""
+#~ "You have to set a Default Debit Account and a Default Credit Account for the"
+#~ " journal: %s"
+#~ msgstr ""
+#~ "Debe establecer unha conta de débito predeterminada e unha conta de crédito "
+#~ "predeterminada para a publicación: %s"

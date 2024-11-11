@@ -1,0 +1,30 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * l10n_mx
+#
+# Translators:
+# Alejandro Die Sanchis <marketing@domatix.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 21:21\n"
+"PO-Revision-Date: 2024-11-08 21:21\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: l10n_mx
+#: model:ir.actions.client,name:l10n_mx.action_client_l10n_mx_menu
+msgid "Open Account Dashboard Menu"
+msgstr "Abrir menú de contabilidade"
+
+#. module: l10n_mx
+#: model:account.account.type,name:l10n_mx.account_type_other
+msgid "other"
+msgstr "outro"

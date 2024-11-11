@@ -1,0 +1,122 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* http_routing
+#
+# Translators:
+# Martin Trigaux, 2021
+# marcescu, 2022
+# Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2022
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-07 21:42\n"
+"PO-Revision-Date: 2024-11-07 21:42\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: http_routing
+#: model_terms:ir.ui.view,arch_db:http_routing.403
+msgid "403: Forbidden"
+msgstr "403: Prohibido"
+
+#. module: http_routing
+#: model_terms:ir.ui.view,arch_db:http_routing.404
+msgid ""
+"<b>Don't panic.</b> If you think it's our mistake, please send us a message "
+"on"
+msgstr "<b>Non te preocupes</b>Se pensas que é un erro mándanos unha mensaxe."
+
+#. module: http_routing
+#: model_terms:ir.ui.view,arch_db:http_routing.error_message
+#: model_terms:ir.ui.view,arch_db:http_routing.http_error_debug
+msgid "<strong>Error message:</strong>"
+msgstr "<strong>Mensaxe de erro:</strong>"
+
+#. module: http_routing
+#: model_terms:ir.ui.view,arch_db:http_routing.500
+msgid "Back"
+msgstr "Volver"
+
+#. module: http_routing
+#: model_terms:ir.ui.view,arch_db:http_routing.http_error_debug
+msgid "Error"
+msgstr "Erro"
+
+#. module: http_routing
+#: model_terms:ir.ui.view,arch_db:http_routing.404
+msgid "Error 404"
+msgstr "Erro 404"
+
+#. module: http_routing
+#: model:ir.model,name:http_routing.model_ir_http
+msgid "HTTP Routing"
+msgstr "Roteiro HTTP "
+
+#. module: http_routing
+#: model_terms:ir.ui.view,arch_db:http_routing.404
+#: model_terms:ir.ui.view,arch_db:http_routing.500
+msgid "Home"
+msgstr "Inicio"
+
+#. module: http_routing
+#: model_terms:ir.ui.view,arch_db:http_routing.404
+msgid "Maybe you were looking for one of these <b>popular pages?</b>"
+msgstr "Quizais te refires a <b> páxinas populares? </b>"
+
+#. module: http_routing
+#: model_terms:ir.ui.view,arch_db:http_routing.400
+msgid "Oops! Something went wrong."
+msgstr "Uy! Algo saíu mal."
+
+#. module: http_routing
+#: model_terms:ir.ui.view,arch_db:http_routing.http_error_debug
+msgid "QWeb"
+msgstr "QWeb"
+
+#. module: http_routing
+#: model_terms:ir.ui.view,arch_db:http_routing.400
+msgid "Take a look at the error message below."
+msgstr "Revisa a mensaxe de erro a continuación."
+
+#. module: http_routing
+#: model_terms:ir.ui.view,arch_db:http_routing.http_error_debug
+msgid "The error occurred while rendering the template"
+msgstr "O erro ocorreu durante a creación do persoal"
+
+#. module: http_routing
+#: model_terms:ir.ui.view,arch_db:http_routing.403
+msgid "The page you were looking for could not be authorized."
+msgstr "Non tes autorización para ver a páxina que buscas."
+
+#. module: http_routing
+#: model_terms:ir.ui.view,arch_db:http_routing.http_error_debug
+msgid "Traceback"
+msgstr "Traza"
+
+#. module: http_routing
+#: model:ir.model,name:http_routing.model_ir_ui_view
+msgid "View"
+msgstr "Ver"
+
+#. module: http_routing
+#: model_terms:ir.ui.view,arch_db:http_routing.404
+msgid "We couldn't find the page you're looking for!"
+msgstr "Non puidemos atopar a páxina que buscas "
+
+#. module: http_routing
+#: model_terms:ir.ui.view,arch_db:http_routing.http_error_debug
+msgid "and evaluating the following expression:"
+msgstr "e evalua a seguinte expresión:"
+
+#. module: http_routing
+#: model_terms:ir.ui.view,arch_db:http_routing.404
+msgid "this page"
+msgstr "esta páxina"

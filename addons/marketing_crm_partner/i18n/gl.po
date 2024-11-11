@@ -1,0 +1,81 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * marketing_crm_partner
+#
+# Translators:
+# OCA Transbot <transbot@odoo-community.org>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 16:20\n"
+"PO-Revision-Date: 2024-11-08 16:20\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: marketing_crm_partner
+#: model:ir.model.fields,field_description:marketing_crm_partner.field_res_partner__campaign_id
+#: model_terms:ir.ui.view,arch_db:marketing_crm_partner.view_res_partner_filter
+msgid "Campaign"
+msgstr "Campaña"
+
+#. module: marketing_crm_partner
+#: model:ir.model,name:marketing_crm_partner.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: marketing_crm_partner
+#: model:ir.model,name:marketing_crm_partner.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Iniciativa/Oportunidade"
+
+#. module: marketing_crm_partner
+#: model_terms:ir.ui.view,arch_db:marketing_crm_partner.view_partner_form
+msgid "Marketing"
+msgstr "Comercialización"
+
+#. module: marketing_crm_partner
+#: model:ir.model.fields,field_description:marketing_crm_partner.field_res_partner__medium_id
+#: model_terms:ir.ui.view,arch_db:marketing_crm_partner.view_res_partner_filter
+msgid "Medium"
+msgstr "Medio"
+
+#. module: marketing_crm_partner
+#: model:ir.model.fields,field_description:marketing_crm_partner.field_res_partner__source_id
+#: model_terms:ir.ui.view,arch_db:marketing_crm_partner.view_res_partner_filter
+msgid "Source"
+msgstr "Fonte"
+
+#. module: marketing_crm_partner
+#: model:ir.model.fields,help:marketing_crm_partner.field_res_partner__campaign_id
+msgid ""
+"This is a name that helps you keep track of your different campaign efforts,"
+" e.g. Fall_Drive, Christmas_Special"
+msgstr ""
+"Trátase dun nome que lle axuda a realizar un seguimento dos esforzos das "
+"súas diferentes campañas, por exemplo, Fall_Drive, Christmas_Special"
+
+#. module: marketing_crm_partner
+#: model:ir.model.fields,help:marketing_crm_partner.field_res_partner__medium_id
+msgid "This is the method of delivery, e.g. Postcard, Email, or Banner Ad"
+msgstr ""
+"É o método de entrega, por exemplo, tarxeta postal, correo electrónico ou "
+"anuncio en banner"
+
+#. module: marketing_crm_partner
+#: model:ir.model.fields,help:marketing_crm_partner.field_res_partner__source_id
+msgid ""
+"This is the source of the link, e.g. Search Engine, another domain, or name "
+"of email list"
+msgstr ""
+"É a fonte da ligazón, por exemplo, un motor de procura, outro dominio ou o "
+"nome dunha lista de correo electrónico"
+
+#~ msgid "Partner"
+#~ msgstr "Cliente"

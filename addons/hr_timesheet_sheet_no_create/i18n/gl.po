@@ -1,0 +1,10 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"POT-Creation-Date: 2024-11-08 00:14\n"
+"PO-Revision-Date: 2024-11-08 00:14\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"X-Generator: tradutor Zerever\n"

@@ -1,0 +1,123 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * document_page_tag
+#
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 09:10\n"
+"PO-Revision-Date: 2024-11-08 09:10\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: document_page_tag
+#: model:ir.model,name:document_page_tag.model_document_page_tag
+msgid "A keyword for document pages"
+msgstr "Unha palabra chave para as páxinas de documentos"
+
+#. module: document_page_tag
+#: model:ir.model.fields,field_description:document_page_tag.field_document_page_tag__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: document_page_tag
+#: model_terms:ir.ui.view,arch_db:document_page_tag.view_document_page_tag_form
+#: model_terms:ir.ui.view,arch_db:document_page_tag.view_document_page_tag_search
+msgid "Archived"
+msgstr "Arquivado"
+
+#. module: document_page_tag
+#: model_terms:ir.ui.view,arch_db:document_page_tag.view_document_page_tag_tree
+msgid "Color"
+msgstr "Cor"
+
+#. module: document_page_tag
+#: model:ir.model.fields,field_description:document_page_tag.field_document_page_tag__color
+msgid "Color Index"
+msgstr "Índice de cor"
+
+#. module: document_page_tag
+#: model:ir.model.fields,field_description:document_page_tag.field_document_page_tag__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: document_page_tag
+#: model:ir.model.fields,field_description:document_page_tag.field_document_page_tag__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: document_page_tag
+#: model:ir.model.fields,field_description:document_page_tag.field_document_page_tag__display_name
+msgid "Display Name"
+msgstr "Nome mostrado"
+
+#. module: document_page_tag
+#: model:ir.model,name:document_page_tag.model_document_page
+msgid "Document Page"
+msgstr "Páxina de documento"
+
+#. module: document_page_tag
+#: model_terms:ir.ui.view,arch_db:document_page_tag.view_document_page_tag_search
+msgid "Document Tag Search"
+msgstr "Procura de páxina de documento"
+
+#. module: document_page_tag
+#: model:ir.model.fields,field_description:document_page_tag.field_document_page_tag__id
+msgid "ID"
+msgstr "ID"
+
+#. module: document_page_tag
+#: model:ir.model.fields,field_description:document_page_tag.field_document_page__tag_ids
+msgid "Keywords"
+msgstr "Palabras chave"
+
+#. module: document_page_tag
+#: model:ir.model.fields,field_description:document_page_tag.field_document_page_tag____last_update
+msgid "Last Modified on"
+msgstr "Última modificación o"
+
+#. module: document_page_tag
+#: model:ir.model.fields,field_description:document_page_tag.field_document_page_tag__write_uid
+msgid "Last Updated by"
+msgstr "Ultima actualización por"
+
+#. module: document_page_tag
+#: model:ir.model.fields,field_description:document_page_tag.field_document_page_tag__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
+
+#. module: document_page_tag
+#: model:ir.model.fields,field_description:document_page_tag.field_document_page_tag__name
+msgid "Name"
+msgstr "Nome"
+
+#. module: document_page_tag
+#: model_terms:ir.ui.view,arch_db:document_page_tag.view_document_page_tag_form
+msgid "Tag"
+msgstr "Etiqueta"
+
+#. module: document_page_tag
+#: model:ir.actions.act_window,name:document_page_tag.document_page_tag_action
+#: model:ir.ui.menu,name:document_page_tag.document_page_tag_menu
+#: model_terms:ir.ui.view,arch_db:document_page_tag.view_wiki_filter
+msgid "Tags"
+msgstr "Etiquetas"
+
+#. module: document_page_tag
+#: model:ir.model.constraint,message:document_page_tag.constraint_document_page_tag_unique_name
+msgid "Tags must be unique"
+msgstr "A etiqueta debe ser única"
+
+#~ msgid "Document Tags"
+#~ msgstr "Etiquetas de documento"
+
+#~ msgid "Tags must me unique"
+#~ msgstr "As etiquetas deben ser únicas"

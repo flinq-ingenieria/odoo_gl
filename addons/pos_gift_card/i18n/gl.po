@@ -1,0 +1,291 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_gift_card
+#
+# Translators:
+# Martin Trigaux, 2021
+# marcescu, 2022
+# Michael Epstein, 2022
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 13:17\n"
+"PO-Revision-Date: 2024-11-08 13:17\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: pos_gift_card
+#: model_terms:ir.ui.view,arch_db:pos_gift_card.gift_card_template
+msgid "<strong>Gift Card Code</strong>"
+msgstr "<strong>Código de tarxeta de agasallo</strong>"
+
+#. module: pos_gift_card
+#. openerp-web
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#, python-format
+msgid "Amount of the gift card:"
+msgstr "Importe da tarxeta de agasallo:"
+
+#. module: pos_gift_card
+#: model_terms:ir.ui.view,arch_db:pos_gift_card.gift_card_template
+msgid "Barcode"
+msgstr "Código de barras"
+
+#. module: pos_gift_card
+#: model:ir.model,name:pos_gift_card.model_barcode_rule
+msgid "Barcode Rule"
+msgstr "Regra do código de barras"
+
+#. module: pos_gift_card
+#: model:ir.model.fields,field_description:pos_gift_card.field_pos_order_line__generated_gift_card_ids
+msgid "Bought Gift Card"
+msgstr "Comprou unha tarxeta de agasallo"
+
+#. module: pos_gift_card
+#: model:ir.model.fields,field_description:pos_gift_card.field_gift_card__buy_pos_order_line_id
+msgid "Buy Pos Order Line"
+msgstr "Comprar liña de orde de venda de PdV"
+
+#. module: pos_gift_card
+#. openerp-web
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#, python-format
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: pos_gift_card
+#: model_terms:ir.ui.view,arch_db:pos_gift_card.gift_card_template
+msgid "Card expires"
+msgstr "A tarxeta caduca"
+
+#. module: pos_gift_card
+#. openerp-web
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#, python-format
+msgid "Check a gift card"
+msgstr "Ver unha tarxeta de agasallo"
+
+#. module: pos_gift_card
+#. openerp-web
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#, python-format
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: pos_gift_card
+#: model:ir.model.fields,help:pos_gift_card.field_pos_order_line__gift_card_id
+msgid "Deducted from this Gift Card"
+msgstr "Deducido desta tarxeta de agasallo"
+
+#. module: pos_gift_card
+#: model:ir.model.fields,help:pos_gift_card.field_pos_config__gift_card_settings
+msgid "Defines the way you want to set your gift cards."
+msgstr "Define como desexa establecer as súas tarxetas de agasallo."
+
+#. module: pos_gift_card
+#. openerp-web
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#, python-format
+msgid "Discard"
+msgstr "Descartar"
+
+#. module: pos_gift_card
+#: model:ir.model.fields.selection,name:pos_gift_card.selection__pos_config__gift_card_settings__create_set
+msgid "Generate a new barcode and set a price"
+msgstr "Xera un novo código de barras e establece un prezo"
+
+#. module: pos_gift_card
+#. openerp-web
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#, python-format
+msgid "Generate barcode"
+msgstr "Xerar código de barras"
+
+#. module: pos_gift_card
+#. openerp-web
+#: code:addons/pos_gift_card/static/src/xml/GiftCardButton.xml:0
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#: model:ir.actions.report,name:pos_gift_card.gift_card_report_pdf
+#: model:ir.model,name:pos_gift_card.model_gift_card
+#: model:ir.model.fields,field_description:pos_gift_card.field_pos_config__use_gift_card
+#: model:ir.model.fields,field_description:pos_gift_card.field_pos_order_line__gift_card_id
+#: model:ir.model.fields.selection,name:pos_gift_card.selection__barcode_rule__type__gift_card
+#: model_terms:ir.ui.view,arch_db:pos_gift_card.pos_gift_card_config_view_form
+#: model_terms:ir.ui.view,arch_db:pos_gift_card.res_config_view_form_inherit_pos_coupon
+#, python-format
+msgid "Gift Card"
+msgstr "Tarxeta de agasallo"
+
+#. module: pos_gift_card
+#. openerp-web
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#, python-format
+msgid "Gift Card Barcode:"
+msgstr "Código de barras da tarxeta de agasallo:"
+
+#. module: pos_gift_card
+#: model:ir.model.fields,field_description:pos_gift_card.field_pos_order__gift_card_count
+msgid "Gift Card Count"
+msgstr "Número de tarxetas de agasallo"
+
+#. module: pos_gift_card
+#. openerp-web
+#: code:addons/pos_gift_card/static/src/js/PaymentScreen.js:0
+#: code:addons/pos_gift_card/static/src/js/PaymentScreen.js:0
+#, python-format
+msgid "Gift Card Error"
+msgstr "Erro de tarxeta de agasallo"
+
+#. module: pos_gift_card
+#: model:ir.model.fields,field_description:pos_gift_card.field_pos_config__gift_card_product_id
+#: model_terms:ir.ui.view,arch_db:pos_gift_card.pos_gift_card_config_view_form
+msgid "Gift Card Product"
+msgstr "Produto de tarxeta de agasallo"
+
+#. module: pos_gift_card
+#: model:ir.ui.menu,name:pos_gift_card.pos_gift_card_menu
+msgid "Gift Cards"
+msgstr "Tarxetas de agasallo"
+
+#. module: pos_gift_card
+#: model:ir.model.fields,field_description:pos_gift_card.field_pos_config__gift_card_settings
+msgid "Gift Cards settings"
+msgstr "Axustes de tarxetas de agasallo"
+
+#. module: pos_gift_card
+#. openerp-web
+#: code:addons/pos_gift_card/static/src/js/PaymentScreen.js:0
+#, python-format
+msgid "Gift card balance is too low."
+msgstr "O balance da tarxeta de agasallo é moi baixo."
+
+#. module: pos_gift_card
+#. openerp-web
+#: code:addons/pos_gift_card/static/src/js/PaymentScreen.js:0
+#, python-format
+msgid "Gift card is not valid."
+msgstr "A tarxeta de agasallo non é válida."
+
+#. module: pos_gift_card
+#: model_terms:ir.ui.view,arch_db:pos_gift_card.pos_gift_card_config_view_form
+msgid "Gift card settings"
+msgstr "Axustes de tarxeta de agasallo"
+
+#. module: pos_gift_card
+#: model_terms:ir.ui.view,arch_db:pos_gift_card.gift_card_template
+msgid "Here is your gift card!"
+msgstr "Aquí está a súa tarxeta de agasallo!"
+
+#. module: pos_gift_card
+#: model:ir.model,name:pos_gift_card.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Configuración do TPV"
+
+#. module: pos_gift_card
+#: model:ir.model,name:pos_gift_card.model_pos_order_line
+msgid "Point of Sale Order Lines"
+msgstr "Liñas de Orde de Punto de Venda"
+
+#. module: pos_gift_card
+#: model:ir.model,name:pos_gift_card.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "Pedidos do TPV"
+
+#. module: pos_gift_card
+#: model:ir.model.fields,help:pos_gift_card.field_gift_card__buy_pos_order_line_id
+msgid "Pos Order line where this gift card has been bought."
+msgstr "Liña de orde de PdV onde se comprou esta tarxeta de agasallo."
+
+#. module: pos_gift_card
+#: model:ir.model.fields,field_description:pos_gift_card.field_gift_card__redeem_pos_order_line_ids
+msgid "Pos Redeems"
+msgstr "Redencións de PdV"
+
+#. module: pos_gift_card
+#. openerp-web
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#, python-format
+msgid "Remaining amount of the gift card:"
+msgstr "Importe restante na tarxeta de agasallo:"
+
+#. module: pos_gift_card
+#: model:ir.model.fields.selection,name:pos_gift_card.selection__pos_config__gift_card_settings__scan_set
+msgid "Scan an existing barcode and set a price"
+msgstr "Escanear un código de barras existente e establecer un prezo"
+
+#. module: pos_gift_card
+#: model:ir.model.fields.selection,name:pos_gift_card.selection__pos_config__gift_card_settings__scan_use
+msgid "Scan an existing barcode with an existing price"
+msgstr "Escanear un código de barras existente cun prezo existente"
+
+#. module: pos_gift_card
+#. openerp-web
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#, python-format
+msgid "Scan and set price on gift card"
+msgstr "Escanear e establecer un prezo na tarxeta de agasallo"
+
+#. module: pos_gift_card
+#. openerp-web
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#, python-format
+msgid "Scan gift card"
+msgstr "Escanear tarxeta de agasallo"
+
+#. module: pos_gift_card
+#. openerp-web
+#: code:addons/pos_gift_card/static/src/js/GiftCardPopup.js:0
+#, python-format
+msgid "This gift card has already been sold"
+msgstr "Xa se vendeu esta tarxeta de agasallo"
+
+#. module: pos_gift_card
+#. openerp-web
+#: code:addons/pos_gift_card/static/src/js/models.js:0
+#, python-format
+msgid "This gift card is already applied"
+msgstr "Esta tarxeta de agasallo xa se aplicou"
+
+#. module: pos_gift_card
+#: model:ir.model.fields,help:pos_gift_card.field_pos_config__gift_card_product_id
+msgid "This product is used as reference on customer receipts."
+msgstr "Este produto utilízase como referencia nos recibos do cliente."
+
+#. module: pos_gift_card
+#: model:ir.model.fields,field_description:pos_gift_card.field_barcode_rule__type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: pos_gift_card
+#. openerp-web
+#: code:addons/pos_gift_card/static/src/xml/GiftCardPopup.xml:0
+#, python-format
+msgid "Use a gift card"
+msgstr "Utilizar unha tarxeta de agasallo"
+
+#. module: pos_gift_card
+#. openerp-web
+#: code:addons/pos_gift_card/static/src/js/GiftCardPopup.js:0
+#, python-format
+msgid "You cannot sell a gift card that has already been sold"
+msgstr "Non pode vender unha tarxeta de agasallo que xa foi vendida"

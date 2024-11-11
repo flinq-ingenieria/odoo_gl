@@ -1,0 +1,52 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_invoice_report_grouped_by_picking
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-09 00:53\n"
+"PO-Revision-Date: 2024-11-09 00:53\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: account_invoice_report_grouped_by_picking
+#: model_terms:ir.ui.view,arch_db:account_invoice_report_grouped_by_picking.report_invoice_document
+msgid "<span>Order:</span>"
+msgstr "<span>Pedido:</span>"
+
+#. module: account_invoice_report_grouped_by_picking
+#: model_terms:ir.ui.view,arch_db:account_invoice_report_grouped_by_picking.report_invoice_document
+msgid "<span>Picking:</span>"
+msgstr "<span>Albará:</span>"
+
+#. module: account_invoice_report_grouped_by_picking
+#: model_terms:ir.ui.view,arch_db:account_invoice_report_grouped_by_picking.report_invoice_document
+msgid ""
+"<strong>\n"
+"                            <span>Without reference</span>\n"
+"                        </strong>"
+msgstr ""
+"<strong>\n"
+"                            <span>Sen referencia</span>\n"
+"                        </strong>"
+
+#. module: account_invoice_report_grouped_by_picking
+#: model_terms:ir.ui.view,arch_db:account_invoice_report_grouped_by_picking.report_invoice_document
+msgid "<strong>Subtotal: </strong>"
+msgstr "<strong>Subtotal: </strong>"
+
+#. module: account_invoice_report_grouped_by_picking
+#: model:ir.model,name:account_invoice_report_grouped_by_picking.model_account_move
+msgid "Journal Entry"
+msgstr "Entrada diaria"
+
+#~ msgid "Journal Entries"
+#~ msgstr "Asentos contables"

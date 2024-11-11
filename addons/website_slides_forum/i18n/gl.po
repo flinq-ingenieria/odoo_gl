@@ -1,0 +1,549 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_slides_forum
+#
+# Translators:
+# Martin Trigaux, 2021
+# Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2023
+# Wil Odoo, 2024
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 07:50\n"
+"PO-Revision-Date: 2024-11-08 07:50\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "(The above section was adapted from Stackoverflow’s FAQ.)"
+msgstr ""
+"(A sección anterior foi adaptada das preguntas frecuentes de Stackoverflow.)"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"<b>Answers should not add or expand questions</b>. Instead either edit the "
+"question or add a question comment."
+msgstr ""
+"<b>As respostas non deben engadir nin expandir preguntas</b>. No seu lugar, "
+"edite a pregunta ou anada un comentario de pregunta."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"<b>Answers should not add or expand questions</b>. Instead, either edit the "
+"question or add a comment."
+msgstr ""
+"<b>As respostas non deben agregar ou expandir as preguntas</b>. No seu "
+"lugar, edite a pregunta ou agregue un comentario."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"<b>Answers should not comment other answers</b>. Instead add a comment on "
+"the other answers."
+msgstr ""
+"<b>As respostas non deben comentar outras respostas </b>. No seu lugar "
+"engada un comentario sobre as outras respostas."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"<b>Answers should not start debates</b> This community Q&amp;A is not a "
+"discussion group. Please avoid holding debates in your answers as they tend "
+"to dilute the essence of questions and answers. For brief discussions please"
+" use commenting facility."
+msgstr ""
+"<b>As respostas non deben dar lugar a debates</b>. Esta comunidade non é un "
+"grupo de discusión. Por favor eviten ter debates nas súas respostas pois "
+"tenden a diluír a esencia das preguntas e respostas. Para discusións breves "
+"usen a utilería para cometarios."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"<b>Answers shouldn't just point to other Questions</b>. Instead add a "
+"question comment indication \"Possible duplicate of...\". However, it's ok "
+"to include links to other questions or answers providing relevant additional"
+" information."
+msgstr ""
+"<b>As respostas non deben referirse a outras preguntas</b>. No seu lugar, "
+"agregue un comentario de pregunta con \"Posible duplicado de ...\". Con "
+"todo, está ben incluír ligazóns a outras preguntas ou respostas que "
+"proporcionen información adicional relevante."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"<b>Answers shouldn't just point to other questions</b>.Instead add a comment"
+" indicating <i>\"Possible duplicate of...\"</i>. However, it's fine to "
+"include links to other questions or answers providing relevant additional "
+"information."
+msgstr ""
+"<b>As respostas non deben só apuntar a outras preguntas</b>. No seu lugar, "
+"agregue un comentario indicando <i>\"Posible duplicado de...\"</i>. Con "
+"todo, pódense incluír ligazóns a outras preguntas ou respostas agregando "
+"información relevante."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"<b>Answers shouldn't just provide a link a solution</b>. Instead provide the"
+" solution description text in your answer, even if it's just a copy/paste. "
+"Links are welcome, but should be complementary to answer, referring sources "
+"or additional reading."
+msgstr ""
+"<b>As respostas non deben proporcionar unicamente unha ligazón a unha "
+"solución</b>. No seu lugar, proporcione o texto descritivo da solución na "
+"súa resposta, aínda que se trate dun copia e pega. As ligazóns son benvidos,"
+" pero deben complementar unha resposta, facendo referencia ás fontes ou con "
+"información adicional."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"<b>Before you ask - please make sure to search for a similar question.</b> "
+"You can search questions by their title or tags. It’s also OK to answer your"
+" own question."
+msgstr ""
+"<b>Antes de preguntar - por favor asegúrese de buscar preguntas "
+"similares.</b> Pode buscar preguntas polo seu título ou etiquetas. Tamén "
+"está ben responder ás súas propias preguntas."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"<b>Please avoid asking questions that are too subjective and "
+"argumentative</b> or not relevant to this community."
+msgstr ""
+"<b>Por favor evite facer preguntas subxectivas ou argumentativas</b> ou que "
+"non sexan relevantes para esta comunidade."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "<b>What kinds of questions can I ask here?</b>"
+msgstr "<b>Que tipo de preguntas podo facer aquí?</b>"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "<b>What should I avoid in my answers?</b>"
+msgstr "<b>Que debo evitar nas miñas respostas?</b>"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "<b>What should I avoid in my questions?</b>"
+msgstr "<b>Que debo evitar nas miñas preguntas?</b>"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "<b>Why can other people edit my questions/answers?</b>"
+msgstr ""
+"<b>Por que outras persoas poden editar as miñas preguntas / respostas?</b>"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.slide_fullscreen
+msgid ""
+"<i class=\"fa fa-comments\"/><span class=\"ml-1 d-none d-md-inline-"
+"block\">New Post</span>"
+msgstr ""
+"<i class=\"fa fa-comments\"/><span class=\"ml-1 d-none d-md-inline-"
+"block\">Nova publicación</span>"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_header
+msgid "<i class=\"fa fa-home\"/> Course"
+msgstr "<i class=\"fa fa-home\"/>Curso"
+
+#. module: website_slides_forum
+#: model:forum.forum,name:website_slides_forum.forum_forum_demo_channel_0
+msgid "Basics of Gardening"
+msgstr "Conceptos básicos de xardinería"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_index
+msgid "Check our Courses <i class=\"fa fa-chevron-right\"/>"
+msgstr "Revisa os nosos Cursos <i class=\"fa fa-chevron-right\"/>"
+
+#. module: website_slides_forum
+#. openerp-web
+#: code:addons/website_slides_forum/static/src/xml/website_slides_forum_channel.xml:0
+#, python-format
+msgid "Communication"
+msgstr "Comunicación"
+
+#. module: website_slides_forum
+#: model:ir.model,name:website_slides_forum.model_slide_channel
+#: model:ir.model.fields,field_description:website_slides_forum.field_forum_forum__slide_channel_id
+msgid "Course"
+msgstr "Curso"
+
+#. module: website_slides_forum
+#: model:ir.model.fields,field_description:website_slides_forum.field_slide_channel__forum_id
+msgid "Course Forum"
+msgstr "Foro do curso"
+
+#. module: website_slides_forum
+#: model:ir.model.fields,field_description:website_slides_forum.field_forum_forum__slide_channel_ids
+msgid "Courses"
+msgstr "Cursos"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_index
+msgid "Courses Discussions"
+msgstr "Discusións de Cursos"
+
+#. module: website_slides_forum
+#. openerp-web
+#: code:addons/website_slides_forum/static/src/xml/website_slides_forum_channel.xml:0
+#, python-format
+msgid "Create a Forum"
+msgstr "Crea un foro"
+
+#. module: website_slides_forum
+#: model_terms:ir.actions.act_window,help:website_slides_forum.forum_post_action_channel
+msgid "Create a new forum post"
+msgstr "Crear unha nova mensaxe no foro"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_index
+msgid "Description"
+msgstr "Descrición"
+
+#. module: website_slides_forum
+#: model:ir.model.fields,help:website_slides_forum.field_forum_forum__slide_channel_ids
+msgid "Edit the course linked to this forum on the course form."
+msgstr "Edite o curso vinculado a este foro no formulario do curso."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"For example, if you ask an interesting question or give a helpful answer, "
+"your input will be upvoted. On the other hand if the answer is misleading - "
+"it will be downvoted. Each vote in favor will generate 10 points, each vote "
+"against will subtract 10 points. There is a limit of 200 points that can be "
+"accumulated for a question or answer per day. The table given at the end "
+"explains reputation point requirements for each type of moderation task."
+msgstr ""
+"Por exemplo, se fai unha pregunta interesante ou proporciona unha resposta "
+"útil, a votación da súa achega incrementarase. Doutra banda, se a resposta é"
+" enganosa ou confusa - a súa votación será decrementada. Cada voto en favor "
+"agregará 10 puntos, cada voto en contra subtraerá 10 puntos. Hai un límite "
+"de 200 puntos que poden acumularse por pregunta ou resposta por día. A táboa"
+" mostrada ao final explica os requirimentos de puntos de reputación para "
+"cada tipo de tarefa de moderación."
+
+#. module: website_slides_forum
+#: model:ir.model,name:website_slides_forum.model_forum_forum
+#: model:ir.ui.menu,name:website_slides_forum.website_slides_menu_forum
+#: model:ir.ui.menu,name:website_slides_forum.website_slides_menu_report_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.course_main
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_channel_inherit_view_form
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_header
+msgid "Forum"
+msgstr "Foro"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_channel_inherit_view_form
+msgid "Forum Posts"
+msgstr "Mensaxes no foro"
+
+#. module: website_slides_forum
+#: model:ir.model.fields,help:website_slides_forum.field_forum_forum__visibility
+msgid ""
+"Forum linked to a Course, the visibility is the one applied on the course."
+msgstr "Foro vinculado a un curso, a visibilidade é a que se aplica no curso."
+
+#. module: website_slides_forum
+#: model:ir.ui.menu,name:website_slides_forum.website_slides_menu_forum_forum
+msgid "Forums"
+msgstr "Foros"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "Here a table with the privileges and the karma level"
+msgstr "Aquí unha táboa cos privilexios e o nivel de karma."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,welcome_message:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,welcome_message:website_slides_forum.forum_forum_demo_channel_2
+msgid "Hide Intro"
+msgstr "Ocultar introdución"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "If this approach is not for you, please respect the community."
+msgstr ""
+"Se non está de acordo con o enfoque, por favor, respecte á comunidade."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"If you fit in one of these example or if your motivation for asking the "
+"question is “I would like to participate in a discussion about ______”, then"
+" you should not be asking here but on our mailing lists. However, if your "
+"motivation is “I would like others to explain ______ to me”, then you are "
+"probably OK."
+msgstr ""
+"Se un destes exemplo aplica no seu caso ou se a súa motivación para facer a "
+"pregunta é “Quero participar nunha discusión acerca de ______”, entón non "
+"debería estar a preguntar aquí senón nas nosas listas de correo. Con todo, "
+"se a súa motivación é “Gustaríame que outros me explicasen ______”, entón "
+"probablemente estea ben."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "More over:"
+msgstr "Más sobre:"
+
+#. module: website_slides_forum
+#: model_terms:ir.actions.act_window,help:website_slides_forum.forum_post_action_report
+msgid "No data yet!"
+msgstr "Non hai información aínda"
+
+#. module: website_slides_forum
+#: model:ir.model.fields,field_description:website_slides_forum.field_slide_channel__forum_total_posts
+msgid "Number of active forum posts"
+msgstr "Número de mensaxes activas no foro"
+
+#. module: website_slides_forum
+#: model:ir.model.constraint,message:website_slides_forum.constraint_slide_channel_forum_uniq
+msgid "Only one course per forum!"
+msgstr "Só un curso por foro!"
+
+#. module: website_slides_forum
+#: model:ir.ui.menu,name:website_slides_forum.website_slides_menu_forum_post
+msgid "Posts"
+msgstr "Posts"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,welcome_message:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,welcome_message:website_slides_forum.forum_forum_demo_channel_2
+msgid "Register"
+msgstr "Inscribirse"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_header
+msgid "Reviews"
+msgstr "Recensións"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_index
+msgid "See all Courses"
+msgstr "Ver todos os Cursos"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"The goal of this site is create a relevant knowledge base that would answer "
+"questions related to Odoo."
+msgstr ""
+"O obxectivo deste sitio é crear unha base de coñecemento relevante que "
+"responda a preguntas de Odoo."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"Therefore questions and answers can be edited like wiki pages by experienced"
+" users of this site in order to improve the overall quality of the knowledge"
+" base content. Such privileges are granted based on user karma level: you "
+"will be able to do the same once your karma gets high enough."
+msgstr ""
+"Por iso preguntas e respostas pode ser editadas como páxinas de Wikipedia "
+"por usuarios coñecedores deste sitio para incrementar a calidade xeral do "
+"contido desta base de coñecemento. Tales privilexios outórganse baseado no "
+"nivel de karma do usuario: Vostede poderá facer o mesmo unha vez que a súa "
+"karma sexa o suficientemente alto."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"This community is for professional and enthusiast users, partners and "
+"programmers. You can ask questions about:"
+msgstr ""
+"Esta comunidade é para usuarios profesionais e principiantes, partners e "
+"programadores. Pode facer preguntas acerca de:"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,welcome_message:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,welcome_message:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"This community is for professionals and enthusiasts of our products and services.\n"
+"                                        <br>Share and discuss the best content and new marketing ideas, build your professional profile and become a better marketer together."
+msgstr ""
+"Esta comunidade é para profesionais e principiantes nos nosos produtos e servizos.\n"
+"                                        <br>Comparte e discute o mellor contido e novas ideas de márketing, constrúe o teu perfil profesional e convérteche nun mellor comercializador."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"To prevent your question from being flagged and possibly removed, avoid "
+"asking subjective questions where …"
+msgstr ""
+"Para previr que a túa pregunta sexa marcada e posiblemente borrada, evita "
+"facer preguntas subxectivas onde …"
+
+#. module: website_slides_forum
+#: model:forum.forum,name:website_slides_forum.forum_forum_demo_channel_2
+msgid "Trees, Wood and Gardens"
+msgstr "Árbores, Madeira e Xardíns"
+
+#. module: website_slides_forum
+#: model:ir.model.fields,field_description:website_slides_forum.field_forum_forum__visibility
+msgid "Visibility"
+msgstr "Visibilidade"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,welcome_message:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,welcome_message:website_slides_forum.forum_forum_demo_channel_2
+msgid "Welcome!"
+msgstr "Bienvenido!"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"When a question or answer is upvoted, the user who posted them will gain "
+"some points, which are called \"karma points\". These points serve as a "
+"rough measure of the community trust to him/her. Various moderation tasks "
+"are gradually assigned to the users based on those points."
+msgstr ""
+"Cando se incrementa a votación dunha pregunta ou resposta, o usuario que a "
+"publicou gañará puntos, chamados \"puntos de karma\". Estes puntos serven "
+"como unha medida aproximada da confianza que a comunidade depositou neste "
+"usuario. Varias tarefas de moderación son asignadas gradualmente aos "
+"usuarios baseadas neses puntos."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"You should only ask practical, answerable questions based on actual problems"
+" that you face. Chatty, open-ended questions diminish the usefulness of this"
+" site and push other questions off the front page."
+msgstr ""
+"Debe facer unicamente preguntas prácticas e \"respondibles\" baseadas en "
+"problemas reais que estea a enfrontar. Preguntas abertas diminúen a "
+"utilidade do sitio e terán a súa visibilidade reducida."
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.forum_forum_view_form
+msgid "eLearning"
+msgstr "eLearning"
+
+#. module: website_slides_forum
+#: model:ir.actions.act_window,name:website_slides_forum.forum_post_action_channel
+#: model:ir.actions.act_window,name:website_slides_forum.forum_post_action_report
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.forum_post_view_graph_slides
+msgid "eLearning Forum Posts"
+msgstr "Mensaxes no foro de eLearning"
+
+#. module: website_slides_forum
+#: model:ir.actions.act_window,name:website_slides_forum.forum_forum_action_channel
+msgid "eLearning Forums"
+msgstr "Foros de eLearning"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "every answer is equally valid: “What’s your favorite ______?”"
+msgstr "calquera resposta é igualmente válida: \"Cal é o seu ________ favorito?\""
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "how to configure or customize Odoo to specific business needs,"
+msgstr ""
+"como configurar ou personalizar Odoo segundo as necesidades específicas do "
+"negocio,"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "how to develop modules for your own need,"
+msgstr "como desenvolver módulos para as súas propias necesidades,"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "how to install Odoo on a specific infrastructure,"
+msgstr "como instalar Odoo nunha infraestrutura específica,"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "it is a rant disguised as a question: “______ sucks, am I right?”"
+msgstr "é un enmascaramiento da pregunta: \"______ é un lixo, non?\""
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "specific questions about Odoo service offers, etc."
+msgstr "preguntas específicas sobre as ofertas de servizo Odoo etc."
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"there is no actual problem to be solved: “I’m curious if other people feel "
+"like I do.”"
+msgstr ""
+"non hai ningún problema real a resolver: \"Teño curiosidade se outras "
+"persoas senten como eu.\""
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"we are being asked an open-ended, hypothetical question: “What if ______ "
+"happened?”"
+msgstr "fáisenos unha pregunta hipotética e aberta: \"E se pasase _______?\""
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid "what's the best way to use Odoo for a specific business need,"
+msgstr ""
+"cal é a mellor maneira de usar Odoo para unha necesidade de negocio "
+"determinada,"
+
+#. module: website_slides_forum
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
+#: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
+msgid ""
+"your answer is provided along with the question, and you expect more "
+"answers: “I use ______ for ______, what do you use?”"
+msgstr ""
+"a súa resposta proporciónase xunto coa pregunta, e espera máis respostas: "
+"\"Eu uso ______ para ______, que usades vós?\""

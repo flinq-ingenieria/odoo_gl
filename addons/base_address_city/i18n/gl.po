@@ -1,0 +1,137 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_address_city
+#
+# Translators:
+# Martin Trigaux, 2021
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-07 20:12\n"
+"PO-Revision-Date: 2024-11-07 20:12\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: base_address_city
+#: model:ir.model.fields,help:base_address_city.field_res_country__enforce_cities
+#: model:ir.model.fields,help:base_address_city.field_res_partner__country_enforce_cities
+#: model:ir.model.fields,help:base_address_city.field_res_users__country_enforce_cities
+msgid ""
+"Check this box to ensure every address created in that country has a 'City' "
+"chosen in the list of the country's cities."
+msgstr ""
+"Marque esta casa para asegurarse de que cada dirección creada nese país teña"
+" unha 'cidade' elixida entre as que se atopan na lista de cidades do país."
+
+#. module: base_address_city
+#: model:ir.actions.act_window,name:base_address_city.action_res_city_tree
+#: model_terms:ir.ui.view,arch_db:base_address_city.view_res_country_city_extended_form
+msgid "Cities"
+msgstr "Cidades"
+
+#. module: base_address_city
+#: code:addons/base_address_city/models/res_partner.py:0
+#: model:ir.model,name:base_address_city.model_res_city
+#: model_terms:ir.ui.view,arch_db:base_address_city.view_city_filter
+#: model_terms:ir.ui.view,arch_db:base_address_city.view_city_tree
+#, python-format
+msgid "City"
+msgstr "Ciudad"
+
+#. module: base_address_city
+#: model:ir.model.fields,field_description:base_address_city.field_res_partner__city_id
+#: model:ir.model.fields,field_description:base_address_city.field_res_users__city_id
+msgid "City of Address"
+msgstr "Dirección "
+
+#. module: base_address_city
+#: model:ir.model,name:base_address_city.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: base_address_city
+#: model:ir.model,name:base_address_city.model_res_country
+#: model:ir.model.fields,field_description:base_address_city.field_res_city__country_id
+msgid "Country"
+msgstr "País"
+
+#. module: base_address_city
+#: model:ir.model.fields,field_description:base_address_city.field_res_city__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: base_address_city
+#: model:ir.model.fields,field_description:base_address_city.field_res_city__create_date
+msgid "Created on"
+msgstr "Creado o"
+
+#. module: base_address_city
+#: model:ir.model.fields,field_description:base_address_city.field_res_city__display_name
+msgid "Display Name"
+msgstr "Nome mostrado"
+
+#. module: base_address_city
+#: model_terms:ir.actions.act_window,help:base_address_city.action_res_city_tree
+msgid ""
+"Display and manage the list of all cities that can be assigned to\n"
+"                your partner records. Note that an option can be set on each country separately\n"
+"                to enforce any address of it to have a city in this list."
+msgstr ""
+"Visualice e administre a lista de todas as cidades que se poden asignar aos\n"
+"rexistros do contacto. Teña en conta que se pode establecer unha opción por cada\n"
+"país para forzar que calquera dirección teña unha cidade desta lista."
+
+#. module: base_address_city
+#: model:ir.model.fields,field_description:base_address_city.field_res_country__enforce_cities
+#: model:ir.model.fields,field_description:base_address_city.field_res_partner__country_enforce_cities
+#: model:ir.model.fields,field_description:base_address_city.field_res_users__country_enforce_cities
+msgid "Enforce Cities"
+msgstr "Aplicar cidades"
+
+#. module: base_address_city
+#: model:ir.model.fields,field_description:base_address_city.field_res_city__id
+msgid "ID"
+msgstr "ID"
+
+#. module: base_address_city
+#: model:ir.model.fields,field_description:base_address_city.field_res_city____last_update
+msgid "Last Modified on"
+msgstr "Última modificación o"
+
+#. module: base_address_city
+#: model:ir.model.fields,field_description:base_address_city.field_res_city__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: base_address_city
+#: model:ir.model.fields,field_description:base_address_city.field_res_city__write_date
+msgid "Last Updated on"
+msgstr "Última actualización o"
+
+#. module: base_address_city
+#: model:ir.model.fields,field_description:base_address_city.field_res_city__name
+msgid "Name"
+msgstr "Nome"
+
+#. module: base_address_city
+#: model_terms:ir.ui.view,arch_db:base_address_city.view_city_filter
+msgid "Search City"
+msgstr "Buscar Ciudad"
+
+#. module: base_address_city
+#: model:ir.model.fields,field_description:base_address_city.field_res_city__state_id
+msgid "State"
+msgstr "Estado"
+
+#. module: base_address_city
+#: model:ir.model.fields,field_description:base_address_city.field_res_city__zipcode
+msgid "Zip"
+msgstr "C.P."

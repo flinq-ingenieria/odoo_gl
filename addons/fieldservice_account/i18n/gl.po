@@ -1,0 +1,264 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fieldservice_account
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 03:59\n"
+"PO-Revision-Date: 2024-11-08 03:59\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: fieldservice_account
+#: model:ir.model.fields,field_description:fieldservice_account.field_account_payment__fsm_order_count
+msgid "FSM Order Count"
+msgstr "Conta Orde FSM"
+
+#. module: fieldservice_account
+#: model:ir.model.fields,field_description:fieldservice_account.field_account_bank_statement_line__fsm_order_count
+#: model:ir.model.fields,field_description:fieldservice_account.field_account_move__fsm_order_count
+#: model:ir.model.fields,field_description:fieldservice_account.field_account_move_line__fsm_order_ids
+#: model:ir.model.fields,field_description:fieldservice_account.field_account_payment__fsm_order_ids
+#: model_terms:ir.ui.view,arch_db:fieldservice_account.account_invoice_form
+#: model_terms:ir.ui.view,arch_db:fieldservice_account.invoice_search_view_fso
+msgid "FSM Orders"
+msgstr "Orde FSM"
+
+#. module: fieldservice_account
+#: model:ir.model,name:fieldservice_account.model_fsm_order
+msgid "Field Service Order"
+msgstr "Orde de Servizo de Campo"
+
+#. module: fieldservice_account
+#: model_terms:ir.ui.view,arch_db:fieldservice_account.vendor_bill_form_view_fso
+msgid "Field Service Orders"
+msgstr "Pedidos de Servizo de Campo"
+
+#. module: fieldservice_account
+#: model:ir.model,name:fieldservice_account.model_fsm_stage
+msgid "Field Service Stage"
+msgstr "Etapa de Servizo de Campo"
+
+#. module: fieldservice_account
+#: model:ir.model.fields,field_description:fieldservice_account.field_account_bank_statement_line__fsm_order_ids
+#: model:ir.model.fields,field_description:fieldservice_account.field_account_move__fsm_order_ids
+msgid "Field Service orders associated to this invoice"
+msgstr "Pedidos de Servizo de Campo asociados a esta factura"
+
+#. module: fieldservice_account
+#: model:ir.model.fields,field_description:fieldservice_account.field_fsm_order__invoice_count
+msgid "Invoice Count"
+msgstr "Cantidade de Facturas"
+
+#. module: fieldservice_account
+#: model:ir.model.fields,field_description:fieldservice_account.field_fsm_order__invoice_lines
+msgid "Invoice Lines"
+msgstr "Liñas de factura"
+
+#. module: fieldservice_account
+#: model:ir.model.fields,field_description:fieldservice_account.field_fsm_order__invoice_ids
+msgid "Invoices"
+msgstr "Facturas"
+
+#. module: fieldservice_account
+#: model_terms:ir.ui.view,arch_db:fieldservice_account.view_fsm_order_form_inherit_account
+msgid "Invoices/Bills"
+msgstr "Facturas/Contas"
+
+#. module: fieldservice_account
+#: model:ir.model.fields,field_description:fieldservice_account.field_fsm_stage__is_invoiceable
+msgid "Is Invoiceable"
+msgstr "É Facturable"
+
+#. module: fieldservice_account
+#: model:ir.model,name:fieldservice_account.model_account_move
+msgid "Journal Entry"
+msgstr "Asento contable"
+
+#. module: fieldservice_account
+#: model:ir.model,name:fieldservice_account.model_account_move_line
+msgid "Journal Item"
+msgstr "Apuntamento contable"
+
+#~ msgid "FSM Order"
+#~ msgstr "Orde FSM"
+
+#~ msgid "Invoice"
+#~ msgstr "Factura"
+
+#~ msgid "Invoice Line"
+#~ msgstr "Liña de Factura"
+
+#~ msgid "Invoice Reference"
+#~ msgstr "Referencia de Factura"
+
+#~ msgid "Accounting"
+#~ msgstr "Contabilidade"
+
+#~ msgid "Accounting Stage"
+#~ msgstr "Etapa Contable"
+
+#~ msgid "Analytic Account"
+#~ msgstr "Conta Analítica"
+
+#~ msgid "Analytic Line"
+#~ msgstr "Apuntamento Analítico"
+
+#~ msgid "Bill Contact"
+#~ msgstr "Contacto de Facturación"
+
+#~ msgid "Bill Location"
+#~ msgstr "Dirección de Facturación"
+
+#~ msgid "Bill to"
+#~ msgstr "Facturar a"
+
+#~ msgid "Billed Customer"
+#~ msgstr "Cliente Facturado"
+
+#~ msgid "Cannot move to Complete until 'Contractor Costs' is filled in"
+#~ msgstr ""
+#~ "Non se pode pasar a Completado ata que se completen os 'Custos do "
+#~ "contratista'"
+
+#~ msgid "Cannot move to Complete until 'Employee Timesheets' is filled in"
+#~ msgstr ""
+#~ "Non se pode mover a Completado ata que se completen as 'Follas de tempo de "
+#~ "empregado'"
+
+#~ msgid "Confirm"
+#~ msgstr "Confirmar"
+
+#~ msgid "Confirmed"
+#~ msgstr "Confirmado"
+
+#~ msgid "Contact"
+#~ msgstr "Contacto"
+
+#~ msgid "Contact empty"
+#~ msgstr "Contacto baleiro"
+
+#~ msgid "Contractor Cost Estimate"
+#~ msgstr "Estimación de Custos do Contratista"
+
+#~ msgid "Contractor Costs"
+#~ msgstr "Custos do Contratista"
+
+#~ msgid "Create Invoice"
+#~ msgstr "Crear Factura"
+
+#~ msgid "Customer"
+#~ msgstr "Provedor"
+
+#~ msgid "Draft"
+#~ msgstr "Borrador"
+
+#~ msgid "Duration"
+#~ msgstr "Duración"
+
+#~ msgid "Employee"
+#~ msgstr "Empregado"
+
+#~ msgid "FSM Overtime"
+#~ msgstr "Tempo Extra FSM"
+
+#~ msgid "FSM Record Conversion"
+#~ msgstr "Conversión de Rexistro FSM"
+
+#~ msgid "FSM Regular Time"
+#~ msgstr "Tempo Regular FSM"
+
+#~ msgid "FSM Travel Time"
+#~ msgstr "Tempo de Viaxe FSM"
+
+#~ msgid "Field Service Location"
+#~ msgstr "Localización do Servizo de Campo"
+
+#~ msgid "Field Service Location Person Info"
+#~ msgstr "Servizo de Campo Localización Información da Persoa"
+
+#~ msgid "Field Service Worker"
+#~ msgstr "Traballador de Servizo de Campo"
+
+#~ msgid "Fully Invoiced"
+#~ msgstr "Totalmente Facturado"
+
+#~ msgid "Hour(s)"
+#~ msgstr "Hora(s)"
+
+#~ msgid "Needs Review"
+#~ msgstr "Necesita Revisión"
+
+#~ msgid "No Field Service Orders to review."
+#~ msgstr "Non hai ordes de servizo de campo para revisar."
+
+#~ msgid "No Invoice"
+#~ msgstr "Sen Factura"
+
+#~ msgid "No analytic account set on the order's Location."
+#~ msgstr "Non hai unha conta analítica establecida na localización do pedido."
+
+#~ msgid "Nothing Invoiced"
+#~ msgstr "Nada Facturado"
+
+#~ msgid "Operations"
+#~ msgstr "Operacións"
+
+#~ msgid ""
+#~ "Overtime for Field Service Employees\n"
+#~ "        "
+#~ msgstr ""
+#~ "Horas Extra para Empregados do Servizo de Campo\n"
+#~ "……\n"
+#~ "        "
+
+#~ msgid "Please set the field service worker."
+#~ msgstr "Configure o traballador de servizo de campo."
+
+#~ msgid ""
+#~ "Regular time for Field Service\n"
+#~ "            Employees\n"
+#~ "        "
+#~ msgstr ""
+#~ "Tempo Regular para Servizo de Campo\n"
+#~ "            Empregados\n"
+#~ "        "
+
+#~ msgid "Service Orders"
+#~ msgstr "Orde de Servizo"
+
+#~ msgid "The worker assigned to this order is not a supplier"
+#~ msgstr "O traballador asignado a este pedido non é un provedor"
+
+#~ msgid "Time Type"
+#~ msgstr "Tipo de Tempo"
+
+#~ msgid "Timesheet Activities"
+#~ msgstr "Actividades de Parte de Horas"
+
+#~ msgid "Total Cost"
+#~ msgstr "Custo Total"
+
+#~ msgid "Total Employee Hours"
+#~ msgstr "Horas Totais de Empregados"
+
+#~ msgid ""
+#~ "Travel time for Field Service\n"
+#~ "            Employees\n"
+#~ "        "
+#~ msgstr ""
+#~ "Tempo de viaxe para Servizo de Campo\n"
+#~ "            Empregados\n"
+#~ "……\n"
+#~ "        "
+
+#~ msgid "Vendor Bills"
+#~ msgstr "Facturas de Provedor"

@@ -1,0 +1,73 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* google_account
+#
+# Translators:
+# Martin Trigaux, 2021
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-07 22:06\n"
+"PO-Revision-Date: 2024-11-07 22:06\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: google_account
+#: code:addons/google_account/models/google_service.py:0
+#, python-format
+msgid "Google %s is not yet configured."
+msgstr ""
+
+#. module: google_account
+#: model:ir.model,name:google_account.model_google_service
+msgid "Google Service"
+msgstr "Servizo de Google"
+
+#. module: google_account
+#: code:addons/google_account/models/google_service.py:0
+#, python-format
+msgid "Method not supported [%s] not in [GET, POST, PUT, PATCH or DELETE]!"
+msgstr ""
+"Método non compatible [%s] non está  en [GET, POST, PUT, PATCH ou DELETE]!"
+
+#. module: google_account
+#: code:addons/google_account/models/google_service.py:0
+#, python-format
+msgid ""
+"Something went wrong during the token generation. Please request again an "
+"authorization code."
+msgstr ""
+
+#. module: google_account
+#: code:addons/google_account/models/google_service.py:0
+#, python-format
+msgid ""
+"Something went wrong during your token generation. Maybe your Authorization "
+"Code is invalid"
+msgstr ""
+"Algo saíu mal durante a xeración do token. É probable que o código de "
+"autorización sexa inválido."
+
+#. module: google_account
+#: code:addons/google_account/models/google_service.py:0
+#, python-format
+msgid ""
+"Something went wrong during your token generation. Maybe your Authorization "
+"Code is invalid or already expired"
+msgstr ""
+"Algo saíu mal durante a xeración do token. É probable que o código de "
+"autorización sexa inválido ou expirase."
+
+#. module: google_account
+#: code:addons/google_account/models/google_service.py:0
+#, python-format
+msgid "The refresh token for authentication is not set."
+msgstr ""

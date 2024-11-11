@@ -1,0 +1,86 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mrp_subcontracting_dropshipping
+#
+# Translators:
+# Martin Trigaux, 2022
+# marcescu, 2022
+# Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2024
+# Wil Odoo, 2024
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 20:31\n"
+"PO-Revision-Date: 2024-11-08 20:31\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: mrp_subcontracting_dropshipping
+#: model:ir.model,name:mrp_subcontracting_dropshipping.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: mrp_subcontracting_dropshipping
+#: code:addons/mrp_subcontracting_dropshipping/models/stock_warehouse.py:0
+#: model:stock.location.route,name:mrp_subcontracting_dropshipping.route_subcontracting_dropshipping
+#, python-format
+msgid "Dropship Subcontractor on Order"
+msgstr "Subcontratista de triangulación na orde"
+
+#. module: mrp_subcontracting_dropshipping
+#: model:ir.model.fields,field_description:mrp_subcontracting_dropshipping.field_stock_warehouse__subcontracting_dropshipping_to_resupply
+msgid "Dropship Subcontractors"
+msgstr "Subcontratistas de triangulación"
+
+#. module: mrp_subcontracting_dropshipping
+#: model:ir.model.fields,help:mrp_subcontracting_dropshipping.field_stock_warehouse__subcontracting_dropshipping_to_resupply
+msgid "Dropship subcontractors with components"
+msgstr "Subcontratistas de triangulación con compoñentes"
+
+#. module: mrp_subcontracting_dropshipping
+#: code:addons/mrp_subcontracting_dropshipping/models/purchase.py:0
+#, python-format
+msgid ""
+"It appears some components in this RFQ are not meant for subcontracting. "
+"Please create a separate order for these."
+msgstr ""
+"Parece ser que algúns compoñentes nesta solicitude de cotización non son "
+"para subcontratación. Cre unha orde separada para eles."
+
+#. module: mrp_subcontracting_dropshipping
+#: model:ir.model,name:mrp_subcontracting_dropshipping.model_purchase_order
+msgid "Purchase Order"
+msgstr "Pedido de compra"
+
+#. module: mrp_subcontracting_dropshipping
+#: model:ir.model,name:mrp_subcontracting_dropshipping.model_stock_move
+msgid "Stock Move"
+msgstr "Movemento de stock"
+
+#. module: mrp_subcontracting_dropshipping
+#: model:ir.model,name:mrp_subcontracting_dropshipping.model_stock_rule
+msgid "Stock Rule"
+msgstr "Regra de Inventario"
+
+#. module: mrp_subcontracting_dropshipping
+#: model:ir.model.fields,field_description:mrp_subcontracting_dropshipping.field_stock_warehouse__subcontracting_dropshipping_pull_id
+msgid "Subcontracting-Dropshipping MTS Rule"
+msgstr "Subcontratación- Regula de triangulación MTS"
+
+#. module: mrp_subcontracting_dropshipping
+#: model:ir.model,name:mrp_subcontracting_dropshipping.model_stock_picking
+msgid "Transfer"
+msgstr "Albará"
+
+#. module: mrp_subcontracting_dropshipping
+#: model:ir.model,name:mrp_subcontracting_dropshipping.model_stock_warehouse
+msgid "Warehouse"
+msgstr "Almacén"

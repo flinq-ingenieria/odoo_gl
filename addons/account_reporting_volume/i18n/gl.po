@@ -1,0 +1,28 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_reporting_volume
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 21:44\n"
+"PO-Revision-Date: 2024-11-08 21:44\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: account_reporting_volume
+#: model:ir.model,name:account_reporting_volume.model_account_invoice_report
+msgid "Invoices Statistics"
+msgstr "Estatísticas de facturas"
+
+#. module: account_reporting_volume
+#: model:ir.model.fields,field_description:account_reporting_volume.field_account_invoice_report__volume
+msgid "Volume"
+msgstr "Volume"

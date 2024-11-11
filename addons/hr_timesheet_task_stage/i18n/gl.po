@@ -1,0 +1,144 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_timesheet_holidays
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 21:25\n"
+"PO-Revision-Date: 2024-11-08 21:25\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: hr_timesheet_task_stage
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_task_stage.account_analytic_line_form
+msgid "<span class=\"text-danger\">Closed</span>"
+msgstr "<span class=\"text-danger\">Pechado</span>"
+
+#. module: hr_timesheet_task_stage
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_task_stage.account_analytic_line_form
+msgid "<span class=\"text-success\">Open</span>"
+msgstr "<span class=\"text-success\">Aberto</span>"
+
+#. module: hr_timesheet_task_stage
+#: model:ir.model,name:hr_timesheet_task_stage.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "Liña Analítica"
+
+#. module: hr_timesheet_task_stage
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_task_stage.account_analytic_line_tree
+msgid "Close task"
+msgstr "Pechar tarefa"
+
+#. module: hr_timesheet_task_stage
+#: model:ir.model.fields,field_description:hr_timesheet_task_stage.field_account_analytic_line__is_task_closed
+msgid "Closing Stage"
+msgstr "Etapa de Clausura"
+
+#. module: hr_timesheet_task_stage
+#: model_terms:ir.ui.view,arch_db:hr_timesheet_task_stage.account_analytic_line_tree
+msgid "Open task"
+msgstr "Abrir tarefa"
+
+#. module: hr_timesheet_task_stage
+#: model:ir.model.fields,help:hr_timesheet_task_stage.field_account_analytic_line__is_task_closed
+msgid "Tasks in this stage are considered as closed."
+msgstr "As tarefas nesta etapa considéranse pechadas."
+
+#. module: hr_timesheet_task_stage
+#: code:addons/hr_timesheet_task_stage/models/account_analytic_line.py:0
+#, python-format
+msgid "There isn't any stage with \"Closed\" checked. Please mark any."
+msgstr ""
+"Non hai ningunha etapa con \"Pechado\" marcado. Por favor marque calquera."
+
+#. module: hr_timesheet_task_stage
+#: code:addons/hr_timesheet_task_stage/models/account_analytic_line.py:0
+#, python-format
+msgid "There isn't any stage with \"Closed\" unchecked. Please unmark any."
+msgstr ""
+"Non hai ningunha etapa con \"Pechado\" sen marcar. Por favor, desmarque "
+"calquera."
+
+#~ msgid "Analytic Lines"
+#~ msgstr "Liñas analíticas"
+
+#~ msgid ""
+#~ "Both the internal project and task are required to generate a timesheet for "
+#~ "the time off. If you don't want a timesheet, you should leave the internal "
+#~ "project and task empty."
+#~ msgstr ""
+#~ "Requírense tanto o proxecto interno como a tarefa para xerar un parte de "
+#~ "horas para o tempo libre. Se non desexa un parte de horas, debe deixar o "
+#~ "proxecto interno e a tarefa baleira."
+
+#~ msgid "Companies"
+#~ msgstr "Compañías"
+
+#~ msgid "Config Settings"
+#~ msgstr "Opcións de Configuración"
+
+#~ msgid "Default project value for timesheet generated from time off type."
+#~ msgstr ""
+#~ "Valor predeterminado do proxecto para o parte de horas xerada a partir do "
+#~ "tempo libre."
+
+#~ msgid "Generate Timesheet"
+#~ msgstr "Xerar parte de horas"
+
+#~ msgid ""
+#~ "If checked, when validating a time off, timesheet will be generated in the "
+#~ "Vacation Project of the company."
+#~ msgstr ""
+#~ "Se se marca, ao validar un tempo libre, xerarase unha folla de tempo no "
+#~ "proxecto de vacacións da empresa."
+
+#~ msgid "Internal Project"
+#~ msgstr "Proxecto interno"
+
+#~ msgid "Leave Request"
+#~ msgstr "Petición de ausencia"
+
+#~ msgid "Project"
+#~ msgstr "Proxecto"
+
+#~ msgid "Task"
+#~ msgstr "Tarefa"
+
+#~ msgid "Task for timesheet"
+#~ msgstr "Tarefa para parte de horas"
+
+#~ msgid "The Internal Project of a company should be in that company."
+#~ msgstr "O proxecto interno dunha empresa debe pertencer a esa empresa."
+
+#~ msgid ""
+#~ "The project will contain the timesheet generated when a time off is "
+#~ "validated."
+#~ msgstr ""
+#~ "O proxecto conterá o parte de horas xerado cando se valida un tempo libre."
+
+#~ msgid "Time Off"
+#~ msgstr "Ausencias"
+
+#~ msgid "Time Off Task"
+#~ msgstr "Tarefa de tempo libre"
+
+#~ msgid "Time Off Type"
+#~ msgstr "Tipo de tempo libre"
+
+#~ msgid "Timesheet"
+#~ msgstr "Parte de horas"
+
+#~ msgid ""
+#~ "You cannot delete timesheet lines attached to a leaves. Please cancel the "
+#~ "leaves instead."
+#~ msgstr ""
+#~ "Non pode eliminar liñas dos partes de horas adxuntos aos permisos. Cancele "
+#~ "os permisos no seu lugar."

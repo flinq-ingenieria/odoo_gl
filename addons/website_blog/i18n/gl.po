@@ -1,0 +1,2628 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_blog
+#
+# Translators:
+# Martin Trigaux, 2021
+# Sergio Pinilla Ávila <serjudo@gmail.com>, 2021
+# Jonatan Gk, 2022
+# marcescu, 2022
+# Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2023
+# Larissa Manderfeld, 2024
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 04:15\n"
+"PO-Revision-Date: 2024-11-08 04:15\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.date_selector
+msgid "#{year}"
+msgstr "#{year}"
+
+#. module: website_blog
+#: code:addons/website_blog/models/website_blog.py:0
+#, python-format
+msgid "%s (copy)"
+msgstr "%s (copia)"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post_fullwidth_design
+msgid "&amp;nbsp;"
+msgstr "&amp;nbsp;"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_feed
+msgid "&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;"
+msgstr "&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_short
+msgid "' page header."
+msgstr "' encabezado de páxina."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_short
+msgid "'. Showing results for '"
+msgstr "Mostrando resultados para"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.date_selector
+msgid "-- All dates"
+msgstr "- Todas as datas"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_6
+msgid ""
+"<b>Binoculars are lightweight and portable.</b> Unless you have the luxury "
+"to set up and operate an observatory from your deck, you are probably going "
+"to travel to perform your viewings. Binoculars go with you much easier and "
+"they are more lightweight to carry to the country and use while you are "
+"there than a cumbersome telescope set up kit."
+msgstr ""
+"<b>Os binoculares son liviáns e portátiles.</b> A menos que teña o luxo de "
+"instalar e operar un observatorio desde a súa plataforma, probablemente "
+"viaxará para realizar as súas visitas. Os binoculares acompáñanche moito "
+"máis facilmente e son máis liviáns de levar ao campo e usar mentres estás "
+"alí que un equipo de montaxe de telescopio engorroso."
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/tours/website_blog.js:0
+#, python-format
+msgid "<b>Click on Save</b> to record your changes."
+msgstr "<b>Clic en Gardar </b> para gardar os cambios."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_6
+msgid ""
+"<b>Pick the brains of the experts</b>. If you are not already active in an "
+"astronomy society or club, the sales people at the telescope store will be "
+"able to guide you to the active societies in your area. Once you have "
+"connections with people who have bought telescopes, you can get advice about"
+" what works and what to avoid that is more valid than anything you will get "
+"from a web article or a salesperson at Wal-Mart."
+msgstr ""
+"<b>Elixa os cerebros dos expertos</b> . Se aínda non está activo nunha "
+"sociedade ou club de astronomía, os comerciais da tenda de telescopios "
+"poderán guialo ás sociedades activas na súa área. Unha vez que teña "
+"conexións con persoas que compraron telescopios, pode obter consellos sobre "
+"que funciona e que evitar que sexa máis válido que calquera cousa que obteña"
+" dun artigo web ou dun comercial de Wal-Mart."
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/tours/website_blog.js:0
+#, python-format
+msgid "<b>Publish your blog post</b> to make it visible to your visitors."
+msgstr ""
+"<b>Publique os seus post no blog</b> para facelo visible aos seus "
+"visitantes."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_comment
+msgid "<b>Sign in</b>"
+msgstr "<b>Identificarse</b>"
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/tours/website_blog.js:0
+#, python-format
+msgid ""
+"<b>That's it, your blog post is published!</b> Discover more features "
+"through the <i>Customize</i> menu."
+msgstr ""
+"<b>Iso é todo, o seu post foi publicado no blog!</b>Descubra máis funcións a"
+" través do menú <i> Personalizar </i>."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_6
+msgid ""
+"<b>Try before you buy.</b> This is another advantage of going on some field "
+"trips with the astronomy club. You can set aside some quality hours with "
+"people who know telescopes and have their rigs set up to examine their "
+"equipment, learn the key technical aspects, and try them out before you sink"
+" money in your own set up."
+msgstr ""
+"<b>Probe antes de comprar.</b> Esta é outra vantaxe de realizar algunhas "
+"excursións co club de astronomía. Pode reservar algunhas horas de calidade "
+"con persoas que coñecen os telescopios e teñen os seus equipos configurados "
+"para examinar o seu equipo, aprender os aspectos técnicos clave e probalos "
+"antes de investir diñeiro na súa propia configuración."
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/tours/website_blog.js:0
+#, python-format
+msgid ""
+"<b>Write your story here.</b> Use the top toolbar to style your text: add an"
+" image or table, set bold or italic, etc. Drag and drop building blocks for "
+"more graphical blogs."
+msgstr ""
+"<b>Escriba a súa historia aquí.</b> Use a barra de ferramentas para deseñar "
+"o seu texto (engadir unha imaxe ou táboa, utilizar negrita ou cursiva etc.)/"
+" etc.). Arrastre e solte compoñentes para facer máis vistosos e gráficos os "
+"blogs."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_1
+msgid ""
+"<em class=\"h4 my-0\">Apart from the native population, the local wildlife "
+"is also a major crowd puller.</em>"
+msgstr ""
+"<em class=\"h4 my-0\">Ademais da poboación nativa, a vida silvestre local "
+"tamén atrae ás multitudes.</em>"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_6
+msgid ""
+"<em class=\"h4 my-0\">It is critically important that you get just the right"
+" telescope.</em>"
+msgstr ""
+"<em class=\"h4 my-0\">É de vital importancia que obteña o telescopio "
+"adecuado.</em>"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_4
+msgid ""
+"<em class=\"h4 my-0\">That “Wow” moment is what astrology is all about.</em>"
+msgstr ""
+"<em class=\"h4 my-0\">Ese momento \"Wow\" é do que se trata a "
+"astrología.</em>"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid ""
+"<em class=\"h4 my-0\">The more reviews you read, the more you notice how "
+"they tend to cluster at the extremes of opinion.</em>"
+msgstr ""
+"<em class=\"h4 my-0\">Cantas máis recensións lea, máis notará como tenden a "
+"agruparse nos extremos das opinións.</em>"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_5
+msgid "<em class=\"h4 my-0\">There is something timeless about the cosmos.</em>"
+msgstr "<em class=\"h4 my-0\">Hai algo atemporal no cosmos.</em>"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_7
+msgid ""
+"<em class=\"h4 my-0\">Your study of the moon, like anything else, can go "
+"from the simple to the very complex.</em>"
+msgstr ""
+"<em class=\"h4 my-0\">O seu estudo da lúa, como calquera outra cousa, pode "
+"ir do simple ao moi complexo.</em>"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_tags_display
+msgid "<em>No tags defined</em>"
+msgstr "<em>Non hai etiquetas definidas</em>"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_complete
+msgid ""
+"<i class=\"fa fa-angle-down fa-3x text-white\" aria-label=\"To blog "
+"content\" title=\"To blog content\"/>"
+msgstr ""
+"<i class=\"fa fa-angle-down fa-3x text-white\" aria-label=\"To blog "
+"content\" title=\"To blog content\"/>"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_view_kanban
+msgid "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Post date\" title=\"Post date\"/>"
+msgstr ""
+"<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Post date\" "
+"title=\"Post date\"/>"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_follow_us
+msgid "<i class=\"fa fa-github text-github\" aria-label=\"Github\" title=\"Github\"/>"
+msgstr "<i class=\"fa fa-github text-github\" aria-label=\"Github\" title=\"Github\"/>"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_follow_us
+msgid ""
+"<i class=\"fa fa-instagram text-instagram\" aria-label=\"Instagram\" "
+"title=\"Instagram\"/>"
+msgstr ""
+"<i class=\"fa fa-instagram text-instagram\" aria-label=\"Instagram\" "
+"title=\"Instagram\"/>"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_share_links_display
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_follow_us
+msgid ""
+"<i class=\"fa fa-linkedin text-linkedin\" aria-label=\"LinkedIn\" "
+"title=\"LinkedIn\"/>"
+msgstr ""
+"<i class=\"fa fa-linkedin text-linkedin\" aria-label=\"LinkedIn\" "
+"title=\"LinkedIn\"/>"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_follow_us
+msgid "<i class=\"fa fa-rss-square\" aria-label=\"RSS\" title=\"RSS\"/>"
+msgstr "<i class=\"fa fa-rss-square\" aria-label=\"RSS\" title=\"RSS\"/>"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_share_links_display
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_follow_us
+msgid "<i class=\"fa fa-twitter text-twitter\" aria-label=\"Twitter\" title=\"Twitter\"/>"
+msgstr ""
+"<i class=\"fa fa-twitter text-twitter\" aria-label=\"Twitter\" "
+"title=\"Twitter\"/>"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_follow_us
+msgid ""
+"<i class=\"fa fa-youtube-play text-youtube\" aria-label=\"Youtube\" "
+"title=\"Youtube\"/>"
+msgstr ""
+"<i class=\"fa fa-youtube-play text-youtube\" aria-label=\"Youtube\" "
+"title=\"Youtube\"/>"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_read_next
+msgid ""
+"<span class=\"bg-o-color-3 h6 d-inline-block py-1 px-2 rounded-sm\">Read "
+"Next</span>"
+msgstr ""
+"<span class=\"bg-o-color-3 h6 d-inline-block py-1 px-2 rounded-sm\">Ler "
+"seguinte</span>"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_read_next
+msgid ""
+"<span class=\"h4 d-inline-block py-1 px-2 rounded-sm text-white\">\n"
+"                                    <i class=\"fa fa-angle-right fa-3x text-white\" aria-label=\"Read next\" title=\"Read Next\"/>\n"
+"                                </span>"
+msgstr ""
+"<span class=\"h4 d-inline-block py-1 px-2 rounded-sm text-white\">\n"
+"                                    <i class=\"fa fa-angle-right fa-3x text-white\" aria-label=\"Read next\" title=\"Read Next\"/>\n"
+"                                </span>"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
+msgid "<span class=\"mr-1\">Show:</span>"
+msgstr "<span class=\"mr-1\">Mostrar:</span>"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blogs_nav
+msgid "<span class=\"nav-link disabled pl-0\">Blogs:</span>"
+msgstr "<span class=\"nav-link disabled pl-0\">Blogs:</span>"
+
+#. module: website_blog
+#: model:blog.post,subtitle:website_blog.blog_post_2
+msgid "A great way to discover hidden places"
+msgstr "Unha excelente maneira de descubrir lugares escondidos."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_1
+msgid ""
+"A holiday to the Copper Canyon promises to be an exciting mix of relaxation,"
+" culture, history, wildlife and hiking."
+msgstr ""
+"Unhas vacacións nas Barrancas do Cobre prometen ser unha emocionante "
+"combinación de relaxación, cultura, historia, vida salvaxe e sendeirismo."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_template_new_post
+msgid "A new post"
+msgstr "Unha nova entrada"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_1
+msgid ""
+"A traveler may choose to explore the area by hiking around the canyon or "
+"venturing into it. Detailed planning is required for those who wish to "
+"venture into the depths of the canyon. There are a number of travel "
+"companies that specialize in organizing tours to the region. Visitors can "
+"fly to Copper Canyon using a tourist visa, which is valid for 180 days. "
+"Travelers can also drive from anywhere in the United States and acquire a "
+"visa at the Mexican customs station at the border."
+msgstr ""
+"Un viaxeiro pode optar por explorar a área camiñando ao redor do canón ou "
+"aventurándose nel. Requírese unha planificación detallada para aqueles que "
+"desexen aventurarse nas profundidades do canón. Hai varias compañías de "
+"viaxes que se especializan en organizar viaxes á rexión. Os visitantes poden"
+" voar a Barrancas do Cobre cunha visa de turista, que é válida por 180 días."
+" Os viaxeiros tamén poden conducir desde calquera lugar dos Estados Unidos e"
+" adquirir unha visa na estación de aduanas mexicana na fronteira."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.sidebar_blog_index
+msgid "About us"
+msgstr "Acerca de"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_6
+msgid ""
+"Above all, <b>establish a relationship with a reputable telescope shop</b> "
+"that employs people who know their stuff. If you buy your telescope at a "
+"Wal-Mart or department store, the odds you will get the right thing are "
+"remote."
+msgstr ""
+"Sobre todo, <b>estableza unha relación cunha tenda de telescopios de boa "
+"reputación</b> que empregue a persoas que saiban o que fan. Se compra o seu "
+"telescopio nun Wal-Mart ou nunha tenda departamental, as probabilidades de "
+"que obteña o correcto son remotas."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_template_new_post
+msgid "Access post"
+msgstr "Acceder á publicación"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_needaction
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__message_needaction
+msgid "Action Needed"
+msgstr "Acción requirida"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__active
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_tags_display
+msgid "Add some"
+msgstr "Agregar algúns"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blogs_nav
+msgid "All"
+msgstr "Todos"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.post_breadcrumbs
+msgid "All Blogs"
+msgstr "Todos os blogs"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.s_dynamic_snippet_options_template
+msgid "All blogs"
+msgstr "Todos os blogs"
+
+#. module: website_blog
+#: code:addons/website_blog/models/website_snippet_filter.py:0
+#, python-format
+msgid "Alone in the ocean"
+msgstr "Só no océano"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_6
+msgid "Along those lines, how difficult is the set up and break down?"
+msgstr "Nese sentido, que tan difícil é a configuración e a desagregación?"
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/website_blog.js:0
+#, python-format
+msgid "Amazing blog article: %s! Check it live: %s"
+msgstr "Incrible artigo de blog: %s Compróbao en vivo: %s"
+
+#. module: website_blog
+#: model:blog.post,subtitle:website_blog.blog_post_1
+msgid "An exciting mix of relaxation, culture, history, wildlife and hiking."
+msgstr ""
+"Unha emocionante mestura de relaxación, cultura, historia, vida salvaxe e "
+"sendeirismo."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_5
+msgid ""
+"And when all is said and done,<b> get equipped</b>. Your quest for newer and"
+" better telescopes will be a lifelong one. Let yourself get addicted to "
+"astronomy and the experience will enrich every aspect of life. It will be an"
+" addiction you never want to break."
+msgstr ""
+"E cando todo estea meu dito meu feito, <b>prepárache</b> . A súa procura de "
+"telescopios máis novos e mellores será para toda a vida. Déixese volver "
+"adicto á astronomía e a experiencia enriquecerá todos os aspectos da vida. "
+"Será unha adicción que nunca quererás romper."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_1
+msgid ""
+"Another unique feature of Copper Canyon is the presence of the Tarahumara "
+"Indian culture. These semi-nomadic people live in cave dwellings. Their "
+"livelihood chiefly depends on farming and cattle ranching."
+msgstr ""
+"Outra característica única das Barrancas do Cobre é a presenza da cultura "
+"indíxena Tarahumara. Estas persoas seminómadas viven en vivendas cova. O seu"
+" sustento depende principalmente da agricultura e a gandería."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_archive_display
+msgid "Archive"
+msgstr "Arquivar"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_blog_view_search
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_blog_form
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_form
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_search
+msgid "Archived"
+msgstr "Arquivado"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_archives
+msgid "Archives"
+msgstr "Arquivados"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
+msgid "Article"
+msgstr "Articulo"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
+msgid "Articles"
+msgstr "Artigos"
+
+#. module: website_blog
+#: model:blog.blog,name:website_blog.blog_blog_2
+msgid "Astronomy"
+msgstr "Astronomía"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_5
+msgid ""
+"Astronomy clubs are lively places full of knowledgeable amateurs who love to"
+" share their knowledge with you. For the price of a coke and snacks, they "
+"will go star gazing with you and overwhelm you with trivia and great "
+"knowledge."
+msgstr ""
+"Os clubs de astronomía son lugares animados cheos de afeccionados "
+"coñecedores aos que lles encanta compartir os seus coñecementos contigo. "
+"Polo prezo dunha coca cola e bocadillos, irán mirar as estrelas contigo e "
+"atafegaranche con trivialidades e gran coñecemento."
+
+#. module: website_blog
+#: model:blog.blog,subtitle:website_blog.blog_blog_2
+msgid "Astronomy is “stargazing\""
+msgstr "A astronomía é \"mirar as estrelas\""
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_short
+msgid "Atom Feed"
+msgstr "Atom Canal de contidos"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_attachment_count
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__message_attachment_count
+msgid "Attachment Count"
+msgstr "Nº de arquivos adxuntos"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__author_id
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_search
+msgid "Author"
+msgstr "Autor"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__author_name
+msgid "Author Name"
+msgstr "Nome do autor"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__author_avatar
+msgid "Avatar"
+msgstr "Avatar"
+
+#. module: website_blog
+#: code:addons/website_blog/models/website_snippet_filter.py:0
+#, python-format
+msgid "Awesome hotel rooms"
+msgstr "Xeniais habitacións de hotel"
+
+#. module: website_blog
+#: model:blog.post,subtitle:website_blog.blog_post_4
+msgid "Be aware of this thing called “astronomy”"
+msgstr "Teña en conta o que se chama \"astronomía\""
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_7
+msgid ""
+"Becoming part of the society of devoted amateur astronomers will give you "
+"access to these organized efforts to reach new levels in our ability to "
+"study the Earth’s moon. And it will give you peers and friends who share "
+"your passion for astronomy and who can share their experience and areas of "
+"expertise as you seek to find where you might look next in the huge night "
+"sky, at the moon and beyond it in your quest for knowledge about the "
+"seemingly endless universe above us."
+msgstr ""
+"Formar parte da sociedade de astrónomos afeccionados devotos daralle acceso "
+"a estes esforzos organizados para alcanzar novos niveis na nosa capacidade "
+"de estudar a lúa da Terra. E brindarache compañeiros e amigos que comparten "
+"a túa paixón pola astronomía e que poden compartir a súa experiencia e áreas"
+" de especialización mentres buscas atopar onde mirar a continuación no "
+"enorme ceo nocturno, na lúa e máis aló na túa procura de coñecemento sobre o"
+" universo aparentemente interminable sobre nós."
+
+#. module: website_blog
+#: model:blog.post,subtitle:website_blog.blog_post_7
+msgid "Becoming part of the society of devoted amateur astronomers."
+msgstr "Formar parte da sociedade de devotos astrónomos afeccionados."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid "Bedroom Facilities"
+msgstr "Instalacións do dormitorio"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_4
+msgid ""
+"Before you go to that big expense, it might be a better next step from the "
+"naked eye to invest in a good set of binoculars. There are even binoculars "
+"that are suited for star gazing that will do just as good a job at giving "
+"you that extra vision you want to see just a little better the wonders of "
+"the universe. A well designed set of binoculars also gives you much more "
+"mobility and ability to keep your “enhanced vision” at your fingertips when "
+"that amazing view just presents itself to you."
+msgstr ""
+"Antes de facer ese gran gasto, podería ser un mellor paso a primeira ollada "
+"investir nun bo par de binoculares. Mesmo hai binoculares que son adecuados "
+"para observar as estrelas que farán un traballo igual de ben ao brindarlle "
+"esa visión adicional que desexa para ver un pouco mellor as marabillas do "
+"universo. Un conxunto de binoculares ben deseñado tamén lle brinda moita "
+"máis mobilidade e capacidade para manter a súa \"visión mellorada\" ao "
+"alcance da man cando esa vista incrible preséntaselle."
+
+#. module: website_blog
+#: model:blog.post,subtitle:website_blog.blog_post_6
+msgid "Before you make your first purchase…"
+msgstr "Antes de realizar a súa primeira compra ..."
+
+#. module: website_blog
+#: model:blog.post,name:website_blog.blog_post_7
+msgid "Beyond The Eye"
+msgstr "Máis aló do ollo"
+
+#. module: website_blog
+#: code:addons/website_blog/models/website.py:0
+#: model:ir.model,name:website_blog.model_blog_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__blog_id
+#: model:website.menu,name:website_blog.menu_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_blog_view_search
+#: model_terms:ir.ui.view,arch_db:website_blog.s_dynamic_snippet_options_template
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_blog_form
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_search
+#, python-format
+msgid "Blog"
+msgstr "Blog"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__name
+msgid "Blog Name"
+msgstr "Nome do blog"
+
+#. module: website_blog
+#: code:addons/website_blog/models/website.py:0
+#: code:addons/website_blog/models/website.py:0
+#: model:ir.model,name:website_blog.model_blog_post
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_form
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_search
+#, python-format
+msgid "Blog Post"
+msgstr "Entrada do blog"
+
+#. module: website_blog
+#: code:addons/website_blog/models/website.py:0
+#, python-format
+msgid "Blog Post <b>%s</b> seems to be calling this file !"
+msgstr "A entrada do blog <b>%s</b> parece reclamar este arquivo!"
+
+#. module: website_blog
+#: code:addons/website_blog/models/website.py:0
+#, python-format
+msgid "Blog Post <b>%s</b> seems to have a link to this page !"
+msgstr ""
+"A publicación do blog <b>%s</b> parece estar enlazada con esta páxina!"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_complete
+msgid "Blog Post Cover"
+msgstr "Portada de publicación de blog"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_complete
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post_fullwidth_design
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_read_next
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_form
+msgid "Blog Post Title"
+msgstr "Título da entrada do blog"
+
+#. module: website_blog
+#: code:addons/website_blog/models/website.py:0
+#: code:addons/website_blog/models/website.py:0
+#: model:ir.actions.act_window,name:website_blog.action_blog_post
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__blog_post_ids
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_list
+#, python-format
+msgid "Blog Posts"
+msgstr "Entradas do blog"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__subtitle
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post_fullwidth_design
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_form
+msgid "Blog Subtitle"
+msgstr "Subtítulo do blog"
+
+#. module: website_blog
+#: model:ir.model,name:website_blog.model_blog_tag
+msgid "Blog Tag"
+msgstr "Etiqueta do blog"
+
+#. module: website_blog
+#: model:ir.model,name:website_blog.model_blog_tag_category
+msgid "Blog Tag Category"
+msgstr "Categoría de etiqueta de blog"
+
+#. module: website_blog
+#: model:ir.actions.act_window,name:website_blog.action_tags
+msgid "Blog Tags"
+msgstr "Etiquetas do blog"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post_fullwidth_design
+msgid "Blog Title"
+msgstr "Titulo de Blog"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post
+msgid "Blog's Title"
+msgstr "Título do blog"
+
+#. module: website_blog
+#: model:ir.actions.act_window,name:website_blog.action_blog_blog
+#: model:ir.ui.menu,name:website_blog.menu_blog_global
+#: model:ir.ui.menu,name:website_blog.menu_website_blog_root
+#: model:ir.ui.menu,name:website_blog.menu_website_blog_root_global
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_searchbar_input_snippet_options
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_blog_list
+msgid "Blogs"
+msgstr "Blogs"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid ""
+"But how do you sift through the amazing choices on offer? And more "
+"importantly, do you really trust the photographs and descriptions of the "
+"hotels that they have awarded themselves with the motivation of getting "
+"bookings? Traveler reviews can be helpful, but you need to exercise caution."
+" They are often biased, sometimes out of date, and may not serve your "
+"interests at all. How do you know that the features that are important to "
+"the reviewer are important to you?"
+msgstr ""
+"Pero, como examina as incribles opcións que se ofrecen? E o que é máis "
+"importante, realmente confía nas fotografías e descricións dos hoteis que se"
+" premiaron coa motivación de conseguir reservas? As recensións de viaxeiros "
+"poden ser útiles, pero debes ter coidado. A miúdo son parciais, ás veces "
+"desactualizados e é posible que non sirvan para nada aos seus intereses. "
+"Como sabe que as características que son importantes para o revisor o son "
+"para vostede?"
+
+#. module: website_blog
+#: model:blog.post,name:website_blog.blog_post_6
+msgid "Buying A Telescope"
+msgstr "Comprar un telescopio"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_6
+msgid ""
+"Buying the right telescope to take your love of astronomy to the next level "
+"is a big next step in the development of your passion for the stars."
+msgstr ""
+"Comprar o telescopio adecuado para levar o seu amor pola astronomía ao "
+"seguinte nivel é un gran paso no desenvolvemento da súa paixón polas "
+"estrelas."
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__can_publish
+msgid "Can Publish"
+msgstr "Pode publicar"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag__category_id
+msgid "Category"
+msgstr "Categoría"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid "Children’s’ Facilities"
+msgstr "Instalacións para nenos"
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/tours/website_blog.js:0
+#, python-format
+msgid "Choose an image from the library."
+msgstr "Escolla unha imaxe da colección."
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/tours/website_blog.js:0
+#, python-format
+msgid "Click here to add new content to your website."
+msgstr "Faga clic aquí para agregar contido novo ao seu sitio web."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
+msgid ""
+"Click on \"<b>New</b>\" in the top-right corner to write your first blog "
+"post."
+msgstr ""
+"Faga clic en \" <b>Novo</b> \" na esquina superior dereita para escribir a "
+"súa primeira publicación de blog."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
+msgid "Close"
+msgstr "Pechar"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_regular_cover
+msgid "Comment"
+msgstr "Comentario"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_regular_cover
+#: model_terms:ir.ui.view,arch_db:website_blog.post_info
+msgid "Comments"
+msgstr "Comentarios"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__content
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__content
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_search
+msgid "Content"
+msgstr "Contido"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_1
+msgid ""
+"Copper Canyon is one of the six gorges in the area. Although the name "
+"suggests that the gorge might have some relevance to copper mining, this is "
+"not the case. The name is derived from the copper and green lichen covering "
+"the canyon. Copper Canyon has two climatic zones. The region features an "
+"alpine climate at the top and a subtropical climate at the lower levels. "
+"Winters are cold with frequent snowstorms at the higher altitudes. Summers "
+"are dry and hot. The capital city, Chihuahua, is a high altitude desert "
+"where weather ranges from cold winters to hot summers. The region is unique "
+"because of the various ecosystems that exist within it."
+msgstr ""
+"Copper Canyon é unha das seis gargantas da zona. Aínda que o nome suxire que"
+" o desfiladeiro podería ter algunha relevancia para a minería do cobre, este"
+" non é o caso. O nome derívase do lique de cobre e verde que cobre o canón. "
+"Copper Canyon ten dúas zonas climáticas. A rexión presenta un clima alpino "
+"na parte superior e un clima subtropical nos niveis inferiores. Os invernos "
+"son fríos con frecuentes tormentas de neve nas altitudes máis altas. Os "
+"veráns son secos e calorosos. A cidade capital, Chihuahua, é un deserto de "
+"gran altitude onde o clima varía desde invernos fríos ata veráns calorosos. "
+"A rexión é única polos diversos ecosistemas que existen nela."
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__cover_properties
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__cover_properties
+msgid "Cover Properties"
+msgstr "Propiedades da portada"
+
+#. module: website_blog
+#: model_terms:ir.actions.act_window,help:website_blog.action_blog_post
+msgid "Create a new blog post"
+msgstr "Crear unha nova publicación de blog"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__create_uid
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__create_uid
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag__create_uid
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag_category__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__create_date
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__create_date
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag__create_date
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag_category__create_date
+msgid "Created on"
+msgstr "Creado o"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_searchbar_input_snippet_options
+msgid "Date (new to old)"
+msgstr "Data (de máis novos a máis antigos)"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_searchbar_input_snippet_options
+msgid "Date (old to new)"
+msgstr "Data (de máis antigos a máis novos)"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_searchbar_input_snippet_options
+msgid "Description"
+msgstr "Descrición"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.s_dynamic_snippet_options_template
+msgid "Dexter"
+msgstr "Destro"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__display_name
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__display_name
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag__display_name
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag_category__display_name
+msgid "Display Name"
+msgstr "Nome mostrado"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_edit_options
+msgid "Duplicate"
+msgstr "Duplicar"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_2
+msgid "East Maui"
+msgstr "East Maui"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_2
+msgid ""
+"East Maui helicopter tours will give you a view of the ten thousand foot "
+"volcano, Haleakala or House of the sun. This volcano is dormant and last "
+"erupted in 1790. You will be able to see the crater of the volcano and the "
+"dry, arid earth surrounding the south side of the volcano’s slop with Maui "
+"helicopter tours."
+msgstr ""
+"Os percorridos en helicóptero polo leste de Maui daranlle unha vista do "
+"volcán de dez mil pés, Haleakala ou a Casa do sol. Este volcán está inactivo"
+" e entrou en erupción por última vez en 1790. Poderá ver o cráter do volcán "
+"e a terra seca e árida que rodea o lado sur da pendente do volcán con "
+"percorridos en helicóptero por Maui."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_tags_display
+msgid "Edit in backend"
+msgstr "Editar no backend"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_short
+msgid "Edit the '"
+msgstr "Edite o '"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_short
+msgid "Edit the 'All Blogs' page header."
+msgstr "Edite o encabezado da páxina \"Todos os blogs\"."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_short
+msgid "Edit the 'Filter Results' page header."
+msgstr "Edite o encabezado da páxina 'Filtrar resultados'."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_share_links_display
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_follow_us
+msgid "Facebook"
+msgstr "Facebook"
+
+#. module: website_blog
+#: model:blog.post,subtitle:website_blog.blog_post_3
+msgid "Facts you should bear in mind."
+msgstr "Feitos que debes ter en conta."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid ""
+"Finally and most importantly, the quality hotel directory inspection team "
+"should have visited the hotel in question on a regular basis, met the staff,"
+" slept in a bedroom and tried the food. They should experience the hotel as "
+"only a hotel guest can and it is only then that they are really in a strong "
+"position to write about the hotel."
+msgstr ""
+"Por último, e o máis importante, o equipo de inspección do directorio de "
+"hoteis de calidade debería visitar o hotel en cuestión con regularidade, "
+"reunirse co persoal, durmir nun dormitorio e probar a comida. Deben "
+"experimentar o hotel como só un hóspede do hotel pode facelo e só entón "
+"están realmente nunha posición sólida para escribir sobre o hotel."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_follow_us
+msgid "Follow Us"
+msgstr "Síguenos"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_follower_ids
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_partner_ids
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Contactos)"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_4
+msgid ""
+"For many of us who are city dwellers, we don’t really notice that sky up "
+"there on a routine basis. The lights of the city do a good job of disguising"
+" the amazing display that is above all of our heads all of the time."
+msgstr ""
+"Para moitos de nós que somos habitantes da cidade, realmente non notamos ese"
+" ceo alá arriba de forma rutineira. As luces da cidade fan un bo traballo ao"
+" disfrazar a asombrosa exhibición que está sobre as nosas cabezas todo o "
+"tempo."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_7
+msgid ""
+"For many of us, our very first experience of learning about the celestial "
+"bodies begins when we saw our first full moon in the sky. It is truly a "
+"magnificent view even to the naked eye."
+msgstr ""
+"Para moitos de nós, a nosa primeira experiencia de aprendizaxe sobre os "
+"corpos celestes comeza cando vimos nosa primeira lúa chea no ceo. É "
+"realmente unha vista magnífica mesmo a primeira ollada."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_5
+msgid ""
+"From the tiniest baby to the most advanced astrophysicist, there is "
+"something for anyone who wants to enjoy astronomy. In fact, it is a science "
+"that is so accessible that virtually anybody can do it virtually anywhere "
+"they are. All they have to know how to do is to look up."
+msgstr ""
+"Desde o bebé máis pequeno ata o astrofísico máis avanzado, hai algo para "
+"calquera que queira gozar da astronomía. De feito, é unha ciencia tan "
+"accesible que practicamente calquera pode facelo practicamente en calquera "
+"lugar. Todo o que teñen que saber facer é mirar cara arriba."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_5
+msgid "Get a geek"
+msgstr "Conseguir un geek"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_4
+msgid "Get a telescope"
+msgstr "Consegue un telescopio"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_5
+msgid "Get some history"
+msgstr "Obter algo de historia"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_4
+msgid "Get started"
+msgstr "Empezar"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__has_message
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__has_message
+msgid "Has Message"
+msgstr "Ten unha mensaxe"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid "Here are some of the key facts you should bear in mind:"
+msgstr "Estes son algúns dos datos crave que debe ter en conta:"
+
+#. module: website_blog
+#: model:blog.blog,subtitle:website_blog.blog_blog_1
+msgid "Holiday tips"
+msgstr "Consellos de vacacións"
+
+#. module: website_blog
+#: model:blog.post,name:website_blog.blog_post_4
+msgid "How To Look Up"
+msgstr "Como mirar cara arriba"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_6
+msgid ""
+"How complex is the telescope and will you have trouble with maintenance? "
+"Network to get the answers to these and other questions. If you do your "
+"homework like this, you will find just the right telescope for this next big"
+" step in the evolution of your passion for astronomy."
+msgstr ""
+"Que tan complexo é o telescopio e terá problemas co mantemento? Conéctese "
+"para obter respostas a estas e outras preguntas. Se fai a súa tarefa desta "
+"maneira, atopará o telescopio adecuado para este próximo gran paso na "
+"evolución da súa paixón pola astronomía."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_6
+msgid "How mobile must your telescope be?"
+msgstr "Que tan móbil debe ser o seu telescopio?"
+
+#. module: website_blog
+#: model:blog.post,name:website_blog.blog_post_3
+msgid "How to choose the right hotel"
+msgstr "Como elixir o hotel adecuado"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__id
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__id
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag__id
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag_category__id
+msgid "ID"
+msgstr "ID"
+
+#. module: website_blog
+#: model:ir.model.fields,help:website_blog.field_blog_blog__message_needaction
+#: model:ir.model.fields,help:website_blog.field_blog_blog__message_unread
+#: model:ir.model.fields,help:website_blog.field_blog_post__message_needaction
+#: model:ir.model.fields,help:website_blog.field_blog_post__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Se está marcado hai novas mensaxes que requiren a súa atención."
+
+#. module: website_blog
+#: model:ir.model.fields,help:website_blog.field_blog_blog__message_has_error
+#: model:ir.model.fields,help:website_blog.field_blog_blog__message_has_sms_error
+#: model:ir.model.fields,help:website_blog.field_blog_post__message_has_error
+#: model:ir.model.fields,help:website_blog.field_blog_post__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Se se atopa marcado, algunhas mensaxes teñen erro de envío."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid ""
+"If it matters that your hotel is, for example, on the beach, close to the "
+"theme park, or convenient for the airport, then location is paramount. Any "
+"decent directory should offer a location map of the hotel and its "
+"surroundings. There should be distance charts to the airport offered as well"
+" as some form of interactive map."
+msgstr ""
+"Se importa que o seu hotel estea, por exemplo, na praia, preto do parque "
+"temático ou conveniente para o aeroporto, entón a localización é primordial."
+" Calquera directorio decente debería ofrecer un mapa de localización do "
+"hotel e os seus arredores. Debería haber cartas de distancia ao aeroporto "
+"ofrecidas, así como algún tipo de mapa interactivo."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_7
+msgid ""
+"If the night is clear, you can see amazing detail of the lunar surface just star gazing on in your back yard.\n"
+"Naturally, as you grow in your love of astronomy, you will find many celestial bodies fascinating. But the moon may always be our first love because is the one far away space object that has the unique distinction of flying close to the earth and upon which man has walked."
+msgstr ""
+"Se a noite está despexada, pode ver detalles asombrosos da superficie lunar simplemente mirando as estrelas no seu patio traseiro.\n"
+"Naturalmente, a medida que crece no seu amor pola astronomía, atopará fascinantes moitos corpos celestes. Pero a lúa pode ser sempre o noso primeiro amor porque é o único obxecto espacial afastado que ten a distinción única de voar preto da terra e sobre o que camiñou o home."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.dynamic_filter_template_blog_post_card
+msgid "In"
+msgstr "Dentro"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_6
+msgid ""
+"In many ways, it is a big step from someone who is just fooling around with "
+"astronomy to a serious student of the science. But you and I both know that "
+"there is still another big step after buying a telescope before you really "
+"know how to use it."
+msgstr ""
+"En moitos sentidos, é un gran paso de alguén que está a xogar coa astronomía"
+" a un estudante serio da ciencia. Pero vostede e eu sabemos que hai outro "
+"gran paso despois de comprar un telescopio antes de que realmente saiba como"
+" usalo."
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_is_follower
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__message_is_follower
+msgid "Is Follower"
+msgstr "É un seguidor"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__is_published
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_list
+msgid "Is Published"
+msgstr "Está publicado"
+
+#. module: website_blog
+#: code:addons/website_blog/models/website_snippet_filter.py:0
+#, python-format
+msgid "Islands"
+msgstr "Illas"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_5
+msgid ""
+"It is great fun to start learning the constellations, how to navigate the "
+"night sky and find the planets and the famous stars. There are web sites and"
+" books galore to guide you."
+msgstr ""
+"É moi divertido comezar a aprender as constelacións, como navegar polo ceo "
+"nocturno e atopar os planetas e as estrelas famosas. Hai sitios web e libros"
+" en abundancia para guialo."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid ""
+"It is important to choose a hotel that makes you feel comfortable – "
+"contemporary or traditional furnishings, local decor or international, "
+"formal or relaxed. The ideal hotel directory should let you know of the "
+"options available."
+msgstr ""
+"É importante elixir un hotel que o faga sentir cómodo: mobles contemporáneos"
+" ou tradicionais, decoración local ou internacional, formal ou relaxada. O "
+"directorio de hoteis ideal debería informarlle das opcións dispoñibles."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_4
+msgid ""
+"It is safe to say that at some point on our lives, each and every one of us "
+"has that moment when we are suddenly stunned when we come face to face with "
+"the enormity of the universe that we see in the night sky."
+msgstr ""
+"É seguro dicir que nalgún momento das nosas vidas, todos e cada un de nós "
+"temos ese momento no que de súpeto quedamos atónitos cando nos atopamos cara"
+" a cara coa enormidade do universo que vemos no ceo nocturno."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_5
+msgid ""
+"It really is amazing when you think about it that just by looking up on any "
+"given night, you could see virtually hundreds of thousands of stars, star "
+"systems, planets, moons, asteroids, comets and maybe a even an occasional "
+"space shuttle might wander by. It is even more breathtaking when you realize"
+" that the sky you are looking up at is for all intents and purposes the "
+"exact same sky that our ancestors hundreds and thousands of years ago "
+"enjoyed when they just looked up."
+msgstr ""
+"Realmente é asombroso cando o pensas que con só mirar cara arriba nunha "
+"noite determinada, poderías ver virtualmente centos de miles de estrelas, "
+"sistemas estelares, planetas, lúas, asteroides, cometas e talvez mesmo un "
+"transbordador espacial ocasional podería pasar por aí. . É aínda máis "
+"impresionante cando te dás conta de que o ceo que estás a mirar cara arriba "
+"é, para todos os efectos, exactamente o mesmo ceo que os nosos antepasados "
+"fai centos e miles de anos gozaron cando só miraron cara arriba."
+
+#. module: website_blog
+#: code:addons/website_blog/models/website_snippet_filter.py:0
+#, python-format
+msgid "Jungle"
+msgstr "Xungla"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_5
+msgid "Know what you are looking at"
+msgstr "Saiba o que está a mirar"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_5
+msgid "Know when to look"
+msgstr "Saber cando mirar"
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/options.js:0
+#, python-format
+msgid "Large"
+msgstr "Grande"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__write_uid
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_search
+msgid "Last Contributor"
+msgstr "Último colaborador"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog____last_update
+#: model:ir.model.fields,field_description:website_blog.field_blog_post____last_update
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag____last_update
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag_category____last_update
+msgid "Last Modified on"
+msgstr "Última modificación o"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__write_uid
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag__write_uid
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag_category__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__write_date
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__write_date
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag__write_date
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag_category__write_date
+msgid "Last Updated on"
+msgstr "Última actualización o"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post_fullwidth_design
+msgid "Latest"
+msgstr "Último"
+
+#. module: website_blog
+#: model:ir.filters,name:website_blog.dynamic_snippet_latest_blog_post_filter
+#: model:website.snippet.filter,name:website_blog.dynamic_filter_latest_blog_posts
+msgid "Latest Blog Posts"
+msgstr "Últimas publicacións no blog"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_5
+msgid ""
+"Learning the background to the great discoveries in astronomy will make your"
+" moments star gazing more meaningful. It is one of the oldest sciences on "
+"earth so find out the greats of history who have looked at these stars "
+"before you."
+msgstr ""
+"Aprender os antecedentes dos grandes descubrimentos en astronomía fará que "
+"os seus momentos de observación de estrelas sexan máis significativos. É "
+"unha das ciencias máis antigas da terra, así que descubra aos grandes da "
+"historia que miraron estas estrelas antes que vostede."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid "Leisure Facilities"
+msgstr "Instalacións de lecer"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_share_links_display
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid ""
+"Local color is great but the hotel’s own restaurants and bars can play an "
+"important part in your stay. You should be aware of choice, style and "
+"whether or not they are smart or informal. A good hotel report should tell "
+"you this, and particularly about breakfast facilities."
+msgstr ""
+"A cor local é fantástica, pero os restaurantes e bares do hotel poden "
+"desempeñar un papel importante na súa estancia. Debe ter en conta a "
+"elección, o estilo e se son intelixentes ou informais ou non. Un bo informe "
+"do hotel debería informarlle isto, e en particular sobre as instalacións "
+"para o almorzo."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid "Location"
+msgstr "Localización"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_main_attachment_id
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Adxuntos principais"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.s_dynamic_snippet_options_template
+msgid "Marley"
+msgstr "Marley"
+
+#. module: website_blog
+#: model:blog.post,name:website_blog.blog_post_2
+msgid "Maui helicopter tours"
+msgstr "Paseos en helicóptero por Maui"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_2
+msgid ""
+"Maui helicopter tours are a great way to see the island from a different "
+"perspective and have a fun adventure. If you have never been on a helicopter"
+" before, this is a great place to do it."
+msgstr ""
+"Os percorridos en helicóptero por Maui son unha excelente maneira de ver a "
+"illa desde unha perspectiva diferente e ter unha aventura divertida. Se "
+"nunca antes estivo nun helicóptero, leste é un gran lugar para facelo."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_2
+msgid ""
+"Maui helicopter tours are a great way to tour those places that can not be "
+"reached on foot or by car. The tours last approximately one hour and range "
+"from approximately one hundred eight five dollars to two hundred forty "
+"dollars person. For many, this is a once in a lifetime opportunity to see "
+"natural scenery that will not be available again. Taking cameras and videos "
+"to capture the moments will also allow you to relive the tour again and "
+"again as you reminisce throughout the years."
+msgstr ""
+"Os percorridos en helicóptero por Maui son unha excelente maneira de "
+"percorrer aqueles lugares aos que non se pode chegar a pé ou en automóbil. "
+"Os percorridos duran aproximadamente unha hora e van desde aproximadamente "
+"cento oito cinco dólares ata douscentos corenta dólares por persoa. Para "
+"moitos, esta é unha oportunidade única na vida de ver paisaxes naturais que "
+"non estarán dispoñibles novamente. Tomar cámaras e vídeos para capturar os "
+"momentos tamén lle permitirá revivir o percorrido unha e outra vez mentres "
+"lembra ao longo dos anos."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_2
+msgid ""
+"Maui helicopter tours will allow you to see all of these sights. Make sure "
+"to take a camera or video with you when going on Maui helicopter tours to "
+"capture the beauty of the scenery and to show friends and family at home all"
+" the wonderful things you saw while on vacation."
+msgstr ""
+"Os percorridos en helicóptero por Maui permitiranlle ver todos estes "
+"lugares. Asegúrese de levar unha cámara ou un vídeo cando vaia de excursión "
+"en helicóptero a Maui para capturar a beleza da paisaxe e mostrarlle aos "
+"seus amigos e familiares en casa todas as cousas marabillosas que viu "
+"durante as súas vacacións."
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/options.js:0
+#, python-format
+msgid "Medium"
+msgstr "Media"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_has_error
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__message_has_error
+msgid "Message Delivery error"
+msgstr "Erro de Envío de Mensaxe"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_ids
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__message_ids
+msgid "Messages"
+msgstr "Mensaxes"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_form
+msgid "Meta Description"
+msgstr "Metadescripción"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_form
+msgid "Meta Keywords"
+msgstr "Palabras chave"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_form
+msgid "Meta Title"
+msgstr "Meta-título"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_2
+msgid "Molokai Maui"
+msgstr "Molokai Maui"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_2
+msgid ""
+"Molokai Maui helicopter tours will take you to a different island but one that is only nine miles away and easily accessible by air. This island has a very small population with a different culture and scenery. The entire coast of the northeast is lined with cliffs and remote beaches. They are completely inaccessible by any other means of transportation than air.\n"
+"People who live on the island have never even seen this remarkable scenery unless they have taken Maui helicopter tours to view it. When the weather has been rainy and there is a lot of rainfall for he season you will see many astounding waterfalls."
+msgstr ""
+"Os percorridos en helicóptero de Molokai Maui levarano a unha illa diferente, pero que está a só nove millas de distancia e é de fácil acceso por aire. Esta illa ten unha poboación moi pequena cunha cultura e unha paisaxe diferentes. Toda a costa do nordés está bordeada de cantís e praias remotas. Son completamente inaccesibles por calquera outro medio de transporte que non sexa o aire.\n"
+"As persoas que viven na illa nunca viron esta paisaxe extraordinaria a menos que realizasen percorridos en helicóptero por Maui para velo. Cando o clima foi chuvioso e hai moita choiva durante a tempada, verá moitas fervenzas asombrosas."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid ""
+"More important to the family traveler than the business traveler, you should"
+" find out just how child friendly the hotel is from the directory and make "
+"your decision from there. One thing worth looking for is whether the hotel "
+"offers a baby sitters service. For the business traveler wishing to escape "
+"children this is of course very relevant too – perhaps a hotel that is not "
+"child friendly would be something more appropriate!"
+msgstr ""
+"Más importante para o viaxeiro familiar que para o viaxeiro de negocios, "
+"debe pescudar que tan amigable para os nenos é o hotel no directorio e tomar"
+" unha decisión a partir de aí. Unha cousa que vale a pena buscar é se o "
+"hotel ofrece un servizo de aia. Para o viaxeiro de negocios que desexe "
+"escapar dos nenos, isto tamén é moi relevante, quizais un hotel que non sexa"
+" apto para nenos sería algo máis apropiado!"
+
+#. module: website_blog
+#: model:ir.filters,name:website_blog.dynamic_snippet_most_viewed_blog_post_filter
+#: model:website.snippet.filter,name:website_blog.dynamic_filter_most_viewed_blog_posts
+msgid "Most Viewed Blog Posts"
+msgstr "Publicacións do blog máis vistas"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag__name
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag_category__name
+msgid "Name"
+msgstr "Nome"
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/website_blog.editor.js:0
+#, python-format
+msgid "New Blog Post"
+msgstr "Nova entrada do blog"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
+msgid "No blog post yet."
+msgstr "Sen entradas aínda."
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__visits
+msgid "No of Views"
+msgstr "Nº de visitas"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
+msgid "No results for \"%s\"."
+msgstr "Non hai resultados para \"%s\"."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_short
+msgid "No results found for '"
+msgstr "Non se atoparon resultados para '"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_tags
+msgid "No tags defined yet."
+msgstr "Aínda non se definiron etiquetas."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.s_dynamic_snippet_options_template
+msgid "None"
+msgstr "Ningún"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_4
+msgid ""
+"None of this precludes you from moving forward with your plans to put "
+"together an awesome telescope system. Just be sure you get quality advice "
+"and training on how to configure your telescope to meet your needs. Using "
+"these guidelines, you will enjoy hours of enjoyment stargazing at the "
+"phenomenal sights in the night sky that are beyond the naked eye."
+msgstr ""
+"Nada disto impídelle seguir adiante cos seus plans para armar un "
+"impresionante sistema de telescopio. Só asegúrese de recibir asesoramento e "
+"capacitación de calidade sobre como configurar o seu telescopio para "
+"satisfacer as súas necesidades. Con estas pautas, gozará de horas de goce "
+"contemplando as estrelas nas vistas fenomenais do ceo nocturno que están "
+"máis aló do ollo humano."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_5
+msgid ""
+"Not only knowing the weather will make sure your star gazing is rewarding "
+"but if you learn when the big meteor showers and other big astronomy events "
+"will happen will make the excitement of astronomy come alive for you."
+msgstr ""
+"Non só coñecer o clima asegurará que a súa observación das estrelas sexa "
+"gratificante, senón que se se decata de cando ocorrerán as grandes choivas "
+"de meteoritos e outros grandes eventos astronómicos, a emoción da astronomía"
+" cobrará vida para vostede."
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_needaction_counter
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de accións"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_has_error_counter
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__message_has_error_counter
+msgid "Number of errors"
+msgstr "Numero de erros"
+
+#. module: website_blog
+#: model:ir.model.fields,help:website_blog.field_blog_blog__message_needaction_counter
+#: model:ir.model.fields,help:website_blog.field_blog_post__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensaxes que requiren unha acción"
+
+#. module: website_blog
+#: model:ir.model.fields,help:website_blog.field_blog_blog__message_has_error_counter
+#: model:ir.model.fields,help:website_blog.field_blog_post__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensaxes con erro de envío"
+
+#. module: website_blog
+#: model:ir.model.fields,help:website_blog.field_blog_blog__message_unread_counter
+#: model:ir.model.fields,help:website_blog.field_blog_post__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensaxes non leidos"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_7
+msgid ""
+"Of course, to take your moon worship to the ultimate, stepping your "
+"equipment up to a good starter telescope will give you the most stunning "
+"detail of the lunar surface. With each of these upgrades your knowledge and "
+"the depth and scope of what you will be able to see will improve "
+"geometrically. For many amateur astronomers, we sometimes cannot get enough "
+"of what we can see on this our closest space object."
+msgstr ""
+"Por suposto, para levar a súa adoración á lúa ao máximo, aumentar o seu "
+"equipo a un bo telescopio de inicio daralle o detalle máis impresionante da "
+"superficie lunar. Con cada unha destas actualizacións, o seu coñecemento e a"
+" profundidade e o alcance do que poderá ver mellorarán geométricamente. Para"
+" moitos astrónomos afeccionados, ás veces non podemos obter suficiente do "
+"que podemos ver en leste o noso obxecto espacial máis próximo."
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/tours/website_blog.js:0
+#, python-format
+msgid "Once you have reviewed the content on mobile, close the preview."
+msgstr "Unha vez revisase os contidos no móbil, peche a vista previa."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_tags
+msgid "Others"
+msgstr "Outros"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_blogs_display
+msgid "Our blogs"
+msgstr "Os nosos blogs"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_2
+msgid "Photo by Anton Repponen, @repponen"
+msgstr "Foto de Anton Repponen, @repponen"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_4
+msgid "Photo by Arto Marttinen, @wandervisions"
+msgstr "Foto de Arto Marttinen, @wandervisions"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_1
+msgid "Photo by Boris Smokrovic, @borisworkshop"
+msgstr "Foto de Boris Smokrovic, @borisworkshop"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_2
+msgid "Photo by Denys Nevozhai, @dnevozhai"
+msgstr "Foto de Denys Nevozhai, @dnevozhai"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_7
+msgid "Photo by Greg Rakozy, @grakozy"
+msgstr "Foto de Greg Rakozy, @grakozy"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid "Photo by Jason Briscoe, @jbriscoe"
+msgstr "Foto de Jason Briscoe, @jbriscoe"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_2
+msgid "Photo by Jon Ly, @jonatron"
+msgstr "Foto de Jon Ly, @jonatron"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_7
+msgid "Photo by Patrick Brinksma, @patrickbrinksma"
+msgstr "Foto de Patrick Brinksma, @patrickbrinksma"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_1
+msgid "Photo by PoloX Hernandez, @elpolox"
+msgstr "Foto de PoloX Hernandez, @elpolox"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_5
+msgid "Photo by SpaceX, @spacex"
+msgstr "Foto de SpaceX, @spacex"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_6
+msgid "Photo by Teddy Kelley, @teddykelley"
+msgstr "Foto de Teddy Kelley, @teddykelley"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__blog_post_count
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag__post_ids
+msgid "Posts"
+msgstr "Posts"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_searchbar_input_snippet_options
+msgid "Publication Date"
+msgstr "Data de publicación"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
+msgid "Published ("
+msgstr "Está publicado"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__published_date
+msgid "Published Date"
+msgstr "Data publicada"
+
+#. module: website_blog
+#: model:mail.message.subtype,description:website_blog.mt_blog_blog_published
+#: model:mail.message.subtype,name:website_blog.mt_blog_blog_published
+msgid "Published Post"
+msgstr "Entrada publicada"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_form
+msgid "Publishing Options"
+msgstr "Opcións de publicación"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__post_date
+msgid "Publishing date"
+msgstr "Data de publicación"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post
+msgid "Read more"
+msgstr "Ler máis"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
+msgid "Read more <i class=\"fa fa-chevron-right ml-2\"/>"
+msgstr "Le mais"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid "Restaurants, Cafes and Bars"
+msgstr "Restaurantes, cafés e bares"
+
+#. module: website_blog
+#: model:ir.model.fields,help:website_blog.field_blog_blog__website_id
+#: model:ir.model.fields,help:website_blog.field_blog_post__website_id
+msgid "Restrict publishing to this website."
+msgstr "Restrinxir publicar a este sitio web."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_form
+msgid "SEO"
+msgstr "SÉ"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__is_seo_optimized
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__is_seo_optimized
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag__is_seo_optimized
+msgid "SEO optimized"
+msgstr "Optimizado para SÉ"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_has_sms_error
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Erro de entrega do SMS"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.dynamic_filter_template_blog_post_big_picture
+#: model_terms:ir.ui.view,arch_db:website_blog.dynamic_filter_template_blog_post_card
+#: model_terms:ir.ui.view,arch_db:website_blog.dynamic_filter_template_blog_post_horizontal
+#: model_terms:ir.ui.view,arch_db:website_blog.dynamic_filter_template_blog_post_list
+msgid "Sample"
+msgstr "Mostra"
+
+#. module: website_blog
+#: code:addons/website_blog/models/website_snippet_filter.py:0
+#, python-format
+msgid "Satellites"
+msgstr "Satélites"
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/tours/website_blog.js:0
+#, python-format
+msgid "Search for an image. (eg: type \"business\")"
+msgstr "Busca unha imaxe. (p. ex., escriba \"empresa\")"
+
+#. module: website_blog
+#: code:addons/website_blog/models/website_snippet_filter.py:0
+#, python-format
+msgid "Seaside vs mountain side"
+msgstr "Mar contra montaña"
+
+#. module: website_blog
+#: code:addons/website_blog/models/website_snippet_filter.py:0
+#, python-format
+msgid "Seeing the world from above"
+msgstr "Ver o mundo desde arriba"
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/website_blog.editor.js:0
+#, python-format
+msgid "Select Blog"
+msgstr "Seleccionar blog"
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/tours/website_blog.js:0
+#, python-format
+msgid "Select the blog you want to add the post to."
+msgstr "Seleccione o blog ao que desexa agregar a publicación."
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/tours/website_blog.js:0
+#, python-format
+msgid "Select this menu item to create a new blog post."
+msgstr ""
+"Seleccione este elemento de menú para crear unha nova entrada do blog."
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__seo_name
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__seo_name
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag__seo_name
+msgid "Seo name"
+msgstr "Nomee SÉ"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_form
+msgid "Separate every keyword with a comma"
+msgstr "Separe cada palabra chave cunha coma."
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/tours/website_blog.js:0
+#, python-format
+msgid "Set a blog post <b>cover</b>."
+msgstr "Poña unha <b>portada</b> á súa entrada de blog."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_1
+msgid ""
+"Several migratory and native birds, mammals and reptiles call Copper Canyon "
+"their home. The exquisite fauna in this near-pristine land is also worth "
+"checking out."
+msgstr ""
+"Varias aves migratorias e nativas, mamíferos e réptiles chaman ás Barrancas "
+"do Cobre o seu fogar. Tamén vale a pena botarlle unha ollada á exquisita "
+"fauna desta terra case virxe."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_share_links_display
+msgid "Share on Facebook"
+msgstr "Compartir en Facebook"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_share_links_display
+msgid "Share on LinkedIn"
+msgstr "Compartir en Linkedin"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_share_links_display
+msgid "Share on Twitter"
+msgstr "Compartir en Twitter"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_share_links_display
+msgid "Share this post"
+msgstr "Compartir"
+
+#. module: website_blog
+#: model:blog.post,name:website_blog.blog_post_1
+msgid "Sierra Tarahumara"
+msgstr "Sierra Tarahumara"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_1
+msgid ""
+"Sierra Tarahumara, popularly known as Copper Canyon is situated in Mexico. "
+"The area is a favorite destination among those seeking an adventurous "
+"vacation."
+msgstr ""
+"A Sierra Tarahumara, coñecida popularmente como Barrancas do Cobre, atópase "
+"en México. A área é un destino favorito entre aqueles que buscan unhas "
+"vacacións aventureiras."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.s_dynamic_snippet_options_template
+msgid "Silly-Chico"
+msgstr "Mozo parvo"
+
+#. module: website_blog
+#: code:addons/website_blog/models/website_snippet_filter.py:0
+#, python-format
+msgid "Skies"
+msgstr "Ceos"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_6
+msgid ""
+"So it is critically important that you get just the right telescope for "
+"where you are and what your star gazing preferences are. To start with, "
+"let’s discuss the three major kinds of telescopes and then lay down some "
+"“Telescope 101″ concepts to increase your chances that you will buy the "
+"right thing."
+msgstr ""
+"Por tanto, é de vital importancia que obteña o telescopio adecuado para o "
+"lugar onde se atopa e cales son as súas preferencias de observación de "
+"estrelas. Para empezar, analicemos os tres tipos principais de telescopios e"
+" logo establezamos algúns conceptos de \"Telescopio 101\" para aumentar as "
+"súas posibilidades de comprar o correcto."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_4
+msgid ""
+"So it might be that once a year vacation to a camping spot or a trip to a "
+"relative’s house out in the country that we find ourselves outside when the "
+"spender of the night sky suddenly decides to put on it’s spectacular show. "
+"If you have had that kind of moment when you were literally struck "
+"breathless by the spender the night sky can show to us, you can probably "
+"remember that exact moment when you could say little else but “wow” at what "
+"you saw."
+msgstr ""
+"Por tanto, pode ser que unha vez ao ano, de vacacións a un lugar para "
+"acampar ou unha viaxe á casa dun familiar no campo, atopémonos fóra cando o "
+"gastador do ceo nocturno de súpeto decida montar o seu espectáculo "
+"espectacular. Se tiveches ese tipo de momento no que literalmente quedaches "
+"sen alento polo gastador que o ceo nocturno pódenos mostrar, probablemente "
+"poidas lembrar ese momento exacto no que non puideches dicir máis nada que "
+"\"wow\" polo que viches."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_6
+msgid ""
+"So to select just the right kind of telescope, your objectives in using the "
+"telescope are important. To really understand the strengths and weaknesses "
+"not only of the lenses and telescope design but also in how the telescope "
+"performs in various star gazing situations, it is best to do some homework "
+"up front and get exposure to the different kinds. So before you make your "
+"first purchase…"
+msgstr ""
+"Entón, para seleccionar o tipo correcto de telescopio, os seus obxectivos ao"
+" usar o telescopio son importantes. Para comprender realmente as fortalezas "
+"e debilidades non só das lentes e o deseño do telescopio, senón tamén de "
+"como funciona o telescopio en diversas situacións de observación de "
+"estrelas, é mellor facer algúns deberes por adiantado e expoñerse aos "
+"diferentes tipos. Entón, antes de realizar a súa primeira compra ..."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid ""
+"So you’re going abroad, you’ve chosen your destination and now you have to "
+"choose a hotel."
+msgstr ""
+"Así que te vas ao estranxeiro, elixiches o teu destino e agora tes que "
+"elixir un hotel."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_1
+#: model_terms:blog.post,content:website_blog.blog_post_3
+#: model_terms:blog.post,content:website_blog.blog_post_4
+#: model_terms:blog.post,content:website_blog.blog_post_5
+#: model_terms:blog.post,content:website_blog.blog_post_6
+#: model_terms:blog.post,content:website_blog.blog_post_7
+msgid "Someone famous in <cite title=\"Source Title\">Source Title</cite>"
+msgstr "Alguén famoso no <cite title=\"Source Title\">título fonte</cite>"
+
+#. module: website_blog
+#: code:addons/website_blog/models/website_snippet_filter.py:0
+#, python-format
+msgid "Spotting the fauna"
+msgstr "Observar a fauna"
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/models/website_blog.py:0
+#: code:addons/website_blog/static/src/js/tours/website_blog.js:0
+#, python-format
+msgid "Start writing here..."
+msgstr "Empezo a escribir aquí..."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid "Style"
+msgstr "Estilo"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__subtitle
+msgid "Sub Title"
+msgstr "Subtítulo"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_complete
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post_fullwidth_design
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_read_next
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_regular_cover
+msgid "Subtitle"
+msgstr "Subtítulo"
+
+#. module: website_blog
+#: model:ir.ui.menu,name:website_blog.menu_website_blog_tag_category_global
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_tag_category_tree
+msgid "Tag Categories"
+msgstr "Categorías de etiquetas"
+
+#. module: website_blog
+#: model:ir.actions.act_window,name:website_blog.action_tag_category
+msgid "Tag Category"
+msgstr "Categoría de etiqueta"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_tag_category_form
+msgid "Tag Category Form"
+msgstr "Formulario de categoría de etiqueta"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_tag_form
+msgid "Tag Form"
+msgstr "Formulario de etiqueta"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_tag_tree
+msgid "Tag List"
+msgstr "Lista de etiquetas"
+
+#. module: website_blog
+#: model:ir.model.constraint,message:website_blog.constraint_blog_tag_category_name_uniq
+msgid "Tag category already exists !"
+msgstr "A categoría de etiquetas xa existe!"
+
+#. module: website_blog
+#: model:ir.model.constraint,message:website_blog.constraint_blog_tag_name_uniq
+msgid "Tag name already exists !"
+msgstr "O nome de categoría xa existe!"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__tag_ids
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag_category__tag_ids
+#: model:ir.ui.menu,name:website_blog.menu_blog_tag_global
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_tags_display
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_tags
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Tags"
+msgstr "Etiquetas"
+
+#. module: website_blog
+#: code:addons/website_blog/models/website_snippet_filter.py:0
+#, python-format
+msgid "Taking pictures in the dark"
+msgstr "Tomar fotografías na escuridade"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__teaser
+msgid "Teaser"
+msgstr "Avance"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__teaser_manual
+msgid "Teaser Content"
+msgstr "Contido do avance"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid ""
+"Ten years ago, you’d have probably visited your local travel agent and "
+"trusted the face-to-face advice you were given by the so called ‘experts’. "
+"The 21st Century way to select and book your hotel is of course on the "
+"Internet, by using travel websites."
+msgstr ""
+"Fai dez anos, probablemente visitaría ao seu axente de viaxes local e "
+"confiaría nos consellos en persoa que lle deron os chamados \"expertos\". A "
+"forma do século XXI de seleccionar e reservar o seu hotel é, por suposto, a "
+"través de Internet, mediante o uso de sitios web de viaxes."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_4
+msgid ""
+"That “Wow” moment is what astrology is all about. For some, that wow moment "
+"becomes a passion that leads to a career studying the stars. For a lucky "
+"few, that wow moment because an all consuming obsession that leads to them "
+"traveling to the stars in the space shuttle or on one of our early space "
+"missions. But for most of us astrology may become a pastime or a regular "
+"hobby. But we carry that wow moment with us for the rest of our lives and "
+"begin looking for ways to look deeper and learn more about the spectacular "
+"universe we see in the millions of stars above us each night."
+msgstr ""
+"Ese momento \"Wow\" é do que se trata a astrología. Para algúns, ese momento"
+" asombroso convértese nunha paixón que os leva a unha carreira estudando as "
+"estrelas. Para uns poucos afortunados, ese momento asombroso débese a unha "
+"obsesión que os leva a viaxar ás estrelas no transbordador espacial ou nunha"
+" das nosas primeiras misións espaciais. Pero para a maioría de nós, a "
+"astrología pode converterse nun pasatempo ou un pasatempo habitual. Pero "
+"levamos ese momento asombroso connosco polo resto das nosas vidas e "
+"comezamos a buscar formas de mirar máis profundamente e aprender máis sobre "
+"o universo espectacular que vemos nos millóns de estrelas sobre nós cada "
+"noite."
+
+#. module: website_blog
+#: model:blog.post,subtitle:website_blog.blog_post_5
+msgid "The beauty of astronomy is that anybody can do it."
+msgstr "A beleza da astronomía é que calquera pode facelo."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_7
+msgid ""
+"The best time to view the moon, obviously, is at night when there are few "
+"clouds and the weather is accommodating for a long and lasting study. The "
+"first quarter yields the greatest detail of study. And don’t be fooled but "
+"the blotting out of part of the moon when it is not in full moon stage. The "
+"phenomenon known as “earthshine” gives you the ability to see the darkened "
+"part of the moon with some detail as well, even if the moon is only at "
+"quarter or half display."
+msgstr ""
+"O mellor momento para ver a lúa, obviamente, é pola noite cando hai poucas "
+"nubes e o clima é propicio para un estudo longo e duradeiro. O primeiro "
+"trimestre lanza o maior detalle de estudo. E non te deixes enganar polo "
+"borrado de parte da lúa cando non está na etapa de lúa chea. O fenómeno "
+"coñecido como \"luz da terra\" dálle a capacidade de ver a parte escurecida "
+"da lúa con algúns detalles tamén, mesmo se a lúa está só nun cuarto ou medio"
+" punto."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_7
+msgid "The best time to view the moon."
+msgstr "O mellor momento para ver a lúa."
+
+#. module: website_blog
+#: model:ir.model.fields,help:website_blog.field_blog_post__post_date
+msgid ""
+"The blog post will be visible for your visitors as of this date on the "
+"website if it is set as published."
+msgstr ""
+"A entrada do blog será visible para os seus visitantes na data indicada no "
+"sitio web se se fixa como publicada."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_2
+msgid ""
+"The cliffs in this region are among the highest in the world and to see "
+"water cascading from the high peaks is simply breathtaking. The short jaunt "
+"from Maui with Maui helicopter tours is well worth seeing the beauty of this"
+" natural environment."
+msgstr ""
+"Os cantís desta rexión atópanse entre os máis altos do mundo e ver a auga en"
+" fervenza desde os picos altos é simplemente impresionante. A curta "
+"excursión desde Maui con percorridos en helicóptero por Maui ben vale a pena"
+" ver a beleza desta contorna natural."
+
+#. module: website_blog
+#: model:ir.model.fields,help:website_blog.field_blog_post__website_url
+msgid "The full URL to access the document through the website."
+msgstr "A URL completa para acceder ao documento a través do sitio web."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_4
+msgid ""
+"The next thing we naturally want to get is a good telescope. You may have "
+"seen a hobbyist who is well along in their study setting up those really "
+"cool looking telescopes on a hill somewhere. That excites the amateur "
+"astronomer in you because that must be the logical next step in the growth "
+"of your hobby. But how to buy a good telescope can be downright confusing "
+"and intimidating."
+msgstr ""
+"O seguinte que naturalmente queremos conseguir é un bo telescopio. É posible"
+" que vise a un afeccionado que avanzou moito no seu estudo colocando eses "
+"telescopios de aspecto realmente xenial nun outeiro nalgún lugar. Iso "
+"entusiasma ao astrónomo afeccionado que hai en ti porque debe ser o seguinte"
+" paso lóxico no crecemento do teu pasatempo. Pero como comprar un bo "
+"telescopio pode ser francamente confuso e intimidante."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid ""
+"The site should offer a detailed analysis of leisure services within the "
+"hotel – spa, pool, gym, sauna – as well as details of any other facilities "
+"nearby such as golf courses. 7. Special Needs: the hotel directory site "
+"should advise the visitor of each hotel’s special needs services and "
+"accessibility policy. Whilst again this does not apply to every visitor, it "
+"is absolutely vital to some."
+msgstr ""
+"O sitio debe ofrecer unha análise detallada dos servizos de lecer dentro do "
+"hotel (spa, piscina, ximnasio, sauna), así como detalles de calquera outra "
+"instalación próxima, como campos de golf. 7. Necesidades especiais: o sitio "
+"do directorio de hoteis debe informar o visitante sobre os servizos de "
+"necesidades especiais e a política de accesibilidade de cada hotel. Aínda "
+"que, novamente, isto non se aplica a todos os visitantes, é absolutamente "
+"vital para algúns."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_6
+msgid ""
+"The tripod or other accessory decisions will change significantly with a "
+"telescope that will live on your deck versus one that you plan to take to "
+"many remote locations."
+msgstr ""
+"As decisións sobre o trípode ou outros accesorios cambiarán "
+"significativamente cun telescopio que vivirá na súa plataforma en "
+"comparación cun que planea levar a moitas localizacións remotas."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_2
+msgid ""
+"The view of this is truly breathtaking and is a sight not to be missed. It "
+"is also highly educational with a chance to see a dormant volcano up close, "
+"something that can not be seen every day. On the northern and southern sides"
+" of the volcano, you will see an incredible different view however. These "
+"sides are lush and green and you will be able to see some beautiful "
+"waterfalls and gorgeous brush. Tropical rainforests abound on this side of "
+"the island and it is something that is not easily accessible by any other "
+"means than by air."
+msgstr ""
+"A vista disto é realmente impresionante e é un espectáculo que non debe "
+"perderse. Tamén é moi educativo coa oportunidade de ver de preto un volcán "
+"inactivo, algo que non se pode ver todos os días. Con todo, nos lados norte "
+"e sur do volcán, verá unha vista diferente incrible. Estes lados son "
+"exuberantes e verdes e poderás ver fermosas fervenzas e fermosos arbustos. "
+"As selvas tropicais abundan neste lado da illa e é algo ao que non se pode "
+"acceder facilmente por ningún outro medio que non sexa por aire."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid ""
+"Then there’s the problem of the reviewer’s motivation. The more reviews you "
+"read, the more you notice how they tend to cluster at the extremes of "
+"opinion. On one end, you have angry reviewers with axes to grind; at the "
+"other, you have delighted guests who lavish praise beyond belief. You’ll not"
+" be surprised to learn that hotels sometimes post their own glowing reviews,"
+" or that competitor’s line up for the chance to lambaste the competition "
+"with bad reviews. It makes sense to consider what is really important to you"
+" when selecting a hotel. You should then choose an online hotel directory "
+"that gives up-to-date, independent, impartial information that really "
+"matters."
+msgstr ""
+"Logo está o problema da motivación do revisor. Cantas máis recensións lea, "
+"máis notará como tenden a agruparse nos extremos das opinións. Por unha "
+"banda, ten críticos anoxados con machadas que moer; no outro, ten convidados"
+" encantados que se prodigan eloxios máis aló do crible. Non lle sorprenderá "
+"saber que os hoteis ás veces publican as súas propias críticas entusiastas, "
+"ou que a competencia se aliña para ter a oportunidade de criticar á "
+"competencia con críticas negativas. Ten sentido considerar o que é realmente"
+" importante para vostede ao seleccionar un hotel. Logo, debe elixir un "
+"directorio de hoteis en liña que brinde información actualizada, "
+"independente e imparcial que realmente importe."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_6
+msgid ""
+"There are other considerations to factor into your final purchase decision."
+msgstr ""
+"Hai outras consideracións para ter en conta na súa decisión de compra final."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_5
+msgid ""
+"There is something timeless about the cosmos. The fact that the planets and "
+"the moon and the stars beyond them have been there for ages does something "
+"to our sense of our place in the universe. In fact, many of the stars we "
+"“see” with our naked eye are actually light that came from that star "
+"hundreds of thousands of years ago. That light is just now reaching the "
+"earth. So in a very real way, looking up is like time travel."
+msgstr ""
+"Hai algo atemporal no cosmos. O feito de que os planetas, a lúa e as "
+"estrelas máis aló deles estivesen alí durante séculos inflúe no noso sentido"
+" do noso lugar no universo. De feito, moitas das estrelas que “vemos” a "
+"primeira ollada son en realidade luz que proveu desa estrela fai centos de "
+"miles de anos. Esa luz acaba de chegar á terra. Entón, dunha maneira moi "
+"real, mirar cara arriba é como viaxar no tempo."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid ""
+"These things really do matter and any decent hotel directory should give you"
+" this sort of advice on bedrooms – not just the number of rooms which is the"
+" usual option!"
+msgstr ""
+"Estas cousas realmente importan e calquera directorio de hoteis decente "
+"debería darlle este tipo de consellos sobre as habitacións, non só sobre o "
+"número de habitacións, que é a opción habitual!"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
+msgid "This box will not be visible to your visitors"
+msgstr "Este cadro non será visible para os seus visitantes."
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/options.js:0
+#, python-format
+msgid "This tag already exists"
+msgstr "O nome de categoría xa existe!"
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/options.js:0
+#, python-format
+msgid "Tiny"
+msgstr "Pequeño"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__name
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_regular_cover
+msgid "Title"
+msgstr "Título"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_7
+msgid ""
+"To gaze at the moon with the naked eye, making yourself familiar with the "
+"lunar map will help you pick out the seas, craters and other geographic "
+"phenomenon that others have already mapped to make your study more "
+"enjoyable. Moon maps can be had from any astronomy shop or online and they "
+"are well worth the investment."
+msgstr ""
+"Para contemplar a lúa a primeira ollada, familiarizarse co mapa lunar "
+"axudaralle a identificar os mares, cráteres e outros fenómenos xeográficos "
+"que outros xa cartografaron para que o seu estudo sexa máis agradable. Os "
+"mapas da lúa pódense obter en calquera tenda de astronomía ou en liña e ben "
+"vale a pena o investimento."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_4
+msgid ""
+"To get started in learning how to observe the stars much better, there are "
+"some basic things we might need to look deeper, beyond just what we can see "
+"with the naked eye and begin to study the stars as well as enjoy them. The "
+"first thing you need isn’t equipment at all but literature. A good star map "
+"will show you the major constellations, the location of the key stars we use"
+" to navigate the sky and the planets that will appear larger than stars. And"
+" if you add to that map some well done introductory materials into the hobby"
+" of astronomy, you are well on your way."
+msgstr ""
+"Para comezar a aprender a observar as estrelas moito mellor, hai algunhas "
+"cousas básicas que poderiamos necesitar para mirar máis profundamente, máis "
+"aló do que podemos ver a primeira ollada e comezar a estudar as estrelas e "
+"gozalas. O primeiro que necesita non é equipo, senón literatura. Un bo mapa "
+"de estrelas mostraralle as constelacións principais, a localización da "
+"estrella clave que usamos para navegar polo ceo e os planetas que parecerán "
+"máis grandes que as estrelas. E se agrega a ese mapa algúns materiais "
+"introdutorios ben feitos ao pasatempo da astronomía, está ben encamiñado."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_7
+msgid ""
+"To kick it up a notch, a good pair of binoculars can do wonders for the "
+"detail you will see on the lunar surface. For best results, get a good wide "
+"field in the binocular settings so you can take in the lunar landscape in "
+"all its beauty. And because it is almost impossible to hold the binoculars "
+"still for the length of time you will want to gaze at this magnificent body "
+"in space, you may want to add to your equipment arsenal a good tripod that "
+"you can affix the binoculars to so you can study the moon in comfort and "
+"with a stable viewing platform."
+msgstr ""
+"Para melloralo, un bo par de binoculares pode facer marabillas cos detalles "
+"que verá na superficie lunar. Para obter os mellores resultados, obteña un "
+"bo campo amplo na configuración dos binoculares para que poida gozar da "
+"paisaxe lunar en toda a súa beleza. E debido a que é case imposible manter "
+"os binoculares quietos durante o tempo que desexe contemplar este magnífico "
+"corpo no espazo, é posible que desexe agregar ao seu arsenal de equipos un "
+"bo trípode ao que poida colocar os binoculares para poder Estude a lúa con "
+"comodidade e cunha plataforma de observación estable."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_7
+msgid ""
+"To take it to a natural next level, you may want to take advantage of "
+"partnerships with other astronomers or by visiting one of the truly great "
+"telescopes that have been set up by professionals who have invested in "
+"better techniques for eliminating atmospheric interference to see the moon "
+"even better. The internet can give you access to the Hubble and many of the "
+"huge telescopes that are pointed at the moon all the time. Further, many "
+"astronomy clubs are working on ways to combine multiple telescopes, "
+"carefully synchronized with computers for the best view of the lunar "
+"landscape."
+msgstr ""
+"Para levalo ao seguinte nivel natural, é posible que desexe aproveitar as "
+"asociacións con outros astrónomos ou visitando un dos telescopios "
+"verdadeiramente xeniais que foron establecidos por profesionais que "
+"investiron en mellores técnicas para eliminar a interferencia atmosférica "
+"para ver a lúa. aínda mellor. Internet pode darlle acceso ao Hubble e a "
+"moitos dos enormes telescopios que apuntan á lúa todo o tempo. Ademais, "
+"moitos clubs de astronomía están a traballar en formas de combinar múltiples"
+" telescopios, coidadosamente sincronizados con computadoras para obter a "
+"mellor vista da paisaxe lunar."
+
+#. module: website_blog
+#: model:blog.blog,name:website_blog.blog_blog_1
+msgid "Travel"
+msgstr "Viaxes"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_share_links_display
+msgid "Twitter"
+msgstr "Twitter"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
+msgid "Unpublished ("
+msgstr "Non publicado ("
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_unread
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__message_unread
+msgid "Unread Messages"
+msgstr "Mensaxes sen ler"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_unread_counter
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Nº de mensaxes sen ler"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.post_heading
+msgid "Untitled Post"
+msgstr "Post sen título"
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/tours/website_blog.js:0
+#, python-format
+msgid "Use this icon to preview your blog post on <b>mobile devices</b>."
+msgstr ""
+"Use esta icona para previsualizar a súa entrada de blog en <b>dispositivos "
+"móbiles</b>."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_tag_form
+msgid "Used in:"
+msgstr "Usado en:"
+
+#. module: website_blog
+#: code:addons/website_blog/models/website_snippet_filter.py:0
+#, python-format
+msgid "Viewpoints"
+msgstr "Miradoiros"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.post_info
+msgid "Views"
+msgstr "Vistas"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.index
+msgid "Visible in all blogs' pages"
+msgstr "Visible en todas as páxinas dos blogs"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__website_published
+msgid "Visible on current website"
+msgstr "Visible no sitio web actual"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_content
+msgid "WRITE HERE OR DRAG BUILDING BLOCKS"
+msgstr "ESCRIBA AQUÍ Ou ARRASTRE BLOQUES DE CREACIÓN"
+
+#. module: website_blog
+#: model:ir.model,name:website_blog.model_website
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__website_id
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__website_id
+msgid "Website"
+msgstr "Sitio web"
+
+#. module: website_blog
+#: model:ir.actions.act_url,name:website_blog.action_open_website
+msgid "Website Blogs"
+msgstr "Blogs do sitio web"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__website_message_ids
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__website_message_ids
+msgid "Website Messages"
+msgstr "Mensaxes do sitio web"
+
+#. module: website_blog
+#: model:ir.model,name:website_blog.model_website_snippet_filter
+msgid "Website Snippet Filter"
+msgstr "Filtro de fragmentos do sitio web"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__website_url
+msgid "Website URL"
+msgstr "URL do sitio web"
+
+#. module: website_blog
+#: model:ir.model.fields,help:website_blog.field_blog_blog__website_message_ids
+#: model:ir.model.fields,help:website_blog.field_blog_post__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicacións do sitio web"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__website_meta_description
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__website_meta_description
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag__website_meta_description
+msgid "Website meta description"
+msgstr "Meta descrición do sitio web"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__website_meta_keywords
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__website_meta_keywords
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag__website_meta_keywords
+msgid "Website meta keywords"
+msgstr "Meta palabras chave do sitio web"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__website_meta_title
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__website_meta_title
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag__website_meta_title
+msgid "Website meta title"
+msgstr "Meta título do sitio web"
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__website_meta_og_img
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__website_meta_og_img
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag__website_meta_og_img
+msgid "Website opengraph image"
+msgstr "Imaxe do Open Graph do sitio"
+
+#. module: website_blog
+#: model:blog.post,name:website_blog.blog_post_5
+msgid "What If They Let You Run The Hubble"
+msgstr "E se che deixan executar o Hubble?"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_5
+msgid ""
+"While anyone can look up and fall in love with the stars at any time, the "
+"fun of astronomy is learning how to become more and more skilled and "
+"equipped in star gazing that you see and understand more and more each time "
+"you look up. Here are some steps you can take to make the moments you can "
+"devote to your hobby of astronomy much more enjoyable."
+msgstr ""
+"Aínda que calquera persoa pode mirar cara arriba e namorarse das estrelas en"
+" calquera momento, a diversión da astronomía é aprender a ser cada vez máis "
+"hábil e equipado para observar as estrelas que ves e comprendes cada vez "
+"máis cada vez que miras cara arriba. A continuación indícanse algúns pasos "
+"que pode seguir para que os momentos que poida dedicar á súa afección pola "
+"astronomía sexan moito máis agradables."
+
+#. module: website_blog
+#: code:addons/website_blog/models/website_snippet_filter.py:0
+#, python-format
+msgid "With a View"
+msgstr "Cunha vista"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.sidebar_blog_index
+msgid "Write a small text here to describe your blog or company."
+msgstr "Escriba aquí un pequeno texto para describir o seu blog ou empresa."
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/tours/website_blog.js:0
+#, python-format
+msgid "Write a title, the subtitle is optional."
+msgstr "Escribe un título, o subtitulo é opcional."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_3
+msgid ""
+"You should always carefully consider the type of facilities you need from "
+"your bedroom and find the hotel that has those you consider important. The "
+"hotel directory website should elaborate on matters such as: bed size, "
+"Internet Access (its cost, whether there is WIFI or wired broadband "
+"connection), Complimentary amenities, views from the room and luxury "
+"offerings like a Pillow menu or Bath menu, choice of smoking or non smoking "
+"rooms etc."
+msgstr ""
+"Sempre debes considerar coidadosamente o tipo de instalacións que necesitas "
+"desde o teu dormitorio e atopar o hotel que teña as que consideres "
+"importantes. O sitio web do directorio de hoteis debe detallar cuestións "
+"tales como: tamaño da cama, acceso a Internet (o seu custo, xa sexa que haxa"
+" WIFI ou conexión de banda ancha por cable), servizos de cortesía, vistas "
+"desde a habitación e ofertas de luxo como un menú de almofadas ou un menú de"
+" baño, elección de habitacións para fumadores ou non fumadores etc."
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_2
+msgid ""
+"You will see all the beauty that Maui has to offer and can have a great time"
+" for the entire family. Tours are not too expensive and last from forty five"
+" minutes to over an hour. You can see places that are typically inaccessible"
+" with Maui helicopter tours. Places that are not available by foot or "
+"vehicle can be seen by air. Breathtaking sights await those who are up for "
+"some fun Maui helicopter tours. If you will be staying on the island for a "
+"considerable amount of time, you may want to think about doing multiple Maui"
+" helicopter tours."
+msgstr ""
+"Verá toda a beleza que Maui ten para ofrecer e poderá pasar un bo intre para"
+" toda a familia. Os percorridos non son demasiado caros e duran desde "
+"corenta e cinco minutos ata máis dunha hora. Pode ver lugares que "
+"normalmente son inaccesibles cos percorridos en helicóptero por Maui. Os "
+"lugares que non están dispoñibles a pé ou en vehículo poden verse por aire. "
+"Impresionantes vistas agardan a aqueles que estean dispostos a gozar de "
+"divertidos percorridos en helicóptero por Maui. Se permanecerá na illa "
+"durante un período de tempo considerable, é posible que desexe pensar en "
+"facer varios percorridos en helicóptero por Maui."
+
+#. module: website_blog
+#: model:blog.tag,name:website_blog.blog_tag_2
+msgid "adventure"
+msgstr "aventuras"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_template_new_post
+msgid "blog. Click here to access the blog :"
+msgstr "blog. Faga clic aquí para acceder ao blog:"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.post_breadcrumbs
+msgid "breadcrumb"
+msgstr "barra de faragullas"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_regular_cover
+#: model_terms:ir.ui.view,arch_db:website_blog.post_heading
+msgid "by"
+msgstr "por"
+
+#. module: website_blog
+#: model:blog.tag,name:website_blog.blog_tag_5
+msgid "discovery"
+msgstr "descubrimento"
+
+#. module: website_blog
+#: model:blog.tag,name:website_blog.blog_tag_3
+msgid "guides"
+msgstr "guías"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_template_new_post
+msgid "has been published on the"
+msgstr "foi publicado no"
+
+#. module: website_blog
+#: model:blog.tag,name:website_blog.blog_tag_1
+msgid "hotels"
+msgstr "hoteis"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_content
+msgid "in"
+msgstr "en"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post
+msgid "in <i class=\"fa fa-folder-open text-muted\"/>"
+msgstr "en"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post_fullwidth_design
+msgid "in <i class=\"fa fa-folder-open text-white-75\"/>"
+msgstr "en"
+
+#. module: website_blog
+#: model:blog.tag,name:website_blog.blog_tag_4
+msgid "telescopes"
+msgstr "telescopios"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_comment
+msgid "to leave a comment"
+msgstr "deixar un comentario"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
+msgid "unpublished"
+msgstr "non publicado"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_regular_cover
+msgid ""
+"|\n"
+"                            <i class=\"fa fa-comment text-muted mr-1\"/>"
+msgstr ""
+"|\n"
+"                            <i class=\"fa fa-comment text-muted mr-1\"/>"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_regular_cover
+msgid "| No comments yet"
+msgstr "| Sen comentarios aínda"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.s_dynamic_snippet_options_template
+msgid "⌙ Hover effect"
+msgstr "⌙ Efecto ao deslizar o cursor"

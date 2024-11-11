@@ -1,0 +1,364 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * purchase_request_to_requisition
+#
+# Translators:
+# OCA Transbot <transbot@odoo-community.org>, 2017
+# Pedro M. Baeza <pedro.baeza@gmail.com>, 2017
+# Antonio Trueba <atgayol@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-07 23:39\n"
+"PO-Revision-Date: 2024-11-07 23:39\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: purchase_request_to_requisition
+#: code:addons/purchase_request_to_requisition/models/purchase_requisition.py:0
+#, python-format
+msgid "<li><b>%(name)s</b>: Total bid quantity %(qty)s %(uom)s</li>"
+msgstr "<li><b>%(name)s</b>: Cantidade total de oferta %(qty)s %(uom)s</li>"
+
+#. module: purchase_request_to_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
+msgid "At least a Draft Bid has been created"
+msgstr "Creouse polo menos un proxecto de oferta"
+
+#. module: purchase_request_to_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
+msgid "At least a PO has been confirmed"
+msgstr "Confirmouse polo menos un PC"
+
+#. module: purchase_request_to_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
+msgid "At least one of the Bids has been completed"
+msgstr "Completouse polo menos una das Ofertas"
+
+#. module: purchase_request_to_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
+msgid "Bid Sent to Suppliers"
+msgstr "Oferta enviada aos provedores"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line__requisition_state
+msgid "Bid Status"
+msgstr "Estado da oferta"
+
+#. module: purchase_request_to_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
+msgid "Bid completed"
+msgstr "Oferta Completada"
+
+#. module: purchase_request_to_requisition
+#: code:addons/purchase_request_to_requisition/models/purchase_requisition.py:0
+#, python-format
+msgid "Bid confirmation %(bid_name)s for your Request %(request_name)s"
+msgstr ""
+"Confirmación de oferta %(bid_name)s para a súa solicitude %(request_name)s"
+
+#. module: purchase_request_to_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.view_purchase_request_line_make_purchase_requisition
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: purchase_request_to_requisition
+#: model:ir.actions.act_window,name:purchase_request_to_requisition.action_purchase_request_line_make_purchase_requisition
+#: model:ir.actions.act_window,name:purchase_request_to_requisition.action_purchase_request_make_purchase_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.view_purchase_request_line_make_purchase_requisition
+msgid "Create Purchase Agreements"
+msgstr "Crear acordos de compra"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition__create_uid
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition_item__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition__create_date
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition_item__create_date
+msgid "Created on"
+msgstr "Creado o"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition_item__name
+msgid "Description"
+msgstr "Descrición"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition__display_name
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition_item__display_name
+msgid "Display Name"
+msgstr "Nome a mostrar"
+
+#. module: purchase_request_to_requisition
+#: code:addons/purchase_request_to_requisition/wizard/purchase_request_line_make_purchase_requisition.py:0
+#, python-format
+msgid "Enter a positive quantity."
+msgstr "Introduza unha cantidade positiva."
+
+#. module: purchase_request_to_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.view_purchase_request_line_make_purchase_requisition
+msgid "Existing draft purchase agreement to update:"
+msgstr "Proxecto de contrato de compravenda existente para actualizar:"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_requisition_line__has_purchase_request_lines
+msgid "Has Purchase Request Lines"
+msgstr "Dispón de liñas de solicitude de compra"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition__id
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition_item__id
+msgid "ID"
+msgstr "ID"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line__is_editable
+msgid "Is editable"
+msgstr "é editable"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition__item_ids
+msgid "Items"
+msgstr "Elementos"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition____last_update
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition_item____last_update
+msgid "Last Modified on"
+msgstr "Última actualización por"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition__write_uid
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition_item__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition__write_date
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition_item__write_date
+msgid "Last Updated on"
+msgstr "Última actualización o"
+
+#. module: purchase_request_to_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
+msgid "New Bid"
+msgstr "Nova oferta"
+
+#. module: purchase_request_to_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
+msgid "No Bid"
+msgstr "Sen oferta"
+
+#. module: purchase_request_to_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
+msgid "No Bid has been created"
+msgstr "Non se creou ningunha oferta"
+
+#. module: purchase_request_to_requisition
+#: code:addons/purchase_request_to_requisition/models/product.py:0
+#, python-format
+msgid "Only one selection of Purchase Request or Purchase Agreement allowed"
+msgstr ""
+"Só se permite unha selección de Solicitude de Compra ou Acordo de Compra"
+
+#. module: purchase_request_to_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.view_purchase_requisition_form
+msgid "PR Lines"
+msgstr "Liñas de PR"
+
+#. module: purchase_request_to_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.view_purchase_requisition_form
+msgid "PRs"
+msgstr "Relacións públicas"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition_item__product_id
+msgid "Product"
+msgstr "Produto"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model,name:purchase_request_to_requisition.model_product_template
+msgid "Product Template"
+msgstr "Modelo de produto"
+
+#. module: purchase_request_to_requisition
+#: code:addons/purchase_request_to_requisition/wizard/purchase_request_line_make_purchase_requisition.py:0
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition__purchase_requisition_id
+#, python-format
+msgid "Purchase Agreement"
+msgstr "Acordo de compra"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line__requisition_lines
+#: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_form
+#: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.view_purchase_request_line_details
+msgid "Purchase Agreement Lines"
+msgstr "Liñas de acordo de compra"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model,name:purchase_request_to_requisition.model_purchase_request
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition_item__request_id
+msgid "Purchase Request"
+msgstr "Petición de compra"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_requisition__purchase_request_count
+msgid "Purchase Request Count"
+msgstr "Reconto de solicitudes de compra"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model,name:purchase_request_to_requisition.model_purchase_request_line
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition_item__line_id
+msgid "Purchase Request Line"
+msgstr "Liña de petición de compra"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model,name:purchase_request_to_requisition.model_purchase_request_line_make_purchase_requisition
+msgid "Purchase Request Line Make Purchase Agreement"
+msgstr "Liña de solicitude de compra Realizar acordo de compra"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model,name:purchase_request_to_requisition.model_purchase_request_line_make_purchase_requisition_item
+msgid "Purchase Request Line Make Purchase Agreement Item"
+msgstr "Liña de solicitude de compra Realizar o acordo de compra Artigo"
+
+#. module: purchase_request_to_requisition
+#: code:addons/purchase_request_to_requisition/models/purchase_requisition.py:0
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_requisition_line__purchase_request_lines
+#, python-format
+msgid "Purchase Request Lines"
+msgstr "Liñas de petición de compra"
+
+#. module: purchase_request_to_requisition
+#: model:ir.actions.act_window,name:purchase_request_to_requisition.action_purchase_purchase_list
+msgid "Purchase Requests"
+msgstr "Solicitudes de Compra"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model,name:purchase_request_to_requisition.model_purchase_requisition
+msgid "Purchase Requisition"
+msgstr "Solicitude de compra"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model,name:purchase_request_to_requisition.model_purchase_requisition_line
+msgid "Purchase Requisition Line"
+msgstr "Liña de Requisición de Compra"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line__requisition_qty
+msgid "Quantity in a Bid"
+msgstr "Cantidade nunha oferta"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition_item__product_qty
+msgid "Quantity to Bid"
+msgstr "Cantidade a ofertar"
+
+#. module: purchase_request_to_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
+msgid "Request"
+msgstr "Petición"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request__requisition_count
+msgid "Requisition Count"
+msgstr "Reconto de requisiciones"
+
+#. module: purchase_request_to_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
+msgid "Requisition Status"
+msgstr "estado de requisición"
+
+#. module: purchase_request_to_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.view_purchase_request_form
+msgid "TEs"
+msgstr "TEs"
+
+#. module: purchase_request_to_requisition
+#: code:addons/purchase_request_to_requisition/models/purchase_requisition.py:0
+#, python-format
+msgid ""
+"The following requested items from Purchase Request %(request_name)s have "
+"now being sent to Suppliers using Purchase Bid %(bid_name)s:"
+msgstr ""
+"Os seguintes artigos solicitados da Solicitude de Compra %(request_name)s "
+"foron enviados aos Provedores utilizando a Oferta de Compra %(bid_name)s:"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition_item__product_uom_id
+msgid "UoM"
+msgstr "UdM"
+
+#. module: purchase_request_to_requisition
+#: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition_item__wiz_id
+msgid "Wizard"
+msgstr "Asistente"
+
+#. module: purchase_request_to_requisition
+#: code:addons/purchase_request_to_requisition/models/purchase_request.py:0
+#, python-format
+msgid "You cannot delete a record that refers to purchase lines!"
+msgstr "Non pode eliminar un rexistro que teña enlazadas liñas de compra!"
+
+#. module: purchase_request_to_requisition
+#: code:addons/purchase_request_to_requisition/wizard/purchase_request_line_make_purchase_requisition.py:0
+#, python-format
+msgid "You have to select lines from the same company."
+msgstr "Ten que seleccionar liñas da mesma compañía."
+
+#. module: purchase_request_to_requisition
+#: code:addons/purchase_request_to_requisition/wizard/purchase_request_line_make_purchase_requisition.py:0
+#, python-format
+msgid "You have to select lines from the same picking type."
+msgstr "Debe seleccionar liñas do mesmo tipo de recollida."
+
+#, python-format
+#~ msgid "<li><b>{}</b>: Total bid quantity {} {}</li>"
+#~ msgstr "<li><b>{}</b>: Cantidade total de oferta {} {}</li>"
+
+#, python-format
+#~ msgid "Bid confirmation {} for your Request {}"
+#~ msgstr "Confirmación de oferta {} para a súa solicitude {}"
+
+#, python-format
+#~ msgid ""
+#~ "The following requested items from Purchase Request {} have now being sent "
+#~ "to Suppliers using Purchase Bid {}:"
+#~ msgstr ""
+#~ "Os seguintes artigos solicitados da Solicitude de Compra {} foron agora "
+#~ "enviados aos Provedores utilizando a Oferta de Compra {}:"
+
+#, python-format
+#~ msgid "<li><b>%s</b>: Total bid quantity %s %s</li>"
+#~ msgstr "<li><b>%s</b>: Cantidade total da oferta %s %s</li>"
+
+#, python-format
+#~ msgid "Bid confirmation %s for your Request %s"
+#~ msgstr "Confirmación de oferta %s para a súa solicitude %s"
+
+#~ msgid "Details"
+#~ msgstr "Detalles"
+
+#~ msgid "Requisition Lines"
+#~ msgstr "Liñas de Requisición"
+
+#, python-format
+#~ msgid ""
+#~ "The following requested items from Purchase Request %s have now being sent "
+#~ "to Suppliers using Purchase Bid %s:"
+#~ msgstr ""
+#~ "Os seguintes artigos solicitados da Solicitude de Compra %s foron enviados "
+#~ "aos Provedores utilizando a Oferta de Compra %s:"
+
+#~ msgid "Purchase Request lines"
+#~ msgstr "Liñas de petición de compra"

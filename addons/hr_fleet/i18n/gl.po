@@ -1,0 +1,205 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_fleet
+#
+# Translators:
+# Martin Trigaux, 2021
+# José Cabrera Lozano <jose.cabrera@edukative.es>, 2021
+# marcescu, 2022
+# Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2023
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 02:08\n"
+"PO-Revision-Date: 2024-11-08 02:08\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: hr_fleet
+#: code:addons/hr_fleet/controllers/main.py:0
+#, python-format
+msgid "%(car_name)s (driven from: %(date_start)s to %(date_end)s)"
+msgstr "%(car_name)s (conducido desde: %(date_start)s ata %(date_end)s)"
+
+#. module: hr_fleet
+#: model_terms:ir.ui.view,arch_db:hr_fleet.fleet_vehicle_view_form_inherit_hr
+msgid "<span class=\"o_stat_text\">Employee</span>"
+msgstr "<span class=\"o_stat_text\">Empregado</span>"
+
+#. module: hr_fleet
+#: model_terms:ir.ui.view,arch_db:hr_fleet.view_employee_form
+msgid "Application Settings"
+msgstr "Axustes de Solicitude"
+
+#. module: hr_fleet
+#: model_terms:ir.ui.view,arch_db:hr_fleet.fleet_vehicle_assignation_log_view_list
+msgid "Attachments"
+msgstr "Arquivos adxuntos"
+
+#. module: hr_fleet
+#: code:addons/hr_fleet/models/employee.py:0
+#, python-format
+msgid "Cannot remove address from employees with linked cars."
+msgstr ""
+"Non se pode eliminar a dirección de empregados con automóbiles vinculados."
+
+#. module: hr_fleet
+#: model:ir.model.fields,field_description:hr_fleet.field_hr_employee__employee_cars_count
+#: model:ir.model.fields,field_description:hr_fleet.field_res_users__employee_cars_count
+msgid "Cars"
+msgstr "Automóbiles"
+
+#. module: hr_fleet
+#: model_terms:ir.ui.view,arch_db:hr_fleet.res_users_view_form_preferences
+#: model_terms:ir.ui.view,arch_db:hr_fleet.view_employee_form
+msgid "Claim Car Report"
+msgstr "Reclamar informe de automóbil"
+
+#. module: hr_fleet
+#: model_terms:ir.ui.view,arch_db:hr_fleet.hr_departure_wizard_view_form
+msgid "Company Car"
+msgstr "Vehículo da compañía"
+
+#. module: hr_fleet
+#: model_terms:ir.ui.view,arch_db:hr_fleet.fleet_vehicle_view_search_inherit_hr
+msgid "Current Driver (Employee)"
+msgstr "Condutor actual (empregado)"
+
+#. module: hr_fleet
+#: model:ir.model,name:hr_fleet.model_hr_departure_wizard
+msgid "Departure Wizard"
+msgstr "Asistente de saída"
+
+#. module: hr_fleet
+#: model_terms:ir.ui.view,arch_db:hr_fleet.fleet_vehicle_log_contract_view_form_inherit_hr
+msgid "Driver"
+msgstr "Condutor"
+
+#. module: hr_fleet
+#: model:ir.model.fields,field_description:hr_fleet.field_fleet_vehicle__driver_employee_id
+#: model:ir.model.fields,field_description:hr_fleet.field_fleet_vehicle_assignation_log__driver_employee_id
+#: model:ir.model.fields,field_description:hr_fleet.field_fleet_vehicle_log_contract__purchaser_employee_id
+#: model:ir.model.fields,field_description:hr_fleet.field_fleet_vehicle_log_services__purchaser_employee_id
+#: model:ir.model.fields,field_description:hr_fleet.field_fleet_vehicle_odometer__driver_employee_id
+#: model_terms:ir.ui.view,arch_db:hr_fleet.fleet_vehicle_log_services_view_form_inherit_hr
+msgid "Driver (Employee)"
+msgstr "Condutor (empregado)"
+
+#. module: hr_fleet
+#: model:ir.model,name:hr_fleet.model_fleet_vehicle_assignation_log
+msgid "Drivers history on a vehicle"
+msgstr "Historial de condutores nun vehículo "
+
+#. module: hr_fleet
+#: model:ir.model,name:hr_fleet.model_hr_employee
+#: model_terms:ir.ui.view,arch_db:hr_fleet.fleet_vehicle_log_contract_view_search_inherit_hr
+msgid "Employee"
+msgstr "Empregado"
+
+#. module: hr_fleet
+#: model:ir.model.fields,field_description:hr_fleet.field_fleet_vehicle__driver_employee_name
+msgid "Employee Name"
+msgstr "Nome do empregado"
+
+#. module: hr_fleet
+#: model_terms:ir.ui.view,arch_db:hr_fleet.view_employee_form
+msgid "Fleet Mobility Card"
+msgstr "Tarxeta de Movilidad de Frota"
+
+#. module: hr_fleet
+#: model:ir.model.fields,field_description:hr_fleet.field_fleet_vehicle__future_driver_employee_id
+#: model_terms:ir.ui.view,arch_db:hr_fleet.fleet_vehicle_view_search_inherit_hr
+msgid "Future Driver (Employee)"
+msgstr "Condutor futuro (empregado)"
+
+#. module: hr_fleet
+#: model_terms:ir.ui.view,arch_db:hr_fleet.view_employee_filter
+msgid "License Plate"
+msgstr "Matrícula"
+
+#. module: hr_fleet
+#: model:ir.model.fields,field_description:hr_fleet.field_fleet_vehicle__mobility_card
+#: model:ir.model.fields,field_description:hr_fleet.field_hr_employee__mobility_card
+#: model:ir.model.fields,field_description:hr_fleet.field_hr_employee_public__mobility_card
+msgid "Mobility Card"
+msgstr "Tarxeta de Movilidad"
+
+#. module: hr_fleet
+#: model:ir.model.fields,field_description:hr_fleet.field_fleet_vehicle_assignation_log__attachment_number
+msgid "Number of Attachments"
+msgstr "Número de arquivos adxuntos"
+
+#. module: hr_fleet
+#: model:ir.model,name:hr_fleet.model_fleet_vehicle_odometer
+msgid "Odometer log for a vehicle"
+msgstr "Rexistro do odómetro para un vehículo"
+
+#. module: hr_fleet
+#: model:ir.model,name:hr_fleet.model_hr_employee_public
+msgid "Public Employee"
+msgstr "Empregado Público"
+
+#. module: hr_fleet
+#: code:addons/hr_fleet/models/fleet_vehicle.py:0
+#, python-format
+msgid "Related Employee"
+msgstr "Empregado relacionado"
+
+#. module: hr_fleet
+#: model:ir.model.fields,field_description:hr_fleet.field_hr_departure_wizard__release_campany_car
+msgid "Release Company Car"
+msgstr "Liberar automóbil da compañía"
+
+#. module: hr_fleet
+#: model:ir.model.fields,help:hr_fleet.field_hr_departure_wizard__release_campany_car
+msgid "Release the company car."
+msgstr "Liberar o automóbil da empresa. "
+
+#. module: hr_fleet
+#: model:ir.model,name:hr_fleet.model_fleet_vehicle_log_services
+msgid "Services for vehicles"
+msgstr "Servizos para os vehículos"
+
+#. module: hr_fleet
+#: code:addons/hr_fleet/controllers/main.py:0
+#, python-format
+msgid "There is no pdf attached to generate a claim report."
+msgstr "Non hai ningún PDF adxunto para xerar un reporte de reclamo."
+
+#. module: hr_fleet
+#: model_terms:ir.ui.view,arch_db:hr_fleet.res_users_view_form_preferences
+#: model_terms:ir.ui.view,arch_db:hr_fleet.view_employee_form
+msgid ""
+"This report will contain only PDF files. If you want all documents, please "
+"go on vehicle page. Do you want to proceed?"
+msgstr ""
+"Este informe só conterá arquivos PDF. Se queres todos os documentos, "
+"diríxeche á páxina do vehículo. Queres proceder?"
+
+#. module: hr_fleet
+#: model:ir.model,name:hr_fleet.model_res_users
+msgid "Users"
+msgstr "Usuarios"
+
+#. module: hr_fleet
+#: model:ir.model,name:hr_fleet.model_fleet_vehicle
+msgid "Vehicle"
+msgstr "Vehículo"
+
+#. module: hr_fleet
+#: model:ir.model,name:hr_fleet.model_fleet_vehicle_log_contract
+msgid "Vehicle Contract"
+msgstr "Contrato do vehículo"
+
+#. module: hr_fleet
+#: model:ir.model.fields,field_description:hr_fleet.field_hr_employee__car_ids
+msgid "Vehicles (private)"
+msgstr "Vehículos (privado)"

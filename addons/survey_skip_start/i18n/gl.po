@@ -1,0 +1,40 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* survey_skip_start
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 13:51\n"
+"PO-Revision-Date: 2024-11-08 13:51\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: survey_skip_start
+#: model:ir.model.fields,field_description:survey_skip_start.field_survey_survey__skip_start
+msgid "Skip start screen"
+msgstr "Saltar pantalla de inicio"
+
+#. module: survey_skip_start
+#: model:ir.model.fields,help:survey_skip_start.field_survey_survey__skip_start
+msgid "Skip the start screen and go directly to the survey form"
+msgstr ""
+"Saltar a pantalla de inicio e ir directamente ao formulario da enquisa"
+
+#. module: survey_skip_start
+#: model:ir.model,name:survey_skip_start.model_survey_survey
+msgid "Survey"
+msgstr "Enquisa"
+
+#, python-format
+#~ msgid "The skip start screen option is only compatible with on page layouts"
+#~ msgstr ""
+#~ "A opción de saltar a pantalla de inicio na enquisa só é compatible cos "
+#~ "deseños dunha soa páxina"

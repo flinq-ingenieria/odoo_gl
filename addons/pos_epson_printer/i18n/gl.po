@@ -1,0 +1,143 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_epson_printer
+#
+# Translators:
+# Martin Trigaux, 2021
+# marcescu, 2022
+# Larissa Manderfeld, 2023
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2024
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-07 23:21\n"
+"PO-Revision-Date: 2024-11-07 23:21\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: pos_epson_printer
+#: model_terms:ir.ui.view,arch_db:pos_epson_printer.pos_iot_config_view_form
+msgid "Cashdrawer"
+msgstr "Caixón de moedas"
+
+#. module: pos_epson_printer
+#. openerp-web
+#: code:addons/pos_epson_printer/static/src/js/printers.js:0
+#, python-format
+msgid ""
+"Check on the printer configuration for the 'Device ID' setting. It should be"
+" set to: "
+msgstr ""
+"Verifique na configuración da impresora o axuste de \"ID do dispositivo\", "
+"debería estar configurado como:"
+
+#. module: pos_epson_printer
+#. openerp-web
+#: code:addons/pos_epson_printer/static/src/js/printers.js:0
+#, python-format
+msgid "Connection to the printer failed"
+msgstr "Fallo na conexión á impresora"
+
+#. module: pos_epson_printer
+#: model:ir.model.fields,field_description:pos_epson_printer.field_pos_config__epson_printer_ip
+msgid "Epson Printer IP"
+msgstr "Impresora Epson IP"
+
+#. module: pos_epson_printer
+#: model_terms:ir.ui.view,arch_db:pos_epson_printer.pos_iot_config_view_form
+msgid "Epson Receipt Printer IP Address"
+msgstr "Dirección IP da impresora de recibos Epson"
+
+#. module: pos_epson_printer
+#. openerp-web
+#: code:addons/pos_epson_printer/static/src/js/printers.js:0
+#, python-format
+msgid ""
+"If you are on a secure server (HTTPS) please make sure you manually accepted"
+" the certificate by accessing %s"
+msgstr ""
+"Se está nun servidor seguro (HTTPS) asegúrese de aceptar o certificado "
+"manualmente entrando a %s"
+
+#. module: pos_epson_printer
+#: model:ir.model.fields,help:pos_epson_printer.field_pos_config__epson_printer_ip
+msgid "Local IP address of an Epson receipt printer."
+msgstr "Dirección IP local dunha impresora de recibos Epson."
+
+#. module: pos_epson_printer
+#. openerp-web
+#: code:addons/pos_epson_printer/static/src/js/printers.js:0
+#, python-format
+msgid "No paper was detected by the printer"
+msgstr "A impresora non detectou papel"
+
+#. module: pos_epson_printer
+#. openerp-web
+#: code:addons/pos_epson_printer/static/src/js/printers.js:0
+#, python-format
+msgid "Please check if the printer has enough paper and is ready to print."
+msgstr ""
+"Asegúrese de que a impresora ten papel suficiente e que está lista para "
+"imprimir."
+
+#. module: pos_epson_printer
+#. openerp-web
+#: code:addons/pos_epson_printer/static/src/js/printers.js:0
+#, python-format
+msgid ""
+"Please check if the printer is still connected. \n"
+"Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Odoo's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue"
+msgstr ""
+"Comprobe que a impresora segue conectada. \n"
+"Algúns navegadores non permiten chamadas HTTP desde sitios web a dispositivos na rede (por razóns de seguridade). Se ese é o caso, consulte a documentación de Odoo para \"Certificados autofirmados para impresoras de PdV electrónicos\"' e \"Conexións seguras (HTTPS)\" para resolver o problema"
+
+#. module: pos_epson_printer
+#: model:ir.model,name:pos_epson_printer.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Configuración do TPV"
+
+#. module: pos_epson_printer
+#. openerp-web
+#: code:addons/pos_epson_printer/static/src/js/printers.js:0
+#, python-format
+msgid "Printing failed"
+msgstr "A impresión fallou."
+
+#. module: pos_epson_printer
+#: model_terms:ir.ui.view,arch_db:pos_epson_printer.pos_iot_config_view_form
+msgid ""
+"The Epson receipt printer will be used instead of the receipt printer "
+"connected to the IoT Box."
+msgstr ""
+"Utilizarase a impresora de recibos Epson en lugar da impresora de recibos "
+"conectada á caixa IoT."
+
+#. module: pos_epson_printer
+#. openerp-web
+#: code:addons/pos_epson_printer/static/src/js/printers.js:0
+#, python-format
+msgid "The following error code was given by the printer:"
+msgstr "A impresora mostrou o seguinte código de erro:"
+
+#. module: pos_epson_printer
+#. openerp-web
+#: code:addons/pos_epson_printer/static/src/js/printers.js:0
+#, python-format
+msgid "The printer was successfully reached, but it wasn't able to print."
+msgstr "Chegouse á impresora, pero non puido imprimir."
+
+#. module: pos_epson_printer
+#. openerp-web
+#: code:addons/pos_epson_printer/static/src/js/printers.js:0
+#, python-format
+msgid "To find more details on the error reason, please search online for:"
+msgstr ""
+"Para coñecer máis detalles respecto ao motivo do erro, busque en liña:"

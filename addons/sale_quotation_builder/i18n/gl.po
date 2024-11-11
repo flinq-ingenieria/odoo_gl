@@ -1,0 +1,313 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_quotation_builder
+#
+# Translators:
+# Martin Trigaux, 2021
+# Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2021
+# marcescu, 2022
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 06:50\n"
+"PO-Revision-Date: 2024-11-08 06:50\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: sale_quotation_builder
+#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
+msgid ""
+":\n"
+"                                        this content will appear on the quotation only if this\n"
+"                                        product is put on the quote."
+msgstr ""
+":\n"
+"este contido aparecerá no orzamento só se:\n"
+"o produto colócase no orzamento."
+
+#. module: sale_quotation_builder
+#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
+msgid ""
+":\n"
+"                                        this content will appear on the quotation only if this\n"
+"                                        product is used in the quote."
+msgstr ""
+":\n"
+"este contido aparecerá no orzamento só se:\n"
+"o produto usar no orzamento."
+
+#. module: sale_quotation_builder
+#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.sale_order_portal_content_inherit_sale_quotation_builder
+msgid ""
+":\n"
+"                        the content below will disappear if this\n"
+"                        product is removed from the quote."
+msgstr ""
+":\n"
+"                        o contido de abaixo desaparecerá se este produto\n"
+"                        elimínase da cotización."
+
+#. module: sale_quotation_builder
+#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
+msgid ""
+"<strong>Template Header:</strong> this content\n"
+"                                    will appear on all quotations using this\n"
+"                                    template."
+msgstr ""
+"<strong>Encabezado de persoal:</strong> este contido\n"
+"                                    aparecerá en todas as citas usando este persoal..\n"
+"                                    "
+
+#. module: sale_quotation_builder
+#: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
+msgid "About us"
+msgstr "Acerca de"
+
+#. module: sale_quotation_builder
+#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.brand_promotion
+msgid "An awesome"
+msgstr "Unha asombrosa"
+
+#. module: sale_quotation_builder
+#: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
+msgid ""
+"As a leading professional services firm,\n"
+"                                we know that success is all about the\n"
+"                                commitment we put on strong services."
+msgstr ""
+"Como empresa líder de servizos profesionais,\n"
+"                                sabemos que o éxito radica no\n"
+"                                compromiso que adquirimos nos nosos servizos máis destacados."
+
+#. module: sale_quotation_builder
+#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.sale_order_portal_content_inherit_sale_quotation_builder
+msgid "Close"
+msgstr "Pechar"
+
+#. module: sale_quotation_builder
+#: model:ir.model,name:sale_quotation_builder.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: sale_quotation_builder
+#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.sale_order_template_view_form_inherit_sale_quotation_builder
+msgid "Design Template"
+msgstr "Persoal de deseño"
+
+#. module: sale_quotation_builder
+#: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
+msgid ""
+"Great quotation templates will significantly\n"
+"                                <strong>boost your success rate</strong>. The\n"
+"                                first section is usually about your company,\n"
+"                                your references, your methodology or\n"
+"                                guarantees, your team, SLA, terms and conditions, etc."
+msgstr ""
+"O uso de bos persoais para orzamentos fará que\n"
+" <strong>aumente significativamente a súa efectividade</strong>. A\n"
+" primeira parte contén xeralmente información sobre a súa  empresa,\n"
+" as súas referencias, a súa metodoloxía e\n"
+" as garantías, o equipo co que conta, o contrato sobre o nivel de servizos ofrecido, as condicións aplicables etc."
+
+#. module: sale_quotation_builder
+#: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
+msgid ""
+"If you edit a quotation from the 'Preview' of a quotation, you will\n"
+"                        update that quotation only. If you edit the quotation\n"
+"                        template (from the Configuration menu), all future quotations will\n"
+"                        use this modified template."
+msgstr ""
+"Se edita un orzamento desde a 'Vista previa' do mesmo, só\n"
+"                        actualizará o orzamento. Se edita o persoal de orzamento(desde\n"
+"                        o menú Configuración), todas os futuros orzamentos\n"
+"                        utilizarán este persoal modificado."
+
+#. module: sale_quotation_builder
+#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.brand_promotion
+msgid "Open Source CRM"
+msgstr "CRM Open source"
+
+#. module: sale_quotation_builder
+#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
+msgid "Optional Product:"
+msgstr "Produto opcional:"
+
+#. module: sale_quotation_builder
+#: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
+msgid "Our Offer"
+msgstr "A nosa oferta"
+
+#. module: sale_quotation_builder
+#: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
+msgid "Our Quality"
+msgstr "A nosa calidade"
+
+#. module: sale_quotation_builder
+#: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
+msgid "Our Service"
+msgstr "O noso servizo"
+
+#. module: sale_quotation_builder
+#: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
+msgid "Price"
+msgstr "Prezo"
+
+#. module: sale_quotation_builder
+#: model:ir.model,name:sale_quotation_builder.model_product_template
+msgid "Product Template"
+msgstr "Modelo de produto"
+
+#. module: sale_quotation_builder
+#: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
+msgid ""
+"Product quality is the foundation we\n"
+"                                stand on; we build it with a relentless\n"
+"                                focus on fabric, performance and craftsmanship."
+msgstr ""
+"A calidade do produto é a base na que\n"
+"                                estamos parados; Construímolo cun enfoque\n"
+"                                incesante na fábrica, o rendemento e a artesanía."
+
+#. module: sale_quotation_builder
+#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.sale_order_portal_content_inherit_sale_quotation_builder
+#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
+msgid "Product:"
+msgstr "Produto:"
+
+#. module: sale_quotation_builder
+#: model:ir.model.fields,field_description:sale_quotation_builder.field_product_product__quotation_description
+#: model:ir.model.fields,field_description:sale_quotation_builder.field_product_template__quotation_description
+msgid "Quotation Description"
+msgstr "Descrición do orzamento"
+
+#. module: sale_quotation_builder
+#: model:ir.model.fields,field_description:sale_quotation_builder.field_product_product__quotation_only_description
+#: model:ir.model.fields,field_description:sale_quotation_builder.field_product_template__quotation_only_description
+msgid "Quotation Only Description"
+msgstr "Descrición só do orzamento"
+
+#. module: sale_quotation_builder
+#: model:ir.model,name:sale_quotation_builder.model_sale_order_template
+msgid "Quotation Template"
+msgstr "Persoal de orzamento"
+
+#. module: sale_quotation_builder
+#: model:ir.model,name:sale_quotation_builder.model_sale_order_template_line
+msgid "Quotation Template Line"
+msgstr "Linea de persoal de orzamento"
+
+#. module: sale_quotation_builder
+#: model:ir.model,name:sale_quotation_builder.model_sale_order_template_option
+msgid "Quotation Template Option"
+msgstr "Opción de persoal de orzamento"
+
+#. module: sale_quotation_builder
+#: model:ir.model,name:sale_quotation_builder.model_sale_order_option
+msgid "Sale Options"
+msgstr "Opcións de venda"
+
+#. module: sale_quotation_builder
+#: model:ir.model,name:sale_quotation_builder.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venda"
+
+#. module: sale_quotation_builder
+#: model:ir.model,name:sale_quotation_builder.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Liña de pedido de venda"
+
+#. module: sale_quotation_builder
+#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
+msgid "Terms &amp; Conditions"
+msgstr "Termos e condicións"
+
+#. module: sale_quotation_builder
+#: model:ir.model.fields,help:sale_quotation_builder.field_product_product__quotation_only_description
+#: model:ir.model.fields,help:sale_quotation_builder.field_product_template__quotation_only_description
+#: model:ir.model.fields,help:sale_quotation_builder.field_sale_order_template_line__website_description
+msgid "The quotation description (not used on eCommerce)"
+msgstr "A descrición do orzamento(non utilizada en eCommerce)"
+
+#. module: sale_quotation_builder
+#: model:ir.model.fields,help:sale_quotation_builder.field_product_product__quotation_description
+#: model:ir.model.fields,help:sale_quotation_builder.field_product_template__quotation_description
+msgid ""
+"This field uses the Quotation Only Description if it is defined, otherwise "
+"it will try to read the eCommerce Description."
+msgstr ""
+"Este campo utiliza só a descrición do orzamento se está definida, pola "
+"contra, tentará ler a Descrición de eCommerce."
+
+#. module: sale_quotation_builder
+#: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
+msgid ""
+"This is a <strong>sample quotation template</strong>. You should\n"
+"                                customize it to fit your own needs from the <i>Sales</i>\n"
+"                                application, using the menu: Configuration /\n"
+"                                Quotation Templates."
+msgstr ""
+"Esta é unha <strong>persoal de orzamento de exemplo</strong>. Debe\n"
+"                                personalizala segundo as súas necesidades desde a aplicación de <i>Vendas</i>,\n"
+"                                co menú: Configuración /\n"
+"                                Persoais de Orzamento."
+
+#. module: sale_quotation_builder
+#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
+msgid "This is a preview of the sale order template."
+msgstr "Esta é unha vista previa do persoal de orde de venda."
+
+#. module: sale_quotation_builder
+#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
+msgid ""
+"Titles with style <i>Heading 2</i> and\n"
+"                                    <i>Heading 3</i> will be used to generate the\n"
+"                                    table of content automatically."
+msgstr ""
+"Usaranse os títulos con estilo <i>Cabeceira 2</i> e\n"
+"                                    <i>Cabeceira 3</i> para xerar a\n"
+"                                    táboa de contidos automaticamente."
+
+#. module: sale_quotation_builder
+#: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
+msgid ""
+"We always ensure that our products are\n"
+"                                set at a fair price so that you will be\n"
+"                                happy to buy them."
+msgstr ""
+"Sempre garantimos que os nosos produtos\n"
+"                                teñan un prezo xusto, de forma que\n"
+"                                se alegrará de compralos."
+
+#. module: sale_quotation_builder
+#: model:ir.model.fields,field_description:sale_quotation_builder.field_sale_order__website_description
+#: model:ir.model.fields,field_description:sale_quotation_builder.field_sale_order_line__website_description
+#: model:ir.model.fields,field_description:sale_quotation_builder.field_sale_order_option__website_description
+#: model:ir.model.fields,field_description:sale_quotation_builder.field_sale_order_template__website_description
+#: model:ir.model.fields,field_description:sale_quotation_builder.field_sale_order_template_line__website_description
+#: model:ir.model.fields,field_description:sale_quotation_builder.field_sale_order_template_option__website_description
+#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.sale_order_template_view_form_inherit_sale_quotation_builder
+msgid "Website Description"
+msgstr "Descrición do sitio web"
+
+#. module: sale_quotation_builder
+#: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
+msgid ""
+"You can <strong>set a description per product</strong>. Odoo will\n"
+"                        automatically create a quotation using the descriptions\n"
+"                        of all products in the proposal. The table of content\n"
+"                        on the left is generated automatically using the styles you\n"
+"                        used in your description (heading 1, heading 2, ...)"
+msgstr ""
+"Pode <strong>elixir unha descrición por produto</strong>. Odoo creará\n"
+"                        un orzamento automaticamente coas descricións\n"
+"                        de todos os produtos da proposta. A táboa de contidos\n"
+"                        da esquerda xérase de forma automática cos estilos\n"
+"                       que usase na descrición (encabezado 1, encabezado 2...)"

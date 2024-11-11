@@ -1,0 +1,74 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* microsoft_account
+#
+# Translators:
+# Martin Trigaux, 2021
+# marcescu, 2022
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-07 23:04\n"
+"PO-Revision-Date: 2024-11-07 23:04\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: microsoft_account
+#: code:addons/microsoft_account/models/microsoft_service.py:0
+#, python-format
+msgid "Method not supported [%s] not in [GET, POST, PUT, PATCH or DELETE]!"
+msgstr ""
+"Metodo non soportado [%s] non está  en [GET, POST, PUT, PATCH or DELETE]!"
+
+#. module: microsoft_account
+#: model:ir.model.fields,field_description:microsoft_account.field_res_users__microsoft_calendar_rtoken
+msgid "Microsoft Refresh Token"
+msgstr "Token de actualización de Microsoft"
+
+#. module: microsoft_account
+#: model:ir.model,name:microsoft_account.model_microsoft_service
+msgid "Microsoft Service"
+msgstr "Servizo de Microsoft "
+
+#. module: microsoft_account
+#: model:ir.model.fields,field_description:microsoft_account.field_res_users__microsoft_calendar_token_validity
+msgid "Microsoft Token Validity"
+msgstr "Validez do token de Microsoft"
+
+#. module: microsoft_account
+#: model:ir.model.fields,field_description:microsoft_account.field_res_users__microsoft_calendar_token
+msgid "Microsoft User token"
+msgstr "Token de usuario de Microsoft"
+
+#. module: microsoft_account
+#: code:addons/microsoft_account/models/microsoft_service.py:0
+#, python-format
+msgid ""
+"Something went wrong during your token generation. Maybe your Authorization "
+"Code is invalid"
+msgstr ""
+"Algo saíu mal durante a xeración do token. É probable que o código de "
+"autorización sexa inválido."
+
+#. module: microsoft_account
+#: code:addons/microsoft_account/models/microsoft_service.py:0
+#, python-format
+msgid ""
+"Something went wrong during your token generation. Maybe your Authorization "
+"Code is invalid or already expired"
+msgstr ""
+"Algo saíu mal durante a xeración do token. É probable que o código de "
+"autorización sexa inválido ou estea expirado."
+
+#. module: microsoft_account
+#: model:ir.model,name:microsoft_account.model_res_users
+msgid "Users"
+msgstr "Usuarios"

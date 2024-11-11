@@ -1,0 +1,36 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * mgmtsystem_survey
+#
+# Translators:
+# OCA Transbot <transbot@odoo-community.org>, 2018
+# enjolras <yo@miguelrevilla.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-07 21:24\n"
+"PO-Revision-Date: 2024-11-07 21:24\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: mgmtsystem_survey
+#: model:ir.actions.act_window,name:mgmtsystem_survey.action_survey_form
+#: model:ir.ui.menu,name:mgmtsystem_survey.menu_open_survey
+msgid "Surveys"
+msgstr "Enquisas"
+
+#~ msgid "Management System"
+#~ msgstr "Sistema de xestión"
+
+#~ msgid "Survey"
+#~ msgstr "Enquisas"
+
+#~ msgid "Survey Stage"
+#~ msgstr "Etapa da enquisa"
