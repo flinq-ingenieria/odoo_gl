@@ -638,7 +638,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"        Informes contables para Holanda\n"
+"        Informes contables para Países Baixos\n"
 "    "
 
 #. module: base
