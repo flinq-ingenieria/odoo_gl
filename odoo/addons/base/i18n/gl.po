@@ -35230,7 +35230,7 @@ msgstr "subscriptions"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_data_module_install
 msgid "test installation of data module"
-msgstr "instalación de pruebla do módulo de datos"
+msgstr "instalación de proba do módulo de datos"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_mimetypes
