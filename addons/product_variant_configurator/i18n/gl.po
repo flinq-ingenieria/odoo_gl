@@ -398,7 +398,7 @@ msgstr "Modelo de produto"
 #. module: product_variant_configurator
 #: model:ir.model,name:product_variant_configurator.model_product_template_attribute_line
 msgid "Product Template Attribute Line"
-msgstr "Liña de atributo Persoal de Produto"
+msgstr "Liña de atributo Modelo de Produto"
 
 #. module: product_variant_configurator
 #: model:ir.model.fields,field_description:product_variant_configurator.field_product_product__product_tooltip
@@ -477,7 +477,7 @@ msgstr "Liña de Orde de Venda"
 #: model_terms:ir.ui.view,arch_db:product_variant_configurator.product_variants_view
 msgid "Select a template for a variant. Keep empty for a new full product."
 msgstr ""
-"Seleccione un persoal para crear unha variante. Déixea en branco para crear "
+"Seleccione un modelo para crear unha variante. Déixea en branco para crear "
 "un produto totalmente novo."
 
 #. module: product_variant_configurator
@@ -654,7 +654,7 @@ msgstr ""
 "%s"
 
 #~ msgid "Product Template Attribute Value"
-#~ msgstr "Valor Atributo Persoal de Produto"
+#~ msgstr "Valor Atributo Modelo de Produto"
 
 #~ msgid "Create them automatically"
 #~ msgstr "Crealas automaticamente"

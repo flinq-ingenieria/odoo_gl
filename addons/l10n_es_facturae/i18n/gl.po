@@ -852,7 +852,7 @@ msgstr "Imposto"
 #. module: l10n_es_facturae
 #: model:ir.model,name:l10n_es_facturae.model_account_tax_template
 msgid "Templates for Taxes"
-msgstr "Persoal de impostos"
+msgstr "Modelo de impostos"
 
 #. module: l10n_es_facturae
 #: code:addons/l10n_es_facturae/reports/report_facturae.py:0

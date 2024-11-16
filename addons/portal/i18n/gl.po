@@ -1143,7 +1143,7 @@ msgid ""
 "The template \"Portal: new user\" not found for sending email to the portal "
 "user."
 msgstr ""
-"A persoal \"Portal: usuario novo\" non se atopou para enviar un correo ao "
+"A modelo \"Portal: usuario novo\" non se atopou para enviar un correo ao "
 "usuario do portal."
 
 #. module: portal

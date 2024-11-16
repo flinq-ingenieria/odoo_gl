@@ -90,7 +90,7 @@ msgstr "Orde de Servizo de Campo"
 #: model:ir.model.fields,field_description:fieldservice_sale.field_product_product__fsm_order_template_id
 #: model:ir.model.fields,field_description:fieldservice_sale.field_product_template__fsm_order_template_id
 msgid "Field Service Order Template"
-msgstr "Persoal de orde de servizo de campo"
+msgstr "Modelo de orde de servizo de campo"
 
 #. module: fieldservice_sale
 #: model:ir.model.fields,help:fieldservice_sale.field_sale_order_line__fsm_order_id
@@ -144,7 +144,7 @@ msgstr "Pedido"
 #. module: fieldservice_sale
 #: model:ir.model,name:fieldservice_sale.model_product_template
 msgid "Product Template"
-msgstr "Persoal de Produto"
+msgstr "Modelo de Produto"
 
 #. module: fieldservice_sale
 #: model:ir.model.fields,help:fieldservice_sale.field_sale_order__fsm_location_id
@@ -186,7 +186,7 @@ msgstr "Pedidos de Vendas"
 #: model:ir.model.fields,help:fieldservice_sale.field_product_product__fsm_order_template_id
 #: model:ir.model.fields,help:fieldservice_sale.field_product_template__fsm_order_template_id
 msgid "Select the field service order template to be created"
-msgstr "Seleccione o persoal de pedido de servizo de campo que se creará"
+msgstr "Seleccione o modelo de pedido de servizo de campo que se creará"
 
 #. module: fieldservice_sale
 #: model:ir.model.fields,field_description:fieldservice_sale.field_sale_order__fsm_location_id

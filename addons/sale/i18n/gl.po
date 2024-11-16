@@ -1259,7 +1259,7 @@ msgstr "Confirmar"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__confirmation_mail_template_id
 msgid "Confirmation Email Template"
-msgstr "Persoal do correo de confirmación"
+msgstr "Modelo do correo de confirmación"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -2116,7 +2116,7 @@ msgstr "Factura creada"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__invoice_mail_template_id
 msgid "Invoice Email Template"
-msgstr "Persoal de correo electrónico de factura"
+msgstr "Modelo de correo electrónico de factura"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__invoice_lines
@@ -3756,8 +3756,8 @@ msgid ""
 msgstr ""
 "Enviar un correo electrónico é útil se necesita compartir información "
 "específica ou contido sobre un produto (instrucións, regras, ligazóns, "
-"medios etc.)/ etc.). Cre e configure o persoal de correo electrónico desde o"
-" formulario de detalles do produto (na pestana Vendas)."
+"medios etc.)/ etc.). Cre e configure o modelo de correo electrónico desde o "
+"formulario de detalles do produto (na pestana Vendas)."
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__sequence

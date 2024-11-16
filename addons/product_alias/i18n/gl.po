@@ -169,7 +169,7 @@ msgstr "Cantidade de produtos"
 #: model:ir.model,name:product_alias.model_product_template
 #, fuzzy
 msgid "Product Template"
-msgstr "Persoal do produto"
+msgstr "Modelo do produto"
 
 #. module: product_alias
 #: model_terms:ir.ui.view,arch_db:product_alias.view_product_alias_form

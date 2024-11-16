@@ -48,7 +48,7 @@ msgstr "Activo"
 #. module: base_import_pdf_by_template
 #: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_upload__allowed_template_ids
 msgid "Allowed Template"
-msgstr "Persoais permitidos"
+msgstr "Modelos permitidos"
 
 #. module: base_import_pdf_by_template
 #: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.base_import_pdf_template_view_form
@@ -71,7 +71,7 @@ msgstr "Patrón de auto-detección"
 #. module: base_import_pdf_by_template
 #: model:ir.ui.menu,name:base_import_pdf_by_template.menu_base_import_pdf_by_template_root
 msgid "Base Import Pdf By Template"
-msgstr "Importador PDF por persoal"
+msgstr "Importador PDF por modelo"
 
 #. module: base_import_pdf_by_template
 #: model:ir.model,name:base_import_pdf_by_template.model_base_import_pdf_template
@@ -352,7 +352,7 @@ msgid ""
 "        in the documents for this template."
 msgstr ""
 "Será necesario definir un patrón que só atope algo nos documentos deste "
-"persoal."
+"modelo."
 
 #. module: base_import_pdf_by_template
 #: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template____last_update
@@ -457,7 +457,7 @@ msgid ""
 "No template has been auto-detected from %s, it may be necessary to create a "
 "new one."
 msgstr ""
-"Non se ha auto-detectado persoal para %s, quizais sexa necesario crear unha "
+"Non se ha auto-detectado modelo para %s, quizais sexa necesario crear unha "
 "nova."
 
 #. module: base_import_pdf_by_template
@@ -568,19 +568,19 @@ msgstr "Información técnica"
 #: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_preview__template_id
 #: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_upload_line__template_id
 msgid "Template"
-msgstr "Persoal"
+msgstr "Modelo"
 
 #. module: base_import_pdf_by_template
 #: model:ir.actions.act_window,name:base_import_pdf_by_template.base_import_pdf_template_action
 #: model:ir.ui.menu,name:base_import_pdf_by_template.menu_base_import_pdf_template
 msgid "Templates"
-msgstr "Persoais"
+msgstr "Modelos"
 
 #. module: base_import_pdf_by_template
 #: code:addons/base_import_pdf_by_template/wizards/wizard_base_import_pdf_upload.py:0
 #, python-format
 msgid "There is no template that can be applied"
-msgstr "Non hai ningún persoal que poida aplicar"
+msgstr "Non hai ningún modelo que poida aplicar"
 
 #. module: base_import_pdf_by_template
 #: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__thousand_separator

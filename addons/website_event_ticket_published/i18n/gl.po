@@ -20,7 +20,7 @@ msgstr ""
 #. module: website_event_ticket_published
 #: model:ir.model,name:website_event_ticket_published.model_event_type_ticket
 msgid "Event Template Ticket"
-msgstr "Persoal de Entradas Para eventos"
+msgstr "Modelo de Entradas Para eventos"
 
 #. module: website_event_ticket_published
 #: model:ir.model,name:website_event_ticket_published.model_event_event_ticket

@@ -128,7 +128,7 @@ msgstr "Calculado"
 #: model:ir.actions.act_window,name:account_move_template.account_move_template_run_action
 #: model:ir.ui.menu,name:account_move_template.account_move_template_run_menu
 msgid "Create Entry from Template"
-msgstr "Crear asento mediante persoal"
+msgstr "Crear asento mediante modelo"
 
 #. module: account_move_template
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_run_form
@@ -192,7 +192,7 @@ msgstr "Nome mostrado"
 #: code:addons/account_move_template/wizard/account_move_template_run.py:0
 #, python-format
 msgid "Entry from template %s"
-msgstr "Asento desde persoal %s"
+msgstr "Asento desde modelo %s"
 
 #. module: account_move_template
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_form
@@ -258,23 +258,23 @@ msgstr "Diario"
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_run_form
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_search
 msgid "Journal Entry Template"
-msgstr "Persoal de asento"
+msgstr "Modelo de asento"
 
 #. module: account_move_template
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_line_form
 msgid "Journal Entry Template Line"
-msgstr "Liña de persoal de asento"
+msgstr "Liña de modelo de asento"
 
 #. module: account_move_template
 #: model:ir.actions.act_window,name:account_move_template.account_move_template_action
 #: model:ir.ui.menu,name:account_move_template.account_move_template_menu
 msgid "Journal Entry Templates"
-msgstr "Persoais de asento"
+msgstr "Modelos de asento"
 
 #. module: account_move_template
 #: model:ir.model,name:account_move_template.model_account_move_template_line
 msgid "Journal Item Template"
-msgstr "Persoal de asento"
+msgstr "Modelo de asento"
 
 #. module: account_move_template
 #: code:addons/account_move_template/wizard/account_move_template_run.py:0
@@ -335,7 +335,7 @@ msgstr "Liñas"
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__template_id
 msgid "Move Template"
-msgstr "Persoal de asento"
+msgstr "Modelo de asento"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template__name
@@ -415,7 +415,7 @@ msgstr "Reestablecer"
 #. module: account_move_template
 #: model:ir.model.fields.selection,name:account_move_template.selection__account_move_template_run__state__select_template
 msgid "Select Template"
-msgstr "Seleccionar persoal"
+msgstr "Seleccionar modelo"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__sequence
@@ -449,7 +449,7 @@ msgstr "Impostos"
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_run__template_id
 msgid "Template"
-msgstr "Persoal"
+msgstr "Modelo"
 
 #. module: account_move_template
 #: code:addons/account_move_template/wizard/account_move_template_run.py:0
@@ -458,18 +458,18 @@ msgid ""
 "The selected template (%(template)s) is not in the same company "
 "(%(company)s) as the current user (%(user_company)s)."
 msgstr ""
-"O persoal seleccionado (%(template)s) non está na mesma empresa "
-"(%(company)s) que o usuario actual (%(user_company)s)."
+"O modelo seleccionado (%(template)s) non está na mesma empresa (%(company)s)"
+" que o usuario actual (%(user_company)s)."
 
 #. module: account_move_template
 #: model:ir.model.constraint,message:account_move_template.constraint_account_move_template_line_sequence_template_uniq
 msgid "The sequence of the line must be unique per template!"
-msgstr "A secuencia da liña debe ser única por persoal!"
+msgstr "A secuencia da liña debe ser única por modelo!"
 
 #. module: account_move_template
 #: model:ir.model.constraint,message:account_move_template.constraint_account_move_template_name_company_unique
 msgid "This name is already used by another template!"
-msgstr "O nome xa se usou noutro persoal!"
+msgstr "O nome xa se usou noutro modelo!"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__type
@@ -505,12 +505,12 @@ msgstr "Asistente"
 #. module: account_move_template
 #: model:ir.model,name:account_move_template.model_account_move_template_line_run
 msgid "Wizard Lines to generate move from template"
-msgstr "As liñas do asistente para xerar asentos a partir dun persoal"
+msgstr "As liñas do asistente para xerar asentos a partir dun modelo"
 
 #. module: account_move_template
 #: model:ir.model,name:account_move_template.model_account_move_template_run
 msgid "Wizard to generate move from template"
-msgstr "Asistente para xerar un asento a partir dun persoal"
+msgstr "Asistente para xerar un asento a partir dun modelo"
 
 #. module: account_move_template
 #: code:addons/account_move_template/models/account_move_template.py:0
@@ -521,7 +521,7 @@ msgid ""
 "this wizard."
 msgstr ""
 "Engadiu unha liña no asistente. Isto non está permitido: debe ou ben "
-"actualizar o persoal ou modificar o asento que será xerado por este "
+"actualizar o modelo ou modificar o asento que será xerado por este "
 "asistente."
 
 #. module: account_move_template
@@ -542,7 +542,7 @@ msgid ""
 "this wizard."
 msgstr ""
 "Eliminou unha liña no asistente. Isto non está permitido: debe ou ben "
-"actualizar o persoal ou modificar o asento que será xerado por este "
+"actualizar o modelo ou modificar o asento que será xerado por este "
 "asistente."
 
 #, python-format
@@ -576,5 +576,5 @@ msgstr ""
 #~ "The selected template (%s) is not in the same company (%s) as the current "
 #~ "user (%s)."
 #~ msgstr ""
-#~ "O persoal seleccionado (%s) non é da mesma compañía (%s) que o usuario "
-#~ "actual (%s)."
+#~ "O modelo seleccionado (%s) non é da mesma compañía (%s) que o usuario actual"
+#~ " (%s)."

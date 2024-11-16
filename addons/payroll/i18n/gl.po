@@ -2529,7 +2529,7 @@ msgstr "total_net"
 #~ msgstr "Nome de vantaxe"
 
 #~ msgid "Contract Advantage Templates"
-#~ msgstr "Persoais de vantaxe de contrato"
+#~ msgstr "Modelos de vantaxe de contrato"
 
 #~ msgid "Default value for this advantage"
 #~ msgstr "Valor predeterminado para esta vantaxe"

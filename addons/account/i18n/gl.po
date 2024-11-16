@@ -1401,7 +1401,7 @@ msgstr "Redondeo para conta de efectivo"
 #. module: account
 #: model:ir.model,name:account.model_account_chart_template
 msgid "Account Chart Template"
-msgstr "Persoal de Plan de Contas"
+msgstr "Modelo de Plan de Contas"
 
 #. module: account
 #: model:ir.model,name:account.model_account_common_report
@@ -1572,7 +1572,7 @@ msgstr "Liña de informe de impostos de conta"
 #: model_terms:ir.ui.view,arch_db:account.view_account_tax_template_form
 #: model_terms:ir.ui.view,arch_db:account.view_account_tax_template_tree
 msgid "Account Tax Template"
-msgstr "Persoal de impostos de conta"
+msgstr "Modelo de impostos de conta"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_account_taxcloud
@@ -1585,13 +1585,13 @@ msgstr "TaxCloud de conta"
 #: model_terms:ir.ui.view,arch_db:account.view_account_template_search
 #: model_terms:ir.ui.view,arch_db:account.view_account_template_tree
 msgid "Account Template"
-msgstr "Persoal de conta"
+msgstr "Modelo de conta"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template__property_stock_valuation_account_id
 #: model:ir.model.fields,field_description:account.field_res_company__property_stock_valuation_account_id
 msgid "Account Template for Stock Valuation"
-msgstr "Persoal de conta para a valoración de existencias"
+msgstr "Modelo de conta para a valoración de existencias"
 
 #. module: account
 #: model:ir.model,name:account.model_account_account_type
@@ -1822,7 +1822,7 @@ msgstr "Mapeo de contas"
 #. module: account
 #: model:ir.model,name:account.model_account_fiscal_position_account_template
 msgid "Accounts Mapping Template of Fiscal Position"
-msgstr "Persoal de mapeo de contas de posición fiscal"
+msgstr "Modelo de mapeo de contas de posición fiscal"
 
 #. module: account
 #: model:ir.model,name:account.model_account_fiscal_position_account
@@ -2740,7 +2740,7 @@ msgstr "Activos"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template__account_ids
 msgid "Associated Account Templates"
-msgstr "Persoais de contas asociadas"
+msgstr "Modelos de contas asociadas"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_invoice_send_wizard_form
@@ -3722,12 +3722,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_tax_template__chart_template_id
 #: model:ir.model.fields,field_description:account.field_res_company__chart_template_id
 msgid "Chart Template"
-msgstr "Persoal de plan"
+msgstr "Modelo de plan"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.open_account_charts_modules
 msgid "Chart Templates"
-msgstr "Persoais de plan"
+msgstr "Modelos de plan"
 
 #. module: account
 #: code:addons/account/models/company.py:0
@@ -3742,12 +3742,12 @@ msgstr "Plan de contas"
 #: model_terms:ir.ui.view,arch_db:account.view_account_chart_template_form
 #: model_terms:ir.ui.view,arch_db:account.view_account_chart_template_tree
 msgid "Chart of Accounts Template"
-msgstr "Persoal de Plan de Contas"
+msgstr "Modelo de Plan de Contas"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_chart_template_form
 msgid "Chart of Accounts Templates"
-msgstr "Persoais de plan contable"
+msgstr "Modelos de plan contable"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_list
@@ -6093,7 +6093,7 @@ msgid ""
 "Final placeholder expression, to be copy-pasted in the desired template "
 "field."
 msgstr ""
-"Expresión de campos final, a ser copia-pegada no campo do persoal desexado."
+"Expresión de campos final, a ser copia-pegada no campo do modelo desexado."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_analytic_line__general_account_id
@@ -6202,7 +6202,7 @@ msgstr "Posición fiscal"
 #: model_terms:ir.ui.view,arch_db:account.view_account_position_template_form
 #: model_terms:ir.ui.view,arch_db:account.view_account_position_template_search
 msgid "Fiscal Position Template"
-msgstr "Persoal de posición fiscal"
+msgstr "Modelo de posición fiscal"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_fiscal_position_form
@@ -7139,7 +7139,7 @@ msgstr "Conta de ingresos"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template__property_account_income_id
 msgid "Income Account on Product Template"
-msgstr "Persoal de conta de ingresos en produto"
+msgstr "Modelo de conta de ingresos en produto"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
@@ -9121,7 +9121,7 @@ msgstr "Sen mensaxe"
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_fiscal_position__foreign_vat_header_mode__no_template
 msgid "No Template"
-msgstr "Sen persoal"
+msgstr "Sen modelo"
 
 #. module: account
 #: code:addons/account/models/account_journal.py:0
@@ -9171,8 +9171,8 @@ msgid ""
 "No tax template found for this country. Please install the corresponding "
 "localization module."
 msgstr ""
-"Non se atopou ningún persoal de impostos para este país. Instale o módulo de"
-" localización correspondente."
+"Non se atopou ningún modelo de impostos para este país. Instale o módulo de "
+"localización correspondente."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company__tax_lock_date
@@ -9681,7 +9681,7 @@ msgstr "Actividades operativas"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_form
 msgid "Operation Templates"
-msgstr "Persoais de operacións"
+msgstr "Modelos de operacións"
 
 #. module: account
 #: code:addons/account/models/account_account.py:0
@@ -9984,7 +9984,7 @@ msgstr "Principal"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template__parent_id
 msgid "Parent Chart Template"
-msgstr "Persoal de plan pai"
+msgstr "Modelo de plan pai"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_report_line__parent_id
@@ -11047,12 +11047,12 @@ msgstr "Recálculo de liñas de impostos"
 #. module: account
 #: model:ir.model,name:account.model_account_reconcile_model_line_template
 msgid "Reconcile Model Line Template"
-msgstr "Persoal de Conciliación de Modelo de Linea"
+msgstr "Modelo de Conciliación de Modelo de Linea"
 
 #. module: account
 #: model:ir.model,name:account.model_account_reconcile_model_template
 msgid "Reconcile Model Template"
-msgstr "Persoal de modelo de conciliación"
+msgstr "Modelo de modelo de conciliación"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__reconciled
@@ -11695,12 +11695,12 @@ msgstr "Gardar"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_invoice_send_wizard_form
 msgid "Save as a new template"
-msgstr "Gardar como persoal novo"
+msgstr "Gardar como modelo novo"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_invoice_send_wizard_form
 msgid "Save as new template"
-msgstr "Gravar como novo persoal"
+msgstr "Gravar como novo modelo"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -11728,7 +11728,7 @@ msgstr "Buscar diario contable"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_template_search
 msgid "Search Account Templates"
-msgstr "Buscar persoais de contas"
+msgstr "Buscar modelos de contas"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_bank_statement_search
@@ -11743,7 +11743,7 @@ msgstr "Buscar liñas de extractos bancarios"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_chart_template_seacrh
 msgid "Search Chart of Account Templates"
-msgstr "Buscar persoais de plan de contas"
+msgstr "Buscar modelos de plan de contas"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_position_filter
@@ -11778,7 +11778,7 @@ msgstr "Buscar movementos"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_tax_template_search
 msgid "Search Tax Templates"
-msgstr "Buscar persoais de impostos"
+msgstr "Buscar modelos de impostos"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_tax_view_search
@@ -12196,9 +12196,9 @@ msgid ""
 "you want to generate accounts of this template only when loading its child "
 "template."
 msgstr ""
-"Elixe Falso se non queres que se utilice este persoal no asistente que xera "
-"o Plan de contas a partir de persoais; isto é útil cando queres xerar contas"
-" deste persoal só ao cargar o teu persoal filla."
+"Elixe Falso se non queres que se utilice este modelo no asistente que xera o"
+" Plan de contas a partir de modelos; isto é útil cando queres xerar contas "
+"deste modelo só ao cargar o teu modelo filla."
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_config
@@ -12890,7 +12890,7 @@ msgstr "Mapeo de impostos"
 #. module: account
 #: model:ir.model,name:account.model_account_fiscal_position_tax_template
 msgid "Tax Mapping Template of Fiscal Position"
-msgstr "Persoal de mapeo de impostos da posición fiscal"
+msgstr "Modelo de mapeo de impostos da posición fiscal"
 
 #. module: account
 #: model:ir.model,name:account.model_account_fiscal_position_tax
@@ -12911,7 +12911,7 @@ msgstr "Liña de partición de impostos"
 #. module: account
 #: model:ir.model,name:account.model_account_tax_repartition_line_template
 msgid "Tax Repartition Line Template"
-msgstr "Persoal de liña de partición de impostos"
+msgstr "Modelo de liña de partición de impostos"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_carryover_line__tax_report_id
@@ -12958,17 +12958,17 @@ msgstr "Cadea de imposto"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_tax_template_search
 msgid "Tax Template"
-msgstr "Persoal de impostos"
+msgstr "Modelo de impostos"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template__tax_template_ids
 msgid "Tax Template List"
-msgstr "Lista de persoais de impostos"
+msgstr "Lista de modelos de impostos"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_tax_template_form
 msgid "Tax Templates"
-msgstr "Persoais de impostos"
+msgstr "Modelos de impostos"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax__type_tax_use
@@ -13017,8 +13017,8 @@ msgid ""
 "not both at the same time. invoice_tax_id and refund_tax_id should not be "
 "set together."
 msgstr ""
-"Os persoais da liña de distribución de impostos deben aplicarse a facturas "
-"ou reembolsos, non a ambos ao mesmo tempo. invoice_tax_ide e refund_tax_ide "
+"Os modelos da liña de distribución de impostos deben aplicarse a facturas ou"
+" reembolsos, non a ambos ao mesmo tempo. invoice_tax_ide e refund_tax_ide "
 "non deben configurarse xuntos."
 
 #. module: account
@@ -13384,8 +13384,8 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_payment__user_id
 msgid "Technical field used to fit the generic behavior in mail templates."
 msgstr ""
-"Campo técnico utilizado para axustar o comportamento xenérico en persoais de"
-" correo"
+"Campo técnico utilizado para axustar o comportamento xenérico en modelos de "
+"correo"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__invoice_filter_type_domain
@@ -13545,32 +13545,32 @@ msgstr "Atallo técnico para analizar a cantidade a un flotante"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__chart_template_id
 msgid "Template"
-msgstr "Persoal"
+msgstr "Modelo"
 
 #. module: account
 #: model:ir.model,name:account.model_account_group_template
 msgid "Template for Account Groups"
-msgstr "Persoal para grupos de contas"
+msgstr "Modelo para grupos de contas"
 
 #. module: account
 #: model:ir.model,name:account.model_account_fiscal_position_template
 msgid "Template for Fiscal Position"
-msgstr "Persoal de posición fiscal"
+msgstr "Modelo de posición fiscal"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_fiscal_position__foreign_vat_header_mode__templates_found
 msgid "Templates Found"
-msgstr "Persoais atopados"
+msgstr "Modelos atopados"
 
 #. module: account
 #: model:ir.model,name:account.model_account_account_template
 msgid "Templates for Accounts"
-msgstr "Persoais de contas"
+msgstr "Modelos de contas"
 
 #. module: account
 #: model:ir.model,name:account.model_account_tax_template
 msgid "Templates for Taxes"
-msgstr "Persoal de impostos"
+msgstr "Modelo de impostos"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_payment_term_line_form
@@ -13828,7 +13828,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company__chart_template_id
 msgid "The chart template for the company (if any)"
-msgstr "O persoal do plan da empresa (se existe)"
+msgstr "O modelo do plan da empresa (se existe)"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
@@ -14106,7 +14106,7 @@ msgid ""
 "though they don't generate any tag: %s . This probably means you forgot to "
 "set a tag_name on these lines."
 msgstr ""
-"As seguintes liñas do informe de impostos utilízanse nalgúns persoais de "
+"As seguintes liñas do informe de impostos utilízanse nalgúns modelos de "
 "distribución de impostos, aínda que non xeran ningunha etiqueta: %s. Isto "
 "probablemente significa que esqueciches establecer unha etiqueta_name nestas"
 " liñas."
@@ -14939,7 +14939,7 @@ msgstr ""
 "Este campo booleano permíteche elixir se queres propoñer que o usuario "
 "codifique as taxas de vendas e compras ou que elixa dunha lista de impostos."
 " Esta última opción asume que se completou o conxunto de impostos deste "
-"persoal."
+"modelo."
 
 #. module: account
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
@@ -15085,11 +15085,11 @@ msgid ""
 "with few new accounts (You don't need to define the whole structure that is "
 "common to both several times)."
 msgstr ""
-"Este campo opcional permíteche enlazar un persoal de conta a un persoal "
+"Este campo opcional permíteche enlazar un modelo de conta a un modelo "
 "específico de plan de contas que pode ser diferente á orixinal á que "
-"pertence. Permíteche definir persoais de plans que se estenden a outras e "
-"que se completan con novas contas (non é necesario que definas varias veces "
-"a estrutura completa común a ambos os)."
+"pertence. Permíteche definir modelos de plans que se estenden a outras e que"
+" se completan con novas contas (non é necesario que definas varias veces a "
+"estrutura completa común a ambos os)."
 
 #. module: account
 #: code:addons/account/models/account_payment.py:0
@@ -15665,7 +15665,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_send__template_id
 msgid "Use template"
-msgstr "Usar persoal"
+msgstr "Usar modelo"
 
 #. module: account
 #: model_terms:digest.tip,tip_description:account.digest_tip_account_0

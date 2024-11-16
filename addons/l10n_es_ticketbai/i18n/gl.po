@@ -26,7 +26,7 @@ msgstr "Certificados AEAT"
 #. module: l10n_es_ticketbai
 #: model:ir.model,name:l10n_es_ticketbai.model_account_chart_template
 msgid "Account Chart Template"
-msgstr "Persoal de Plan de Contas"
+msgstr "Modelo de Plan de Contas"
 
 #. module: l10n_es_ticketbai
 #: model:ir.model,name:l10n_es_ticketbai.model_account_move_reversal
@@ -218,7 +218,7 @@ msgstr "Posición fiscal"
 #: model_terms:ir.ui.view,arch_db:l10n_es_ticketbai.tbai_account_fiscal_position_template_view_form
 #: model_terms:ir.ui.view,arch_db:l10n_es_ticketbai.tbai_account_fiscal_position_template_view_search
 msgid "Fiscal Position Template"
-msgstr "Persoal de posición fiscal"
+msgstr "Modelo de posición fiscal"
 
 #. module: l10n_es_ticketbai
 #: model:ir.model.fields.selection,name:l10n_es_ticketbai.selection__res_company__tbai_description_method__fixed
@@ -577,7 +577,7 @@ msgstr "Exención imposto TicketBAI"
 #. module: l10n_es_ticketbai
 #: model:ir.model,name:l10n_es_ticketbai.model_account_fiscal_position_template
 msgid "Template for Fiscal Position"
-msgstr "Persoal de posición fiscal"
+msgstr "Modelo de posición fiscal"
 
 #. module: l10n_es_ticketbai
 #: model:ir.model.fields,help:l10n_es_ticketbai.field_res_company__tbai_description
@@ -613,7 +613,7 @@ msgstr "TicketBAI - Exencións impostos en posición fiscal"
 #. module: l10n_es_ticketbai
 #: model:ir.model,name:l10n_es_ticketbai.model_account_fp_tbai_tax_template
 msgid "TicketBAI - Fiscal Position Template Tax Exemptions"
-msgstr "TicketBAI - Exencións impostos en persoal de posición fiscal"
+msgstr "TicketBAI - Exencións impostos en modelo de posición fiscal"
 
 #. module: l10n_es_ticketbai
 #: model:ir.actions.act_window,name:l10n_es_ticketbai.action_ticketbai_general_info

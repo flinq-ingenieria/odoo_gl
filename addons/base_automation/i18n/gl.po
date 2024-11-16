@@ -233,7 +233,7 @@ msgstr "Editar acción"
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__template_id
 msgid "Email Template"
-msgstr "Persoal de correo electrónico"
+msgstr "Modelo de correo electrónico"
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__xml_id

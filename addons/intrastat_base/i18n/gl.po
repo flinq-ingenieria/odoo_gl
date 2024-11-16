@@ -109,7 +109,7 @@ msgstr "Non hai dirección de email no usuario '%s'."
 #. module: intrastat_base
 #: model:ir.model,name:intrastat_base.model_product_template
 msgid "Product Template"
-msgstr "Persoal de Produto"
+msgstr "Modelo de Produto"
 
 #. module: intrastat_base
 #: code:addons/intrastat_base/models/res_partner.py:0
@@ -138,7 +138,7 @@ msgstr "Custos de envío"
 #. module: intrastat_base
 #: model:ir.model,name:intrastat_base.model_account_fiscal_position_template
 msgid "Template for Fiscal Position"
-msgstr "Persoal de Posición Fiscal"
+msgstr "Modelo de Posición Fiscal"
 
 #. module: intrastat_base
 #: code:addons/intrastat_base/models/product_template.py:0

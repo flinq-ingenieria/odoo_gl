@@ -50,7 +50,7 @@ msgstr "Categoría de Produto"
 #. module: product_category_tax
 #: model:ir.model,name:product_category_tax.model_product_template
 msgid "Product Template"
-msgstr "Persoal do Produto"
+msgstr "Modelo do Produto"
 
 #. module: product_category_tax
 #: model_terms:ir.ui.view,arch_db:product_category_tax.product_category_form_view

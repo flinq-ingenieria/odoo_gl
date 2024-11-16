@@ -75,7 +75,7 @@ msgstr "Categoría de Produto"
 #. module: product_stock_state
 #: model:ir.model,name:product_stock_state.model_product_template
 msgid "Product Template"
-msgstr "Persoal de Produtos"
+msgstr "Modelo de Produtos"
 
 #. module: product_stock_state
 #: model:product.product,name:product_stock_state.product_setting_by_company

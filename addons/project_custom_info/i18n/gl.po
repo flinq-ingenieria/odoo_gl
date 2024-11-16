@@ -30,7 +30,7 @@ msgstr "Información Personalizada"
 #. module: project_custom_info
 #: model:ir.model.fields,field_description:project_custom_info.field_project_project__custom_info_template_id
 msgid "Custom Information Template"
-msgstr "Persoal de Información Personalizada"
+msgstr "Modelo de Información Personalizada"
 
 #. module: project_custom_info
 #: model:ir.model.fields,field_description:project_custom_info.field_project_project__custom_info_ids

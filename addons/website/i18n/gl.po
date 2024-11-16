@@ -2024,7 +2024,7 @@ msgstr "Ocorreu un erro, o formulario non se enviou."
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.qweb_500
 msgid "An error occurred while rendering the template"
-msgstr "Produciuse un erro ao renderizar o persoal"
+msgstr "Produciuse un erro ao renderizar o modelo"
 
 #. module: website
 #: model:ir.actions.client,name:website.backend_dashboard
@@ -2422,7 +2422,7 @@ msgstr "Libros"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid "Bootstrap-based templates"
-msgstr "Persoais baseados en arranques"
+msgstr "Modelos baseados en arranques"
 
 #. module: website
 #. openerp-web
@@ -4169,7 +4169,7 @@ msgid ""
 "Easily design your own Odoo templates thanks to clean HTML\n"
 "                            structure and bootstrap CSS."
 msgstr ""
-"Deseña facilmente os teus propios persoais de Odoo grazas a HTML limpo\n"
+"Deseña facilmente os teus propios modelos de Odoo grazas a HTML limpo\n"
 "                            estrutura e bootstrap CSS."
 
 #. module: website
@@ -5619,8 +5619,8 @@ msgid ""
 "If this error is caused by a change of yours in the templates, you have the "
 "possibility to reset the template to its <strong>factory settings</strong>."
 msgstr ""
-"Se este erro é causado por un cambio seu nos persoais, ten a posibilidade de"
-" restablecer o persoal ao seu <strong>configuración de fábrica</strong>."
+"Se este erro é causado por un cambio seu nos modelos, ten a posibilidade de "
+"restablecer o modelo ao seu <strong>configuración de fábrica</strong>."
 
 #. module: website
 #: model:ir.model.fields,help:website.field_website_page__groups_id
@@ -8464,7 +8464,7 @@ msgstr "Requirido"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.qweb_500
 msgid "Reset templates"
-msgstr "Restablecer os persoais"
+msgstr "Restablecer os modelos"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.qweb_500
@@ -9589,31 +9589,31 @@ msgstr "Conte cal é o valor para o <br/>cliente desta característica."
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 #, python-format
 msgid "Template"
-msgstr "Persoal"
+msgstr "Modelo"
 
 #. module: website
 #: code:addons/website/models/website.py:0
 #, python-format
 msgid "Template <b>%s (id:%s)</b> contains a link to this page"
-msgstr "O persoal <b>%s (ide:%s)</b> contén unha ligazón a esta páxina"
+msgstr "O modelo <b>%s (ide:%s)</b> contén unha ligazón a esta páxina"
 
 #. module: website
 #: code:addons/website/models/website.py:0
 #, python-format
 msgid "Template <b>%s (id:%s)</b> is calling this file"
-msgstr "O persoal <b>%s (ide:%s)</b> está a enlazar este arquivo"
+msgstr "O modelo <b>%s (ide:%s)</b> está a enlazar este arquivo"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.qweb_500
 msgid "Template fallback"
-msgstr "Alternativa ao persoal"
+msgstr "Alternativa ao modelo"
 
 #. module: website
 #: code:addons/website/models/website.py:0
 #: code:addons/website/models/website.py:0
 #, python-format
 msgid "Templates"
-msgstr "Persoais"
+msgstr "Modelos"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_contact
@@ -9824,7 +9824,7 @@ msgstr "A mensaxe será visible unha vez que termine a conta atrás"
 #: model_terms:ir.ui.view,arch_db:website.qweb_500
 msgid "The selected templates will be reset to their factory settings."
 msgstr ""
-"Os persoais seleccionados serán restablecidos á súa configuración "
+"Os modelos seleccionados serán restablecidos á súa configuración "
 "predeterminada."
 
 #. module: website
@@ -9897,7 +9897,7 @@ msgstr "Opcións temáticas"
 #: model:ir.model.fields,field_description:website.field_website_menu__theme_template_id
 #: model:ir.model.fields,field_description:website.field_website_page__theme_template_id
 msgid "Theme Template"
-msgstr "Persoal do tema"
+msgstr "Modelo do tema"
 
 #. module: website
 #: model:ir.model,name:website.model_theme_ir_ui_view
@@ -11550,7 +11550,7 @@ msgstr "Non pode ter dous usuarios co mesmo inicio de sesión!"
 #: code:addons/website/models/website_snippet_filter.py:0
 #, python-format
 msgid "You can only use template prefixed by dynamic_filter_template_ "
-msgstr "Só pode usar persoal prefijada por dynamic_filter_template_ "
+msgstr "Só pode usar modelo prefijada por dynamic_filter_template_ "
 
 #. module: website
 #. openerp-web
@@ -11711,7 +11711,7 @@ msgid ""
 "because you did not provided both a filter and a template to use.<br/>"
 msgstr ""
 "O seu fragmento dinámico mostrarase aquí... Esta mensaxe móstrase porque non"
-" proporcionou tanto un filtro como un persoal para usar.<br/>"
+" proporcionou tanto un filtro como un modelo para usar.<br/>"
 
 #. module: website
 #. openerp-web

@@ -25,7 +25,7 @@ msgstr "Produto"
 #. module: product_form_sale_link
 #: model:ir.model,name:product_form_sale_link.model_product_template
 msgid "Product Template"
-msgstr "Persoal de Produtos"
+msgstr "Modelo de Produtos"
 
 #. module: product_form_sale_link
 #: model_terms:ir.ui.view,arch_db:product_form_sale_link.view_sales_order_line_filter

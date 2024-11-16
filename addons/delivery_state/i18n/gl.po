@@ -106,13 +106,13 @@ msgstr "Email de confirmación de albará entregado"
 #. module: delivery_state
 #: model_terms:ir.ui.view,arch_db:delivery_state.res_config_settings_view_form
 msgid "Email Template"
-msgstr "Persoal de correo"
+msgstr "Modelo de correo"
 
 #. module: delivery_state
 #: model:ir.model.fields,field_description:delivery_state.field_res_company__delivery_state_delivered_mail_template_id
 #: model:ir.model.fields,field_description:delivery_state.field_res_config_settings__delivery_state_delivered_mail_template_id
 msgid "Email Template delivered picking"
-msgstr "Persoal de email de albará entregado"
+msgstr "Modelo de email de albará entregado"
 
 #. module: delivery_state
 #: model:ir.model.fields.selection,name:delivery_state.selection__stock_picking__delivery_state__in_transit

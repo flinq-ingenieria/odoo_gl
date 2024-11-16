@@ -50,7 +50,7 @@ msgstr "Orde de Servizo de Campo"
 #. module: fieldservice_skill
 #: model:ir.model,name:fieldservice_skill.model_fsm_template
 msgid "Field Service Order Template"
-msgstr "Persoal de Orde de Servizo de Campo"
+msgstr "Modelo de Orde de Servizo de Campo"
 
 #. module: fieldservice_skill
 #: model:ir.model,name:fieldservice_skill.model_fsm_person

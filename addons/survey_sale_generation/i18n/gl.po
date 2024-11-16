@@ -41,7 +41,7 @@ msgstr ""
 #. module: survey_sale_generation
 #: model:ir.model.fields,help:survey_sale_generation.field_survey_survey__quotation_mail_template_id
 msgid "Choose a template. Otherwise the default one will be used."
-msgstr "Escolla un persoal. Doutro xeito usarase a que existe por defecto."
+msgstr "Escolla un modelo. Doutro xeito usarase a que existe por defecto."
 
 #. module: survey_sale_generation
 #: model:survey.question,title:survey_sale_generation.survey_support_q3
@@ -166,7 +166,7 @@ msgstr "Pregunta de cantidade de produto"
 #. module: survey_sale_generation
 #: model:ir.model.fields,field_description:survey_sale_generation.field_survey_survey__quotation_mail_template_id
 msgid "Quotation Mail Template"
-msgstr "Persoal de correo de orzamento"
+msgstr "Modelo de correo de orzamento"
 
 #. module: survey_sale_generation
 #: model:survey.question,title:survey_sale_generation.survey_support_q4
@@ -187,7 +187,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:survey_sale_generation.field_survey_question_answer__sale_order_template_id
 #: model:ir.model.fields,field_description:survey_sale_generation.field_survey_survey__sale_order_template_id
 msgid "Sale Order Template"
-msgstr "Persoal de orzamento"
+msgstr "Modelo de orzamento"
 
 #. module: survey_sale_generation
 #: model_terms:ir.ui.view,arch_db:survey_sale_generation.survey_form

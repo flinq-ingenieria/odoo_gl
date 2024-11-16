@@ -975,7 +975,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:coupon.coupon_generate_view_form
 msgid "Specify a mail template to send the generated coupons as email."
 msgstr ""
-"Especifique un persoal de correo para enviar os cupóns xerados como correo "
+"Especifique un modelo de correo para enviar os cupóns xerados como correo "
 "electrónico."
 
 #. module: coupon
@@ -1090,7 +1090,7 @@ msgstr "Usar un código"
 #. module: coupon
 #: model:ir.model.fields,field_description:coupon.field_coupon_generate_wizard__template_id
 msgid "Use template"
-msgstr "Usar persoal"
+msgstr "Usar modelo"
 
 #. module: coupon
 #: model_terms:ir.ui.view,arch_db:coupon.report_coupon

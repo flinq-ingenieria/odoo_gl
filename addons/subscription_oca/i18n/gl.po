@@ -620,7 +620,7 @@ msgstr "Produto"
 #. module: subscription_oca
 #: model:ir.model,name:subscription_oca.model_product_template
 msgid "Product Template"
-msgstr "Persoal do Produto"
+msgstr "Modelo do Produto"
 
 #. module: subscription_oca
 #: model:ir.actions.act_window,name:subscription_oca.subscription_product_template_action
@@ -806,14 +806,14 @@ msgstr "Etiquetas de subscrición"
 #: model:ir.model.fields,field_description:subscription_oca.field_product_template__subscription_template_id
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__template_id
 msgid "Subscription template"
-msgstr "Persoal de subscrición"
+msgstr "Modelo de subscrición"
 
 #. module: subscription_oca
 #: model:ir.actions.act_window,name:subscription_oca.sale_subscription_template_act_window
 #: model:ir.model,name:subscription_oca.model_sale_subscription_template
 #: model:ir.ui.menu,name:subscription_oca.sale_template_subscription_menu
 msgid "Subscription templates"
-msgstr "Persoais de subscrición"
+msgstr "Modelos de subscrición"
 
 #. module: subscription_oca
 #: model:ir.actions.act_window,name:subscription_oca.sale_subscription_action

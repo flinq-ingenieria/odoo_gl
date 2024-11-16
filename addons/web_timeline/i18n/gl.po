@@ -53,7 +53,7 @@ msgstr "Mes"
 #, python-format
 msgid "Template \"timeline-item\" not present in timeline view definition."
 msgstr ""
-"A persoal \"elemento de liña de tempo\" non está presente na definición de "
+"A modelo \"elemento de liña de tempo\" non está presente na definición de "
 "vista de liña de tempo."
 
 #. module: web_timeline

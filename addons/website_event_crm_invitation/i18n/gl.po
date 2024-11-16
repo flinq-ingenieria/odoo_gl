@@ -117,7 +117,7 @@ msgstr "Categorías de evento"
 #. module: website_event_crm_invitation
 #: model:ir.model,name:website_event_crm_invitation.model_event_type
 msgid "Event Template"
-msgstr "Persoal de Evento"
+msgstr "Modelo de Evento"
 
 #. module: website_event_crm_invitation
 #: model:ir.model.fields,field_description:website_event_crm_invitation.field_crm_lead__event_type_website_url

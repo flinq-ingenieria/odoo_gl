@@ -444,7 +444,7 @@ msgid ""
 "                to automatically add a blank cover page to all letters."
 msgstr ""
 "O noso servizo non pode ler a súa carta debido ao seu formato.<br/>\n"
-"                 Modifique o formato do persoal ou actualice a súa configuración\n"
+"                 Modifique o formato do modelo ou actualice a súa configuración\n"
 "                 para agregar automaticamente unha portada en branco a todas as letras."
 
 #. module: snailmail

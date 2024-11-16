@@ -47,12 +47,12 @@ msgstr "Nome a Mostrar"
 #. module: dms_field_auto_classification
 #: model:ir.model,name:dms_field_auto_classification.model_dms_classification_template
 msgid "Dms Classification Template"
-msgstr "Persoal de clasificación Dms"
+msgstr "Modelo de clasificación Dms"
 
 #. module: dms_field_auto_classification
 #: model:ir.model,name:dms_field_auto_classification.model_dms_classification_template_detail
 msgid "Dms Classification Template Detail"
-msgstr "Persoal de Clasificación Dms Detalle"
+msgstr "Modelo de Clasificación Dms Detalle"
 
 #. module: dms_field_auto_classification
 #: model:ir.model.fields,field_description:dms_field_auto_classification.field_dms_classification_template_detail__field_id
@@ -109,7 +109,7 @@ msgstr "Secuencia"
 #. module: dms_field_auto_classification
 #: model:ir.model.fields,field_description:dms_field_auto_classification.field_wizard_dms_classification_detail__template_id
 msgid "Template"
-msgstr "Persoal"
+msgstr "Modelo"
 
 #. module: dms_field_auto_classification
 #: model:ir.model,name:dms_field_auto_classification.model_wizard_dms_classification_detail

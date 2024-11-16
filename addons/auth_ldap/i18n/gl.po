@@ -222,7 +222,7 @@ msgstr "Configurar do servidor LDAP"
 #. module: auth_ldap
 #: model:ir.model.fields,field_description:auth_ldap.field_res_company_ldap__user
 msgid "Template User"
-msgstr "Persoal de usuario"
+msgstr "Modelo de usuario"
 
 #. module: auth_ldap
 #: model:ir.model.fields,help:auth_ldap.field_res_company_ldap__ldap_password

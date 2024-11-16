@@ -37,7 +37,7 @@ msgstr "Estimado"
 #. module: email_template_qweb
 #: model:ir.model,name:email_template_qweb.model_mail_template
 msgid "Email Templates"
-msgstr "Persoais de correo electrónico"
+msgstr "Modelos de correo electrónico"
 
 #. module: email_template_qweb
 #: model:ir.model.fields.selection,name:email_template_qweb.selection__mail_template__body_type__qweb
@@ -71,7 +71,7 @@ msgstr ""
 #. module: email_template_qweb
 #: model_terms:ir.ui.view,arch_db:email_template_qweb.view_email_template_demo1
 msgid "This is an email template using qweb."
-msgstr "Isto é un persoal de correo electrónico usando QWeb."
+msgstr "Isto é un modelo de correo electrónico usando QWeb."
 
 #. module: email_template_qweb
 #: model:ir.model.fields,field_description:email_template_qweb.field_mail_template__body_view_arch

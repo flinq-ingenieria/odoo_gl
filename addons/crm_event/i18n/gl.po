@@ -55,7 +55,7 @@ msgstr "Evento"
 #. module: crm_event
 #: model:ir.model,name:crm_event.model_event_type
 msgid "Event Template"
-msgstr "Persoal de eventos"
+msgstr "Modelo de eventos"
 
 #. module: crm_event
 #: model:ir.model,name:crm_event.model_event_type_report

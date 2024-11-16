@@ -373,9 +373,9 @@ msgid ""
 "related sms.sms can be deleted separately from its statistics. However the "
 "ID is needed for several action and controllers."
 msgstr ""
-"ID dos sms.sms relacionados. Este campo é un campo enteiro porque os "
-"sms.sms relacionados pódense eliminar por separado das súas estatísticas. "
-"Con todo, o ID é necesario para varias accións e controladores. "
+"ID dos sms.sms relacionados. Este campo é un campo enteiro porque os sms.sms"
+" relacionados pódense eliminar por separado das súas estatísticas. Con todo,"
+" o ID é necesario para varias accións e controladores. "
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__message_needaction
@@ -757,7 +757,7 @@ msgstr "Subscrición SMS"
 #. module: mass_mailing_sms
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__sms_template_id
 msgid "SMS Template"
-msgstr "Persoal de SMS"
+msgstr "Modelo de SMS"
 
 #. module: mass_mailing_sms
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0

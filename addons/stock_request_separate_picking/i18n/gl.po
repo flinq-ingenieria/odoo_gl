@@ -77,4 +77,4 @@ msgstr "Solicitude de pedido de existencias"
 #. module: stock_request_separate_picking
 #: model:ir.model,name:stock_request_separate_picking.model_stock_request_abstract
 msgid "Stock Request Template"
-msgstr "Persoal de solicitude de existencias"
+msgstr "Modelo de solicitude de existencias"

@@ -29,7 +29,7 @@ msgstr "Conta"
 #. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_account_chart_template
 msgid "Account Chart Template"
-msgstr "Persoal de Plan de Contas"
+msgstr "Modelo de Plan de Contas"
 
 #. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_account_group
@@ -90,7 +90,7 @@ msgstr "Posición fiscal"
 #. module: l10n_multilang
 #: model:ir.model.fields,field_description:l10n_multilang.field_account_fiscal_position_template__name
 msgid "Fiscal Position Template"
-msgstr "Persoal de posición fiscal"
+msgstr "Modelo de posición fiscal"
 
 #. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_base_language_install
@@ -161,8 +161,8 @@ msgid ""
 "language codes separated by ';'"
 msgstr ""
 "Indique aquí os idiomas para os que poderían cargarse as traducións dos "
-"persoais no momento da instalación deste módulo de localización, e copiarse "
-"no obxecto final cando se xeren desde os persoais. Debe indicar os códigos "
+"modelos no momento da instalación deste módulo de localización, e copiarse "
+"no obxecto final cando se xeren desde os modelos. Debe indicar os códigos "
 "dos idiomas separados por ';'"
 
 #. module: l10n_multilang
@@ -185,19 +185,19 @@ msgstr "Nome do imposto"
 #. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_account_group_template
 msgid "Template for Account Groups"
-msgstr "Persoal para grupos de contas"
+msgstr "Modelo para grupos de contas"
 
 #. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_account_fiscal_position_template
 msgid "Template for Fiscal Position"
-msgstr "Persoal de posición fiscal"
+msgstr "Modelo de posición fiscal"
 
 #. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_account_account_template
 msgid "Templates for Accounts"
-msgstr "Persoais de contas"
+msgstr "Modelos de contas"
 
 #. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_account_tax_template
 msgid "Templates for Taxes"
-msgstr "Persoal de impostos"
+msgstr "Modelo de impostos"

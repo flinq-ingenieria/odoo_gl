@@ -232,8 +232,8 @@ msgid ""
 " and company_id fields. This model is the data source for column Actuals."
 msgstr ""
 "Modelo que sexa 'de tipo apunte', é dicir, que teña polo menos os campos de "
-"débito, crédito, data, ID de conta e ID de compañía. Este modelo é a fonte"
-" de datos para a columna Informes estatísticos."
+"débito, crédito, data, ID de conta e ID de compañía. Este modelo é a fonte "
+"de datos para a columna Informes estatísticos."
 
 #. module: mis_builder
 #: code:addons/mis_builder/models/mis_report_instance.py:0
@@ -260,8 +260,8 @@ msgid ""
 "%s"
 msgstr ""
 "Os modelos reais (alternativos) utilizados en columnas deben ter o mesmo "
-"modelo de conta no campo Conta e deben ser os mesmos definidos no persoal de"
-" informe: %s"
+"modelo de conta no campo Conta e deben ser os mesmos definidos no modelo de "
+"informe: %s"
 
 #. module: mis_builder
 #: model:ir.model.fields.selection,name:mis_builder.selection__mis_report_instance_period__source__actuals
@@ -1186,13 +1186,13 @@ msgstr "Informe Os meus Sub-KPI"
 #. module: mis_builder
 #: model:ir.model,name:mis_builder.model_mis_report
 msgid "MIS Report Template"
-msgstr "Persoal de orzamento Os meus"
+msgstr "Modelo de orzamento Os meus"
 
 #. module: mis_builder
 #: model:ir.actions.act_window,name:mis_builder.mis_report_view_action
 #: model:ir.ui.menu,name:mis_builder.mis_report_view_menu
 msgid "MIS Report Templates"
-msgstr "Persoais de informe Os meus"
+msgstr "Modelos de informe Os meus"
 
 #. module: mis_builder
 #: model:ir.ui.menu,name:mis_builder.mis_report_conf_menu
@@ -1662,7 +1662,7 @@ msgstr "Apuntamentos obxectivo"
 #: model_terms:ir.ui.view,arch_db:mis_builder.mis_report_instance_view_form
 #: model_terms:ir.ui.view,arch_db:mis_builder.mis_report_instance_view_tree
 msgid "Template"
-msgstr "Persoal"
+msgstr "Modelo"
 
 #. module: mis_builder
 #: model:ir.model.fields,field_description:mis_builder.field_mis_report_instance__temporary

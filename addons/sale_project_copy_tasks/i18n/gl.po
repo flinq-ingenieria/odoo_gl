@@ -38,7 +38,7 @@ msgid ""
 "         'In sale order's project': Will use the sale order's configured project if defined or fallback to         creating a new project based on the selected template."
 msgstr ""
 "Na confirmación da orde de venda, este produto pode xerar un proxecto e / ou tarefa.         A partir deles, pode realizar un seguimento do servizo que está a vender.\n"
-"         'No proxecto da orde de venda': usará o proxecto configurado da orde de venda se está definido ou se utilizará como respaldo         para crear un novo proxecto baseado no persoal seleccionado."
+"         'No proxecto da orde de venda': usará o proxecto configurado da orde de venda se está definido ou se utilizará como respaldo         para crear un novo proxecto baseado no modelo seleccionado."
 
 #. module: sale_project_copy_tasks
 #: model:ir.model,name:sale_project_copy_tasks.model_product_template

@@ -95,7 +95,7 @@ msgstr "<strong>Prazos de pago:</strong>"
 #. module: l10n_cl
 #: model:ir.model,name:l10n_cl.model_account_chart_template
 msgid "Account Chart Template"
-msgstr "Persoal de Plan de Contas"
+msgstr "Modelo de Plan de Contas"
 
 #. module: l10n_cl
 #: model_terms:ir.ui.view,arch_db:l10n_cl.view_complete_invoice_refund_tree
@@ -596,7 +596,7 @@ msgstr "Tipo de Contribuínte"
 #. module: l10n_cl
 #: model:ir.model,name:l10n_cl.model_account_tax_template
 msgid "Templates for Taxes"
-msgstr "Persoal de impostos"
+msgstr "Modelo de impostos"
 
 #. module: l10n_cl
 #: code:addons/l10n_cl/models/account_move.py:0

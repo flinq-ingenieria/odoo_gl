@@ -22,7 +22,7 @@ msgstr ""
 #. module: account_comment_template
 #: model:ir.model.fields,field_description:account_comment_template.field_account_move__comment_template_ids
 msgid "Comment Template"
-msgstr "Persoal de comentario"
+msgstr "Modelo de comentario"
 
 #. module: account_comment_template
 #: model_terms:ir.ui.view,arch_db:account_comment_template.move_form_add_comment
@@ -52,7 +52,7 @@ msgstr "Entrada diaria"
 #~ msgstr "Comentario inferior"
 
 #~ msgid "Bottom Comment Template"
-#~ msgstr "Persoal de comentario inferior"
+#~ msgstr "Modelo de comentario inferior"
 
 #~ msgid "Bottom Comments"
 #~ msgstr "Comentarios inferiores"
@@ -61,28 +61,28 @@ msgstr "Entrada diaria"
 #~ msgstr "Factura"
 
 #~ msgid "Load a template"
-#~ msgstr "Cargar un persoal"
+#~ msgstr "Cargar un modelo"
 
 #~ msgid ""
 #~ "The comments will be displayed on the printed document. You can load a "
 #~ "predefined template, write your own text or load a template and then modify "
 #~ "it only for this document."
 #~ msgstr ""
-#~ "Os comentarios mostraranse no documento impreso. Pode cargar un persoal "
-#~ "predeterminada, escribir o seu propio texto ou cargar un persoal e "
-#~ "modificala só para este documento."
+#~ "Os comentarios mostraranse no documento impreso. Pode cargar un modelo "
+#~ "predeterminada, escribir o seu propio texto ou cargar un modelo e modificala"
+#~ " só para este documento."
 
 #~ msgid "Top Comment"
 #~ msgstr "Comentario superior"
 
 #~ msgid "Top Comment Template"
-#~ msgstr "Persoal de comentario superior"
+#~ msgstr "Modelo de comentario superior"
 
 #~ msgid "Top Comments"
 #~ msgstr "Comentarios superiores"
 
 #~ msgid "Conditions template"
-#~ msgstr "Persoal de condicións"
+#~ msgstr "Modelo de condicións"
 
 #~ msgid "Partner"
 #~ msgstr "Cliente"

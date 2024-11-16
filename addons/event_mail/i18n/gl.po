@@ -28,7 +28,7 @@ msgid ""
 "<span class=\"o_form_label\">Template Mail Scheduler</span>\n"
 "                            <span class=\"fa fa-lg fa-envelope\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
 msgstr ""
-"<span class=\"o_form_label\">Planificador de persoal de correo</span>\n"
+"<span class=\"o_form_label\">Planificador de modelo de correo</span>\n"
 "                                                              <span class=\"fa fa-lg fa-envelope\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
 
 #. module: event_mail
@@ -79,17 +79,17 @@ msgstr "Evento"
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__event_mail_template_id
 #: model_terms:ir.ui.view,arch_db:event_mail.view_event_mail_template_form
 msgid "Event Mail Template"
-msgstr "Persoal de emails"
+msgstr "Modelo de emails"
 
 #. module: event_mail
 #: model:ir.model,name:event_mail.model_event_type
 msgid "Event Template"
-msgstr "Persoal de Evento"
+msgstr "Modelo de Evento"
 
 #. module: event_mail
 #: model:ir.model,name:event_mail.model_event_mail_scheduler_template
 msgid "Event mail scheduler template"
-msgstr "Persoal de programador de correo de eventos"
+msgstr "Modelo de programador de correo de eventos"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__mail_state
@@ -143,23 +143,23 @@ msgstr "Programador de Correo Electrónico"
 #. module: event_mail
 #: model:ir.actions.act_window,name:event_mail.act_event_mail_template
 msgid "Mail Scheduler Template"
-msgstr "Persoal de programación de correo"
+msgstr "Modelo de programación de correo"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_res_company__event_mail_template_id
 #: model:ir.model.fields,field_description:event_mail.field_res_config_settings__event_mail_template_id
 msgid "Mail Template"
-msgstr "Persoal de mail"
+msgstr "Modelo de mail"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_event__event_mail_template_id
 msgid "Mail Template Scheduler"
-msgstr "Persoal de programación de correo"
+msgstr "Modelo de programación de correo"
 
 #. module: event_mail
 #: model:ir.ui.menu,name:event_mail.menu_event_mail_template
 msgid "Mail Templates"
-msgstr "Persoais de correo"
+msgstr "Modelos de correo"
 
 #. module: event_mail
 #: model_terms:ir.ui.view,arch_db:event_mail.res_config_settings_view_form
@@ -179,7 +179,7 @@ msgstr "Data Programada"
 #. module: event_mail
 #: model:ir.model,name:event_mail.model_event_mail_template
 msgid "Scheduling templates for events"
-msgstr "Persoais de programación para eventos"
+msgstr "Modelos de programación para eventos"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__notification_type
@@ -195,17 +195,17 @@ msgstr "Enviado"
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__template_ref
 #: model_terms:ir.ui.view,arch_db:event_mail.res_config_settings_view_form
 msgid "Template"
-msgstr "Persoal"
+msgstr "Modelo"
 
 #. module: event_mail
 #: model_terms:ir.ui.view,arch_db:event_mail.res_config_settings_view_form
 msgid "Template Mail Scheduler"
-msgstr "Persoal de programación de correo"
+msgstr "Modelo de programación de correo"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__template_model_id
 msgid "Template Model"
-msgstr "Modelo de Persoal"
+msgstr "Modelo de Modelo"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__interval_type
@@ -222,7 +222,7 @@ msgstr "Unidade"
 
 #, fuzzy
 #~ msgid "Email Template"
-#~ msgstr "Persoal de mail"
+#~ msgstr "Modelo de mail"
 
 #~ msgid "event.mail.scheduler.template"
 #~ msgstr "event.mail.scheduler.template"

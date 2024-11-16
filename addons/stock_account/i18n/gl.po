@@ -81,7 +81,7 @@ msgstr "<span>SN/LN</span>"
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_account_chart_template
 msgid "Account Chart Template"
-msgstr "Persoal de Plan de Contas"
+msgstr "Modelo de Plan de Contas"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_move__account_move_ids
@@ -334,8 +334,8 @@ msgid ""
 " to %s."
 msgstr ""
 "Debido ao cambio na categoría do produto ( de %s a %s), o método de custeo"
-"                                cambiou para o persoal do produto %s: de %s "
-"a %s."
+"                                cambiou para o modelo do produto %s: de %s a"
+" %s."
 
 #. module: stock_account
 #: model:ir.model.fields.selection,name:stock_account.selection__product_category__property_cost_method__fifo

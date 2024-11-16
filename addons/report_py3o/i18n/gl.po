@@ -78,7 +78,7 @@ msgid ""
 "If the user does not provide a template this will be used it should be a "
 "relative path to root of YOUR module or an absolute path on your server."
 msgstr ""
-"Se o usuario non proporciona un persoal utilizarase un roteiro relativo á "
+"Se o usuario non proporciona un modelo utilizarase un roteiro relativo á "
 "raíz do seu módulo ou un roteiro absoluto no seu servidor."
 
 #. module: report_py3o
@@ -131,12 +131,12 @@ msgstr "Última actualización en"
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_template__py3o_template_data
 #: model_terms:ir.ui.view,arch_db:report_py3o.py3o_report_view
 msgid "LibreOffice Template"
-msgstr "Persoal de Oficina de Libros"
+msgstr "Modelo de Oficina de Libros"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_template__filetype
 msgid "LibreOffice Template File Type"
-msgstr "Tipo de Persoal de Documento de Oficina de Libros"
+msgstr "Tipo de Modelo de Documento de Oficina de Libros"
 
 #. module: report_py3o
 #: code:addons/report_py3o/models/py3o_report.py:0
@@ -170,7 +170,7 @@ msgstr "Nome"
 #: code:addons/report_py3o/models/py3o_report.py:0
 #, python-format
 msgid "No template found. Aborting."
-msgstr "Non se atopou ningún persoal. Saír."
+msgstr "Non se atopou ningún modelo. Saír."
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__odp
@@ -238,7 +238,7 @@ msgstr "Modelos Py3ou"
 #. module: report_py3o
 #: model:ir.model,name:report_py3o.model_py3o_template
 msgid "Py3o template"
-msgstr "Persoal Py3ou"
+msgstr "Modelo Py3ou"
 
 #. module: report_py3o
 #: model:ir.model,name:report_py3o.model_ir_actions_report

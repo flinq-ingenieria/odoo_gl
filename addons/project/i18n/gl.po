@@ -1950,7 +1950,7 @@ msgstr "Email de"
 #: model:ir.model.fields,field_description:project.field_project_project_stage__mail_template_id
 #: model:ir.model.fields,field_description:project.field_project_task_type__mail_template_id
 msgid "Email Template"
-msgstr "Persoal de correo electrónico"
+msgstr "Modelo de correo electrónico"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__email_cc
@@ -2242,7 +2242,7 @@ msgstr ""
 "- Valoración ao cambiar de etapa: enviarase un correo electrónico cando se pase unha tarefa a outra etapa.\n"
 "- Valoración periódica: enviarase un correo electrónico periodicamente.\n"
 "\n"
-"Non esqueza configurar os persoais de correo nas etapas para as que desexa obter retroalimentación dos clientes."
+"Non esqueza configurar os modelos de correo nas etapas para as que desexa obter retroalimentación dos clientes."
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_update_default_description
@@ -3862,7 +3862,7 @@ msgstr "Cualificación media"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type__rating_template_id
 msgid "Rating Email Template"
-msgstr "Persoal de email de cualificación"
+msgstr "Modelo de email de cualificación"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__rating_status_period
@@ -4330,7 +4330,7 @@ msgstr "Establecer imaxe de portada"
 #: model_terms:ir.ui.view,arch_db:project.res_config_settings_view_form
 msgid "Set a Rating Email Template on Stages"
 msgstr ""
-"Establecer un persoal de correo electrónico de cualificación nas etapas"
+"Establecer un modelo de correo electrónico de cualificación nas etapas"
 
 #. module: project
 #: model:ir.actions.act_window,name:project.project_config_settings_action

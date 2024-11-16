@@ -62,8 +62,8 @@ msgid ""
 "                                    will appear on all quotations using this\n"
 "                                    template."
 msgstr ""
-"<strong>Encabezado de persoal:</strong> este contido\n"
-"                                    aparecerá en todas as citas usando este persoal..\n"
+"<strong>Encabezado de modelo:</strong> este contido\n"
+"                                    aparecerá en todas as citas usando este modelo..\n"
 "                                    "
 
 #. module: sale_quotation_builder
@@ -100,7 +100,7 @@ msgstr "Compañías"
 #. module: sale_quotation_builder
 #: model_terms:ir.ui.view,arch_db:sale_quotation_builder.sale_order_template_view_form_inherit_sale_quotation_builder
 msgid "Design Template"
-msgstr "Persoal de deseño"
+msgstr "Modelo de deseño"
 
 #. module: sale_quotation_builder
 #: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
@@ -111,7 +111,7 @@ msgid ""
 "                                your references, your methodology or\n"
 "                                guarantees, your team, SLA, terms and conditions, etc."
 msgstr ""
-"O uso de bos persoais para orzamentos fará que\n"
+"O uso de bos modelos para orzamentos fará que\n"
 " <strong>aumente significativamente a súa efectividade</strong>. A\n"
 " primeira parte contén xeralmente información sobre a súa  empresa,\n"
 " as súas referencias, a súa metodoloxía e\n"
@@ -126,9 +126,9 @@ msgid ""
 "                        use this modified template."
 msgstr ""
 "Se edita un orzamento desde a 'Vista previa' do mesmo, só\n"
-"                        actualizará o orzamento. Se edita o persoal de orzamento(desde\n"
+"                        actualizará o orzamento. Se edita o modelo de orzamento(desde\n"
 "                        o menú Configuración), todas os futuros orzamentos\n"
-"                        utilizarán este persoal modificado."
+"                        utilizarán este modelo modificado."
 
 #. module: sale_quotation_builder
 #: model_terms:ir.ui.view,arch_db:sale_quotation_builder.brand_promotion
@@ -197,17 +197,17 @@ msgstr "Descrición só do orzamento"
 #. module: sale_quotation_builder
 #: model:ir.model,name:sale_quotation_builder.model_sale_order_template
 msgid "Quotation Template"
-msgstr "Persoal de orzamento"
+msgstr "Modelo de orzamento"
 
 #. module: sale_quotation_builder
 #: model:ir.model,name:sale_quotation_builder.model_sale_order_template_line
 msgid "Quotation Template Line"
-msgstr "Linea de persoal de orzamento"
+msgstr "Linea de modelo de orzamento"
 
 #. module: sale_quotation_builder
 #: model:ir.model,name:sale_quotation_builder.model_sale_order_template_option
 msgid "Quotation Template Option"
-msgstr "Opción de persoal de orzamento"
+msgstr "Opción de modelo de orzamento"
 
 #. module: sale_quotation_builder
 #: model:ir.model,name:sale_quotation_builder.model_sale_order_option
@@ -254,15 +254,15 @@ msgid ""
 "                                application, using the menu: Configuration /\n"
 "                                Quotation Templates."
 msgstr ""
-"Esta é unha <strong>persoal de orzamento de exemplo</strong>. Debe\n"
+"Esta é unha <strong>modelo de orzamento de exemplo</strong>. Debe\n"
 "                                personalizala segundo as súas necesidades desde a aplicación de <i>Vendas</i>,\n"
 "                                co menú: Configuración /\n"
-"                                Persoais de Orzamento."
+"                                Modelos de Orzamento."
 
 #. module: sale_quotation_builder
 #: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
 msgid "This is a preview of the sale order template."
-msgstr "Esta é unha vista previa do persoal de orde de venda."
+msgstr "Esta é unha vista previa do modelo de orde de venda."
 
 #. module: sale_quotation_builder
 #: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template

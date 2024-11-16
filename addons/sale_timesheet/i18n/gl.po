@@ -988,7 +988,7 @@ msgstr "Liña de vendas de proxectos, mapeo de empregados"
 #: model:ir.model.fields,field_description:sale_timesheet.field_product_product__project_template_id
 #: model:ir.model.fields,field_description:sale_timesheet.field_product_template__project_template_id
 msgid "Project Template"
-msgstr "Persoal de proxecto"
+msgstr "Modelo de proxecto"
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_project_update

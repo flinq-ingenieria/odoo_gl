@@ -1295,7 +1295,7 @@ msgid ""
 "Template \"mail_group.mail_template_guidelines\" was not found. No email has"
 " been sent. Please contact an administrator to fix this issue."
 msgstr ""
-"Non se atopou o persoal \"mail_group.mail_template_guidelines\". Non se "
+"Non se atopou o modelo \"mail_group.mail_template_guidelines\". Non se "
 "enviou ningún correo, contacte ao seu administrador para solucionar este "
 "problema."
 

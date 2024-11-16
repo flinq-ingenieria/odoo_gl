@@ -135,7 +135,7 @@ msgstr ""
 #. module: stock_orderpoint_generator
 #: model_terms:ir.actions.act_window,help:stock_orderpoint_generator.action_orderpoint_template
 msgid "Click to add a reordering rule template."
-msgstr "Click para engadir un persoal de regra de reabastecimiento."
+msgstr "Click para engadir un modelo de regra de reabastecimiento."
 
 #. module: stock_orderpoint_generator
 #: model:ir.model.fields,field_description:stock_orderpoint_generator.field_stock_warehouse_orderpoint_template__company_id
@@ -350,7 +350,7 @@ msgstr "Provedor do produto"
 #. module: stock_orderpoint_generator
 #: model:ir.model.fields,field_description:stock_orderpoint_generator.field_stock_warehouse_orderpoint_template__product_tmpl_id
 msgid "Product Template"
-msgstr "Persoal do Produto"
+msgstr "Modelo do Produto"
 
 #. module: stock_orderpoint_generator
 #: model:ir.model.fields,field_description:stock_orderpoint_generator.field_stock_warehouse_orderpoint_template__product_uom_name
@@ -371,7 +371,7 @@ msgstr "Múltiplo da cantidade"
 #. module: stock_orderpoint_generator
 #: model_terms:ir.ui.view,arch_db:stock_orderpoint_generator.view_warehouse_orderpoint_template_form
 msgid "Reordering Rule Template"
-msgstr "Persoal de Regra de Reabastecimiento"
+msgstr "Modelo de Regra de Reabastecimiento"
 
 #. module: stock_orderpoint_generator
 #: model:ir.actions.act_window,name:stock_orderpoint_generator.action_orderpoint_template
@@ -380,19 +380,19 @@ msgstr "Persoal de Regra de Reabastecimiento"
 #: model:ir.ui.menu,name:stock_orderpoint_generator.menu_orderpoint_template
 #: model_terms:ir.ui.view,arch_db:stock_orderpoint_generator.view_warehouse_orderpoint_template_search
 msgid "Reordering Rule Templates"
-msgstr "Persoais de Regra de Reabastecimiento"
+msgstr "Modelos de Regra de Reabastecimiento"
 
 #. module: stock_orderpoint_generator
 #: model:ir.actions.server,name:stock_orderpoint_generator.ir_cron_auto_orderpoint_template_ir_actions_server
 #: model:ir.cron,cron_name:stock_orderpoint_generator.ir_cron_auto_orderpoint_template
 #: model:ir.cron,name:stock_orderpoint_generator.ir_cron_auto_orderpoint_template
 msgid "Reordering Rule Templates Generator"
-msgstr "Xerador de Persoais de Regra de Reabastecimiento"
+msgstr "Xerador de Modelos de Regra de Reabastecimiento"
 
 #. module: stock_orderpoint_generator
 #: model_terms:ir.ui.view,arch_db:stock_orderpoint_generator.view_warehouse_orderpoint_template_search
 msgid "Reordering Rule Templates Search"
-msgstr "Procura de Persoais de Regra de Reabastecimiento"
+msgstr "Procura de Modelos de Regra de Reabastecimiento"
 
 #. module: stock_orderpoint_generator
 #: model:ir.actions.act_window,name:stock_orderpoint_generator.act_create_product_conf
@@ -448,7 +448,7 @@ msgstr "Posposto"
 #. module: stock_orderpoint_generator
 #: model_terms:ir.ui.view,arch_db:stock_orderpoint_generator.orderpoint_generator_view
 msgid "Templates"
-msgstr "Persoais"
+msgstr "Modelos"
 
 #. module: stock_orderpoint_generator
 #: model:ir.model.fields,help:stock_orderpoint_generator.field_stock_warehouse_orderpoint_template__qty_multiple
@@ -508,7 +508,7 @@ msgid ""
 "When checked, the 'Reordering Rule Templates Generator' scheduled action "
 "will automatically update the rules of a selection of products."
 msgstr ""
-"A acción programada para 'Rexenerar Persoais de Regras de Reabastecimiento' "
+"A acción programada para 'Rexenerar Modelos de Regras de Reabastecimiento' "
 "actualizará automaticamente as regls para a selección de produtos."
 
 #. module: stock_orderpoint_generator

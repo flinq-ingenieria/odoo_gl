@@ -203,7 +203,7 @@ msgstr "Inscricións do evento"
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_event_type_ticket
 msgid "Event Template Ticket"
-msgstr "Entrada de persoal de evento"
+msgstr "Entrada de modelo de evento"
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_event_event_ticket
@@ -365,12 +365,12 @@ msgstr "Tipo de produto"
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_sale_order_template_line
 msgid "Quotation Template Line"
-msgstr "Liña de persoal de orzamento"
+msgstr "Liña de modelo de orzamento"
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_sale_order_template_option
 msgid "Quotation Template Option"
-msgstr "Opción de persoal de orzamento"
+msgstr "Opción de modelo de orzamento"
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.view_event_registration_editor_form

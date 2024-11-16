@@ -1060,4 +1060,4 @@ msgstr "object.get_report_file_name()"
 #~ msgstr "Ámbito do imposto"
 
 #~ msgid "Templates for Taxes"
-#~ msgstr "Persoal de impostos"
+#~ msgstr "Modelo de impostos"

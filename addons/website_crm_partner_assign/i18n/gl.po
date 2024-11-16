@@ -663,7 +663,7 @@ msgstr "Correo electrónico"
 #. module: website_crm_partner_assign
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.crm_lead_forward_to_partner_form
 msgid "Email Template"
-msgstr "Persoal de correo electrónico"
+msgstr "Modelo de correo electrónico"
 
 #. module: website_crm_partner_assign
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunities
@@ -1285,7 +1285,7 @@ msgstr "Etiquetas"
 #: code:addons/website_crm_partner_assign/wizard/crm_forward_to_partner.py:0
 #, python-format
 msgid "The Forward Email Template is not in the database"
-msgstr "O persoal de redirección de email non existe na base de datos"
+msgstr "O modelo de redirección de email non existe na base de datos"
 
 #. module: website_crm_partner_assign
 #: model:ir.model.fields,help:website_crm_partner_assign.field_res_partner_grade__website_url

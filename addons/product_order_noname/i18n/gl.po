@@ -30,4 +30,4 @@ msgstr "Produto"
 #. module: product_order_noname
 #: model:ir.model,name:product_order_noname.model_product_template
 msgid "Product Template"
-msgstr "Persoal de Produtos"
+msgstr "Modelo de Produtos"

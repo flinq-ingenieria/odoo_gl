@@ -136,7 +136,7 @@ msgstr "Crear persoais de ofertas con produtos predeterminados"
 #. module: sale_management
 #: model_terms:ir.actions.act_window,help:sale_management.sale_order_template_action
 msgid "Create your quotation template"
-msgstr "Cre o seu persoal de orzamento"
+msgstr "Cre o seu modelo de orzamento"
 
 #. module: sale_management
 #: model:ir.model.fields,field_description:sale_management.field_sale_order_option__create_uid
@@ -157,12 +157,12 @@ msgstr "Creado o"
 #. module: sale_management
 #: model:ir.model.fields,field_description:sale_management.field_res_company__sale_order_template_id
 msgid "Default Sale Template"
-msgstr "Persoal de venda predeterminada"
+msgstr "Modelo de venda predeterminada"
 
 #. module: sale_management
 #: model:ir.model.fields,field_description:sale_management.field_res_config_settings__company_so_template_id
 msgid "Default Template"
-msgstr "Persoal predeterminada"
+msgstr "Modelo predeterminada"
 
 #. module: sale_management
 #: model:ir.model.fields,field_description:sale_management.field_sale_order_option__name
@@ -179,7 +179,7 @@ msgid ""
 "Design your quotation templates using building blocks<br/>\n"
 "                            <em attrs=\"{'invisible': [('module_sale_quotation_builder','=',False)]}\">Warning: this option will install the Website app.</em>"
 msgstr ""
-"Deseñe os seus persoais de ofertas utilizando bloques de deseño<br/>\n"
+"Deseñe os seus modelos de ofertas utilizando bloques de deseño<br/>\n"
 "<em attrs=\"{'invisible': [('module_sale_quotation_builder','=',False)]}\">Aviso: esta opción instalará o módulo de sitio web.</em>"
 
 #. module: sale_management
@@ -259,7 +259,7 @@ msgid ""
 "If unchecked, it will allow you to hide the quotation template without "
 "removing it."
 msgstr ""
-"Se se elimina a selección, poderá ocultar o persoal de orzamentos sen "
+"Se se elimina a selección, poderá ocultar o modelo de orzamentos sen "
 "eliminala."
 
 #. module: sale_management
@@ -395,28 +395,28 @@ msgstr "Duración do orzamento"
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_tree
 msgid "Quotation Template"
-msgstr "Persoal de orzamento"
+msgstr "Modelo de orzamento"
 
 #. module: sale_management
 #: model:ir.model,name:sale_management.model_sale_order_template_line
 msgid "Quotation Template Line"
-msgstr "Linea de persoal de orzamento"
+msgstr "Linea de modelo de orzamento"
 
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
 msgid "Quotation Template Lines"
-msgstr "Liñas de persoal de orzamento"
+msgstr "Liñas de modelo de orzamento"
 
 #. module: sale_management
 #: model:ir.model,name:sale_management.model_sale_order_template_option
 msgid "Quotation Template Option"
-msgstr "Opción de persoal de orzamento"
+msgstr "Opción de modelo de orzamento"
 
 #. module: sale_management
 #: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line__sale_order_template_id
 #: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option__sale_order_template_id
 msgid "Quotation Template Reference"
-msgstr "Referencia do persoal de orzamento"
+msgstr "Referencia do modelo de orzamento"
 
 #. module: sale_management
 #: model:ir.actions.act_window,name:sale_management.sale_order_template_action
@@ -425,7 +425,7 @@ msgstr "Referencia do persoal de orzamento"
 #: model:res.groups,name:sale_management.group_sale_order_template
 #: model_terms:ir.ui.view,arch_db:sale_management.res_config_settings_view_form
 msgid "Quotation Templates"
-msgstr "Persoais de orzamento"
+msgstr "Modelos de orzamento"
 
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
@@ -487,12 +487,12 @@ msgstr "Referencia do pedido de venda"
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_form_quote
 msgid "Sales Quotation Template Lines"
-msgstr "Liñas do persoal de pedido de venda"
+msgstr "Liñas do modelo de pedido de venda"
 
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_search
 msgid "Search Quotation Template"
-msgstr "Buscar persoal de orzamento"
+msgstr "Buscar modelo de orzamento"
 
 #. module: sale_management
 #: model:ir.model.fields.selection,name:sale_management.selection__sale_order_template_line__display_type__line_section
@@ -547,7 +547,7 @@ msgid ""
 msgstr ""
 "O administrador pode establecer termos e condicións por defecto en "
 "Configuracións de Vendas. Mostraranse os termos establecidos aquí se "
-"selecciona este persoal de orzamento."
+"selecciona este modelo de orzamento."
 
 #. module: sale_management
 #: model:ir.model.fields,help:sale_management.field_sale_order_template__mail_template_id
@@ -555,7 +555,7 @@ msgid ""
 "This e-mail template will be sent on confirmation. Leave empty to send "
 "nothing."
 msgstr ""
-"Enviarase este persoal de correo electrónico como confirmación. Déixea en "
+"Enviarase este modelo de correo electrónico como confirmación. Déixea en "
 "branco se non quere enviar nada."
 
 #. module: sale_management
@@ -614,7 +614,7 @@ msgid ""
 "                Send these quotes by email and let your customers sign online.\n"
 "                Use cross-selling and discounts to push and boost your sales."
 msgstr ""
-"Use persoais para crear orzamentos profesionais e pulidos en minutos.\n"
+"Use modelos para crear orzamentos profesionais e pulidos en minutos.\n"
 "                Envíe estes orzamentos por correo electrónico e deixe que os seus clientes asinen en liña.\n"
 "                Utilice as vendas cruzadas e os descontos para impulsar e aumentar as súas vendas."
 
@@ -648,7 +648,7 @@ msgstr ""
 #: code:addons/sale_management/models/sale_order_template.py:0
 #, python-format
 msgid "Your template cannot contain products from multiple companies."
-msgstr "O seu persoal non pode conter produtos de varias compañías."
+msgstr "O seu modelo non pode conter produtos de varias compañías."
 
 #. module: sale_management
 #: code:addons/sale_management/models/sale_order_template.py:0
@@ -657,8 +657,8 @@ msgid ""
 "Your template contains products from company %(product_company)s whereas your template belongs to company %(template_company)s. \n"
 " Please change the company of your template or remove the products from other companies."
 msgstr ""
-"O seu persoal contén produtos da empresa %(product_company)s, mentres que o seu persoal pertence á empresa %(template_company)s.\n"
-" Cambie a empresa do seu persoal ou elimine os produtos doutras empresas."
+"O seu modelo contén produtos da empresa %(product_company)s, mentres que o seu modelo pertence á empresa %(template_company)s.\n"
+" Cambie a empresa do seu modelo ou elimine os produtos doutras empresas."
 
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form

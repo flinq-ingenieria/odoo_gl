@@ -2187,7 +2187,7 @@ msgstr "Transferencia(s) impactada(s):"
 #: code:addons/mrp/models/mrp_bom.py:0
 #, python-format
 msgid "Import Template for Bills of Materials"
-msgstr "Importar persoal para lista de materiais"
+msgstr "Importar modelo para lista de materiais"
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_production.py:0
@@ -3230,7 +3230,7 @@ msgstr "Lista de materiais (LdM) pai"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line__parent_product_tmpl_id
 msgid "Parent Product Template"
-msgstr "Persoal de Produto Pai"
+msgstr "Modelo de Produto Pai"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_consumption_warning_line__mrp_consumption_warning_id
@@ -4689,7 +4689,7 @@ msgstr "Esta orde de traballo xa debería ser procesada."
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document__theme_template_id
 msgid "Theme Template"
-msgstr "Persoal do tema"
+msgstr "Modelo do tema"
 
 #. module: mrp
 #: code:addons/mrp/wizard/stock_assign_serial_numbers.py:0

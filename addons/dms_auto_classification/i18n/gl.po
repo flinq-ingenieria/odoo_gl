@@ -38,7 +38,7 @@ msgstr "Cancelar"
 #: model:ir.actions.act_window,name:dms_auto_classification.action_dms_classification_template
 #: model:ir.ui.menu,name:dms_auto_classification.menu_dms_classification_template
 msgid "Classification Templates"
-msgstr "Persoais de clasificación"
+msgstr "Modelos de clasificación"
 
 #. module: dms_auto_classification
 #: model:ir.model.fields.selection,name:dms_auto_classification.selection__wizard_dms_classification_detail__state__classified
@@ -95,7 +95,7 @@ msgstr "Nome a Mostrar"
 #. module: dms_auto_classification
 #: model:ir.model,name:dms_auto_classification.model_dms_classification_template
 msgid "Dms Classification Template"
-msgstr "Persoal de clasificación Dms"
+msgstr "Modelo de clasificación Dms"
 
 #. module: dms_auto_classification
 #: model:ir.model.fields.selection,name:dms_auto_classification.selection__wizard_dms_classification__state__draft
@@ -183,7 +183,7 @@ msgstr "Estado"
 #. module: dms_auto_classification
 #: model:ir.model.fields,field_description:dms_auto_classification.field_wizard_dms_classification__template_id
 msgid "Template"
-msgstr "Persoal"
+msgstr "Modelo"
 
 #. module: dms_auto_classification
 #: model:ir.model.fields.selection,name:dms_auto_classification.selection__wizard_dms_classification_detail__state__to_classify

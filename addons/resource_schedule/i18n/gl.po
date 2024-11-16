@@ -909,7 +909,7 @@ msgstr "Reconto de recursos"
 #: model:ir.model,name:resource_schedule.model_resource_calendar_attendance_open
 #, fuzzy
 msgid "Resource Open Shift Template"
-msgstr "Persoal de quenda aberta de recursos"
+msgstr "Modelo de quenda aberta de recursos"
 
 #. module: resource_schedule
 #: model_terms:ir.ui.view,arch_db:resource_schedule.view_resource_schedule_area_search
@@ -1097,7 +1097,7 @@ msgstr "Programación de Xerentes de Grupo"
 #: model_terms:ir.ui.view,arch_db:resource_schedule.view_resource_schedule_group_form
 #, fuzzy
 msgid "Scheduling Group Work Detail Templates"
-msgstr "Persoais de detalles de traballo en grupo de programación"
+msgstr "Modelos de detalles de traballo en grupo de programación"
 
 #. module: resource_schedule
 #: model_terms:ir.ui.view,arch_db:resource_schedule.view_attendance_template_form
@@ -1273,13 +1273,13 @@ msgstr "Campo técnico para propósitos UX."
 #: model:ir.model.fields,field_description:resource_schedule.field_resource_schedule_shift__template_id
 #, fuzzy
 msgid "Template"
-msgstr "Persoal"
+msgstr "Modelo"
 
 #. module: resource_schedule
 #: model:ir.model.fields,field_description:resource_schedule.field_resource_schedule_group__template_count
 #, fuzzy
 msgid "Template Count"
-msgstr "Reconto de persoais"
+msgstr "Reconto de modelos"
 
 #. module: resource_schedule
 #: model:ir.model.fields,help:resource_schedule.field_resource_calendar_attendance_template__break_minutes
@@ -1469,14 +1469,14 @@ msgstr "Detalle da obra"
 #: model_terms:ir.ui.view,arch_db:resource_schedule.view_attendance_template_form
 #, fuzzy
 msgid "Work Detail Template"
-msgstr "Persoal de detalles de traballo"
+msgstr "Modelo de detalles de traballo"
 
 #. module: resource_schedule
 #: model_terms:ir.ui.view,arch_db:resource_schedule.view_attendance_template_tree
 #: model_terms:ir.ui.view,arch_db:resource_schedule.view_resource_schedule_group_form
 #, fuzzy
 msgid "Work Detail Templates"
-msgstr "Persoais de detalles de traballo"
+msgstr "Modelos de detalles de traballo"
 
 #. module: resource_schedule
 #: model_terms:ir.ui.view,arch_db:resource_schedule.resource_calendar_form
@@ -1531,5 +1531,4 @@ msgstr "O usuario poderá configurar o módulo de programación"
 #, fuzzy
 msgid ""
 "the user will be able to create shifts, shift templates, and assign users"
-msgstr ""
-"O usuario poderá crear quendas, persoais de quendas e asignar usuarios"
+msgstr "O usuario poderá crear quendas, modelos de quendas e asignar usuarios"

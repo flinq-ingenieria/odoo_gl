@@ -40,7 +40,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:excel_import_export_demo.field_report_crm_lead__choose_template
 #: model:ir.model.fields,field_description:excel_import_export_demo.field_report_sale_order__choose_template
 msgid "Allow Choose Template"
-msgstr "Permitir Elixir Persoal"
+msgstr "Permitir Elixir Modelo"
 
 #. module: excel_import_export_demo
 #: model_terms:ir.ui.view,arch_db:excel_import_export_demo.partner_list_wizard
@@ -225,7 +225,7 @@ msgstr "Estado"
 #: model:ir.model.fields,field_description:excel_import_export_demo.field_report_crm_lead__template_id
 #: model:ir.model.fields,field_description:excel_import_export_demo.field_report_sale_order__template_id
 msgid "Template"
-msgstr "Persoal"
+msgstr "Modelo"
 
 #. module: excel_import_export_demo
 #: model:ir.model.fields,help:excel_import_export_demo.field_report_partner_list__results

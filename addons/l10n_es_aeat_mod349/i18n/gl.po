@@ -848,7 +848,7 @@ msgstr "Impostos"
 #. module: l10n_es_aeat_mod349
 #: model:ir.model,name:l10n_es_aeat_mod349.model_account_tax_template
 msgid "Templates for Taxes"
-msgstr "Persoal de impostos"
+msgstr "Modelo de impostos"
 
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.fields,help:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_partner_record_detail__move_id

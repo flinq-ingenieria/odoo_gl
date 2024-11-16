@@ -322,7 +322,7 @@ msgstr "Categoria de produto"
 #. module: sale_rental
 #: model:ir.model,name:sale_rental.model_product_template
 msgid "Product Template"
-msgstr "Persoal do Produto"
+msgstr "Modelo do Produto"
 
 #. module: sale_rental
 #: model:ir.model.fields,field_description:sale_rental.field_create_rental_product__hw_product_id

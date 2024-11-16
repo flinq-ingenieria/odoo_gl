@@ -534,7 +534,7 @@ msgstr "Produto"
 #: model:ir.model,name:stock_request_kanban.model_product_template
 #: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__product_template_id
 msgid "Product Template"
-msgstr "Persoal de Produto"
+msgstr "Modelo de Produto"
 
 #. module: stock_request_kanban
 #: model:ir.model.fields,field_description:stock_request_kanban.field_stock_request_kanban__product_uom_id

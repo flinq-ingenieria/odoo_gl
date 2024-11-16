@@ -43,7 +43,7 @@ msgstr ""
 #. module: google_spreadsheet
 #: model:ir.model,name:google_spreadsheet.model_google_drive_config
 msgid "Google Drive templates config"
-msgstr "Configuración de persoais de Google Drive"
+msgstr "Configuración de modelos de Google Drive"
 
 #. module: google_spreadsheet
 #: model:ir.actions.act_window,name:google_spreadsheet.action_ir_attachment_google_spreadsheet_tree
@@ -86,7 +86,7 @@ msgstr ""
 #: code:addons/google_spreadsheet/static/src/add_to_google_spreadsheet/add_to_google_spreadsheet.xml:0
 #, python-format
 msgid "Spreadsheet Template"
-msgstr "Persoal de folla de cálculo"
+msgstr "Modelo de folla de cálculo"
 
 #. module: google_spreadsheet
 #: model:ir.model.fields,help:google_spreadsheet.field_res_config_settings__google_drive_uri_copy

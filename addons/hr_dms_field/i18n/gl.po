@@ -27,7 +27,7 @@ msgstr "Directorios DMS"
 #. module: hr_dms_field
 #: model:ir.model,name:hr_dms_field.model_dms_field_template
 msgid "Dms Field Template"
-msgstr "Persoal de Campo Dms"
+msgstr "Modelo de Campo Dms"
 
 #. module: hr_dms_field
 #: model_terms:ir.ui.view,arch_db:hr_dms_field.hr_employee_public_view_form

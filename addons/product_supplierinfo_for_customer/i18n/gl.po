@@ -155,7 +155,7 @@ msgstr ""
 #: code:addons/product_supplierinfo_for_customer/models/product_customerinfo.py:0
 #, python-format
 msgid "Import Template for Customer Pricelists"
-msgstr "Importar persoal para tarifas de clientes"
+msgstr "Importar modelo para tarifas de clientes"
 
 #. module: product_supplierinfo_for_customer
 #: model:ir.model.fields,field_description:product_supplierinfo_for_customer.field_product_customerinfo____last_update

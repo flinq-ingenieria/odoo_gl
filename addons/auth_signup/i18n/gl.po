@@ -907,7 +907,7 @@ msgstr "O token de rexistro '%s' non é válido"
 #: code:addons/auth_signup/models/res_users.py:0
 #, python-format
 msgid "Signup: invalid template user"
-msgstr "Rexistro: persoal de usuario inválida"
+msgstr "Rexistro: modelo de usuario inválida"
 
 #. module: auth_signup
 #: code:addons/auth_signup/models/res_users.py:0
@@ -930,7 +930,7 @@ msgstr "Estado"
 #: model:ir.model.fields,field_description:auth_signup.field_res_config_settings__auth_signup_template_user_id
 msgid "Template user for new users created through signup"
 msgstr ""
-"Persoal de usuario para os novos usuarios creados a través do inicio de "
+"Modelo de usuario para os novos usuarios creados a través do inicio de "
 "sesión"
 
 #. module: auth_signup

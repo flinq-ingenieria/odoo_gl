@@ -25,7 +25,7 @@ msgstr "Nº de Díxitos"
 #. module: account_chart_update
 #: model_terms:ir.ui.view,arch_db:account_chart_update.res_config_settings_view_form
 msgid "<span class=\"o_form_label\">Update Chart Template</span>"
-msgstr "<span class=\"o_form_label\">Actualizar persoal de contas</span>"
+msgstr "<span class=\"o_form_label\">Actualizar modelo de contas</span>"
 
 #. module: account_chart_update
 #: model_terms:ir.ui.view,arch_db:account_chart_update.view_update_multi_chart
@@ -45,14 +45,14 @@ msgstr "Campos de conta"
 #. module: account_chart_update
 #: model:ir.model.fields,field_description:account_chart_update.field_wizard_update_charts_accounts_account_group__account_group_id
 msgid "Account group template"
-msgstr "Persoal de grupo de contas"
+msgstr "Modelo de grupo de contas"
 
 #. module: account_chart_update
 #: model:ir.model,name:account_chart_update.model_wizard_update_charts_accounts_account_group
 msgid ""
 "Account group that needs to be updated (new or updated in the template)."
 msgstr ""
-"Grupo de contas que debe actualizarse (novo ou actualizado no persoal)."
+"Grupo de contas que debe actualizarse (novo ou actualizado no modelo)."
 
 #. module: account_chart_update
 #: model:ir.model.fields,field_description:account_chart_update.field_wizard_update_charts_accounts_account_group__update_account_group_id
@@ -77,12 +77,12 @@ msgstr "Correspondencia de grupos de contas"
 #. module: account_chart_update
 #: model:ir.model.fields,field_description:account_chart_update.field_wizard_update_charts_accounts_account__account_id
 msgid "Account template"
-msgstr "Persoal de conta"
+msgstr "Modelo de conta"
 
 #. module: account_chart_update
 #: model:ir.model,name:account_chart_update.model_wizard_update_charts_accounts_account
 msgid "Account that needs to be updated (new or updated in the template)."
-msgstr "Conta que necesita ser actualizada (nova ou cambiada no persoal)."
+msgstr "Conta que necesita ser actualizada (nova ou cambiada no modelo)."
 
 #. module: account_chart_update
 #: model:ir.model.fields,field_description:account_chart_update.field_wizard_update_charts_accounts_account__update_account_id
@@ -103,12 +103,12 @@ msgstr "Contas coincidentes"
 #. module: account_chart_update
 #: model:ir.model.fields,field_description:account_chart_update.field_wizard_update_charts_accounts__chart_template_id
 msgid "Chart Template"
-msgstr "Persoal de contas"
+msgstr "Modelo de contas"
 
 #. module: account_chart_update
 #: model:ir.model.fields,field_description:account_chart_update.field_wizard_update_charts_accounts__chart_template_ids
 msgid "Chart Templates"
-msgstr "Persoais de contas"
+msgstr "Modelos de contas"
 
 #. module: account_chart_update
 #: model_terms:ir.ui.view,arch_db:account_chart_update.view_update_multi_chart
@@ -286,15 +286,14 @@ msgstr "Campos de posición fiscal"
 #. module: account_chart_update
 #: model:ir.model.fields,field_description:account_chart_update.field_wizard_update_charts_accounts_fiscal_position__fiscal_position_id
 msgid "Fiscal position template"
-msgstr "Persoal posición fiscal"
+msgstr "Modelo posición fiscal"
 
 #. module: account_chart_update
 #: model:ir.model,name:account_chart_update.model_wizard_update_charts_accounts_fiscal_position
 msgid ""
 "Fiscal position that needs to be updated (new or updated in the template)."
 msgstr ""
-"Posición fiscal que necesita ser actualizada (novo ou modificada no "
-"persoal)."
+"Posición fiscal que necesita ser actualizada (novo ou modificada no modelo)."
 
 #. module: account_chart_update
 #: model:ir.model.fields,field_description:account_chart_update.field_wizard_update_charts_accounts_fiscal_position__update_fiscal_position_id
@@ -319,7 +318,7 @@ msgid ""
 "will be matched against the record name on this language."
 msgstr ""
 "Para rexistros buscados por nome (impostos, posicións fiscais), o nome do "
-"persoal será casado contra o nome do rexistro neste idioma."
+"modelo será casado contra o nome do rexistro neste idioma."
 
 #. module: account_chart_update
 #: model_terms:ir.ui.view,arch_db:account_chart_update.view_update_multi_chart
@@ -333,7 +332,7 @@ msgid ""
 "                            they have been updated in the templates."
 msgstr ""
 "Aquí pode seleccionar os campos que desexa comprobar se\n"
-"                            foron actualizados nos persoais."
+"                            foron actualizados nos modelos."
 
 #. module: account_chart_update
 #: model_terms:ir.ui.view,arch_db:account_chart_update.view_update_multi_chart
@@ -488,7 +487,7 @@ msgstr "Novas posicións fiscais"
 #: model:ir.model.fields.selection,name:account_chart_update.selection__wizard_update_charts_accounts_fiscal_position__type__new
 #: model:ir.model.fields.selection,name:account_chart_update.selection__wizard_update_charts_accounts_tax__type__new
 msgid "New template"
-msgstr "Novo persoal"
+msgstr "Novo modelo"
 
 #. module: account_chart_update
 #: model_terms:ir.ui.view,arch_db:account_chart_update.view_update_multi_chart
@@ -511,7 +510,7 @@ msgstr "Non se atopou posición fiscal con este nome."
 #: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "No real account found for template account with ID %s"
-msgstr "Non se atopou conta real para o persoal da conta con ID %s"
+msgstr "Non se atopou conta real para o modelo da conta con ID %s"
 
 #. module: account_chart_update
 #: model:ir.model.fields,help:account_chart_update.field_wizard_update_charts_accounts__code_digits
@@ -631,12 +630,12 @@ msgstr "Imposto desactivado."
 #. module: account_chart_update
 #: model:ir.model.fields,field_description:account_chart_update.field_wizard_update_charts_accounts_tax__tax_id
 msgid "Tax template"
-msgstr "Persoal de imposto"
+msgstr "Modelo de imposto"
 
 #. module: account_chart_update
 #: model:ir.model,name:account_chart_update.model_wizard_update_charts_accounts_tax
 msgid "Tax that needs to be updated (new or updated in the template)."
-msgstr "Imposto que necesita ser actualizado (novo ou modificado no persoal)."
+msgstr "Imposto que necesita ser actualizado (novo ou modificado no modelo)."
 
 #. module: account_chart_update
 #: model:ir.model.fields.selection,name:account_chart_update.selection__wizard_update_charts_accounts_tax__type__deleted
@@ -667,14 +666,14 @@ msgid ""
 "                            template"
 msgstr ""
 "Este asistente actualizará as súas contas, impostos e\n"
-"                            posicións fiscais de acordo con o persoal de persoal.\n"
+"                            posicións fiscais de acordo con o modelo de modelo.\n"
 "                            "
 
 #. module: account_chart_update
 #: code:addons/account_chart_update/wizard/wizard_chart_update.py:0
 #, python-format
 msgid "To deactivate: not in the template"
-msgstr "A deactivar: non está no persoal"
+msgstr "A deactivar: non está no modelo"
 
 #. module: account_chart_update
 #: model:ir.model.fields,field_description:account_chart_update.field_wizard_update_charts_accounts_account__type
@@ -687,7 +686,7 @@ msgstr "Tipo"
 #. module: account_chart_update
 #: model_terms:ir.ui.view,arch_db:account_chart_update.res_config_settings_view_form
 msgid "Update Chart Template"
-msgstr "Actualizar persoal de gráfico"
+msgstr "Actualizar modelo de gráfico"
 
 #. module: account_chart_update
 #: model:ir.model.fields,field_description:account_chart_update.field_wizard_update_charts_accounts__update_tax_repartition_line_account
@@ -840,7 +839,7 @@ msgstr "Imposto %s actualizado. (XML-IDs recreado)"
 #: model:ir.model.fields.selection,name:account_chart_update.selection__wizard_update_charts_accounts_fiscal_position__type__updated
 #: model:ir.model.fields.selection,name:account_chart_update.selection__wizard_update_charts_accounts_tax__type__updated
 msgid "Updated template"
-msgstr "Persoal actualizado"
+msgstr "Modelo actualizado"
 
 #. module: account_chart_update
 #: model:ir.model,name:account_chart_update.model_wizard_account_group_matching
@@ -885,7 +884,7 @@ msgid ""
 "going to be created. Aborting as this will provoke an infinite loop. Please "
 "check if children have been matched, but not the parent one."
 msgstr ""
-"Ten polo menos un persoal de impostos matriz (%s) cuxos impostos fillos non "
+"Ten polo menos un modelo de impostos matriz (%s) cuxos impostos fillos non "
 "se van a crear. Abortar isto provocará un bucle infinito. Por favor, "
 "comprobe se os fillos emparelláronse, pero non a matriz."
 

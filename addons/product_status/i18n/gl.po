@@ -117,7 +117,7 @@ msgstr "Estado do Produto"
 #. module: product_status
 #: model:ir.model,name:product_status.model_product_template
 msgid "Product Template"
-msgstr "Persoal do Produto"
+msgstr "Modelo do Produto"
 
 #. module: product_status
 #: model:ir.actions.server,name:product_status.cron_recompute_product_state_ir_actions_server
@@ -139,17 +139,17 @@ msgstr "Estado"
 #. module: product_status
 #: model:ir.model.fields,field_description:product_status.field_product_product__tmpl_discontinued_until
 msgid "Template Discontinued until"
-msgstr "Persoal Interrompido ata"
+msgstr "Modelo Interrompido ata"
 
 #. module: product_status
 #: model:ir.model.fields,field_description:product_status.field_product_product__tmpl_end_of_life_date
 msgid "Template End-of-life"
-msgstr "Persoal Fin de vida útil"
+msgstr "Modelo Fin de vida útil"
 
 #. module: product_status
 #: model:ir.model.fields,field_description:product_status.field_product_product__tmpl_new_until
 msgid "Template New until"
-msgstr "Persoal Novo ata"
+msgstr "Modelo Novo ata"
 
 #. module: product_status
 #: model:ir.model.fields,help:product_status.field_product_product__discontinued_until

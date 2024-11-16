@@ -46,12 +46,12 @@ msgstr "Vista previa dos comentarios sobre a base"
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template_preview__base_comment_template_id
 msgid "Base Comment Template"
-msgstr "Persoal de comentarios basee"
+msgstr "Modelo de comentarios basee"
 
 #. module: base_comment_template
 #: model:ir.model,name:base_comment_template.model_base_comment_template_preview
 msgid "Base Comment Template Preview"
-msgstr "Vista previa do persoal de comentarios basee"
+msgstr "Vista previa do modelo de comentarios basee"
 
 #. module: base_comment_template
 #: model_terms:ir.ui.view,arch_db:base_comment_template.base_comment_template_preview_form
@@ -92,7 +92,7 @@ msgstr "Comentario"
 #: model:ir.model.fields,field_description:base_comment_template.field_comment_template__comment_template_ids
 #: model:ir.model.fields,field_description:base_comment_template.field_ir_model__is_comment_template
 msgid "Comment Template"
-msgstr "Persoal de comentario"
+msgstr "Modelo de comentario"
 
 #. module: base_comment_template
 #: model:ir.actions.act_window,name:base_comment_template.action_base_comment_template
@@ -103,12 +103,12 @@ msgstr "Persoal de comentario"
 #: model_terms:ir.ui.view,arch_db:base_comment_template.view_base_comment_template_search
 #: model_terms:ir.ui.view,arch_db:base_comment_template.view_partner_form
 msgid "Comment Templates"
-msgstr "Persoais de comentarios"
+msgstr "Modelos de comentarios"
 
 #. module: base_comment_template
 #: model:ir.model,name:base_comment_template.model_base_comment_template
 msgid "Comments Template"
-msgstr "Persoais de comentarios"
+msgstr "Modelos de comentarios"
 
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__company_id
@@ -170,7 +170,7 @@ msgid ""
 "field."
 msgstr ""
 "Expresión final do marcador de posición, que se copiará e pegará no campo de"
-" persoal desexado."
+" modelo desexado."
 
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__id
@@ -190,8 +190,8 @@ msgid ""
 "If set, the comment template will be available only for the selected "
 "company."
 msgstr ""
-"Se se define, o persoal de comentario vai estar dispoñible para as compañías"
-" seleccionadas."
+"Se se define, o modelo de comentario vai estar dispoñible para as compañías "
+"seleccionadas."
 
 #. module: base_comment_template
 #: model:ir.model.fields,help:base_comment_template.field_base_comment_template__partner_ids
@@ -199,13 +199,13 @@ msgid ""
 "If set, the comment template will be available only for the selected "
 "partner."
 msgstr ""
-"Se se define, o persoal de comentario vai estar dispoñible para os contactos"
-" seleccionados."
+"Se se define, o modelo de comentario vai estar dispoñible para os contactos "
+"seleccionados."
 
 #. module: base_comment_template
 #: model:ir.model.fields.selection,name:base_comment_template.selection__base_comment_template_preview__engine__inline_template
 msgid "Inline template"
-msgstr "Persoal en liña"
+msgstr "Modelo en liña"
 
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__lang
@@ -251,7 +251,7 @@ msgstr "Nome"
 #. module: base_comment_template
 #: model:ir.model.fields,help:base_comment_template.field_base_comment_template__name
 msgid "Name/description of this comment template"
-msgstr "Nome do persoal de comentario"
+msgstr "Nome do modelo de comentario"
 
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template_preview__no_record
@@ -360,22 +360,22 @@ msgstr "Sub-modelo"
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__text
 msgid "Template"
-msgstr "Persoal de comentario"
+msgstr "Modelo de comentario"
 
 #. module: base_comment_template
 #: model:ir.actions.act_window,name:base_comment_template.base_comment_template_preview_action
 msgid "Template Preview"
-msgstr "Vista previa do persoal"
+msgstr "Vista previa do modelo"
 
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template_preview__engine
 msgid "Template Preview Engine"
-msgstr "Motor de previsualización de persoais"
+msgstr "Motor de previsualización de modelos"
 
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template_preview__lang
 msgid "Template Preview Language"
-msgstr "Vista previa da persoal Idioma"
+msgstr "Vista previa da modelo Idioma"
 
 #. module: base_comment_template
 #: model:ir.model.fields,help:base_comment_template.field_base_comment_template__sequence
@@ -389,8 +389,8 @@ msgid ""
 "This comment template will be available on this models. You can see here "
 "only models allowed to set the coment template."
 msgstr ""
-"Este persoal de comentarios estará dispoñible nestes modelos. Só vas ver os "
-"modelos autorizados para configurar o persoal de comentarios."
+"Este modelo de comentarios estará dispoñible nestes modelos. Só vas ver os "
+"modelos autorizados para configurar o modelo de comentarios."
 
 #. module: base_comment_template
 #: model:ir.model.fields,help:base_comment_template.field_base_comment_template__domain
@@ -398,8 +398,8 @@ msgid ""
 "This comment template will be available only for objects that satisfy the "
 "condition"
 msgstr ""
-"Este persoal de comentarios estará dispoñible só para obxectos que "
-"satisfagan a condición"
+"Este modelo de comentarios estará dispoñible só para obxectos que satisfagan"
+" a condición"
 
 #. module: base_comment_template
 #: model:ir.model.fields,help:base_comment_template.field_base_comment_template__position
@@ -409,7 +409,7 @@ msgstr "Este campo permite seleccionar a posición do comentario nos informes."
 #. module: base_comment_template
 #: model:ir.model.fields,help:base_comment_template.field_base_comment_template__text
 msgid "This is the text template that will be inserted into reports."
-msgstr "Esta é o persoal de texto que se inserirá nos informes."
+msgstr "Esta é o modelo de texto que se inserirá nos informes."
 
 #. module: base_comment_template
 #: model:ir.model.fields.selection,name:base_comment_template.selection__base_comment_template__position__before_lines
@@ -438,7 +438,7 @@ msgstr ""
 #. module: base_comment_template
 #: model:ir.model.fields,help:base_comment_template.field_ir_model__is_comment_template
 msgid "Whether this model supports in reports to add comment templates."
-msgstr "Se este modelo admite nos informes, engadir persoais de comentarios."
+msgstr "Se este modelo admite nos informes, engadir modelos de comentarios."
 
 #. module: base_comment_template
 #: model:ir.model,name:base_comment_template.model_comment_template
@@ -447,7 +447,7 @@ msgid ""
 "comment templates"
 msgstr ""
 "base.comment.template para poñer cabeceira e pé de páxina nos informes "
-"baseados nos persoais de comentarios creadas"
+"baseados nos modelos de comentarios creadas"
 
 #. module: base_comment_template
 #: model_terms:ir.ui.view,arch_db:base_comment_template.base_comment_template_preview_form

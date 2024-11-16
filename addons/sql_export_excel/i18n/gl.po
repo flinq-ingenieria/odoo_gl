@@ -30,7 +30,7 @@ msgstr "Excel"
 #. module: sql_export_excel
 #: model:ir.model.fields,field_description:sql_export_excel.field_sql_export__attachment_id
 msgid "Excel Template"
-msgstr "Persoal Excel"
+msgstr "Modelo Excel"
 
 #. module: sql_export_excel
 #: model:ir.model.fields,field_description:sql_export_excel.field_sql_export__file_format
@@ -73,8 +73,8 @@ msgid ""
 "Indicate the sheet's position of the excel template where the result of the "
 "sql query should be injected."
 msgstr ""
-"Indique a posición da folla do persoal excel onde debe inxectarse o "
-"resultado da consulta sql."
+"Indique a posición da folla do modelo excel onde debe inxectarse o resultado"
+" da consulta sql."
 
 #. module: sql_export_excel
 #: model:ir.model.fields,field_description:sql_export_excel.field_sql_export__row_position
@@ -98,7 +98,7 @@ msgid ""
 "The Excel Template file contains less than %s sheets Please, adjust the "
 "Sheet Position parameter."
 msgstr ""
-"O arquivo Persoal Excel contén menos de %s follas Por favor, axuste o "
+"O arquivo Modelo Excel contén menos de %s follas Por favor, axuste o "
 "parámetro Posición da Folla."
 
 #. module: sql_export_excel

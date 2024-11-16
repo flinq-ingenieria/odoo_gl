@@ -124,7 +124,7 @@ msgid ""
 "this template"
 msgstr ""
 "Agregue unha acción contextual no modelo relacionado para abrir un "
-"compositor de SMS con este persoal"
+"compositor de SMS con este modelo"
 
 #. module: sms
 #. openerp-web
@@ -389,7 +389,7 @@ msgid ""
 "Final placeholder expression, to be copy-pasted in the desired template "
 "field."
 msgstr ""
-"Expresión de campos final, a ser copia-pegada no campo do persoal desexado."
+"Expresión de campos final, a ser copia-pegada no campo do modelo desexado."
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_res_partner__message_follower_ids
@@ -1005,12 +1005,12 @@ msgstr "Estado de SMS"
 #: model:ir.model.fields,field_description:sms.field_ir_cron__sms_template_id
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_form
 msgid "SMS Template"
-msgstr "Persoal de SMS"
+msgstr "Modelo de SMS"
 
 #. module: sms
 #: model:ir.model,name:sms.model_sms_template_preview
 msgid "SMS Template Preview"
-msgstr "Previsualización do persoal de SMS"
+msgstr "Previsualización do modelo de SMS"
 
 #. module: sms
 #: model:ir.model,name:sms.model_sms_template
@@ -1019,7 +1019,7 @@ msgstr "Previsualización do persoal de SMS"
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_form
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_tree
 msgid "SMS Templates"
-msgstr "Persoais de SMS"
+msgstr "Modelos de SMS"
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_preview_form
@@ -1043,7 +1043,7 @@ msgstr "Número desinfectado"
 #: model_terms:ir.ui.view,arch_db:sms.sms_sms_view_search
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_search
 msgid "Search SMS Templates"
-msgstr "Buscar persoais SMS"
+msgstr "Buscar modelos SMS"
 
 #. module: sms
 #: model:ir.model.fields,help:sms.field_sms_template__model_object_field
@@ -1151,7 +1151,7 @@ msgid ""
 "Sidebar action to make this template available on records of the related "
 "document model"
 msgstr ""
-"Acción da barra lateral para facer dispoñible este persoal nos rexistros do "
+"Acción da barra lateral para facer dispoñible este modelo nos rexistros do "
 "modelo de documento relacionado"
 
 #. module: sms
@@ -1167,7 +1167,7 @@ msgstr "Reenviar SMS"
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_template_preview__sms_template_id
 msgid "Sms Template"
-msgstr "Persoal de SMS"
+msgstr "Modelo de SMS"
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_composer__recipient_single_number
@@ -1193,17 +1193,17 @@ msgstr "Aceptada"
 #. module: sms
 #: model:ir.actions.act_window,name:sms.sms_template_preview_action
 msgid "Template Preview"
-msgstr "Vista previo persoal"
+msgstr "Vista previo modelo"
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_template_preview__lang
 msgid "Template Preview Language"
-msgstr "Idioma de vista previa de persoal"
+msgstr "Idioma de vista previa de modelo"
 
 #. module: sms
 #: model:ir.actions.act_window,name:sms.sms_template_action
 msgid "Templates"
-msgstr "Persoais"
+msgstr "Modelos"
 
 #. module: sms
 #: code:addons/sms/models/sms_sms.py:0
@@ -1221,7 +1221,7 @@ msgstr "O número que tenta alcanzar non está formatado correctamente."
 #: model:ir.model.fields,help:sms.field_sms_template__model_id
 #: model:ir.model.fields,help:sms.field_sms_template_preview__model_id
 msgid "The type of document this template can be used with"
-msgstr "O tipo de persoal deste documento pode ser usado con"
+msgstr "O tipo de modelo deste documento pode ser usado con"
 
 #. module: sms
 #: code:addons/sms/models/sms_sms.py:0
@@ -1294,7 +1294,7 @@ msgstr "Conta non rexistrada"
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_composer__template_id
 msgid "Use Template"
-msgstr "Usar persoal"
+msgstr "Usar modelo"
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_composer__use_active_domain

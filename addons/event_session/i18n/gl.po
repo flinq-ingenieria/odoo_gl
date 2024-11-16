@@ -1299,7 +1299,7 @@ msgstr "Subtítulo do Evento"
 #. module: event_session
 #: model:ir.model,name:event_session.model_event_type
 msgid "Event Template"
-msgstr "Persoal do Evento"
+msgstr "Modelo do Evento"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__event_ticket_ids
@@ -1652,7 +1652,7 @@ msgstr "Programación de correo"
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__event_mail_template_id
 msgid "Mail Template Scheduler"
-msgstr "Persoal de Programación de Correo"
+msgstr "Modelo de Programación de Correo"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_session__message_main_attachment_id
@@ -2138,12 +2138,12 @@ msgstr "Etiquetas"
 #: model:ir.model.fields,field_description:event_session.field_event_session__event_type_id
 #: model_terms:ir.ui.view,arch_db:event_session.view_event_session_search
 msgid "Template"
-msgstr "Persoal"
+msgstr "Modelo"
 
 #. module: event_session
 #: model:ir.model.fields,field_description:event_session.field_event_mail_session__template_model_id
 msgid "Template Model"
-msgstr "Modelo de Persoal"
+msgstr "Modelo de Modelo"
 
 #. module: event_session
 #: model_terms:ir.ui.view,arch_db:event_session.view_wizard_event_session_form
@@ -2560,7 +2560,7 @@ msgstr "{{ object.session_ide.name }}: {{ object.get_dáche_range_str() }}"
 
 #, fuzzy
 #~ msgid "Event Mail Template"
-#~ msgstr "Persoal de programación de correos"
+#~ msgstr "Modelo de programación de correos"
 
 #~ msgid "Event Session"
 #~ msgstr "Sesión de evento"

@@ -2520,7 +2520,7 @@ msgstr "Enviar correo electrónico aos asistentes cando terminen o curso"
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel__share_template_id
 msgid "Email template used when sharing a slide"
-msgstr "Persoal de correo electrónico usada para compartir unha diapositiva"
+msgstr "Modelo de correo electrónico usada para compartir unha diapositiva"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__embed_code
@@ -2680,7 +2680,7 @@ msgid ""
 "Final placeholder expression, to be copy-pasted in the desired template "
 "field."
 msgstr ""
-"Expresión de campos final, a ser copia-pegada no campo do persoal desexado."
+"Expresión de campos final, a ser copia-pegada no campo do modelo desexado."
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
@@ -3503,7 +3503,7 @@ msgstr "Vínculo"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_invite__template_id
 msgid "Mail Template"
-msgstr "Persoal de correo electrónico"
+msgstr "Modelo de correo electrónico"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_res_config_settings__module_mass_mailing_slides
@@ -4681,7 +4681,7 @@ msgstr "Compartir ligazón"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__share_template_id
 msgid "Share Template"
-msgstr "Compartir persoal"
+msgstr "Compartir modelo"
 
 #. module: website_slides
 #. openerp-web
@@ -5404,7 +5404,7 @@ msgstr "Cargando documento..."
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_invite_view_form
 msgid "Use template"
-msgstr "Usar persoal"
+msgstr "Usar modelo"
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel__tag_ids

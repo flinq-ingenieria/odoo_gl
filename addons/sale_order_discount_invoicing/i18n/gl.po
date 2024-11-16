@@ -97,7 +97,7 @@ msgstr "Categoría de Produto"
 #. module: sale_order_discount_invoicing
 #: model:ir.model,name:sale_order_discount_invoicing.model_product_template
 msgid "Product Template"
-msgstr "Persoal de Produto"
+msgstr "Modelo de Produto"
 
 #. module: sale_order_discount_invoicing
 #: model:ir.model,name:sale_order_discount_invoicing.model_sale_order_line

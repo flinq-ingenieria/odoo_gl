@@ -425,7 +425,7 @@ msgstr "O informe de carta non se utiliza en '{}'"
 #: model:ir.model.fields,field_description:hr_expense_advance_overdue_reminder.field_hr_advance_overdue_reminder_wizard__mail_template_id
 #: model:ir.model.fields,field_description:hr_expense_advance_overdue_reminder.field_reminder_definition__mail_template_id
 msgid "Mail Template"
-msgstr "Persoal de Correo"
+msgstr "Modelo de Correo"
 
 #. module: hr_expense_advance_overdue_reminder
 #: model:ir.model.fields,field_description:hr_expense_advance_overdue_reminder.field_hr_advance_overdue_reminder__message_main_attachment_id

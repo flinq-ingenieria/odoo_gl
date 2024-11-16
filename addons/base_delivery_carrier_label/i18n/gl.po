@@ -173,7 +173,7 @@ msgstr "Opción do transportista"
 #. module: base_delivery_carrier_label
 #: model:ir.model,name:base_delivery_carrier_label.model_delivery_carrier_template_option
 msgid "Delivery carrier template option"
-msgstr "Opción de persoal do transportista"
+msgstr "Opción de modelo do transportista"
 
 #. module: base_delivery_carrier_label
 #: model:ir.model.fields,field_description:base_delivery_carrier_label.field_delivery_carrier_option__description

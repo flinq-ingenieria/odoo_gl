@@ -51,7 +51,7 @@ msgid ""
 "The sale price is managed from the product template. Click on the 'Configure"
 " Variants' button to set the extra attribute prices."
 msgstr ""
-"O prezo de venda xestiónase desde o persoal do produto. Faga clic no botón "
+"O prezo de venda xestiónase desde o modelo do produto. Faga clic no botón "
 "'Configurar variantes' para establecer os prezos dos atributos adicionais."
 
 #, fuzzy

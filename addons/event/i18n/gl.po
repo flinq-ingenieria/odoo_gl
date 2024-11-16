@@ -1635,7 +1635,7 @@ msgstr "Crear unha categoría de etiqueta de evento"
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_type
 msgid "Create an Event Template"
-msgstr "Crear un persoal de evento"
+msgstr "Crear un modelo de evento"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__create_uid
@@ -1786,7 +1786,7 @@ msgstr "Correo electrónico"
 #. module: event
 #: model:ir.model,name:event.model_mail_template
 msgid "Email Templates"
-msgstr "Persoais de correo electrónico"
+msgstr "Modelos de correo electrónico"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__date_end
@@ -1909,7 +1909,7 @@ msgstr ""
 "O planificador de evento para:\n"
 "  - Evento: %(event_name)s (%(event_id)s)\n"
 "  - Programado: %(date)s\n"
-"  - Persoal: %(template_name)s (%(template_id)s)\n"
+"  - Modelo: %(template_name)s (%(template_id)s)\n"
 "\n"
 "Fallou co erro:\n"
 "  - %(error)s\n"
@@ -1917,7 +1917,7 @@ msgstr ""
 "Recibiches este correo electrónico porque es:\n"
 "  - o organizador do evento,\n"
 "  - ou o responsable do evento,\n"
-"  - ou a última persoa en editar o persoal.\n"
+"  - ou a última persoa en editar o modelo.\n"
 
 #. module: event
 #: model:ir.model,name:event.model_event_stage
@@ -1959,25 +1959,25 @@ msgstr "Categorías de etiquetas de evento"
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_tree
 msgid "Event Template"
-msgstr "Persoal de evento"
+msgstr "Modelo de evento"
 
 #. module: event
 #: model:ir.model,name:event.model_event_type_ticket
 #: model_terms:ir.ui.view,arch_db:event.event_type_ticket_view_form_from_type
 msgid "Event Template Ticket"
-msgstr "Persoal de entrada do evento"
+msgstr "Modelo de entrada do evento"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_type_ticket_view_tree_from_type
 msgid "Event Template Tickets"
-msgstr "Persoal de entradas do evento"
+msgstr "Modelo de entradas do evento"
 
 #. module: event
 #: model:ir.actions.act_window,name:event.action_event_type
 #: model:ir.ui.menu,name:event.menu_event_type
 #: model_terms:ir.ui.view,arch_db:event.event_type_view_search
 msgid "Event Templates"
-msgstr "Persoal do evento"
+msgstr "Modelo do evento"
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_type
@@ -1986,7 +1986,7 @@ msgid ""
 "                    usually based on the types of events you organize (e.g. \"Workshop\",\n"
 "                    \"Roadshow\", \"Online Webinar\", etc)."
 msgstr ""
-"Os persoais de eventos combinan configuracións que utiliza frecuentemente e usualmente\n"
+"Os modelos de eventos combinan configuracións que utiliza frecuentemente e usualmente\n"
 "                    baséanse nos tipos de evento que organiza (por exemplo, \"Taller\",\n"
 "                    \"Roadshow\", \"Webinario en liña\", etc)."
 
@@ -3476,13 +3476,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 msgid "Template"
-msgstr "Persoal"
+msgstr "Modelo"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__template_model_id
 #: model:ir.model.fields,field_description:event.field_event_type_mail__template_model_id
 msgid "Template Model"
-msgstr "Modelo de persoal"
+msgstr "Modelo de modelo"
 
 #. module: event
 #: model:event.event,subtitle:event.event_1
@@ -3575,7 +3575,7 @@ msgstr "A data de finalización non pode ser antes da data de inicio."
 #, python-format
 msgid ""
 "The template which is referenced should be coming from %(model_name)s model."
-msgstr "O persoal que se referencia debe provir do modelo %(model_name)s ."
+msgstr "O modelo que se referencia debe provir do modelo %(model_name)s ."
 
 #. module: event
 #: model_terms:event.event,description:event.event_0

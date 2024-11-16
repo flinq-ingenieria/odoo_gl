@@ -31,7 +31,7 @@ msgid ""
 "                            optional fields and only need to click on the button\n"
 "                            \"Create\"."
 msgstr ""
-"Por defect os festivos máis recentes de cada país úsanse como persoal para crear o calendario do ano seguinte.\n"
+"Por defect os festivos máis recentes de cada país úsanse como modelo para crear o calendario do ano seguinte.\n"
 "<br/><br/>\n"
 "Normalmente non fará falta que se introduza nada, só é necesario clica en 'Crear'."
 
@@ -176,7 +176,7 @@ msgid ""
 "No Public Holidays found as template. Please create the first Public "
 "Holidays manually."
 msgstr ""
-"Non se atopou persoal de Festivos. Por favor, cre o primeiro calendario de "
+"Non se atopou modelo de Festivos. Por favor, cre o primeiro calendario de "
 "Festivos manualmente."
 
 #. module: hr_holidays_public
@@ -217,15 +217,15 @@ msgid ""
 "country for each year will be taken into account (If you select templates "
 "from 2012 and 2015, only the templates from 2015 will be taken into account."
 msgstr ""
-"Seleccione o calendario de festivos a usar como persoal. Se non se "
-"selecciona, o calendario máis recente usarase para cada país. Só o persoal "
-"máis recente utilizarase para cada país (se selecciona un persoal de 2012 e "
+"Seleccione o calendario de festivos a usar como modelo. Se non se "
+"selecciona, o calendario máis recente usarase para cada país. Só o modelo "
+"máis recente utilizarase para cada país (se selecciona un modelo de 2012 e "
 "outra de 2015, só terase en conta a do 2015)."
 
 #. module: hr_holidays_public
 #: model:ir.model.fields,field_description:hr_holidays_public.field_public_holidays_next_year_wizard__template_ids
 msgid "Templates"
-msgstr "Persoais"
+msgstr "Modelos"
 
 #. module: hr_holidays_public
 #: model_terms:ir.ui.view,arch_db:hr_holidays_public.holidays_public_next_year_wizard_view
@@ -263,8 +263,8 @@ msgid ""
 msgstr ""
 "Use este wizard para crear o calendario de Festivos a partir de xa\n"
 "                            existentes.<br/>\n"
-"                            Só o persoal máis recente utilizarase\n"
-"                            para cada país (se selecciona un persoal de 2012\n"
+"                            Só o modelo máis recente utilizarase\n"
+"                            para cada país (se selecciona un modelo de 2012\n"
 "                            e outra de 2015, só terase en conta a do 2015)."
 
 #. module: hr_holidays_public
@@ -279,7 +279,7 @@ msgid ""
 "following the template."
 msgstr ""
 "Ano para o que queres crear o calendario de festivos. Por defecto úsase o "
-"ano seguinte ao do persoal."
+"ano seguinte ao do modelo."
 
 #. module: hr_holidays_public
 #: code:addons/hr_holidays_public/models/hr_holidays_public.py:0
@@ -310,8 +310,8 @@ msgid ""
 "public holidays on 29th of February (2016, 2020...), please select a "
 "template from another year."
 msgstr ""
-"Non se pode utilizar como persoal un calendario que inclúe un festivo o 29 "
-"de Febreiro, por favor seleccione un persoal doutro ano."
+"Non se pode utilizar como modelo un calendario que inclúe un festivo o 29 de"
+" Febreiro, por favor seleccione un modelo doutro ano."
 
 #~ msgid "Leave"
 #~ msgstr "Ausencia"

@@ -473,7 +473,7 @@ msgstr "Data de inicio prevista"
 #. module: project_forecast_line
 #: model:ir.model,name:project_forecast_line.model_product_template
 msgid "Product Template"
-msgstr "Persoal do Produto"
+msgstr "Modelo do Produto"
 
 #. module: project_forecast_line
 #: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line__project_id

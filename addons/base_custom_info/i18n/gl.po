@@ -42,14 +42,14 @@ msgstr ""
 #. module: base_custom_info
 #: model:ir.model.fields,field_description:base_custom_info.field_custom_info_option__template_id
 msgid "Additional template"
-msgstr "Persoal adicional"
+msgstr "Modelo adicional"
 
 #. module: base_custom_info
 #: model:ir.model.fields,help:base_custom_info.field_custom_info_option__template_id
 msgid ""
 "Additional template to be applied to the owner if this option is chosen."
 msgstr ""
-"Persoal adicional a ser aplicada ao propietario se esta opción escóllese."
+"Modelo adicional a ser aplicada ao propietario se esta opción escóllese."
 
 #. module: base_custom_info
 #: model:ir.ui.menu,name:base_custom_info.menu_advanced
@@ -80,12 +80,12 @@ msgstr "Xa existe outra propiedade con ese nome para ese recurso."
 #. module: base_custom_info
 #: model:ir.model.constraint,message:base_custom_info.constraint_custom_info_property_name_template
 msgid "Another property with that name exists for that template."
-msgstr "Xa existe outra propiedade con ese nome nese persoal."
+msgstr "Xa existe outra propiedade con ese nome nese modelo."
 
 #. module: base_custom_info
 #: model:ir.model.constraint,message:base_custom_info.constraint_custom_info_template_name_model
 msgid "Another template with that name exists for that model."
-msgstr "Xa existe outro persoal con ese nome para ese modelo."
+msgstr "Xa existe outro modelo con ese nome para ese modelo."
 
 #. module: base_custom_info
 #: model:ir.model,name:base_custom_info.model_custom_info_option
@@ -178,7 +178,7 @@ msgstr "Elección"
 #. module: base_custom_info
 #: model_terms:ir.actions.act_window,help:base_custom_info.custom_info_template_action
 msgid "Click to define a new custom info template."
-msgstr "Pulse para definir un novo persoal de inf. personalizada."
+msgstr "Pulse para definir un novo modelo de inf. personalizada."
 
 #. module: base_custom_info
 #: model:ir.model.fields.selection,name:base_custom_info.selection__custom_info_property__widget__html
@@ -254,14 +254,14 @@ msgstr "Inf. personalizada"
 #. module: base_custom_info
 #: model_terms:ir.ui.view,arch_db:base_custom_info.custom_info_template_form
 msgid "Custom Info Template"
-msgstr "Persoal de inf. personalizada"
+msgstr "Modelo de inf. personalizada"
 
 #. module: base_custom_info
 #: model_terms:ir.ui.view,arch_db:base_custom_info.custom_info_category_form
 #: model_terms:ir.ui.view,arch_db:base_custom_info.custom_info_option_form
 #: model_terms:ir.ui.view,arch_db:base_custom_info.custom_info_property_form
 msgid "Custom Info Template Properties"
-msgstr "Propiedades do persoal de inf. personalizada"
+msgstr "Propiedades do modelo de inf. personalizada"
 
 #. module: base_custom_info
 #: model:ir.module.category,name:base_custom_info.category
@@ -275,7 +275,7 @@ msgstr "Inf. personalizada"
 #: model:ir.model.fields,field_description:base_custom_info.field_res_partner__custom_info_template_id
 #: model:ir.model.fields,field_description:base_custom_info.field_res_users__custom_info_template_id
 msgid "Custom Information Template"
-msgstr "Persoal de inf. personalizada"
+msgstr "Modelo de inf. personalizada"
 
 #. module: base_custom_info
 #: model:ir.model.fields,field_description:base_custom_info.field_custom_info__custom_info_ids
@@ -297,7 +297,7 @@ msgstr "Propiedade de inf. personalizada"
 #. module: base_custom_info
 #: model:ir.model,name:base_custom_info.model_custom_info_template
 msgid "Custom information template"
-msgstr "Persoal de inf. personalizada"
+msgstr "Modelo de inf. personalizada"
 
 #. module: base_custom_info
 #: model:ir.model,name:base_custom_info.model_custom_info_value
@@ -710,13 +710,13 @@ msgstr "Nome técnico do campo onde se garda este valor."
 #: model:ir.model.fields,field_description:base_custom_info.field_custom_info_property__template_id
 #: model_terms:ir.ui.view,arch_db:base_custom_info.custom_info_property_search
 msgid "Template"
-msgstr "Persoal"
+msgstr "Modelo"
 
 #. module: base_custom_info
 #: model:ir.actions.act_window,name:base_custom_info.custom_info_template_action
 #: model:ir.ui.menu,name:base_custom_info.menu_base_custom_info_template
 msgid "Templates"
-msgstr "Persoais"
+msgstr "Modelos"
 
 #. module: base_custom_info
 #: model:ir.model.fields.selection,name:base_custom_info.selection__custom_info_property__field_type__str
@@ -881,7 +881,7 @@ msgstr "Non pode cambiar o modelo porque xa se está usando."
 #: model_terms:ir.actions.act_window,help:base_custom_info.custom_info_template_action
 msgid "You must define a custom info template for each properties group."
 msgstr ""
-"Debe definir un persoal de inf. personalizada por cada grupo de propiedades."
+"Debe definir un modelo de inf. personalizada por cada grupo de propiedades."
 
 #. module: base_custom_info
 #: code:addons/base_custom_info/models/custom_info_template.py:0
@@ -899,7 +899,7 @@ msgstr "Debe establecer un modelo existente."
 #~ msgstr "Propiedades de inf. personalizada"
 
 #~ msgid "Custom Info Templates"
-#~ msgstr "Persoais de inf. personalizada"
+#~ msgstr "Modelos de inf. personalizada"
 
 #, python-format
 #~ msgid "Default value %s cannot be converted to type %s."

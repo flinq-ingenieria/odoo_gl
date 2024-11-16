@@ -277,7 +277,7 @@ msgstr "Tipo de etiqueta Seur Atlas"
 #. module: delivery_seur_atlas
 #: model:ir.model.fields,field_description:delivery_seur_atlas.field_delivery_carrier__seur_atlas_label_template
 msgid "Seur Atlas Label Template"
-msgstr "Persoal de etiqueta Seur Atlas"
+msgstr "Modelo de etiqueta Seur Atlas"
 
 #. module: delivery_seur_atlas
 #: model:ir.model.fields,field_description:delivery_seur_atlas.field_delivery_carrier__seur_atlas_password

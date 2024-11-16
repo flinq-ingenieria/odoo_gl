@@ -207,7 +207,7 @@ msgstr "Almacén utilizado para enviar os materiais"
 #~ msgstr "Movementos de Produto (Liña de Movemento de Stock)"
 
 #~ msgid "Product Template"
-#~ msgstr "Persoal de Produto"
+#~ msgstr "Modelo de Produto"
 
 #~ msgid "Request State"
 #~ msgstr "Estado de Solicitude"

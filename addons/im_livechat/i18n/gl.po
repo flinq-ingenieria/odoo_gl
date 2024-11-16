@@ -1652,9 +1652,9 @@ msgid ""
 " load a canned response, start your sentence with ':' and select the "
 "template."
 msgstr ""
-"Utiliza respostas predefinidas para definir persoais de mensaxes na "
+"Utiliza respostas predefinidas para definir modelos de mensaxes na "
 "aplicación de Chat en vivo. Para cargar unha resposta predefinida, empeza a "
-"túa oración con \":\" e selecciona o persoal."
+"túa oración con \":\" e selecciona o modelo."
 
 #. module: im_livechat
 #: model:res.groups,name:im_livechat.im_livechat_group_user

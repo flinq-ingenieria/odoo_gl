@@ -2279,7 +2279,7 @@ msgstr "Ferramentas de táboa"
 #: code:addons/web_editor/static/src/js/common/ace.js:0
 #, python-format
 msgid "Template ID: %s"
-msgstr "ID persoal: %s"
+msgstr "ID modelo: %s"
 
 #. module: web_editor
 #. openerp-web

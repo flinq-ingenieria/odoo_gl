@@ -2350,7 +2350,7 @@ msgid ""
 "this template"
 msgstr ""
 "Mostrar unha opción no documento relacionado para abrir un asistente de "
-"composición con este persoal"
+"composición con este modelo"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_activity__res_name
@@ -2612,19 +2612,19 @@ msgstr "Buscar correo electrónico"
 #: model:ir.model.fields,field_description:mail.field_ir_actions_server__template_id
 #: model:ir.model.fields,field_description:mail.field_ir_cron__template_id
 msgid "Email Template"
-msgstr "Persoal de correo electrónico"
+msgstr "Modelo de correo electrónico"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_template_preview
 msgid "Email Template Preview"
-msgstr "Vista preliminar do persoal do correo electrónico"
+msgstr "Vista preliminar do modelo do correo electrónico"
 
 #. module: mail
 #: model:ir.actions.act_window,name:mail.action_email_template_tree_all
 #: model:ir.model,name:mail.model_mail_template
 #: model:ir.ui.menu,name:mail.menu_email_templates
 msgid "Email Templates"
-msgstr "Persoais de correo electrónico"
+msgstr "Modelos de correo electrónico"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_thread
@@ -2715,7 +2715,7 @@ msgstr "Asistente de reenvío de correo electrónico"
 #: model:ir.model.fields,field_description:mail.field_mail_activity__mail_template_ids
 #: model:ir.model.fields,field_description:mail.field_mail_activity_type__mail_template_ids
 msgid "Email templates"
-msgstr "Persoais de correo electrónico"
+msgstr "Modelos de correo electrónico"
 
 #. module: mail
 #: model:ir.actions.act_window,name:mail.action_view_mail_mail
@@ -2887,19 +2887,19 @@ msgstr "Errado"
 #: code:addons/mail/models/mail_render_mixin.py:0
 #, python-format
 msgid "Failed to render QWeb template : %s)"
-msgstr "Non se puido visualizar no persoal QWeb: %s)"
+msgstr "Non se puido visualizar no modelo QWeb: %s)"
 
 #. module: mail
 #: code:addons/mail/models/mail_render_mixin.py:0
 #, python-format
 msgid "Failed to render inline_template template : %s)"
-msgstr "Non se puido visualizar no persoal inline_template : %s)"
+msgstr "Non se puido visualizar no modelo inline_template : %s)"
 
 #. module: mail
 #: code:addons/mail/models/mail_render_mixin.py:0
 #, python-format
 msgid "Failed to render template : %(xml_id)s (%(view_id)d)"
-msgstr "Non se puido visualizar o persoal:  %(xml_id)s (%(view_ide)d)"
+msgstr "Non se puido visualizar o modelo:  %(xml_id)s (%(view_ide)d)"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail__failure_reason
@@ -3012,7 +3012,7 @@ msgid ""
 "Final placeholder expression, to be copy-pasted in the desired template "
 "field."
 msgstr ""
-"Expresión de campos final, a ser copia-pegada no campo do persoal desexado."
+"Expresión de campos final, a ser copia-pegada no campo do modelo desexado."
 
 #. module: mail
 #. openerp-web
@@ -4218,12 +4218,12 @@ msgstr "Mail Render Mixin"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_composer_mixin__template_id
 msgid "Mail Template"
-msgstr "Persoal de correo electrónico"
+msgstr "Modelo de correo electrónico"
 
 #. module: mail
 #: model:res.groups,name:mail.group_mail_template_editor
 msgid "Mail Template Editor"
-msgstr "Editor de persoais de correo"
+msgstr "Editor de modelos de correo"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_ir_model__is_mail_thread
@@ -5228,7 +5228,7 @@ msgstr ""
 #, python-format
 msgid "Only users belonging to the \"%s\" group can modify dynamic templates."
 msgstr ""
-"Só os usuarios pertencentes ao grupo \"%s\" poden modificar os persoais "
+"Só os usuarios pertencentes ao grupo \"%s\" poden modificar os modelos "
 "dinámicos."
 
 #. module: mail
@@ -6079,7 +6079,7 @@ msgstr "Nome do modelo do documento relacionado"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_template_preview__mail_template_id
 msgid "Related Mail Template"
-msgstr "Persoal de correo relacionada"
+msgstr "Modelo de correo relacionada"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_tracking_value_form
@@ -6115,8 +6115,7 @@ msgstr "Asistente para eliminar correo electrónico da lista negra"
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
 msgid "Remove the contextual action to use this template on related documents"
 msgstr ""
-"Borrar a acción conceptual para usar este persoal en documentos "
-"relacionados."
+"Borrar a acción conceptual para usar este modelo en documentos relacionados."
 
 #. module: mail
 #. openerp-web
@@ -6240,14 +6239,14 @@ msgstr "Usuario responsable"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_config_settings__restrict_template_rendering
 msgid "Restrict Template Rendering"
-msgstr "Limitar a creación de persoais"
+msgstr "Limitar a creación de modelos"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Restrict mail templates edition and QWEB placeholders usage."
 msgstr ""
-"Restrinxir a edición de persoais de correo e o uso de marcadores da posición"
-" QWEB."
+"Restrinxir a edición de modelos de correo e o uso de marcadores da posición "
+"QWEB."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_form
@@ -6309,12 +6308,12 @@ msgstr "Gardar"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
 msgid "Save as a new template"
-msgstr "Gardar como persoal novo"
+msgstr "Gardar como modelo novo"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
 msgid "Save as new template"
-msgstr "Gravar como novo persoal"
+msgstr "Gravar como novo modelo"
 
 #. module: mail
 #. openerp-web
@@ -6716,7 +6715,7 @@ msgid ""
 "Sidebar action to make this template available on records of the related "
 "document model"
 msgstr ""
-"Acción da barra lateral para facer dispoñible este persoal nos rexistros do "
+"Acción da barra lateral para facer dispoñible este modelo nos rexistros do "
 "modelo de documento relacionado"
 
 #. module: mail
@@ -6999,32 +6998,32 @@ msgstr "Nome técnico do usuario no rexistro"
 #. module: mail
 #: model:ir.actions.act_window,name:mail.mail_template_preview_action
 msgid "Template Preview"
-msgstr "Vista previo persoal"
+msgstr "Vista previo modelo"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_template_preview__lang
 msgid "Template Preview Language"
-msgstr "Idioma de vista previa de persoal"
+msgstr "Idioma de vista previa de modelo"
 
 #. module: mail
 #: code:addons/mail/models/mail_render_mixin.py:0
 #, python-format
 msgid "Template rendering for language should be called with a list of IDs."
 msgstr ""
-"A representación do persoal para o idioma debe chamarse cunha lista de ID."
+"A representación do modelo para o idioma debe chamarse cunha lista de ID."
 
 #. module: mail
 #: code:addons/mail/models/mail_render_mixin.py:0
 #: code:addons/mail/models/mail_render_mixin.py:0
 #, python-format
 msgid "Template rendering should be called on a valid record IDs."
-msgstr "A creación dun persoal ten que facerse nun rexistro válido."
+msgstr "A creación dun modelo ten que facerse nun rexistro válido."
 
 #. module: mail
 #: code:addons/mail/models/mail_render_mixin.py:0
 #, python-format
 msgid "Template rendering should be called only using on a list of IDs."
-msgstr "A representación do persoal debe invocarse só cunha lista de ID."
+msgstr "A representación do modelo debe invocarse só cunha lista de ID."
 
 #. module: mail
 #: code:addons/mail/models/mail_render_mixin.py:0
@@ -7033,15 +7032,15 @@ msgid ""
 "Template rendering supports only inline_template, qweb, or qweb_view (view "
 "or raw)."
 msgstr ""
-"A creación de persoais só admite inline_template, qweb ou qweb_view (vista "
-"ou en liña)."
+"A creación de modelos só admite inline_template, qweb ou qweb_view (vista ou"
+" en liña)."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
 #: model_terms:ir.ui.view,arch_db:mail.email_template_tree
 #: model_terms:ir.ui.view,arch_db:mail.view_email_template_search
 msgid "Templates"
-msgstr "Persoais"
+msgstr "Modelos"
 
 #. module: mail
 #. openerp-web
@@ -7101,7 +7100,7 @@ msgstr "O UUID da canle debe ser único"
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_template__can_write
 msgid "The current user can edit the template."
-msgstr "O usuario actual pode editar o persoal."
+msgstr "O usuario actual pode editar o modelo."
 
 #. module: mail
 #: code:addons/mail/models/mail_alias.py:0
@@ -7229,7 +7228,7 @@ msgstr "Aplicáronse correctamente as preferencias da súa subscrición."
 #: model:ir.model.fields,help:mail.field_mail_template__model_id
 #: model:ir.model.fields,help:mail.field_mail_template_preview__model_id
 msgid "The type of document this template can be used with"
-msgstr "O tipo de persoal deste documento pode ser usado con"
+msgstr "O tipo de modelo deste documento pode ser usado con"
 
 #. module: mail
 #. openerp-web
@@ -7783,7 +7782,7 @@ msgstr "Usar o dominio activo"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__template_id
 msgid "Use template"
-msgstr "Usar persoal"
+msgstr "Usar modelo"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_users_settings__use_push_to_talk
@@ -7907,8 +7906,8 @@ msgid ""
 "Users will still be able to render templates.\n"
 "However only Mail Template Editors will be able to create new dynamic templates or modify existing ones."
 msgstr ""
-"Os usuarios aínda poderán visualizar os persoais.Con todo, só os editores de"
-" persoais de correo poderán crear novos persoais dinámicos ou modificar as "
+"Os usuarios aínda poderán visualizar os modelos.Con todo, só os editores de "
+"modelos de correo poderán crear novos modelos dinámicos ou modificar as "
 "existentes."
 
 #. module: mail
@@ -8267,7 +8266,7 @@ msgid ""
 "You may attach files to this template, to be added to all emails created "
 "from this template"
 msgstr ""
-"Pode anexar arquivos a este persoal, para ser engadidos a todos os e-mails "
+"Pode anexar arquivos a este modelo, para ser engadidos a todos os e-mails "
 "creados desde ela."
 
 #. module: mail

@@ -322,7 +322,7 @@ msgstr "Engadir sección de folla"
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__choose_template
 msgid "Allow Choose Template"
-msgstr "Permitir Elixir Persoal"
+msgstr "Permitir Elixir Modelo"
 
 #. module: excel_import_export
 #: model:ir.model,name:excel_import_export.model_xlsx_styles
@@ -418,12 +418,12 @@ msgstr "Elixir"
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.xlsx_report_view
 msgid "Choose Template:"
-msgstr "Elixa Persoal:"
+msgstr "Elixa Modelo:"
 
 #. module: excel_import_export
 #: model_terms:ir.actions.act_window,help:excel_import_export.action_xlsx_template
 msgid "Click to create a XLSX Template Object."
-msgstr "Faga clic para crear un obxecto de persoal XLSX."
+msgstr "Faga clic para crear un obxecto de modelo XLSX."
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.export_xlsx_wizard
@@ -624,7 +624,7 @@ msgstr "ModeloAbstracto de Informe Excel"
 #. module: excel_import_export
 #: model:ir.model,name:excel_import_export.model_xlsx_template
 msgid "Excel template file and instruction"
-msgstr "Arquivo de persoal Excel e instrucións"
+msgstr "Arquivo de modelo Excel e instrucións"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.report_xlsx_wizard
@@ -695,7 +695,7 @@ msgstr "Arquivo"
 #: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
 #, python-format
 msgid "File \"%(fname)s\" not found in template, %(name)s."
-msgstr "Arquivo \"%(fname)s\" non atopado no persoal, %(name)s."
+msgstr "Arquivo \"%(fname)s\" non atopado no modelo, %(name)s."
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__datas
@@ -744,7 +744,7 @@ msgstr ""
 msgid "Generic Report Wizard, used with template reporting option"
 msgstr ""
 "Asistente para informes xenéricos, utilizado coa opción de informes de "
-"persoal"
+"modelo"
 
 #. module: excel_import_export
 #: model:ir.model.fields.selection,name:excel_import_export.selection__export_xlsx_wizard__state__get
@@ -758,7 +758,7 @@ msgstr "Obter"
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.export_xlsx_wizard
 msgid "Get Import Template"
-msgstr "Obter persoal de importación"
+msgstr "Obter modelo de importación"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__gname
@@ -845,7 +845,7 @@ msgstr "Importar arquivo (.xlsx)"
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.import_xlsx_wizard
 msgid "Import File Template"
-msgstr "Importar persoal de arquivo"
+msgstr "Importar modelo de arquivo"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__attachment_ids
@@ -1001,8 +1001,8 @@ msgid ""
 "Multiple template of same model, can belong to same group,\n"
 "result in multiple template selection"
 msgstr ""
-"Varios persoais do mesmo modelo, poden pertencer ao mesmo grupo,\n"
-"dar como resultado unha selección de persoais múltiples"
+"Varios modelos do mesmo modelo, poden pertencer ao mesmo grupo,\n"
+"dar como resultado unha selección de modelos múltiples"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__no_delete
@@ -1013,7 +1013,7 @@ msgstr "Sen Eliminar"
 #: code:addons/excel_import_export/models/xlsx_import.py:0
 #, python-format
 msgid "No data_dict['__IMPORT__'] in template %s"
-msgstr "Non data_dict['__IMPORT__'] no persoal %s"
+msgstr "Non data_dict['__IMPORT__'] no modelo %s"
 
 #. module: excel_import_export
 #: code:addons/excel_import_export/models/xlsx_template.py:0
@@ -1034,7 +1034,7 @@ msgstr "Ningún arquivo en %s"
 #: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
 #, python-format
 msgid "No template found"
-msgstr "Non se atopou ningún persoal"
+msgstr "Non se atopou ningún modelo"
 
 #. module: excel_import_export
 #: code:addons/excel_import_export/models/xlsx_export.py:0
@@ -1219,7 +1219,7 @@ msgstr "Secuencia"
 #: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
 #, python-format
 msgid "Set Templates"
-msgstr "Establecer Persoais"
+msgstr "Establecer Modelos"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__sheet
@@ -1263,19 +1263,19 @@ msgstr "Suma"
 #: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__template_id
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__template_id
 msgid "Template"
-msgstr "Persoal"
+msgstr "Modelo"
 
 #. module: excel_import_export
 #: code:addons/excel_import_export/models/ir_report.py:0
 #, python-format
 msgid "Template %(report_name)s on model %(model)s is not unique!"
-msgstr "O persoal %(report_name)s no modelo %(model)s non é única!"
+msgstr "O modelo %(report_name)s no modelo %(model)s non é única!"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__fname
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__name
 msgid "Template Name"
-msgstr "Nome de Persoal"
+msgstr "Nome de Modelo"
 
 #. module: excel_import_export
 #: code:addons/excel_import_export/models/common.py:0
@@ -1284,15 +1284,15 @@ msgid ""
 "Template with CSV Quoting = False, data must not contain the same char as "
 "delimiter -> \"%s\""
 msgstr ""
-"Persoal con cita CSV = Falso, os datos non deben conter o mesmo carácter que"
-" o delimitador -> \"%s\""
+"Modelo con cita CSV = Falso, os datos non deben conter o mesmo carácter que "
+"o delimitador -> \"%s\""
 
 #. module: excel_import_export
 #: code:addons/excel_import_export/models/xlsx_export.py:0
 #: code:addons/excel_import_export/models/xlsx_import.py:0
 #, python-format
 msgid "Template's model mismatch"
-msgstr "O modelo do persoal non coincide"
+msgstr "O modelo do modelo non coincide"
 
 #. module: excel_import_export
 #: model:ir.model.fields,help:excel_import_export.field_xlsx_template__res_model
@@ -1382,13 +1382,13 @@ msgstr "Asistente para importar excel"
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__template_id
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
 msgid "XLSX Template"
-msgstr "Persoal XLSX"
+msgstr "Modelo XLSX"
 
 #. module: excel_import_export
 #: model:ir.actions.act_window,name:excel_import_export.action_xlsx_template
 #: model:ir.ui.menu,name:excel_import_export.menu_xlsx_template
 msgid "XLSX Templates"
-msgstr "Persoal XLSX"
+msgstr "Modelo XLSX"
 
 #. module: excel_import_export
 #: model:ir.model.fields,help:excel_import_export.field_import_xlsx_wizard__attachment_ids
@@ -1405,4 +1405,4 @@ msgstr "ou"
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.import_xlsx_wizard
 msgid "⇒ Get Sample Import Template"
-msgstr "⇒ Obter persoal de importación de mostra"
+msgstr "⇒ Obter modelo de importación de mostra"

@@ -52,7 +52,7 @@ msgstr "Clase Mixta para a venda de produtos adxuntos"
 #. module: sale_attached_product
 #: model:ir.model,name:sale_attached_product.model_product_template
 msgid "Product Template"
-msgstr "Persoal do Produto"
+msgstr "Modelo do Produto"
 
 #. module: sale_attached_product
 #: model:ir.model,name:sale_attached_product.model_sale_order

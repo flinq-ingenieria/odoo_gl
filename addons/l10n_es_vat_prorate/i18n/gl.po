@@ -95,7 +95,7 @@ msgstr "Conta prorrateada"
 #. module: l10n_es_vat_prorate
 #: model:ir.model.fields,field_description:l10n_es_vat_prorate.field_account_tax_template__prorate_account_template_ids
 msgid "Prorate Account Template"
-msgstr "Persoal de conta prorrateada"
+msgstr "Modelo de conta prorrateada"
 
 #. module: l10n_es_vat_prorate
 #: model:ir.model.fields,field_description:l10n_es_vat_prorate.field_res_company__prorrate_asset_account_id
@@ -115,12 +115,12 @@ msgstr "Imposto"
 #. module: l10n_es_vat_prorate
 #: model:ir.model.fields,field_description:l10n_es_vat_prorate.field_account_tax_template__template_with_vat_prorate
 msgid "Template With Vat Prorate"
-msgstr "Persoal con prorrateo do IVE"
+msgstr "Modelo con prorrateo do IVE"
 
 #. module: l10n_es_vat_prorate
 #: model:ir.model,name:l10n_es_vat_prorate.model_account_tax_template
 msgid "Templates for Taxes"
-msgstr "Persoais para impostos"
+msgstr "Modelos para impostos"
 
 #. module: l10n_es_vat_prorate
 #: model_terms:ir.ui.view,arch_db:l10n_es_vat_prorate.res_company_form_view

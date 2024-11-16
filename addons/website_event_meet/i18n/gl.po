@@ -247,7 +247,7 @@ msgstr "Salas de eventos"
 #. module: website_event_meet
 #: model:ir.model,name:website_event_meet.model_event_type
 msgid "Event Template"
-msgstr "Persoal de evento"
+msgstr "Modelo de evento"
 
 #. module: website_event_meet
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card

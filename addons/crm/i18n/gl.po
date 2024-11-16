@@ -1707,7 +1707,7 @@ msgstr "Importar e Sincronizar"
 #: code:addons/crm/models/crm_lead.py:0
 #, python-format
 msgid "Import Template for Leads & Opportunities"
-msgstr "Persoal de Importación para leads e oportunidades"
+msgstr "Modelo de Importación para leads e oportunidades"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lost_reason_view_search

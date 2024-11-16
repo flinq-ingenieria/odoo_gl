@@ -89,7 +89,7 @@ msgstr "Revisa a mensaxe de erro a continuación."
 #. module: http_routing
 #: model_terms:ir.ui.view,arch_db:http_routing.http_error_debug
 msgid "The error occurred while rendering the template"
-msgstr "O erro ocorreu durante a creación do persoal"
+msgstr "O erro ocorreu durante a creación do modelo"
 
 #. module: http_routing
 #: model_terms:ir.ui.view,arch_db:http_routing.403

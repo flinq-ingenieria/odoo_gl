@@ -27,7 +27,7 @@ msgstr "Grupo de Adquisicións"
 #. module: subcontracted_service
 #: model:ir.model,name:subcontracted_service.model_product_template
 msgid "Product Template"
-msgstr "Persoal Produto"
+msgstr "Modelo Produto"
 
 #. module: subcontracted_service
 #: model:ir.model.fields,field_description:subcontracted_service.field_product_product__property_subcontracted_service

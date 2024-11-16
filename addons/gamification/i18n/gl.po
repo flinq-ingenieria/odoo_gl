@@ -2304,7 +2304,7 @@ msgstr "Informe de frecuencia"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__report_template_id
 msgid "Report Template"
-msgstr "Persoal de informe"
+msgstr "Modelo de informe"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__rule_auth_badge_ids

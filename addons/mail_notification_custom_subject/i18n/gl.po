@@ -85,7 +85,7 @@ msgstr "Modelo"
 #. module: mail_notification_custom_subject
 #: model:ir.model.fields,help:mail_notification_custom_subject.field_mail_message_custom_subject__model_id
 msgid "Model where this template applies"
-msgstr "Modelo ao que se aplica este persoal"
+msgstr "Modelo ao que se aplica este modelo"
 
 #. module: mail_notification_custom_subject
 #: model:ir.model.fields,field_description:mail_notification_custom_subject.field_mail_message_custom_subject__position
@@ -108,17 +108,17 @@ msgstr "Asunto (poden utilizarse marcadores de posición)"
 #: model:ir.ui.menu,name:mail_notification_custom_subject.menu_mail_notification_custom_subject
 #: model_terms:ir.ui.view,arch_db:mail_notification_custom_subject.mail_notification_custom_subject_form
 msgid "Subject Replacement Templates"
-msgstr "Persoais de Substitución de Temas"
+msgstr "Modelos de Substitución de Temas"
 
 #. module: mail_notification_custom_subject
 #: model:ir.model.fields,field_description:mail_notification_custom_subject.field_mail_message_custom_subject__subject_template
 msgid "Subject Template"
-msgstr "Tema Persoal"
+msgstr "Tema Modelo"
 
 #. module: mail_notification_custom_subject
 #: model:ir.model.fields,field_description:mail_notification_custom_subject.field_mail_message_custom_subject__name
 msgid "Template Name"
-msgstr "Nome de Persoal"
+msgstr "Nome de Modelo"
 
 #. module: mail_notification_custom_subject
 #: model:ir.model.fields,help:mail_notification_custom_subject.field_mail_message_custom_subject__position
@@ -126,5 +126,5 @@ msgid ""
 "Whether to replace, append at beggining or append at end to other templates "
 "that apply to a given context"
 msgstr ""
-"Se substituír, engadir ao principio ou engadir ao final a outros persoais "
-"que se aplican a un contexto determinado"
+"Se substituír, engadir ao principio ou engadir ao final a outros modelos que"
+" se aplican a un contexto determinado"

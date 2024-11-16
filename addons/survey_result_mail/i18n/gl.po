@@ -95,7 +95,7 @@ msgstr ""
 #. module: survey_result_mail
 #: model:ir.model.fields,field_description:survey_result_mail.field_survey_survey__result_mail_template_id
 msgid "Result Mail Template"
-msgstr "Persoal de resultados de enquisa"
+msgstr "Modelo de resultados de enquisa"
 
 #. module: survey_result_mail
 #: model:mail.template,subject:survey_result_mail.mail_template_user_input_result_inline

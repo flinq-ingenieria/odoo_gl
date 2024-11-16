@@ -131,7 +131,7 @@ msgstr "Liñas de Separación de Contas"
 #. module: account_spread_cost_revenue
 #: model:ir.model,name:account_spread_cost_revenue.model_account_spread_template
 msgid "Account Spread Template"
-msgstr "Persoal de Extensión de Conta"
+msgstr "Modelo de Extensión de Conta"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__message_needaction
@@ -192,7 +192,7 @@ msgstr "Propagación Automática Activada"
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template__auto_spread
 msgid "Auto assign template on invoice validate"
-msgstr "Autoasignar persoal ao validar factura"
+msgstr "Autoasignar modelo ao validar factura"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model,name:account_spread_cost_revenue.model_account_spread_template_auto
@@ -306,7 +306,7 @@ msgstr "Crear Movementos"
 #: code:addons/account_spread_cost_revenue/wizards/account_spread_invoice_line_link_wizard.py:0
 #, python-format
 msgid "Create from spread template"
-msgstr "Crear a partir de persoal de difusión"
+msgstr "Crear a partir de modelo de difusión"
 
 #. module: account_spread_cost_revenue
 #: code:addons/account_spread_cost_revenue/wizards/account_spread_invoice_line_link_wizard.py:0
@@ -899,18 +899,18 @@ msgstr "Liñas de Difusión"
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_invoice_line_link_wizard__template_id
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread_template_auto__template_id
 msgid "Spread Template"
-msgstr "Persoal de Difusión"
+msgstr "Modelo de Difusión"
 
 #. module: account_spread_cost_revenue
 #: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread_template
 msgid "Spread Template Name"
-msgstr "Nome do Persoal de Difusión"
+msgstr "Nome do Modelo de Difusión"
 
 #. module: account_spread_cost_revenue
 #: model:ir.actions.act_window,name:account_spread_cost_revenue.action_account_spread_template_form
 #: model:ir.ui.menu,name:account_spread_cost_revenue.menu_action_account_spread_template_form
 msgid "Spread Templates"
-msgstr "Persoais de Difusión"
+msgstr "Modelos de Difusión"
 
 #. module: account_spread_cost_revenue
 #: model:ir.model.fields,field_description:account_spread_cost_revenue.field_account_spread__spread_type
@@ -961,7 +961,7 @@ msgstr "O Diario non é coherente cos movementos da conta."
 msgid ""
 "The Spread Template (Purchases) is not compatible with selected invoice type"
 msgstr ""
-"O Persoal de Repartición (Compras) non é compatible co tipo de factura "
+"O Modelo de Repartición (Compras) non é compatible co tipo de factura "
 "seleccionado"
 
 #. module: account_spread_cost_revenue
@@ -1021,7 +1021,7 @@ msgid ""
 "Too many auto spread templates (%(len_template)s) matched with the invoice "
 "line, %(line_name)s"
 msgstr ""
-"Demasiados persoais automáticos (%(len_template)s) coinciden coa liña de "
+"Demasiados modelos automáticos (%(len_template)s) coinciden coa liña de "
 "factura, %(line_name)s"
 
 #. module: account_spread_cost_revenue
@@ -1150,4 +1150,4 @@ msgstr "Por exemplo, Un contrato de limpeza de oficinas dun ano"
 #. module: account_spread_cost_revenue
 #: model_terms:ir.ui.view,arch_db:account_spread_cost_revenue.view_account_spread_template
 msgid "e.g. Template cleaning contract"
-msgstr "p. ex. Persoal de contrato de limpeza"
+msgstr "p. ex. Modelo de contrato de limpeza"

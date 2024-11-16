@@ -1038,7 +1038,7 @@ msgstr "Correo electrónico - 6 Horas"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__mail_template_id
 msgid "Email Template"
-msgstr "Persoal de correo electrónico"
+msgstr "Modelo de correo electrónico"
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_attendee__email
@@ -1877,8 +1877,7 @@ msgstr "Etiquetas"
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_alarm__mail_template_id
 msgid "Template used to render mail reminder content."
-msgstr ""
-"Persoal utilizado para visualizar o contido do correo de recordatorio."
+msgstr "Modelo utilizado para visualizar o contido do correo de recordatorio."
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
@@ -2002,7 +2001,7 @@ msgstr "Zona horaria"
 #: model:ir.model.fields,help:calendar.field_calendar_attendee__mail_tz
 msgid "Timezone used for displaying time in the mail template"
 msgstr ""
-"Zona horaria utilizada para mostrar a hora no persoal de correo electrónico"
+"Zona horaria utilizada para mostrar a hora no modelo de correo electrónico"
 
 #. module: calendar
 #: code:addons/calendar/models/res_users.py:0

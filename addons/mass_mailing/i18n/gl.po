@@ -553,7 +553,7 @@ msgstr "<span>Contactos</span>"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "<span>Select a template</span>"
-msgstr "<span>Seleccione persoal</span>"
+msgstr "<span>Seleccione modelo</span>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_list_view_kanban
@@ -1956,7 +1956,7 @@ msgid ""
 "Final placeholder expression, to be copy-pasted in the desired template "
 "field."
 msgstr ""
-"Expresión de campos final, a ser copia-pegada no campo do persoal desexado."
+"Expresión de campos final, a ser copia-pegada no campo do modelo desexado."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_features
@@ -2889,7 +2889,7 @@ msgstr "Sen soporte"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_mailing_view_form_full_width
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid "No template picked yet."
-msgstr "Aínda non se elixiu un persoal."
+msgstr "Aínda non se elixiu un modelo."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.snippet_options
@@ -3818,7 +3818,7 @@ msgstr "Conte cal é o valor para o <br/>cliente desta característica."
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_masonry_block_options
 msgid "Template"
-msgstr "Persoal"
+msgstr "Modelo"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form

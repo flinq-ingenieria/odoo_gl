@@ -84,7 +84,7 @@ msgstr "<strong>Modelo</strong>"
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.view_google_drive_config_kanban
 msgid "<strong>Template</strong>"
-msgstr "<strong>Persoal</strong>"
+msgstr "<strong>Modelo</strong>"
 
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config__active
@@ -94,7 +94,7 @@ msgstr "Activo"
 #. module: google_drive
 #: model_terms:ir.actions.act_window,help:google_drive.action_google_drive_users_config
 msgid "Add a new template"
-msgstr "Agregar un novo persoal"
+msgstr "Agregar un novo modelo"
 
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.google_drive_config_view_search
@@ -200,7 +200,7 @@ msgstr "Patrón de nomes de Google Drive"
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.res_config_settings_view_form
 msgid "Google Drive Templates"
-msgstr "Persoais de Google Drive"
+msgstr "Modelos de Google Drive"
 
 #. module: google_drive
 #: code:addons/google_drive/models/google_drive.py:0
@@ -213,7 +213,7 @@ msgstr ""
 #. module: google_drive
 #: model:ir.model,name:google_drive.model_google_drive_config
 msgid "Google Drive templates config"
-msgstr "Configuración de persoais de Google Drive"
+msgstr "Configuración de modelos de Google Drive"
 
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config__id
@@ -229,7 +229,7 @@ msgid ""
 "%(drive_model)r)"
 msgstr ""
 "Google Drive incoherente %(drive)s: o modelo do filtro %(filter)r "
-"seleccionado non coincide co modelo do persoal (%(filter_model)r, "
+"seleccionado non coincide co modelo do modelo (%(filter_model)r, "
 "%(drive_model)r) actual"
 
 #. module: google_drive
@@ -256,8 +256,8 @@ msgid ""
 "checklist for each order in a foreign country, ... Its very easy to manage "
 "them, link them to Odoo and use them to collaborate with your employees."
 msgstr ""
-"Vincula os teus persoais de Google Drive a calquera rexistro de Odoo. Se tes"
-" documentos moi específicos que queres que os teus colaboradores completen, "
+"Vincula os teus modelos de Google Drive a calquera rexistro de Odoo. Se tes "
+"documentos moi específicos que queres que os teus colaboradores completen, "
 "por exemplo, usar unha folla de cálculo para controlar a calidade do teu "
 "produto ou revisar a lista de envío de cada orde no estranxeiro, ... é moi "
 "sinxelo xestionalas, vincúlaas a Odoo e úsaas para colaborar cos teus "
@@ -313,23 +313,23 @@ msgstr ""
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config__name
 msgid "Template Name"
-msgstr "Nome do persoal"
+msgstr "Nome do modelo"
 
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config__google_drive_template_url
 msgid "Template URL"
-msgstr "URL do persoal"
+msgstr "URL do modelo"
 
 #. module: google_drive
 #: model:ir.actions.act_window,name:google_drive.action_google_drive_users_config
 msgid "Templates"
-msgstr "Persoais"
+msgstr "Modelos"
 
 #. module: google_drive
 #: code:addons/google_drive/models/google_drive.py:0
 #, python-format
 msgid "The Google Template cannot be found. Maybe it has been deleted."
-msgstr "Non se atopa o persoal de Google. Talvez foi eliminada."
+msgstr "Non se atopa o modelo de Google. Talvez foi eliminada."
 
 #. module: google_drive
 #: model:ir.model.fields,help:google_drive.field_res_config_settings__google_drive_uri

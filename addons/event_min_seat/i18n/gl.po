@@ -31,7 +31,7 @@ msgstr "Evento"
 #. module: event_min_seat
 #: model:ir.model,name:event_min_seat.model_event_type
 msgid "Event Template"
-msgstr "Persoal de evento"
+msgstr "Modelo de evento"
 
 #. module: event_min_seat
 #: model:ir.model.fields,help:event_min_seat.field_event_event__seats_min

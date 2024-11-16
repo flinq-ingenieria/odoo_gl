@@ -167,7 +167,7 @@ msgstr "Crear visitas"
 #. module: crm_salesperson_planner
 #: model_terms:ir.actions.act_window,help:crm_salesperson_planner.crm_salesperson_planner_visit_template_action
 msgid "Create and plan commercial visit templates"
-msgstr "Crear e planificar persoais de visitas comerciais"
+msgstr "Crear e planificar modelos de visitas comerciais"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__create_uid
@@ -190,7 +190,7 @@ msgstr "Creado o"
 #. module: crm_salesperson_planner
 #: model:ir.model,name:crm_salesperson_planner.model_crm_salesperson_planner_visit_template
 msgid "Crm Salesperson Planner Visit Template"
-msgstr "Persoal de visita do planificador de vendas Crm"
+msgstr "Modelo de visita do planificador de vendas Crm"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit__partner_id
@@ -900,7 +900,7 @@ msgstr "O número de visita debe ser único!"
 #. module: crm_salesperson_planner
 #: model:ir.model.constraint,message:crm_salesperson_planner.constraint_crm_salesperson_planner_visit_template_crm_salesperson_planner_visit_template_name
 msgid "The visit template number must be unique!"
-msgstr "O número de persoal de visita debe ser único!"
+msgstr "O número de modelo de visita debe ser único!"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields.selection,name:crm_salesperson_planner.selection__crm_salesperson_planner_visit_template__byday__3
@@ -997,18 +997,18 @@ msgstr "Número de visita"
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__visit_ids
 #: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_template_form_view
 msgid "Visit Template"
-msgstr "Persoal de visita"
+msgstr "Modelo de visita"
 
 #. module: crm_salesperson_planner
 #: model:ir.model.fields,field_description:crm_salesperson_planner.field_crm_salesperson_planner_visit_template__name
 msgid "Visit Template Number"
-msgstr "Número de persoal de visita"
+msgstr "Número de modelo de visita"
 
 #. module: crm_salesperson_planner
 #: model:ir.actions.act_window,name:crm_salesperson_planner.crm_salesperson_planner_visit_template_action
 #: model:ir.ui.menu,name:crm_salesperson_planner.menu_crm_salesperson_planner_visit_template
 msgid "Visit Templates"
-msgstr "Persoais de visitas"
+msgstr "Modelos de visitas"
 
 #. module: crm_salesperson_planner
 #: model_terms:ir.ui.view,arch_db:crm_salesperson_planner.crm_salesperson_planner_visit_filter
@@ -1078,7 +1078,7 @@ msgstr "Anos"
 #. module: crm_salesperson_planner
 #: model:ir.model,name:crm_salesperson_planner.model_crm_salesperson_planner_visit_template_create
 msgid "crm salesperson planner visit template create"
-msgstr "Crear persoal de visita ao planificador de vendedores de CRM"
+msgstr "Crear modelo de visita ao planificador de vendedores de CRM"
 
 #~ msgid "Active"
 #~ msgstr "Activo"

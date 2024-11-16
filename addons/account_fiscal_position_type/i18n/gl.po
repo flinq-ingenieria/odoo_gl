@@ -20,7 +20,7 @@ msgstr ""
 #. module: account_fiscal_position_type
 #: model:ir.model,name:account_fiscal_position_type.model_account_chart_template
 msgid "Account Chart Template"
-msgstr "Persoal de Plan Contable"
+msgstr "Modelo de Plan Contable"
 
 #. module: account_fiscal_position_type
 #: model:ir.model.fields.selection,name:account_fiscal_position_type.selection__account_fiscal_position__type_position_use__all
@@ -82,4 +82,4 @@ msgstr "Posición fiscal adecuada"
 #. module: account_fiscal_position_type
 #: model:ir.model,name:account_fiscal_position_type.model_account_fiscal_position_template
 msgid "Template for Fiscal Position"
-msgstr "Persoal para Posición Fiscal"
+msgstr "Modelo para Posición Fiscal"

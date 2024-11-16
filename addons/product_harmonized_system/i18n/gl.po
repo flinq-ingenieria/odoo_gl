@@ -211,7 +211,7 @@ msgstr "Categoría de produto"
 #. module: product_harmonized_system
 #: model:ir.model,name:product_harmonized_system.model_product_template
 msgid "Product Template"
-msgstr "Persoal de Produto"
+msgstr "Modelo de Produto"
 
 #. module: product_harmonized_system
 #: model:ir.model.fields,field_description:product_harmonized_system.field_hs_code__product_tmpl_count

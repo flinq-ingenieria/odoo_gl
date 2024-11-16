@@ -270,7 +270,7 @@ msgstr "Conta"
 #. module: l10n_ar
 #: model:ir.model,name:l10n_ar.model_account_chart_template
 msgid "Account Chart Template"
-msgstr "Persoal de Plan de Contas"
+msgstr "Modelo de Plan de Contas"
 
 #. module: l10n_ar
 #: model:ir.model.fields,field_description:l10n_ar.field_account_invoice_report__date
@@ -1141,7 +1141,7 @@ msgstr "Servizo Telefónico (IVE 27)"
 #. module: l10n_ar
 #: model:ir.model,name:l10n_ar.model_account_fiscal_position_template
 msgid "Template for Fiscal Position"
-msgstr "Persoal de posición fiscal"
+msgstr "Modelo de posición fiscal"
 
 #. module: l10n_ar
 #: code:addons/l10n_ar/models/account_move.py:0

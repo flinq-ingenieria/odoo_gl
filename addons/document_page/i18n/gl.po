@@ -515,7 +515,7 @@ msgstr "Resumo"
 #: model:ir.model.fields,field_description:document_page.field_document_page__template
 #: model_terms:ir.ui.view,arch_db:document_page.view_category_form
 msgid "Template"
-msgstr "Persoal"
+msgstr "Modelo"
 
 #. module: document_page
 #: model:ir.model.fields,help:document_page.field_document_page__template
@@ -523,7 +523,7 @@ msgid ""
 "Template that will be used as a content template for all new page of this "
 "category."
 msgstr ""
-"Persoal que utilizará como estrutura de contido para todas as páxinas novas "
+"Modelo que utilizará como estrutura de contido para todas as páxinas novas "
 "desta categoría."
 
 #. module: document_page

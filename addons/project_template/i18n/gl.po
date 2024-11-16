@@ -20,27 +20,27 @@ msgstr ""
 #. module: project_template
 #: model_terms:ir.ui.view,arch_db:project_template.project_template_view_inherit_form
 msgid "Create Project From Template"
-msgstr "Crear Proxecto desde Persoal"
+msgstr "Crear Proxecto desde Modelo"
 
 #. module: project_template
 #: model_terms:ir.ui.view,arch_db:project_template.project_template_view_inherit_kanban
 msgid "Create Project from Template"
-msgstr "Crear Proxecto desde Persoal"
+msgstr "Crear Proxecto desde Modelo"
 
 #. module: project_template
 #: model:ir.model.fields,field_description:project_template.field_project_project__is_template
 msgid "Is Template"
-msgstr "É un Persoal"
+msgstr "É un Modelo"
 
 #. module: project_template
 #: model_terms:ir.ui.view,arch_db:project_template.project_template_view_inherit_form
 msgid "Is Template?"
-msgstr "É Un Persoal?"
+msgstr "É Un Modelo?"
 
 #. module: project_template
 #: model_terms:ir.ui.view,arch_db:project_template.project_template_view_inherit_search
 msgid "Non-Templates"
-msgstr "Non son Persoais"
+msgstr "Non son Modelos"
 
 #. module: project_template
 #: model:ir.model,name:project_template.model_project_project
@@ -50,7 +50,7 @@ msgstr "Proxecto"
 #. module: project_template
 #: model_terms:ir.ui.view,arch_db:project_template.project_template_view_inherit_search
 msgid "Templates"
-msgstr "Persoais"
+msgstr "Modelos"
 
 #~ msgid "WBS element"
 #~ msgstr "Elemento WBS"

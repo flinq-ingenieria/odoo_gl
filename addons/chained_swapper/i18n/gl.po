@@ -34,8 +34,8 @@ msgid ""
 "Action to make this template available on records of the related document "
 "model."
 msgstr ""
-"Acción contextual para facer que este persoal estea dispoñible nos rexistros"
-" do modelo de documento relacionado."
+"Acción contextual para facer que este modelo estea dispoñible nos rexistros "
+"do modelo de documento relacionado."
 
 #. module: chained_swapper
 #: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
@@ -263,7 +263,7 @@ msgstr "Eliminar acción"
 #: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form
 msgid "Remove the contextual action to use this template on related documents"
 msgstr ""
-"Borrar a acción conceptual para usar este persoal en documentos relacionados"
+"Borrar a acción conceptual para usar este modelo en documentos relacionados"
 
 #. module: chained_swapper
 #: model_terms:ir.ui.view,arch_db:chained_swapper.chained_swapper_view_form

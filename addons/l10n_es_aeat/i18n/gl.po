@@ -1603,7 +1603,7 @@ msgstr "Impostos (Cota)"
 #. module: l10n_es_aeat
 #: model:ir.model.fields,field_description:l10n_es_aeat.field_l10n_es_aeat_map_tax_line__tax_ids
 msgid "Taxes templates"
-msgstr "Persoais de impostos"
+msgstr "Modelos de impostos"
 
 #. module: l10n_es_aeat
 #: model:ir.model.fields.selection,name:l10n_es_aeat.selection__l10n_es_aeat_mod111_report__support_type__t

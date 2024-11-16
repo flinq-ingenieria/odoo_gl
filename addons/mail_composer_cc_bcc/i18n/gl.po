@@ -77,7 +77,7 @@ msgstr "Cc por defecto"
 #. module: mail_composer_cc_bcc
 #: model:ir.model,name:mail_composer_cc_bcc.model_mail_template
 msgid "Email Templates"
-msgstr "Persoais Correo Electrónico"
+msgstr "Modelos Correo Electrónico"
 
 #. module: mail_composer_cc_bcc
 #: model:ir.model,name:mail_composer_cc_bcc.model_mail_thread

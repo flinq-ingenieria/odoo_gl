@@ -71,7 +71,7 @@ msgstr "Agregue un pedido de servizo recorrente aquí."
 #. module: fieldservice_recurring
 #: model_terms:ir.actions.act_window,help:fieldservice_recurring.action_fsm_recurring_template
 msgid "Add a Field Service Recurring Template here."
-msgstr "Agregue un persoal recorrente do servizo de campo aquí."
+msgstr "Agregue un modelo recorrente do servizo de campo aquí."
 
 #. module: fieldservice_recurring
 #: model:ir.model.fields,field_description:fieldservice_recurring.field_fsm_frequency__apr
@@ -251,7 +251,7 @@ msgstr "Ordes Recorrentes de Servizo de Campo"
 #. module: fieldservice_recurring
 #: model:ir.actions.act_window,name:fieldservice_recurring.action_fsm_recurring_template
 msgid "Field Service Recurring Templates"
-msgstr "Persoais Recorrentes de Servizo de Campo"
+msgstr "Modelos Recorrentes de Servizo de Campo"
 
 #. module: fieldservice_recurring
 #: model:ir.model,name:fieldservice_recurring.model_fsm_team
@@ -614,7 +614,7 @@ msgstr "Outubro"
 #: model:ir.model.fields,field_description:fieldservice_recurring.field_fsm_recurring_template__fsm_order_template_id
 #: model_terms:ir.ui.view,arch_db:fieldservice_recurring.fsm_recurring_search_view
 msgid "Order Template"
-msgstr "Persoal de Pedido"
+msgstr "Modelo de Pedido"
 
 #. module: fieldservice_recurring
 #: model:ir.model.fields,field_description:fieldservice_recurring.field_fsm_recurring__fsm_order_ids
@@ -641,7 +641,7 @@ msgstr "Orde de Servizo de Campo Recorrente"
 #. module: fieldservice_recurring
 #: model:ir.model,name:fieldservice_recurring.model_fsm_recurring_template
 msgid "Recurring Field Service Order Template"
-msgstr "Persoal de pedido de servizo de campo recorrente"
+msgstr "Modelo de pedido de servizo de campo recorrente"
 
 #. module: fieldservice_recurring
 #: model:ir.model.fields,field_description:fieldservice_recurring.field_fsm_order__fsm_recurring_id
@@ -662,12 +662,12 @@ msgstr "Ordes Recorrentes"
 #: model_terms:ir.ui.view,arch_db:fieldservice_recurring.fsm_recurring_search_view
 #: model_terms:ir.ui.view,arch_db:fieldservice_recurring.fsm_recurring_template_form_view
 msgid "Recurring Template"
-msgstr "Persoal Recorrente"
+msgstr "Modelo Recorrente"
 
 #. module: fieldservice_recurring
 #: model:ir.ui.menu,name:fieldservice_recurring.menu_fsm_recurring_templates
 msgid "Recurring Templates"
-msgstr "Persoais Recorrentes"
+msgstr "Modelos Recorrentes"
 
 #. module: fieldservice_recurring
 #: model:ir.model.fields,field_description:fieldservice_recurring.field_fsm_team__recurring_draft_count
@@ -778,12 +778,12 @@ msgstr "Equipo"
 #. module: fieldservice_recurring
 #: model_terms:ir.ui.view,arch_db:fieldservice_recurring.fsm_recurring_template_form_view
 msgid "Template Description"
-msgstr "Descrición de Persoal"
+msgstr "Descrición de Modelo"
 
 #. module: fieldservice_recurring
 #: model_terms:ir.ui.view,arch_db:fieldservice_recurring.fsm_recurring_template_form_view
 msgid "Template Name"
-msgstr "Nome de Persoal"
+msgstr "Nome de Modelo"
 
 #. module: fieldservice_recurring
 #: model:ir.model.fields,help:fieldservice_recurring.field_fsm_frequency_set__buffer_late
@@ -821,7 +821,7 @@ msgstr "O número de intervalos entre eventos"
 #: model:ir.model.fields,help:fieldservice_recurring.field_fsm_recurring__fsm_order_template_id
 #: model:ir.model.fields,help:fieldservice_recurring.field_fsm_recurring_template__fsm_order_template_id
 msgid "This is the order template that will be recurring"
-msgstr "Esta é o persoal de pedido que será recorrente"
+msgstr "Esta é o modelo de pedido que será recorrente"
 
 #. module: fieldservice_recurring
 #: model:ir.model.fields,field_description:fieldservice_recurring.field_fsm_frequency__th

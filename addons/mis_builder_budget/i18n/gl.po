@@ -451,7 +451,7 @@ msgstr "Informe Os meus - KPI Expresión"
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__report_id
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item__report_id
 msgid "MIS Report Template"
-msgstr "Persoal de orzamento Os meus"
+msgstr "Modelo de orzamento Os meus"
 
 #. module: mis_builder_budget
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__message_main_attachment_id

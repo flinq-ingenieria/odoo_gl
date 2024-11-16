@@ -943,7 +943,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer__inline_form_view_id
 msgid "Inline Form Template"
-msgstr "Persoal de formulario en liña"
+msgstr "Modelo de formulario en liña"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_acquirer_form
@@ -1563,7 +1563,7 @@ msgstr "Motivo: %s"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer__redirect_form_view_id
 msgid "Redirect Form Template"
-msgstr "Persoal de formulario de redirección"
+msgstr "Modelo de formulario de redirección"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__reference
@@ -1972,15 +1972,15 @@ msgid ""
 "The template rendering a form submitted to redirect the user when making a "
 "payment"
 msgstr ""
-"O persoal que representa un formulario enviado para redireccionar ao usuario"
-" ao realizar un pago"
+"O modelo que representa un formulario enviado para redireccionar ao usuario "
+"ao realizar un pago"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__inline_form_view_id
 msgid ""
 "The template rendering the inline payment form when making a direct payment"
 msgstr ""
-"O persoal que mostra o formulario de pago en liña cando se realiza un pago "
+"O modelo que mostra o formulario de pago en liña cando se realiza un pago "
 "directo"
 
 #. module: payment

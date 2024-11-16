@@ -1337,7 +1337,7 @@ msgstr "Imaxe 512"
 #: code:addons/product/models/product_pricelist.py:0
 #, python-format
 msgid "Import Template for Pricelists"
-msgstr "Importar persoal para listas de prezos"
+msgstr "Importar modelo para listas de prezos"
 
 #. module: product
 #: code:addons/product/models/product_template.py:0
@@ -1349,7 +1349,7 @@ msgstr "Importar modelo de produtos"
 #: code:addons/product/models/product.py:0
 #, python-format
 msgid "Import Template for Vendor Pricelists"
-msgstr "Importar persoal para listas de prezos de provedores"
+msgstr "Importar modelo para listas de prezos de provedores"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__standard_price
@@ -2490,7 +2490,7 @@ msgid ""
 "Specify a template if this rule only applies to one product template. Keep "
 "empty otherwise."
 msgstr ""
-"Especifique un persoal se esta regra só se aplica a un modelo de produto. "
+"Especifique un modelo se esta regra só se aplica a un modelo de produto. "
 "Déixeo baleiro en caso contrario."
 
 #. module: product
@@ -2850,7 +2850,7 @@ msgstr "Tipo de actividade de excepción rexistrada."
 #: code:addons/product/wizard/product_label_layout.py:0
 #, python-format
 msgid "Unable to find report template for %s format"
-msgstr "Non se puido atopar o persoal de reporte para o %s formato"
+msgstr "Non se puido atopar o modelo de reporte para o %s formato"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_form_view

@@ -2644,13 +2644,13 @@ msgstr "Confirmación por correo electrónico de pickings"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Email Template"
-msgstr "Persoal de correo electrónico"
+msgstr "Modelo de correo electrónico"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_company__stock_mail_confirmation_template_id
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__stock_mail_confirmation_template_id
 msgid "Email Template confirmation picking"
-msgstr "Persoal de Correo electrónico para a confirmación de pickings"
+msgstr "Modelo de Correo electrónico para a confirmación de pickings"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_res_company__stock_mail_confirmation_template_id
@@ -7747,7 +7747,7 @@ msgstr "Técnico: utilízase para calcular o peso."
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_change_product_qty__product_tmpl_id
 msgid "Template"
-msgstr "Persoal"
+msgstr "Modelo"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_rule__auto

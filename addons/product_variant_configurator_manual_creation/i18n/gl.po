@@ -103,7 +103,7 @@ msgstr "Creación manual Atributos do configurador de variantes"
 #. module: product_variant_configurator_manual_creation
 #: model:ir.model,name:product_variant_configurator_manual_creation.model_product_template
 msgid "Product Template"
-msgstr "Persoal do Produto"
+msgstr "Modelo do Produto"
 
 #. module: product_variant_configurator_manual_creation
 #: model:ir.model.fields,field_description:product_variant_configurator_manual_creation.field_wizard_product_variant_configurator_manual_creation_line__required
@@ -113,7 +113,7 @@ msgstr "Requirido?"
 #. module: product_variant_configurator_manual_creation
 #: model:ir.model.fields,field_description:product_variant_configurator_manual_creation.field_wizard_product_variant_configurator_manual_creation__product_tmpl_id
 msgid "Template"
-msgstr "Persoal de comentario"
+msgstr "Modelo de comentario"
 
 #. module: product_variant_configurator_manual_creation
 #: model:ir.model.fields,field_description:product_variant_configurator_manual_creation.field_wizard_product_variant_configurator_manual_creation_line__attribute_value_ids

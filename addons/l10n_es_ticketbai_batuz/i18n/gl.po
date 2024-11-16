@@ -20,7 +20,7 @@ msgstr ""
 #. module: l10n_es_ticketbai_batuz
 #: model:ir.model,name:l10n_es_ticketbai_batuz.model_account_chart_template
 msgid "Account Chart Template"
-msgstr "Persoal de Plan Contable"
+msgstr "Modelo de Plan Contable"
 
 #. module: l10n_es_ticketbai_batuz
 #: model:ir.model,name:l10n_es_ticketbai_batuz.model_account_move_reversal
@@ -364,7 +364,7 @@ msgstr "Técnico"
 #. module: l10n_es_ticketbai_batuz
 #: model:ir.model,name:l10n_es_ticketbai_batuz.model_account_fiscal_position_template
 msgid "Template for Fiscal Position"
-msgstr "Persoal de posición fiscal"
+msgstr "Modelo de posición fiscal"
 
 #. module: l10n_es_ticketbai_batuz
 #: model_terms:ir.ui.view,arch_db:l10n_es_ticketbai_batuz.view_account_move_filter_inherit_l10n_es_ticketbai_batuz
@@ -489,7 +489,7 @@ msgstr ""
 #~ msgstr "Usar conector"
 
 #~ msgid "Templates for Account Chart"
-#~ msgstr "Persoais de plan contable"
+#~ msgstr "Modelos de plan contable"
 
 #~ msgid "Journal"
 #~ msgstr "Diario"

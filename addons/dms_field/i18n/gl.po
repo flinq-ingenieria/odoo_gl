@@ -391,7 +391,7 @@ msgstr "Nome a Mostrar"
 #. module: dms_field
 #: model:ir.model,name:dms_field.model_dms_field_template
 msgid "Dms Field Template"
-msgstr "Persoal de Campo Dms"
+msgstr "Modelo de Campo Dms"
 
 #. module: dms_field
 #: model:ir.actions.act_window,name:dms_field.dms_storage_act_window
@@ -447,7 +447,7 @@ msgstr "Elementos:"
 #: model:ir.actions.act_window,name:dms_field.action_dms_field_template
 #: model:ir.ui.menu,name:dms_field.menu_dms_field_template
 msgid "Embedded DMS templates"
-msgstr "Persoais DMS embebidas"
+msgstr "Modelos DMS embebidas"
 
 #. module: dms_field
 #. openerp-web
@@ -459,7 +459,7 @@ msgstr "F2"
 #. module: dms_field
 #: model:ir.model.fields,field_description:dms_field.field_dms_storage__field_template_ids
 msgid "File templated ids"
-msgstr "Ficheiro de identificadores persoais"
+msgstr "Ficheiro de identificadores modelos"
 
 #. module: dms_field
 #. openerp-web
@@ -683,7 +683,7 @@ msgstr ""
 #: code:addons/dms_field/models/dms_field_template.py:0
 #, python-format
 msgid "There is no template linked to this model"
-msgstr "Non hai persoal vinculado a este modelo"
+msgstr "Non hai modelo vinculado a este modelo"
 
 #. module: dms_field
 #: code:addons/dms_field/models/dms_directory.py:0

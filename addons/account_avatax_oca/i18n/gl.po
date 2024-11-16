@@ -828,7 +828,7 @@ msgstr "Códigos fiscais do produto"
 #. module: account_avatax_oca
 #: model:ir.model,name:account_avatax_oca.model_product_template
 msgid "Product Template"
-msgstr "Persoal do Produto"
+msgstr "Modelo do Produto"
 
 #. module: account_avatax_oca
 #: model:ir.model.fields.selection,name:account_avatax_oca.selection__avalara_salestax__service_url__https://rest_avatax_com/api/v2

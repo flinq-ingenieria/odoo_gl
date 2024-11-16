@@ -122,7 +122,7 @@ msgstr "Só se poden refacturar gastos manualmente."
 #. module: sale_expense_manual_reinvoice
 #: model:ir.model,name:sale_expense_manual_reinvoice.model_product_template
 msgid "Product Template"
-msgstr "Persoal de Produto"
+msgstr "Modelo de Produto"
 
 #. module: sale_expense_manual_reinvoice
 #: model:ir.model.fields,field_description:sale_expense_manual_reinvoice.field_product_product__expense_mode

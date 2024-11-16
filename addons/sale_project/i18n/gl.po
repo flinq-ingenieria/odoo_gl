@@ -131,7 +131,7 @@ msgid ""
 "         'In sale order's project': Will use the sale order's configured project if defined or fallback to         creating a new project based on the selected template."
 msgstr ""
 "Na confirmación da orde de venda, este produto pode xerar un proxecto e / ou tarefa.         A partir deles, pode realizar un seguimento do servizo que está a vender.\n"
-"         'No proxecto da orde de venda': usará o proxecto configurado da orde de venda se está definido ou se utilizará como respaldo         para crear un novo proxecto baseado no persoal seleccionado."
+"         'No proxecto da orde de venda': usará o proxecto configurado da orde de venda se está definido ou se utilizará como respaldo         para crear un novo proxecto baseado no modelo seleccionado."
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_product_product
@@ -161,7 +161,7 @@ msgstr "Proxecto e tarefa"
 #: model:ir.model.fields,field_description:sale_project.field_product_product__project_template_id
 #: model:ir.model.fields,field_description:sale_project.field_product_template__project_template_id
 msgid "Project Template"
-msgstr "Persoal de proxecto"
+msgstr "Modelo de proxecto"
 
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_sale_order_line__project_id
@@ -371,8 +371,8 @@ msgid ""
 "The product %s should not have a project nor a project template since it "
 "will not generate project."
 msgstr ""
-"O produto %s non debe ter un proxecto nin un persoal de proxecto, xa que non"
-" xerará proxecto."
+"O produto %s non debe ter un proxecto nin un modelo de proxecto, xa que non "
+"xerará proxecto."
 
 #. module: sale_project
 #: code:addons/sale_project/models/product.py:0
@@ -381,7 +381,7 @@ msgid ""
 "The product %s should not have a project template since it will generate a "
 "task in a global project."
 msgstr ""
-"O produto %s non debe ter un persoal de proxecto, xa que xerará unha tarefa "
+"O produto %s non debe ter un modelo de proxecto, xa que xerará unha tarefa "
 "nun proxecto global."
 
 #. module: sale_project

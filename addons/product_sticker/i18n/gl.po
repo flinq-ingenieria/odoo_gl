@@ -208,7 +208,7 @@ msgstr "Adhesivos de Produto"
 #. module: product_sticker
 #: model:ir.model,name:product_sticker.model_product_template
 msgid "Product Template"
-msgstr "Persoal do Produto"
+msgstr "Modelo do Produto"
 
 #. module: product_sticker
 #: model:ir.model.fields,field_description:product_sticker.field_product_sticker__sequence

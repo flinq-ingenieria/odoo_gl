@@ -888,7 +888,7 @@ msgstr "Pedidos de existencias"
 #. module: stock_request
 #: model:ir.model,name:stock_request.model_stock_request_abstract
 msgid "Stock Request Template"
-msgstr "Persoal de solicitude de existencias"
+msgstr "Modelo de solicitude de existencias"
 
 #. module: stock_request
 #: model:res.groups,name:stock_request.group_stock_request_user

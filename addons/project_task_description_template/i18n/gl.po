@@ -25,7 +25,7 @@ msgstr "Activo"
 #. module: project_task_description_template
 #: model_terms:ir.actions.act_window,help:project_task_description_template.project_task_description_template_action
 msgid "Click to create a new description template."
-msgstr "Fai click para crear un novo persoal de descrición."
+msgstr "Fai click para crear un novo modelo de descrición."
 
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__company_id
@@ -51,7 +51,7 @@ msgstr "Descrición"
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task__description_template_id
 msgid "Description Template"
-msgstr "Persoal de descrición"
+msgstr "Modelo de descrición"
 
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__display_name
@@ -86,7 +86,7 @@ msgstr "Nome"
 #. module: project_task_description_template
 #: model:ir.model,name:project_task_description_template.model_project_task_description_template
 msgid "Project Task Description Template"
-msgstr "Persoal de descrición de tarefas"
+msgstr "Modelo de descrición de tarefas"
 
 #. module: project_task_description_template
 #: model:ir.model,name:project_task_description_template.model_project_task
@@ -96,9 +96,9 @@ msgstr "Tarefa"
 #. module: project_task_description_template
 #: model:ir.ui.menu,name:project_task_description_template.project_task_description_template_menu
 msgid "Task Description Templates"
-msgstr "Persoais de descrición de tarefas"
+msgstr "Modelos de descrición de tarefas"
 
 #. module: project_task_description_template
 #: model:ir.actions.act_window,name:project_task_description_template.project_task_description_template_action
 msgid "Task Description template"
-msgstr "Persoal de descrición de tarefa"
+msgstr "Modelo de descrición de tarefa"

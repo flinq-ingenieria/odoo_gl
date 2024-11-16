@@ -328,7 +328,7 @@ msgstr "Dereitos de aceso por defecto"
 #: code:addons/base_setup/models/res_config_settings.py:0
 #, python-format
 msgid "Default User Template not found."
-msgstr "Non se ha atopou un persoal de usuario por defecto."
+msgstr "Non se ha atopou un modelo de usuario por defecto."
 
 #. module: base_setup
 #. openerp-web
@@ -340,7 +340,7 @@ msgstr "Ferramentas de desarrollador"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__external_report_layout_id
 msgid "Document Template"
-msgstr "Persoal do documento"
+msgstr "Modelo do documento"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form

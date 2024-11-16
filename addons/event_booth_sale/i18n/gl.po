@@ -191,7 +191,7 @@ msgstr "Rexistro da cabina do evento"
 #. module: event_booth_sale
 #: model:ir.model,name:event_booth_sale.model_event_type_booth
 msgid "Event Booth Template"
-msgstr "Persoal de cabina de evento"
+msgstr "Modelo de cabina de evento"
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth__sale_order_line_id
@@ -304,12 +304,12 @@ msgstr "Tipo de produto"
 #. module: event_booth_sale
 #: model:ir.model,name:event_booth_sale.model_sale_order_template_line
 msgid "Quotation Template Line"
-msgstr "Liña de persoal de orzamento"
+msgstr "Liña de modelo de orzamento"
 
 #. module: event_booth_sale
 #: model:ir.model,name:event_booth_sale.model_sale_order_template_option
 msgid "Quotation Template Option"
-msgstr "Opción de persoal de orzamento"
+msgstr "Opción de modelo de orzamento"
 
 #. module: event_booth_sale
 #: model_terms:ir.ui.view,arch_db:event_booth_sale.event_booth_view_form_from_event

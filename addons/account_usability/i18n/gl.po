@@ -55,7 +55,7 @@ msgstr "Grupos de impostos"
 #: model:ir.actions.act_window,name:account_usability.account_account_template_action
 #: model:ir.ui.menu,name:account_usability.menu_account_account_template
 msgid "Account Templates"
-msgstr "Persoais de contas"
+msgstr "Modelos de contas"
 
 #. module: account_usability
 #: model:ir.ui.menu,name:account_usability.account_type_menu
@@ -91,7 +91,7 @@ msgstr "Rexistros de caixa"
 #. module: account_usability
 #: model:ir.ui.menu,name:account_usability.menu_account_chart_template
 msgid "Chart of Accounts Templates"
-msgstr "Persoais de plans contables"
+msgstr "Modelos de plans contables"
 
 #. module: account_usability
 #: model:ir.model,name:account_usability.model_res_config_settings
@@ -102,7 +102,7 @@ msgstr "Axustes"
 #: model:ir.actions.act_window,name:account_usability.account_fiscal_position_template_action
 #: model:ir.ui.menu,name:account_usability.menu_account_fiscal_position_template
 msgid "Fiscal Position Templates"
-msgstr "Persoais de posición fiscal"
+msgstr "Modelos de posición fiscal"
 
 #. module: account_usability
 #: model_terms:ir.ui.view,arch_db:account_usability.res_config_settings_view_form
@@ -132,7 +132,7 @@ msgstr "Grupo de impostos"
 #. module: account_usability
 #: model:ir.ui.menu,name:account_usability.menu_account_tax_template
 msgid "Tax Templates"
-msgstr "Persoais de impostos"
+msgstr "Modelos de impostos"
 
 #. module: account_usability
 #: model:ir.model.fields,field_description:account_usability.field_account_tax_group__tax_ids
@@ -142,7 +142,7 @@ msgstr "Impostos"
 #. module: account_usability
 #: model:ir.ui.menu,name:account_usability.menu_account_coa_settings
 msgid "Templates"
-msgstr "Persoais"
+msgstr "Modelos"
 
 #. module: account_usability
 #: model:ir.model.fields,field_description:account_usability.field_res_config_settings__anglo_saxon_accounting

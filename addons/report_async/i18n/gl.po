@@ -306,7 +306,7 @@ msgstr "Arquivos de informes"
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_print_report_wizard__action_report_id
 msgid "Report Template"
-msgstr "persoal de informe"
+msgstr "modelo de informe"
 
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_report_async__action_id

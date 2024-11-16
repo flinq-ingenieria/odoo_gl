@@ -1360,7 +1360,7 @@ msgstr "Pseudónimo de correo electrónico"
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_refuse_reason__template_id
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_stage__template_id
 msgid "Email Template"
-msgstr "Persoal de correo electrónico"
+msgstr "Modelo de correo electrónico"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_id
@@ -1396,7 +1396,7 @@ msgstr ""
 #, python-format
 msgid "Email template must be selected to send a mail"
 msgstr ""
-"Débese seleccionar un persoal de correo electrónico para enviar un correo"
+"Débese seleccionar un modelo de correo electrónico para enviar un correo"
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_hr_employee
@@ -1633,7 +1633,7 @@ msgid ""
 "If set, a message is posted on the applicant using the template when the "
 "applicant is set to the stage."
 msgstr ""
-"Se está establecido, enviarase unha mensaxe ao candidato usando un persoal "
+"Se está establecido, enviarase unha mensaxe ao candidato usando un modelo "
 "cando o candidato é establecido na etapa."
 
 #. module: hr_recruitment

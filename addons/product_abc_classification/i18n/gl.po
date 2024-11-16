@@ -194,7 +194,7 @@ msgstr "Cálculo de Produto"
 #. module: product_abc_classification
 #: model:ir.model,name:product_abc_classification.model_product_template
 msgid "Product Template"
-msgstr "Persoal do Produto"
+msgstr "Modelo do Produto"
 
 #. module: product_abc_classification
 #: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_profile__product_variant_ids

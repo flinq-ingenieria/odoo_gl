@@ -65,7 +65,7 @@ msgstr "SMS"
 #. module: calendar_sms
 #: model:ir.model.fields,field_description:calendar_sms.field_calendar_alarm__sms_template_id
 msgid "SMS Template"
-msgstr "Persoal de SMS"
+msgstr "Modelo de SMS"
 
 #. module: calendar_sms
 #: model:ir.model.fields.selection,name:calendar_sms.selection__calendar_alarm__alarm_type__sms
@@ -91,8 +91,7 @@ msgstr "Enviar SMS a asistentes"
 #. module: calendar_sms
 #: model:ir.model.fields,help:calendar_sms.field_calendar_alarm__sms_template_id
 msgid "Template used to render SMS reminder content."
-msgstr ""
-"Persoal utilizado para visualizar o contido dos recordatorios por SMS."
+msgstr "Modelo utilizado para visualizar o contido dos recordatorios por SMS."
 
 #. module: calendar_sms
 #: code:addons/calendar_sms/models/calendar_event.py:0

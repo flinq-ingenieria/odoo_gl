@@ -69,7 +69,7 @@ msgstr "Deseño do documento de marca"
 #. module: brand_external_report_layout
 #: model_terms:ir.ui.view,arch_db:brand_external_report_layout.res_brand_form_view
 msgid "Change Document Template"
-msgstr "Persoal de Documento de Modificación"
+msgstr "Modelo de Documento de Modificación"
 
 #. module: brand_external_report_layout
 #: code:addons/brand_external_report_layout/models/res_brand.py:0
@@ -121,7 +121,7 @@ msgstr "Mostrar Nome"
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__external_report_layout_id
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_res_brand__external_report_layout_id
 msgid "Document Template"
-msgstr "Persoal de Documento"
+msgstr "Modelo de Documento"
 
 #. module: brand_external_report_layout
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__email

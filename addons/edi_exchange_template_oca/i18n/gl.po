@@ -91,7 +91,7 @@ msgstr "Mestura de Saída de Intercambio EDI"
 #. module: edi_exchange_template_oca
 #: model:ir.model,name:edi_exchange_template_oca.model_edi_exchange_template_output
 msgid "EDI Exchange Output Template"
-msgstr "Persoal de Saída de Intercambio EDI"
+msgstr "Modelo de Saída de Intercambio EDI"
 
 #. module: edi_exchange_template_oca
 #: model:ir.actions.act_window,name:edi_exchange_template_oca.act_open_edi_exchange_template_output_view
@@ -99,12 +99,12 @@ msgstr "Persoal de Saída de Intercambio EDI"
 #: model_terms:ir.ui.view,arch_db:edi_exchange_template_oca.edi_exchange_template_output_view_form
 #: model_terms:ir.ui.view,arch_db:edi_exchange_template_oca.edi_exchange_template_output_view_search
 msgid "EDI Exchange Template Output"
-msgstr "Persoal de Intercambio EDI Saída"
+msgstr "Modelo de Intercambio EDI Saída"
 
 #. module: edi_exchange_template_oca
 #: model:ir.ui.menu,name:edi_exchange_template_oca.menu_edi_exchange_template_root
 msgid "EDI Exchange Templates"
-msgstr "Persoais de Intercambio EDI"
+msgstr "Modelos de Intercambio EDI"
 
 #. module: edi_exchange_template_oca
 #: model:ir.model.fields,field_description:edi_exchange_template_oca.field_edi_exchange_template_mixin__type_id
@@ -177,7 +177,7 @@ msgstr "Arco QWeb"
 #: model:ir.model.fields,field_description:edi_exchange_template_oca.field_edi_exchange_template_output__template_id
 #: model:ir.model.fields.selection,name:edi_exchange_template_oca.selection__edi_exchange_template_output__generator__qweb
 msgid "Qweb Template"
-msgstr "Persoal Qweb"
+msgstr "Modelo Qweb"
 
 #. module: edi_exchange_template_oca
 #: model:ir.model.fields,field_description:edi_exchange_template_oca.field_edi_exchange_template_output__report_id
@@ -188,12 +188,12 @@ msgstr "Informe"
 #. module: edi_exchange_template_oca
 #: model_terms:ir.ui.view,arch_db:edi_exchange_template_oca.edi_exchange_template_output_view_form
 msgid "Template"
-msgstr "Persoal"
+msgstr "Modelo"
 
 #. module: edi_exchange_template_oca
 #: model:ir.model.fields,field_description:edi_exchange_template_oca.field_edi_exchange_template_output__template_key
 msgid "Template key"
-msgstr "Clave de Persoal"
+msgstr "Clave de Modelo"
 
 #. module: edi_exchange_template_oca
 #: model:ir.model.fields,help:edi_exchange_template_oca.field_edi_exchange_template_output__template_arch

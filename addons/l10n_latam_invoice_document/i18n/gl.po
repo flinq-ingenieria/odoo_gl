@@ -20,7 +20,7 @@ msgstr ""
 #. module: l10n_latam_invoice_document
 #: model:ir.model,name:l10n_latam_invoice_document.model_account_chart_template
 msgid "Account Chart Template"
-msgstr "Persoal de Plan de Contas"
+msgstr "Modelo de Plan de Contas"
 
 #. module: l10n_latam_invoice_document
 #: model:ir.model,name:l10n_latam_invoice_document.model_account_move_reversal

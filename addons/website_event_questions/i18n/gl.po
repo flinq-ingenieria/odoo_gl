@@ -130,7 +130,7 @@ msgstr "Resposta de inscrición de evento"
 #. module: website_event_questions
 #: model:ir.model,name:website_event_questions.model_event_type
 msgid "Event Template"
-msgstr "Persoal de evento"
+msgstr "Modelo de evento"
 
 #. module: website_event_questions
 #: model:ir.model.fields,field_description:website_event_questions.field_event_question__event_type_id
