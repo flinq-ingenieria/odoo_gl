@@ -1665,9 +1665,9 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"     Soporte multiidioma para os plans de contas, impostos, códigos de imposto, diarios, persoais de contabilidade, plans de contas analíticos e diarios analíticos.\n"
+"     Soporte multiidioma para os plans de contas, impostos, códigos de imposto, diarios, modelos de contabilidade, plans de contas analíticos e diarios analíticos.\n"
 " Cambios no asistente de configuración\n"
-"        - Copiar traducións para o plan de contas, os impostos, os códigos de imposto, as posicións fiscais dos persoais aos obxectos.\n"
+"        - Copiar traducións para o plan de contas, os impostos, os códigos de imposto, as posicións fiscais dos modelos aos obxectos.\n"
 "    "
 
 #. module: base
@@ -2722,10 +2722,10 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Engade persoais de correo electrónico aos produtos para ser enviados na confirmación da factura\n"
+"Engade modelos de correo electrónico aos produtos para ser enviados na confirmación da factura\n"
 "======================================================================\n"
 "\n"
-"Con este módulo, podes enlazar os teus produtos a persoais para enviar aos teus clientes información detallada ou ferramentas.\n"
+"Con este módulo, podes enlazar os teus produtos a modelos para enviar aos teus clientes información detallada ou ferramentas.\n"
 "Por exemplo, ao facturar unha formación, a axenda da formación e os materiais poden enviaranse automaticamente ao teu cliente."
 
 #. module: base
@@ -5146,7 +5146,7 @@ msgstr ""
 "Plan xeral de contas.\n"
 "====================\n"
 "\n"
-"Prové persoais para o plan de contas e os impostos para Uruguai.\n"
+"Prové modelos para o plan de contas e os impostos para Uruguai.\n"
 "\n"
 
 #. module: base
@@ -7483,12 +7483,12 @@ msgstr ""
 "Gráficos de contas españois (PGCE 2008).\n"
 "========================================\n"
 "\n"
-"     Define os seguintes persoais de plans de contas:\n"
+"     Define os seguintes modelos de plans de contas:\n"
 "         Gráfico xeneral de contas de España 2008\n"
 "         Gráfico xeneral de contas de España 2008 para pequenas e medianas empresas\n"
 "         Gráfico xeneral de contas de España 2008 para asociacións\n"
-"     Define os persoais de compra e venda do IVE\n"
-"     Define os persoais de impostos\n"
+"     Define os modelos de compra e venda do IVE\n"
+"     Define os modelos de impostos\n"
 "     Define a situación fiscal da lexislación fiscal española\n"
 "     Define os informes fiscais dos modelos 111, 115 e 303\n"
 
@@ -7990,7 +7990,7 @@ msgstr ""
 "=============================================================================\n"
 "\n"
 "Despois de instalar este módulo, lánzase o asistente de configuración para contabilidade.\n"
-"     Existen persoais que poden ser útiles para xerar os plans de contas.\n"
+"     Existen modelos que poden ser útiles para xerar os plans de contas.\n"
 "     Nese asistente en particular, preguntaráselle para dar o nome da compañía,\n"
 "      o persoal contable a utilizar, o número de díxitos a xerar, o código para a súa contas\n"
 "      bancarias e a moeda para crear diarios.\n"
@@ -8589,8 +8589,8 @@ msgid ""
 msgstr ""
 "\n"
 "Este módulo agrega o código basee requirido para un portal de cliente completamente integrado.\n"
-"Contén a clase de controlador base e os persoais basee. Complementos comerciais\n"
-"agregará os seus persoais e controladores específicos para ampliar o cliente\n"
+"Contén a clase de controlador base e os modelos basee. Complementos comerciais\n"
+"agregará os seus modelos e controladores específicos para ampliar o cliente\n"
 "portal.\n"
 "\n"
 "Este módulo contén a maior parte do código procedente de odoo v10 website_portal. Propósito\n"
@@ -13799,7 +13799,7 @@ msgstr "Construír campañas automatizadas de correo"
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_quotation_builder
 msgid "Build great quotation templates"
-msgstr "Constrúa grandes persoais de orzamentos"
+msgstr "Constrúa grandes modelos de orzamentos"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_board
@@ -16255,7 +16255,7 @@ msgid ""
 "Design great quotation templates with building blocks to significantly boost"
 " your success rate."
 msgstr ""
-"Deseñe unha gran cotización con persoais e bloques de construción, para "
+"Deseñe unha gran cotización con modelos e bloques de construción, para "
 "incrementar significativamente a súa probabilidade de éxito."
 
 #. module: base
@@ -19446,7 +19446,7 @@ msgid ""
 "professional emails and reuse templates."
 msgstr ""
 "Axuda a xestionar os correos masivos para deseñar\n"
-"correos electrónicos profesionais e reusar persoais."
+"correos electrónicos profesionais e reusar modelos."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_human_resources_payroll
@@ -20148,7 +20148,7 @@ msgstr "Importar extracto bancario QIF"
 #: code:addons/base/models/res_partner.py:0
 #, python-format
 msgid "Import Template for Customers"
-msgstr "Importar persoais para clientes"
+msgstr "Importar modelos para clientes"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_view_base_import_language
@@ -22166,7 +22166,7 @@ msgstr ""
 "\n"
 "Xa sexa que os solicitantes se comuniquen con vostede por correo electrónico ou mediante un formulario en liña, vostede obtén todos\n"
 "os datos indexados automaticamente (currículo, carta de motivación) e vostede pode responder\n"
-"cun só clic, reutilizando persoais de respostas.\n"
+"cun só clic, reutilizando modelos de respostas.\n"
 "\n"
 "Personalice o seu proceso de recrutamento\n"
 "----------------------------------\n"
@@ -22181,7 +22181,7 @@ msgstr ""
 "-----------------------------------\n"
 "\n"
 "Siga aos solicitantes no seu proceso de contratación coa vista smart kanban. Aforre\n"
-"tempo ao automatizar algunhas comunicacións con persoais de correo electrónico.\n"
+"tempo ao automatizar algunhas comunicacións con modelos de correo electrónico.\n"
 "\n"
 "Documentos como currículos e cartas de motivación indéxanse automaticamente,\n"
 "o que lle permite atopar facilmente habilidades específicas e crear unha base de datos de perfís..\n"
@@ -24480,7 +24480,7 @@ msgstr ""
 "Publique ofertas de traballo e realice un seguimento de cada solicitude recibida. Siga aos solicitantes\n"
 "no seu proceso de recrutamento coa vista kanban intelixente.\n"
 "\n"
-"Aforre tempo automatizando algunhas comunicacións con persoais de correo electrónico. Os currículos indéxanse\n"
+"Aforre tempo automatizando algunhas comunicacións con modelos de correo electrónico. Os currículos indéxanse\n"
 " automaticamente, o que lle permite atopar facilmente perfís específicos.\n"
 "\n"
 "Rede Social Empresarial\n"
@@ -24786,7 +24786,7 @@ msgstr ""
 "Importe a base de datos de prospectos ou filtre os leads, oportunidades e\n"
 "clientes nuns poucos clics.\n"
 "\n"
-"Defina persoais de correo electrónico para reutilizar o contido ou o deseño específico do seu boletín informativo.\n"
+"Defina modelos de correo electrónico para reutilizar o contido ou o deseño específico do seu boletín informativo.\n"
 "Configure varios servidores de correo electrónico co seu propia IP/dominio para optimizar as taxas de apertura.\n"
 "\n"
 "Organizar campañas de márketing\n"
@@ -24829,7 +24829,7 @@ msgstr ""
 "\n"
 "Seleccione algúns documentos (por exemplo, clientes potenciais, tickets de soporte, provedores,\n"
 "...) e enviar correos electrónicos aos seus contactos nun só clic, reutilizando os correos electrónicos existentes\n"
-"Persoais.\n"
+"modelos.\n"
 "\n"
 "Seguimento das respostas\n"
 "--------------------\n"
@@ -25555,14 +25555,14 @@ msgstr ""
 "e propaga traducións automaticamente a través de diversas páxinas, despois do que edites\n"
 "na páxina principal.\n"
 "\n"
-"Persoais amigables para deseñadores\n"
+"Modelos amigables para deseñadores\n"
 "---------------------------\n"
 "\n"
-"Os persoais son asombrosas e fáciles de deseñar. Non ten que desenvolver para crear\n"
-"novas páxinas, persoais ou bloques de creación. Usamos unha estrutura HTML limpa, con [bootstrap](http://getbootstrap.com/)\n"
+"Os modelos son asombrosos e fáciles de deseñar. Non ten que desenvolver para crear\n"
+"novas páxinas, modelos ou bloques de creación. Usamos unha estrutura HTML limpa, con [bootstrap](http://getbootstrap.com/)\n"
 "CSS.\n"
 "\n"
-"Personaliza todas as páxinas no momento cun editor de persoais integrado. Distribúa\n"
+"Personaliza todas as páxinas no momento cun editor de modelos integrado. Distribúa\n"
 "o teu traballo facilmente como un módulo de Odoo.\n"
 "\n"
 "Deseño de táboa fluído\n"
@@ -25575,7 +25575,7 @@ msgstr ""
 "Con este sistema pode escalar ata 12 columnas para que se vexan no dispositivo ou o tamaño do punto de vista\n"
 "aumenta.\n"
 "\n"
-"Persoais profesionais\n"
+"Modelos profesionais\n"
 "-------------------\n"
 "\n"
 "Deseñe un persoal personalizado ou volva usar un persoal predefinida para personalizar o o deseño e\n"
@@ -30080,7 +30080,7 @@ msgstr "Asinar contrato de empregados"
 #. module: base
 #: model:ir.module.module,summary:base.module_documents_sign
 msgid "Signature templates from Documents"
-msgstr "Persoais de firmas de Documentos"
+msgstr "Modelos de firmas de Documentos"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_auth_signup
@@ -30414,24 +30414,24 @@ msgstr "Patrocinadores, seguimentos, axenda e noticias de eventos"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_documents_spreadsheet_account
 msgid "Spreadsheet Accounting Templates"
-msgstr "Persoais de contabilidade en follas de cálculo"
+msgstr "Modelos de contabilidade en follas de cálculo"
 
 #. module: base
 #: model:ir.module.module,description:base.module_documents_spreadsheet_account
 #: model:ir.module.module,summary:base.module_documents_spreadsheet_account
 msgid "Spreadsheet Accounting templates"
-msgstr "Persoais de contabilidade en follas de cálculo"
+msgstr "Modelos de contabilidade en follas de cálculo"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_documents_spreadsheet_crm
 msgid "Spreadsheet CRM Templates"
-msgstr "Persoais de CRM en Follas de cálculo"
+msgstr "Modelos de CRM en Follas de cálculo"
 
 #. module: base
 #: model:ir.module.module,description:base.module_documents_spreadsheet_crm
 #: model:ir.module.module,summary:base.module_documents_spreadsheet_crm
 msgid "Spreadsheet CRM templates"
-msgstr "Persoais de CRM en follas de cálculo"
+msgstr "Modelos de CRM en follas de cálculo"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_profile__sql
