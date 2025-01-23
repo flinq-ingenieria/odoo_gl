@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 00:47\n"
-"PO-Revision-Date: 2024-11-08 00:47\n"
+"POT-Creation-Date: 2025-01-22 02:14\n"
+"PO-Revision-Date: 2025-01-22 02:14\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -36,7 +36,7 @@ msgstr "Arquivado"
 #. module: partner_stage
 #: model:ir.model.fields,field_description:partner_stage.field_res_partner_stage__code
 msgid "Code"
-msgstr "Codigo"
+msgstr "Código"
 
 #. module: partner_stage
 #: model:ir.model,name:partner_stage.model_res_partner
@@ -46,7 +46,7 @@ msgstr "Contacto"
 #. module: partner_stage
 #: model:ir.model,name:partner_stage.model_res_partner_stage
 msgid "Contact Stage"
-msgstr "Etapa de Contacto"
+msgstr "Etapa de contacto"
 
 #. module: partner_stage
 #: model:ir.ui.menu,name:partner_stage.menu_partner_stage
@@ -101,17 +101,17 @@ msgstr "Inactivo"
 #. module: partner_stage
 #: model:ir.model.fields,field_description:partner_stage.field_res_partner_stage____last_update
 msgid "Last Modified on"
-msgstr "Última Modifiación o"
+msgstr "Última Modificación o"
 
 #. module: partner_stage
 #: model:ir.model.fields,field_description:partner_stage.field_res_partner_stage__write_uid
 msgid "Last Updated by"
-msgstr "Actualizado por Última vez por"
+msgstr "Última actualización por"
 
 #. module: partner_stage
 #: model:ir.model.fields,field_description:partner_stage.field_res_partner_stage__write_date
 msgid "Last Updated on"
-msgstr "Ultima Actualización o"
+msgstr "Última Actualización o"
 
 #. module: partner_stage
 #: model:ir.model.fields,field_description:partner_stage.field_res_partner_stage__name
@@ -122,7 +122,7 @@ msgstr "Nome"
 #: model:ir.model.fields,field_description:partner_stage.field_res_partner__state
 #: model:ir.model.fields,field_description:partner_stage.field_res_partner_stage__state
 msgid "Related State"
-msgstr "Estado Relacionado"
+msgstr "Estado relacionado"
 
 #. module: partner_stage
 #: model:ir.model.fields,field_description:partner_stage.field_res_partner_stage__sequence
@@ -143,6 +143,7 @@ msgid "Stage Code must be unique."
 msgstr "O código de etapa debe ser único."
 
 #. module: partner_stage
+#. odoo-python
 #: code:addons/partner_stage/models/res_partner_stage.py:0
 #, python-format
 msgid "There should be only one default stage"
@@ -151,7 +152,7 @@ msgstr "Só debería haber unha etapa predeterminada"
 #. module: partner_stage
 #: model:ir.model.fields.selection,name:partner_stage.selection__res_partner_stage__state__draft
 msgid "To Approve"
-msgstr "A Aprobar"
+msgstr "Para Aprobar"
 
 #. module: partner_stage
 #: model:ir.model.fields,help:partner_stage.field_res_partner_stage__sequence

@@ -3,15 +3,15 @@
 # 	* pos_restaurant_adyen
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 00:10\n"
-"PO-Revision-Date: 2024-11-08 00:10\n"
+"POT-Creation-Date: 2025-01-21 19:17\n"
+"PO-Revision-Date: 2025-01-21 19:17\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -39,9 +39,14 @@ msgstr "Métodos de pago no punto de venda "
 #. module: pos_restaurant_adyen
 #: model:ir.model,name:pos_restaurant_adyen.model_pos_payment
 msgid "Point of Sale Payments"
-msgstr "Pagos en puntos de venda"
+msgstr "Pagos no punto de venda"
+
+#. module: pos_restaurant_adyen
+#: model:ir.model,name:pos_restaurant_adyen.model_pos_session
+msgid "Point of Sale Session"
+msgstr "Sesión TPV"
 
 #. module: pos_restaurant_adyen
 #: model:ir.model.fields,help:pos_restaurant_adyen.field_pos_payment_method__adyen_merchant_account
 msgid "The POS merchant account code used in Adyen"
-msgstr "A conta de comerciante do PdV que se usa en Adyen"
+msgstr "A conta de comerciante do TPV que se usa en Adyen"

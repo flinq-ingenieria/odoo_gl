@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 17:23\n"
-"PO-Revision-Date: 2024-11-08 17:23\n"
+"POT-Creation-Date: 2025-01-22 07:29\n"
+"PO-Revision-Date: 2025-01-22 07:29\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: hr_personal_equipment_request
@@ -66,6 +67,7 @@ msgid "Adds personal equipment information and allocation"
 msgstr "Agrega información e asignación do equipo individual"
 
 #. module: hr_personal_equipment_request
+#. odoo-python
 #: code:addons/hr_personal_equipment_request/models/hr_personal_equipment_request.py:0
 #: model:ir.actions.act_window,name:hr_personal_equipment_request.hr_personal_equipment_act_window
 #: model:ir.ui.menu,name:hr_personal_equipment_request.hr_personal_equipment_allocations_menu
@@ -161,6 +163,7 @@ msgid "Employee Personal Equipment"
 msgstr "Empregado do equipo individual"
 
 #. module: hr_personal_equipment_request
+#. odoo-python
 #: code:addons/hr_personal_equipment_request/models/hr_employee.py:0
 #: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_employee__equipment_request_ids
 #: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__equipment_request_id
@@ -216,7 +219,7 @@ msgstr "Agrupar por"
 #: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__has_message
 #: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__has_message
 msgid "Has Message"
-msgstr "Ten Mensaxe"
+msgstr "Ten mensaxe"
 
 #. module: hr_personal_equipment_request
 #: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__id
@@ -238,9 +241,7 @@ msgstr "Icona para indicar unha actividade de excepción."
 
 #. module: hr_personal_equipment_request
 #: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment__message_needaction
-#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment__message_unread
 #: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment_request__message_needaction
-#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment_request__message_unread
 msgid "If checked, new messages require your attention."
 msgstr "Se está marcado hai novas mensaxes que requiren a súa atención."
 
@@ -320,7 +321,7 @@ msgstr "Nome"
 #: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__activity_calendar_event_id
 #: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr "Próximo Evento do Calendario de Actividades"
+msgstr "Próximo evento do calendario de actividades"
 
 #. module: hr_personal_equipment_request
 #: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__activity_date_deadline
@@ -355,7 +356,7 @@ msgstr "Numero de erros"
 #. module: hr_personal_equipment_request
 #: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment__message_needaction_counter
 #: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment_request__message_needaction_counter
-msgid "Number of messages which requires an action"
+msgid "Number of messages requiring action"
 msgstr "Número de mensaxes que requiren unha acción"
 
 #. module: hr_personal_equipment_request
@@ -363,12 +364,6 @@ msgstr "Número de mensaxes que requiren unha acción"
 #: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment_request__message_has_error_counter
 msgid "Number of messages with delivery error"
 msgstr "Número de mensaxes con erro de envío"
-
-#. module: hr_personal_equipment_request
-#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment__message_unread_counter
-#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment_request__message_unread_counter
-msgid "Number of unread messages"
-msgstr "Número de mensaxes non leidos"
 
 #. module: hr_personal_equipment_request
 #: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__observations
@@ -387,6 +382,7 @@ msgid "PE Request"
 msgstr "Solicitude de EP"
 
 #. module: hr_personal_equipment_request
+#. odoo-python
 #: code:addons/hr_personal_equipment_request/models/hr_employee.py:0
 #: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_employee__personal_equipment_ids
 #: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__line_ids
@@ -408,21 +404,18 @@ msgid "Personal Equipment Request"
 msgstr "Solicitude de Equipo individual"
 
 #. module: hr_personal_equipment_request
+#. odoo-python
 #: code:addons/hr_personal_equipment_request/models/hr_personal_equipment_request.py:0
 #, python-format
 msgid "Personal Equipment Request by %s"
 msgstr "Equipo individual solicitado por %s"
 
 #. module: hr_personal_equipment_request
+#: model:ir.model,name:hr_personal_equipment_request.model_product_template
 #: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__product_id
 #: model_terms:ir.ui.view,arch_db:hr_personal_equipment_request.hr_personal_equipment_search_view
 msgid "Product"
 msgstr "Produto"
-
-#. module: hr_personal_equipment_request
-#: model:ir.model,name:hr_personal_equipment_request.model_product_template
-msgid "Product Template"
-msgstr "Modelo de produto"
 
 #. module: hr_personal_equipment_request
 #: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__quantity
@@ -478,18 +471,6 @@ msgid "Unit of Measure"
 msgstr "Unidade de medida"
 
 #. module: hr_personal_equipment_request
-#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__message_unread
-#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__message_unread
-msgid "Unread Messages"
-msgstr "Mensaxes sen ler"
-
-#. module: hr_personal_equipment_request
-#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__message_unread_counter
-#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr "Nº de mensaxes sen ler"
-
-#. module: hr_personal_equipment_request
 #: model:ir.model.fields.selection,name:hr_personal_equipment_request.selection__hr_personal_equipment__state__valid
 #: model_terms:ir.ui.view,arch_db:hr_personal_equipment_request.hr_personal_equipment_search_view
 msgid "Valid"
@@ -515,6 +496,21 @@ msgstr "Historial de comunicacións do sitio web"
 
 #~ msgid "SMS Delivery error"
 #~ msgstr "Erro de envío do SMS"
+
+#~ msgid "Number of messages which requires an action"
+#~ msgstr "Número de mensaxes que requiren unha acción"
+
+#~ msgid "Number of unread messages"
+#~ msgstr "Número de mensaxes non leidos"
+
+#~ msgid "Product Template"
+#~ msgstr "Modelo de produto"
+
+#~ msgid "Unread Messages"
+#~ msgstr "Mensaxes sen ler"
+
+#~ msgid "Unread Messages Counter"
+#~ msgstr "Nº de mensaxes sen ler"
 
 #~ msgid "Employee Personal Equipments"
 #~ msgstr "Empregado dos equipos individuais"

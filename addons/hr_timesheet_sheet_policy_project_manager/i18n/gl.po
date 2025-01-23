@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 04:24\n"
-"PO-Revision-Date: 2024-11-08 04:24\n"
+"POT-Creation-Date: 2025-01-22 21:37\n"
+"PO-Revision-Date: 2025-01-22 21:37\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -38,6 +38,7 @@ msgid "How Timesheet Sheets review is performed."
 msgstr "Como ser realiza a revisión de Partes de horas."
 
 #. module: hr_timesheet_sheet_policy_project_manager
+#. odoo-python
 #: code:addons/hr_timesheet_sheet_policy_project_manager/models/hr_timesheet_sheet.py:0
 #, python-format
 msgid "Only a Project Manager can review the sheet."
@@ -50,6 +51,7 @@ msgid "Project"
 msgstr "Proxecto"
 
 #. module: hr_timesheet_sheet_policy_project_manager
+#. odoo-python
 #: code:addons/hr_timesheet_sheet_policy_project_manager/models/hr_timesheet_sheet.py:0
 #, python-format
 msgid "Review policy \"By Project Manager\" requires Project to be set"
@@ -58,6 +60,7 @@ msgstr ""
 "proxecto"
 
 #. module: hr_timesheet_sheet_policy_project_manager
+#. odoo-python
 #: code:addons/hr_timesheet_sheet_policy_project_manager/models/hr_timesheet_sheet.py:0
 #, python-format
 msgid ""

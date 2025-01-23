@@ -3,19 +3,22 @@
 # 	* website_blog
 #
 # Translators:
-# Martin Trigaux, 2021
-# Sergio Pinilla Ávila <serjudo@gmail.com>, 2021
-# Jonatan Gk, 2022
-# marcescu, 2022
+# Josep Anton Belchi, 2022
+# Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2022
+# Luis M. Ontalba <luis.martinez@tecnativa.com>, 2022
+# Martin Trigaux, 2022
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2022
+# Ana Sanjuán, 2023
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2023
+# Wil Odoo, 2024
 # Larissa Manderfeld, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 04:15\n"
-"PO-Revision-Date: 2024-11-08 04:15\n"
+"POT-Creation-Date: 2025-01-22 20:47\n"
+"PO-Revision-Date: 2025-01-22 20:47\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -26,11 +29,7 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: website_blog
-#: model_terms:ir.ui.view,arch_db:website_blog.date_selector
-msgid "#{year}"
-msgstr "#{year}"
-
-#. module: website_blog
+#. odoo-python
 #: code:addons/website_blog/models/website_blog.py:0
 #, python-format
 msgid "%s (copy)"
@@ -49,12 +48,12 @@ msgstr "&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;"
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_post_short
 msgid "' page header."
-msgstr "' encabezado de páxina."
+msgstr "\"."
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_post_short
 msgid "'. Showing results for '"
-msgstr "Mostrando resultados para"
+msgstr "\". Mostrando resultados para \""
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.date_selector
@@ -70,18 +69,10 @@ msgid ""
 "they are more lightweight to carry to the country and use while you are "
 "there than a cumbersome telescope set up kit."
 msgstr ""
-"<b>Os binoculares son liviáns e portátiles.</b> A menos que teña o luxo de "
-"instalar e operar un observatorio desde a súa plataforma, probablemente "
-"viaxará para realizar as súas visitas. Os binoculares acompáñanche moito "
-"máis facilmente e son máis liviáns de levar ao campo e usar mentres estás "
-"alí que un equipo de montaxe de telescopio engorroso."
-
-#. module: website_blog
-#. openerp-web
-#: code:addons/website_blog/static/src/js/tours/website_blog.js:0
-#, python-format
-msgid "<b>Click on Save</b> to record your changes."
-msgstr "<b>Clic en Gardar </b> para gardar os cambios."
+"<b>Os prismáticos son lixeiros e portátiles.</b> A menos que teña o luxo de "
+"instalar e dirixir un observatorio desde o patio da súa casa, o máis "
+"probable é que viaxe para realizar as súas observacións. Os prismáticos son "
+"moito máis fáciles de levar e de transportar que un voluminoso telescopio."
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_6
@@ -93,37 +84,26 @@ msgid ""
 " what works and what to avoid that is more valid than anything you will get "
 "from a web article or a salesperson at Wal-Mart."
 msgstr ""
-"<b>Elixa os cerebros dos expertos</b> . Se aínda non está activo nunha "
-"sociedade ou club de astronomía, os comerciais da tenda de telescopios "
+"<b>Elixa os cerebros dos expertos</b>. Se aínda non está activo nunha "
+"sociedade ou club de astronomía, os vendedores da tenda de telescopios "
 "poderán guialo ás sociedades activas na súa área. Unha vez que teña "
 "conexións con persoas que compraron telescopios, pode obter consellos sobre "
 "que funciona e que evitar que sexa máis válido que calquera cousa que obteña"
-" dun artigo web ou dun comercial de Wal-Mart."
+" dun artigo web ou dun vendedor de Wal-Mart."
 
 #. module: website_blog
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_blog/static/src/js/tours/website_blog.js:0
 #, python-format
 msgid "<b>Publish your blog post</b> to make it visible to your visitors."
 msgstr ""
-"<b>Publique os seus post no blog</b> para facelo visible aos seus "
-"visitantes."
+"<b>Comparta a publicación no seu blog</b> para que os seus visitantes poidan"
+" vela."
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_comment
 msgid "<b>Sign in</b>"
-msgstr "<b>Identificarse</b>"
-
-#. module: website_blog
-#. openerp-web
-#: code:addons/website_blog/static/src/js/tours/website_blog.js:0
-#, python-format
-msgid ""
-"<b>That's it, your blog post is published!</b> Discover more features "
-"through the <i>Customize</i> menu."
-msgstr ""
-"<b>Iso é todo, o seu post foi publicado no blog!</b>Descubra máis funcións a"
-" través do menú <i> Personalizar </i>."
+msgstr "<b>Iniciar sesión</b>"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_6
@@ -141,7 +121,7 @@ msgstr ""
 "antes de investir diñeiro na súa propia configuración."
 
 #. module: website_blog
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_blog/static/src/js/tours/website_blog.js:0
 #, python-format
 msgid ""
@@ -151,7 +131,7 @@ msgid ""
 msgstr ""
 "<b>Escriba a súa historia aquí.</b> Use a barra de ferramentas para deseñar "
 "o seu texto (engadir unha imaxe ou táboa, utilizar negrita ou cursiva etc.)/"
-" etc.). Arrastre e solte compoñentes para facer máis vistosos e gráficos os "
+" etc.). Arrastre e solte compoñentes para facer máis vistosos e gráficas os "
 "blogs."
 
 #. module: website_blog
@@ -177,8 +157,7 @@ msgstr ""
 msgid ""
 "<em class=\"h4 my-0\">That “Wow” moment is what astrology is all about.</em>"
 msgstr ""
-"<em class=\"h4 my-0\">Ese momento \"Wow\" é do que se trata a "
-"astrología.</em>"
+"<em class=\"h4 my-0\">Ese momento 'Wow' é do que se trata a astrología.</em>"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_3
@@ -219,15 +198,22 @@ msgstr ""
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_post_view_kanban
-msgid "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Post date\" title=\"Post date\"/>"
+msgid ""
+"<i class=\"fa fa-clock-o me-1\" role=\"img\" aria-label=\"Post date\" "
+"title=\"Post date\"/>"
 msgstr ""
-"<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Post date\" "
+"<i class=\"fa fa-clock-o me-1\" role=\"img\" aria-label=\"Post date\" "
 "title=\"Post date\"/>"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_follow_us
 msgid "<i class=\"fa fa-github text-github\" aria-label=\"Github\" title=\"Github\"/>"
 msgstr "<i class=\"fa fa-github text-github\" aria-label=\"Github\" title=\"Github\"/>"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_view_kanban
+msgid "<i class=\"fa fa-globe me-1\" title=\"Website\"/>"
+msgstr "<i class=\"fa fa-globe me-1\" title=\"Website\"/>"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_follow_us
@@ -273,37 +259,37 @@ msgstr ""
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_read_next
 msgid ""
-"<span class=\"bg-o-color-3 h6 d-inline-block py-1 px-2 rounded-sm\">Read "
+"<span class=\"bg-o-color-3 h6 d-inline-block py-1 px-2 rounded-1\">Read "
 "Next</span>"
 msgstr ""
-"<span class=\"bg-o-color-3 h6 d-inline-block py-1 px-2 rounded-sm\">Ler "
+"<span class=\"bg-o-color-3 h6 d-inline-block py-1 px-2 rounded-1\">Ler "
 "seguinte</span>"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_read_next
 msgid ""
-"<span class=\"h4 d-inline-block py-1 px-2 rounded-sm text-white\">\n"
+"<span class=\"h4 d-inline-block py-1 px-2 rounded-1 text-white\">\n"
 "                                    <i class=\"fa fa-angle-right fa-3x text-white\" aria-label=\"Read next\" title=\"Read Next\"/>\n"
 "                                </span>"
 msgstr ""
-"<span class=\"h4 d-inline-block py-1 px-2 rounded-sm text-white\">\n"
+"<span class=\"h4 d-inline-block py-1 px-2 rounded-1 text-white\">\n"
 "                                    <i class=\"fa fa-angle-right fa-3x text-white\" aria-label=\"Read next\" title=\"Read Next\"/>\n"
 "                                </span>"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
-msgid "<span class=\"mr-1\">Show:</span>"
-msgstr "<span class=\"mr-1\">Mostrar:</span>"
+msgid "<span class=\"me-1\">Show:</span>"
+msgstr "<span class=\"me-1\">Mostrar:</span>"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blogs_nav
-msgid "<span class=\"nav-link disabled pl-0\">Blogs:</span>"
-msgstr "<span class=\"nav-link disabled pl-0\">Blogs:</span>"
+msgid "<span class=\"nav-link disabled ps-0\">Blogs:</span>"
+msgstr "<span class=\"nav-link disabled ps-0\">Blogs:</span>"
 
 #. module: website_blog
 #: model:blog.post,subtitle:website_blog.blog_post_2
 msgid "A great way to discover hidden places"
-msgstr "Unha excelente maneira de descubrir lugares escondidos."
+msgstr "Unha excelente maneira de descubrir lugares escondidos"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_1
@@ -317,7 +303,7 @@ msgstr ""
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_post_template_new_post
 msgid "A new post"
-msgstr "Unha nova entrada"
+msgstr "Unha nova publicación"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_1
@@ -341,7 +327,7 @@ msgstr ""
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.sidebar_blog_index
 msgid "About us"
-msgstr "Acerca de"
+msgstr "Sobre nós"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_6
@@ -376,7 +362,7 @@ msgstr "Activo"
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_tags_display
 msgid "Add some"
-msgstr "Agregar algúns"
+msgstr "Engadir algunhas"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blogs_nav
@@ -394,6 +380,7 @@ msgid "All blogs"
 msgstr "Todos os blogs"
 
 #. module: website_blog
+#. odoo-python
 #: code:addons/website_blog/models/website_snippet_filter.py:0
 #, python-format
 msgid "Alone in the ocean"
@@ -405,7 +392,7 @@ msgid "Along those lines, how difficult is the set up and break down?"
 msgstr "Nese sentido, que tan difícil é a configuración e a desagregación?"
 
 #. module: website_blog
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_blog/static/src/js/website_blog.js:0
 #, python-format
 msgid "Amazing blog article: %s! Check it live: %s"
@@ -426,10 +413,10 @@ msgid ""
 "astronomy and the experience will enrich every aspect of life. It will be an"
 " addiction you never want to break."
 msgstr ""
-"E cando todo estea meu dito meu feito, <b>prepárache</b> . A súa procura de "
+"E cando todo estea meu dito meu feito, <b>prepárese</b>. A súa procura de "
 "telescopios máis novos e mellores será para toda a vida. Déixese volver "
 "adicto á astronomía e a experiencia enriquecerá todos os aspectos da vida. "
-"Será unha adicción que nunca quererás romper."
+"Será unha adicción que nunca quererá romper."
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_1
@@ -439,11 +426,12 @@ msgid ""
 "livelihood chiefly depends on farming and cattle ranching."
 msgstr ""
 "Outra característica única das Barrancas do Cobre é a presenza da cultura "
-"indíxena Tarahumara. Estas persoas seminómadas viven en vivendas cova. O seu"
-" sustento depende principalmente da agricultura e a gandería."
+"indíxena Tarahumara. Estas persoas semi-nómades viven en vivendas cova. O "
+"seu sustento depende principalmente da agricultura e a gandería."
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_archive_display
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
 msgid "Archive"
 msgstr "Arquivar"
 
@@ -457,13 +445,14 @@ msgstr "Arquivado"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_archives
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
 msgid "Archives"
-msgstr "Arquivados"
+msgstr "Arquivos"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
 msgid "Article"
-msgstr "Articulo"
+msgstr "Artigo"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
@@ -491,7 +480,7 @@ msgstr ""
 #. module: website_blog
 #: model:blog.blog,subtitle:website_blog.blog_blog_2
 msgid "Astronomy is “stargazing\""
-msgstr "A astronomía é \"mirar as estrelas\""
+msgstr "A astronomía é 'mirar as estrelas'"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_post_short
@@ -502,10 +491,11 @@ msgstr "Atom Canal de contidos"
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_attachment_count
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_attachment_count
 msgid "Attachment Count"
-msgstr "Nº de arquivos adxuntos"
+msgstr "Número de arquivos adxuntos"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__author_id
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
 #: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_search
 msgid "Author"
 msgstr "Autor"
@@ -521,6 +511,7 @@ msgid "Avatar"
 msgstr "Avatar"
 
 #. module: website_blog
+#. odoo-python
 #: code:addons/website_blog/models/website_snippet_filter.py:0
 #, python-format
 msgid "Awesome hotel rooms"
@@ -529,7 +520,7 @@ msgstr "Xeniais habitacións de hotel"
 #. module: website_blog
 #: model:blog.post,subtitle:website_blog.blog_post_4
 msgid "Be aware of this thing called “astronomy”"
-msgstr "Teña en conta o que se chama \"astronomía\""
+msgstr "Teña en conta o que se chama 'astronomía'"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_7
@@ -544,16 +535,16 @@ msgid ""
 msgstr ""
 "Formar parte da sociedade de astrónomos afeccionados devotos daralle acceso "
 "a estes esforzos organizados para alcanzar novos niveis na nosa capacidade "
-"de estudar a lúa da Terra. E brindarache compañeiros e amigos que comparten "
-"a túa paixón pola astronomía e que poden compartir a súa experiencia e áreas"
-" de especialización mentres buscas atopar onde mirar a continuación no "
-"enorme ceo nocturno, na lúa e máis aló na túa procura de coñecemento sobre o"
-" universo aparentemente interminable sobre nós."
+"para estudar a Lúa da Terra. E proporcionaralle compañeiros e amigos que "
+"comparten a súa paixón pola astronomía e que poden compartir a súa "
+"experiencia e áreas de especialización mentres busca onde podería mirar a "
+"continuación no inmenso ceo nocturno, na lúa e máis aló dela na súa procura "
+"de coñecementos sobre o universo aparentemente infinito que hai sobre nós."
 
 #. module: website_blog
 #: model:blog.post,subtitle:website_blog.blog_post_7
 msgid "Becoming part of the society of devoted amateur astronomers."
-msgstr "Formar parte da sociedade de devotos astrónomos afeccionados."
+msgstr "Formar parte dunha sociedade de astrónomos"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_3
@@ -572,17 +563,17 @@ msgid ""
 "that amazing view just presents itself to you."
 msgstr ""
 "Antes de facer ese gran gasto, podería ser un mellor paso a primeira ollada "
-"investir nun bo par de binoculares. Mesmo hai binoculares que son adecuados "
-"para observar as estrelas que farán un traballo igual de ben ao brindarlle "
-"esa visión adicional que desexa para ver un pouco mellor as marabillas do "
-"universo. Un conxunto de binoculares ben deseñado tamén lle brinda moita "
-"máis mobilidade e capacidade para manter a súa \"visión mellorada\" ao "
-"alcance da man cando esa vista incrible preséntaselle."
+"investir nun bo par de prismáticos. Mesmo hai prismáticos que son adecuados "
+"para observar as estrelas que farán un traballo igual de ben ao "
+"proporcionarlle esa visión adicional que desexa para ver un pouco mellor as "
+"marabillas do universo. Un conxunto de prismáticos ben deseñado tamén lle "
+"proporciona moita máis mobilidade e capacidade para manter a súa \"visión "
+"mellorada\" ao alcance da man cando esa vista incrible preséntaselle."
 
 #. module: website_blog
 #: model:blog.post,subtitle:website_blog.blog_post_6
 msgid "Before you make your first purchase…"
-msgstr "Antes de realizar a súa primeira compra ..."
+msgstr "Antes de realizar a súa primeira compra..."
 
 #. module: website_blog
 #: model:blog.post,name:website_blog.blog_post_7
@@ -590,6 +581,7 @@ msgid "Beyond The Eye"
 msgstr "Máis aló do ollo"
 
 #. module: website_blog
+#. odoo-python
 #: code:addons/website_blog/models/website.py:0
 #: model:ir.model,name:website_blog.model_blog_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__blog_id
@@ -608,27 +600,16 @@ msgid "Blog Name"
 msgstr "Nome do blog"
 
 #. module: website_blog
-#: code:addons/website_blog/models/website.py:0
-#: code:addons/website_blog/models/website.py:0
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Blog Page"
+msgstr "Páxina do blog"
+
+#. module: website_blog
 #: model:ir.model,name:website_blog.model_blog_post
 #: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_form
 #: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_search
-#, python-format
 msgid "Blog Post"
-msgstr "Entrada do blog"
-
-#. module: website_blog
-#: code:addons/website_blog/models/website.py:0
-#, python-format
-msgid "Blog Post <b>%s</b> seems to be calling this file !"
-msgstr "A entrada do blog <b>%s</b> parece reclamar este arquivo!"
-
-#. module: website_blog
-#: code:addons/website_blog/models/website.py:0
-#, python-format
-msgid "Blog Post <b>%s</b> seems to have a link to this page !"
-msgstr ""
-"A publicación do blog <b>%s</b> parece estar enlazada con esta páxina!"
+msgstr "Publicación de blog"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_post_complete
@@ -636,23 +617,26 @@ msgid "Blog Post Cover"
 msgstr "Portada de publicación de blog"
 
 #. module: website_blog
+#: model:ir.actions.act_window,name:website_blog.action_blog_post
+msgid "Blog Post Pages"
+msgstr "Páxinas de publicacións de blog"
+
+#. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_post_complete
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_view_form_add
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post_fullwidth_design
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_read_next
 #: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_form
 msgid "Blog Post Title"
-msgstr "Título da entrada do blog"
+msgstr "Título da publicación do blog"
 
 #. module: website_blog
-#: code:addons/website_blog/models/website.py:0
-#: code:addons/website_blog/models/website.py:0
-#: model:ir.actions.act_window,name:website_blog.action_blog_post
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__blog_post_ids
-#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_list
-#, python-format
+#: model:ir.ui.menu,name:website_blog.menu_blog_post_pages
+#: model_terms:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Blog Posts"
-msgstr "Entradas do blog"
+msgstr "Publicacións do blog"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__subtitle
@@ -679,7 +663,7 @@ msgstr "Etiquetas do blog"
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post_fullwidth_design
 msgid "Blog Title"
-msgstr "Titulo de Blog"
+msgstr "Título do blog"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post
@@ -689,12 +673,31 @@ msgstr "Título do blog"
 #. module: website_blog
 #: model:ir.actions.act_window,name:website_blog.action_blog_blog
 #: model:ir.ui.menu,name:website_blog.menu_blog_global
-#: model:ir.ui.menu,name:website_blog.menu_website_blog_root
 #: model:ir.ui.menu,name:website_blog.menu_website_blog_root_global
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_searchbar_input_snippet_options
 #: model_terms:ir.ui.view,arch_db:website_blog.view_blog_blog_list
 msgid "Blogs"
 msgstr "Blogs"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Blogs List"
+msgstr "Lista de blogs"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Blogs Page"
+msgstr "Páxina de blogs"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Bottom"
+msgstr "Abaixo"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Breadcrumb"
+msgstr "Faragullas de pan"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_3
@@ -710,7 +713,7 @@ msgstr ""
 "Pero, como examina as incribles opcións que se ofrecen? E o que é máis "
 "importante, realmente confía nas fotografías e descricións dos hoteis que se"
 " premiaron coa motivación de conseguir reservas? As recensións de viaxeiros "
-"poden ser útiles, pero debes ter coidado. A miúdo son parciais, ás veces "
+"poden ser útiles, pero debe ter coidado. A miúdo son parciais, ás veces "
 "desactualizados e é posible que non sirvan para nada aos seus intereses. "
 "Como sabe que as características que son importantes para o revisor o son "
 "para vostede?"
@@ -736,6 +739,11 @@ msgid "Can Publish"
 msgstr "Pode publicar"
 
 #. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Cards"
+msgstr "Tarxetas"
+
+#. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag__category_id
 msgid "Category"
 msgstr "Categoría"
@@ -746,18 +754,18 @@ msgid "Children’s’ Facilities"
 msgstr "Instalacións para nenos"
 
 #. module: website_blog
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_blog/static/src/js/tours/website_blog.js:0
 #, python-format
 msgid "Choose an image from the library."
-msgstr "Escolla unha imaxe da colección."
+msgstr "Elixa unha imaxe da biblioteca."
 
 #. module: website_blog
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_blog/static/src/js/tours/website_blog.js:0
 #, python-format
 msgid "Click here to add new content to your website."
-msgstr "Faga clic aquí para agregar contido novo ao seu sitio web."
+msgstr "Faga clic aquí para engadir contido novo ao seu sitio web."
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
@@ -765,8 +773,8 @@ msgid ""
 "Click on \"<b>New</b>\" in the top-right corner to write your first blog "
 "post."
 msgstr ""
-"Faga clic en \" <b>Novo</b> \" na esquina superior dereita para escribir a "
-"súa primeira publicación de blog."
+"Faga clic en \"<b>Novo</b>\" na esquina superior dereita para escribir a súa"
+" primeira publicación de blog."
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
@@ -781,8 +789,14 @@ msgstr "Comentario"
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_regular_cover
 #: model_terms:ir.ui.view,arch_db:website_blog.post_info
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
 msgid "Comments"
 msgstr "Comentarios"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Comments/Views Stats"
+msgstr "Estatísticas de comentarios/vistas"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__content
@@ -804,26 +818,27 @@ msgid ""
 "where weather ranges from cold winters to hot summers. The region is unique "
 "because of the various ecosystems that exist within it."
 msgstr ""
-"Copper Canyon é unha das seis gargantas da zona. Aínda que o nome suxire que"
-" o desfiladeiro podería ter algunha relevancia para a minería do cobre, este"
-" non é o caso. O nome derívase do lique de cobre e verde que cobre o canón. "
-"Copper Canyon ten dúas zonas climáticas. A rexión presenta un clima alpino "
-"na parte superior e un clima subtropical nos niveis inferiores. Os invernos "
-"son fríos con frecuentes tormentas de neve nas altitudes máis altas. Os "
-"veráns son secos e calorosos. A cidade capital, Chihuahua, é un deserto de "
-"gran altitude onde o clima varía desde invernos fríos ata veráns calorosos. "
-"A rexión é única polos diversos ecosistemas que existen nela."
+"A Barranca do Cobre é unha das seis barrancas da zona. Aínda que o nome "
+"suxire que barranca podería ter algunha relevancia para a minería do cobre, "
+"este non é o caso. O nome derívase do lique de cobre e verde que cobre o "
+"canón. As Barrancas do Cobre teñen dúas zonas climáticas. A rexión presenta "
+"un clima alpino na parte superior e un clima subtropical nos niveis "
+"inferiores. Os invernos son fríos con frecuentes tormentas de neve nas "
+"altitudes máis altas. Os veráns son secos e calorosos. A cidade capital, "
+"Chihuahua, é un deserto de gran altitude onde o clima varía desde invernos "
+"fríos ata veráns calorosos. A rexión é única polos diversos ecosistemas que "
+"existen nela."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Cover"
+msgstr "Portada"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__cover_properties
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__cover_properties
 msgid "Cover Properties"
 msgstr "Propiedades da portada"
-
-#. module: website_blog
-#: model_terms:ir.actions.act_window,help:website_blog.action_blog_post
-msgid "Create a new blog post"
-msgstr "Crear unha nova publicación de blog"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__create_uid
@@ -844,12 +859,12 @@ msgstr "Creado o"
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_searchbar_input_snippet_options
 msgid "Date (new to old)"
-msgstr "Data (de máis novos a máis antigos)"
+msgstr "Data (de máis recentes a máis antigos)"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_searchbar_input_snippet_options
 msgid "Date (old to new)"
-msgstr "Data (de máis antigos a máis novos)"
+msgstr "Data (de máis antigos a máis recentes)"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_searchbar_input_snippet_options
@@ -859,7 +874,7 @@ msgstr "Descrición"
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.s_dynamic_snippet_options_template
 msgid "Dexter"
-msgstr "Destro"
+msgstr "Dexter"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__display_name
@@ -870,14 +885,14 @@ msgid "Display Name"
 msgstr "Nome mostrado"
 
 #. module: website_blog
-#: model_terms:ir.ui.view,arch_db:website_blog.blog_edit_options
-msgid "Duplicate"
-msgstr "Duplicar"
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Drop Zone for Building Blocks"
+msgstr "Área para soltar os bloques de creación"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_2
 msgid "East Maui"
-msgstr "East Maui"
+msgstr "Este de Maui"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_2
@@ -902,7 +917,7 @@ msgstr "Editar no backend"
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_post_short
 msgid "Edit the '"
-msgstr "Edite o '"
+msgstr "Edite o encabezado da páxina \""
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_post_short
@@ -915,6 +930,20 @@ msgid "Edit the 'Filter Results' page header."
 msgstr "Edite o encabezado da páxina 'Filtrar resultados'."
 
 #. module: website_blog
+#. odoo-javascript
+#: code:addons/website_blog/static/src/js/tours/website_blog.js:0
+#, python-format
+msgid "Edit your title, the subtitle is optional."
+msgstr "Edite o seu título, o subtítulo é opcional."
+
+#. module: website_blog
+#. odoo-javascript
+#: code:addons/website_blog/static/src/js/tours/website_blog.js:0
+#, python-format
+msgid "Enter your post's title"
+msgstr "Escriba o título da súa publicación"
+
+#. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_share_links_display
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_follow_us
 msgid "Facebook"
@@ -923,7 +952,7 @@ msgstr "Facebook"
 #. module: website_blog
 #: model:blog.post,subtitle:website_blog.blog_post_3
 msgid "Facts you should bear in mind."
-msgstr "Feitos que debes ter en conta."
+msgstr "Feitos que debe ter en conta."
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_3
@@ -943,7 +972,12 @@ msgstr ""
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_follow_us
 msgid "Follow Us"
-msgstr "Síguenos"
+msgstr "Síganos"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Follow us"
+msgstr "Síganos"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_follower_ids
@@ -994,14 +1028,19 @@ msgstr ""
 "lugar. Todo o que teñen que saber facer é mirar cara arriba."
 
 #. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Full-Width"
+msgstr "Ancho completo"
+
+#. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_5
 msgid "Get a geek"
-msgstr "Conseguir un geek"
+msgstr "Falar cun experto"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_4
 msgid "Get a telescope"
-msgstr "Consegue un telescopio"
+msgstr "Conseguir un telescopio"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_5
@@ -1012,6 +1051,11 @@ msgstr "Obter algo de historia"
 #: model_terms:blog.post,content:website_blog.blog_post_4
 msgid "Get started"
 msgstr "Empezar"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Grid"
+msgstr "Cuadrícula"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_search
@@ -1033,6 +1077,11 @@ msgstr "Estes son algúns dos datos crave que debe ter en conta:"
 #: model:blog.blog,subtitle:website_blog.blog_blog_1
 msgid "Holiday tips"
 msgstr "Consellos de vacacións"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.s_dynamic_snippet_options_template
+msgid "Hover effect"
+msgstr "Efecto ao pasar o rato"
 
 #. module: website_blog
 #: model:blog.post,name:website_blog.blog_post_4
@@ -1072,11 +1121,9 @@ msgstr "ID"
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_blog__message_needaction
-#: model:ir.model.fields,help:website_blog.field_blog_blog__message_unread
 #: model:ir.model.fields,help:website_blog.field_blog_post__message_needaction
-#: model:ir.model.fields,help:website_blog.field_blog_post__message_unread
 msgid "If checked, new messages require your attention."
-msgstr "Se está marcado hai novas mensaxes que requiren a súa atención."
+msgstr "Se está marcada, hai novas mensaxes que requiren a súa atención."
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_blog__message_has_error
@@ -1084,7 +1131,7 @@ msgstr "Se está marcado hai novas mensaxes que requiren a súa atención."
 #: model:ir.model.fields,help:website_blog.field_blog_post__message_has_error
 #: model:ir.model.fields,help:website_blog.field_blog_post__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Se se atopa marcado, algunhas mensaxes teñen erro de envío."
+msgstr "Se está marcada, algunhas mensaxes teñen erro de envío."
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_3
@@ -1129,6 +1176,11 @@ msgstr ""
 " usalo."
 
 #. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Increase Readability"
+msgstr "Aumentar a lexibilidade"
+
+#. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_is_follower
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_is_follower
 msgid "Is Follower"
@@ -1136,11 +1188,11 @@ msgstr "É un seguidor"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__is_published
-#: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_list
 msgid "Is Published"
 msgstr "Está publicado"
 
 #. module: website_blog
+#. odoo-python
 #: code:addons/website_blog/models/website_snippet_filter.py:0
 #, python-format
 msgid "Islands"
@@ -1191,15 +1243,16 @@ msgid ""
 "exact same sky that our ancestors hundreds and thousands of years ago "
 "enjoyed when they just looked up."
 msgstr ""
-"Realmente é asombroso cando o pensas que con só mirar cara arriba nunha "
-"noite determinada, poderías ver virtualmente centos de miles de estrelas, "
-"sistemas estelares, planetas, lúas, asteroides, cometas e talvez mesmo un "
-"transbordador espacial ocasional podería pasar por aí. . É aínda máis "
-"impresionante cando te dás conta de que o ceo que estás a mirar cara arriba "
+"Realmente é asombroso cando o pensa que con só mirar cara arriba nunha noite"
+" determinada, podería ver virtualmente centos de miles de estrelas, sistemas"
+" estelares, planetas, lúas, asteroides, cometas e talvez mesmo un "
+"transbordador espacial ocasional podería pasar por aí. É aínda máis "
+"impresionante cando lle dá conta de que o ceo que está a mirar cara arriba "
 "é, para todos os efectos, exactamente o mesmo ceo que os nosos antepasados "
 "fai centos e miles de anos gozaron cando só miraron cara arriba."
 
 #. module: website_blog
+#. odoo-python
 #: code:addons/website_blog/models/website_snippet_filter.py:0
 #, python-format
 msgid "Jungle"
@@ -1216,7 +1269,7 @@ msgid "Know when to look"
 msgstr "Saber cando mirar"
 
 #. module: website_blog
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_blog/static/src/js/options.js:0
 #, python-format
 msgid "Large"
@@ -1258,10 +1311,14 @@ msgid "Latest"
 msgstr "Último"
 
 #. module: website_blog
-#: model:ir.filters,name:website_blog.dynamic_snippet_latest_blog_post_filter
 #: model:website.snippet.filter,name:website_blog.dynamic_filter_latest_blog_posts
 msgid "Latest Blog Posts"
 msgstr "Últimas publicacións no blog"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Layout"
+msgstr "Deseño"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_5
@@ -1285,6 +1342,11 @@ msgstr "Instalacións de lecer"
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_share_links_display
 msgid "LinkedIn"
 msgstr "LinkedIn"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "List"
+msgstr "Lista"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_3
@@ -1319,7 +1381,7 @@ msgstr "Marley"
 #. module: website_blog
 #: model:blog.post,name:website_blog.blog_post_2
 msgid "Maui helicopter tours"
-msgstr "Paseos en helicóptero por Maui"
+msgstr "Percorridos en helicóptero por Maui"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_2
@@ -1344,8 +1406,8 @@ msgid ""
 "again as you reminisce throughout the years."
 msgstr ""
 "Os percorridos en helicóptero por Maui son unha excelente maneira de "
-"percorrer aqueles lugares aos que non se pode chegar a pé ou en automóbil. "
-"Os percorridos duran aproximadamente unha hora e van desde aproximadamente "
+"percorrer aqueles lugares aos que non se pode chegar a pé ou en coche. Os "
+"percorridos duran aproximadamente unha hora e van desde aproximadamente "
 "cento oito cinco dólares ata douscentos corenta dólares por persoa. Para "
 "moitos, esta é unha oportunidade única na vida de ver paisaxes naturais que "
 "non estarán dispoñibles novamente. Tomar cámaras e vídeos para capturar os "
@@ -1367,17 +1429,17 @@ msgstr ""
 "durante as súas vacacións."
 
 #. module: website_blog
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_blog/static/src/js/options.js:0
 #, python-format
 msgid "Medium"
-msgstr "Media"
+msgstr "Medio"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_has_error
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_has_error
 msgid "Message Delivery error"
-msgstr "Erro de Envío de Mensaxe"
+msgstr "Erro de envío de mensaxe"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_ids
@@ -1393,12 +1455,12 @@ msgstr "Metadescripción"
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_form
 msgid "Meta Keywords"
-msgstr "Palabras chave"
+msgstr "Palabras chave meta"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_form
 msgid "Meta Title"
-msgstr "Meta-título"
+msgstr "Título meta"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_2
@@ -1432,7 +1494,6 @@ msgstr ""
 " apto para nenos sería algo máis apropiado!"
 
 #. module: website_blog
-#: model:ir.filters,name:website_blog.dynamic_snippet_most_viewed_blog_post_filter
 #: model:website.snippet.filter,name:website_blog.dynamic_filter_most_viewed_blog_posts
 msgid "Most Viewed Blog Posts"
 msgstr "Publicacións do blog máis vistas"
@@ -1444,16 +1505,29 @@ msgid "Name"
 msgstr "Nome"
 
 #. module: website_blog
-#. openerp-web
-#: code:addons/website_blog/static/src/js/website_blog.editor.js:0
-#, python-format
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Name / Latest Post"
+msgstr "Nomee / Última publicación"
+
+#. module: website_blog
+#: model:ir.actions.act_window,name:website_blog.blog_post_action_add
 msgid "New Blog Post"
-msgstr "Nova entrada do blog"
+msgstr "Nova publicación no blog"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Next Article"
+msgstr "Seguinte artigo"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "No Cover"
+msgstr "Sen portada"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
 msgid "No blog post yet."
-msgstr "Sen entradas aínda."
+msgstr "Aínda non hai publicacións no blog."
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__visits
@@ -1463,12 +1537,12 @@ msgstr "Nº de visitas"
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
 msgid "No results for \"%s\"."
-msgstr "Non hai resultados para \"%s\"."
+msgstr "Sen resultados para \"%s\"."
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_post_short
 msgid "No results found for '"
-msgstr "Non se atoparon resultados para '"
+msgstr "Non se atoparon resultados para \""
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_tags
@@ -1497,6 +1571,11 @@ msgstr ""
 "máis aló do ollo humano."
 
 #. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_view_kanban
+msgid "Not Published"
+msgstr "Non publicado"
+
+#. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_5
 msgid ""
 "Not only knowing the weather will make sure your star gazing is rewarding "
@@ -1518,12 +1597,12 @@ msgstr "Número de accións"
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_has_error_counter
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_has_error_counter
 msgid "Number of errors"
-msgstr "Numero de erros"
+msgstr "Número de erros"
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_blog__message_needaction_counter
 #: model:ir.model.fields,help:website_blog.field_blog_post__message_needaction_counter
-msgid "Number of messages which requires an action"
+msgid "Number of messages requiring action"
 msgstr "Número de mensaxes que requiren unha acción"
 
 #. module: website_blog
@@ -1531,12 +1610,6 @@ msgstr "Número de mensaxes que requiren unha acción"
 #: model:ir.model.fields,help:website_blog.field_blog_post__message_has_error_counter
 msgid "Number of messages with delivery error"
 msgstr "Número de mensaxes con erro de envío"
-
-#. module: website_blog
-#: model:ir.model.fields,help:website_blog.field_blog_blog__message_unread_counter
-#: model:ir.model.fields,help:website_blog.field_blog_post__message_unread_counter
-msgid "Number of unread messages"
-msgstr "Número de mensaxes non leidos"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_7
@@ -1556,11 +1629,26 @@ msgstr ""
 "que podemos ver en leste o noso obxecto espacial máis próximo."
 
 #. module: website_blog
-#. openerp-web
+#. odoo-python
+#: code:addons/website_blog/models/ir_qweb_fields.py:0
+#, python-format
+msgid ""
+"On your default language, empty the blog post description and save to get an"
+" automated (translated) summary."
+msgstr ""
+"No seu idioma por defecto, baleire a descrición da publicación do blog e "
+"gárdea para obter un resumo automatizado (traducido)."
+
+#. module: website_blog
+#. odoo-javascript
 #: code:addons/website_blog/static/src/js/tours/website_blog.js:0
 #, python-format
-msgid "Once you have reviewed the content on mobile, close the preview."
-msgstr "Unha vez revisase os contidos no móbil, peche a vista previa."
+msgid ""
+"Once you have reviewed the content on mobile, you can switch back to the "
+"normal view by clicking here again"
+msgstr ""
+"Unha vez que revisase o contido no móbil, pode volver á vista normal "
+"pulsando aquí de novo"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_sidebar_blog_index_tags
@@ -1631,7 +1719,12 @@ msgstr "Foto de Teddy Kelley, @teddykelley"
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__blog_post_count
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag__post_ids
 msgid "Posts"
-msgstr "Posts"
+msgstr "Publicacións"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Posts List"
+msgstr "Lista de publicacións"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_searchbar_input_snippet_options
@@ -1639,9 +1732,14 @@ msgid "Publication Date"
 msgstr "Data de publicación"
 
 #. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_view_kanban
+msgid "Published"
+msgstr "Publicado"
+
+#. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
 msgid "Published ("
-msgstr "Está publicado"
+msgstr "Publicado ("
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__published_date
@@ -1652,7 +1750,7 @@ msgstr "Data publicada"
 #: model:mail.message.subtype,description:website_blog.mt_blog_blog_published
 #: model:mail.message.subtype,name:website_blog.mt_blog_blog_published
 msgid "Published Post"
-msgstr "Entrada publicada"
+msgstr "Publicación publicada"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_form
@@ -1665,14 +1763,19 @@ msgid "Publishing date"
 msgstr "Data de publicación"
 
 #. module: website_blog
+#: model:ir.model,name:website_blog.model_ir_qweb_field
+msgid "Qweb Field"
+msgstr "Campo Qweb"
+
+#. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post
 msgid "Read more"
 msgstr "Ler máis"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
-msgid "Read more <i class=\"fa fa-chevron-right ml-2\"/>"
-msgstr "Le mais"
+msgid "Read more <i class=\"fa fa-chevron-right ms-2\"/>"
+msgstr "Ler máis <i class=\"fa fa-chevron-right ms-2\"/>"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_3
@@ -1683,7 +1786,7 @@ msgstr "Restaurantes, cafés e bares"
 #: model:ir.model.fields,help:website_blog.field_blog_blog__website_id
 #: model:ir.model.fields,help:website_blog.field_blog_post__website_id
 msgid "Restrict publishing to this website."
-msgstr "Restrinxir publicar a este sitio web."
+msgstr "Restrinxa a publicación neste sitio web."
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_form
@@ -1701,7 +1804,7 @@ msgstr "Optimizado para SÉ"
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_has_sms_error
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr "Erro de entrega do SMS"
+msgstr "Erro de envío do SMS"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.dynamic_filter_template_blog_post_big_picture
@@ -1712,51 +1815,62 @@ msgid "Sample"
 msgstr "Mostra"
 
 #. module: website_blog
+#. odoo-python
 #: code:addons/website_blog/models/website_snippet_filter.py:0
 #, python-format
 msgid "Satellites"
 msgstr "Satélites"
 
 #. module: website_blog
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_blog/static/src/js/tours/website_blog.js:0
 #, python-format
 msgid "Search for an image. (eg: type \"business\")"
-msgstr "Busca unha imaxe. (p. ex., escriba \"empresa\")"
+msgstr "Busque unha imaxe. (p. ex. escriba \"empresa\")"
 
 #. module: website_blog
+#. odoo-python
 #: code:addons/website_blog/models/website_snippet_filter.py:0
 #, python-format
 msgid "Seaside vs mountain side"
 msgstr "Mar contra montaña"
 
 #. module: website_blog
+#. odoo-python
 #: code:addons/website_blog/models/website_snippet_filter.py:0
 #, python-format
 msgid "Seeing the world from above"
 msgstr "Ver o mundo desde arriba"
 
 #. module: website_blog
-#. openerp-web
-#: code:addons/website_blog/static/src/js/website_blog.editor.js:0
-#, python-format
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_view_form_add
 msgid "Select Blog"
 msgstr "Seleccionar blog"
 
 #. module: website_blog
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_blog/static/src/js/tours/website_blog.js:0
 #, python-format
 msgid "Select the blog you want to add the post to."
-msgstr "Seleccione o blog ao que desexa agregar a publicación."
+msgstr "Seleccione o blog ao que desexa engadir a publicación."
 
 #. module: website_blog
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_blog/static/src/js/tours/website_blog.js:0
 #, python-format
 msgid "Select this menu item to create a new blog post."
 msgstr ""
-"Seleccione este elemento de menú para crear unha nova entrada do blog."
+"Seleccione este elemento de menú para crear unha nova publicación no blog."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Select to Comment"
+msgstr "Seleccionar para comentar"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Select to Tweet"
+msgstr "Seleccionar para tweet"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__seo_name
@@ -1771,11 +1885,11 @@ msgid "Separate every keyword with a comma"
 msgstr "Separe cada palabra chave cunha coma."
 
 #. module: website_blog
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_blog/static/src/js/tours/website_blog.js:0
 #, python-format
 msgid "Set a blog post <b>cover</b>."
-msgstr "Poña unha <b>portada</b> á súa entrada de blog."
+msgstr "Estableza a <b>portada</b> dunha publicación do blog."
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_1
@@ -1784,9 +1898,14 @@ msgid ""
 "their home. The exquisite fauna in this near-pristine land is also worth "
 "checking out."
 msgstr ""
-"Varias aves migratorias e nativas, mamíferos e réptiles chaman ás Barrancas "
-"do Cobre o seu fogar. Tamén vale a pena botarlle unha ollada á exquisita "
-"fauna desta terra case virxe."
+"Varios paxaros migratorios e nativos, mamíferos e réptiles chaman ás "
+"Barrancas do Cobre o seu fogar. Tamén vale a pena botarlle unha ollada á "
+"exquisita fauna desta terra case virxe."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Share Links"
+msgstr "Compartir ligazóns"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_share_links_display
@@ -1806,7 +1925,12 @@ msgstr "Compartir en Twitter"
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_share_links_display
 msgid "Share this post"
-msgstr "Compartir"
+msgstr "Compartir esta publicación"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Sidebar"
+msgstr "Barra lateral"
 
 #. module: website_blog
 #: model:blog.post,name:website_blog.blog_post_1
@@ -1830,6 +1954,7 @@ msgid "Silly-Chico"
 msgstr "Mozo parvo"
 
 #. module: website_blog
+#. odoo-python
 #: code:addons/website_blog/models/website_snippet_filter.py:0
 #, python-format
 msgid "Skies"
@@ -1861,13 +1986,12 @@ msgid ""
 "remember that exact moment when you could say little else but “wow” at what "
 "you saw."
 msgstr ""
-"Por tanto, pode ser que unha vez ao ano, de vacacións a un lugar para "
-"acampar ou unha viaxe á casa dun familiar no campo, atopémonos fóra cando o "
-"gastador do ceo nocturno de súpeto decida montar o seu espectáculo "
-"espectacular. Se tiveches ese tipo de momento no que literalmente quedaches "
-"sen alento polo gastador que o ceo nocturno pódenos mostrar, probablemente "
-"poidas lembrar ese momento exacto no que non puideches dicir máis nada que "
-"\"wow\" polo que viches."
+"Pode ser que durante unhas vacacións nun campamento ou na casa dun parente "
+"no campo, atopémonos no exterior e o ceo nocturno decida ofrecer un "
+"espectáculo. Se tivo ese tipo de momento no que se quedou literalmente sen "
+"alento polo espectáculo que o ceo nocturno pode mostrarnos, quizá poida "
+"lembrar ese momento exacto no que non puido dicir máis nada que \"wow\" ante"
+" o que viu."
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_6
@@ -1884,7 +2008,7 @@ msgstr ""
 "e debilidades non só das lentes e o deseño do telescopio, senón tamén de "
 "como funciona o telescopio en diversas situacións de observación de "
 "estrelas, é mellor facer algúns deberes por adiantado e expoñerse aos "
-"diferentes tipos. Entón, antes de realizar a súa primeira compra ..."
+"diferentes tipos. Entón, antes de realizar a súa primeira compra..."
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_3
@@ -1892,8 +2016,8 @@ msgid ""
 "So you’re going abroad, you’ve chosen your destination and now you have to "
 "choose a hotel."
 msgstr ""
-"Así que te vas ao estranxeiro, elixiches o teu destino e agora tes que "
-"elixir un hotel."
+"Así que se vai ao estranxeiro, elixiu o seu destino e agora ten que elixir "
+"un hotel."
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_1
@@ -1903,18 +2027,18 @@ msgstr ""
 #: model_terms:blog.post,content:website_blog.blog_post_6
 #: model_terms:blog.post,content:website_blog.blog_post_7
 msgid "Someone famous in <cite title=\"Source Title\">Source Title</cite>"
-msgstr "Alguén famoso no <cite title=\"Source Title\">título fonte</cite>"
+msgstr "Alguén famoso no <cite title=\"título fuente\">título fonte</cite>"
 
 #. module: website_blog
+#. odoo-python
 #: code:addons/website_blog/models/website_snippet_filter.py:0
 #, python-format
 msgid "Spotting the fauna"
 msgstr "Observar a fauna"
 
 #. module: website_blog
-#. openerp-web
+#. odoo-python
 #: code:addons/website_blog/models/website_blog.py:0
-#: code:addons/website_blog/static/src/js/tours/website_blog.js:0
 #, python-format
 msgid "Start writing here..."
 msgstr "Empezo a escribir aquí..."
@@ -1985,6 +2109,12 @@ msgid "Tags"
 msgstr "Etiquetas"
 
 #. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Tags List"
+msgstr "Lista de etiquetas"
+
+#. module: website_blog
+#. odoo-python
 #: code:addons/website_blog/models/website_snippet_filter.py:0
 #, python-format
 msgid "Taking pictures in the dark"
@@ -1994,6 +2124,11 @@ msgstr "Tomar fotografías na escuridade"
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__teaser
 msgid "Teaser"
 msgstr "Avance"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Teaser & Tags"
+msgstr "Avance e etiquetas"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__teaser_manual
@@ -2009,7 +2144,7 @@ msgid ""
 "Internet, by using travel websites."
 msgstr ""
 "Fai dez anos, probablemente visitaría ao seu axente de viaxes local e "
-"confiaría nos consellos en persoa que lle deron os chamados \"expertos\". A "
+"confiaría nos consellos en persoa que lle deron os chamados 'expertos'. A "
 "forma do século XXI de seleccionar e reservar o seu hotel é, por suposto, a "
 "través de Internet, mediante o uso de sitios web de viaxes."
 
@@ -2025,8 +2160,8 @@ msgid ""
 "begin looking for ways to look deeper and learn more about the spectacular "
 "universe we see in the millions of stars above us each night."
 msgstr ""
-"Ese momento \"Wow\" é do que se trata a astrología. Para algúns, ese momento"
-" asombroso convértese nunha paixón que os leva a unha carreira estudando as "
+"Ese momento 'Wow' é do que se trata a astrología. Para algúns, ese momento "
+"asombroso convértese nunha paixón que os leva a unha carreira estudando as "
 "estrelas. Para uns poucos afortunados, ese momento asombroso débese a unha "
 "obsesión que os leva a viaxar ás estrelas no transbordador espacial ou nunha"
 " das nosas primeiras misións espaciais. Pero para a maioría de nós, a "
@@ -2056,9 +2191,9 @@ msgstr ""
 "nubes e o clima é propicio para un estudo longo e duradeiro. O primeiro "
 "trimestre lanza o maior detalle de estudo. E non te deixes enganar polo "
 "borrado de parte da lúa cando non está na etapa de lúa chea. O fenómeno "
-"coñecido como \"luz da terra\" dálle a capacidade de ver a parte escurecida "
-"da lúa con algúns detalles tamén, mesmo se a lúa está só nun cuarto ou medio"
-" punto."
+"coñecido como 'luz da terra' dálle a capacidade de ver a parte escurecida da"
+" lúa con algúns detalles tamén, mesmo se a lúa está só nun cuarto ou medio "
+"punto."
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_7
@@ -2082,10 +2217,10 @@ msgid ""
 "from Maui with Maui helicopter tours is well worth seeing the beauty of this"
 " natural environment."
 msgstr ""
-"Os cantís desta rexión atópanse entre os máis altos do mundo e ver a auga en"
-" fervenza desde os picos altos é simplemente impresionante. A curta "
-"excursión desde Maui con percorridos en helicóptero por Maui ben vale a pena"
-" ver a beleza desta contorna natural."
+"Os cantís desta rexión son algúns dos máis altos do mundo e contemplar a "
+"auga caer en fervenza desde os altos picos é sinxelamente impresionante. A "
+"curta viaxe desde Maui coas excursións en helicóptero de Maui merece a pena "
+"para contemplar a beleza desta contorna natural."
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_post__website_url
@@ -2102,12 +2237,12 @@ msgid ""
 "of your hobby. But how to buy a good telescope can be downright confusing "
 "and intimidating."
 msgstr ""
-"O seguinte que naturalmente queremos conseguir é un bo telescopio. É posible"
-" que vise a un afeccionado que avanzou moito no seu estudo colocando eses "
-"telescopios de aspecto realmente xenial nun outeiro nalgún lugar. Iso "
-"entusiasma ao astrónomo afeccionado que hai en ti porque debe ser o seguinte"
-" paso lóxico no crecemento do teu pasatempo. Pero como comprar un bo "
-"telescopio pode ser francamente confuso e intimidante."
+"O seguinte que queremos conseguir, por suposto, é un bo telescopio. É "
+"posible que vise a algún afeccionado moi avanzado nos seus estudos "
+"instalando estes telescopios de aspecto realmente xenial nalgún outeiro. Iso"
+" excita ao astrónomo afeccionado que hai en vostede, porque ese debe ser o "
+"seguinte paso lóxico no crecemento da súa afección. Pero comprar un bo "
+"telescopio pode resultar moi confuso e intimidante."
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_3
@@ -2136,7 +2271,7 @@ msgid ""
 msgstr ""
 "As decisións sobre o trípode ou outros accesorios cambiarán "
 "significativamente cun telescopio que vivirá na súa plataforma en "
-"comparación cun que planea levar a moitas localizacións remotas."
+"comparación cun que planifica levar a moitas localizacións remotas."
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_2
@@ -2172,16 +2307,16 @@ msgid ""
 "that gives up-to-date, independent, impartial information that really "
 "matters."
 msgstr ""
-"Logo está o problema da motivación do revisor. Cantas máis recensións lea, "
-"máis notará como tenden a agruparse nos extremos das opinións. Por unha "
-"banda, ten críticos anoxados con machadas que moer; no outro, ten convidados"
-" encantados que se prodigan eloxios máis aló do crible. Non lle sorprenderá "
-"saber que os hoteis ás veces publican as súas propias críticas entusiastas, "
-"ou que a competencia se aliña para ter a oportunidade de criticar á "
-"competencia con críticas negativas. Ten sentido considerar o que é realmente"
-" importante para vostede ao seleccionar un hotel. Logo, debe elixir un "
-"directorio de hoteis en liña que brinde información actualizada, "
-"independente e imparcial que realmente importe."
+"Logo está o problema da motivación do autor. Cantas máis críticas lense, "
+"máis se nota que tenden a ser extremistas. Por unha banda, están os críticos"
+" enfadados con intereses persoais e, por outro, os hóspedes encantados que "
+"ofrecen eloxios inimaxinables. Non lle sorprenderá saber que os hoteis ás "
+"veces publican as súas propias recensións positivas, ou que os competidores "
+"se preparan para atacar á competencia con malas críticas. Por iso, convén "
+"ter en conta o que é realmente importante para vostede á hora de elixir un "
+"hotel. Entón, debería escoller un directorio en liña de hoteis que ofreza "
+"información actualizada, independente e imparcial que realmente teña "
+"importancia."
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_6
@@ -2224,14 +2359,14 @@ msgid "This box will not be visible to your visitors"
 msgstr "Este cadro non será visible para os seus visitantes."
 
 #. module: website_blog
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_blog/static/src/js/options.js:0
 #, python-format
 msgid "This tag already exists"
-msgstr "O nome de categoría xa existe!"
+msgstr "Esta etiqueta xa existe!"
 
 #. module: website_blog
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_blog/static/src/js/options.js:0
 #, python-format
 msgid "Tiny"
@@ -2242,6 +2377,16 @@ msgstr "Pequeño"
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_regular_cover
 msgid "Title"
 msgstr "Título"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Title Above Cover"
+msgstr "Título encima da portada"
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Title Inside Cover"
+msgstr "Título dentro da portada"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_7
@@ -2276,7 +2421,7 @@ msgstr ""
 "gozalas. O primeiro que necesita non é equipo, senón literatura. Un bo mapa "
 "de estrelas mostraralle as constelacións principais, a localización da "
 "estrella clave que usamos para navegar polo ceo e os planetas que parecerán "
-"máis grandes que as estrelas. E se agrega a ese mapa algúns materiais "
+"máis grandes que as estrelas. E se engade a ese mapa algúns materiais "
 "introdutorios ben feitos ao pasatempo da astronomía, está ben encamiñado."
 
 #. module: website_blog
@@ -2296,7 +2441,7 @@ msgstr ""
 "bo campo amplo na configuración dos binoculares para que poida gozar da "
 "paisaxe lunar en toda a súa beleza. E debido a que é case imposible manter "
 "os binoculares quietos durante o tempo que desexe contemplar este magnífico "
-"corpo no espazo, é posible que desexe agregar ao seu arsenal de equipos un "
+"corpo no espazo, é posible que desexe engadir ao seu arsenal de equipos un "
 "bo trípode ao que poida colocar os binoculares para poder Estude a lúa con "
 "comodidade e cunha plataforma de observación estable."
 
@@ -2320,8 +2465,13 @@ msgstr ""
 "para ver a lúa. aínda mellor. Internet pode darlle acceso ao Hubble e a "
 "moitos dos enormes telescopios que apuntan á lúa todo o tempo. Ademais, "
 "moitos clubs de astronomía están a traballar en formas de combinar múltiples"
-" telescopios, coidadosamente sincronizados con computadoras para obter a "
+" telescopios, coidadosamente sincronizados con computadores para obter a "
 "mellor vista da paisaxe lunar."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.snippet_options
+msgid "Top Banner"
+msgstr "Banner superior"
 
 #. module: website_blog
 #: model:blog.blog,name:website_blog.blog_blog_1
@@ -2339,37 +2489,26 @@ msgid "Unpublished ("
 msgstr "Non publicado ("
 
 #. module: website_blog
-#: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_unread
-#: model:ir.model.fields,field_description:website_blog.field_blog_post__message_unread
-msgid "Unread Messages"
-msgstr "Mensaxes sen ler"
-
-#. module: website_blog
-#: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_unread_counter
-#: model:ir.model.fields,field_description:website_blog.field_blog_post__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr "Nº de mensaxes sen ler"
-
-#. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.post_heading
 msgid "Untitled Post"
-msgstr "Post sen título"
+msgstr "Publicación sen título"
 
 #. module: website_blog
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_blog/static/src/js/tours/website_blog.js:0
 #, python-format
 msgid "Use this icon to preview your blog post on <b>mobile devices</b>."
 msgstr ""
-"Use esta icona para previsualizar a súa entrada de blog en <b>dispositivos "
-"móbiles</b>."
+"Use esta icona para previsualizar a súa publicación no blog desde "
+"<b>dispositivos móbiles</b>."
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_tag_form
 msgid "Used in:"
-msgstr "Usado en:"
+msgstr "Usada en:"
 
 #. module: website_blog
+#. odoo-python
 #: code:addons/website_blog/models/website_snippet_filter.py:0
 #, python-format
 msgid "Viewpoints"
@@ -2416,7 +2555,7 @@ msgstr "Mensaxes do sitio web"
 #. module: website_blog
 #: model:ir.model,name:website_blog.model_website_snippet_filter
 msgid "Website Snippet Filter"
-msgstr "Filtro de fragmentos do sitio web"
+msgstr "Filtro de snippets do sitio web"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__website_url
@@ -2427,40 +2566,40 @@ msgstr "URL do sitio web"
 #: model:ir.model.fields,help:website_blog.field_blog_blog__website_message_ids
 #: model:ir.model.fields,help:website_blog.field_blog_post__website_message_ids
 msgid "Website communication history"
-msgstr "Historial de comunicacións do sitio web"
+msgstr "Historial de comunicación do sitio web"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__website_meta_description
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__website_meta_description
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag__website_meta_description
 msgid "Website meta description"
-msgstr "Meta descrición do sitio web"
+msgstr "Descrición meta do sitio web"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__website_meta_keywords
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__website_meta_keywords
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag__website_meta_keywords
 msgid "Website meta keywords"
-msgstr "Meta palabras chave do sitio web"
+msgstr "Palabras chave meta do sitio web"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__website_meta_title
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__website_meta_title
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag__website_meta_title
 msgid "Website meta title"
-msgstr "Meta título do sitio web"
+msgstr "Título meta do sitio web"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__website_meta_og_img
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__website_meta_og_img
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag__website_meta_og_img
 msgid "Website opengraph image"
-msgstr "Imaxe do Open Graph do sitio"
+msgstr "Imaxe Open Graph do sitio web"
 
 #. module: website_blog
 #: model:blog.post,name:website_blog.blog_post_5
 msgid "What If They Let You Run The Hubble"
-msgstr "E se che deixan executar o Hubble?"
+msgstr "E se lle deixan dirixir o Hubble?"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_5
@@ -2473,12 +2612,13 @@ msgid ""
 msgstr ""
 "Aínda que calquera persoa pode mirar cara arriba e namorarse das estrelas en"
 " calquera momento, a diversión da astronomía é aprender a ser cada vez máis "
-"hábil e equipado para observar as estrelas que ves e comprendes cada vez "
-"máis cada vez que miras cara arriba. A continuación indícanse algúns pasos "
-"que pode seguir para que os momentos que poida dedicar á súa afección pola "
+"hábil e equipado para observar as estrelas que ve e comprende cada vez máis "
+"cada vez que mira cara arriba. A continuación indícanse algúns pasos que "
+"pode seguir para que os momentos que poida dedicar á súa afección pola "
 "astronomía sexan moito máis agradables."
 
 #. module: website_blog
+#. odoo-python
 #: code:addons/website_blog/models/website_snippet_filter.py:0
 #, python-format
 msgid "With a View"
@@ -2488,13 +2628,6 @@ msgstr "Cunha vista"
 #: model_terms:ir.ui.view,arch_db:website_blog.sidebar_blog_index
 msgid "Write a small text here to describe your blog or company."
 msgstr "Escriba aquí un pequeno texto para describir o seu blog ou empresa."
-
-#. module: website_blog
-#. openerp-web
-#: code:addons/website_blog/static/src/js/tours/website_blog.js:0
-#, python-format
-msgid "Write a title, the subtitle is optional."
-msgstr "Escribe un título, o subtitulo é opcional."
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_3
@@ -2507,13 +2640,13 @@ msgid ""
 "offerings like a Pillow menu or Bath menu, choice of smoking or non smoking "
 "rooms etc."
 msgstr ""
-"Sempre debes considerar coidadosamente o tipo de instalacións que necesitas "
-"desde o teu dormitorio e atopar o hotel que teña as que consideres "
-"importantes. O sitio web do directorio de hoteis debe detallar cuestións "
-"tales como: tamaño da cama, acceso a Internet (o seu custo, xa sexa que haxa"
-" WIFI ou conexión de banda ancha por cable), servizos de cortesía, vistas "
-"desde a habitación e ofertas de luxo como un menú de almofadas ou un menú de"
-" baño, elección de habitacións para fumadores ou non fumadores etc."
+"Sempre hai que prever o tipo de instalacións que necesita na súa habitación "
+"e atopar o hotel que teña as que considere máis importantes. O sitio web do "
+"directorio de hoteis debería detallar cuestións como: o tamaño da cama, o "
+"acceso a Internet (o seu prezo, se hai conexión Wi-fi ou de banda ancha por "
+"cable), os servizos de cortesía, as vistas desde a habitación e as ofertas "
+"de luxo, o menú de almofadas ou o menú de baño, a elección de habitacións "
+"para fumadores ou non fumadores etc."
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_2
@@ -2531,7 +2664,7 @@ msgstr ""
 " toda a familia. Os percorridos non son demasiado caros e duran desde "
 "corenta e cinco minutos ata máis dunha hora. Pode ver lugares que "
 "normalmente son inaccesibles cos percorridos en helicóptero por Maui. Os "
-"lugares que non están dispoñibles a pé ou en vehículo poden verse por aire. "
+"lugares que non están dispoñibles a pé ou en coche poden verse por aire. "
 "Impresionantes vistas agardan a aqueles que estean dispostos a gozar de "
 "divertidos percorridos en helicóptero por Maui. Se permanecerá na illa "
 "durante un período de tempo considerable, é posible que desexe pensar en "
@@ -2540,7 +2673,7 @@ msgstr ""
 #. module: website_blog
 #: model:blog.tag,name:website_blog.blog_tag_2
 msgid "adventure"
-msgstr "aventuras"
+msgstr "aventura"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_post_template_new_post
@@ -2571,7 +2704,7 @@ msgstr "guías"
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_post_template_new_post
 msgid "has been published on the"
-msgstr "foi publicado no"
+msgstr "foi publicada no"
 
 #. module: website_blog
 #: model:blog.tag,name:website_blog.blog_tag_1
@@ -2586,12 +2719,12 @@ msgstr "en"
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post
 msgid "in <i class=\"fa fa-folder-open text-muted\"/>"
-msgstr "en"
+msgstr "en <i class=\"fa fa-folder-open text-muted\"/>"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_cover_post_fullwidth_design
 msgid "in <i class=\"fa fa-folder-open text-white-75\"/>"
-msgstr "en"
+msgstr "en <i class=\"fa fa-folder-open text-white-75\"/>"
 
 #. module: website_blog
 #: model:blog.tag,name:website_blog.blog_tag_4
@@ -2601,7 +2734,7 @@ msgstr "telescopios"
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_comment
 msgid "to leave a comment"
-msgstr "deixar un comentario"
+msgstr "para deixar un comentario"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.posts_loop
@@ -2612,17 +2745,12 @@ msgstr "non publicado"
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_regular_cover
 msgid ""
 "|\n"
-"                            <i class=\"fa fa-comment text-muted mr-1\"/>"
+"                            <i class=\"fa fa-comment text-muted me-1\"/>"
 msgstr ""
 "|\n"
-"                            <i class=\"fa fa-comment text-muted mr-1\"/>"
+"                            <i class=\"fa fa-comment text-muted me-1\"/>"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_post_regular_cover
 msgid "| No comments yet"
 msgstr "| Sen comentarios aínda"
-
-#. module: website_blog
-#: model_terms:ir.ui.view,arch_db:website_blog.s_dynamic_snippet_options_template
-msgid "⌙ Hover effect"
-msgstr "⌙ Efecto ao deslizar o cursor"

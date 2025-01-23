@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 07:05\n"
-"PO-Revision-Date: 2024-11-08 07:05\n"
+"POT-Creation-Date: 2025-01-21 22:57\n"
+"PO-Revision-Date: 2025-01-21 22:57\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,23 +20,9 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: purchase_discount
-#: model_terms:ir.ui.view,arch_db:purchase_discount.res_config_settings_view_form_purchase
-msgid ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
-"specific.\" groups=\"base.group_multi_company\"/>"
-msgstr ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
-"specific.\" groups=\"base.group_multi_company\"/>"
-
-#. module: purchase_discount
 #: model_terms:ir.ui.view,arch_db:purchase_discount.report_purchaseorder_document
 msgid "<strong>Disc. (%)</strong>"
 msgstr "<strong>Desc. (%)</strong>"
-
-#. module: purchase_discount
-#: model:ir.model,name:purchase_discount.model_res_company
-msgid "Companies"
-msgstr "Compañías"
 
 #. module: purchase_discount
 #: model:ir.model,name:purchase_discount.model_res_partner
@@ -67,20 +53,6 @@ msgid "Discount-related settings are managed on"
 msgstr "Os axustes relacionados cos descontos xestiónanse en"
 
 #. module: purchase_discount
-#: model_terms:ir.ui.view,arch_db:purchase_discount.res_config_settings_view_form_purchase
-msgid ""
-"If enabled, the discounts on each line will be updated to the supplier's "
-"discount or zero if no rate exists."
-msgstr ""
-"Se se activa, os descontos de cada liña actualizaranse ao desconto do "
-"provedor ou a cero se non existe tarifa."
-
-#. module: purchase_discount
-#: model:ir.model,name:purchase_discount.model_res_config_settings
-msgid "Procurement purchase grouping settings"
-msgstr "Configuración da agrupación de adquisición de compras"
-
-#. module: purchase_discount
 #: model:ir.model,name:purchase_discount.model_purchase_order
 msgid "Purchase Order"
 msgstr "Pedido de compra"
@@ -96,20 +68,9 @@ msgid "Purchase Report"
 msgstr "Informe de Compras"
 
 #. module: purchase_discount
-#: model:ir.model.fields,field_description:purchase_discount.field_res_company__purchase_supplier_discount_real
-#: model:ir.model.fields,field_description:purchase_discount.field_res_config_settings__purchase_supplier_discount_real
-msgid "Real Purchase Supplier Discount"
-msgstr "Compra real Desconto para provedores"
-
-#. module: purchase_discount
-#: model:ir.model,name:purchase_discount.model_stock_move
-msgid "Stock Move"
-msgstr "movemento de existencias"
-
-#. module: purchase_discount
 #: model:ir.model,name:purchase_discount.model_product_supplierinfo
 msgid "Supplier Pricelist"
-msgstr "Lista de prezos de provedor"
+msgstr "Lista de prezos de provedores"
 
 #. module: purchase_discount
 #: model:ir.model.fields,help:purchase_discount.field_res_partner__default_supplierinfo_discount
@@ -124,7 +85,7 @@ msgstr ""
 #. module: purchase_discount
 #: model_terms:ir.ui.view,arch_db:purchase_discount.res_partner_form_view
 msgid "the parent company"
-msgstr "a empresa parental"
+msgstr "a compañía parental"
 
-#~ msgid "Stock Rule"
-#~ msgstr "Regra de existencias"
+#~ msgid "Stock Move"
+#~ msgstr "movemento de existencias"

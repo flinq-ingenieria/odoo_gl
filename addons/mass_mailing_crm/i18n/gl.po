@@ -3,15 +3,16 @@
 # 	* mass_mailing_crm
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
+# Larissa Manderfeld, 2023
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 21:54\n"
-"PO-Revision-Date: 2024-11-07 21:54\n"
+"POT-Creation-Date: 2025-01-22 09:02\n"
+"PO-Revision-Date: 2025-01-22 09:02\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -37,29 +38,54 @@ msgid "LEADS"
 msgstr "LEADS"
 
 #. module: mass_mailing_crm
-#: model:mailing.mailing,name:mass_mailing_crm.mass_mail_lead_0
-msgid "Lead Recall"
-msgstr "Iniciativas Retiradas"
-
-#. module: mass_mailing_crm
 #: model:ir.model,name:mass_mailing_crm.model_crm_lead
 msgid "Lead/Opportunity"
-msgstr "Iniciativa/Oportunidade"
+msgstr "Lead/Oportunidade"
 
 #. module: mass_mailing_crm
+#: code:addons/mass_mailing_crm/models/mailing_mailing.py:0
 #: model:ir.model.fields.selection,name:mass_mailing_crm.selection__utm_campaign__ab_testing_winner_selection__crm_lead_count
+#, python-format
 msgid "Leads"
-msgstr "Iniciativas"
+msgstr "Leads"
+
+#. module: mass_mailing_crm
+#: code:addons/mass_mailing_crm/models/mailing_mailing.py:0
+#, python-format
+msgid "Leads Analysis"
+msgstr "Análise de leads"
 
 #. module: mass_mailing_crm
 #: model:ir.model.fields,field_description:mass_mailing_crm.field_mailing_mailing__crm_lead_count
 msgid "Leads/Opportunities Count"
-msgstr "Reconto de oportunidades"
+msgstr "Número de leads/oportunidades"
 
 #. module: mass_mailing_crm
 #: model:ir.model,name:mass_mailing_crm.model_mailing_mailing
 msgid "Mass Mailing"
 msgstr "Correo masivo"
+
+#. module: mass_mailing_crm
+#: code:addons/mass_mailing_crm/models/mailing_mailing.py:0
+#, python-format
+msgid "No %s yet!"
+msgstr "Aínda non hai %s"
+
+#. module: mass_mailing_crm
+#: code:addons/mass_mailing_crm/models/mailing_mailing.py:0
+#, python-format
+msgid ""
+"Note that Odoo cannot track replies if they are sent towards email addresses"
+" to this database."
+msgstr ""
+"Tome en conta que Odoo non pode rastrexar respostas se se enviaron ás "
+"direccións de correo desta base de datos."
+
+#. module: mass_mailing_crm
+#: code:addons/mass_mailing_crm/models/mailing_mailing.py:0
+#, python-format
+msgid "Opportunities"
+msgstr "Oportunidades"
 
 #. module: mass_mailing_crm
 #: model:ir.model.fields,help:mass_mailing_crm.field_utm_campaign__ab_testing_winner_selection
@@ -69,12 +95,12 @@ msgstr "Selección para determinar o correo gañador que se enviará."
 #. module: mass_mailing_crm
 #: model:ir.model,name:mass_mailing_crm.model_utm_campaign
 msgid "UTM Campaign"
-msgstr "Campaña de UTM"
+msgstr "Campaña UTM"
 
 #. module: mass_mailing_crm
 #: model:ir.model.fields,field_description:mass_mailing_crm.field_mailing_mailing__use_leads
 msgid "Use Leads"
-msgstr "Usar Iniciativas"
+msgstr "Usar Leads"
 
 #. module: mass_mailing_crm
 #: model:ir.model.fields,field_description:mass_mailing_crm.field_utm_campaign__ab_testing_winner_selection

@@ -3,14 +3,15 @@
 # 	* website_jitsi
 #
 # Translators:
-# Martin Trigaux, 2021
+# Martin Trigaux, 2022
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 16:58\n"
-"PO-Revision-Date: 2024-11-08 16:58\n"
+"POT-Creation-Date: 2025-01-22 18:34\n"
+"PO-Revision-Date: 2025-01-22 18:34\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -47,7 +48,7 @@ msgstr "Sala de chat"
 #. module: website_jitsi
 #: model:ir.model,name:website_jitsi.model_chat_room_mixin
 msgid "Chat Room Mixin"
-msgstr "Sala de chat Mixin"
+msgstr "Mixin de sala de chat"
 
 #. module: website_jitsi
 #: model:ir.actions.act_window,name:website_jitsi.chat_room_action
@@ -56,16 +57,11 @@ msgid "Chat Rooms"
 msgstr "Salas de chat"
 
 #. module: website_jitsi
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_jitsi/static/src/xml/chat_room_modal.xml:0
 #, python-format
 msgid "Close"
 msgstr "Pechar"
-
-#. module: website_jitsi
-#: model:ir.model,name:website_jitsi.model_res_config_settings
-msgid "Config Settings"
-msgstr "Opcións de configuración"
 
 #. module: website_jitsi
 #: model:ir.model.fields,field_description:website_jitsi.field_chat_room__create_uid
@@ -94,14 +90,13 @@ msgstr "ID"
 
 #. module: website_jitsi
 #: model:ir.model.fields,field_description:website_jitsi.field_chat_room__jitsi_server_domain
-#: model:ir.model.fields,field_description:website_jitsi.field_res_config_settings__jitsi_server_domain
 msgid "Jitsi Server Domain"
 msgstr "Dominio do servidor Jitsi"
 
 #. module: website_jitsi
 #: model_terms:ir.ui.view,arch_db:website_jitsi.chat_room_join_button
 msgid "Join the room"
-msgstr "Úneche á sala"
+msgstr "Únase á sala"
 
 #. module: website_jitsi
 #: model:ir.model.fields,field_description:website_jitsi.field_chat_room__lang_id
@@ -135,11 +130,11 @@ msgid "Last activity"
 msgstr "Última actividade"
 
 #. module: website_jitsi
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_jitsi/static/src/xml/chat_room_modal.xml:0
 #, python-format
 msgid "Loading your room..."
-msgstr "Cargando a túa sala ..."
+msgstr "Cargando sala..."
 
 #. module: website_jitsi
 #: model:ir.model.fields,field_description:website_jitsi.field_chat_room__max_capacity
@@ -150,7 +145,7 @@ msgstr "Máxima capacidade"
 #. module: website_jitsi
 #: model:ir.model.fields,field_description:website_jitsi.field_chat_room__max_participant_reached
 msgid "Max participant reached"
-msgstr "Participantes máximo alcanzado"
+msgstr "Número máximo de participantes alcanzado"
 
 #. module: website_jitsi
 #: model:ir.model.fields,help:website_jitsi.field_chat_room__max_participant_reached
@@ -167,7 +162,7 @@ msgstr "Sen límite"
 #: model:ir.model.fields,field_description:website_jitsi.field_chat_room__participant_count
 #: model:ir.model.fields,field_description:website_jitsi.field_chat_room_mixin__room_participant_count
 msgid "Participant count"
-msgstr "Reconto de participantes"
+msgstr "Número de participantes"
 
 #. module: website_jitsi
 #: model:ir.model.fields,field_description:website_jitsi.field_chat_room_mixin__room_max_participant_reached
@@ -182,25 +177,19 @@ msgstr "Informes"
 #. module: website_jitsi
 #: model:ir.model.fields,field_description:website_jitsi.field_chat_room_mixin__room_is_full
 msgid "Room Is Full"
-msgstr "Sala chea"
+msgstr "A sala está chea"
 
 #. module: website_jitsi
 #: model:ir.model.fields,field_description:website_jitsi.field_chat_room__name
 #: model:ir.model.fields,field_description:website_jitsi.field_chat_room_mixin__room_name
 msgid "Room Name"
-msgstr "Nome da Sala"
+msgstr "Nome da sala"
 
 #. module: website_jitsi
 #: model:ir.model.fields,help:website_jitsi.field_chat_room__jitsi_server_domain
-#: model:ir.model.fields,help:website_jitsi.field_res_config_settings__jitsi_server_domain
 msgid ""
 "The Jitsi server domain can be customized through the settings to use a "
 "different server than the default \"meet.jit.si\""
 msgstr ""
 "O dominio do servidor Jitsi pódese personalizar a través da configuración "
 "para usar un servidor diferente ao predeterminado \"meet.jit.se\""
-
-#. module: website_jitsi
-#: model_terms:ir.ui.view,arch_db:website_jitsi.res_config_settings_view_form
-msgid "meet.jit.si"
-msgstr "meet.jit.se"

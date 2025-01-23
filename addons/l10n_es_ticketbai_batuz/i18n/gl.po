@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 04:00\n"
-"PO-Revision-Date: 2024-11-08 04:00\n"
+"POT-Creation-Date: 2025-01-22 15:05\n"
+"PO-Revision-Date: 2025-01-22 15:05\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: l10n_es_ticketbai_batuz
@@ -58,6 +59,7 @@ msgid "Chapter"
 msgstr "Capítulo"
 
 #. module: l10n_es_ticketbai_batuz
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_batuz/models/account_move.py:0
 #, python-format
 msgid "Chapter and type are required for search a pending LROE Operation"
@@ -129,12 +131,12 @@ msgstr "Indica o estado desta factura con respecto ao rexistro en LROE/Batuz"
 #. module: l10n_es_ticketbai_batuz
 #: model_terms:ir.ui.view,arch_db:l10n_es_ticketbai_batuz.move_supplier_form_inherit_l10n_es_ticketbai_batuz
 msgid "Invoice Date"
-msgstr "Data factura"
+msgstr "Data Factura"
 
 #. module: l10n_es_ticketbai_batuz
 #: model_terms:ir.ui.view,arch_db:l10n_es_ticketbai_batuz.move_supplier_form_inherit_l10n_es_ticketbai_batuz
 msgid "Invoice Number"
-msgstr "Número de factura"
+msgstr "Número Factura"
 
 #. module: l10n_es_ticketbai_batuz
 #: model_terms:ir.ui.view,arch_db:l10n_es_ticketbai_batuz.move_supplier_form_inherit_l10n_es_ticketbai_batuz
@@ -168,6 +170,7 @@ msgid "LROE API URL"
 msgstr "LROE API URL"
 
 #. module: l10n_es_ticketbai_batuz
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_batuz/models/account_move.py:0
 #, python-format
 msgid ""
@@ -177,6 +180,7 @@ msgstr ""
 "implementado!"
 
 #. module: l10n_es_ticketbai_batuz
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_batuz/models/account_move.py:0
 #, python-format
 msgid "LROE Build: operation type is necessary!"
@@ -188,6 +192,7 @@ msgid "LROE Operation"
 msgstr "Operación LROE"
 
 #. module: l10n_es_ticketbai_batuz
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_batuz/models/lroe_operation.py:0
 #, python-format
 msgid "LROE Operation %s: XML schema not supported!"
@@ -202,6 +207,9 @@ msgid "LROE Operations"
 msgstr "Operacións LROE"
 
 #. module: l10n_es_ticketbai_batuz
+#: model:ir.model.fields,field_description:l10n_es_ticketbai_batuz.field_account_bank_statement_line__lroe_response_line_ids
+#: model:ir.model.fields,field_description:l10n_es_ticketbai_batuz.field_account_move__lroe_response_line_ids
+#: model:ir.model.fields,field_description:l10n_es_ticketbai_batuz.field_account_payment__lroe_response_line_ids
 #: model_terms:ir.ui.view,arch_db:l10n_es_ticketbai_batuz.move_supplier_form_inherit_l10n_es_ticketbai_batuz
 #: model_terms:ir.ui.view,arch_db:l10n_es_ticketbai_batuz.view_move_form_tbai_batuz
 msgid "LROE Responses"
@@ -324,13 +332,6 @@ msgid "Resend to LROE"
 msgstr "Reenviar LROE"
 
 #. module: l10n_es_ticketbai_batuz
-#: model:ir.model.fields,field_description:l10n_es_ticketbai_batuz.field_account_bank_statement_line__lroe_response_line_ids
-#: model:ir.model.fields,field_description:l10n_es_ticketbai_batuz.field_account_move__lroe_response_line_ids
-#: model:ir.model.fields,field_description:l10n_es_ticketbai_batuz.field_account_payment__lroe_response_line_ids
-msgid "Responses"
-msgstr "Respostas"
-
-#. module: l10n_es_ticketbai_batuz
 #: model:ir.model.fields.selection,name:l10n_es_ticketbai_batuz.selection__tbai_vat_regime_key__type__sale
 msgid "Sale"
 msgstr "Venda"
@@ -372,6 +373,7 @@ msgid "The last attemp to sent to LROE has failed"
 msgstr "O último intento de envío ao LROE fallou"
 
 #. module: l10n_es_ticketbai_batuz
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_batuz/models/account_move.py:0
 #, python-format
 msgid "There's a mismatch in taxes for RE. Check them."
@@ -449,6 +451,7 @@ msgid "With delay"
 msgstr "Con retardo"
 
 #. module: l10n_es_ticketbai_batuz
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_batuz/models/account_move.py:0
 #, python-format
 msgid ""
@@ -459,6 +462,7 @@ msgstr ""
 "executándose!"
 
 #. module: l10n_es_ticketbai_batuz
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_batuz/models/account_move.py:0
 #, python-format
 msgid "You can not set to draft this invoice because there is a job running!"
@@ -478,6 +482,9 @@ msgstr ""
 #, python-format
 #~ msgid "LROE Build: method for model %s chapter %s not implemented!"
 #~ msgstr "LROE: método para modelo %s capítulo %s non implementado!"
+
+#~ msgid "Responses"
+#~ msgstr "Respostas"
 
 #~ msgid "Send mode"
 #~ msgstr "Modo de envío"

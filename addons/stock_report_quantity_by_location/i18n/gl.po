@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-09 00:00\n"
-"PO-Revision-Date: 2024-11-09 00:00\n"
+"POT-Creation-Date: 2025-01-22 19:04\n"
+"PO-Revision-Date: 2025-01-22 19:04\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -176,7 +176,8 @@ msgid "Stock Report Quantity By Location Prepare"
 msgstr "Preparar Informe de inventario por localización"
 
 #. module: stock_report_quantity_by_location
-#: code:addons/stock_report_quantity_by_location/wizards/stock_report_quantity_by_location.py:0
+#. odoo-python
+#: code:addons/stock_report_quantity_by_location/wizards/stock_report_quantity_by_location_prepare.py:0
 #, python-format
 msgid "Stock Report by Location"
 msgstr "Informe de inventario por localización"

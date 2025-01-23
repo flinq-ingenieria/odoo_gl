@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 14:05\n"
-"PO-Revision-Date: 2024-11-08 14:05\n"
+"POT-Creation-Date: 2025-01-22 06:27\n"
+"PO-Revision-Date: 2025-01-22 06:27\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -34,22 +34,22 @@ msgstr "Asistencias"
 #. module: hr_attendance_geolocation
 #: model:ir.model.fields,field_description:hr_attendance_geolocation.field_hr_attendance__check_in_latitude
 msgid "Check In Latitude"
-msgstr "Verificar Latitude"
+msgstr "Latitude de Rexistro"
 
 #. module: hr_attendance_geolocation
 #: model:ir.model.fields,field_description:hr_attendance_geolocation.field_hr_attendance__check_in_longitude
 msgid "Check In Longitude"
-msgstr "Rexistro de entrada Lonxitude"
+msgstr "Lonxitude de Rexistro"
 
 #. module: hr_attendance_geolocation
 #: model:ir.model.fields,field_description:hr_attendance_geolocation.field_hr_attendance__check_out_latitude
 msgid "Check Out Latitude"
-msgstr "Comprobe Latitude"
+msgstr "Latitude de Saída"
 
 #. module: hr_attendance_geolocation
 #: model:ir.model.fields,field_description:hr_attendance_geolocation.field_hr_attendance__check_out_longitude
 msgid "Check Out Longitude"
-msgstr "Comprobe a lonxitude"
+msgstr "Lonxitude de Saída"
 
 #. module: hr_attendance_geolocation
 #: model:ir.model.fields,field_description:hr_attendance_geolocation.field_hr_attendance__check_in_latitude_text
@@ -59,7 +59,7 @@ msgstr "Latitude de Rexistro"
 #. module: hr_attendance_geolocation
 #: model_terms:ir.ui.view,arch_db:hr_attendance_geolocation.hr_attendance_view_form
 msgid "Check-in Location"
-msgstr "Localización de facturación"
+msgstr "Localización de Rexistro"
 
 #. module: hr_attendance_geolocation
 #: model:ir.model.fields,field_description:hr_attendance_geolocation.field_hr_attendance__check_in_longitude_text

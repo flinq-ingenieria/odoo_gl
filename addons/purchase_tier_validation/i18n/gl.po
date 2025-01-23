@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 22:59\n"
-"PO-Revision-Date: 2024-11-07 22:59\n"
+"POT-Creation-Date: 2025-01-22 22:44\n"
+"PO-Revision-Date: 2025-01-22 22:44\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -26,6 +26,11 @@ msgstr "Pode Revisar"
 #: model:ir.model.fields,field_description:purchase_tier_validation.field_purchase_order__has_comment
 msgid "Has Comment"
 msgstr "Ten Comentario"
+
+#. module: purchase_tier_validation
+#: model:ir.model.fields,field_description:purchase_tier_validation.field_purchase_order__is_reevaluation_required
+msgid "Is Reevaluation Required"
+msgstr ""
 
 #. module: purchase_tier_validation
 #: model_terms:ir.ui.view,arch_db:purchase_tier_validation.view_purchase_order_filter
@@ -60,12 +65,12 @@ msgstr "Orde de Compra"
 #. module: purchase_tier_validation
 #: model:ir.model.fields,field_description:purchase_tier_validation.field_purchase_order__rejected
 msgid "Rejected"
-msgstr "Rexeitada"
+msgstr "Rexeitado"
 
 #. module: purchase_tier_validation
 #: model:ir.model.fields,field_description:purchase_tier_validation.field_purchase_order__rejected_message
 msgid "Rejected Message"
-msgstr "Mensaxe Rexeitada"
+msgstr "Mensaxe rexeitada"
 
 #. module: purchase_tier_validation
 #: model:ir.model.fields,field_description:purchase_tier_validation.field_purchase_order__reviewer_ids
@@ -80,7 +85,7 @@ msgstr "Definición do nivel"
 #. module: purchase_tier_validation
 #: model:ir.model.fields,field_description:purchase_tier_validation.field_purchase_order__to_validate_message
 msgid "To Validate Message"
-msgstr "Para Validar a Mensaxe"
+msgstr "Para validar a mensaxe"
 
 #. module: purchase_tier_validation
 #: model:ir.model.fields,field_description:purchase_tier_validation.field_purchase_order__validated
@@ -91,26 +96,17 @@ msgstr "Validada"
 #. module: purchase_tier_validation
 #: model:ir.model.fields,field_description:purchase_tier_validation.field_purchase_order__validated_message
 msgid "Validated Message"
-msgstr "Mensaxe Validada"
+msgstr "Mensaxe validada"
 
 #. module: purchase_tier_validation
 #: model:ir.model.fields,field_description:purchase_tier_validation.field_purchase_order__validation_status
 msgid "Validation Status"
-msgstr "Estado da Validación"
+msgstr "Estado de validación"
 
 #. module: purchase_tier_validation
 #: model:ir.model.fields,field_description:purchase_tier_validation.field_purchase_order__review_ids
 msgid "Validations"
 msgstr "Validacións"
-
-#~ msgid "Display Name"
-#~ msgstr "Nome a Mostrar"
-
-#~ msgid "ID"
-#~ msgstr "ID (identificación)"
-
-#~ msgid "Last Modified on"
-#~ msgstr "Última modificación o"
 
 #~ msgid ""
 #~ "<i class=\"fa fa-info-circle\"/>This PO needs to be\n"

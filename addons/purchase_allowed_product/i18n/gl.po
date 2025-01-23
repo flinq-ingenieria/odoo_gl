@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 23:09\n"
-"PO-Revision-Date: 2024-11-07 23:09\n"
+"POT-Creation-Date: 2025-01-22 08:06\n"
+"PO-Revision-Date: 2025-01-22 08:06\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -64,8 +64,8 @@ msgstr "Comprar e facturar só os produtos fornecidos"
 
 #. module: purchase_allowed_product
 #: model:ir.model,name:purchase_allowed_product.model_product_product
-msgid "Product"
-msgstr "Produto"
+msgid "Product Variant"
+msgstr "Variante de produto"
 
 #. module: purchase_allowed_product
 #: model:ir.model,name:purchase_allowed_product.model_purchase_order
@@ -75,7 +75,7 @@ msgstr "Orde de Compra"
 #. module: purchase_allowed_product
 #: model:ir.model,name:purchase_allowed_product.model_product_supplierinfo
 msgid "Supplier Pricelist"
-msgstr "Lista de prezos de provedores"
+msgstr "Lista de prezos para provedores"
 
 #. module: purchase_allowed_product
 #: model:ir.model.fields,field_description:purchase_allowed_product.field_account_bank_statement_line__use_only_supplied_product
@@ -87,14 +87,12 @@ msgid "Use only allowed products"
 msgstr "Usar só os produtos permitidos"
 
 #. module: purchase_allowed_product
-#: model:ir.model.fields,field_description:purchase_allowed_product.field_product_supplierinfo__name
+#: model:ir.model.fields,field_description:purchase_allowed_product.field_product_supplierinfo__partner_id
 msgid "Vendor"
 msgstr "Vendedor"
 
-#. module: purchase_allowed_product
-#: model:ir.model.fields,help:purchase_allowed_product.field_product_supplierinfo__name
-msgid "Vendor of this product"
-msgstr "Vendedor deste produto"
+#~ msgid "Name"
+#~ msgstr "Nome"
 
 #~ msgid "Display Name"
 #~ msgstr "Nome mostrado"
@@ -107,6 +105,9 @@ msgstr "Vendedor deste produto"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Última modificación en"
+
+#~ msgid "Product"
+#~ msgstr "Produto"
 
 #~ msgid "Information about a product vendor"
 #~ msgstr "Información do provedor"

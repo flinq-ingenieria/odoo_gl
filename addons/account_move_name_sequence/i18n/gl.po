@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 16:21\n"
-"PO-Revision-Date: 2024-11-08 16:21\n"
+"POT-Creation-Date: 2025-01-22 22:35\n"
+"PO-Revision-Date: 2025-01-22 22:35\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -38,55 +38,46 @@ msgstr ""
 #. module: account_move_name_sequence
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_journal__refund_sequence_id
 msgid "Credit Note Entry Sequence"
-msgstr "Secuencia de Entrada de Notas de Crédito"
+msgstr "Secuencia de facturas rectificativas"
 
 #. module: account_move_name_sequence
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_journal__refund_sequence
 msgid "Dedicated Credit Note Sequence"
-msgstr "Secuencia de Notas de Crédito Especializadas"
-
-#. module: account_move_name_sequence
-#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_journal__display_name
-#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_move__display_name
-#: model:ir.model.fields,field_description:account_move_name_sequence.field_ir_sequence__display_name
-msgid "Display Name"
-msgstr "Mostrar Nome"
+msgstr "Secuencia de facturas rectificativas dedicada"
 
 #. module: account_move_name_sequence
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_journal__sequence_id
 msgid "Entry Sequence"
-msgstr "Secuencia de Entrada"
+msgstr "Secuencia de asento"
+
+#. module: account_move_name_sequence
+#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_journal__has_sequence_holes
+msgid "Has Sequence Holes"
+msgstr "Hai buracos na secuencia"
 
 #. module: account_move_name_sequence
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_bank_statement_line__highest_name
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_move__highest_name
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_payment__highest_name
 msgid "Highest Name"
-msgstr "Nome Máximo"
-
-#. module: account_move_name_sequence
-#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_journal__id
-#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_move__id
-#: model:ir.model.fields,field_description:account_move_name_sequence.field_ir_sequence__id
-msgid "ID"
-msgstr "ID"
+msgstr "Número máis alto"
 
 #. module: account_move_name_sequence
 #: model:ir.model,name:account_move_name_sequence.model_account_journal
 msgid "Journal"
-msgstr "Diario"
+msgstr "Dario"
 
 #. module: account_move_name_sequence
 #: model:ir.model,name:account_move_name_sequence.model_account_move
 msgid "Journal Entry"
-msgstr "Entrada de Diario"
+msgstr "Asento"
 
 #. module: account_move_name_sequence
-#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_journal____last_update
-#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_move____last_update
-#: model:ir.model.fields,field_description:account_move_name_sequence.field_ir_sequence____last_update
-msgid "Last Modified on"
-msgstr "Última Modificación o"
+#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_bank_statement_line__made_sequence_hole
+#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_move__made_sequence_hole
+#: model:ir.model.fields,field_description:account_move_name_sequence.field_account_payment__made_sequence_hole
+msgid "Made Sequence Hole"
+msgstr "Creado buraco en secuencia"
 
 #. module: account_move_name_sequence
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_bank_statement_line__name
@@ -96,6 +87,7 @@ msgid "Number"
 msgstr "Número"
 
 #. module: account_move_name_sequence
+#. odoo-python
 #: code:addons/account_move_name_sequence/models/account_journal.py:0
 #, python-format
 msgid ""
@@ -106,12 +98,14 @@ msgstr ""
 "Secuencia de facturas rectificativas."
 
 #. module: account_move_name_sequence
+#. odoo-python
 #: code:addons/account_move_name_sequence/models/account_journal.py:0
 #, python-format
 msgid "Refund"
-msgstr "Devolución"
+msgstr "Rectificativa"
 
 #. module: account_move_name_sequence
+#. odoo-python
 #: code:addons/account_move_name_sequence/models/account_journal.py:0
 #: model:ir.model,name:account_move_name_sequence.model_ir_sequence
 #, python-format
@@ -123,16 +117,17 @@ msgstr "Secuencia"
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_move__sequence_number
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_payment__sequence_number
 msgid "Sequence Number"
-msgstr "Número de Secuencia"
+msgstr "Número de secuencia"
 
 #. module: account_move_name_sequence
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_bank_statement_line__sequence_prefix
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_move__sequence_prefix
 #: model:ir.model.fields,field_description:account_move_name_sequence.field_account_payment__sequence_prefix
 msgid "Sequence Prefix"
-msgstr "Prefixo da Secuencia"
+msgstr "Prefixo da secuencia"
 
 #. module: account_move_name_sequence
+#. odoo-python
 #: code:addons/account_move_name_sequence/models/account_journal.py:0
 #, python-format
 msgid ""
@@ -143,6 +138,7 @@ msgstr ""
 "secuencia de facturas rectificativas do diario '%(journal)s'."
 
 #. module: account_move_name_sequence
+#. odoo-python
 #: code:addons/account_move_name_sequence/models/account_journal.py:0
 #, python-format
 msgid ""
@@ -157,8 +153,8 @@ msgstr ""
 msgid ""
 "This sequence will be used to generate the journal entry number for refunds."
 msgstr ""
-"Esta secuencia utilizarase para xerar o número de asento de diario para "
-"reembolsos."
+"Esta secuencia utilizarase para xerar o número de asentos para "
+"rectificacións."
 
 #. module: account_move_name_sequence
 #: model:ir.model.fields,help:account_move_name_sequence.field_account_journal__sequence_id

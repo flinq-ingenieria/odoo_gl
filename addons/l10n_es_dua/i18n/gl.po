@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 10:43\n"
-"PO-Revision-Date: 2024-11-08 10:43\n"
+"POT-Creation-Date: 2025-01-22 14:01\n"
+"PO-Revision-Date: 2025-01-22 14:01\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -18,25 +18,21 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: l10n_es_dua
-#: model:product.product,name:l10n_es_dua.producto_dua_compensacion
 #: model:product.template,name:l10n_es_dua.producto_dua_compensacion_product_template
 msgid "DUA Compensación"
 msgstr "DUA Compensación"
 
 #. module: l10n_es_dua
-#: model:product.product,name:l10n_es_dua.producto_dua_valoracion_10
 #: model:product.template,name:l10n_es_dua.producto_dua_valoracion_10_product_template
 msgid "DUA Valoración IVA 10%"
 msgstr "DUA Valoración IVE 10%"
 
 #. module: l10n_es_dua
-#: model:product.product,name:l10n_es_dua.producto_dua_valoracion_21
 #: model:product.template,name:l10n_es_dua.producto_dua_valoracion_21_product_template
 msgid "DUA Valoración IVA 21%"
 msgstr "DUA Valoración IVE 21%"
 
 #. module: l10n_es_dua
-#: model:product.product,name:l10n_es_dua.producto_dua_valoracion_4
 #: model:product.template,name:l10n_es_dua.producto_dua_valoracion_4_product_template
 msgid "DUA Valoración IVA 4%"
 msgstr "DUA Valoración IVE 4%"
@@ -46,14 +42,5 @@ msgstr "DUA Valoración IVE 4%"
 msgid "DUA exento"
 msgstr "DUA exento"
 
-#. module: l10n_es_dua
-#: model:product.product,uom_name:l10n_es_dua.producto_dua_compensacion
-#: model:product.product,uom_name:l10n_es_dua.producto_dua_valoracion_10
-#: model:product.product,uom_name:l10n_es_dua.producto_dua_valoracion_21
-#: model:product.product,uom_name:l10n_es_dua.producto_dua_valoracion_4
-#: model:product.template,uom_name:l10n_es_dua.producto_dua_compensacion_product_template
-#: model:product.template,uom_name:l10n_es_dua.producto_dua_valoracion_10_product_template
-#: model:product.template,uom_name:l10n_es_dua.producto_dua_valoracion_21_product_template
-#: model:product.template,uom_name:l10n_es_dua.producto_dua_valoracion_4_product_template
-msgid "Units"
-msgstr "Unidades"
+#~ msgid "Units"
+#~ msgstr "Unidades"

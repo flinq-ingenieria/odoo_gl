@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 00:11\n"
-"PO-Revision-Date: 2024-11-08 00:11\n"
+"POT-Creation-Date: 2025-01-22 06:31\n"
+"PO-Revision-Date: 2025-01-22 06:31\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: sql_export_excel
@@ -35,12 +36,12 @@ msgstr "Modelo Excel"
 #. module: sql_export_excel
 #: model:ir.model.fields,field_description:sql_export_excel.field_sql_export__file_format
 msgid "File Format"
-msgstr "Formato de arquivo"
+msgstr "Formato do arquivo"
 
 #. module: sql_export_excel
 #: model:ir.model.fields,field_description:sql_export_excel.field_sql_export__header
 msgid "Header"
-msgstr "Encabezado"
+msgstr "Cabeceira"
 
 #. module: sql_export_excel
 #: model:ir.model.fields,help:sql_export_excel.field_sql_export__attachment_id
@@ -92,6 +93,7 @@ msgid "Sheet Position"
 msgstr "Posición da folla"
 
 #. module: sql_export_excel
+#. odoo-python
 #: code:addons/sql_export_excel/models/sql_export.py:0
 #, python-format
 msgid ""
@@ -102,18 +104,21 @@ msgstr ""
 "parámetro Posición da Folla."
 
 #. module: sql_export_excel
+#. odoo-python
 #: code:addons/sql_export_excel/models/sql_export.py:0
 #, python-format
 msgid "The column position can't be less than 1."
 msgstr "A posición da columna non pode ser inferior a 1."
 
 #. module: sql_export_excel
+#. odoo-python
 #: code:addons/sql_export_excel/models/sql_export.py:0
 #, python-format
 msgid "The row position can't be less than 1."
 msgstr "A posición da fila non pode ser inferior a 1."
 
 #. module: sql_export_excel
+#. odoo-python
 #: code:addons/sql_export_excel/models/sql_export.py:0
 #, python-format
 msgid "The sheet position can't be less than 1."

@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 20:13\n"
-"PO-Revision-Date: 2024-11-07 20:13\n"
+"POT-Creation-Date: 2025-01-22 06:09\n"
+"PO-Revision-Date: 2025-01-22 06:09\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -31,17 +31,7 @@ msgid ""
 "                        sale order."
 msgstr ""
 "Elixa o motivo da cancelación do\n"
-"                                                     pedido de venda."
-
-#. module: sale_cancel_reason
-#: model:ir.model,name:sale_cancel_reason.model_res_company
-msgid "Companies"
-msgstr "Compañías"
-
-#. module: sale_cancel_reason
-#: model:ir.model,name:sale_cancel_reason.model_res_config_settings
-msgid "Config Settings"
-msgstr "Axustes de Configuración"
+"pedido de venda."
 
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason__create_uid
@@ -59,24 +49,9 @@ msgid "Display Name"
 msgstr "Nome mostrado"
 
 #. module: sale_cancel_reason
-#: model:ir.model.fields,field_description:sale_cancel_reason.field_res_company__enable_sale_cancel_reason
-#: model:ir.model.fields,field_description:sale_cancel_reason.field_res_config_settings__enable_sale_cancel_reason
-msgid "Enable Sale Cancel Reason"
-msgstr "Habilitar motivo de cancelación de venda"
-
-#. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason__id
 msgid "ID"
 msgstr "ID"
-
-#. module: sale_cancel_reason
-#: model_terms:ir.ui.view,arch_db:sale_cancel_reason.res_config_settings_view_form_inherit_sale_management
-msgid ""
-"If enabled, when trying to cancel a Sale Order, it will ask you a "
-"reason.<br/>"
-msgstr ""
-"Se está activada, ao tentar cancelar un pedido de venda, preguntarache o "
-"motivo.<br/>"
 
 #. module: sale_cancel_reason
 #: model:sale.order.cancel.reason,name:sale_cancel_reason.cancel_reason_only_quotation
@@ -149,13 +124,6 @@ msgstr "O servizo xa non é necesario"
 
 #~ msgid "Cancel Order"
 #~ msgstr "Cancelar orde"
-
-#~ msgid ""
-#~ "Choose the reason for the cancellation of the\n"
-#~ "                sale order."
-#~ msgstr ""
-#~ "Elixa o motivo da cancelación da\n"
-#~ "                orde de venda."
 
 #~ msgid "Confirm"
 #~ msgstr "Confirmar"

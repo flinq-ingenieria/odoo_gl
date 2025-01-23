@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 17:39\n"
-"PO-Revision-Date: 2024-11-08 17:39\n"
+"POT-Creation-Date: 2025-01-21 20:33\n"
+"PO-Revision-Date: 2025-01-21 20:33\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,7 +15,52 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:29\n"
 "X-Generator: tradutor Zerever\n"
+
+#. module: product_logistics_uom
+#: model_terms:ir.ui.view,arch_db:product_logistics_uom.product_template_form_view
+msgid ""
+"<span attrs=\"{'invisible':[('show_volume_uom_warning', '=', False)]}\" groups=\"!uom.group_uom\">\n"
+"                    <i class=\"fa fa-fw fa-warning text-warning\" title=\"Value too small for the selected uom. Select another uom to display the value.\"/>\n"
+"                </span>"
+msgstr ""
+"<span attrs=\"{'invisible':[('show_volume_uom_warning', '=', False)]}\" groups=\"!uom.group_uom\">\n"
+"                    <i class=\"fa fa-fw fa-warning text-warning\" title=\"Value too small for the selected uom. Select another uom to display the value.\"/>\n"
+"                </span>"
+
+#. module: product_logistics_uom
+#: model_terms:ir.ui.view,arch_db:product_logistics_uom.product_template_form_view
+msgid ""
+"<span attrs=\"{'invisible':[('show_volume_uom_warning', '=', False)]}\">\n"
+"                    <i class=\"fa fa-fw fa-warning text-warning\" title=\"Value too small for the selected uom. Select another uom to display the value.\"/>\n"
+"                </span>"
+msgstr ""
+"<span attrs=\"{'invisible':[('show_volume_uom_warning', '=', False)]}\">\n"
+"                    <i class=\"fa fa-fw fa-warning text-warning\" title=\"Value too small for the selected uom. Select another uom to display the value.\"/>\n"
+"                </span>"
+
+#. module: product_logistics_uom
+#: model_terms:ir.ui.view,arch_db:product_logistics_uom.product_template_form_view
+msgid ""
+"<span attrs=\"{'invisible':[('show_weight_uom_warning', '=', False)]}\" groups=\"!uom.group_uom\">\n"
+"                    <i class=\"fa fa-fw fa-warning text-warning\" title=\"Value too small for the selected uom. Select another uom to display the value.\"/>\n"
+"                </span>"
+msgstr ""
+"<span attrs=\"{'invisible':[('show_weight_uom_warning', '=', False)]}\" groups=\"!uom.group_uom\">\n"
+"                    <i class=\"fa fa-fw fa-warning text-warning\" title=\"Value too small for the selected uom. Select another uom to display the value.\"/>\n"
+"                </span>"
+
+#. module: product_logistics_uom
+#: model_terms:ir.ui.view,arch_db:product_logistics_uom.product_template_form_view
+msgid ""
+"<span attrs=\"{'invisible':[('show_weight_uom_warning', '=', False)]}\">\n"
+"                    <i class=\"fa fa-fw fa-warning text-warning\" title=\"Value too small for the selected uom. Select another uom to display the value.\"/>\n"
+"                </span>"
+msgstr ""
+"<span attrs=\"{'invisible':[('show_weight_uom_warning', '=', False)]}\">\n"
+"                    <i class=\"fa fa-fw fa-warning text-warning\" title=\"Value too small for the selected uom. Select another uom to display the value.\"/>\n"
+"                </span>"
 
 #. module: product_logistics_uom
 #: model:ir.model,name:product_logistics_uom.model_res_config_settings
@@ -25,7 +70,7 @@ msgstr "Axustes de configuración"
 #. module: product_logistics_uom
 #: model:ir.model.fields,field_description:product_logistics_uom.field_res_config_settings__product_default_length_uom_id
 msgid "Default Length Unit of Measure"
-msgstr "Unidade de Medida de Lonxitude por Defecto"
+msgstr "Unidade de medida de lonxitude por defecto"
 
 #. module: product_logistics_uom
 #: model:ir.model.fields,field_description:product_logistics_uom.field_res_config_settings__product_default_volume_uom_id
@@ -53,15 +98,69 @@ msgid "Default unit of measure to express product weight"
 msgstr "Unidade de medida do peso do produto predeterminada"
 
 #. module: product_logistics_uom
-#: model:ir.model,name:product_logistics_uom.model_product_template
-msgid "Product Template"
-msgstr "Modelo de produto"
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_product__weight
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_template__weight
+msgid "Gross Weight"
+msgstr "Peso bruto"
 
 #. module: product_logistics_uom
-#: model:ir.model.fields,field_description:product_logistics_uom.field_product_product__product_uom_readonly
-#: model:ir.model.fields,field_description:product_logistics_uom.field_product_template__product_uom_readonly
-msgid "Product Uom Readonly"
-msgstr "Udm Produto Só Lectura"
+#: model:ir.model,name:product_logistics_uom.model_product_template
+msgid "Product"
+msgstr "Produto"
+
+#. module: product_logistics_uom
+#: model:ir.model,name:product_logistics_uom.model_product_product
+msgid "Product Variant"
+msgstr "Variante do produto"
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_product__show_volume_uom_warning
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_template__show_volume_uom_warning
+msgid "Show Volume Uom Warning"
+msgstr "Mostrar advertencia de volume Uom"
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_product__show_weight_uom_warning
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_template__show_weight_uom_warning
+msgid "Show Weight Uom Warning"
+msgstr "Mostrar advertencia de peso Uom"
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,help:product_logistics_uom.field_product_product__show_volume_uom_warning
+#: model:ir.model.fields,help:product_logistics_uom.field_product_template__show_volume_uom_warning
+msgid ""
+"Technical field used to warn the user to change the volumeuom since the "
+"value for product_volume is too small and has beenrounded."
+msgstr ""
+"Campo técnico utilizado para advertir ao usuario que cambie o volume xa que "
+"o valor de product_volume é demasiado pequeno e foi redondeado."
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,help:product_logistics_uom.field_product_product__show_weight_uom_warning
+#: model:ir.model.fields,help:product_logistics_uom.field_product_template__show_weight_uom_warning
+msgid ""
+"Technical field used to warn the user to change the weightuom since the "
+"value for product_weight is too small and has beenrounded."
+msgstr ""
+"Campo técnico utilizado para advertir ao usuario que cambie o peso xa que o "
+"valor de peso_produto é demasiado pequeno e foi redondeado."
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,help:product_logistics_uom.field_product_product__product_volume
+msgid "The volume in the product's volume UOM."
+msgstr "O volume na UM de volume do produto."
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,help:product_logistics_uom.field_product_product__product_weight
+msgid "The weight in the product's weight UOM."
+msgstr "O peso na UM de peso do produto."
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_product__volume
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_template__volume
+#: model_terms:ir.ui.view,arch_db:product_logistics_uom.product_template_form_view
+msgid "Volume"
+msgstr "Volume"
 
 #. module: product_logistics_uom
 #: model:ir.model.fields,field_description:product_logistics_uom.field_product_product__volume_uom_id
@@ -70,16 +169,33 @@ msgid "Volume Unit of Measure"
 msgstr "Unidade de medida de volume"
 
 #. module: product_logistics_uom
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_product__product_volume
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_template__product_volume
+msgid "Volume in product UOM"
+msgstr "Volume na UM do produto"
+
+#. module: product_logistics_uom
 #: model:ir.model.fields,field_description:product_logistics_uom.field_product_product__volume_uom_name
 #: model:ir.model.fields,field_description:product_logistics_uom.field_product_template__volume_uom_name
 msgid "Volume unit of measure label"
 msgstr "Etiqueta de unidade de medida de volume"
 
 #. module: product_logistics_uom
+#: model_terms:ir.ui.view,arch_db:product_logistics_uom.product_template_form_view
+msgid "Weight"
+msgstr "Peso"
+
+#. module: product_logistics_uom
 #: model:ir.model.fields,field_description:product_logistics_uom.field_product_product__weight_uom_id
 #: model:ir.model.fields,field_description:product_logistics_uom.field_product_template__weight_uom_id
 msgid "Weight Unit of Measure"
 msgstr "Unidade de medida do peso"
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_product__product_weight
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_template__product_weight
+msgid "Weight in product UOM"
+msgstr "Peso na UM do produto"
 
 #. module: product_logistics_uom
 #: model:ir.model.fields,field_description:product_logistics_uom.field_product_product__weight_uom_name
@@ -90,8 +206,8 @@ msgstr "Etiqueta de unidade de medida do peso"
 #~ msgid "Choose the unit to measure volume"
 #~ msgstr "Escolla a unidade para medir o volume"
 
-#~ msgid "Product"
-#~ msgstr "Produto"
+#~ msgid "Product Template"
+#~ msgstr "Modelo de produto"
 
 #~ msgid "The volume of the contents, not including any packaging, etc."
 #~ msgstr "O volume dos contidos, sen incluír ningún embalaxe etc."
@@ -99,11 +215,5 @@ msgstr "Etiqueta de unidade de medida do peso"
 #~ msgid "The weight of the contents, not including any packaging, etc."
 #~ msgstr "O peso dos contidos, sen incluír ningún embalaxe etc."
 
-#~ msgid "Volume"
-#~ msgstr "Volume"
-
 #~ msgid "Volume Measurement"
 #~ msgstr "Medición de volume"
-
-#~ msgid "Weight"
-#~ msgstr "Peso"

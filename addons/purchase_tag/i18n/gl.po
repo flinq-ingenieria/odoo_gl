@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 23:40\n"
-"PO-Revision-Date: 2024-11-08 23:40\n"
+"POT-Creation-Date: 2025-01-21 16:11\n"
+"PO-Revision-Date: 2025-01-21 16:11\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. module: purchase_tag
 #: model:ir.model.fields,field_description:purchase_tag.field_purchase_tag__child_ids
 msgid "Child"
-msgstr "Fillo(a)"
+msgstr "Niño"
 
 #. module: purchase_tag
 #: model:ir.model.fields,field_description:purchase_tag.field_purchase_tag__color
@@ -60,7 +60,7 @@ msgstr "Última Modificación o"
 #. module: purchase_tag
 #: model:ir.model.fields,field_description:purchase_tag.field_purchase_tag__write_uid
 msgid "Last Updated by"
-msgstr "Última Actualización por"
+msgstr "Actualizado por última vez por"
 
 #. module: purchase_tag
 #: model:ir.model.fields,field_description:purchase_tag.field_purchase_tag__write_date
@@ -80,22 +80,22 @@ msgstr "Roteiro Parental"
 #. module: purchase_tag
 #: model:ir.model,name:purchase_tag.model_purchase_order
 msgid "Purchase Order"
-msgstr "Orde de Compra"
+msgstr "Orde de compra"
 
 #. module: purchase_tag
 #: model:ir.model,name:purchase_tag.model_purchase_tag
 msgid "Purchase Tag"
-msgstr "Etiqueta de Compra"
+msgstr "Etiqueta de compra"
 
 #. module: purchase_tag
 #: model:ir.model.fields,field_description:purchase_tag.field_purchase_tag__name
 msgid "Tag Name"
-msgstr "Nome de Etiqueta"
+msgstr "Nome de etiqueta"
 
 #. module: purchase_tag
 #: model:ir.model.constraint,message:purchase_tag.constraint_purchase_tag_tag_name_uniq
 msgid "Tag name already exists !"
-msgstr "Este nome de etiqueta xa existe !"
+msgstr "O nome de etiqueta xa existe!"
 
 #. module: purchase_tag
 #: model:ir.actions.act_window,name:purchase_tag.purchase_tag_action
@@ -106,6 +106,7 @@ msgid "Tags"
 msgstr "Etiquetas"
 
 #. module: purchase_tag
+#. odoo-python
 #: code:addons/purchase_tag/models/purchase_tag.py:0
 #, python-format
 msgid "Tags cannot be recursive."

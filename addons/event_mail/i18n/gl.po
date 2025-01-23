@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 19:19\n"
-"PO-Revision-Date: 2024-11-08 19:19\n"
+"POT-Creation-Date: 2025-01-22 16:06\n"
+"PO-Revision-Date: 2025-01-22 16:06\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: event_mail
@@ -44,7 +45,7 @@ msgstr "Compañías"
 #. module: event_mail
 #: model:ir.model,name:event_mail.model_res_config_settings
 msgid "Config Settings"
-msgstr "Configuración de Axustes"
+msgstr "Axustes de Configuración"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__create_uid
@@ -128,7 +129,7 @@ msgstr "Última actualización o"
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__mail_registration_ids
 msgid "Mail Registration"
-msgstr "Rexistro por Correo"
+msgstr "Rexistro por correo"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_template__scheduler_template_ids
@@ -174,7 +175,7 @@ msgstr "Nome"
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__scheduled_date
 msgid "Schedule Date"
-msgstr "Data Programada"
+msgstr "Data programada"
 
 #. module: event_mail
 #: model:ir.model,name:event_mail.model_event_mail_template
@@ -205,7 +206,7 @@ msgstr "Modelo de programación de correo"
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__template_model_id
 msgid "Template Model"
-msgstr "Modelo de Modelo"
+msgstr "Modelo de modelo"
 
 #. module: event_mail
 #: model:ir.model.fields,field_description:event_mail.field_event_mail_scheduler_template__interval_type

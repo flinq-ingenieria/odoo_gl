@@ -1,0 +1,23 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_picking_batch_packaging_qty
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-22 13:54\n"
+"PO-Revision-Date: 2025-01-22 13:54\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: stock_picking_batch_packaging_qty
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_packaging_qty.view_picking_move_tree_inherited
+msgid "Pack Qty"
+msgstr "Cant. Env."

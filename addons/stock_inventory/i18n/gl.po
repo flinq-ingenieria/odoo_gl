@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 08:00\n"
-"PO-Revision-Date: 2024-11-08 08:00\n"
+"POT-Creation-Date: 2025-01-22 21:38\n"
+"PO-Revision-Date: 2025-01-22 21:38\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -16,6 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: tradutor Zerever\n"
+
+#. module: stock_inventory
+#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__count_stock_quants
+msgid "# Adjustments"
+msgstr "# Axustes"
 
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_needaction
@@ -28,15 +33,14 @@ msgid "Action State To Cancel Allowed"
 msgstr ""
 
 #. module: stock_inventory
-#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__count_stock_quants
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__count_stock_quants_string
 msgid "Adjustments"
-msgstr "Adaptacións"
+msgstr "Axustes"
 
 #. module: stock_inventory
 #: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__product_selection__all
 msgid "All Products"
-msgstr "Todos os Produtos"
+msgstr "Todos os produtos"
 
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__responsible_id
@@ -51,12 +55,12 @@ msgstr ""
 #. module: stock_inventory
 #: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_group_form
 msgid "Back to Draft"
-msgstr "Volver a borrador"
+msgstr "Devolver a borrador"
 
 #. module: stock_inventory
 #: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_group_form
 msgid "Begin Adjustments"
-msgstr "Inicio das adaptacións"
+msgstr "Iniciar axuste"
 
 #. module: stock_inventory
 #: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_group_form
@@ -69,6 +73,7 @@ msgid "Cancelled"
 msgstr ""
 
 #. module: stock_inventory
+#. odoo-python
 #: code:addons/stock_inventory/models/stock_inventory.py:0
 #, python-format
 msgid ""
@@ -114,7 +119,7 @@ msgstr "Data"
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__display_name
 msgid "Display Name"
-msgstr "Nome a mostrar"
+msgstr "Mostrar nome"
 
 #. module: stock_inventory
 #: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__state__done
@@ -149,11 +154,10 @@ msgstr ""
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__id
 msgid "ID"
-msgstr "ID (identificación)"
+msgstr "ID"
 
 #. module: stock_inventory
 #: model:ir.model.fields,help:stock_inventory.field_stock_inventory__message_needaction
-#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__message_unread
 msgid "If checked, new messages require your attention."
 msgstr ""
 
@@ -181,7 +185,7 @@ msgstr ""
 #. module: stock_inventory
 #: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__state__in_progress
 msgid "In Progress"
-msgstr "En curso"
+msgstr "En progreso"
 
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__stock_quant_ids
@@ -193,7 +197,7 @@ msgstr "Axuste de inventario"
 #: model:ir.actions.act_window,name:stock_inventory.action_view_inventory_group_form
 #: model:ir.model,name:stock_inventory.model_stock_inventory
 msgid "Inventory Adjustment Group"
-msgstr "Grupo de Axuste de Inventario"
+msgstr "Grupo de axuste de inventario"
 
 #. module: stock_inventory
 #: model:ir.ui.menu,name:stock_inventory.menu_action_inventory_tree
@@ -203,7 +207,7 @@ msgstr "Axustes de inventario"
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__stock_move_ids
 msgid "Inventory Adjustments Done"
-msgstr "Axustes de inventario efectuados"
+msgstr "Axustes de inventario realizados"
 
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__name
@@ -218,17 +222,17 @@ msgstr ""
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory____last_update
 msgid "Last Modified on"
-msgstr "Última Modificación o"
+msgstr "Última modificación"
 
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__write_uid
 msgid "Last Updated by"
-msgstr "Actualizado por última vez por"
+msgstr "Última actualización"
 
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__write_date
 msgid "Last Updated on"
-msgstr "Última Actualización o"
+msgstr "Última actualización"
 
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__location_ids
@@ -244,7 +248,7 @@ msgstr "Lote/Número de serie"
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__lot_ids
 msgid "Lot/Serial Numbers"
-msgstr "Lote/Números de serie"
+msgstr "Lote/Número de serie"
 
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_main_attachment_id
@@ -267,6 +271,7 @@ msgid "Messages"
 msgstr ""
 
 #. module: stock_inventory
+#. odoo-python
 #: code:addons/stock_inventory/models/stock_quant.py:0
 #, python-format
 msgid "No move lines have been created"
@@ -284,17 +289,12 @@ msgstr ""
 
 #. module: stock_inventory
 #: model:ir.model.fields,help:stock_inventory.field_stock_inventory__message_needaction_counter
-msgid "Number of messages which requires an action"
+msgid "Number of messages requiring action"
 msgstr ""
 
 #. module: stock_inventory
 #: model:ir.model.fields,help:stock_inventory.field_stock_inventory__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
-
-#. module: stock_inventory
-#: model:ir.model.fields,help:stock_inventory.field_stock_inventory__message_unread_counter
-msgid "Number of unread messages"
 msgstr ""
 
 #. module: stock_inventory
@@ -316,7 +316,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__category_id
 #: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__product_selection__category
 msgid "Product Category"
-msgstr "Categoría de Produto"
+msgstr "Categoría de produtos"
 
 #. module: stock_inventory
 #: model:ir.model,name:stock_inventory.model_stock_move_line
@@ -326,7 +326,7 @@ msgstr "Movementos de produtos (liña de movemento de existencias)"
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__product_selection
 msgid "Product Selection"
-msgstr "Selección do produto"
+msgstr "Selección de produtos"
 
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__product_ids
@@ -347,7 +347,7 @@ msgstr "Cantidades"
 #. module: stock_inventory
 #: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_group_form
 msgid "Set to Done"
-msgstr "Establecer como Feito"
+msgstr "Pasar a feito"
 
 #. module: stock_inventory
 #: model:ir.model.fields,help:stock_inventory.field_stock_inventory__responsible_id
@@ -378,14 +378,15 @@ msgstr ""
 #. module: stock_inventory
 #: model:ir.actions.act_window,name:stock_inventory.action_view_stock_move_line_inventory_tree
 msgid "Stock Move Lines"
-msgstr "Liñas de Movemento de existencias"
+msgstr "Liñas de movemento de existencias"
 
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__count_stock_moves
 msgid "Stock Moves Lines"
-msgstr "Liñas de Movementos de existencias"
+msgstr "Liñas de movemento de existencias"
 
 #. module: stock_inventory
+#. odoo-python
 #: code:addons/stock_inventory/models/stock_inventory.py:0
 #, python-format
 msgid ""
@@ -394,6 +395,7 @@ msgid ""
 msgstr ""
 
 #. module: stock_inventory
+#. odoo-python
 #: code:addons/stock_inventory/models/stock_inventory.py:0
 #, python-format
 msgid ""
@@ -410,17 +412,7 @@ msgstr "Este é o propietario do axuste de inventario"
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_quant__to_do
 #: model_terms:ir.ui.view,arch_db:stock_inventory.view_stock_quant_search_not_done
 msgid "To Do"
-msgstr "Para facer"
-
-#. module: stock_inventory
-#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_unread
-msgid "Unread Messages"
-msgstr ""
-
-#. module: stock_inventory
-#: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr ""
+msgstr "Aplicar"
 
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__website_message_ids
@@ -433,32 +425,29 @@ msgid "Website communication history"
 msgstr ""
 
 #. module: stock_inventory
+#. odoo-python
 #: code:addons/stock_inventory/models/stock_inventory.py:0
 #, python-format
 msgid ""
 "When 'Product Selection: Lot Serial Number' is selected you are only able to"
 " add one product."
 msgstr ""
-"Se selecciona 'Selección de produtos: Número de serie do lote' só pode "
+"Cando selecciona 'Selección de produtos: Número de serie do lote' só pode "
 "engadir un produto."
 
 #. module: stock_inventory
+#. odoo-python
 #: code:addons/stock_inventory/models/stock_inventory.py:0
 #, python-format
 msgid ""
 "When 'Product Selection: One Product' is selected you are only able to add "
 "one product."
 msgstr ""
-"Se selecciona 'Selección de produtos: Un produto' só pode engadir un "
-"produto."
+"Cando selecciona 'Selección de produtos: Número de serie do lote' só pode "
+"engadir un produto."
 
 #. module: stock_inventory
-#: code:addons/stock_inventory/models/stock_inventory.py:0
-#, python-format
-msgid "You can only delete inventory adjustments groups in draft state."
-msgstr "Só pode eliminar grupos de axustes de inventario en estado borrador."
-
-#. module: stock_inventory
+#. odoo-python
 #: code:addons/stock_inventory/models/stock_inventory.py:0
 #, python-format
 msgid "You can't cancel this inventory %(display_name)s."
@@ -473,4 +462,5 @@ msgstr "Por exemplo, inventario anual"
 #~ msgid ""
 #~ "There's already an Adjustment in Process using one requested Location: %s"
 #~ msgstr ""
-#~ "Xa hai un Axuste en Proceso utilizando unha Localización solicitada: %s"
+#~ "Xa hai un axuste de inventario en progreso utilizando unha localización "
+#~ "solicitada: %s"

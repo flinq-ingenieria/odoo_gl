@@ -7,10 +7,10 @@
 # enjolras <yo@miguelrevilla.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 00:38\n"
-"PO-Revision-Date: 2024-11-08 00:38\n"
+"POT-Creation-Date: 2025-01-22 11:03\n"
+"PO-Revision-Date: 2025-01-22 11:03\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -23,32 +23,32 @@ msgstr ""
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_create_indexes_line
 msgid "Cleanup Create Indexes line"
-msgstr "Limpar a liña de creación de índices"
+msgstr "Limpar a Liña de Creación de índices"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_line_column
 msgid "Cleanup Purge Line Column"
-msgstr "Columna de liña de purga de limpeza"
+msgstr "Columna de liña de Purga de Limpeza"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_line_data
 msgid "Cleanup Purge Line Data"
-msgstr "Datos da liña de purga de limpeza"
+msgstr "Datos da Liña de Purga de Limpeza"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_line_menu
 msgid "Cleanup Purge Line Menu"
-msgstr "Menú da liña de purga de limpeza"
+msgstr "Menú da Liña de Purga de Limpeza"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_line_model
 msgid "Cleanup Purge Line Model"
-msgstr "Modelo de liña de purga de limpeza"
+msgstr "Modelo de Liña de Purga de Limpeza"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_line_module
 msgid "Cleanup Purge Line Module"
-msgstr "Módulo de liña de purga de limpeza"
+msgstr "Módulo de Liña de Purga de Limpeza"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_line_property
@@ -58,7 +58,7 @@ msgstr "Limpeza Purga Liña Propiedade"
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_line_table
 msgid "Cleanup Purge Line Table"
-msgstr "Táboa de liñas de purga de limpeza"
+msgstr "Táboa de Liñas de Purga de Limpeza"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_column__purge_line_ids
@@ -311,7 +311,7 @@ msgstr "Modelo"
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_ir_model_data
 msgid "Model Data"
-msgstr "Datos do modelo"
+msgstr "Datos do Modelo"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_field__model_name
@@ -348,42 +348,49 @@ msgid "Name"
 msgstr "Nome"
 
 #. module: database_cleanup
+#. odoo-python
 #: code:addons/database_cleanup/models/purge_menus.py:0
 #, python-format
 msgid "No dangling menu entries found"
 msgstr "Non se atoparon entradas de menú colgantes"
 
 #. module: database_cleanup
+#. odoo-python
 #: code:addons/database_cleanup/models/purge_modules.py:0
 #, python-format
 msgid "No modules found to purge"
 msgstr "Non se atoparon módulos a limpar"
 
 #. module: database_cleanup
+#. odoo-python
 #: code:addons/database_cleanup/models/purge_columns.py:0
 #, python-format
 msgid "No orphaned columns found"
 msgstr "Non se atoparon columnas orfas"
 
 #. module: database_cleanup
+#. odoo-python
 #: code:addons/database_cleanup/models/purge_data.py:0
 #, python-format
 msgid "No orphaned data entries found"
 msgstr "Non se atoparon entradas de datos orfos"
 
 #. module: database_cleanup
+#. odoo-python
 #: code:addons/database_cleanup/models/purge_fields.py:0
 #, python-format
 msgid "No orphaned fields found"
 msgstr ""
 
 #. module: database_cleanup
+#. odoo-python
 #: code:addons/database_cleanup/models/purge_models.py:0
 #, python-format
 msgid "No orphaned models found"
 msgstr "Non se atoparon modelos orfos"
 
 #. module: database_cleanup
+#. odoo-python
 #: code:addons/database_cleanup/models/purge_tables.py:0
 #, python-format
 msgid "No orphaned tables found"
@@ -420,13 +427,13 @@ msgstr "Limpar"
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_line
 msgid "Purge Column Abstract Wizard"
-msgstr "Asistente para purgar columnas abstractas"
+msgstr "Asistente para Purgar Columnas Abstractas"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_wizard__purge_line_ids
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard__purge_line_ids
 msgid "Purge Line"
-msgstr "Liña de purga"
+msgstr "Liña de Purga"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_column__wizard_id
@@ -587,6 +594,7 @@ msgid "Select lines"
 msgstr "Seleccionar liñas"
 
 #. module: database_cleanup
+#. odoo-python
 #: code:addons/database_cleanup/models/purge_wizard.py:0
 #, python-format
 msgid "Select lines to purge"

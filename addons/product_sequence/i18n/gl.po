@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 20:30\n"
-"PO-Revision-Date: 2024-11-08 20:30\n"
+"POT-Creation-Date: 2025-01-21 17:24\n"
+"PO-Revision-Date: 2025-01-21 17:24\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,6 +20,7 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: product_sequence
+#. odoo-python
 #: code:addons/product_sequence/models/product_product.py:0
 #, python-format
 msgid "-copy"
@@ -33,12 +34,12 @@ msgstr "Compañías"
 #. module: product_sequence
 #: model:ir.model,name:product_sequence.model_res_config_settings
 msgid "Config Settings"
-msgstr "Axustes Configuración"
+msgstr "Axustes de configuración"
 
 #. module: product_sequence
 #: model:ir.model.fields,field_description:product_sequence.field_product_product__default_code
 msgid "Internal Reference"
-msgstr "Referencias Internas"
+msgstr "Referencia Interna"
 
 #. module: product_sequence
 #: model:ir.model.fields,field_description:product_sequence.field_product_category__code_prefix
@@ -55,11 +56,6 @@ msgstr ""
 "esta categoría. Se está en branco utilizarase a secuencia por defecto."
 
 #. module: product_sequence
-#: model:ir.model,name:product_sequence.model_product_product
-msgid "Product"
-msgstr "Produto"
-
-#. module: product_sequence
 #: model:ir.model,name:product_sequence.model_product_category
 msgid "Product Category"
 msgstr "Categoría de Produto"
@@ -70,19 +66,19 @@ msgid "Product Sequence"
 msgstr "Secuencia de Produto"
 
 #. module: product_sequence
+#: model_terms:ir.ui.view,arch_db:product_sequence.res_config_settings_view_form
+msgid "Product Sequences"
+msgstr "Secuencia de Produto"
+
+#. module: product_sequence
+#: model:ir.model,name:product_sequence.model_product_product
+msgid "Product Variant"
+msgstr "Variante do produto"
+
+#. module: product_sequence
 #: model:ir.model,name:product_sequence.model_ir_sequence
 msgid "Sequence"
 msgstr "Secuencia"
-
-#. module: product_sequence
-#: code:addons/product_sequence/models/ir_sequence.py:0
-#, python-format
-msgid ""
-"Sequence %(seq_name)s is used on following product categories and prefix cannot be changed here:\n"
-"%(categ_names)s"
-msgstr ""
-"A secuencia %(seq_name)s utilízase nas seguintes categorías de produtos e o prefixo non se pode cambiar aquí:\n"
-"%(categ_names)s"
 
 #. module: product_sequence
 #: model:ir.model.fields,help:product_sequence.field_product_product__default_code
@@ -91,16 +87,6 @@ msgid ""
 msgstr ""
 "Seleccione '/' e garde se desexa que se propoña unha nova referencia "
 "interna."
-
-#. module: product_sequence
-#: code:addons/product_sequence/models/product_category.py:0
-#, python-format
-msgid ""
-"The prefix defined on product category %s does not match the prefix of "
-"linked sequence"
-msgstr ""
-"O prefixo definido na categoría de produto %s non coincide co prefixo da "
-"secuencia enlazada"
 
 #. module: product_sequence
 #: model:ir.model.fields,help:product_sequence.field_product_category__sequence_id
@@ -122,10 +108,10 @@ msgstr "Utilizar as categorías superiores para determinar o prefixo"
 #: model_terms:ir.ui.view,arch_db:product_sequence.res_config_settings_view_form
 msgid ""
 "Use parent categories to determine the prefix if the category\n"
-"                            has no settings for the prefix."
+"                                has no settings for the prefix."
 msgstr ""
 "Utilice categorías principais para determinar o prefixo se a categoría\n"
-"                            non ten axustes para o prefixo."
+"                                non ten configuracións para o prefixo."
 
 #. module: product_sequence
 #: model:ir.model.fields,help:product_sequence.field_res_company__use_parent_categories_to_determine_prefix
@@ -136,6 +122,9 @@ msgid ""
 msgstr ""
 "Utilice categorías principais para determinar o prefixo se a categoría non "
 "ten configuracións para o prefixo."
+
+#~ msgid "Product"
+#~ msgstr "Produto"
 
 #~ msgid "The reference must be unique"
 #~ msgstr "A referencia debe ser única"

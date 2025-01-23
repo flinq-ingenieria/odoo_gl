@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 22:36\n"
-"PO-Revision-Date: 2024-11-08 22:36\n"
+"POT-Creation-Date: 2025-01-21 15:03\n"
+"PO-Revision-Date: 2025-01-21 15:03\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -65,6 +65,17 @@ msgstr "+8"
 #: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_search_view
 msgid "Account"
 msgstr "Conta"
+
+#. module: mis_builder_cash_flow
+#: model:ir.model.fields,help:mis_builder_cash_flow.field_mis_cash_flow__account_type
+msgid ""
+"Account Type is used for information purpose, to generate country-specific "
+"legal reports, and set the rules to close a fiscal year and generate opening"
+" entries."
+msgstr ""
+"O tipo de conta utilízase con fins informativos, para xerar informes legais "
+"específicos de cada país e establecer as regras para pechar un exercicio e "
+"xerar entradas de apertura."
 
 #. module: mis_builder_cash_flow
 #: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_balance
@@ -183,7 +194,7 @@ msgstr ""
 #. module: mis_builder_cash_flow
 #: model:mis.report.kpi,description:mis_builder_cash_flow.mis_kpi_aliquidity
 msgid "LIQUIDITY"
-msgstr "LIQUIDZ"
+msgstr "LIQUIDEZ"
 
 #. module: mis_builder_cash_flow
 #: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow____last_update
@@ -217,11 +228,6 @@ msgstr "Fluxo de Caixa As miñas"
 #: model_terms:ir.ui.view,arch_db:mis_builder_cash_flow.mis_cash_flow_forecast_line_view_form
 msgid "MIS Cash Flow Forecast Line"
 msgstr "Liña de previsión de fluxo de caixa As miñas"
-
-#. module: mis_builder_cash_flow
-#: model:ir.model,name:mis_builder_cash_flow.model_mis_report_instance_period
-msgid "MIS Report Instance Period"
-msgstr "Período Informe Os meus"
 
 #. module: mis_builder_cash_flow
 #: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__full_reconcile_id
@@ -277,17 +283,7 @@ msgid "State"
 msgstr "Estado"
 
 #. module: mis_builder_cash_flow
-#: model:ir.model.fields,help:mis_builder_cash_flow.field_mis_cash_flow__account_internal_type
-msgid ""
-"The 'Internal Type' is used for features available on different types of "
-"accounts: liquidity type is for cash or bank accounts, payable/receivable is"
-" for vendor/customer accounts."
-msgstr ""
-"O 'Tipo Interno' úsase para características dispoñibles en diferentes tipos "
-"de contas: tipo liquidez é para efectivo ou banco, por pagar/ por cobrar é "
-"para contas de provedor/cliente."
-
-#. module: mis_builder_cash_flow
+#. odoo-python
 #: code:addons/mis_builder_cash_flow/models/mis_cash_flow_forecast_line.py:0
 #, python-format
 msgid "The Company and the Company of the Account must be the same."
@@ -305,7 +301,7 @@ msgid "Total"
 msgstr "Total"
 
 #. module: mis_builder_cash_flow
-#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__account_internal_type
+#: model:ir.model.fields,field_description:mis_builder_cash_flow.field_mis_cash_flow__account_type
 msgid "Type"
 msgstr "Tipo"
 
@@ -323,3 +319,15 @@ msgstr "cuarto mes"
 #: model:mis.report.instance.period,name:mis_builder_cash_flow.mis_period_plus_third_month
 msgid "third month"
 msgstr "terceiro mes"
+
+#~ msgid "MIS Report Instance Period"
+#~ msgstr "Período Informe Os meus"
+
+#~ msgid ""
+#~ "The 'Internal Type' is used for features available on different types of "
+#~ "accounts: liquidity type is for cash or bank accounts, payable/receivable is"
+#~ " for vendor/customer accounts."
+#~ msgstr ""
+#~ "O 'Tipo Interno' úsase para características dispoñibles en diferentes tipos "
+#~ "de contas: tipo liquidez é para efectivo ou banco, por pagar/ por cobrar é "
+#~ "para contas de provedor/cliente."

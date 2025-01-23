@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 20:17\n"
-"PO-Revision-Date: 2024-11-07 20:17\n"
+"POT-Creation-Date: 2025-01-22 05:24\n"
+"PO-Revision-Date: 2025-01-22 05:24\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -18,6 +18,7 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: account_move_budget
+#. odoo-python
 #: code:addons/account_move_budget/models/account_move_budget.py:0
 #, python-format
 msgid "%s (copy)"
@@ -31,18 +32,18 @@ msgstr "Conta"
 #. module: account_move_budget
 #: model:ir.model,name:account_move_budget.model_account_move_budget
 msgid "Account Move Budget"
-msgstr "Conta Desprazamento Presuposto"
+msgstr "Conta Movemento Presuposto"
 
 #. module: account_move_budget
 #: model:ir.model,name:account_move_budget.model_account_move_budget_line
 msgid "Account Move Budget Line"
-msgstr "Conta de liña de Desprazamento de Orzamento"
+msgstr "Conta Movemento Liña Orzamentaria"
 
 #. module: account_move_budget
 #: model:ir.actions.act_window,name:account_move_budget.account_move_budget_act_window
 #: model:ir.ui.menu,name:account_move_budget.account_move_budget_menu
 msgid "Account Move Budgets"
-msgstr "Conta Desprazamento Presupostos"
+msgstr "Conta Movemento Presupostos"
 
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__message_needaction
@@ -62,12 +63,12 @@ msgstr "Decoración de Actividade de Excepción"
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__activity_state
 msgid "Activity State"
-msgstr "Estado da actividade"
+msgstr "Estado da Actividade"
 
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "Icona para o tipo de actividade"
+msgstr "Tipo de Icona de Actividade"
 
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget_line__analytic_account_id
@@ -77,7 +78,7 @@ msgstr "Conta Analítica"
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__message_attachment_count
 msgid "Attachment Count"
-msgstr "Reconto de Arquivos Adxuntos"
+msgstr "Cálculo de Arquivos Adxuntos"
 
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget_line__balance
@@ -92,7 +93,7 @@ msgstr "Orzamento"
 #. module: account_move_budget
 #: model:ir.actions.act_window,name:account_move_budget.account_move_budget_line_act_window
 msgid "Budget Items"
-msgstr "Elementos de Orzamento"
+msgstr "Artigos Orzamentarios"
 
 #. module: account_move_budget
 #: model_terms:ir.ui.view,arch_db:account_move_budget.account_move_budget_form_view
@@ -107,7 +108,7 @@ msgstr "Cancelar"
 #. module: account_move_budget
 #: model:ir.model.fields.selection,name:account_move_budget.selection__account_move_budget__state__cancelled
 msgid "Cancelled"
-msgstr "Cancelado"
+msgstr "Cancelado/a"
 
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__company_id
@@ -118,7 +119,7 @@ msgstr "Compañía"
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget_line__company_currency_id
 msgid "Company Currency"
-msgstr "Divisa da compañía"
+msgstr "Divisa da Compañía"
 
 #. module: account_move_budget
 #: model_terms:ir.ui.view,arch_db:account_move_budget.account_move_budget_form_view
@@ -186,7 +187,7 @@ msgstr "Seguidores/as"
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Seguidores (socios)"
+msgstr "Seguidores (Socios)"
 
 #. module: account_move_budget
 #: model:ir.model.fields,help:account_move_budget.field_account_move_budget__activity_type_icon
@@ -196,12 +197,12 @@ msgstr "Icona de fonte impresionante, por exemplo fa-tasks"
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__date_from
 msgid "From Date"
-msgstr "Desde a data"
+msgstr "Desde a Data"
 
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__has_message
 msgid "Has Message"
-msgstr "Ten mensaxe"
+msgstr "Ten Mensaxe"
 
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__id
@@ -221,14 +222,13 @@ msgstr "Icona para indicar unha actividade por excepción."
 
 #. module: account_move_budget
 #: model:ir.model.fields,help:account_move_budget.field_account_move_budget__message_needaction
-#: model:ir.model.fields,help:account_move_budget.field_account_move_budget__message_unread
 msgid "If checked, new messages require your attention."
-msgstr "Se está marcada, novas mensaxes requiren a súa atención."
+msgstr "Se está marcado, novas mensaxes necesitan a súa atención."
 
 #. module: account_move_budget
 #: model:ir.model.fields,help:account_move_budget.field_account_move_budget__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "se está marcada, algunhas mensaxes teñen un erro de entrega."
+msgstr "Se está marcada, algunhas mensaxes teñen erro de entrega."
 
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__message_is_follower
@@ -250,13 +250,13 @@ msgstr "Última Modificación o"
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__write_uid
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget_line__write_uid
 msgid "Last Updated by"
-msgstr "Última actualización por"
+msgstr "Última Actualización por"
 
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__write_date
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget_line__write_date
 msgid "Last Updated on"
-msgstr "Última Actualización o"
+msgstr "Ultima Actualización o"
 
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__line_ids
@@ -266,12 +266,12 @@ msgstr "Liña"
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "Arquivo adxunto principal"
+msgstr "Arquivo adxunto Principal"
 
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__message_has_error
 msgid "Message Delivery error"
-msgstr "Erro en entrega de mensaxe"
+msgstr "Erro en Entrega de Mensaxe"
 
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__message_ids
@@ -281,7 +281,7 @@ msgstr "Mensaxes"
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "Data límite da miña actividade"
+msgstr "Data Límite da miña Actividade"
 
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__name
@@ -302,12 +302,12 @@ msgstr "Resumo da Seguinte Actividade"
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__activity_type_id
 msgid "Next Activity Type"
-msgstr "Tipo da Seguinte Actividade"
+msgstr "Tipo Seguinte Actividade"
 
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__message_needaction_counter
 msgid "Number of Actions"
-msgstr "Número de accións"
+msgstr "Número de Accións"
 
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__message_has_error_counter
@@ -316,18 +316,13 @@ msgstr "Número de erros"
 
 #. module: account_move_budget
 #: model:ir.model.fields,help:account_move_budget.field_account_move_budget__message_needaction_counter
-msgid "Number of messages which requires an action"
+msgid "Number of messages requiring action"
 msgstr "Número de mensaxes que requiren unha acción"
 
 #. module: account_move_budget
 #: model:ir.model.fields,help:account_move_budget.field_account_move_budget__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "número de mensaxes con erro de entrega"
-
-#. module: account_move_budget
-#: model:ir.model.fields,help:account_move_budget.field_account_move_budget__message_unread_counter
-msgid "Number of unread messages"
-msgstr "Número de mensaxes non lidas"
+msgstr "Número de mensaxe con erro de entrega"
 
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget_line__partner_id
@@ -357,10 +352,10 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Estado baseado en actividades\n"
-"Atrasada: A data de vencemento xa pasou\n"
-"Hoxe: A data de entrega é hoxe\n"
-"Planificada: Futuras actividades."
+"Estados baseados en actividades\n"
+"Atrasada: A data límite xa pasou\n"
+"Hoxe: A data límite da actividade é hoxe\n"
+"Futuras: Actividades futuras."
 
 #. module: account_move_budget
 #: model:ir.model.fields,help:account_move_budget.field_account_move_budget_line__balance
@@ -372,6 +367,7 @@ msgstr ""
 "significativas dos informes"
 
 #. module: account_move_budget
+#. odoo-python
 #: code:addons/account_move_budget/models/account_move_budget_line.py:0
 #, python-format
 msgid "The date must be within the budget period."
@@ -380,22 +376,12 @@ msgstr "A data debe estar dentro do período orzamentario."
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__date_to
 msgid "To Date"
-msgstr "Ata Data"
+msgstr "A Data"
 
 #. module: account_move_budget
 #: model:ir.model.fields,help:account_move_budget.field_account_move_budget__activity_exception_decoration
 msgid "Type of the exception activity on record."
 msgstr "Tipo (ou clase) de actividade excepcional rexistrada."
-
-#. module: account_move_budget
-#: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__message_unread
-msgid "Unread Messages"
-msgstr "Mensaxes non lidas"
-
-#. module: account_move_budget
-#: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr "Contador de mensaxes non lidas"
 
 #. module: account_move_budget
 #: model:ir.model.fields,help:account_move_budget.field_account_move_budget_line__company_currency_id
@@ -405,12 +391,9 @@ msgstr "Campo de utilidade para expresar a divisa do importe"
 #. module: account_move_budget
 #: model:ir.model.fields,field_description:account_move_budget.field_account_move_budget__website_message_ids
 msgid "Website Messages"
-msgstr "Mensaxes da páxina web"
+msgstr "Mensaxes da páxina Web"
 
 #. module: account_move_budget
 #: model:ir.model.fields,help:account_move_budget.field_account_move_budget__website_message_ids
 msgid "Website communication history"
-msgstr "Historial da comunicación na páxina web"
-
-#~ msgid "SMS Delivery error"
-#~ msgstr "Erro na entrega de SMS"
+msgstr "Historial da comunicación no sitio web"

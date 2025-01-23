@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-09 00:52\n"
-"PO-Revision-Date: 2024-11-09 00:52\n"
+"POT-Creation-Date: 2025-01-22 15:20\n"
+"PO-Revision-Date: 2025-01-22 15:20\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -45,6 +45,7 @@ msgid "Technical Features (w/o debug mode)"
 msgstr "Características técnicas (sen modo de depuración)"
 
 #. module: base_technical_features
+#. odoo-python
 #: code:addons/base_technical_features/models/res_users.py:0
 #, python-format
 msgid "The user does not have access to technical features."
@@ -52,8 +53,8 @@ msgstr "O usuario non ten acceso ás características técnicas."
 
 #. module: base_technical_features
 #: model:ir.model,name:base_technical_features.model_res_users
-msgid "Users"
-msgstr "Usuarios"
+msgid "User"
+msgstr "Usuario"
 
 #. module: base_technical_features
 #: model:ir.model.fields,help:base_technical_features.field_res_users__show_technical_features
@@ -62,6 +63,9 @@ msgid ""
 msgstr ""
 "Mostrar ou non o campo de características técnicas nas preferencias de "
 "usuario."
+
+#~ msgid "Users"
+#~ msgstr "Usuarios"
 
 #~ msgid "base"
 #~ msgstr "base de datos"

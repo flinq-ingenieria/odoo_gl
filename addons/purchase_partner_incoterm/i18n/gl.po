@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 01:40\n"
-"PO-Revision-Date: 2024-11-08 01:40\n"
+"POT-Creation-Date: 2025-01-22 22:15\n"
+"PO-Revision-Date: 2025-01-22 22:15\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -21,7 +21,7 @@ msgstr ""
 #: model:ir.model.fields,help:purchase_partner_incoterm.field_purchase_order__incoterm_address_id
 msgid "Address where goods responsibility is transferred to the buyer"
 msgstr ""
-"Dirección onde se transfire a responsabilidade das mercadorías ao comprador"
+"Dirección onde se transfire a responsabilidade da mercadoría ao comprador"
 
 #. module: purchase_partner_incoterm
 #: model:ir.model,name:purchase_partner_incoterm.model_res_partner
@@ -38,12 +38,12 @@ msgstr "Incoterm de Compra por Defecto"
 #: model:ir.model.fields,field_description:purchase_partner_incoterm.field_res_partner__purchase_incoterm_address_id
 #: model:ir.model.fields,field_description:purchase_partner_incoterm.field_res_users__purchase_incoterm_address_id
 msgid "Default Purchase Incoterm Address"
-msgstr "Dirección Incoterm de compra por defecto"
+msgstr "Dirección Incotérmino de Compra Por Defecto"
 
 #. module: purchase_partner_incoterm
 #: model:ir.model.fields,field_description:purchase_partner_incoterm.field_purchase_order__incoterm_address_id
 msgid "Incoterm Address"
-msgstr "Dirección de Incoterm"
+msgstr "Dirección Incoterm"
 
 #. module: purchase_partner_incoterm
 #: model:ir.model,name:purchase_partner_incoterm.model_purchase_order

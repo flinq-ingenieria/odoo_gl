@@ -7,10 +7,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 10:41\n"
-"PO-Revision-Date: 2024-11-08 10:41\n"
+"POT-Creation-Date: 2025-01-22 16:07\n"
+"PO-Revision-Date: 2025-01-22 16:07\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -52,9 +52,10 @@ msgstr ""
 #. module: account_invoice_check_total
 #: model:ir.model,name:account_invoice_check_total.model_account_move
 msgid "Journal Entry"
-msgstr "Entrada diaria"
+msgstr "Entrada Diaria"
 
 #. module: account_invoice_check_total
+#. odoo-python
 #: code:addons/account_invoice_check_total/models/account_move.py:0
 #, python-format
 msgid ""

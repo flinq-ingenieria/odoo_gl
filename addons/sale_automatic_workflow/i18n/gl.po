@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 11:01\n"
-"PO-Revision-Date: 2024-11-08 11:01\n"
+"POT-Creation-Date: 2025-01-22 03:00\n"
+"PO-Revision-Date: 2025-01-22 03:00\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -34,41 +34,10 @@ msgid "Automatic Workflow"
 msgstr "Fluxo automático"
 
 #. module: sale_automatic_workflow
-#: model:ir.filters,name:sale_automatic_workflow.automatic_workflow_create_invoice_filter
-msgid "Automatic Workflow Create Invoice Filter"
-msgstr "Filtro de fluxo automático de creación de factura"
-
-#. module: sale_automatic_workflow
 #: model:ir.actions.server,name:sale_automatic_workflow.ir_cron_automatic_workflow_job_ir_actions_server
 #: model:ir.cron,cron_name:sale_automatic_workflow.ir_cron_automatic_workflow_job
-#: model:ir.cron,name:sale_automatic_workflow.ir_cron_automatic_workflow_job
 msgid "Automatic Workflow Job"
 msgstr "Traballo de fluxo de traballo automático"
-
-#. module: sale_automatic_workflow
-#: model:ir.filters,name:sale_automatic_workflow.automatic_workflow_order_filter
-msgid "Automatic Workflow Order Filter"
-msgstr "Filtro de fluxo automático de pedido"
-
-#. module: sale_automatic_workflow
-#: model:ir.filters,name:sale_automatic_workflow.automatic_workflow_payment_filter
-msgid "Automatic Workflow Payment Filter"
-msgstr "Filtro automático de pagos dos fluxos de traballo"
-
-#. module: sale_automatic_workflow
-#: model:ir.filters,name:sale_automatic_workflow.automatic_workflow_picking_filter
-msgid "Automatic Workflow Picking Filter"
-msgstr "Filtro de fluxo automático de albarás"
-
-#. module: sale_automatic_workflow
-#: model:ir.filters,name:sale_automatic_workflow.automatic_workflow_sale_done_filter
-msgid "Automatic Workflow Sale Done Filter"
-msgstr "Filtro de fluxo automático de pedidos realizados"
-
-#. module: sale_automatic_workflow
-#: model:ir.filters,name:sale_automatic_workflow.automatic_workflow_validate_invoice_filter
-msgid "Automatic Workflow Validate Invoice Filter"
-msgstr "Filtro de fluxo automático de validación de facturas"
 
 #. module: sale_automatic_workflow
 #: model_terms:ir.ui.view,arch_db:sale_automatic_workflow.sale_order_view_form
@@ -166,6 +135,11 @@ msgstr ""
 "pedido de venda que son servizos inclúense e son marcadas como entregadas"
 
 #. module: sale_automatic_workflow
+#: model_terms:ir.ui.view,arch_db:sale_automatic_workflow.sale_workflow_process_view_form
+msgid "Invoice Options"
+msgstr "Opcións de factura"
+
+#. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__invoice_service_delivery
 msgid "Invoice Service on delivery"
 msgstr "Facturar servizos na entrega"
@@ -173,7 +147,7 @@ msgstr "Facturar servizos na entrega"
 #. module: sale_automatic_workflow
 #: model:ir.model,name:sale_automatic_workflow.model_account_move
 msgid "Journal Entry"
-msgstr "Entrada Diaria"
+msgstr "Entrada diaria"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_automatic_workflow_job____last_update
@@ -226,27 +200,27 @@ msgstr "Dominio do filtro de albará"
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__register_payment
 msgid "Register Payment"
-msgstr "Rexistrar Pago"
+msgstr "Rexistrar pago"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__payment_filter_id
 msgid "Register Payment Invoice Filter"
-msgstr "Filtro de rexistro de facturas de pago"
+msgstr "Filtro de rexistro de pago de factura"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__sale_done
 msgid "Sale Done"
-msgstr "Finalización de pedido"
+msgstr "Bloqueo de pedido"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__sale_done_filter_id
 msgid "Sale Done Filter"
-msgstr "Filtro para finalización de pedidos"
+msgstr "Filtro para bloqueo de pedidos"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__sale_done_filter_domain
 msgid "Sale Done Filter Domain"
-msgstr "Dominio do filtro para finalización de pedidos"
+msgstr "Dominio do filtro para bloqueo de pedidos"
 
 #. module: sale_automatic_workflow
 #: model:ir.model,name:sale_automatic_workflow.model_sale_workflow_process
@@ -282,9 +256,24 @@ msgstr ""
 "pickings..."
 
 #. module: sale_automatic_workflow
+#: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__send_invoice
+msgid "Send Invoice"
+msgstr ""
+
+#. module: sale_automatic_workflow
+#: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__send_invoice_filter_id
+msgid "Send Invoice Filter"
+msgstr ""
+
+#. module: sale_automatic_workflow
+#: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__send_invoice_filter_domain
+msgid "Send Invoice Filter Domain"
+msgstr ""
+
+#. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__send_order_confirmation_mail
 msgid "Send Order Confirmation Mail"
-msgstr "Enviar correo de confirmación do Pedido"
+msgstr "Enviar correo de confirmación de Pedido"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,help:sale_automatic_workflow.field_sale_workflow_process__property_journal_id
@@ -357,10 +346,26 @@ msgid "Workflow Options"
 msgstr "Opcións do fluxo"
 
 #. module: sale_automatic_workflow
+#. odoo-python
 #: code:addons/sale_automatic_workflow/models/sale_order.py:0
 #, python-format
 msgid "Workflow Warning"
 msgstr "Aviso do fluxo"
+
+#~ msgid "Automatic Workflow Create Invoice Filter"
+#~ msgstr "Filtro de fluxo automático de creación de factura"
+
+#~ msgid "Automatic Workflow Order Filter"
+#~ msgstr "Filtro de fluxo automático de pedido"
+
+#~ msgid "Automatic Workflow Picking Filter"
+#~ msgstr "Filtro de fluxo automático de albarás"
+
+#~ msgid "Automatic Workflow Sale Done Filter"
+#~ msgstr "Filtro de fluxo automático de pedidos realizados"
+
+#~ msgid "Automatic Workflow Validate Invoice Filter"
+#~ msgstr "Filtro de fluxo automático de validación de facturas"
 
 #~ msgid "Journal Entries"
 #~ msgstr "Entradas de diario"

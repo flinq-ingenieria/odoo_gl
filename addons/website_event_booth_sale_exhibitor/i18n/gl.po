@@ -3,14 +3,15 @@
 # 	* website_event_booth_sale_exhibitor
 #
 # Translators:
-# marcescu, 2022
+# Martin Trigaux, 2022
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 19:23\n"
-"PO-Revision-Date: 2024-11-08 19:23\n"
+"POT-Creation-Date: 2025-01-22 00:47\n"
+"PO-Revision-Date: 2025-01-22 00:47\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -23,7 +24,7 @@ msgstr ""
 #. module: website_event_booth_sale_exhibitor
 #: model:ir.model,name:website_event_booth_sale_exhibitor.model_event_booth_registration
 msgid "Event Booth Registration"
-msgstr "Rexistro da cabina do evento"
+msgstr "Inscrición do estand do evento"
 
 #. module: website_event_booth_sale_exhibitor
 #: model:ir.model.fields,field_description:website_event_booth_sale_exhibitor.field_event_booth_registration__sponsor_website_description
@@ -38,12 +39,12 @@ msgstr "Correo electrónico do patrocinador"
 #. module: website_event_booth_sale_exhibitor
 #: model:ir.model.fields,field_description:website_event_booth_sale_exhibitor.field_event_booth_registration__sponsor_image_512
 msgid "Sponsor Logo"
-msgstr "Logo do patrocinador"
+msgstr "Logotipo do patrocinador"
 
 #. module: website_event_booth_sale_exhibitor
 #: model:ir.model.fields,field_description:website_event_booth_sale_exhibitor.field_event_booth_registration__sponsor_mobile
 msgid "Sponsor Mobile"
-msgstr "Celular do patrocinador"
+msgstr "Móbil do patrocinador"
 
 #. module: website_event_booth_sale_exhibitor
 #: model:ir.model.fields,field_description:website_event_booth_sale_exhibitor.field_event_booth_registration__sponsor_name

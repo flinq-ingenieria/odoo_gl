@@ -3,16 +3,17 @@
 # 	* note
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
+# Ana Sanjuán, 2023
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2023
+# Larissa Manderfeld, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 19:43\n"
-"PO-Revision-Date: 2024-11-07 19:43\n"
+"POT-Creation-Date: 2025-01-21 15:59\n"
+"PO-Revision-Date: 2025-01-21 15:59\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -91,7 +92,7 @@ msgstr "Ícono de tipo de actvidad"
 #. module: note
 #: model_terms:ir.actions.act_window,help:note.action_note_note
 msgid "Add a new personal note"
-msgstr "Agrega unha nova nota persoal"
+msgstr "Engade unha nova nota persoal"
 
 #. module: note
 #: model_terms:ir.actions.act_window,help:note.note_tag_action
@@ -99,15 +100,15 @@ msgid "Add a new tag"
 msgstr "Engadir nova etiqueta"
 
 #. module: note
-#. openerp-web
-#: code:addons/note/static/src/xml/systray.xml:0
+#. odoo-javascript
+#: code:addons/note/static/src/components/activity_menu_view/activity_menu_view.xml:0
 #, python-format
 msgid "Add a note"
-msgstr "Agregar nota"
+msgstr "Engadir nota"
 
 #. module: note
-#. openerp-web
-#: code:addons/note/static/src/xml/systray.xml:0
+#. odoo-javascript
+#: code:addons/note/static/src/components/activity_menu_view/activity_menu_view.xml:0
 #, python-format
 msgid "Add new note"
 msgstr "Engadir nova nota"
@@ -128,8 +129,8 @@ msgid "By sticky note Category"
 msgstr "Por categoría de nota fixada"
 
 #. module: note
-#. openerp-web
-#: code:addons/note/static/src/xml/systray.xml:0
+#. odoo-javascript
+#: code:addons/note/static/src/components/activity_menu_view/activity_menu_view.xml:0
 #, python-format
 msgid "Channel"
 msgstr "Canle"
@@ -139,6 +140,11 @@ msgstr "Canle"
 #: model:ir.model.fields,field_description:note.field_note_tag__color
 msgid "Color Index"
 msgstr "Índice de Cores"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note__company_id
+msgid "Company"
+msgstr "Compañía"
 
 #. module: note
 #: model:ir.ui.menu,name:note.menu_note_configuration
@@ -240,7 +246,6 @@ msgstr "Icona para indicar unha actividade de excepción."
 
 #. module: note
 #: model:ir.model.fields,help:note.field_note_note__message_needaction
-#: model:ir.model.fields,help:note.field_note_note__message_unread
 msgid "If checked, new messages require your attention."
 msgstr "Se está marcado hai novas mensaxes que requiren a súa atención."
 
@@ -358,6 +363,7 @@ msgid "Note Tag"
 msgstr "Etiqueta da nota"
 
 #. module: note
+#. odoo-python
 #: code:addons/note/models/res_users.py:0
 #: model:ir.actions.act_window,name:note.action_note_note
 #: model:ir.ui.menu,name:note.menu_note_notes
@@ -388,7 +394,7 @@ msgstr "Numero de erros"
 
 #. module: note
 #: model:ir.model.fields,help:note.field_note_note__message_needaction_counter
-msgid "Number of messages which requires an action"
+msgid "Number of messages requiring action"
 msgstr "Número de mensaxes que requiren unha acción"
 
 #. module: note
@@ -397,20 +403,10 @@ msgid "Number of messages with delivery error"
 msgstr "Número de mensaxes con erro de envío"
 
 #. module: note
-#: model:ir.model.fields,help:note.field_note_note__message_unread_counter
-msgid "Number of unread messages"
-msgstr "Número de mensaxes non leidos"
-
-#. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__user_id
 #: model:ir.model.fields,field_description:note.field_note_stage__user_id
 msgid "Owner"
 msgstr "Propietario"
-
-#. module: note
-#: model:ir.model.fields,help:note.field_note_stage__user_id
-msgid "Owner of the note stage"
-msgstr "Propietario da etapa da nota"
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_mail_activity__note_id
@@ -418,8 +414,8 @@ msgid "Related Note"
 msgstr "Nota relacionada"
 
 #. module: note
-#. openerp-web
-#: code:addons/note/static/src/xml/systray.xml:0
+#. odoo-javascript
+#: code:addons/note/static/src/components/activity_menu_view/activity_menu_view.xml:0
 #, python-format
 msgid "Remember..."
 msgstr "Lembre..."
@@ -436,8 +432,8 @@ msgid "Responsible User"
 msgstr "Usuario responsable"
 
 #. module: note
-#. openerp-web
-#: code:addons/note/static/src/xml/systray.xml:0
+#. odoo-javascript
+#: code:addons/note/static/src/components/activity_menu_view/activity_menu_view.xml:0
 #, python-format
 msgid "SAVE"
 msgstr "GARDAR"
@@ -447,14 +443,6 @@ msgstr "GARDAR"
 #: model:ir.model.fields,field_description:note.field_note_stage__sequence
 msgid "Sequence"
 msgstr "Secuencia"
-
-#. module: note
-#. openerp-web
-#: code:addons/note/static/src/xml/systray.xml:0
-#: code:addons/note/static/src/xml/systray.xml:0
-#, python-format
-msgid "Set date and time"
-msgstr "Establecer data e hora"
 
 #. module: note
 #: model_terms:ir.ui.view,arch_db:note.view_note_note_filter
@@ -529,8 +517,8 @@ msgid "Tags"
 msgstr "Etiquetas"
 
 #. module: note
-#. openerp-web
-#: code:addons/note/static/src/js/systray_activity_menu.js:0
+#. odoo-javascript
+#: code:addons/note/static/src/models/activity_menu_view.js:0
 #, python-format
 msgid "Today"
 msgstr "Hoxe"
@@ -551,21 +539,6 @@ msgid "Type of the exception activity on record."
 msgstr "Tipo de actividade de excepción rexistrada."
 
 #. module: note
-#: model:ir.model.fields,field_description:note.field_note_note__message_unread
-msgid "Unread Messages"
-msgstr "Mensaxes sen ler"
-
-#. module: note
-#: model:ir.model.fields,field_description:note.field_note_note__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr "Nº de mensaxes sen ler"
-
-#. module: note
-#: model:ir.model.fields,help:note.field_note_stage__sequence
-msgid "Used to order the note stages"
-msgstr "Úseo para ordenar as fases de nota"
-
-#. module: note
 #: model:ir.model,name:note.model_res_users
-msgid "Users"
-msgstr "Usuarios"
+msgid "User"
+msgstr "Usuario"

@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 20:49\n"
-"PO-Revision-Date: 2024-11-07 20:49\n"
+"POT-Creation-Date: 2025-01-22 07:38\n"
+"PO-Revision-Date: 2025-01-22 07:38\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: email_template_qweb
@@ -71,7 +72,7 @@ msgstr ""
 #. module: email_template_qweb
 #: model_terms:ir.ui.view,arch_db:email_template_qweb.view_email_template_demo1
 msgid "This is an email template using qweb."
-msgstr "Isto é un modelo de correo electrónico usando QWeb."
+msgstr "Isto é un modelo de correo electrónico usando qweb."
 
 #. module: email_template_qweb
 #: model:ir.model.fields,field_description:email_template_qweb.field_mail_template__body_view_arch

@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 22:05\n"
-"PO-Revision-Date: 2024-11-07 22:05\n"
+"POT-Creation-Date: 2025-01-22 15:30\n"
+"PO-Revision-Date: 2025-01-22 15:30\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -17,40 +17,44 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: product_manufacturer
-#: model:ir.model.fields,field_description:product_manufacturer.field_product_product__manufacturer_pref
-#: model:ir.model.fields,field_description:product_manufacturer.field_product_template__manufacturer_pref
-msgid "Manuf. Product Code"
-msgstr "Código de produto do fabricante"
-
-#. module: product_manufacturer
-#: model:ir.model.fields,field_description:product_manufacturer.field_product_product__manufacturer_pname
-#: model:ir.model.fields,field_description:product_manufacturer.field_product_template__manufacturer_pname
-msgid "Manuf. Product Name"
-msgstr "Nome de produto do fabricante"
-
-#. module: product_manufacturer
-#: model:ir.model.fields,field_description:product_manufacturer.field_product_product__manufacturer_purl
-#: model:ir.model.fields,field_description:product_manufacturer.field_product_template__manufacturer_purl
-msgid "Manuf. Product URL"
-msgstr "URL de produto do fabricante"
-
-#. module: product_manufacturer
-#: model:ir.model.fields,field_description:product_manufacturer.field_product_product__manufacturer
-#: model:ir.model.fields,field_description:product_manufacturer.field_product_template__manufacturer
+#: model:ir.model.fields,field_description:product_manufacturer.field_product_product__manufacturer_id
+#: model:ir.model.fields,field_description:product_manufacturer.field_product_template__manufacturer_id
 #: model_terms:ir.ui.view,arch_db:product_manufacturer.product_product_view_form_easy_inherit_product_manufacturer
 #: model_terms:ir.ui.view,arch_db:product_manufacturer.product_template_manufacturer_form_view
 msgid "Manufacturer"
 msgstr "Fabricante"
 
 #. module: product_manufacturer
-#: model:ir.model,name:product_manufacturer.model_product_product
+#: model:ir.model.fields,field_description:product_manufacturer.field_product_product__manufacturer_pref
+#: model:ir.model.fields,field_description:product_manufacturer.field_product_template__manufacturer_pref
+msgid "Manufacturer Product Code"
+msgstr "Código de produto do fabricante"
+
+#. module: product_manufacturer
+#: model:ir.model.fields,field_description:product_manufacturer.field_product_product__manufacturer_pname
+#: model:ir.model.fields,field_description:product_manufacturer.field_product_template__manufacturer_pname
+msgid "Manufacturer Product Name"
+msgstr "Nome de produto do fabricante"
+
+#. module: product_manufacturer
+#: model:ir.model.fields,field_description:product_manufacturer.field_product_product__manufacturer_purl
+#: model:ir.model.fields,field_description:product_manufacturer.field_product_template__manufacturer_purl
+msgid "Manufacturer Product URL"
+msgstr "URL de produto do fabricante"
+
+#. module: product_manufacturer
+#: model:ir.model,name:product_manufacturer.model_product_template
 msgid "Product"
 msgstr "Produto"
 
 #. module: product_manufacturer
-#: model:ir.model,name:product_manufacturer.model_product_template
-msgid "Product Template"
-msgstr "Modelo de produto"
+#: model:ir.model,name:product_manufacturer.model_product_product
+msgid "Product Variant"
+msgstr "Variante do produto"
+
+#~ msgid "Product Template"
+#~ msgstr "Modelo de produto"

@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 16:02\n"
-"PO-Revision-Date: 2024-11-08 16:02\n"
+"POT-Creation-Date: 2025-01-22 23:15\n"
+"PO-Revision-Date: 2025-01-22 23:15\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: product_pricelist_simulation
@@ -75,11 +76,6 @@ msgid "Last Updated on"
 msgstr "Últ. actualización o"
 
 #. module: product_pricelist_simulation
-#: model:ir.model.fields,field_description:product_pricelist_simulation.field_wizard_preview_pricelist_line__price
-msgid "Price"
-msgstr "Prezo"
-
-#. module: product_pricelist_simulation
 #: model:ir.model,name:product_pricelist_simulation.model_product_pricelist
 #: model:ir.model.fields,field_description:product_pricelist_simulation.field_wizard_preview_pricelist_line__pricelist_id
 msgid "Pricelist"
@@ -109,8 +105,8 @@ msgstr "Ver prezo por tarifa"
 
 #. module: product_pricelist_simulation
 #: model:ir.model.fields,field_description:product_pricelist_simulation.field_product_pricelist__show_in_simulation
-msgid "Show in simulation"
-msgstr "Mostrar en simulación"
+msgid "Show In Simulation"
+msgstr "Mostrar En Simulación"
 
 #. module: product_pricelist_simulation
 #: model:ir.model.fields,field_description:product_pricelist_simulation.field_wizard_preview_pricelist_line__simulation_id
@@ -123,6 +119,11 @@ msgid "Simulation Lines"
 msgstr "Liñas de simulación"
 
 #. module: product_pricelist_simulation
+#: model:ir.model.fields,field_description:product_pricelist_simulation.field_wizard_preview_pricelist_line__price
+msgid "Unit Price"
+msgstr "Prezo Unitario"
+
+#. module: product_pricelist_simulation
 #: model:ir.model.fields,field_description:product_pricelist_simulation.field_wizard_preview_pricelist__variant_count
 msgid "Variants Count"
 msgstr "Variantes"
@@ -130,9 +131,15 @@ msgstr "Variantes"
 #. module: product_pricelist_simulation
 #: model:ir.model,name:product_pricelist_simulation.model_wizard_preview_pricelist
 msgid "wizard - Preview Pricelist"
-msgstr "asistente - Vista previa da Lista de Prezos"
+msgstr "asistente - Vista previa da lista de prezos"
 
 #. module: product_pricelist_simulation
 #: model:ir.model,name:product_pricelist_simulation.model_wizard_preview_pricelist_line
 msgid "wizard - Preview Pricelist Line"
-msgstr "asistente - Vista previa de Liña de Lista de Prezos"
+msgstr "asistente - Vista previa de liña de lista de prezos"
+
+#~ msgid "Price"
+#~ msgstr "Prezo"
+
+#~ msgid "Show in simulation"
+#~ msgstr "Mostrar en simulación"

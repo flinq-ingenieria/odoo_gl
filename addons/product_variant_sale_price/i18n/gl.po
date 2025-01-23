@@ -7,10 +7,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 02:07\n"
-"PO-Revision-Date: 2024-11-08 02:07\n"
+"POT-Creation-Date: 2025-01-22 13:25\n"
+"PO-Revision-Date: 2025-01-22 13:25\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -18,6 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: product_variant_sale_price
@@ -42,8 +43,8 @@ msgstr "Modelo de produto"
 
 #. module: product_variant_sale_price
 #: model:ir.model.fields,field_description:product_variant_sale_price.field_product_product__lst_price
-msgid "Sales Price"
-msgstr "Prezo de venda"
+msgid "Sale Price"
+msgstr "Prezo de Venda"
 
 #. module: product_variant_sale_price
 #: model:ir.model.fields,help:product_variant_sale_price.field_product_product__lst_price
@@ -52,11 +53,7 @@ msgid ""
 " Variants' button to set the extra attribute prices."
 msgstr ""
 "O prezo de venda xestiónase desde o modelo do produto. Faga clic no botón "
-"'Configurar variantes' para establecer os prezos dos atributos adicionais."
-
-#, fuzzy
-#~ msgid "Sale Price"
-#~ msgstr "Prezo fixo"
+"\"Configurar Variantes\" para establecer os prezos dos atributos adicionais."
 
 #~ msgid ""
 #~ "{'invisible': [\n"

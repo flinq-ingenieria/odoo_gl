@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 11:53\n"
-"PO-Revision-Date: 2024-11-08 11:53\n"
+"POT-Creation-Date: 2025-01-22 12:45\n"
+"PO-Revision-Date: 2025-01-22 12:45\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -52,12 +52,12 @@ msgid "None"
 msgstr "Ningún/a"
 
 #. module: account_einvoice_generate
-#: model_terms:ir.ui.view,arch_db:account_einvoice_generate.view_account_config_settings
-msgid "Select the format of your e-invoices."
-msgstr "Seleccione o formato das súas facturas electrónicas."
-
-#. module: account_einvoice_generate
 #: model:ir.model.fields,field_description:account_einvoice_generate.field_res_company__xml_format_in_pdf_invoice
 #: model:ir.model.fields,field_description:account_einvoice_generate.field_res_config_settings__xml_format_in_pdf_invoice
 msgid "XML Format embedded in PDF invoice"
-msgstr "Formato XML incluído en factura PDF"
+msgstr "Formato XML integrado en factura PDF"
+
+#. module: account_einvoice_generate
+#: model_terms:ir.ui.view,arch_db:account_einvoice_generate.view_account_config_settings
+msgid "XML format attached to your PDF customer invoices"
+msgstr "Formato XML adxunto ás súas facturas de clientes en PDF"

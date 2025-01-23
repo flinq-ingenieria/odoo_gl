@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 20:37\n"
-"PO-Revision-Date: 2024-11-07 20:37\n"
+"POT-Creation-Date: 2025-01-21 14:16\n"
+"PO-Revision-Date: 2025-01-21 14:16\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,6 +20,7 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: account_invoice_merge
+#. odoo-python
 #: code:addons/account_invoice_merge/wizard/invoice_merge.py:0
 #, python-format
 msgid "All invoices must have the same: \n"
@@ -51,10 +52,16 @@ msgid "Display Name"
 msgstr "Nome mostrado"
 
 #. module: account_invoice_merge
+#. odoo-python
 #: code:addons/account_invoice_merge/wizard/invoice_merge.py:0
 #, python-format
 msgid "Draft"
 msgstr "Borrador"
+
+#. module: account_invoice_merge
+#: model:ir.model.fields,field_description:account_invoice_merge.field_invoice_merge__error_message
+msgid "Error Message"
+msgstr "Mensaxe de erro"
 
 #. module: account_invoice_merge
 #: model:ir.model.fields,field_description:account_invoice_merge.field_invoice_merge__id
@@ -69,7 +76,7 @@ msgstr "Data da factura"
 #. module: account_invoice_merge
 #: model:ir.model,name:account_invoice_merge.model_account_move
 msgid "Journal Entry"
-msgstr "Entrada Diaria"
+msgstr "Asento contable"
 
 #. module: account_invoice_merge
 #: model:ir.model.fields,field_description:account_invoice_merge.field_invoice_merge__keep_references
@@ -104,10 +111,11 @@ msgid "Merge Partner Invoice"
 msgstr "Fusionar factura de empresa"
 
 #. module: account_invoice_merge
+#. odoo-python
 #: code:addons/account_invoice_merge/wizard/invoice_merge.py:0
 #, python-format
 msgid "Merge-able State (ex : %s)"
-msgstr "Estado fusionable (ej : %s)"
+msgstr "Estado Mergeable (ex : %s)"
 
 #. module: account_invoice_merge
 #: model_terms:ir.ui.view,arch_db:account_invoice_merge.view_invoice_merge
@@ -133,15 +141,11 @@ msgstr ""
 "                        produto, cantidade e unidade.<br/>"
 
 #. module: account_invoice_merge
+#. odoo-python
 #: code:addons/account_invoice_merge/wizard/invoice_merge.py:0
 #, python-format
 msgid "Please select multiple invoices to merge in the list view."
 msgstr "Por favor seleccione múltiples facturas a fusionar na vista lista."
-
-#. module: account_invoice_merge
-#: model_terms:ir.ui.view,arch_db:account_invoice_merge.view_invoice_merge
-msgid "or"
-msgstr "ou"
 
 #, fuzzy, python-format
 #~ msgid "Draf"
@@ -153,6 +157,9 @@ msgstr "ou"
 #, python-format
 #~ msgid "Megeable State (ex : %s)"
 #~ msgstr "Estado Fusionable (ex:%s)"
+
+#~ msgid "or"
+#~ msgstr "ou"
 
 #~ msgid "At least one of the selected invoices is %s!"
 #~ msgstr "Polo menos una das facturas seleccionadas está %s!"

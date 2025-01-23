@@ -3,15 +3,15 @@
 # 	* mass_mailing_event
 #
 # Translators:
-# Martin Trigaux, 2021
-# Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2023
+# Martin Trigaux, 2022
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 06:01\n"
-"PO-Revision-Date: 2024-11-08 06:01\n"
+"POT-Creation-Date: 2025-01-22 12:09\n"
+"PO-Revision-Date: 2025-01-22 12:09\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -24,7 +24,7 @@ msgstr ""
 #. module: mass_mailing_event
 #: model_terms:ir.ui.view,arch_db:mass_mailing_event.event_event_view_form_inherit_mass_mailing
 msgid "Contact Attendees"
-msgstr "Contactar cos asistentes"
+msgstr "Contactar aos asistentes"
 
 #. module: mass_mailing_event
 #: model:ir.model,name:mass_mailing_event.model_event_event
@@ -34,7 +34,7 @@ msgstr "Evento"
 #. module: mass_mailing_event
 #: model:ir.model,name:mass_mailing_event.model_event_registration
 msgid "Event Registration"
-msgstr "Inscrición do evento"
+msgstr "Inscrición ao evento"
 
 #. module: mass_mailing_event
 #: model_terms:ir.ui.view,arch_db:mass_mailing_event.event_event_view_form_inherit_mass_mailing

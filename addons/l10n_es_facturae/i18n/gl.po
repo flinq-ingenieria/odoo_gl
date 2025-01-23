@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 23:01\n"
-"PO-Revision-Date: 2024-11-08 23:01\n"
+"POT-Creation-Date: 2025-01-21 20:41\n"
+"PO-Revision-Date: 2025-01-21 20:41\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,12 +15,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:29\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: l10n_es_facturae
 #: model_terms:ir.ui.view,arch_db:l10n_es_facturae.facturae_header
 msgid "&gt;"
-msgstr ""
+msgstr "&gt;"
 
 #. module: l10n_es_facturae
 #: model_terms:ir.ui.view,arch_db:l10n_es_facturae.facturae_header
@@ -33,6 +34,8 @@ msgid ""
 "&lt;fe:Facturae "
 "xmlns:fe=\"http://www.facturae.es/Facturae/2009/v3.2/Facturae\""
 msgstr ""
+"&lt;fe:Facturae "
+"xmlns:fe=\"http://www.facturae.es/facturae/2009/v3.2/Facturae\""
 
 #. module: l10n_es_facturae
 #: model_terms:ir.ui.view,arch_db:l10n_es_facturae.facturae_header
@@ -40,6 +43,8 @@ msgid ""
 "&lt;fe:Facturae "
 "xmlns:fe=\"http://www.facturae.es/Facturae/2014/v3.2.1/Facturae\""
 msgstr ""
+"&lt;fe:Facturae "
+"xmlns:fe=\"http://www.facturae.es/facturae/2014/v3.2.1/Facturae\""
 
 #. module: l10n_es_facturae
 #: model_terms:ir.ui.view,arch_db:l10n_es_facturae.facturae_header
@@ -47,6 +52,8 @@ msgid ""
 "&lt;fe:Facturae "
 "xmlns:fe=\"http://www.facturae.gob.es/formato/Versiones/Facturaev3_2_2.xml\""
 msgstr ""
+"&lt;fe:Facturae "
+"xmlns:fe=\"http://www.facturae.gob.es/formato/versiones/facturaev3_2_2.xml\""
 
 #. module: l10n_es_facturae
 #: model:ir.model.fields.selection,name:l10n_es_facturae.selection__res_company__facturae_version__3_2
@@ -141,42 +148,49 @@ msgid "Companies"
 msgstr "Compañías"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/account_move.py:0
 #, python-format
 msgid "Company city not provided"
 msgstr "Ciudad da empresa non proporcionada"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/account_move.py:0
 #, python-format
 msgid "Company country not provided"
 msgstr "País da empresa non proporcionado"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/account_move.py:0
 #, python-format
 msgid "Company state not provided"
 msgstr "Estado da empresa non proporcionado"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/account_move.py:0
 #, python-format
 msgid "Company street not provided"
 msgstr "Rúa da empresa non proporcionada"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/account_move.py:0
 #, python-format
 msgid "Company vat is too small"
 msgstr "O identificador fiscal da compañía é demasiado curto"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/account_move.py:0
 #, python-format
 msgid "Company vat not provided"
 msgstr "É necesario o identificador fiscal da compañía"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/account_move.py:0
 #, python-format
 msgid "Company zip not provided"
@@ -196,6 +210,7 @@ msgid "Correction Method"
 msgstr "Método de corrección"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/res_partner.py:0
 #, python-format
 msgid "Country must be defined for factura-e enabled partners."
@@ -281,11 +296,17 @@ msgid "Domicilio Receptor"
 msgstr "Domicilio Receptor"
 
 #. module: l10n_es_facturae
+#: model_terms:ir.ui.view,arch_db:l10n_es_facturae.view_move_form
+msgid "Edit"
+msgstr "Editar"
+
+#. module: l10n_es_facturae
 #: model_terms:ir.ui.view,arch_db:l10n_es_facturae.wizard_create_facturae
 msgid "Export"
 msgstr "Exportar"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/wizard/create_facturae.py:0
 #, python-format
 msgid ""
@@ -329,6 +350,7 @@ msgid "Facturae Code"
 msgstr "Código Facturae"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/account_move.py:0
 #, python-format
 msgid "Facturae Configuration"
@@ -444,6 +466,7 @@ msgid "Facturae sin firmar"
 msgstr "Facturae sen asinar"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/account_move.py:0
 #, python-format
 msgid ""
@@ -517,7 +540,7 @@ msgid ""
 " la Comunidad Autonoma Canaria"
 msgstr ""
 "IECDPCAC: Imposto especial sobre os combustibles derivados do petróleo na "
-"Comunidade Autonoma Canaria"
+"Comunidade Autónoma Canaria"
 
 #. module: l10n_es_facturae
 #: model:ir.model.fields.selection,name:l10n_es_facturae.selection__account_tax__facturae_code__03
@@ -607,13 +630,19 @@ msgstr "Identificación fiscal Emisor/Obrigado"
 #: model:ir.model.fields.selection,name:l10n_es_facturae.selection__account_move__facturae_refund_reason__07
 #: model:ir.model.fields.selection,name:l10n_es_facturae.selection__account_move_reversal__refund_reason__07
 msgid "Identificación fiscal Receptor"
-msgstr "Receptor fiscal de identificación"
+msgstr "Identificación fiscal Receptor"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/account_move.py:0
 #, python-format
 msgid "Invoice %s"
 msgstr "Factura %s"
+
+#. module: l10n_es_facturae
+#: model_terms:ir.ui.view,arch_db:l10n_es_facturae.view_move_form
+msgid "Invoicing Period"
+msgstr "Período de facturación"
 
 #. module: l10n_es_facturae
 #: model:ir.model,name:l10n_es_facturae.model_account_move
@@ -659,10 +688,9 @@ msgstr "Literais legais"
 #. module: l10n_es_facturae
 #: model:ir.model.fields,field_description:l10n_es_facturae.field_create_facturae__note
 msgid "Log"
-msgstr "Rexistro"
+msgstr "Rexistro (Log)"
 
 #. module: l10n_es_facturae
-#: model:ir.model.fields,field_description:l10n_es_facturae.field_create_facturae__move_id
 #: model:ir.model.fields,field_description:l10n_es_facturae.field_l10n_es_facturae_attachment__move_id
 msgid "Move"
 msgstr "Movemento"
@@ -692,10 +720,22 @@ msgid "Oficina Contable"
 msgstr "Oficina Contable"
 
 #. module: l10n_es_facturae
+#. odoo-python
+#: code:addons/l10n_es_facturae/models/account_move.py:0
+#, python-format
+msgid "Oficina Contable not provided"
+msgstr "A Oficina Contable é obrigatoria"
+
+#. module: l10n_es_facturae
 #: model:ir.model.fields,field_description:l10n_es_facturae.field_res_partner__organo_gestor
 #: model:ir.model.fields,field_description:l10n_es_facturae.field_res_users__organo_gestor
 msgid "Organo Gestor"
 msgstr "Órgano Xestor"
+
+#. module: l10n_es_facturae
+#: model_terms:ir.ui.view,arch_db:l10n_es_facturae.view_move_form
+msgid "Other facturae fields"
+msgstr "Outros campos de facturae"
 
 #. module: l10n_es_facturae
 #: model:ir.model.fields.selection,name:l10n_es_facturae.selection__account_tax__facturae_code__05
@@ -704,24 +744,28 @@ msgid "Otro"
 msgstr "Outro"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/account_move.py:0
 #, python-format
 msgid "Partner state not provided"
 msgstr "O estado é obrigatorio"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/account_move.py:0
 #, python-format
 msgid "Partner street address is not provided"
 msgstr "Non se facilita a dirección do socio"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/account_move.py:0
 #, python-format
 msgid "Partner vat is too small"
 msgstr "O identificador fiscal do Cliente é demasiado curto"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/account_move.py:0
 #, python-format
 msgid "Partner vat not provided"
@@ -733,6 +777,7 @@ msgid "Payment Modes"
 msgstr "Modos de pago"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/account_move.py:0
 #, python-format
 msgid "Payment mode is required"
@@ -748,7 +793,7 @@ msgstr "Porcentaxe impositiva a aplicar"
 #: model:ir.model.fields.selection,name:l10n_es_facturae.selection__account_tax__facturae_code__18
 #: model:ir.model.fields.selection,name:l10n_es_facturae.selection__account_tax_template__facturae_code__18
 msgid "REIGIC: Régimen especial de IGIC: para agencias deviajes"
-msgstr "REIGIC: Réxime especial de IGIC: para axencias deviajes"
+msgstr "REIGIC: Réxime especial de IGIC: para axencias de viaxes"
 
 #. module: l10n_es_facturae
 #: model:ir.model.fields.selection,name:l10n_es_facturae.selection__account_tax__facturae_code__19
@@ -804,12 +849,14 @@ msgid "Second"
 msgstr "Segundo"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/account_move.py:0
 #, python-format
 msgid "Selected account BIC must be 11"
 msgstr "O BIC do banco da conta debe ter 11 carácteres"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/account_move.py:0
 #, python-format
 msgid "Selected account is too small"
@@ -822,6 +869,7 @@ msgid "Serie de la factura"
 msgstr "Serie da factura"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/account_move.py:0
 #, python-format
 msgid "Start date cannot be later than end date"
@@ -833,12 +881,14 @@ msgid "State"
 msgstr "Estado"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/res_partner.py:0
 #, python-format
 msgid "State must be defined for factura-e enabled partners."
 msgstr "Debe definirse o estado para os socios habilitados para factura-e."
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/res_partner.py:0
 #, python-format
 msgid "Street must be defined for factura-e enabled partners."
@@ -850,11 +900,19 @@ msgid "Tax"
 msgstr "Imposto"
 
 #. module: l10n_es_facturae
+#. odoo-python
+#: code:addons/l10n_es_facturae/models/account_move.py:0
+#, python-format
+msgid "Taxes not provided in move line %s"
+msgstr "Impostos non proporcionados na liña de movemento %s"
+
+#. module: l10n_es_facturae
 #: model:ir.model,name:l10n_es_facturae.model_account_tax_template
 msgid "Templates for Taxes"
 msgstr "Modelo de impostos"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/reports/report_facturae.py:0
 #, python-format
 msgid ""
@@ -868,10 +926,11 @@ msgstr ""
 "erro que pode dar unha idea do problema é: %s"
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/reports/report_facturae.py:0
 #, python-format
 msgid "The provided certificate is not found in the system."
-msgstr "O certificado proporcionado non se atopa no sistema."
+msgstr ""
 
 #. module: l10n_es_facturae
 #: model:ir.model.fields,help:l10n_es_facturae.field_res_company__facturae_hide_discount
@@ -892,12 +951,21 @@ msgid "Unidad Tramitadora"
 msgstr "Unidade Tramitadora"
 
 #. module: l10n_es_facturae
+#. odoo-python
+#: code:addons/l10n_es_facturae/models/account_move.py:0
+#, python-format
+msgid "Unidad Tramitadora not provided"
+msgstr "A Unidade Tramitadora é obrigatoria"
+
+#. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/res_partner.py:0
 #, python-format
 msgid "Vat must be defined for factura-e enabled partners."
 msgstr "O iva debe definirse para os socios habilitados para factura-e."
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/models/account_move.py:0
 #, python-format
 msgid "You can only create Facturae files for moves that have been validated."
@@ -905,10 +973,11 @@ msgstr ""
 "Só se poden crear fichas de Facturae para os movementos que fosen validados."
 
 #. module: l10n_es_facturae
+#. odoo-python
 #: code:addons/l10n_es_facturae/wizard/create_facturae.py:0
 #, python-format
-msgid "You must select a move to export"
-msgstr "Debe seleccionar un movemento para exportar"
+msgid "You can only select one move to export"
+msgstr "Só pode seleccionar un movemento para exportar"
 
 #. module: l10n_es_facturae
 #: model:ir.model.fields.selection,name:l10n_es_facturae.selection__account_payment_mode__facturae_code__01
@@ -1016,32 +1085,21 @@ msgstr "Órgano propoñente"
 #~ "            xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\"&gt;"
 #~ msgstr ""
 #~ "&lt;fe:Facturae xmlns:fe=\"http://www.facturae.es/facturae/2009/v3.2/Facturae\"\n"
-#~ "                            xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\"&gt;"
+#~ "            xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\"&gt;"
 
 #~ msgid ""
 #~ "&lt;fe:Facturae xmlns:fe=\"http://www.facturae.es/Facturae/2014/v3.2.1/Facturae\"\n"
 #~ "            xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\"&gt;"
 #~ msgstr ""
 #~ "&lt;fe:Facturae xmlns:fe=\"http://www.facturae.es/facturae/2014/v3.2.1/Facturae\"\n"
-#~ "                            xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\"&gt;"
+#~ "            xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\"&gt;"
 
 #~ msgid ""
 #~ "&lt;fe:Facturae xmlns:fe=\"http://www.facturae.gob.es/formato/Versiones/Facturaev3_2_2.xml\"\n"
 #~ "            xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\"&gt;"
 #~ msgstr ""
 #~ "&lt;fe:Facturae xmlns:fe=\"http://www.facturae.gob.es/formato/versiones/facturaev3_2_2.xml\"\n"
-#~ "                            xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\"&gt;"
-
-#~ msgid "Invoicing Period"
-#~ msgstr "Período de facturación"
-
-#, python-format
-#~ msgid ""
-#~ "You can only create the facturae file if the client have the facturae "
-#~ "feature activated."
-#~ msgstr ""
-#~ "Só pode crear o ficheiro facturae se o cliente ten activada a función "
-#~ "facturae."
+#~ "            xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\"&gt;"
 
 #, python-format
 #~ msgid "Country must be defined"

@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 05:08\n"
-"PO-Revision-Date: 2024-11-08 05:08\n"
+"POT-Creation-Date: 2025-01-21 21:30\n"
+"PO-Revision-Date: 2025-01-21 21:30\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -25,23 +25,22 @@ msgid ""
 "A payment method of the same type already exists with this code and PAIN "
 "version"
 msgstr ""
-"Un método de pago do mesmo tipo xa existe con este código e esta versión "
-"PAIN"
+"Xa existe un método de pago do mesmo tipo con este código e versión PAIN"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__acct
 msgid "Account Management"
-msgstr "Xestionar Conta"
+msgstr "Xestión de contas"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__adva
 msgid "Advance Payment"
-msgstr "Pago Avanzado"
+msgstr "Anticipo"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__agrt
 msgid "Agricultural Transfer"
-msgstr "Transferencia agraria"
+msgstr "Transferencia Agrícola"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__airb
@@ -51,12 +50,12 @@ msgstr "Aire"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__almy
 msgid "Alimony Payment"
-msgstr "Pago de Pensión Alimenticia"
+msgstr "Pago Alimony"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__ants
 msgid "Anesthesia Services"
-msgstr "Servizos de Anestesia"
+msgstr "Servizos Anesthesia"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__anni
@@ -76,12 +75,12 @@ msgstr "Reserva por lotes"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__bonu
 msgid "Bonus Payment"
-msgstr "Pago do bonus"
+msgstr "Pago de Bonus"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__bonu
 msgid "Bonus Payment."
-msgstr "Pago do bonus."
+msgstr "Pago de Bonus."
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_order__charge_bearer__cred
@@ -96,17 +95,17 @@ msgstr "A cargo do debedor"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__busb
 msgid "Bus"
-msgstr "Colectivo"
+msgstr "Autobús"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__bexp
 msgid "Business Expenses"
-msgstr "Gastos de empresa"
+msgstr "Gastos de negocio"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__cbtv
 msgid "Cable TV Bill"
-msgstr "Factura do Cable de TV"
+msgstr "Factura TV por cable"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__cfee
@@ -114,15 +113,16 @@ msgid "Cancellation Fee"
 msgstr "Comisión de cancelación"
 
 #. module: account_banking_pain_base
+#. odoo-python
 #: code:addons/account_banking_pain_base/models/account_payment_order.py:0
 #, python-format
 msgid "Cannot compute the field '{field_name}'."
-msgstr "Non se pode procesar o campo '{field_name}'."
+msgstr "Non se pode calcular o campo'{field_name}'."
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__clpr
 msgid "Car Loan Principal Repayment"
-msgstr "amortización principal do préstamo de automóbil"
+msgstr "Reembolso do principal do préstamo de automóbil"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__cblk
@@ -133,12 +133,12 @@ msgstr "Compensación masiva de tarxetas"
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__cash
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__cash
 msgid "Cash Management Transfer"
-msgstr "Transferencia de efectivo"
+msgstr "Transferencia de xestión de efectivo"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_account_payment_line__category_purpose
 msgid "Category Purpose"
-msgstr "Propósito da categoría"
+msgstr "Categoría Propósito"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_account_payment_order__charge_bearer
@@ -148,7 +148,7 @@ msgstr "A cargo do portador"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__char
 msgid "Charity Payment"
-msgstr "Pago caritativo"
+msgstr "Doazón"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__bech
@@ -158,7 +158,7 @@ msgstr "Beneficio infantil"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__coll
 msgid "Collection Payment"
-msgstr "Pago da recadación"
+msgstr "Cobro Pago"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__comc
@@ -173,7 +173,7 @@ msgstr "Comisión"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__cmdt
 msgid "Commodity Transfer"
-msgstr "Transferencia de materias primas"
+msgstr "Transferencia de produtos básicos"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_account_payment_line__communication
@@ -193,17 +193,17 @@ msgstr "Compañías"
 #. module: account_banking_pain_base
 #: model:ir.model,name:account_banking_pain_base.model_res_config_settings
 msgid "Config Settings"
-msgstr "axustes de configuración"
+msgstr "Axustes de configuración"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__comt
 msgid "Consumer Third Party Consolidated Payment"
-msgstr "Pago consolidado a terceiros consumidores"
+msgstr "Pago consolidado a terceiros"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__cvcf
 msgid "Convalescent Care Facility"
-msgstr "Centro de coidados de convalecencia"
+msgstr "Pago consolidado a terceiros"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_account_payment_method__convert_to_ascii
@@ -213,7 +213,7 @@ msgstr "Converter a ASCII"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__cpyr
 msgid "Copyright"
-msgstr "Dereitos de autor"
+msgstr "Copyright"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__cost
@@ -231,12 +231,14 @@ msgid "Credit Card Payment "
 msgstr "Pago con tarxeta de crédito "
 
 #. module: account_banking_pain_base
+#. odoo-python
 #: code:addons/account_banking_pain_base/models/account_payment_order.py:0
 #, python-format
 msgid "Creditor name"
 msgstr "Nome do acredor"
 
 #. module: account_banking_pain_base
+#. odoo-python
 #: code:addons/account_banking_pain_base/models/account_payment_order.py:0
 #, python-format
 msgid ""
@@ -251,7 +253,7 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__dcrd
 msgid "Debit  Card  Payment"
-msgstr "Pago con Tarxeta        de débito"
+msgstr "Pago con Tarxeta    de débito"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__dcrd
@@ -259,6 +261,7 @@ msgid "Debit Card Payment"
 msgstr "Pago con tarxeta de débito"
 
 #. module: account_banking_pain_base
+#. odoo-python
 #: code:addons/account_banking_pain_base/models/account_payment_order.py:0
 #, python-format
 msgid "Debtor name"
@@ -267,7 +270,7 @@ msgstr "Nome do debedor"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__dvpm
 msgid "Deliver Against Payment"
-msgstr "Pago contrarreembolso"
+msgstr "Entrega contra reembolso"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__dnts
@@ -301,7 +304,7 @@ msgid ""
 "Enable this option if your country requires several SEPA/PAIN identifiers "
 "like in Spain."
 msgstr ""
-"Activa esta opción se o teu país necesita varios identificadores SEPA/PAIN "
+"Activa esta opción se o teu país require varios identificadores SAIBA/PAIN "
 "como en España."
 
 #. module: account_banking_pain_base
@@ -312,7 +315,7 @@ msgstr "Enerxías"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__estx
 msgid "Estate Tax"
-msgstr "Imposto sobre patrimonio"
+msgstr "Imposto sobre sucesións"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__fcol
@@ -322,7 +325,7 @@ msgstr "Cobranza de tarifas"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__ferb
 msgid "Ferry"
-msgstr "transbordador"
+msgstr "Transbordador"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_order__charge_bearer__slev
@@ -341,7 +344,7 @@ msgid ""
 "the debtor."
 msgstr ""
 "Segundo o acordo de servizo: os custos da transacción aplicaranse seguindo "
-"as regras acordadas no nivel de servizo e/ou no esquema (as remesas SEPA "
+"as regras acordadas no nivel de servizo e/ou no esquema (as remesas SAIBA "
 "Core deben usar esta opción). Compartidos: os custos da transacción na parte"
 " do acredor están a cargo do acredor, e os custos da transacción ao lado do "
 "debedor estarán a cargo do debedor. A cargo do acredor: todos os custos da "
@@ -351,7 +354,7 @@ msgstr ""
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__frex
 msgid "Foreign Exchange"
-msgstr "Cambio de divisas"
+msgstr "Divisas"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__gasb
@@ -398,7 +401,7 @@ msgstr "Atención hospitalaria"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__hlrp
 msgid "Housing Loan Repayment"
-msgstr "Reembolso da préstamo vivenda"
+msgstr "Pago de préstamo de vivenda"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__hstx
@@ -428,8 +431,8 @@ msgid ""
 "If neither your bank nor your local regulations oblige you to set the "
 "category purpose, leave the field empty."
 msgstr ""
-"Se nin o seu banco nin a normativa local obríganlle a establecer a "
-"finalidade da categoría, deixe o campo baleiro."
+"Se nin o seu banco nin as normativas locais obríganlle a establecer o "
+"propósito da categoría, deixe o campo baleiro."
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,help:account_banking_pain_base.field_account_payment_order__batch_booking
@@ -439,8 +442,8 @@ msgid ""
 "display one debit line per wire transfer of the SEPA XML file."
 msgstr ""
 "Se está marcado, o extracto bancario mostrará só unha liña do haber para "
-"todos os adeudos directos do arquivo SEPA; se non está marcado, entón o "
-"extracto bancario mostrará unha liña por cada debo directo do arquivo SEPA."
+"todos os adeudos directos do arquivo SAIBA; se non está marcado, entón o "
+"extracto bancario mostrará unha liña por cada debo directo do arquivo SAIBA."
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__intx
@@ -471,12 +474,12 @@ msgstr "Réxime da parte iniciadora"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__insm
 msgid "Installment"
-msgstr "pago a prazos"
+msgstr "Entrega"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__ihrp
 msgid "Instalment Hire Purchase Agreement"
-msgstr "Contrato de arrendamento financeiro a prazos"
+msgstr "Acordo de compra a prazos"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__insu
@@ -497,12 +500,12 @@ msgstr "Centro de coidados intermedios"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__intc
 msgid "Intra Company Payment"
-msgstr "Pago dentro da empresa"
+msgstr "Pagos intracompañía"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__intc
 msgid "Intra-Company Payment"
-msgstr "Pago dentro da empresa"
+msgstr "Pagos intra-compañía"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__iccp
@@ -566,6 +569,7 @@ msgid "Medical Services"
 msgstr "Servizos médicos"
 
 #. module: account_banking_pain_base
+#. odoo-python
 #: code:addons/account_banking_pain_base/models/account_payment_order.py:0
 #, python-format
 msgid ""
@@ -601,6 +605,7 @@ msgid "Network Communication"
 msgstr "Comunicación en rede"
 
 #. module: account_banking_pain_base
+#. odoo-python
 #: code:addons/account_banking_pain_base/models/account_payment_method.py:0
 #, python-format
 msgid "No XSD file path found for payment method '%s'"
@@ -614,7 +619,7 @@ msgstr "Normal"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__nows
 msgid "Not Otherwise Specified"
-msgstr "Non especificado noutra parte"
+msgstr "Non especificado"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__ofee
@@ -624,7 +629,7 @@ msgstr "Comisión de apertura"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__othr
 msgid "Other"
-msgstr "Outra/ou"
+msgstr "Outro"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__othr
@@ -642,22 +647,25 @@ msgid "PAIN Version"
 msgstr "Versión PAIN"
 
 #. module: account_banking_pain_base
+#. odoo-python
 #: code:addons/account_banking_pain_base/models/account_payment_order.py:0
 #, python-format
 msgid "Partner name"
-msgstr "Nome do socio"
+msgstr "Nome do partner"
 
 #. module: account_banking_pain_base
+#. odoo-python
 #: code:addons/account_banking_pain_base/models/account_payment_order.py:0
 #, python-format
 msgid "Partner's bank account is '%s'."
-msgstr "A conta bancaria do socio é '%s'."
+msgstr "A conta bancaria do Partner é'%s'."
 
 #. module: account_banking_pain_base
+#. odoo-python
 #: code:addons/account_banking_pain_base/models/account_payment_order.py:0
 #, python-format
 msgid "Payment Line has reference '%s'."
-msgstr "A liña de pago ten a referencia \"%s\"."
+msgstr "Liña de pago con referencia '%s'."
 
 #. module: account_banking_pain_base
 #: model:ir.model,name:account_banking_pain_base.model_account_payment_line
@@ -682,13 +690,13 @@ msgstr "Orde de pago"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__ptsp
 msgid "Payment Terms"
-msgstr "Condicións de pago"
+msgstr "Prazos de pago"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__pens
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__pens
 msgid "Pension Payment"
-msgstr "Pago de pensión"
+msgstr "Pago de pensións"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__padd
@@ -703,7 +711,7 @@ msgstr "Metais preciosos"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__prcp
 msgid "Price Payment"
-msgstr "Prezo do Pago"
+msgstr "Pago SAIBA"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_account_payment_line__priority
@@ -738,7 +746,7 @@ msgstr "Ferrocarril"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__rcpt
 msgid "Receipt Payment"
-msgstr "Recibo do Pago"
+msgstr "Recibo Pago"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__rvpm
@@ -758,28 +766,38 @@ msgstr "Alugar"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__roya
 msgid "Royalties"
-msgstr "Dereitos"
+msgstr "Canons"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,field_description:account_banking_pain_base.field_account_payment_order__sepa
 msgid "SEPA Payment"
-msgstr "Pago SEPA"
+msgstr "Pago SAIBA"
 
 #. module: account_banking_pain_base
-#: model_terms:ir.ui.view,arch_db:account_banking_pain_base.view_account_config_settings
+#: model:ir.model.fields,field_description:account_banking_pain_base.field_account_payment_order__sepa_payment_method
+msgid "SEPA Payment Method"
+msgstr "Método de Pago SAIBA"
+
+#. module: account_banking_pain_base
+#: model_terms:ir.ui.view,arch_db:account_banking_pain_base.account_payment_order_form
+msgid "SEPA zone"
+msgstr "Zona SAIBA"
+
+#. module: account_banking_pain_base
+#: model_terms:ir.ui.view,arch_db:account_banking_pain_base.res_config_settings_view_form
 msgid "SEPA/PAIN"
-msgstr "SEPA/PAIN"
+msgstr "SAIBA/PAIN"
 
 #. module: account_banking_pain_base
 #: model:res.groups,name:account_banking_pain_base.group_pain_multiple_identifier
 msgid "SEPA/PAIN Identifiers on Payment Modes"
-msgstr "Identificadores SEPA/PAIN nos modos de pago"
+msgstr "Identificadores SAIBA/PAIN nos modos de pago"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__sala
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__sala
 msgid "Salary Payment"
-msgstr "Pago de salarios"
+msgstr "Pago do salario"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__savg
@@ -798,6 +816,11 @@ msgid "Shared"
 msgstr "Compartidos"
 
 #. module: account_banking_pain_base
+#: model:ir.model.fields,field_description:account_banking_pain_base.field_account_payment_order__show_warning_not_sepa
+msgid "Show Warning Not Sepa"
+msgstr "Mostrar Advertencia Non Saiba"
+
+#. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__ssbe
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__ssbe
 msgid "Social Security Benefit"
@@ -806,12 +829,12 @@ msgstr "Prestación da Seguridade Social"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__stdy
 msgid "Study"
-msgstr "Estudo"
+msgstr "Estudar"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__subs
 msgid "Subscription"
-msgstr "subscrición"
+msgstr "Subscrición"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__category_purpose__supp
@@ -831,12 +854,14 @@ msgid "Telephone Bill"
 msgstr "Factura telefónica"
 
 #. module: account_banking_pain_base
+#. odoo-python
 #: code:addons/account_banking_pain_base/models/account_payment_order.py:0
 #, python-format
 msgid "The '%s' is empty or 0. It should have a non-null value."
 msgstr "'%s' está baleiro ou é 0. Debería ter un valor non nulo."
 
 #. module: account_banking_pain_base
+#. odoo-python
 #: code:addons/account_banking_pain_base/models/res_bank.py:0
 #, python-format
 msgid ""
@@ -845,12 +870,13 @@ msgid ""
 "\n"
 "SEPA pattern: {sepa_pattern}"
 msgstr ""
-"Os seguintes códigos de identificación bancaria (BIC) non respectan o patrón SEPA:\n"
+"Os seguintes códigos de identificación bancaria (BIC) non respectan o patrón SAIBA:\n"
 "{bic_list}\n"
 "\n"
-"Patrón SEPA: {saiba_pattern}"
+"Patrón SAIBA: {saiba_pattern}"
 
 #. module: account_banking_pain_base
+#. odoo-python
 #: code:addons/account_banking_pain_base/models/account_payment_order.py:0
 #, python-format
 msgid ""
@@ -865,13 +891,14 @@ msgstr ""
 ": %s"
 
 #. module: account_banking_pain_base
+#. odoo-python
 #: code:addons/account_banking_pain_base/models/account_payment_order.py:0
 #, python-format
 msgid ""
 "The type of the field '%(field)s' is %(value)s. It should be a string or "
 "unicode."
 msgstr ""
-"O tipo do campo '%(field)s' é %(value)s. Debe ser unha cadea ou un código."
+"O tipo do campo'%(field)s' é %(value)s. Debe ser unha cadea ou unicode."
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,help:account_banking_pain_base.field_account_payment_line__priority
@@ -880,6 +907,17 @@ msgid ""
 "file."
 msgstr ""
 "Este campo usarase como 'Prioridade de instrución' no arquivo PAIN xerado."
+
+#. module: account_banking_pain_base
+#: model_terms:ir.ui.view,arch_db:account_banking_pain_base.account_payment_order_form
+msgid ""
+"This payment order is <b>not SEPA</b>. If it is not intented, check that all"
+" payment lines are in € and that all bank accounts are valid IBANs with a "
+"country prefix in the"
+msgstr ""
+"Esta orde de pago é <b>non SAIBA</b>. Se non o é, comprobe que todas as "
+"liñas de pago están en € e que todas as contas bancarias son IBAN válidos "
+"cun prefixo de país no campo"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields,help:account_banking_pain_base.field_res_company__initiating_party_identifier
@@ -992,12 +1030,17 @@ msgstr "Pago do IVE"
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__vatx
 msgid "Value Added Tax Payment"
-msgstr "Pagos do Imposto sobre o Valor Engadido"
+msgstr "Pago do IVE"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__view
 msgid "Vision Care"
 msgstr "Coidado da vista"
+
+#. module: account_banking_pain_base
+#: model:ir.model.fields,field_description:account_banking_pain_base.field_account_payment_method__warn_not_sepa
+msgid "Warn If Not SEPA"
+msgstr "Avisar se non é SAIBA"
 
 #. module: account_banking_pain_base
 #: model:ir.model.fields.selection,name:account_banking_pain_base.selection__account_payment_line__purpose__wter

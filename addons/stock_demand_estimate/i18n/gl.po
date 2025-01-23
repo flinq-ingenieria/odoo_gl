@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 06:39\n"
-"PO-Revision-Date: 2024-11-08 06:39\n"
+"POT-Creation-Date: 2025-01-22 21:51\n"
+"PO-Revision-Date: 2025-01-22 21:51\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -95,7 +95,7 @@ msgstr "Duración (en días)"
 #. module: stock_demand_estimate
 #: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_search
 msgid "Expired"
-msgstr "Expirado"
+msgstr "Expiración"
 
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__manual_date_from
@@ -110,7 +110,7 @@ msgstr "Desde (Calculado)"
 #. module: stock_demand_estimate
 #: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_search
 msgid "Group By"
-msgstr "Agrupado por"
+msgstr "Agrupar por"
 
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__id
@@ -182,7 +182,7 @@ msgstr "Demanda estimada de existencias"
 #. module: stock_demand_estimate
 #: model:ir.model,name:stock_demand_estimate.model_stock_demand_estimate
 msgid "Stock Demand Estimate Line"
-msgstr "Liña de estimación de demanda de existencias"
+msgstr "Asistente na demanda estimada de existencias"
 
 #. module: stock_demand_estimate
 #: model:ir.actions.act_window,name:stock_demand_estimate.stock_demand_estimate_action
@@ -191,6 +191,7 @@ msgid "Stock Demand Estimates"
 msgstr "Demanda estimada de existencias"
 
 #. module: stock_demand_estimate
+#. odoo-python
 #: code:addons/stock_demand_estimate/models/stock_demand_estimate.py:0
 #, python-format
 msgid ""
@@ -204,7 +205,7 @@ msgstr ""
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__manual_date_to
 msgid "To"
-msgstr "Ata"
+msgstr "A"
 
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__date_to
@@ -214,7 +215,7 @@ msgstr "Ata (calculado)"
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__product_uom
 msgid "Unit of measure"
-msgstr "Unidade de Medida"
+msgstr "Unidade de medida"
 
 #~ msgid "Cancel"
 #~ msgstr "Cancelar"

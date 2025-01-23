@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 01:52\n"
-"PO-Revision-Date: 2024-11-08 01:52\n"
+"POT-Creation-Date: 2025-01-21 16:33\n"
+"PO-Revision-Date: 2025-01-21 16:33\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -240,6 +240,7 @@ msgid "Employee"
 msgstr "Empregado"
 
 #. module: hr_course
+#. odoo-python
 #: code:addons/hr_course/models/hr_course_schedule.py:0
 #, python-format
 msgid "Employees removed from this course: <br></br>%s"
@@ -249,7 +250,7 @@ msgstr "Empregados eliminados deste curso: <br></br>%s"
 #: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee__course_end
 #: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__end_date
 msgid "End Date"
-msgstr "Data finalización"
+msgstr "Data final"
 
 #. module: hr_course
 #: model:ir.model.fields,field_description:hr_course.field_hr_course__evaluation_criteria
@@ -282,7 +283,7 @@ msgstr "Seguidores (Socios)"
 #: model:ir.model.fields,field_description:hr_course.field_hr_course__has_message
 #: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__has_message
 msgid "Has Message"
-msgstr "Ten Mensaxe"
+msgstr "Ten mensaxe"
 
 #. module: hr_course
 #: model:ir.model.fields,field_description:hr_course.field_hr_course__permanence
@@ -299,9 +300,7 @@ msgstr "ID"
 
 #. module: hr_course
 #: model:ir.model.fields,help:hr_course.field_hr_course__message_needaction
-#: model:ir.model.fields,help:hr_course.field_hr_course__message_unread
 #: model:ir.model.fields,help:hr_course.field_hr_course_schedule__message_needaction
-#: model:ir.model.fields,help:hr_course.field_hr_course_schedule__message_unread
 msgid "If checked, new messages require your attention."
 msgstr "Se está marcado, as novas mensaxes requiren a súa atención."
 
@@ -411,7 +410,7 @@ msgstr "Número de erros"
 #. module: hr_course
 #: model:ir.model.fields,help:hr_course.field_hr_course__message_needaction_counter
 #: model:ir.model.fields,help:hr_course.field_hr_course_schedule__message_needaction_counter
-msgid "Number of messages which requires an action"
+msgid "Number of messages requiring action"
 msgstr "Número de mensaxes que requiren unha acción"
 
 #. module: hr_course
@@ -419,12 +418,6 @@ msgstr "Número de mensaxes que requiren unha acción"
 #: model:ir.model.fields,help:hr_course.field_hr_course_schedule__message_has_error_counter
 msgid "Number of messages with delivery error"
 msgstr "Número de mensaxes con erro de entrega"
-
-#. module: hr_course
-#: model:ir.model.fields,help:hr_course.field_hr_course__message_unread_counter
-#: model:ir.model.fields,help:hr_course.field_hr_course_schedule__message_unread_counter
-msgid "Number of unread messages"
-msgstr "Número de mensaxes non lidas"
 
 #. module: hr_course
 #: model:ir.model.fields,field_description:hr_course.field_hr_course__objective
@@ -481,7 +474,7 @@ msgstr "Empezar curso"
 #: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee__course_start
 #: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__start_date
 msgid "Start Date"
-msgstr "data de inicio"
+msgstr "Data de inicio"
 
 #. module: hr_course
 #: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee__state
@@ -490,6 +483,7 @@ msgid "State"
 msgstr "Estado"
 
 #. module: hr_course
+#. odoo-python
 #: code:addons/hr_course/models/hr_course_schedule.py:0
 #, python-format
 msgid "The start date cannot be later than the end date."
@@ -499,18 +493,6 @@ msgstr "A data de inicio non pode ser posterior á de fin."
 #: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__training_company_id
 msgid "Training company"
 msgstr "Empresa de formación"
-
-#. module: hr_course
-#: model:ir.model.fields,field_description:hr_course.field_hr_course__message_unread
-#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__message_unread
-msgid "Unread Messages"
-msgstr "Mensaxes sen ler"
-
-#. module: hr_course
-#: model:ir.model.fields,field_description:hr_course.field_hr_course__message_unread_counter
-#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr "Contador de mensaxes non lidas"
 
 #. module: hr_course
 #: model:ir.model.fields.selection,name:hr_course.selection__hr_course_schedule__state__waiting_attendees
@@ -530,6 +512,7 @@ msgid "Website communication history"
 msgstr "Historial de comunicación do sitio web"
 
 #. module: hr_course
+#. odoo-python
 #: code:addons/hr_course/models/hr_course_schedule.py:0
 #, python-format
 msgid "You cannot complete the course with pending results"
@@ -547,6 +530,9 @@ msgstr ""
 #~ msgid "SMS Delivery error"
 #~ msgstr "Erro de entrega de SMS"
 
+#~ msgid "Number of messages which requires an action"
+#~ msgstr "Número de mensaxes que requiren unha acción"
+
 #~ msgid "Authorized by"
 #~ msgstr "Autorizado por"
 
@@ -560,11 +546,20 @@ msgstr ""
 #~ msgid "Followers (Channels)"
 #~ msgstr "Seguidores (Canles)"
 
+#~ msgid "Number of unread messages"
+#~ msgstr "Número de mensaxes non lidas"
+
 #~ msgid "Permanence time"
 #~ msgstr "Tempo de permanencia"
 
 #~ msgid "Start date"
 #~ msgstr "Data de inicio"
+
+#~ msgid "Unread Messages"
+#~ msgstr "Mensaxes sen ler"
+
+#~ msgid "Unread Messages Counter"
+#~ msgstr "Contador de mensaxes non lidas"
 
 #~ msgid "hr.course"
 #~ msgstr "hr.course"

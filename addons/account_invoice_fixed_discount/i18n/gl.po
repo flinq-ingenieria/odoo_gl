@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 21:39\n"
-"PO-Revision-Date: 2024-11-08 21:39\n"
+"POT-Creation-Date: 2025-01-21 15:55\n"
+"PO-Revision-Date: 2025-01-21 15:55\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -19,8 +19,27 @@ msgstr ""
 
 #. module: account_invoice_fixed_discount
 #: model_terms:ir.ui.view,arch_db:account_invoice_fixed_discount.report_invoice_document
-msgid "<span>Disc. Fixed Amount</span>"
-msgstr "<span>Cantidade Fixa Desconto</span>"
+msgid "<span class=\"text-nowrap\"> %)</span>"
+msgstr "<span class=\"text-nowrap\"> %)</span>"
+
+#. module: account_invoice_fixed_discount
+#: model_terms:ir.ui.view,arch_db:account_invoice_fixed_discount.report_invoice_document
+msgid "<span class=\"text-nowrap\"> (or</span>"
+msgstr "<span class=\"text-nowrap\"> (ou</span>"
+
+#. module: account_invoice_fixed_discount
+#: model_terms:ir.ui.view,arch_db:account_invoice_fixed_discount.report_invoice_document
+msgid "<span>Discount Amount (%)</span>"
+msgstr "<span>Importe do desconto (%)</span>"
+
+#. module: account_invoice_fixed_discount
+#: model:ir.model.fields,help:account_invoice_fixed_discount.field_account_move_line__discount_fixed
+msgid ""
+"Apply a fixed amount discount to this line. The amount is multiplied by the "
+"quantity of the product."
+msgstr ""
+"Aplica un desconto de importe fixo a esta liña. O importe multiplícase pola "
+"cantidade do produto."
 
 #. module: account_invoice_fixed_discount
 #: model:ir.model.fields,field_description:account_invoice_fixed_discount.field_account_move_line__discount_fixed
@@ -28,14 +47,9 @@ msgid "Discount (Fixed)"
 msgstr "Desconto (Fixo)"
 
 #. module: account_invoice_fixed_discount
-#: model:ir.model.fields,help:account_invoice_fixed_discount.field_account_move_line__discount_fixed
-msgid "Fixed amount discount."
-msgstr "Cantidade fixa de desconto."
-
-#. module: account_invoice_fixed_discount
-#: model:ir.model,name:account_invoice_fixed_discount.model_account_move
-msgid "Journal Entry"
-msgstr "Entrada diaria"
+#: model:res.groups,name:account_invoice_fixed_discount.group_fixed_discount
+msgid "Fixed Discount"
+msgstr "Desconto fixo"
 
 #. module: account_invoice_fixed_discount
 #: model:ir.model,name:account_invoice_fixed_discount.model_account_move_line
@@ -43,10 +57,25 @@ msgid "Journal Item"
 msgstr "Apuntamentos contables"
 
 #. module: account_invoice_fixed_discount
-#: code:addons/account_invoice_fixed_discount/models/account_move.py:0
-#, python-format
-msgid "You can only set one type of discount per line."
-msgstr "Só pode establecer un tipo de desconto por liña."
+#: model:ir.model,name:account_invoice_fixed_discount.model_account_tax
+msgid "Tax"
+msgstr "Imposto"
+
+#~ msgid "(or"
+#~ msgstr "(ou"
+
+#~ msgid "<span>Disc. %</span>"
+#~ msgstr "<span>Disc. %</span>"
+
+#~ msgid "<span>Disc. Fixed Amount</span>"
+#~ msgstr "<span>Cantidade Fixa Desconto</span>"
+
+#~ msgid "Fixed amount discount."
+#~ msgstr "Cantidade fixa de desconto."
 
 #~ msgid "Journal Entries"
 #~ msgstr "Asentos contables"
+
+#, python-format
+#~ msgid "You can only set one type of discount per line."
+#~ msgstr "Só pode establecer un tipo de desconto por liña."

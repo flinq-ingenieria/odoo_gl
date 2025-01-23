@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 09:13\n"
-"PO-Revision-Date: 2024-11-08 09:13\n"
+"POT-Creation-Date: 2025-01-22 13:28\n"
+"PO-Revision-Date: 2025-01-22 13:28\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -42,42 +42,42 @@ msgstr "Modelo AEAT 216"
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__move_id
 msgid "Account entry"
-msgstr "Entrada en conta"
+msgstr "Apuntamento contable"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__message_needaction
 msgid "Action Needed"
-msgstr "acción necesaria"
+msgstr "Acción necesaria"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__activity_ids
 msgid "Activities"
-msgstr "actividades"
+msgstr "Actividades"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "decoración de actividades de excepción"
+msgstr "Actividade Excepción Decoración"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__activity_state
 msgid "Activity State"
-msgstr "estado da actividade"
+msgstr "Estado da actividade"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "tipo de icona de actividade"
+msgstr "Icona do tipo de actividade"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__allow_posting
 msgid "Allow Posting"
-msgstr "Permitir a publicación"
+msgstr "Permitir publicación"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__message_attachment_count
 msgid "Attachment Count"
-msgstr "cálculo de anexos"
+msgstr "Nº de arquivos adxuntos"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__partner_bank_id
@@ -97,7 +97,7 @@ msgstr "Compañía"
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,help:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__partner_bank_id
 msgid "Company bank account used for the presentation"
-msgstr "Conta bancaria da compañía utilizada na presentación"
+msgstr "Conta bancaria da compañía usada para a presentación"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__contact_email
@@ -107,7 +107,7 @@ msgstr "Email de contacto"
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__counterpart_account_id
 msgid "Counterpart account"
-msgstr "Conta de contrapartida"
+msgstr "Conta da contrapartida"
 
 #. module: l10n_es_aeat_mod216
 #: model_terms:ir.actions.act_window,help:l10n_es_aeat_mod216.action_l10n_es_aeat_mod216_report
@@ -127,7 +127,7 @@ msgstr "Creado en"
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__currency_id
 msgid "Currency"
-msgstr "Divisa"
+msgstr "Moeda"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod216.selection__l10n_es_aeat_mod216_report__tipo_declaracion__u
@@ -147,12 +147,12 @@ msgstr "Data de finalización"
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__error_count
 msgid "Error Count"
-msgstr "Erro de cálculo"
+msgstr "Nº erros"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__export_config_id
 msgid "Export config"
-msgstr "Exportar configuración"
+msgstr "Configuración da exportación"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,help:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__casilla_06
@@ -161,24 +161,24 @@ msgid ""
 "period (in which his statement was to return and compensation back option "
 "was chosen)."
 msgstr ""
-"A deducir (exclusivamente en caso de autoliquidación complementaria): "
-"Resultados a ingresar de anteriores autoliquidacións polo mesmo concepto, "
-"exercicio e período."
+"Taxa de compensación por resultados anteriores co mesmo suxeito, exercicio e"
+" período (no que se ía a devolver a súa declaración e elixiuse a opción de "
+"compensación retroactiva)."
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__message_follower_ids
 msgid "Followers"
-msgstr "seguidores"
+msgstr "Seguidores"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "seguidores (socios)"
+msgstr "Seguidores (Socios)"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,help:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr "fonte iconas sorprendentes , por exemplo fa-tasks"
+msgstr "Icona font awesome p.e. fa-tasks"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__contact_name
@@ -188,7 +188,7 @@ msgstr "Nome Completo"
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__has_message
 msgid "Has Message"
-msgstr "Tes unha mensaxe"
+msgstr "Ten mensaxe"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__id
@@ -203,18 +203,17 @@ msgstr "Icona"
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,help:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "icona para indicar unha actividade por excepción."
+msgstr "Icona para indicar unha excepción na actividade."
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,help:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__message_needaction
-#: model:ir.model.fields,help:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__message_unread
 msgid "If checked, new messages require your attention."
-msgstr "se está marcada, as mensaxes novas requiren a súa atención."
+msgstr "Se está marcado, as novas mensaxes requiren a súa atención."
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,help:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "se está marcada, algunhas mensaxes teñen un erro de entrega."
+msgstr "Se está marcado, hai novas mensaxes que requiren a súa atención."
 
 #. module: l10n_es_aeat_mod216
 #: model_terms:ir.ui.view,arch_db:l10n_es_aeat_mod216.view_l10n_es_aeat_mod216_report_form
@@ -249,7 +248,7 @@ msgstr "Rendas suxeitas a retención - Número de rendas"
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__message_is_follower
 msgid "Is Follower"
-msgstr "É seguidor/a"
+msgstr "É Seguidor"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__journal_id
@@ -259,17 +258,17 @@ msgstr "Diario"
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,help:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__journal_id
 msgid "Journal in which post the move."
-msgstr "Diario no que publicar o movemento."
+msgstr "Diario no que se publica o movemento."
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__representative_vat
 msgid "L.R. VAT number"
-msgstr "Número de IVE de L.R"
+msgstr "L.R. Número de IVE"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report____last_update
 msgid "Last Modified on"
-msgstr "modificado por última vez o"
+msgstr "Ultima modificación"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__write_uid
@@ -284,77 +283,72 @@ msgstr "Última actualización en"
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,help:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__representative_vat
 msgid "Legal Representative VAT number."
-msgstr "CIF/NIF Representante legal."
+msgstr "NIF do representante legal."
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "Arquivo adxunto principal"
+msgstr "Adxunto Principal"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__message_has_error
 msgid "Message Delivery error"
-msgstr "erro de entrega de mensaxe"
+msgstr "Erro de envío de mensaxe"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__message_ids
 msgid "Messages"
-msgstr "mensaxes"
+msgstr "Mensaxes"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__number
 msgid "Model number"
-msgstr "Número de modelo"
+msgstr "Número do modelo"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,help:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__contact_name
 msgid "Must have name and surname."
-msgstr "Debe conter nome e apelidos."
+msgstr "Debe ter nome e apelidos."
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "A miña data límite da actividade"
+msgstr "Data limite da miña actividade"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "Data límite para a próxima actividade"
+msgstr "Data límite da actividade seguinte"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__activity_summary
 msgid "Next Activity Summary"
-msgstr "Resumo de próxima actividade"
+msgstr "Resumo da actividade seguinte"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__activity_type_id
 msgid "Next Activity Type"
-msgstr "tipo da seguinte actividade"
+msgstr "Seguinte Tipo de Actividade"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__message_needaction_counter
 msgid "Number of Actions"
-msgstr "número de accións"
+msgstr "Nº de accións"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__message_has_error_counter
 msgid "Number of errors"
-msgstr "número de erros"
+msgstr "Número de Erros"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,help:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__message_needaction_counter
-msgid "Number of messages which requires an action"
-msgstr "número de mensaxes que requiren unha acción"
+msgid "Number of messages requiring action"
+msgstr "Número de mensaxes que requiren unha acción"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,help:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "número de mensaxes con erro de entrega"
-
-#. module: l10n_es_aeat_mod216
-#: model:ir.model.fields,help:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__message_unread_counter
-msgid "Number of unread messages"
-msgstr "Número de mensaxes non lidas"
+msgstr "Cantidade de mensaxes con erros de envío"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__partner_id
@@ -364,17 +358,17 @@ msgstr "Empresa"
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__period_type
 msgid "Period Type"
-msgstr "Tipo de Período"
+msgstr "Tipo de período"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__contact_phone
 msgid "Phone"
-msgstr "Teléfono"
+msgstr "Teléfono"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__previous_number
 msgid "Previous declaration number"
-msgstr "Número de declaración previa"
+msgstr "Número da declaración anterior"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__name
@@ -409,7 +403,7 @@ msgstr "Data de inicio"
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__state
 msgid "State"
-msgstr "estado"
+msgstr "Provincia"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__statement_type
@@ -424,15 +418,20 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Estado en función das actividades\n"
-"Atrasada: A data de vencemento xa pasou\n"
+"Estado baseado nas actividades\n"
+"Atrasado: A data de vencemento xa está vencida\n"
 "Hoxe: A data da actividade é hoxe\n"
-"Planificada: Actividades futuras."
+"Planificado: Actividades futuras."
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__support_type
 msgid "Support Type"
 msgstr "Tipo de soporte"
+
+#. module: l10n_es_aeat_mod216
+#: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__tax_agency_ids
+msgid "Tax Agency"
+msgstr "Axencia Tributaria"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__tax_line_ids
@@ -446,8 +445,8 @@ msgid ""
 "This account will be the counterpart for all the journal items that are "
 "regularized when posting the report."
 msgstr ""
-"Esta conta será a contrapartida de todos os artigos diarios que se "
-"regularicen ao contabilizar o informe."
+"Esta conta será a contrapartida para todos os elementos do diario que están "
+"regularizados ao contabilizar o informe."
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod216.selection__l10n_es_aeat_mod216_report__tipo_declaracion__i
@@ -475,29 +474,19 @@ msgid "Type of the exception activity on record."
 msgstr "Tipo de actividade de excepción rexistrada."
 
 #. module: l10n_es_aeat_mod216
-#: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__message_unread
-msgid "Unread Messages"
-msgstr "mensaxes non lidas"
-
-#. module: l10n_es_aeat_mod216
-#: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr "contador de mensaxes non lidas"
-
-#. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__company_vat
 msgid "VAT number"
-msgstr "Número de IVE"
+msgstr "NIF"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__website_message_ids
 msgid "Website Messages"
-msgstr "mensaxes da páxina web"
+msgstr "Mensaxes do sitio web"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,help:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__website_message_ids
 msgid "Website communication history"
-msgstr "historial da comunicación na web"
+msgstr "Historial de comunicacións do sitio web"
 
 #. module: l10n_es_aeat_mod216
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod216.field_l10n_es_aeat_mod216_report__year
@@ -535,7 +524,22 @@ msgid "[07] Result"
 msgstr "[07] Resultado a ingresar"
 
 #~ msgid "SMS Delivery error"
-#~ msgstr "Erro na entrega de SMS"
+#~ msgstr "Erro de entrega de SMS"
+
+#~ msgid "Number of messages which requires an action"
+#~ msgstr "Número de mensaxes que requiren acción"
+
+#~ msgid "Model"
+#~ msgstr "Modelo"
+
+#~ msgid "Number of unread messages"
+#~ msgstr "Número de mensaxe sen ler"
+
+#~ msgid "Unread Messages"
+#~ msgstr "Número de mensaxes non lidas"
+
+#~ msgid "Unread Messages Counter"
+#~ msgstr "Número de mensaxes non lidas"
 
 #~ msgid "AEAT 111 report"
 #~ msgstr "Modelo 111"

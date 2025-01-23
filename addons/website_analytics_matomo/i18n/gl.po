@@ -7,10 +7,10 @@
 # Alberte Moço, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 04:57\n"
-"PO-Revision-Date: 2024-11-08 04:57\n"
+"POT-Creation-Date: 2025-01-22 00:24\n"
+"PO-Revision-Date: 2025-01-22 00:24\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -23,30 +23,29 @@ msgstr ""
 #. module: website_analytics_matomo
 #: model_terms:ir.ui.view,arch_db:website_analytics_matomo.res_config_settings_view_form
 msgid "Active Time (seconds)"
-msgstr "Tempo activo (segundos)"
+msgstr ""
 
 #. module: website_analytics_matomo
 #: model:ir.model,name:website_analytics_matomo.model_res_config_settings
+#, fuzzy
 msgid "Config Settings"
-msgstr "Axustes Configuración"
+msgstr "website.config.settings"
 
 #. module: website_analytics_matomo
 #: model_terms:ir.ui.view,arch_db:website_analytics_matomo.res_config_settings_view_form
 msgid "Enable User ID"
-msgstr "Habilitar ID de usuario"
+msgstr ""
 
 #. module: website_analytics_matomo
 #: model_terms:ir.ui.view,arch_db:website_analytics_matomo.res_config_settings_view_form
 msgid "Enable heartbeat"
-msgstr "Habilitar o latexado do corazón"
+msgstr ""
 
 #. module: website_analytics_matomo
 #: model:ir.model.fields,help:website_analytics_matomo.field_res_config_settings__matomo_heartbeat_timer
 #: model:ir.model.fields,help:website_analytics_matomo.field_website__matomo_heartbeat_timer
 msgid "How many seconds a tab needs to be active to be counted as viewed."
 msgstr ""
-"Cantos segundos debe estar activa unha pestana para que se contabilice como "
-"vista."
 
 #. module: website_analytics_matomo
 #: model:ir.model.fields,field_description:website_analytics_matomo.field_res_config_settings__has_matomo_analytics
@@ -58,24 +57,24 @@ msgstr "Matomo Analítica Web"
 #: model:ir.model.fields,field_description:website_analytics_matomo.field_res_config_settings__matomo_enable_heartbeat
 #: model:ir.model.fields,field_description:website_analytics_matomo.field_website__matomo_enable_heartbeat
 msgid "Matomo Enable Heartbeat"
-msgstr "Matomo Habilitar latexado do corazón"
+msgstr ""
 
 #. module: website_analytics_matomo
 #: model:ir.model.fields,field_description:website_analytics_matomo.field_res_config_settings__matomo_enable_userid
 #: model:ir.model.fields,field_description:website_analytics_matomo.field_website__matomo_enable_userid
 msgid "Matomo Enable Userid"
-msgstr "Habilitación de Matomo ide usuario"
+msgstr ""
 
 #. module: website_analytics_matomo
 #: model:ir.model.fields,field_description:website_analytics_matomo.field_website__matomo_get_userid
 msgid "Matomo Get Userid"
-msgstr "Matomo Obter ide usuario"
+msgstr ""
 
 #. module: website_analytics_matomo
 #: model:ir.model.fields,field_description:website_analytics_matomo.field_res_config_settings__matomo_heartbeat_timer
 #: model:ir.model.fields,field_description:website_analytics_matomo.field_website__matomo_heartbeat_timer
 msgid "Matomo Heartbeat Timer"
-msgstr "Temporizador de latexados Matomo"
+msgstr ""
 
 #. module: website_analytics_matomo
 #: model:ir.model.fields,field_description:website_analytics_matomo.field_res_config_settings__matomo_analytics_host
@@ -86,7 +85,7 @@ msgstr "Host Matomo"
 #. module: website_analytics_matomo
 #: model:ir.model.fields,field_description:website_analytics_matomo.field_website__matomo_analytics_host_url
 msgid "Matomo host URL"
-msgstr "URL do host de Matomo"
+msgstr ""
 
 #. module: website_analytics_matomo
 #: model:ir.model.fields,field_description:website_analytics_matomo.field_res_config_settings__matomo_analytics_id
@@ -101,9 +100,6 @@ msgid ""
 "                                    amount of time (and the user leaves the page or focuses away from the tab)\n"
 "                                    then a ping request will be sent."
 msgstr ""
-"Establece o Tempo Activo en segundos. Só se a páxina viuse durante polo menos este cantidade\n"
-"                                    de tempo (e o usuario abandona a páxina ou se centra fóra da pestana)\n"
-"                                    enviarase unha solicitude de ligazón."
 
 #. module: website_analytics_matomo
 #: model:ir.model.fields,help:website_analytics_matomo.field_res_config_settings__matomo_analytics_id
@@ -117,13 +113,11 @@ msgstr "O ID que usa Matomo para identificar o sitio web"
 msgid ""
 "The host/path your Matomo installation is accessible by on the internet."
 msgstr ""
-"O host/roteiro polo que se pode acceder á súa instalación de Matomo na "
-"internet."
 
 #. module: website_analytics_matomo
 #: model_terms:ir.ui.view,arch_db:website_analytics_matomo.res_config_settings_view_form
 msgid "Track visits in Matomo Analytics"
-msgstr "Rastrexe as visitas en Matomo Analytics"
+msgstr ""
 
 #. module: website_analytics_matomo
 #: model:ir.model,name:website_analytics_matomo.model_website
@@ -133,4 +127,4 @@ msgstr "Sitio web"
 #. module: website_analytics_matomo
 #: model_terms:ir.ui.view,arch_db:website_analytics_matomo.res_config_settings_view_form
 msgid "https://matomo.host.name/"
-msgstr "https://matomo.host.name/"
+msgstr ""

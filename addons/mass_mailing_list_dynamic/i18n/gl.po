@@ -7,10 +7,10 @@
 # enjolras <yo@miguelrevilla.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 02:50\n"
-"PO-Revision-Date: 2024-11-08 02:50\n"
+"POT-Creation-Date: 2025-01-22 23:16\n"
+"PO-Revision-Date: 2025-01-22 23:16\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -61,6 +61,7 @@ msgid "Cancel"
 msgstr "Cancelar"
 
 #. module: mass_mailing_list_dynamic
+#. odoo-python
 #: code:addons/mass_mailing_list_dynamic/models/mailing_contact.py:0
 #, python-format
 msgid ""
@@ -176,7 +177,7 @@ msgstr "Envío masivo"
 #. module: mass_mailing_list_dynamic
 #: model:ir.model,name:mass_mailing_list_dynamic.model_mailing_load_filter
 msgid "Mass Mailing Load Filter"
-msgstr "Filtro de Carga de Correo Masivo"
+msgstr "Filtro de carga de correo masivo"
 
 #. module: mass_mailing_list_dynamic
 #: model:ir.model,name:mass_mailing_list_dynamic.model_base_partner_merge_automatic_wizard

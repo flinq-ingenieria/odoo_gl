@@ -7,10 +7,10 @@
 # enjolras <yo@miguelrevilla.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 08:32\n"
-"PO-Revision-Date: 2024-11-08 08:32\n"
+"POT-Creation-Date: 2025-01-22 09:40\n"
+"PO-Revision-Date: 2025-01-22 09:40\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -23,7 +23,7 @@ msgstr ""
 #. module: mgmtsystem_review
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_review.review_report
 msgid "<strong>Changes affecting the management systems:</strong>"
-msgstr "<strong>Cambios que afectan os Sistemas de Xestión:</strong>"
+msgstr "<strong>Cambios que afectan os sistemas de xestión:</strong>"
 
 #. module: mgmtsystem_review
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_review.review_report
@@ -43,7 +43,7 @@ msgstr "<strong>Informe de revisión</strong>"
 #. module: mgmtsystem_review
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_review.review_report
 msgid "<strong>Satisfaction Survey Answers:</strong>"
-msgstr "<strong>Respostas de Enquisas de Satisfacción:</strong>"
+msgstr "<strong>Respostas á enquisa de satisfacción:</strong>"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review_line__action_id
@@ -55,7 +55,7 @@ msgstr "Acción"
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__message_needaction
 msgid "Action Needed"
-msgstr "Necesita Acción"
+msgstr "acción necesaria"
 
 #. module: mgmtsystem_review
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_review.review_report
@@ -65,27 +65,27 @@ msgstr "Acción:"
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__activity_ids
 msgid "Activities"
-msgstr "Actividades"
+msgstr "actividades"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Decoración de Actividade de Excepción"
+msgstr "Decoración de excepción da actividade"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__activity_state
 msgid "Activity State"
-msgstr "Estado da Actividade"
+msgstr "estado da actividade"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "Icona de tipo de actvidad"
+msgstr "Icona de tipo de actividade"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__message_attachment_count
 msgid "Attachment Count"
-msgstr "Cálculo de Arquivos Adxuntos"
+msgstr "reconto de arquivos adxuntos"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__changes
@@ -186,22 +186,22 @@ msgstr "Expectativas:"
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__message_follower_ids
 msgid "Followers"
-msgstr "Seguidores/as"
+msgstr "Seguidores"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Seguidores/as (Socios)"
+msgstr "seguidores(socios)"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,help:mgmtsystem_review.field_mgmtsystem_review__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr "Icona de fonte impresionante, por exemplo fa-tasks"
+msgstr "fonte iconas sorprendentes , por exemplo fa-tasks"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__has_message
 msgid "Has Message"
-msgstr "Ten mensaxe"
+msgstr "tes unha mensaxe"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__id
@@ -221,9 +221,8 @@ msgstr "icona para indicar unha actividade por excepción."
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,help:mgmtsystem_review.field_mgmtsystem_review__message_needaction
-#: model:ir.model.fields,help:mgmtsystem_review.field_mgmtsystem_review__message_unread
 msgid "If checked, new messages require your attention."
-msgstr "Se está marcado, novas mensaxes necesitan a súa atención."
+msgstr "Se está marcada, novas mensaxes requiren a túa atención."
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,help:mgmtsystem_review.field_mgmtsystem_review__message_has_error
@@ -243,7 +242,7 @@ msgstr "Entradas"
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__message_is_follower
 msgid "Is Follower"
-msgstr "É Seguidor"
+msgstr "é seguidor"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review____last_update
@@ -277,17 +276,17 @@ msgstr "Arquivo adxunto principal"
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__message_has_error
 msgid "Message Delivery error"
-msgstr "Erro en entrega de mensaxe"
+msgstr "erro de entrega de mensaxe"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__message_ids
 msgid "Messages"
-msgstr "Mensaxes"
+msgstr "mensaxes"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "Data Límite da miña Actividade"
+msgstr "A miña data límite da actividade"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__name
@@ -302,7 +301,7 @@ msgstr "Próximo evento do calendario de actividades"
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "Data Límite para a seguinte Actividade"
+msgstr "Data Límite para a Próxima Actividade"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__activity_summary
@@ -312,7 +311,17 @@ msgstr "Resumo da Seguinte Actividade"
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__activity_type_id
 msgid "Next Activity Type"
-msgstr "Tipo Seguinte Actividade"
+msgstr "Tipo proxima actividade"
+
+#. module: mgmtsystem_review
+#: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__non_conformity_ids
+msgid "Non Conformity"
+msgstr "Non Conformidade"
+
+#. module: mgmtsystem_review
+#: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__non_conformity_count
+msgid "Non Conformity Count"
+msgstr "Reconto De Desconformidades"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review_line__nonconformity_id
@@ -324,27 +333,22 @@ msgstr "Non conformidade"
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__message_needaction_counter
 msgid "Number of Actions"
-msgstr "Número de Accións"
+msgstr "número de accións"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__message_has_error_counter
 msgid "Number of errors"
-msgstr "Número de erros"
+msgstr "número de erros"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,help:mgmtsystem_review.field_mgmtsystem_review__message_needaction_counter
-msgid "Number of messages which requires an action"
+msgid "Number of messages requiring action"
 msgstr "Número de mensaxes que requiren unha acción"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,help:mgmtsystem_review.field_mgmtsystem_review__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Número de mensaxes con erro de entrega"
-
-#. module: mgmtsystem_review
-#: model:ir.model.fields,help:mgmtsystem_review.field_mgmtsystem_review__message_unread_counter
-msgid "Number of unread messages"
-msgstr "Número de mensaxes non lidas"
+msgstr "número de mensaxes con erro de entrega"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields.selection,name:mgmtsystem_review.selection__mgmtsystem_review__state__open
@@ -449,10 +453,10 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Estado baseado en actividades\n"
-"Atrasado: A data de vencemento xa pasou\n"
+"Estado en función das actividades\n"
+"Atrasada: A data de vencemento xa pasou\n"
 "Hoxe: A data da actividade é hoxe\n"
-"Planeado: Actividades futuras."
+"Planificada: Actividades futuras."
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__response_ids
@@ -476,27 +480,17 @@ msgid "Type of the exception activity on record."
 msgstr "Tipo (ou clase) de actividade excepcional rexistrada."
 
 #. module: mgmtsystem_review
-#: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__message_unread
-msgid "Unread Messages"
-msgstr "Mensaxes sen Ler"
-
-#. module: mgmtsystem_review
-#: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr "Contador de Mensaxes non lidas"
-
-#. module: mgmtsystem_review
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__website_message_ids
 msgid "Website Messages"
-msgstr "Mensaxes da páxina web"
+msgstr "mensaxes da páxina web"
 
 #. module: mgmtsystem_review
 #: model:ir.model.fields,help:mgmtsystem_review.field_mgmtsystem_review__website_message_ids
 msgid "Website communication history"
-msgstr "Historial da comunicación na web"
+msgstr "historial da comunicación na web"
 
 #~ msgid "SMS Delivery error"
-#~ msgstr "Erro de Entrega SMS"
+#~ msgstr "Erro na entrega de SMS"
 
-#~ msgid "Followers (Channels)"
-#~ msgstr "Seguidores/as (Canles)"
+#~ msgid "Number of messages which requires an action"
+#~ msgstr "número de mensaxes que requiren unha acción"

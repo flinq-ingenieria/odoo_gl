@@ -1,0 +1,48 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_project_stock
+#
+# Translators:
+# Martin Trigaux, 2022
+# Wil Odoo, 2024
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-22 08:06\n"
+"PO-Revision-Date: 2025-01-22 08:06\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: sale_project_stock
+#: model_terms:ir.actions.act_window,help:sale_project_stock.stock_move_per_sale_order_line_action
+msgid "No stock move found"
+msgstr "Non se atopou movemento de stock"
+
+#. module: sale_project_stock
+#: model:ir.model,name:sale_project_stock.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Liña de pedido de venda"
+
+#. module: sale_project_stock
+#: model_terms:ir.actions.act_window,help:sale_project_stock.stock_move_per_sale_order_line_action
+msgid ""
+"This menu gives you the full traceability of inventory\n"
+"                operations on a specific product. You can filter on the product\n"
+"                to see all the past or future movements for the product."
+msgstr ""
+"Este menú ofrécelle a rastrexabilidade completa das operacións de stock \n"
+"                dun produto específico. Pode filtrar o produto\n"
+"                para ver todos os movementos pasados ou futuros do mesmo."
+
+#. module: sale_project_stock
+#: model:ir.actions.act_window,name:sale_project_stock.stock_move_per_sale_order_line_action
+msgid "Transfers"
+msgstr "Traslados"

@@ -1,0 +1,63 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* event_contact
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-23 00:11\n"
+"PO-Revision-Date: 2025-01-23 00:11\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: event_contact
+#: model:ir.model.fields,field_description:event_contact.field_event_event__contact_ids
+#: model:ir.model.fields,field_description:event_contact.field_event_type__contact_ids
+msgid "Contacts"
+msgstr "Contactos"
+
+#. module: event_contact
+#: model:ir.model,name:event_contact.model_event_event
+msgid "Event"
+msgstr "Evento"
+
+#. module: event_contact
+#: model:ir.model,name:event_contact.model_event_type
+msgid "Event Template"
+msgstr "Modelo do Evento"
+
+#. module: event_contact
+#: model:ir.model.fields,help:event_contact.field_event_type__contact_ids
+msgid ""
+"Partners available to attend attendees requests by default for events of "
+"this type."
+msgstr ""
+"Contactos dispoñibles por defecto para atender as peticións dos asistentes "
+"para os eventos deste tipo."
+
+#. module: event_contact
+#: model:ir.model.fields,help:event_contact.field_event_event__contact_ids
+msgid "Partners available to attend attendees requests for this event."
+msgstr ""
+"Contactos dispoñibles para atender as peticións dos asistentes para este "
+"evento."
+
+#~ msgid "Display Name"
+#~ msgstr "Mostrar Nome"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Última Modificación o"
+
+#~ msgid "Event Type"
+#~ msgstr "Tipo de evento"

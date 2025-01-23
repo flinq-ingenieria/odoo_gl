@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 01:54\n"
-"PO-Revision-Date: 2024-11-08 01:54\n"
+"POT-Creation-Date: 2025-01-22 22:18\n"
+"PO-Revision-Date: 2025-01-22 22:18\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -36,7 +36,7 @@ msgstr ""
 #. module: sale_blanket_order
 #: model:ir.actions.report,print_report_name:sale_blanket_order.report_blanket_order
 msgid "'Blanket Order - %s' % object.name"
-msgstr "'Orde global - %s' % object.name"
+msgstr "'Blanket Order - %s' % object.name"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
@@ -46,7 +46,7 @@ msgstr "<span>Programación # </span>"
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
 msgid "<strong class=\"mr16\">Subtotal</strong>"
-msgstr "<strong class=\"mr16\">subtotal</strong>"
+msgstr "<strong class=\"mr16\">Subtotal</strong>"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
@@ -61,12 +61,12 @@ msgstr "<strong>Comercial:</strong>"
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
 msgid "<strong>Subtotal</strong>"
-msgstr "<strong>subtotal</strong>"
+msgstr "<strong>Subtotal</strong>"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
 msgid "<strong>Total</strong>"
-msgstr "<strong>total</strong>"
+msgstr "<strong>Total</strong>"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
@@ -106,22 +106,22 @@ msgstr "Estado Actividade"
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__activity_type_icon
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "Icona de tipo de actividade"
+msgstr "Icona de Tipo de Actividade"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 msgid "Add a note"
-msgstr "Engadir Unha Nota"
+msgstr "Engadir unha nota"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 msgid "Add a product"
-msgstr "Engadir Un Produto"
+msgstr "Engadir un produto"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 msgid "Add a section"
-msgstr "Engadir Unha Sección"
+msgstr "Engadir unha sección"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
@@ -137,7 +137,7 @@ msgstr "Un pedido non pode estar baleiro"
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__analytic_account_id
 msgid "Analytic Account"
-msgstr "Conta analítica"
+msgstr "Conta Analítica"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__analytic_tag_ids
@@ -338,7 +338,7 @@ msgstr "Nome mostrado"
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__display_type
 msgid "Display Type"
-msgstr "Tipo de visualización"
+msgstr "Mostrar Tipo"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields.selection,name:sale_blanket_order.selection__sale_blanket_order__state__done
@@ -377,13 +377,13 @@ msgstr "Seguidores"
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__message_partner_ids
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Seguidores (Socios)"
+msgstr "Seguidores (contactos)"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order__activity_type_icon
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order_line__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr "Icona de fonte impresionante, por exemplo fa-tasks"
+msgstr "Fonte iconas sorprendentes p.e fa-tasks"
 
 #. module: sale_blanket_order
 #: model:ir.model.constraint,message:sale_blanket_order.constraint_sale_blanket_order_line_non_accountable_null_fields
@@ -394,7 +394,7 @@ msgstr "Valores prohibidos na liña de pedido de venda non contable"
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__has_message
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__has_message
 msgid "Has Message"
-msgstr "Ten mensaxe"
+msgstr "Ten Mensaxe"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__id
@@ -402,7 +402,7 @@ msgstr "Ten mensaxe"
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard__id
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard_line__id
 msgid "ID"
-msgstr "ID (identificación)"
+msgstr "ID"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__activity_exception_icon
@@ -414,7 +414,7 @@ msgstr "Icona"
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order__activity_exception_icon
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order_line__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "Icona para indicar unha actividade por excepción."
+msgstr "Icona para indicar a excepción de actividade."
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order__message_needaction
@@ -426,7 +426,9 @@ msgstr "Se activo, as novas mensaxes requiren a súa atención."
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order__message_has_error
+#: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order__message_has_sms_error
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order_line__message_has_error
+#: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order_line__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr "Se activo, algunhas mensaxes teñen erro de entrega."
 
@@ -515,7 +517,7 @@ msgstr "Debe ter algunha liña"
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__my_activity_date_deadline
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "data límite da miña actividade"
+msgstr "Data Límite da miña Actividade"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__name
@@ -526,7 +528,7 @@ msgstr "Nome"
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__activity_calendar_event_id
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr "Próximo evento do calendario de actividades"
+msgstr "Próximo Evento do Calendario de Actividades"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__activity_date_deadline
@@ -726,6 +728,12 @@ msgid "Responsible User"
 msgstr "Usuario responsable"
 
 #. module: sale_blanket_order
+#: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__message_has_sms_error
+#: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Erro entrega SMS"
+
+#. module: sale_blanket_order
 #: code:addons/sale_blanket_order/wizard/create_sale_orders.py:0
 #, python-format
 msgid "Sale Blanket Order %s is not open"
@@ -842,7 +850,7 @@ msgstr ""
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__price_subtotal
 msgid "Subtotal"
-msgstr "subtotal"
+msgstr "Subtotal"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__price_tax
@@ -860,7 +868,7 @@ msgstr "Impostos"
 #. module: sale_blanket_order
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order_line__display_type
 msgid "Technical field for UX purpose."
-msgstr "Campo técnico para fins de UX."
+msgstr "Campo técnico con fins de UX."
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
@@ -901,13 +909,13 @@ msgstr "A Borrador"
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__amount_total
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__price_total
 msgid "Total"
-msgstr "total"
+msgstr "Total"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order__activity_exception_decoration
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order_line__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Tipo (ou clase) de actividade excepcional rexistrada."
+msgstr "Tipo de actividade excepcional rexistrada."
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
@@ -1036,9 +1044,6 @@ msgstr "Ten que seleccionar liñas desde a mesma compañía."
 #, python-format
 msgid "remaining"
 msgstr "restante"
-
-#~ msgid "SMS Delivery error"
-#~ msgstr "Erro na entrega de SMS"
 
 #~ msgid "Followers (Channels)"
 #~ msgstr "Seguidores (canles)"

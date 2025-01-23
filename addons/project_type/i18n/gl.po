@@ -6,10 +6,10 @@
 # Juan José Scarafía <scarafia.juanjose@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 00:05\n"
-"PO-Revision-Date: 2024-11-08 00:05\n"
+"POT-Creation-Date: 2025-01-21 23:25\n"
+"PO-Revision-Date: 2025-01-21 23:25\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -135,10 +135,8 @@ msgid "Type"
 msgstr "Tipo"
 
 #. module: project_type
+#. odoo-python
 #: code:addons/project_type/models/project_type.py:0
 #, python-format
 msgid "You cannot create recursive project types."
 msgstr "Non se pode crear Tipos de Proxectos recursivos."
-
-#~ msgid "WBS element"
-#~ msgstr "Elemento WBS"

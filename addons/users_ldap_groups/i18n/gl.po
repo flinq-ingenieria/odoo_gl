@@ -5,10 +5,10 @@
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 20:28\n"
-"PO-Revision-Date: 2024-11-08 20:28\n"
+"POT-Creation-Date: 2025-01-22 06:42\n"
+"PO-Revision-Date: 2025-01-22 06:42\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -87,7 +87,7 @@ msgstr "Servidor LDAP"
 #. module: users_ldap_groups
 #: model:ir.model.fields,field_description:users_ldap_groups.field_res_company_ldap_group_mapping____last_update
 msgid "Last Modified on"
-msgstr "Última Modifiación o"
+msgstr "Última Modificación o"
 
 #. module: users_ldap_groups
 #: model:ir.model.fields,field_description:users_ldap_groups.field_res_company_ldap_group_mapping__write_uid
@@ -102,7 +102,7 @@ msgstr "Última actualización en"
 #. module: users_ldap_groups
 #: model_terms:ir.ui.view,arch_db:users_ldap_groups.view_ldap_installer_form
 msgid "Map User Groups"
-msgstr "Mapa Grupos de Usuarios"
+msgstr "Mapa de grupos de usuarios"
 
 #. module: users_ldap_groups
 #: model:ir.model.fields,field_description:users_ldap_groups.field_res_company_ldap_group_mapping__group_id
@@ -134,6 +134,7 @@ msgid "The Odoo group to assign"
 msgstr "O grupo Odoo a asignar"
 
 #. module: users_ldap_groups
+#. odoo-python
 #: code:addons/users_ldap_groups/models/res_company_ldap.py:0
 #, python-format
 msgid ""
@@ -163,8 +164,8 @@ msgstr ""
 
 #. module: users_ldap_groups
 #: model:ir.model,name:users_ldap_groups.model_res_users
-msgid "Users"
-msgstr "Usuarios"
+msgid "User"
+msgstr "Usuario"
 
 #. module: users_ldap_groups
 #: model:ir.model.fields,field_description:users_ldap_groups.field_res_company_ldap_group_mapping__value

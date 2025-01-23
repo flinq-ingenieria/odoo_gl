@@ -4,20 +4,21 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 19:28\n"
-"PO-Revision-Date: 2024-11-08 19:28\n"
+"POT-Creation-Date: 2025-01-22 05:58\n"
+"PO-Revision-Date: 2025-01-22 05:58\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: \n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: account_payment_batch_process
+#. odoo-python
 #: code:addons/account_payment_batch_process/wizard/account_payment_register.py:0
 #: code:addons/account_payment_batch_process/wizard/invoice_payment_line.py:0
 #, python-format
@@ -57,6 +58,7 @@ msgid "Balance Amount"
 msgstr "Importe do saldo"
 
 #. module: account_payment_batch_process
+#. odoo-python
 #: code:addons/account_payment_batch_process/wizard/invoice_payment_line.py:0
 #, python-format
 msgid "Balance is unchangeable!"
@@ -68,6 +70,7 @@ msgid "Batch Payment Total"
 msgstr "Total do pago por lotes"
 
 #. module: account_payment_batch_process
+#. odoo-python
 #: code:addons/account_payment_batch_process/wizard/account_payment_register.py:0
 #: model:ir.actions.act_window,name:account_payment_batch_process.action_invoice_batch_process
 #: model:ir.actions.act_window,name:account_payment_batch_process.action_invoice_invoice_batch_process
@@ -115,6 +118,7 @@ msgid "ID"
 msgstr "ID (identificación)"
 
 #. module: account_payment_batch_process
+#. odoo-python
 #: code:addons/account_payment_batch_process/wizard/account_payment_register.py:0
 #, python-format
 msgid ""
@@ -127,6 +131,7 @@ msgid "Invoice Payment Line"
 msgstr "Liña de pago de facturas"
 
 #. module: account_payment_batch_process
+#. odoo-python
 #: code:addons/account_payment_batch_process/wizard/invoice_payment_line.py:0
 #, python-format
 msgid "Invoice is unchangeable!"
@@ -176,6 +181,7 @@ msgid "Note"
 msgstr "Nota"
 
 #. module: account_payment_batch_process
+#. odoo-python
 #: code:addons/account_payment_batch_process/wizard/invoice_payment_line.py:0
 #, python-format
 msgid "Partner is unchangeable!"
@@ -187,6 +193,7 @@ msgid "Payment Adjustment Reason"
 msgstr "Motivo do axuste de pago"
 
 #. module: account_payment_batch_process
+#. odoo-python
 #: code:addons/account_payment_batch_process/wizard/account_payment_register.py:0
 #: model:ir.model.fields,field_description:account_payment_batch_process.field_account_payment_register__invoice_payments
 #, python-format
@@ -211,7 +218,7 @@ msgstr "Código do motivo"
 #. module: account_payment_batch_process
 #: model:ir.model,name:account_payment_batch_process.model_account_payment_register
 msgid "Register Payment"
-msgstr "Rexistrar Pago"
+msgstr "Rexistrar pago"
 
 #. module: account_payment_batch_process
 #: model:ir.model.fields,field_description:account_payment_batch_process.field_invoice_payment_line__invoice_id
@@ -224,12 +231,14 @@ msgid "Supplier Name"
 msgstr "Nome do provedor"
 
 #. module: account_payment_batch_process
+#. odoo-python
 #: code:addons/account_payment_batch_process/wizard/account_payment_register.py:0
 #, python-format
 msgid "The expected model for this action is 'account.move', not '%s'."
 msgstr "O modelo esperado para esta acción é 'account.move', non '%s'."
 
 #. module: account_payment_batch_process
+#. odoo-python
 #: code:addons/account_payment_batch_process/wizard/account_payment_register.py:0
 #, python-format
 msgid ""
@@ -238,6 +247,7 @@ msgstr ""
 "O importe do pago das facturas e o total do pago por lotes non coinciden."
 
 #. module: account_payment_batch_process
+#. odoo-python
 #: code:addons/account_payment_batch_process/wizard/account_payment_register.py:0
 #, python-format
 msgid ""
@@ -246,6 +256,7 @@ msgstr "O asistente execútase sen active_model ou active_ids no contexto."
 
 #. module: account_payment_batch_process
 #: model:ir.model.fields,field_description:account_payment_batch_process.field_account_payment_register__total_amount
+#: model_terms:ir.ui.view,arch_db:account_payment_batch_process.view_account_payment_from_invoices_batch_inherited
 msgid "Total Invoices:"
 msgstr "Total de facturas:"
 
@@ -260,6 +271,7 @@ msgid "Wizard"
 msgstr "Asistente"
 
 #. module: account_payment_batch_process
+#. odoo-python
 #: code:addons/account_payment_batch_process/wizard/account_payment_register.py:0
 #, python-format
 msgid ""
@@ -269,12 +281,14 @@ msgstr ""
 "Só pode rexistrar un pago por lotes para facturas co mesmo modo de pago."
 
 #. module: account_payment_batch_process
+#. odoo-python
 #: code:addons/account_payment_batch_process/wizard/account_payment_register.py:0
 #, python-format
 msgid "You can only register payments for open invoices."
 msgstr "Só podes rexistrar pagos para facturas abertas."
 
 #. module: account_payment_batch_process
+#. odoo-python
 #: code:addons/account_payment_batch_process/wizard/account_payment_register.py:0
 #, python-format
 msgid "You cannot mix customer invoices and vendor bills in a single payment."

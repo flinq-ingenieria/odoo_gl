@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 12:44\n"
-"PO-Revision-Date: 2024-11-08 12:44\n"
+"POT-Creation-Date: 2025-01-22 21:29\n"
+"PO-Revision-Date: 2025-01-22 21:29\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -35,7 +35,7 @@ msgstr "<strong>Diario:</strong>"
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "<strong>Partner:</strong>"
-msgstr "<strong>Socio:</strong>"
+msgstr "<strong>Partner:</strong>"
 
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
@@ -54,23 +54,18 @@ msgstr "importe en divisa"
 
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
-msgid "Analytic Account"
-msgstr "Conta Analítica"
-
-#. module: account_move_print
-#: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "Credit"
-msgstr "Crédito"
+msgstr "Haber"
 
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "Debit"
-msgstr "Débito"
+msgstr "Debe"
 
 #. module: account_move_print
 #: model:ir.actions.report,name:account_move_print.action_report_journal_entries
 msgid "Journal Entries"
-msgstr "Entradas Diarias"
+msgstr "Asentos contables"
 
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
@@ -85,7 +80,7 @@ msgstr "Xerador de imposto"
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document
 msgid "Partner"
-msgstr "Socio"
+msgstr "Partner"
 
 #. module: account_move_print
 #: model_terms:ir.ui.view,arch_db:account_move_print.report_journal_entry_document

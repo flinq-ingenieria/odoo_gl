@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 23:36\n"
-"PO-Revision-Date: 2024-11-07 23:36\n"
+"POT-Creation-Date: 2025-01-22 13:23\n"
+"PO-Revision-Date: 2025-01-22 13:23\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -25,7 +25,7 @@ msgstr "Atributo"
 #. module: product_attribute_value_menu
 #: model:ir.model,name:product_attribute_value_menu.model_product_attribute_value
 msgid "Attribute Value"
-msgstr "Atributo Valor"
+msgstr "Valor do Atributo"
 
 #. module: product_attribute_value_menu
 #: model:ir.actions.act_window,name:product_attribute_value_menu.import_product_attribute_value_action
@@ -43,7 +43,7 @@ msgstr "Valores do Atributo"
 #. module: product_attribute_value_menu
 #: model_terms:ir.ui.view,arch_db:product_attribute_value_menu.product_attribute_value_search_view
 msgid "Group By"
-msgstr "Agrupado Por"
+msgstr "Grupo por"
 
 #. module: product_attribute_value_menu
 #: model:ir.model.fields,field_description:product_attribute_value_menu.field_product_attribute_value__product_count

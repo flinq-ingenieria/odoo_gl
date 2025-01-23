@@ -7,10 +7,10 @@
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 20:47\n"
-"PO-Revision-Date: 2024-11-07 20:47\n"
+"POT-Creation-Date: 2025-01-22 14:58\n"
+"PO-Revision-Date: 2025-01-22 14:58\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -23,7 +23,7 @@ msgstr ""
 #. module: stock_picking_invoice_link
 #: model:ir.model,name:stock_picking_invoice_link.model_account_move_reversal
 msgid "Account Move Reversal"
-msgstr "Reversión de Movemento de Conta"
+msgstr "Reversión de movemento de conta"
 
 #. module: stock_picking_invoice_link
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoice_link.invoice_form
@@ -52,11 +52,6 @@ msgid "Invoices"
 msgstr "Facturas"
 
 #. module: stock_picking_invoice_link
-#: model:ir.model.fields,field_description:stock_picking_invoice_link.field_stock_picking__invoice_count
-msgid "Invoices Orders"
-msgstr "Facturación Pedidos"
-
-#. module: stock_picking_invoice_link
 #: model:ir.model,name:stock_picking_invoice_link.model_account_move
 msgid "Journal Entry"
 msgstr "Entrada Diaria"
@@ -65,6 +60,11 @@ msgstr "Entrada Diaria"
 #: model:ir.model,name:stock_picking_invoice_link.model_account_move_line
 msgid "Journal Item"
 msgstr "Apuntamento contable"
+
+#. module: stock_picking_invoice_link
+#: model:ir.model.fields,field_description:stock_picking_invoice_link.field_stock_picking__invoice_count
+msgid "Number of Invoices"
+msgstr "Número de facturas"
 
 #. module: stock_picking_invoice_link
 #: model:ir.model.fields,field_description:stock_picking_invoice_link.field_account_bank_statement_line__picking_count
@@ -121,13 +121,17 @@ msgid "Transfer"
 msgstr "Transferir"
 
 #. module: stock_picking_invoice_link
+#. odoo-python
 #: code:addons/stock_picking_invoice_link/models/stock_move.py:0
 #, python-format
 msgid "You can not modify an invoiced stock move"
 msgstr "Non pode modificar un movemento de existencias facturado"
 
 #~ msgid "Delivery Orders"
-#~ msgstr "Ordes de Entrega"
+#~ msgstr "Ordes de entrega"
+
+#~ msgid "Invoices Orders"
+#~ msgstr "Facturas de Pedidos"
 
 #~ msgid "Journal Entries"
 #~ msgstr "Asentos contables"

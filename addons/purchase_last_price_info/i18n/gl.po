@@ -5,10 +5,10 @@
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 21:20\n"
-"PO-Revision-Date: 2024-11-08 21:20\n"
+"POT-Creation-Date: 2025-01-22 13:24\n"
+"PO-Revision-Date: 2025-01-22 13:24\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -61,14 +61,14 @@ msgid "Last currency purchase price"
 msgstr "Prezo de compra na última divisa"
 
 #. module: purchase_last_price_info
-#: model:ir.model,name:purchase_last_price_info.model_product_product
+#: model:ir.model,name:purchase_last_price_info.model_product_template
 msgid "Product"
 msgstr "Produto"
 
 #. module: purchase_last_price_info
-#: model:ir.model,name:purchase_last_price_info.model_product_template
-msgid "Product Template"
-msgstr "Produto"
+#: model:ir.model,name:purchase_last_price_info.model_product_product
+msgid "Product Variant"
+msgstr "Variante de produto"
 
 #. module: purchase_last_price_info
 #: model_terms:ir.ui.view,arch_db:purchase_last_price_info.product_product_last_purchase_info_form_view
@@ -80,7 +80,10 @@ msgstr "Compra"
 #: model:ir.model.fields,field_description:purchase_last_price_info.field_product_product__show_last_purchase_price_currency
 #: model:ir.model.fields,field_description:purchase_last_price_info.field_product_template__show_last_purchase_price_currency
 msgid "Show Last Purchase Price Currency"
-msgstr "Mostrar divisa do último prezo de compra"
+msgstr "Mostrar o prezo da divisa da última compra"
+
+#~ msgid "Product Template"
+#~ msgstr "Produto"
 
 #~ msgid "Purchase Order"
 #~ msgstr "Compra"

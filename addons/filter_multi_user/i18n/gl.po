@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 20:18\n"
-"PO-Revision-Date: 2024-11-08 20:18\n"
+"POT-Creation-Date: 2025-01-22 02:26\n"
+"PO-Revision-Date: 2025-01-22 02:26\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -16,11 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: tradutor Zerever\n"
-
-#. module: filter_multi_user
-#: model:ir.model.fields,field_description:filter_multi_user.field_ir_filters__group_ids
-msgid "Available for Groups"
-msgstr "Dispoñible para Grupos"
 
 #. module: filter_multi_user
 #: model:ir.model.fields,field_description:filter_multi_user.field_ir_filters__manual_user_ids
@@ -39,9 +34,17 @@ msgid "Owner"
 msgstr "Propietario"
 
 #. module: filter_multi_user
+#: model:ir.model.fields,field_description:filter_multi_user.field_ir_filters__group_ids
+msgid "User Groups"
+msgstr "Grupos de Usuarios"
+
+#. module: filter_multi_user
 #: model:ir.model.fields,field_description:filter_multi_user.field_ir_filters__user_ids
 msgid "Users"
 msgstr "Usuarios"
+
+#~ msgid "Available for Groups"
+#~ msgstr "Dispoñible para Grupos"
 
 #~ msgid "Display Name"
 #~ msgstr "Nome mostrado"

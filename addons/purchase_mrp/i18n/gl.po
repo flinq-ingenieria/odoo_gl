@@ -3,16 +3,18 @@
 # 	* purchase_mrp
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
+# Ana Sanjuán, 2023
+# Larissa Manderfeld, 2023
 # Carolina Fernández, 2024
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 20:28\n"
-"PO-Revision-Date: 2024-11-07 20:28\n"
+"POT-Creation-Date: 2025-01-21 14:24\n"
+"PO-Revision-Date: 2025-01-21 14:24\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -33,14 +35,46 @@ msgid "<span class=\"o_stat_text\">Purchases</span>"
 msgstr "<span class=\"o_stat_text\">Compras</span>"
 
 #. module: purchase_mrp
+#: model:ir.model,name:purchase_mrp.model_report_mrp_report_bom_structure
+msgid "BOM Overview Report"
+msgstr "Informe de resumo de LdM"
+
+#. module: purchase_mrp
+#: model:ir.model,name:purchase_mrp.model_mrp_bom
+msgid "Bill of Material"
+msgstr "Lista de materiais"
+
+#. module: purchase_mrp
+#: model:ir.model,name:purchase_mrp.model_mrp_bom_line
+msgid "Bill of Material Line"
+msgstr "Liña de lista de materiais"
+
+#. module: purchase_mrp
+#: code:addons/purchase_mrp/models/mrp_bom.py:0
+#, python-format
+msgid "Components cost share have to be positive or equals to zero."
+msgstr ""
+"O custo compartido dos compoñentes ten que ser positivo ou igual a cero."
+
+#. module: purchase_mrp
+#: model:ir.model.fields,field_description:purchase_mrp.field_mrp_bom_line__cost_share
+msgid "Cost Share (%)"
+msgstr "Repartición de custos (%)"
+
+#. module: purchase_mrp
 #: model:ir.model.fields,field_description:purchase_mrp.field_purchase_order__mrp_production_count
 msgid "Count of MO Source"
-msgstr "Conta de MO fonte"
+msgstr "Número de fontes de ordes de fabricación"
 
 #. module: purchase_mrp
 #: model:ir.model.fields,field_description:purchase_mrp.field_mrp_production__purchase_order_count
 msgid "Count of generated PO"
-msgstr "Conta de pedidos de compra xerados"
+msgstr "Número de pedidos de compra xerados"
+
+#. module: purchase_mrp
+#: model:ir.model,name:purchase_mrp.model_account_move_line
+msgid "Journal Item"
+msgstr "Apuntamento contable"
 
 #. module: purchase_mrp
 #: code:addons/purchase_mrp/models/purchase.py:0
@@ -76,9 +110,26 @@ msgstr "Liña de pedido de compra"
 #: code:addons/purchase_mrp/models/mrp_production.py:0
 #, python-format
 msgid "Purchase Order generated from %s"
-msgstr "Pedido de compra xerada a partir de %s"
+msgstr "Pedido de compra xerado a partir de %s"
 
 #. module: purchase_mrp
 #: model:ir.model,name:purchase_mrp.model_stock_move
 msgid "Stock Move"
-msgstr "Movemento de existencias"
+msgstr "Movemento de stock"
+
+#. module: purchase_mrp
+#: model:ir.model.fields,help:purchase_mrp.field_mrp_bom_line__cost_share
+msgid ""
+"The percentage of the component repartition cost when purchasing a kit.The "
+"total of all components' cost have to be equal to 100."
+msgstr ""
+"A porcentaxe do custo de repartición do compoñente cando se compra un kit. O"
+" total do custo de todos os compoñentes debe ser igual a 100."
+
+#. module: purchase_mrp
+#: code:addons/purchase_mrp/models/mrp_bom.py:0
+#, python-format
+msgid "The total cost share for a BoM's component have to be 100"
+msgstr ""
+"O total da repartición de custos para un compoñente da lista de materiais "
+"debe ser 100"

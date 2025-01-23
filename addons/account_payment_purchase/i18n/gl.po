@@ -7,10 +7,10 @@
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 05:15\n"
-"PO-Revision-Date: 2024-11-08 05:15\n"
+"POT-Creation-Date: 2025-01-22 05:40\n"
+"PO-Revision-Date: 2025-01-22 05:40\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -47,12 +47,14 @@ msgstr ""
 "factura de provedor."
 
 #. module: account_payment_purchase
+#. odoo-python
 #: code:addons/account_payment_purchase/models/account_move.py:0
 #, python-format
 msgid "Selected purchase order have different payment mode."
 msgstr "O pedido de compra ten diferente modo de pago."
 
 #. module: account_payment_purchase
+#. odoo-python
 #: code:addons/account_payment_purchase/models/account_move.py:0
 #, python-format
 msgid "Selected purchase order have different supplier bank."
@@ -64,13 +66,14 @@ msgid "Supplier Bank Account"
 msgstr "Conta bancaria do provedor"
 
 #. module: account_payment_purchase
+#. odoo-python
 #: code:addons/account_payment_purchase/models/account_move.py:0
 #, python-format
 msgid "Warning"
 msgstr "Aviso"
 
 #~ msgid "Journal Entries"
-#~ msgstr "entradas diarias"
+#~ msgstr "Asentos contables"
 
 #~ msgid "Invoice"
 #~ msgstr "Factura"

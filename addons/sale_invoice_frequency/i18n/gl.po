@@ -4,17 +4,17 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 22:53\n"
-"PO-Revision-Date: 2024-11-07 22:53\n"
+"POT-Creation-Date: 2025-01-22 22:56\n"
+"PO-Revision-Date: 2025-01-22 22:56\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: sale_invoice_frequency
@@ -111,6 +111,11 @@ msgstr "Última actualización por"
 #: model:ir.model.fields,field_description:sale_invoice_frequency.field_sale_invoice_frequency__write_date
 msgid "Last Updated on"
 msgstr "Última actualización o"
+
+#. module: sale_invoice_frequency
+#: model:sale.invoice.frequency,name:sale_invoice_frequency.sale_invoice_frequency_monthly
+msgid "Monthly"
+msgstr "Mensual"
 
 #. module: sale_invoice_frequency
 #: model:ir.model.fields,field_description:sale_invoice_frequency.field_sale_invoice_frequency__name

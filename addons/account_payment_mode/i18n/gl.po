@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 14:05\n"
-"PO-Revision-Date: 2024-11-08 14:05\n"
+"POT-Creation-Date: 2025-01-21 18:41\n"
+"PO-Revision-Date: 2025-01-21 18:41\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -43,7 +43,7 @@ msgstr "Diarios de banco permitidos"
 #: model_terms:ir.ui.view,arch_db:account_payment_mode.account_payment_method_form
 #: model_terms:ir.ui.view,arch_db:account_payment_mode.account_payment_mode_form
 msgid "Archived"
-msgstr "arquivado"
+msgstr "Arquivado"
 
 #. module: account_payment_mode
 #: model:ir.model.fields,field_description:account_payment_mode.field_account_payment_method__bank_account_required
@@ -119,7 +119,7 @@ msgid ""
 msgstr ""
 "Para modos de pago que sempre estarán asociados á mesma conta bancaria da "
 "compañía (como as transferencias bancarias de clientes ou os débitos "
-"directos SEPA de provedores), selecciona 'Fixado\". Para modos de pagos nos"
+"directos SAIBA de provedores), selecciona 'Fixado\". Para modos de pagos nos"
 " que pode cambiar a conta bancaria (como o débito directo de clientes ou as "
 "transferencias de provedores), seleccione 'Variable', o que significa que "
 "poderá seleccionar a conta bancaria na orde de pago. Se a súa compañía ten "
@@ -194,6 +194,7 @@ msgid "Note"
 msgstr "Nota"
 
 #. module: account_payment_mode
+#. odoo-python
 #: code:addons/account_payment_mode/models/account_payment_mode.py:0
 #, python-format
 msgid ""
@@ -204,6 +205,7 @@ msgstr ""
 "diario bancario fixo non está establecido"
 
 #. module: account_payment_mode
+#. odoo-python
 #: code:addons/account_payment_mode/models/account_payment_mode.py:0
 #, python-format
 msgid ""
@@ -216,6 +218,7 @@ msgstr ""
 "banco do diario %(journal)s"
 
 #. module: account_payment_mode
+#. odoo-python
 #: code:addons/account_payment_mode/models/account_payment_mode.py:0
 #, python-format
 msgid ""
@@ -281,6 +284,12 @@ msgid "Search Payment Modes"
 msgstr "Buscar modos de pago"
 
 #. module: account_payment_mode
+#: model:ir.model.fields,field_description:account_payment_mode.field_account_payment_mode__sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: account_payment_mode
+#. odoo-python
 #: code:addons/account_payment_mode/models/account_journal.py:0
 #, python-format
 msgid ""
@@ -292,6 +301,7 @@ msgstr ""
 "   %(paymode)s onde se está usando en Diarios de Banco Permitidos."
 
 #. module: account_payment_mode
+#. odoo-python
 #: code:addons/account_payment_mode/models/account_journal.py:0
 #, python-format
 msgid ""
@@ -302,6 +312,7 @@ msgstr ""
 "%(paymode)s onde se usa como Diario de Banco Fixo."
 
 #. module: account_payment_mode
+#. odoo-python
 #: code:addons/account_payment_mode/models/account_payment_mode.py:0
 #, python-format
 msgid ""
@@ -330,9 +341,6 @@ msgstr "Variable"
 #~ msgid "A payment method of the same type already exists with this code"
 #~ msgstr "Un método de pago do mesmo tipo xa existe con este código"
 
-#~ msgid "Inbound Payment Methods"
-#~ msgstr "Métodos de pago entrantes"
-
 #~ msgid ""
 #~ "Manual: Get paid by cash, check or any other method outside of Odoo.\n"
 #~ "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
@@ -349,7 +357,7 @@ msgstr "Variable"
 #~ msgstr ""
 #~ "Manual: Pague a factura en efectivo ou con calquera outro método fóra de Odoo.\n"
 #~ "Cheque: Pague a factura con cheque e imprímao desde Odoo.\n"
-#~ "Transferencia de crédito SEPA: pague a factura desde un arquivo de transferencia de crédito SEPA que envíe ao seu banco. Habilite esta opción desde a configuración."
+#~ "Transferencia de crédito SAIBA: pague a factura desde un arquivo de transferencia de crédito SAIBA que envíe ao seu banco. Habilite esta opción desde a configuración."
 
 #, python-format
 #~ msgid ""
@@ -365,7 +373,7 @@ msgstr "Variable"
 #~ "method), but this debit method is not part of the debit methods of the fixed"
 #~ " bank journal '%s'"
 #~ msgstr ""
-#~ "No modo de pago '%s', o método de pago é '%s' (en realidade é un método de "
+#~ "No modo de pago '%s', o método de pago é '%s' (é en realidade un método de "
 #~ "debo), pero este método de debo non é parte dos métodos de debo do diario "
 #~ "bancario fixo '%s'"
 
@@ -376,9 +384,6 @@ msgstr "Variable"
 #~ msgstr ""
 #~ "No modo de pago '%s', o método de pago é '%s', pero este método de pago non "
 #~ "é parte dos métodos de pago do diario bancario fixo '%s'"
-
-#~ msgid "Outbound Payment Methods"
-#~ msgstr "Métodos de pago de saída"
 
 #, python-format
 #~ msgid ""
@@ -395,14 +400,6 @@ msgstr "Variable"
 #~ msgstr ""
 #~ "A compañía do diario %s non corresponde coa compañía do modo de pago '%s' "
 #~ "que se usa cos diarios permitidos de banco."
-
-#, python-format
-#~ msgid ""
-#~ "The company of the payment mode '%s', does not match with one of the Allowed"
-#~ " Bank Journals."
-#~ msgstr ""
-#~ "A empresa da modalidade de pago '%s', non coincide cun dos Diarios Bancarios"
-#~ " Permitidos."
 
 #~ msgid "Bank Account Type"
 #~ msgstr "Tipo de conta bancaria"

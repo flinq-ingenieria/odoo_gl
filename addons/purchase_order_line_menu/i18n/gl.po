@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 22:57\n"
-"PO-Revision-Date: 2024-11-07 22:57\n"
+"POT-Creation-Date: 2025-01-22 23:52\n"
+"PO-Revision-Date: 2025-01-22 23:52\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -16,16 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: tradutor Zerever\n"
-
-#. module: purchase_order_line_menu
-#: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search
-msgid "Analytic Account"
-msgstr "conta analítica"
-
-#. module: purchase_order_line_menu
-#: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search
-msgid "Analytic Tags"
-msgstr "Etiqueta Analítica"
 
 #. module: purchase_order_line_menu
 #: model:ir.model.fields,field_description:purchase_order_line_menu.field_purchase_order_line__invoice_status
@@ -101,7 +91,7 @@ msgstr "Prezo total"
 #. module: purchase_order_line_menu
 #: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search
 msgid "Purchase Order"
-msgstr "orde de compra"
+msgstr "Orde de Compra"
 
 #. module: purchase_order_line_menu
 #: model:ir.model,name:purchase_order_line_menu.model_purchase_order_line
@@ -117,12 +107,12 @@ msgstr "Liñas de pedido de compra"
 #. module: purchase_order_line_menu
 #: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search
 msgid "RFQ"
-msgstr "SOLICITUDE DE OFERTA"
+msgstr "SDO (Solicitude de Oferta)"
 
 #. module: purchase_order_line_menu
 #: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search
 msgid "RFQ Sent"
-msgstr "SOLICITUDE DE OFERTA Enviada"
+msgstr "SDO enviada"
 
 #. module: purchase_order_line_menu
 #: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search

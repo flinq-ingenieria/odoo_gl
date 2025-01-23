@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 06:35\n"
-"PO-Revision-Date: 2024-11-08 06:35\n"
+"POT-Creation-Date: 2025-01-22 07:00\n"
+"PO-Revision-Date: 2025-01-22 07:00\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -80,20 +80,16 @@ msgstr "actualizado por última vez por"
 #. module: scrap_reason_code
 #: model:ir.model.fields,field_description:scrap_reason_code.field_scrap_reason_code__write_date
 msgid "Last Updated on"
-msgstr "Última actualización en"
+msgstr "Últ. actualización en"
 
 #. module: scrap_reason_code
 #: model:ir.model,name:scrap_reason_code.model_scrap_reason_code
+#: model:ir.model.fields,field_description:scrap_reason_code.field_stock_move__reason_code_id
 #: model:ir.model.fields,field_description:scrap_reason_code.field_stock_scrap__reason_code_id
 #: model_terms:ir.ui.view,arch_db:scrap_reason_code.stock_reason_code_form
 #: model_terms:ir.ui.view,arch_db:scrap_reason_code.view_scrap_reason_code_form
 msgid "Reason Code"
 msgstr "Código do motivo"
-
-#. module: scrap_reason_code
-#: model:ir.model.fields,field_description:scrap_reason_code.field_stock_move__reason_code_id
-msgid "Reason code"
-msgstr "Código de motivo"
 
 #. module: scrap_reason_code
 #: model:ir.model,name:scrap_reason_code.model_stock_scrap
@@ -118,6 +114,7 @@ msgid "Stock Move"
 msgstr "Movemento de almacén"
 
 #. module: scrap_reason_code
+#. odoo-python
 #: code:addons/scrap_reason_code/models/stock_scrap.py:0
 #, python-format
 msgid "The selected reason code is not allowed for this product category."
@@ -127,3 +124,6 @@ msgstr ""
 
 #~ msgid "Reason Codes"
 #~ msgstr "Códigos de motivo"
+
+#~ msgid "Reason code"
+#~ msgstr "Código de motivo"

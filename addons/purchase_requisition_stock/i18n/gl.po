@@ -3,14 +3,16 @@
 # 	* purchase_requisition_stock
 #
 # Translators:
-# Martin Trigaux, 2021
+# Martin Trigaux, 2022
+# Carolina Fernández, 2024
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 22:15\n"
-"PO-Revision-Date: 2024-11-07 22:15\n"
+"POT-Creation-Date: 2025-01-21 22:58\n"
+"PO-Revision-Date: 2025-01-21 22:58\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -31,19 +33,25 @@ msgid "Minimum Inventory Rule"
 msgstr "Regra de inventario mínimo"
 
 #. module: purchase_requisition_stock
+#: model:ir.model.fields,field_description:purchase_requisition_stock.field_purchase_order__on_time_rate_perc
+#: model:ir.model.fields,field_description:purchase_requisition_stock.field_purchase_order_line__on_time_rate_perc
+msgid "OTD"
+msgstr "Entrega a tempo"
+
+#. module: purchase_requisition_stock
 #: model:ir.model.fields,field_description:purchase_requisition_stock.field_purchase_requisition__picking_type_id
 msgid "Operation Type"
 msgstr "Tipo de operación"
 
 #. module: purchase_requisition_stock
-#: model:ir.model.fields,field_description:purchase_requisition_stock.field_purchase_requisition__procurement_group_id
-msgid "Procurement Group"
-msgstr "Grupo de abastecemento"
-
-#. module: purchase_requisition_stock
 #: model:ir.model,name:purchase_requisition_stock.model_purchase_order
 msgid "Purchase Order"
 msgstr "Pedido de compra"
+
+#. module: purchase_requisition_stock
+#: model:ir.model,name:purchase_requisition_stock.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "Liña de pedido de compra"
 
 #. module: purchase_requisition_stock
 #: model:ir.model,name:purchase_requisition_stock.model_purchase_requisition
@@ -53,24 +61,29 @@ msgstr "Solicitude de compra"
 #. module: purchase_requisition_stock
 #: model:ir.model,name:purchase_requisition_stock.model_purchase_requisition_line
 msgid "Purchase Requisition Line"
-msgstr "Liña solicitude de compra"
+msgstr "Liña da solicitude de compra"
 
 #. module: purchase_requisition_stock
 #: model:ir.model.fields,field_description:purchase_requisition_stock.field_stock_move__requisition_line_ids
 msgid "Requisition Line"
-msgstr "Liña de acordo"
+msgstr "Liña de solicitude"
 
 #. module: purchase_requisition_stock
 #: model:ir.model,name:purchase_requisition_stock.model_stock_move
 msgid "Stock Move"
-msgstr "Movemento de existencias"
+msgstr "Movemento de stock"
 
 #. module: purchase_requisition_stock
 #: model:ir.model,name:purchase_requisition_stock.model_stock_rule
 msgid "Stock Rule"
-msgstr "Regra de Inventario"
+msgstr "Regra de inventario"
 
 #. module: purchase_requisition_stock
 #: model:ir.model.fields,field_description:purchase_requisition_stock.field_purchase_requisition__warehouse_id
 msgid "Warehouse"
 msgstr "Almacén"
+
+#. module: purchase_requisition_stock
+#: model:ir.model,name:purchase_requisition_stock.model_purchase_requisition_create_alternative
+msgid "Wizard to preset values for alternative PO"
+msgstr "Asistente pare presentar valores para un pedido de compra alternativo"

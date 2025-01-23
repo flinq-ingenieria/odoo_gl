@@ -7,10 +7,10 @@
 # enjolras <yo@miguelrevilla.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 14:09\n"
-"PO-Revision-Date: 2024-11-08 14:09\n"
+"POT-Creation-Date: 2025-01-22 02:22\n"
+"PO-Revision-Date: 2025-01-22 02:22\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -28,7 +28,7 @@ msgstr "Compañías"
 #. module: partner_label
 #: model:ir.model,name:partner_label.model_res_config_settings
 msgid "Config Settings"
-msgstr "Configuración de Axustes"
+msgstr "Axustes Configuración"
 
 #. module: partner_label
 #: model:ir.model.fields,field_description:partner_label.field_res_company__partner_labels_height
@@ -115,7 +115,7 @@ msgstr "Formato do papel"
 #. module: partner_label
 #: model:ir.actions.report,name:partner_label.report_res_partner_label
 msgid "Partner Labels"
-msgstr "Etiquetas de Contacto"
+msgstr "Etiquetas de Socios"
 
 #. module: partner_label
 #: model_terms:ir.ui.view,arch_db:partner_label.view_general_configuration

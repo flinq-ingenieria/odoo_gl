@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 02:18\n"
-"PO-Revision-Date: 2024-11-08 02:18\n"
+"POT-Creation-Date: 2025-01-22 17:44\n"
+"PO-Revision-Date: 2025-01-22 17:44\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: stock_available_unreserved
@@ -30,26 +31,28 @@ msgid "Internal Unreserved"
 msgstr "Non reservado interno"
 
 #. module: stock_available_unreserved
+#. odoo-python
 #: code:addons/stock_available_unreserved/models/product_product.py:0
 #, python-format
 msgid "Invalid domain operator %s"
 msgstr "Operador de dominio inválido %s"
 
 #. module: stock_available_unreserved
+#. odoo-python
 #: code:addons/stock_available_unreserved/models/product_product.py:0
 #, python-format
 msgid "Invalid domain right operand %s"
 msgstr "Operando de dominio inválido %s"
 
 #. module: stock_available_unreserved
-#: model:ir.model,name:stock_available_unreserved.model_product_product
+#: model:ir.model,name:stock_available_unreserved.model_product_template
 msgid "Product"
 msgstr "Produto"
 
 #. module: stock_available_unreserved
-#: model:ir.model,name:stock_available_unreserved.model_product_template
-msgid "Product Template"
-msgstr "Modelo de produto"
+#: model:ir.model,name:stock_available_unreserved.model_product_product
+msgid "Product Variant"
+msgstr "Variante de produto"
 
 #. module: stock_available_unreserved
 #: model:ir.model.fields,field_description:stock_available_unreserved.field_product_product__qty_available_not_res
@@ -94,3 +97,6 @@ msgstr "Non reservado"
 #: model_terms:ir.ui.view,arch_db:stock_available_unreserved.product_template_kanban_stock_view
 msgid "Unreserved:"
 msgstr "Non reservado:"
+
+#~ msgid "Product Template"
+#~ msgstr "Modelo de produto"

@@ -6,10 +6,10 @@
 # enjolras <yo@miguelrevilla.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 12:47\n"
-"PO-Revision-Date: 2024-11-08 12:47\n"
+"POT-Creation-Date: 2025-01-21 22:08\n"
+"PO-Revision-Date: 2025-01-21 22:08\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -31,6 +31,7 @@ msgid "Scheduled Actions"
 msgstr "Accións programadas"
 
 #. module: base_cron_exclusion
+#. odoo-python
 #: code:addons/base_cron_exclusion/models/ir_cron.py:0
 #, python-format
 msgid "You can not mutually exclude a scheduled actions with itself."

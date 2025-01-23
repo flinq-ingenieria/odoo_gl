@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 00:27\n"
-"PO-Revision-Date: 2024-11-08 00:27\n"
+"POT-Creation-Date: 2025-01-22 22:30\n"
+"PO-Revision-Date: 2025-01-22 22:30\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. module: account_invoice_report_payment_info
 #: model:ir.model,name:account_invoice_report_payment_info.model_account_move
 msgid "Journal Entry"
-msgstr "Entrada Diaria"
+msgstr "Entrada diaria"
 
 #~ msgid "Journal Entries"
 #~ msgstr "Asentos Contables"

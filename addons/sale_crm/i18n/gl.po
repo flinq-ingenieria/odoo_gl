@@ -3,16 +3,17 @@
 # 	* sale_crm
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2023
+# Carolina Fernández, 2024
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 13:51\n"
-"PO-Revision-Date: 2024-11-08 13:51\n"
+"POT-Creation-Date: 2025-01-22 23:19\n"
+"PO-Revision-Date: 2025-01-22 23:19\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -30,7 +31,7 @@ msgstr "<span class=\"o_stat_text\"> Pedidos</span>"
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_crm_quotation_partner__lead_id
 msgid "Associated Lead"
-msgstr "Cliente potencial asociado"
+msgstr "Lead asociado"
 
 #. module: sale_crm
 #: model_terms:ir.ui.view,arch_db:sale_crm.crm_quotation_partner_view_form
@@ -55,7 +56,7 @@ msgstr "Cre un cliente novo ou use un cliente existente nun novo orzamento"
 #. module: sale_crm
 #: model_terms:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
 msgid "Create new quotation"
-msgstr "Crear nova cotización"
+msgstr "Crear novo orzamento"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_crm_quotation_partner__create_uid
@@ -80,7 +81,7 @@ msgstr "Nome mostrado"
 #. module: sale_crm
 #: model:ir.model.fields.selection,name:sale_crm.selection__crm_quotation_partner__action__nothing
 msgid "Do not link to a customer"
-msgstr "Non enlazar a un cliente"
+msgstr "Non vincular a un cliente"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_crm_quotation_partner__id
@@ -90,7 +91,7 @@ msgstr "ID"
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users__target_sales_invoiced
 msgid "Invoiced in Sales Orders Target"
-msgstr "Facturado en obxectivo de ordes de venda"
+msgstr "Facturado en obxectivo de pedidos de venda"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_crm_quotation_partner____last_update
@@ -110,12 +111,12 @@ msgstr "Última actualización o"
 #. module: sale_crm
 #: model:ir.model,name:sale_crm.model_crm_lead
 msgid "Lead/Opportunity"
-msgstr "Iniciativa/Oportunidade"
+msgstr "Lead/Oportunidade"
 
 #. module: sale_crm
 #: model:ir.model.fields.selection,name:sale_crm.selection__crm_quotation_partner__action__exist
 msgid "Link to an existing customer"
-msgstr "Ligazón a cliente existente"
+msgstr "Vincular a un cliente existente"
 
 #. module: sale_crm
 #: model_terms:ir.ui.view,arch_db:sale_crm.sale_view_inherit123
@@ -132,7 +133,7 @@ msgstr "Os meus orzamentos"
 #: model_terms:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
 #: model_terms:ir.ui.view,arch_db:sale_crm.crm_quotation_partner_view_form
 msgid "New Quotation"
-msgstr "Novo Orzamento"
+msgstr "Novo orzamento"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_crm_lead__quotation_count
@@ -142,7 +143,7 @@ msgstr "Número de orzamentos"
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_crm_lead__sale_order_count
 msgid "Number of Sale Orders"
-msgstr "Nº de pedidos de venda"
+msgstr "Número de pedidos de venda"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_sale_order__opportunity_id
@@ -170,6 +171,11 @@ msgid "Quotations"
 msgstr "Orzamentos"
 
 #. module: sale_crm
+#: model_terms:ir.ui.view,arch_db:sale_crm.crm_lead_merge_summary_inherit_sale_crm
+msgid "Sale Orders"
+msgstr "Pedidos de venda"
+
+#. module: sale_crm
 #: code:addons/sale_crm/models/crm_team.py:0
 #, python-format
 msgid "Sales Analysis"
@@ -189,7 +195,7 @@ msgstr "Equipo de vendas"
 #: code:addons/sale_crm/models/crm_team.py:0
 #, python-format
 msgid "Sales: Untaxed Total"
-msgstr "Vendas: Total sen impostos"
+msgstr "Vendas: total impoñible"
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_crm_lead__sale_amount_total
@@ -199,15 +205,15 @@ msgstr "Suma de pedidos"
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_crm_lead__sale_amount_total
 msgid "Untaxed Total of Confirmed Orders"
-msgstr "Importe total sen impostos dos pedidos confirmados"
+msgstr "Base impoñible dos pedidos confirmados"
 
 #. module: sale_crm
 #: model:ir.model,name:sale_crm.model_res_users
-msgid "Users"
-msgstr "Usuarios"
+msgid "User"
+msgstr "Usuario"
 
 #. module: sale_crm
 #: code:addons/sale_crm/wizard/crm_opportunity_to_quotation.py:0
 #, python-format
 msgid "You can only apply this action from a lead."
-msgstr "Só pode aplicar esta acción desde unha iniciativa."
+msgstr "Só pode aplicar esta acción desde un lead."

@@ -3,15 +3,16 @@
 # 	* account_fleet
 #
 # Translators:
-# Martin Trigaux, 2021
+# Martin Trigaux, 2022
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2022
 # Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 12:52\n"
-"PO-Revision-Date: 2024-11-08 12:52\n"
+"POT-Creation-Date: 2025-01-22 23:31\n"
+"PO-Revision-Date: 2025-01-22 23:31\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -34,12 +35,7 @@ msgstr "Facturas"
 #. module: account_fleet
 #: model:ir.model.fields,field_description:account_fleet.field_fleet_vehicle__bill_count
 msgid "Bills Count"
-msgstr "Conta de facturas"
-
-#. module: account_fleet
-#: model:ir.model,name:account_fleet.model_account_automatic_entry_wizard
-msgid "Create Automatic Entries"
-msgstr "Crear asentos automáticos"
+msgstr "Número de facturas"
 
 #. module: account_fleet
 #: model_terms:ir.ui.view,arch_db:account_fleet.account_move_view_tree
@@ -64,17 +60,8 @@ msgstr "Necesita vehículo"
 #. module: account_fleet
 #: code:addons/account_fleet/models/account_move.py:0
 #, python-format
-msgid ""
-"Service Vendor Bill: <a href=# data-oe-model=account.move data-oe-"
-"id={move_id}>{move_name}</a>"
-msgstr ""
-"Factura do provedor de servizos: <a href=# data-oe-model=account.move data-"
-"oe-id={move_id}>{move_name}</a>"
-
-#. module: account_fleet
-#: model:ir.model.fields,help:account_fleet.field_account_move_line__need_vehicle
-msgid "Technical field to decide whether the vehicle_id field is editable"
-msgstr "Campo técnico para decidir se o campo vehicle_ide é editable"
+msgid "Service Vendor Bill: %s"
+msgstr "Factura de servizo do provedor: %s"
 
 #. module: account_fleet
 #: model:ir.model,name:account_fleet.model_fleet_vehicle
@@ -90,4 +77,4 @@ msgstr "Factura de provedor"
 #. module: account_fleet
 #: model_terms:ir.ui.view,arch_db:account_fleet.fleet_vehicle_view_form
 msgid "show the vendor bills for this vehicle"
-msgstr "mostrar as facturas do provedor deste vehículo"
+msgstr "mostrar as facturas do provedor para este vehículo"

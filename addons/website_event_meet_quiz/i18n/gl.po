@@ -3,15 +3,15 @@
 # 	* website_event_meet_quiz
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 01:47\n"
-"PO-Revision-Date: 2024-11-08 01:47\n"
+"POT-Creation-Date: 2025-01-21 23:15\n"
+"PO-Revision-Date: 2025-01-21 23:15\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -24,7 +24,7 @@ msgstr ""
 #. module: website_event_meet_quiz
 #: model_terms:ir.ui.view,arch_db:website_event_meet_quiz.community_leaderboard_small
 msgid "Leaderboard"
-msgstr "Taboleiro de líderes"
+msgstr "Táboa de clasificación"
 
 #. module: website_event_meet_quiz
 #: model_terms:ir.ui.view,arch_db:website_event_meet_quiz.community_leaderboard_small

@@ -1,0 +1,21 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_picking_report_header_repeater
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-21 22:31\n"
+"PO-Revision-Date: 2025-01-21 22:31\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: tradutor Zerever\n"
+
+#~ msgid "<span><strong>Customer Address:</strong></span>"
+#~ msgstr "<span><strong>Dirección do cliente:</strong></span>"

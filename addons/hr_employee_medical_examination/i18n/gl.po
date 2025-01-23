@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 23:59\n"
-"PO-Revision-Date: 2024-11-07 23:59\n"
+"POT-Creation-Date: 2025-01-22 13:04\n"
+"PO-Revision-Date: 2025-01-22 13:04\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -18,6 +18,7 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: hr_employee_medical_examination
+#. odoo-python
 #: code:addons/hr_employee_medical_examination/wizards/wizard_generate_medical_examination.py:0
 #, python-format
 msgid "%(name)s on %(employee)s"
@@ -31,7 +32,7 @@ msgstr "<strong>Filtros:</strong>"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__message_needaction
 msgid "Action Needed"
-msgstr "Necesita Acción"
+msgstr "Acción necesaria"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__activity_ids
@@ -41,17 +42,17 @@ msgstr "Actividades"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Decoración de Actividade de Excepción"
+msgstr "Decoración de actividade de excepción"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__activity_state
 msgid "Activity State"
-msgstr "Estado da Actividade"
+msgstr "Estado da actividade"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "Icona para o Tipo de Actividade"
+msgstr "Icona de tipo de actividade"
 
 #. module: hr_employee_medical_examination
 #: model_terms:ir.ui.view,arch_db:hr_employee_medical_examination.hr_employee_medical_examination_form_view
@@ -61,7 +62,7 @@ msgstr "Engadir nota..."
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__message_attachment_count
 msgid "Attachment Count"
-msgstr "Reconto de Arquivos Adxuntos"
+msgstr "Reconto de anexos"
 
 #. module: hr_employee_medical_examination
 #: model_terms:ir.ui.view,arch_db:hr_employee_medical_examination.hr_employee_medical_examination_form_view
@@ -157,7 +158,7 @@ msgstr "Seguidores/as"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Seguidores (Clientes)"
+msgstr "Seguidores (Socios)"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,help:hr_employee_medical_examination.field_hr_employee_medical_examination__activity_type_icon
@@ -175,6 +176,7 @@ msgid "Generate Medical Examination"
 msgstr "Xerar Exames Médicos"
 
 #. module: hr_employee_medical_examination
+#. odoo-python
 #: code:addons/hr_employee_medical_examination/wizards/wizard_generate_medical_examination.py:0
 #: model:ir.actions.act_window,name:hr_employee_medical_examination.wizard_generate_medical_examination_act_window
 #: model:ir.ui.menu,name:hr_employee_medical_examination.hr_employee_medical_examination_generate_wizard
@@ -190,7 +192,7 @@ msgstr "Asistente de xeración para recoñecementos médicos"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__has_message
 msgid "Has Message"
-msgstr "Ten Mensaxe"
+msgstr "Ten mensaxe"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model,name:hr_employee_medical_examination.model_hr_employee_medical_examination
@@ -211,18 +213,17 @@ msgstr "Icona"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,help:hr_employee_medical_examination.field_hr_employee_medical_examination__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "icona para indicar unha actividade por excepción."
+msgstr "Icona para indicar unha actividade por excepción."
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,help:hr_employee_medical_examination.field_hr_employee_medical_examination__message_needaction
-#: model:ir.model.fields,help:hr_employee_medical_examination.field_hr_employee_medical_examination__message_unread
 msgid "If checked, new messages require your attention."
-msgstr "Se está marcada, novas mensaxes requiren a súa atención."
+msgstr "Se está marcado, novas mensaxes requiren a súa atención."
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,help:hr_employee_medical_examination.field_hr_employee_medical_examination__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Se está marcada, algunhas mensaxes teñen un erro de entrega."
+msgstr "Se está marcado, algunhas mensaxes teñen erro de entrega."
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__message_is_follower
@@ -255,7 +256,7 @@ msgstr "Última Actualización en"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "Arquivo Adxunto Principal"
+msgstr "Arquivo adxunto principal"
 
 #. module: hr_employee_medical_examination
 #: model_terms:ir.ui.view,arch_db:hr_employee_medical_examination.hr_employee_medical_examination_form_view
@@ -292,7 +293,7 @@ msgstr "Exames Médicos"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__message_has_error
 msgid "Message Delivery error"
-msgstr "Erro en entrega de mensaxe"
+msgstr "Erro en entrega da mensaxe"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__message_ids
@@ -302,7 +303,7 @@ msgstr "Mensaxes"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "Data límite da miña actividade"
+msgstr "Data limite da miña actividade"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__name
@@ -312,12 +313,12 @@ msgstr "Nome"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr "Próximo Evento do Calendario de Actividades"
+msgstr "Próximo evento do calendario de actividades"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "Data Límite para a seguinte Actividade"
+msgstr "Data Límite para a Próxima Actividade"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__activity_summary
@@ -327,7 +328,7 @@ msgstr "Resumo da Seguinte Actividade"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__activity_type_id
 msgid "Next Activity Type"
-msgstr "Tipo Seguinte Actividade"
+msgstr "Tipo da seguinte actividade"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__note
@@ -338,7 +339,7 @@ msgstr "Nota"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__message_needaction_counter
 msgid "Number of Actions"
-msgstr "Número de Accións"
+msgstr "Número de accións"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__message_has_error_counter
@@ -347,18 +348,13 @@ msgstr "Número de erros"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,help:hr_employee_medical_examination.field_hr_employee_medical_examination__message_needaction_counter
-msgid "Number of messages which requires an action"
+msgid "Number of messages requiring action"
 msgstr "Número de mensaxes que requiren unha acción"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,help:hr_employee_medical_examination.field_hr_employee_medical_examination__message_has_error_counter
 msgid "Number of messages with delivery error"
 msgstr "Número de mensaxes con erro de entrega"
-
-#. module: hr_employee_medical_examination
-#: model:ir.model.fields,help:hr_employee_medical_examination.field_hr_employee_medical_examination__message_unread_counter
-msgid "Number of unread messages"
-msgstr "Número de mensaxes sen ler"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields.selection,name:hr_employee_medical_examination.selection__hr_employee_medical_examination__result__passed
@@ -380,7 +376,7 @@ msgstr "Buscar"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields.selection,name:hr_employee_medical_examination.selection__hr_employee_medical_examination__state__rejected
 msgid "Rejected"
-msgstr "Rexeitado/a"
+msgstr "Rexeitado"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__activity_user_id
@@ -405,25 +401,15 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Estado baseado en actividades\n"
-"Atrasado: A data xa pasou\n"
-"Hoxe: A actividade é para hoxe\n"
-"Planeada: Actividades futuras."
+"Estado en función das actividades\n"
+"Atrasada: A data de vencemento xa pasou\n"
+"Hoxe: A data da actividade é hoxe\n"
+"Planificada: Actividades futuras."
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,help:hr_employee_medical_examination.field_hr_employee_medical_examination__activity_exception_decoration
 msgid "Type of the exception activity on record."
 msgstr "Tipo (ou clase) de actividade excepcional rexistrada."
-
-#. module: hr_employee_medical_examination
-#: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__message_unread
-msgid "Unread Messages"
-msgstr "Mensaxes non lidas"
-
-#. module: hr_employee_medical_examination
-#: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr "Contador de Mensaxes non Lidas"
 
 #. module: hr_employee_medical_examination
 #: model:ir.ui.menu,name:hr_employee_medical_examination.hr_employee_medical_examination_all
@@ -433,12 +419,12 @@ msgstr "Ver Exames Médicos"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__website_message_ids
 msgid "Website Messages"
-msgstr "Mensaxes da Páxina web"
+msgstr "Mensaxes de Sitio web"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,help:hr_employee_medical_examination.field_hr_employee_medical_examination__website_message_ids
 msgid "Website communication history"
-msgstr "Historial de notificación de sitios web"
+msgstr "Historial da comunicación no sitio web"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__year
@@ -447,7 +433,10 @@ msgid "Year"
 msgstr "Ano"
 
 #~ msgid "SMS Delivery error"
-#~ msgstr "Erro de Entrega SMS"
+#~ msgstr "Erro na entrega de sms"
+
+#~ msgid "Number of messages which requires an action"
+#~ msgstr "Números de mensaxes que requiren unha acción"
 
 #~ msgid "%s on %s"
 #~ msgstr "%s en %s"

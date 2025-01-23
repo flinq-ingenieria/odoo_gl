@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 05:07\n"
-"PO-Revision-Date: 2024-11-08 05:07\n"
+"POT-Creation-Date: 2025-01-22 15:18\n"
+"PO-Revision-Date: 2025-01-22 15:18\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -35,7 +35,7 @@ msgstr "Asistencias"
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.model,name:hr_attendance_report_theoretical_time.model_hr_attendance_report
 msgid "Attendance Statistics"
-msgstr "Análise de asistencias"
+msgstr "Estatísticas de asistencia"
 
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.ui.menu,name:hr_attendance_report_theoretical_time.menu_hr_attendance_report
@@ -120,10 +120,10 @@ msgid ""
 "employee creation date or the calendar start date will be used (the greatest"
 " of both)."
 msgstr ""
-"Encha este campo para establecer unha data manual para calcular as horas "
-"teóricas independentemente das asistencias. Se non está enchido, utilizarase"
-" a data de creación do empregado ou a data de comezo do calendario (a maior "
-"de ambas as)."
+"Encha este campo para establecer unha data de inicio manual para o cómputo "
+"das horas teóricas independentemente das asistencias. Se non se enche, "
+"utilizarase a data de creación do empregado ou a data de inicio do "
+"calendario (a maior de ambas as)."
 
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.model,name:hr_attendance_report_theoretical_time.model_wizard_theoretical_time
@@ -218,13 +218,13 @@ msgstr "Recalcular asistencias de empregados"
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.actions.act_window,name:hr_attendance_report_theoretical_time.recompute_employee_theoretical_attendance
 msgid "Recompute Theoretical Attendance"
-msgstr "Informe de tempo teórico fronte a tempo traballado"
+msgstr "Recalcular tempos de asistencia teóricos"
 
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.actions.act_window,name:hr_attendance_report_theoretical_time.act_wizard_recompute_theoretical_attendance
 #: model:ir.ui.menu,name:hr_attendance_report_theoretical_time.menu_recompute_theoretical_attendance
 msgid "Recompute Theoretical Attendances"
-msgstr "Informe de tempo teórico fronte a tempo traballado"
+msgstr "Recalcular tempos de asistencia teóricos"
 
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.model.fields,help:hr_attendance_report_theoretical_time.field_recompute_theoretical_attendance__date_from
@@ -252,6 +252,7 @@ msgid "Select Employees"
 msgstr "Seleccionar empregados"
 
 #. module: hr_attendance_report_theoretical_time
+#. odoo-python
 #: code:addons/hr_attendance_report_theoretical_time/wizards/wizard_theoretical_time.py:0
 #: model:ir.actions.act_window,name:hr_attendance_report_theoretical_time.wizard_theoretical_time_act_window
 #, python-format

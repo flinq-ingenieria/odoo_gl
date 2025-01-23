@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 01:50\n"
-"PO-Revision-Date: 2024-11-08 01:50\n"
+"POT-Creation-Date: 2025-01-22 08:18\n"
+"PO-Revision-Date: 2025-01-22 08:18\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -30,6 +30,16 @@ msgid "<span>Disc.3 %</span>"
 msgstr "<span>Desc.3 %</span>"
 
 #. module: account_invoice_triple_discount
+#: model_terms:ir.ui.view,arch_db:account_invoice_triple_discount.invoice_triple_discount_form_view
+msgid "Disc.2%"
+msgstr "Desc.2%"
+
+#. module: account_invoice_triple_discount
+#: model_terms:ir.ui.view,arch_db:account_invoice_triple_discount.invoice_triple_discount_form_view
+msgid "Disc.3%"
+msgstr "Desc.3%"
+
+#. module: account_invoice_triple_discount
 #: model:ir.model.fields,field_description:account_invoice_triple_discount.field_account_move_line__discount2
 msgid "Discount 2 (%)"
 msgstr "Desconto 2 (%)"
@@ -47,7 +57,7 @@ msgstr "Entrada Diaria"
 #. module: account_invoice_triple_discount
 #: model:ir.model,name:account_invoice_triple_discount.model_account_move_line
 msgid "Journal Item"
-msgstr "Artigo Diario"
+msgstr "Artigo diario"
 
 #~ msgid "Invoice"
 #~ msgstr "Factura"

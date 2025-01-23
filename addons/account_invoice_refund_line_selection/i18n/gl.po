@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 07:55\n"
-"PO-Revision-Date: 2024-11-08 07:55\n"
+"POT-Creation-Date: 2025-01-22 05:44\n"
+"PO-Revision-Date: 2025-01-22 05:44\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. module: account_invoice_refund_line_selection
 #: model:ir.model,name:account_invoice_refund_line_selection.model_account_move_reversal
 msgid "Account Move Reversal"
-msgstr "Reversión de movemento de conta"
+msgstr "Reversión de asento contable"
 
 #. module: account_invoice_refund_line_selection
 #: model:ir.model.fields,help:account_invoice_refund_line_selection.field_account_move_reversal__refund_method
@@ -34,7 +34,7 @@ msgstr ""
 #. module: account_invoice_refund_line_selection
 #: model:ir.model.fields,field_description:account_invoice_refund_line_selection.field_account_move_reversal__refund_method
 msgid "Credit Method"
-msgstr "Método de crédito"
+msgstr "Método de abono"
 
 #. module: account_invoice_refund_line_selection
 #: model_terms:ir.ui.view,arch_db:account_invoice_refund_line_selection.view_account_invoice_refund_lines

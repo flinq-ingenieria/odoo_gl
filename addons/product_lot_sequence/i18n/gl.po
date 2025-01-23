@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 18:13\n"
-"PO-Revision-Date: 2024-11-08 18:13\n"
+"POT-Creation-Date: 2025-01-22 23:27\n"
+"PO-Revision-Date: 2025-01-22 23:27\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,7 +15,38 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
+
+#. module: product_lot_sequence
+#: model_terms:ir.ui.view,arch_db:product_lot_sequence.res_config_settings_view_form
+msgid ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" aria-label=\"Values set here are company-specific.\" "
+"groups=\"base.group_multi_company\"/>"
+msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" aria-label=\"Values set here are company-specific.\" "
+"groups=\"base.group_multi_company\"/>"
+
+#. module: product_lot_sequence
+#: model:ir.model,name:product_lot_sequence.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: product_lot_sequence
+#: model:ir.model,name:product_lot_sequence.model_res_config_settings
+msgid "Config Settings"
+msgstr "Axustes de Config"
+
+#. module: product_lot_sequence
+#: model_terms:ir.ui.view,arch_db:product_lot_sequence.res_config_settings_view_form
+msgid ""
+"Default number of digits to be set on products for product lot/serial "
+"sequence generation."
+msgstr ""
+"Número predeterminado de díxitos que se establecerán nos produtos para a "
+"xeración da secuencia de lote/serie do produto."
 
 #. module: product_lot_sequence
 #: model:ir.model.fields,field_description:product_lot_sequence.field_product_product__display_lot_sequence_fields
@@ -30,12 +61,12 @@ msgid "Entry Sequence"
 msgstr "Entrar secuencia"
 
 #. module: product_lot_sequence
-#: model:ir.model,name:product_lot_sequence.model_stock_production_lot
+#: model:ir.model,name:product_lot_sequence.model_stock_lot
 msgid "Lot/Serial"
 msgstr "Lote/Serie"
 
 #. module: product_lot_sequence
-#: model:ir.model.fields,field_description:product_lot_sequence.field_stock_production_lot__name
+#: model:ir.model.fields,field_description:product_lot_sequence.field_stock_lot__name
 msgid "Lot/Serial Number"
 msgstr "Lote/Número de Serie"
 
@@ -47,12 +78,14 @@ msgstr "Seguinte número"
 
 #. module: product_lot_sequence
 #: model:ir.model,name:product_lot_sequence.model_product_template
-msgid "Product Template"
-msgstr "Modelo de produto"
+msgid "Product"
+msgstr "Produto"
 
 #. module: product_lot_sequence
 #: model:ir.model.fields,field_description:product_lot_sequence.field_product_product__lot_sequence_padding
 #: model:ir.model.fields,field_description:product_lot_sequence.field_product_template__lot_sequence_padding
+#: model:ir.model.fields,field_description:product_lot_sequence.field_res_company__lot_sequence_padding
+#: model:ir.model.fields,field_description:product_lot_sequence.field_res_config_settings__lot_sequence_padding
 msgid "Sequence Number of Digits"
 msgstr "Número de secuencia de díxitos"
 
@@ -65,7 +98,7 @@ msgstr "Prefixo de secuencia"
 #. module: product_lot_sequence
 #: model:ir.model,name:product_lot_sequence.model_stock_move
 msgid "Stock Move"
-msgstr "Movemento de Existencias"
+msgstr ""
 
 #. module: product_lot_sequence
 #: model:ir.model.fields,help:product_lot_sequence.field_product_product__lot_sequence_prefix
@@ -93,6 +126,14 @@ msgid "This field contains the information related to the numbering of lots."
 msgstr "Este campo contén a información relacionada coa numeración de lotes."
 
 #. module: product_lot_sequence
-#: model:ir.model.fields,help:product_lot_sequence.field_stock_production_lot__name
+#: model:ir.model.fields,help:product_lot_sequence.field_stock_lot__name
 msgid "Unique Lot/Serial Number"
 msgstr "Número Único de Lote/Serie"
+
+#. module: product_lot_sequence
+#: model_terms:ir.ui.view,arch_db:product_lot_sequence.res_config_settings_view_form
+msgid "digits"
+msgstr "díxitos"
+
+#~ msgid "Product Template"
+#~ msgstr "Modelo de produto"

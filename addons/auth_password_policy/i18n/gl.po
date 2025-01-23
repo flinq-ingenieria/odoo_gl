@@ -3,14 +3,16 @@
 # 	* auth_password_policy
 #
 # Translators:
-# Martin Trigaux, 2021
+# Martin Trigaux, 2022
+# Larissa Manderfeld, 2023
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 16:22\n"
-"PO-Revision-Date: 2024-11-08 16:22\n"
+"POT-Creation-Date: 2025-01-22 06:04\n"
+"PO-Revision-Date: 2025-01-22 06:04\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -23,7 +25,7 @@ msgstr ""
 #. module: auth_password_policy
 #: model:ir.model,name:auth_password_policy.model_res_config_settings
 msgid "Config Settings"
-msgstr "Opcións de configuración"
+msgstr "Axustes de configuración"
 
 #. module: auth_password_policy
 #: model:ir.model.fields,field_description:auth_password_policy.field_res_config_settings__minlength
@@ -39,53 +41,61 @@ msgstr ""
 "0 para deshabilitar."
 
 #. module: auth_password_policy
+#. odoo-javascript
+#: code:addons/auth_password_policy/static/src/password_field.js:0
+#, python-format
+msgid "Password"
+msgstr "Contrasinal"
+
+#. module: auth_password_policy
+#. odoo-python
 #: code:addons/auth_password_policy/models/res_users.py:0
 #, python-format
 msgid "Passwords must have at least %d characters, got %d."
 msgstr "Os contrasinais deben ter polo menos %dcaracteres, pero ten %d."
 
 #. module: auth_password_policy
-#. openerp-web
-#: code:addons/auth_password_policy/static/src/js/password_gauge.js:0
+#. odoo-javascript
+#: code:addons/auth_password_policy/static/src/password_meter.js:0
 #, python-format
 msgid ""
-"Required: %s.\n"
+"Required: %s\n"
 "\n"
-"Hint: increase length, use multiple words and use non-letter characters to increase your password's strength."
+"Hint: to increase password strength, increase length, use multiple words, and use non-letter characters."
 msgstr ""
-"Requirido: %s.\n"
+"Necesario: %s\n"
 "\n"
-"Suxestión: aumenta a lonxitude, usa varias palabras e usa caracteres que non sexan letras para aumentar a seguridade do teu contrasinal."
+"Consello: para aumentar a seguridade dos contrasinais, aumente a súa lonxitude, utilice varias palabras e use caracteres que non sexan letras."
 
 #. module: auth_password_policy
 #: model:ir.model,name:auth_password_policy.model_res_users
-msgid "Users"
-msgstr "Usuarios"
+msgid "User"
+msgstr "Usuario"
 
 #. module: auth_password_policy
-#. openerp-web
-#: code:addons/auth_password_policy/static/src/js/password_gauge.js:0
+#. odoo-javascript
+#: code:addons/auth_password_policy/static/src/password_policy.js:0
 #, python-format
-msgid "at least %d character classes"
-msgstr "polo menos %d clases de caracteres"
+msgid "at least %s character classes"
+msgstr "polo menos %s tipos de caracteres"
 
 #. module: auth_password_policy
-#. openerp-web
-#: code:addons/auth_password_policy/static/src/js/password_gauge.js:0
+#. odoo-javascript
+#: code:addons/auth_password_policy/static/src/password_policy.js:0
 #, python-format
-msgid "at least %d characters"
-msgstr "polo menos %d caracteres"
+msgid "at least %s characters"
+msgstr "polo menos %s caracteres"
 
 #. module: auth_password_policy
-#. openerp-web
-#: code:addons/auth_password_policy/static/src/js/password_gauge.js:0
+#. odoo-javascript
+#: code:addons/auth_password_policy/static/src/password_policy.js:0
 #, python-format
-msgid "at least %d words"
-msgstr "polo menos %d palabras"
+msgid "at least %s words"
+msgstr "polo menos %s palabras"
 
 #. module: auth_password_policy
-#. openerp-web
-#: code:addons/auth_password_policy/static/src/js/password_gauge.js:0
+#. odoo-javascript
+#: code:addons/auth_password_policy/static/src/password_meter.js:0
 #, python-format
 msgid "no requirements"
 msgstr "sen requisitos"

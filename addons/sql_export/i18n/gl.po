@@ -8,10 +8,10 @@
 # Antonio Trueba <atgayol@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 11:05\n"
-"PO-Revision-Date: 2024-11-08 11:05\n"
+"POT-Creation-Date: 2025-01-22 18:37\n"
+"PO-Revision-Date: 2025-01-22 18:37\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -22,38 +22,29 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: sql_export
+#: model:ir.model.fields,field_description:sql_export.field_sql_export__message_needaction
+msgid "Action Needed"
+msgstr "Acción necesaria"
+
+#. module: sql_export
 #: model:ir.model,name:sql_export.model_sql_file_wizard
 msgid "Allow the user to save the file with sql request's data"
 msgstr "Permitir ao usuario gardar o ficheiro cos datos da petición sql"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__group_ids
-#: model_terms:ir.ui.view,arch_db:sql_export.sql_export_view_form
 msgid "Allowed Groups"
 msgstr "Grupos permitidos"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__user_ids
-#: model_terms:ir.ui.view,arch_db:sql_export.sql_export_view_form
 msgid "Allowed Users"
 msgstr "Usuarios permitidos"
 
 #. module: sql_export
-#: model:ir.model.fields,help:sql_export.field_sql_export__field_ids
-msgid ""
-"Before adding parameters, make sure you have created one that fill your need in the dedicated menu with the right type and label. \n"
-"Then, when you add a parameter here, you have to include it in the SQL query in order to have dynamic values depending on the user choice.\n"
-"The format of the parameters in the SQL query must be like this : %(parameter_field_name)s. \n"
-"Example : from the variable menu, create an variable with type 'char', having field name 'x_name' and field label : 'Name' \n"
-"Then, you can create a SQL query like this : SELECT * FROM res_partner WHERE name =  %(x_name)s the variable can be used in any number of different SQL queries. \n"
-"In the SQL query, you can also include these 2 special parameters %(user_id)s and %(company_id)s which will be replaced respectively by the user executing the query and the company of the user executing the query."
-msgstr ""
-"Antes de engadir parámetros, asegúrese de crear un que satisfaga a súa necesidade no menú dedicado co tipo e a etiqueta correctos. \n"
-"Despois, cando anada un parámetro aquí, terá que incluílo na consulta SQL para ter valores dinámicos en función da elección do usuario.\n"
-"O formato dos parámetros na consulta SQL debe ser o seguinte: %(nome_campo_parámetro)s. \n"
-"Exemplo: no menú de variables, cre unha variable de tipo \"char\", co nome de campo \"x_name\" e a etiqueta de campo \"Nomee\". \n"
-"A continuación, pode crear unha consulta SQL como esta : SELECT  FROM res_partner WHERE name = %(x_name)s a variable pódese utilizar en calquera número de consultas SQL diferentes. \n"
-"Na consulta SQL, tamén pode incluír estes 2 parámetros especiais %(user_id)s e %(company_id)s que serán substituídos respectivamente polo usuario que executa a consulta e a empresa do usuario que executa a consulta."
+#: model:ir.model.fields,field_description:sql_export.field_sql_export__message_attachment_count
+msgid "Attachment Count"
+msgstr "reconto de arquivos adxuntos"
 
 #. module: sql_export
 #: model:ir.model.fields.selection,name:sql_export.selection__sql_export__file_format__csv
@@ -64,6 +55,16 @@ msgstr "CSV"
 #: model_terms:ir.ui.view,arch_db:sql_export.sql_file_wizard_view_form
 msgid "Cancel"
 msgstr "Cancelar"
+
+#. module: sql_export
+#: model:ir.model.fields,help:sql_export.field_sql_export__keep_generated_file
+msgid "Check this to keep generated export files as attachments"
+msgstr ""
+
+#. module: sql_export
+#: model_terms:ir.ui.view,arch_db:sql_export.sql_export_view_form
+msgid "Configure Properties"
+msgstr "Configurar Propiedades"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__copy_options
@@ -88,11 +89,6 @@ msgid "Csv File"
 msgstr "Arquivo Csv"
 
 #. module: sql_export
-#: model:ir.model.fields,field_description:sql_export.date_field_variable_sql
-msgid "Date"
-msgstr "Data"
-
-#. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__display_name
 #: model:ir.model.fields,field_description:sql_export.field_sql_file_wizard__display_name
 msgid "Display Name"
@@ -115,11 +111,6 @@ msgid "Export"
 msgstr "Exportar"
 
 #. module: sql_export
-#: model_terms:ir.ui.view,arch_db:sql_export.sql_file_wizard_view_form
-msgid "Export file"
-msgstr "Exportar ficheiro"
-
-#. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_file_wizard__binary_file
 msgid "File"
 msgstr "Arquivo"
@@ -135,10 +126,64 @@ msgid "File Name"
 msgstr "Nome do arquivo"
 
 #. module: sql_export
+#: model:ir.model.fields,field_description:sql_export.field_sql_export__message_follower_ids
+msgid "Followers"
+msgstr "seguidores/as"
+
+#. module: sql_export
+#: model:ir.model.fields,field_description:sql_export.field_sql_export__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "seguidores (socios)"
+
+#. module: sql_export
+#: model:ir.model.fields,field_description:sql_export.field_sql_export__has_group_changed
+msgid "Has Group Changed"
+msgstr "Cambiou o grupo"
+
+#. module: sql_export
+#: model:ir.model.fields,field_description:sql_export.field_sql_export__has_message
+msgid "Has Message"
+msgstr "Tes unha mensaxe"
+
+#. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__id
 #: model:ir.model.fields,field_description:sql_export.field_sql_file_wizard__id
 msgid "ID"
 msgstr "ID"
+
+#. module: sql_export
+#: model:ir.model.fields,help:sql_export.field_sql_export__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Se está marcado, novas mensaxes necesitan a súa atención."
+
+#. module: sql_export
+#: model:ir.model.fields,help:sql_export.field_sql_export__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "se está marcada, algunhas mensaxes teñen un erro de entrega."
+
+#. module: sql_export
+#: model_terms:ir.ui.view,arch_db:sql_export.sql_export_view_form
+msgid ""
+"In case of use of properties in the query, use this syntax : %(Property String)s. <br/>\n"
+"                                Example : SELECT id FROM sale_order WHERE create_date &gt; %(Start Date)s"
+msgstr ""
+"En caso de utilizar propiedades na consulta, utilice esta sintaxe: %(Property String)s. <br/>\n"
+"                                Exemplo: SELECCIONE a identificación DE salgue_order ONDE create_dáche &gt; %(Start Dáche)"
+
+#. module: sql_export
+#: model:ir.model.fields,field_description:sql_export.field_sql_export__message_is_follower
+msgid "Is Follower"
+msgstr "é seguidor/a"
+
+#. module: sql_export
+#: model:ir.model.fields,field_description:sql_export.field_sql_export__keep_generated_file
+msgid "Keep Generated File"
+msgstr ""
+
+#. module: sql_export
+#: model:ir.model.fields,field_description:sql_export.field_sql_export__last_execution_date
+msgid "Last Execution Date"
+msgstr ""
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export____last_update
@@ -159,25 +204,66 @@ msgid "Last Updated on"
 msgstr "Última actualización en"
 
 #. module: sql_export
+#: model:ir.model.fields,field_description:sql_export.field_sql_export__last_execution_uid
+msgid "Last execution User"
+msgstr ""
+
+#. module: sql_export
+#: model:ir.model.fields,field_description:sql_export.field_sql_export__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Arquivo adxunto principal"
+
+#. module: sql_export
+#: model:ir.model.fields,field_description:sql_export.field_sql_export__message_has_error
+msgid "Message Delivery error"
+msgstr "Erro en entrega da mensaxe"
+
+#. module: sql_export
+#: model:ir.model.fields,field_description:sql_export.field_sql_export__message_ids
+msgid "Messages"
+msgstr "Mensaxes"
+
+#. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__name
 msgid "Name"
 msgstr "Nome"
 
 #. module: sql_export
-#: model:ir.model.fields,field_description:sql_export.field_sql_export__field_ids
-#: model_terms:ir.ui.view,arch_db:sql_export.sql_export_view_form
-msgid "Parameters"
-msgstr "Parámetros"
+#: model:ir.model.fields,field_description:sql_export.field_sql_export__note
+msgid "Note"
+msgstr "Nota"
 
 #. module: sql_export
-#: model:ir.model.fields,field_description:sql_export.m2m_field_variable_sql
-msgid "Partner Categories"
-msgstr "Categorías de socios"
+#: model:ir.model.fields,field_description:sql_export.field_sql_export__message_needaction_counter
+msgid "Number of Actions"
+msgstr "número de accións"
 
 #. module: sql_export
-#: model_terms:ir.ui.view,arch_db:sql_export.sql_export_view_form
-msgid "Preview Results"
-msgstr "Vista previa dos resultados"
+#: model:ir.model.fields,field_description:sql_export.field_sql_export__message_has_error_counter
+msgid "Number of errors"
+msgstr "número de erros"
+
+#. module: sql_export
+#: model:ir.model.fields,help:sql_export.field_sql_export__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Número de mensaxes que requiren unha acción"
+
+#. module: sql_export
+#: model:ir.model.fields,help:sql_export.field_sql_export__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "número de mensaxes con erro de entrega"
+
+#. module: sql_export
+#. odoo-python
+#: code:addons/sql_export/wizard/wizard_file.py:0
+#, python-format
+msgid "Please enter a values for the following properties : %s"
+msgstr "Por favor, introduza un valor para as seguintes propiedades : %s"
+
+#. module: sql_export
+#: model:ir.model.fields,field_description:sql_export.field_sql_file_wizard__query_properties
+msgid "Properties"
+msgstr "Propiedades"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__query
@@ -185,48 +271,25 @@ msgid "Query"
 msgstr "Consulta"
 
 #. module: sql_export
-#: model_terms:ir.ui.view,arch_db:sql_export.sql_export_view_form
-msgid "Request Name"
-msgstr "Nome da solicitude"
+#: model:ir.model.fields,field_description:sql_export.field_sql_export__query_properties_definition
+msgid "Query Properties"
+msgstr "Propiedades de Consulta"
 
 #. module: sql_export
 #: model:ir.actions.act_window,name:sql_export.sql_export_tree_action
-msgid "SQL Export"
-msgstr "Exportación SQL"
-
-#. module: sql_export
-#: model:ir.actions.act_window,name:sql_export.sql_parameter_action
-msgid "SQL Parameter"
-msgstr "Parámetro SQL"
-
-#. module: sql_export
-#: model_terms:ir.ui.view,arch_db:sql_export.sql_export_view_form
-msgid "SQL Request"
-msgstr "Solicitude SQL"
+msgid "SQL Exports"
+msgstr "Exportacións SQL"
 
 #. module: sql_export
 #: model:ir.model,name:sql_export.model_sql_export
-#: model_terms:ir.ui.view,arch_db:sql_export.sql_export_view_form
-#: model_terms:ir.ui.view,arch_db:sql_export.sql_parameter_view_form
 msgid "SQL export"
-msgstr "Exportación SQL"
-
-#. module: sql_export
-#: model_terms:ir.ui.view,arch_db:sql_export.sql_export_view_form
-msgid "Set to Draft"
-msgstr "Cambiar a borrador"
+msgstr "Exportar SQL"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_file_wizard__sql_export_id
-#: model:ir.ui.menu,name:sql_export.sql_export_menu
 #: model:ir.ui.menu,name:sql_export.sql_export_menu_view
 msgid "Sql Export"
-msgstr "Exportación SQL"
-
-#. module: sql_export
-#: model:ir.ui.menu,name:sql_export.sql_parameter_menu_view
-msgid "Sql Export Variables"
-msgstr "Variables de Exportación Sql"
+msgstr "Exportación Sql"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__state
@@ -245,9 +308,18 @@ msgstr ""
 "  SQL válido A petición SQL foi comprobada e é válida"
 
 #. module: sql_export
-#: model_terms:ir.ui.view,arch_db:sql_export.sql_export_view_form
-msgid "Validate SQL Expression"
-msgstr "Validar expresión SQL"
+#: model:ir.model.fields,help:sql_export.field_sql_export__has_group_changed
+msgid ""
+"Technical fields, used in modules that depends on this one to know if groups"
+" has changed, and that according access should be updated."
+msgstr ""
+"Campos técnicos, utilizados en módulos que dependen deste para saber se os "
+"grupos cambiaron, e que segundo o acceso debe ser actualizado."
+
+#. module: sql_export
+#: model:ir.model.fields,field_description:sql_export.field_sql_export__use_properties
+msgid "Use Properties"
+msgstr "Usar Propiedades"
 
 #. module: sql_export
 #: model:ir.model.fields,help:sql_export.field_sql_export__query
@@ -276,22 +348,17 @@ msgstr "koir8_r"
 #. module: sql_export
 #: model:ir.model.fields.selection,name:sql_export.selection__sql_export__encoding__latin1
 msgid "latin1"
-msgstr "latín1"
+msgstr "latin1"
 
 #. module: sql_export
 #: model:ir.model.fields.selection,name:sql_export.selection__sql_export__encoding__latin2
 msgid "latin2"
-msgstr "latín2"
+msgstr "latin2"
 
 #. module: sql_export
 #: model_terms:ir.ui.view,arch_db:sql_export.sql_file_wizard_view_form
 msgid "or"
 msgstr "ou"
-
-#. module: sql_export
-#: model_terms:ir.ui.view,arch_db:sql_export.sql_export_view_form
-msgid "select * from res_partner"
-msgstr "select  from res_partner"
 
 #. module: sql_export
 #: model:ir.model.fields.selection,name:sql_export.selection__sql_export__encoding__shift_jis
@@ -309,11 +376,6 @@ msgid "utf-8"
 msgstr "utf-8"
 
 #. module: sql_export
-#: model_terms:ir.ui.view,arch_db:sql_export.sql_file_wizard_view_form
-msgid "variables_placeholder"
-msgstr "variables_placeholder"
-
-#. module: sql_export
 #: model:ir.model.fields.selection,name:sql_export.selection__sql_export__encoding__windows-1251
 msgid "windows-1251"
 msgstr "windows-1251"
@@ -323,28 +385,57 @@ msgstr "windows-1251"
 msgid "windows-1252"
 msgstr "windows-1252"
 
-#. module: sql_export
-#: model:ir.model.fields,field_description:sql_export.integer_field_variable_sql
-msgid "x_ID"
-msgstr "x_ID"
+#~ msgid "Export file"
+#~ msgstr "Exportar arquivo"
 
-#~ msgid "Changeset Changes"
-#~ msgstr "Cambios no conxunto de modificacións"
+#~ msgid "SMS Delivery error"
+#~ msgstr "Erro na entrega de SMS"
 
-#~ msgid "Changesets"
-#~ msgstr "Conxuntos de cambios"
+#~ msgid ""
+#~ "Before adding parameters, make sure you have created one that fill your need in the dedicated menu with the right type and label. \n"
+#~ "Then, when you add a parameter here, you have to include it in the SQL query in order to have dynamic values depending on the user choice.\n"
+#~ "The format of the parameters in the SQL query must be like this : %(parameter_field_name)s. \n"
+#~ "Example : from the variable menu, create an variable with type 'char', having field name 'x_name' and field label : 'Name' \n"
+#~ "Then, you can create a SQL query like this : SELECT * FROM res_partner WHERE name =  %(x_name)s the variable can be used in any number of different SQL queries. \n"
+#~ "In the SQL query, you can also include these 2 special parameters %(user_id)s and %(company_id)s which will be replaced respectively by the user executing the query and the company of the user executing the query."
+#~ msgstr ""
+#~ "Antes de engadir parámetros, asegúrese de crear un que satisfaga a súa necesidade no menú dedicado co tipo e a etiqueta correctos. \n"
+#~ "Despois, cando anada un parámetro aquí, terá que incluílo na consulta SQL para ter valores dinámicos en función da elección do usuario.\n"
+#~ "O formato dos parámetros na consulta SQL debe ser o seguinte: %(nome_campo_parámetro)s. \n"
+#~ "Exemplo: no menú de variables, cre unha variable de tipo \"char\", co nome de campo \"x_name\" e a etiqueta de campo \"Nomee\". \n"
+#~ "A continuación, pode crear unha consulta SQL como esta : SELECT  FROM res_partner WHERE name = %(x_name)s a variable pódese utilizar en calquera número de consultas SQL diferentes. \n"
+#~ "Na consulta SQL, tamén pode incluír estes 2 parámetros especiais %(user_id)s e %(company_id)s que serán substituídos respectivamente polo usuario que executa a consulta e a empresa do usuario que executa a consulta."
 
-#~ msgid "Count Pending Changeset Changes"
-#~ msgstr "Reconto de cambios pendentes"
+#~ msgid "Date"
+#~ msgstr "data"
 
-#~ msgid "Count Pending Changesets"
-#~ msgstr "Reconto de cambios pendentes"
+#~ msgid "Parameters"
+#~ msgstr "Parámetros"
 
-#~ msgid "Smart Search"
-#~ msgstr "Procura intelixente"
+#~ msgid "Partner Categories"
+#~ msgstr "Categorías de socios"
 
-#~ msgid "User Can See Changeset"
-#~ msgstr "O usuario pode ver o conxunto de cambios"
+#~ msgid "SQL Export Variables"
+#~ msgstr "Variables de Exportación SQL"
+
+#~ msgid "SQL Parameter"
+#~ msgstr "Parámetro SQL"
+
+#, python-format
+#~ msgid "The export with parameters is not implemented in V16"
+#~ msgstr "A exportación con parámetros non está implementada na V16"
+
+#~ msgid "variables_placeholder"
+#~ msgstr "variables_placeholder"
+
+#~ msgid "x_ID"
+#~ msgstr "x_IDE"
+
+#~ msgid "Number of messages which requires an action"
+#~ msgstr "Número de mensaxes que requiren unha acción"
+
+#~ msgid "Set to Draft"
+#~ msgstr "Cambiar a borrador"
 
 #~ msgid "Draft"
 #~ msgstr "Non subscrito"

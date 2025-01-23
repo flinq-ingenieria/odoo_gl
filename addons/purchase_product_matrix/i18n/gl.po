@@ -3,14 +3,15 @@
 # 	* purchase_product_matrix
 #
 # Translators:
-# Martin Trigaux, 2021
+# Martin Trigaux, 2022
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 20:19\n"
-"PO-Revision-Date: 2024-11-07 20:19\n"
+"POT-Creation-Date: 2025-01-22 07:45\n"
+"PO-Revision-Date: 2025-01-22 07:45\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -18,6 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: purchase_product_matrix
@@ -26,20 +28,32 @@ msgid "Attribute Values"
 msgstr "Valores de atributo"
 
 #. module: purchase_product_matrix
-#. openerp-web
-#: code:addons/purchase_product_matrix/static/src/js/product_matrix_configurator.js:0
-#: code:addons/purchase_product_matrix/static/src/js/product_matrix_configurator.js:0
+#. odoo-javascript
+#: code:addons/purchase_product_matrix/static/src/js/purchase_product_field.js:0
+#, python-format
+msgid "Choose Product Variants"
+msgstr "Seleccione Variantes de Produto"
+
+#. module: purchase_product_matrix
+#. odoo-javascript
+#: code:addons/purchase_product_matrix/static/src/js/purchase_product_field.js:0
+#, python-format
+msgid "Close"
+msgstr "Pechar"
+
+#. module: purchase_product_matrix
+#. odoo-javascript
+#: code:addons/purchase_product_matrix/static/src/js/purchase_product_field.js:0
+#, python-format
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: purchase_product_matrix
+#. odoo-javascript
+#: code:addons/purchase_product_matrix/static/src/js/purchase_product_field.js:0
 #, python-format
 msgid "Edit Configuration"
 msgstr "Editar Configuración"
-
-#. module: purchase_product_matrix
-#. openerp-web
-#: code:addons/purchase_product_matrix/static/src/js/product_matrix_configurator.js:0
-#: code:addons/purchase_product_matrix/static/src/js/product_matrix_configurator.js:0
-#, python-format
-msgid "External Link"
-msgstr "Ligazón externa"
 
 #. module: purchase_product_matrix
 #: model:ir.model.fields,field_description:purchase_product_matrix.field_purchase_order__grid
@@ -49,12 +63,12 @@ msgstr "Cuadrícula"
 #. module: purchase_product_matrix
 #: model:ir.model.fields,field_description:purchase_product_matrix.field_purchase_order__grid_product_tmpl_id
 msgid "Grid Product Tmpl"
-msgstr "Persoal do Produto"
+msgstr "Persoal de cuadrícula do produto"
 
 #. module: purchase_product_matrix
 #: model:ir.model.fields,field_description:purchase_product_matrix.field_purchase_order__grid_update
 msgid "Grid Update"
-msgstr "Actualización do persoal"
+msgstr "Actualización da cuadrícula"
 
 #. module: purchase_product_matrix
 #: model:ir.model.fields,help:purchase_product_matrix.field_purchase_order__report_grids
@@ -86,6 +100,11 @@ msgid "Product Template"
 msgstr "Modelo de produto"
 
 #. module: purchase_product_matrix
+#: model_terms:ir.ui.view,arch_db:purchase_product_matrix.purchase_order_form_matrix
+msgid "Product Variant"
+msgstr "Variante de produto"
+
+#. module: purchase_product_matrix
 #: model:ir.model.fields,field_description:purchase_product_matrix.field_purchase_order_line__product_no_variant_attribute_value_ids
 msgid "Product attribute values that do not create variants"
 msgstr "Valores de atributos do produto que non crean variantes"
@@ -103,7 +122,7 @@ msgstr "Liña de pedido de compra"
 #. module: purchase_product_matrix
 #: model:ir.model.fields,help:purchase_product_matrix.field_purchase_order__grid_product_tmpl_id
 msgid "Technical field for product_matrix functionalities."
-msgstr "Campo técnico das funcionalidades de product_matrix."
+msgstr "Campo técnico para as funcionalidades de product_matrix."
 
 #. module: purchase_product_matrix
 #: model:ir.model.fields,help:purchase_product_matrix.field_purchase_order__grid
@@ -112,8 +131,8 @@ msgid ""
 "If grid_update, will be loaded on the PO. \n"
 "If not, represents the matrix to open."
 msgstr ""
-"Almacenamento técnico de reixa.\n"
-"Se grid_update, cargarase na pedido de compra.\n"
+"Almacenamento técnico de cuadrícula.\n"
+"Se grid_update, cargarase no pedido de compra.\n"
 "Se non, representa a matriz a abrir."
 
 #. module: purchase_product_matrix
@@ -122,6 +141,7 @@ msgid "Whether the grid field contains a new matrix to apply or not."
 msgstr "Se o campo de cuadrícula contén unha nova matriz para aplicar ou non."
 
 #. module: purchase_product_matrix
+#. odoo-python
 #: code:addons/purchase_product_matrix/models/purchase.py:0
 #, python-format
 msgid ""

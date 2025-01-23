@@ -4,17 +4,17 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 01:46\n"
-"PO-Revision-Date: 2024-11-08 01:46\n"
+"POT-Creation-Date: 2025-01-21 14:29\n"
+"PO-Revision-Date: 2025-01-21 14:29\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: \n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: sales_team_security
@@ -30,7 +30,7 @@ msgid ""
 "this partner"
 msgstr ""
 "Se está configurado, este equipo de vendas será usado para as vendas e "
-"asignacións relacionadas a este socio"
+"asignacións relacionadas a este partner."
 
 #. module: sales_team_security
 #: model:ir.model,name:sales_team_security.model_ir_rule
@@ -61,9 +61,10 @@ msgid ""
 "The user will have an access to the documents of the sales teams he/she "
 "belongs to."
 msgstr ""
-"O usuario terá acceso aos documentos dos equipos de vendas aos que pertenza."
+"O usuario terá acceso aos documentos dos equipos comerciais aos que "
+"pertence."
 
 #. module: sales_team_security
 #: model:res.groups,name:sales_team_security.group_sale_team_manager
 msgid "User: Team Documents Only"
-msgstr "Usuario: Só documentos de equipo"
+msgstr "Usuario: Só documentos do equipo"

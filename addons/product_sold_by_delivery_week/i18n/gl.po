@@ -4,33 +4,33 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 11:43\n"
-"PO-Revision-Date: 2024-11-08 11:43\n"
+"POT-Creation-Date: 2025-01-22 23:27\n"
+"PO-Revision-Date: 2025-01-22 23:27\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: product_sold_by_delivery_week
-#: model:ir.model,name:product_sold_by_delivery_week.model_product_product
+#: model:ir.model,name:product_sold_by_delivery_week.model_product_template
 msgid "Product"
 msgstr "Produto"
 
 #. module: product_sold_by_delivery_week
-#: model:ir.model,name:product_sold_by_delivery_week.model_product_template
-msgid "Product Template"
-msgstr "Modelo de produto"
+#: model:ir.model,name:product_sold_by_delivery_week.model_product_product
+msgid "Product Variant"
+msgstr "Variante do produto"
 
 #. module: product_sold_by_delivery_week
 #: model:ir.actions.server,name:product_sold_by_delivery_week.ir_cron_recalculate_all_weekly_sold_delivered_ir_actions_server
 #: model:ir.cron,cron_name:product_sold_by_delivery_week.ir_cron_recalculate_all_weekly_sold_delivered
-#: model:ir.cron,name:product_sold_by_delivery_week.ir_cron_recalculate_all_weekly_sold_delivered
 msgid "Recalculate Weekly Delivered Products"
 msgstr "Recalcular produtos entregados semanalmente"
 
@@ -66,3 +66,6 @@ msgstr "Información de venda semanal en liñas de pedido"
 #: model:res.groups,name:product_sold_by_delivery_week.group_weekly_selling_product_list
 msgid "Weekly selling info in product list"
 msgstr "Información de venda semanal en lista de produtos"
+
+#~ msgid "Product Template"
+#~ msgstr "Modelo de produto"

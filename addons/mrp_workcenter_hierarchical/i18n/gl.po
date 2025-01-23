@@ -1,0 +1,71 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mrp_workcenter_hierarchical
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-21 15:49\n"
+"PO-Revision-Date: 2025-01-21 15:49\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: mrp_workcenter_hierarchical
+#: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__child_ids
+msgid "Children"
+msgstr "Nenos"
+
+#. module: mrp_workcenter_hierarchical
+#: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__display_name
+msgid "Display Name"
+msgstr "Mostrar Nome"
+
+#. module: mrp_workcenter_hierarchical
+#: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: mrp_workcenter_hierarchical
+#: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter____last_update
+msgid "Last Modified on"
+msgstr "Última Modificación o"
+
+#. module: mrp_workcenter_hierarchical
+#: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__parent_id
+msgid "Parent"
+msgstr "Parental"
+
+#. module: mrp_workcenter_hierarchical
+#: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__parent_level_1_id
+#: model_terms:ir.ui.view,arch_db:mrp_workcenter_hierarchical.view_mrp_workcenter_search
+msgid "Parent Level 1"
+msgstr "Pais Nivel 1"
+
+#. module: mrp_workcenter_hierarchical
+#: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__parent_level_2_id
+#: model_terms:ir.ui.view,arch_db:mrp_workcenter_hierarchical.view_mrp_workcenter_search
+msgid "Parent Level 2"
+msgstr "Pais Nivel 2"
+
+#. module: mrp_workcenter_hierarchical
+#: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__parent_level_3_id
+#: model_terms:ir.ui.view,arch_db:mrp_workcenter_hierarchical.view_mrp_workcenter_search
+msgid "Parent Level 3"
+msgstr "Pais Nivel 3"
+
+#. module: mrp_workcenter_hierarchical
+#: model:ir.model.fields,field_description:mrp_workcenter_hierarchical.field_mrp_workcenter__parent_path
+msgid "Parent Path"
+msgstr "Roteiro Parental"
+
+#. module: mrp_workcenter_hierarchical
+#: model:ir.model,name:mrp_workcenter_hierarchical.model_mrp_workcenter
+msgid "Work Center"
+msgstr "Centro de traballo"

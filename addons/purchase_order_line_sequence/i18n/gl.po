@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 22:20\n"
-"PO-Revision-Date: 2024-11-08 22:20\n"
+"POT-Creation-Date: 2025-01-22 21:29\n"
+"PO-Revision-Date: 2025-01-22 21:29\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -21,7 +21,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase_order_line_sequence.report_purchase_order_sequence_qweb
 #: model_terms:ir.ui.view,arch_db:purchase_order_line_sequence.report_purchase_quote_sequence_qweb
 msgid "<strong>Line Number</strong>"
-msgstr "<strong>Número de Liña</strong>"
+msgstr ""
 
 #. module: purchase_order_line_sequence
 #: model:ir.model.fields,help:purchase_order_line_sequence.field_purchase_order_line__visible_sequence
@@ -41,13 +41,13 @@ msgstr "Secuencia oculta"
 #. module: purchase_order_line_sequence
 #: model:ir.model,name:purchase_order_line_sequence.model_account_move_line
 msgid "Journal Item"
-msgstr "Artigo Diario"
+msgstr ""
 
 #. module: purchase_order_line_sequence
 #: model:ir.model.fields,field_description:purchase_order_line_sequence.field_purchase_order_line__visible_sequence
 #: model_terms:ir.ui.view,arch_db:purchase_order_line_sequence.report_invoice_document_inherit_purchase_sequence
 msgid "Line Number"
-msgstr "Número de Liña"
+msgstr ""
 
 #. module: purchase_order_line_sequence
 #: model:ir.model.fields,field_description:purchase_order_line_sequence.field_purchase_order__max_line_sequence
@@ -55,19 +55,18 @@ msgid "Max sequence in lines"
 msgstr "Secuencia máxima en liñas"
 
 #. module: purchase_order_line_sequence
+#. odoo-python
 #: code:addons/purchase_order_line_sequence/models/stock_move.py:0
 #, python-format
 msgid ""
 "Not allowed to change the sequence of moves from the picking, you can do it "
 "from the PO."
 msgstr ""
-"Non se permite cambiar a secuencia de movementos desde o albará, pódese "
-"facer desde o PO."
 
 #. module: purchase_order_line_sequence
 #: model:ir.model.fields,field_description:purchase_order_line_sequence.field_account_move_line__related_po_sequence
 msgid "PO Line Number"
-msgstr "Número de Liña de PO"
+msgstr ""
 
 #. module: purchase_order_line_sequence
 #: model:ir.model,name:purchase_order_line_sequence.model_purchase_order
@@ -82,7 +81,10 @@ msgstr "Liña de pedido de compra"
 #. module: purchase_order_line_sequence
 #: model:ir.model,name:purchase_order_line_sequence.model_stock_move
 msgid "Stock Move"
-msgstr "Movemento de Existencias"
+msgstr ""
+
+#~ msgid "<strong>Sequence</strong>"
+#~ msgstr "<strong>Número de liña</strong>"
 
 #~ msgid "Display Name"
 #~ msgstr "Nome mostrado"
@@ -92,9 +94,6 @@ msgstr "Movemento de Existencias"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Última modificación"
-
-#~ msgid "<strong>Sequence</strong>"
-#~ msgstr "<strong>Número de liña</strong>"
 
 #~ msgid "Sequence"
 #~ msgstr "Número de liña"

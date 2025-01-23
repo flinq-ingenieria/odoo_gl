@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 00:30\n"
-"PO-Revision-Date: 2024-11-08 00:30\n"
+"POT-Creation-Date: 2025-01-22 02:20\n"
+"PO-Revision-Date: 2025-01-22 02:20\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -46,6 +46,11 @@ msgstr "Cancelar pedido"
 #: model_terms:ir.ui.view,arch_db:fieldservice_route.fsm_route_form
 msgid "Capacity"
 msgstr "Capacidade"
+
+#. module: fieldservice_route
+#: model:fsm.stage,name:fieldservice_route.fsm_stage_route_close
+msgid "Closed"
+msgstr ""
 
 #. module: fieldservice_route
 #: model_terms:ir.ui.view,arch_db:fieldservice_route.fsm_route_dayroute_form
@@ -234,7 +239,9 @@ msgid "Name"
 msgstr "Nome"
 
 #. module: fieldservice_route
+#. odoo-python
 #: code:addons/fieldservice_route/models/fsm_route_dayroute.py:0
+#: model:fsm.stage,name:fieldservice_route.fsm_stage_route_new
 #, python-format
 msgid "New"
 msgstr "Novo"
@@ -324,6 +331,7 @@ msgid "Team"
 msgstr "Equipo"
 
 #. module: fieldservice_route
+#. odoo-python
 #: code:addons/fieldservice_route/models/fsm_route_dayroute.py:0
 #, python-format
 msgid "The day route is exceeding the maximum number of orders of the route."
@@ -331,6 +339,7 @@ msgstr ""
 "O roteiro do día está a exceder o número máximo de pedidos do roteiro."
 
 #. module: fieldservice_route
+#. odoo-python
 #: code:addons/fieldservice_route/models/fsm_route_dayroute.py:0
 #, python-format
 msgid "The route %(route_name)s does not run on %(name)s!"
@@ -367,6 +376,7 @@ msgid "Wednesday"
 msgstr "Mércores"
 
 #. module: fieldservice_route
+#. odoo-python
 #: code:addons/fieldservice_route/models/fsm_route_dayroute.py:0
 #, python-format
 msgid "You must create a FSM team first."

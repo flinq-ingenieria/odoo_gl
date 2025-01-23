@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 19:27\n"
-"PO-Revision-Date: 2024-11-08 19:27\n"
+"POT-Creation-Date: 2025-01-21 20:34\n"
+"PO-Revision-Date: 2025-01-21 20:34\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -61,7 +61,7 @@ msgstr "Compañías"
 #. module: fieldservice_account_analytic
 #: model:ir.model,name:fieldservice_account_analytic.model_res_config_settings
 msgid "Config Settings"
-msgstr "Configuración de Axustes"
+msgstr "Configurar Axustes"
 
 #. module: fieldservice_account_analytic
 #: model:ir.model,name:fieldservice_account_analytic.model_res_partner
@@ -99,7 +99,7 @@ msgstr "Orde de Servizo de Campo"
 #: model:ir.model.fields,field_description:fieldservice_account_analytic.field_res_config_settings__fsm_filter_location_by_contact
 #: model_terms:ir.ui.view,arch_db:fieldservice_account_analytic.res_config_settings_view_form_filter
 msgid "Filter Contacts with Location"
-msgstr "Filtrar contactos por localización"
+msgstr "Filtrar contactos por Localización"
 
 #. module: fieldservice_account_analytic
 #: model_terms:ir.ui.view,arch_db:fieldservice_account_analytic.res_config_settings_view_form_filter

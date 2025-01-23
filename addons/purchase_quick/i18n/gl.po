@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 23:38\n"
-"PO-Revision-Date: 2024-11-07 23:38\n"
+"POT-Creation-Date: 2025-01-22 09:47\n"
+"PO-Revision-Date: 2025-01-22 09:47\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -19,8 +19,8 @@ msgstr ""
 
 #. module: purchase_quick
 #: model_terms:ir.ui.view,arch_db:purchase_quick.view_purchase_form
-msgid "Add"
-msgstr "Engadir"
+msgid "Add from supplier's product list"
+msgstr ""
 
 #. module: purchase_quick
 #: model_terms:ir.ui.view,arch_db:purchase_quick.product_search_form_view
@@ -33,14 +33,13 @@ msgid "For current supplier"
 msgstr "Para o provedor actual"
 
 #. module: purchase_quick
+#. odoo-python
 #: code:addons/purchase_quick/models/purchase_order.py:0
 #, python-format
 msgid ""
 "Must have only 1 line per product for mass addition, but there are "
-"{nr_lines}s lines for the product %(product)s"
+"%(nr_lines)s lines for the product %(product_name)s"
 msgstr ""
-"Só debe haber 1 liña por produto para a adición en masa, pero hai "
-"{nr_lines}s liñas para o produto %(product)s"
 
 #. module: purchase_quick
 #: model_terms:ir.ui.view,arch_db:purchase_quick.product_tree_view4purchase
@@ -54,10 +53,11 @@ msgstr "Liña Po"
 
 #. module: purchase_quick
 #: model:ir.model,name:purchase_quick.model_product_product
-msgid "Product"
-msgstr "Produto"
+msgid "Product Variant"
+msgstr ""
 
 #. module: purchase_quick
+#. odoo-python
 #: code:addons/purchase_quick/models/purchase_order.py:0
 #, python-format
 msgid "Product Variants"
@@ -87,3 +87,17 @@ msgstr "UdM"
 #: model:ir.model.fields,field_description:purchase_quick.field_product_product__variant_specific_seller_ids
 msgid "Variant Specific Seller"
 msgstr "Vendedor Específico de Variantes"
+
+#~ msgid "Add"
+#~ msgstr "Engadir"
+
+#, python-format
+#~ msgid ""
+#~ "Must have only 1 line per product for mass addition, but there are "
+#~ "{nr_lines}s lines for the product %(product)s"
+#~ msgstr ""
+#~ "Só debe haber 1 liña por produto para a adición en masa, pero hai "
+#~ "{nr_lines}s liñas para o produto %(product)s"
+
+#~ msgid "Product"
+#~ msgstr "Produto"

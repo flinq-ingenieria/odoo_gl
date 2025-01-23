@@ -3,15 +3,15 @@
 # 	* web_tour
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 23:29\n"
-"PO-Revision-Date: 2024-11-07 23:29\n"
+"POT-Creation-Date: 2025-01-22 23:53\n"
+"PO-Revision-Date: 2025-01-22 23:53\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -22,29 +22,28 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: web_tour
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_tour/static/src/js/tour_manager.js:0
 #, python-format
 msgid ""
 "<strong><b>Good job!</b> You went through all steps of this tour.</strong>"
 msgstr ""
-"<strong><b>Bo traballo!</b> Pasaches por todos os pasos deste "
-"percorrido.</strong>"
+"<strong><b>Ben feito!</b> Terminou todos os pasos deste percorrido.</strong>"
 
 #. module: web_tour
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_tour/static/src/js/tip.js:0
 #, python-format
 msgid "Click here to go to the next step."
 msgstr "Faga clic aquí para ir ao seguinte paso."
 
 #. module: web_tour
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_tour/static/src/js/tour_step_utils.js:0
 #, python-format
 msgid "Click on the <i>Home icon</i> to navigate across apps."
 msgstr ""
-"Faga click no <i>Icona de Inicio</i> para navegar a través das aplicacións."
+"Faga clic no <i>icona de inicio</i> para navegar a través das aplicacións."
 
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__user_id
@@ -52,7 +51,7 @@ msgid "Consumed by"
 msgstr "Consumido por"
 
 #. module: web_tour
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_tour/static/src/debug/debug_manager.js:0
 #, python-format
 msgid "Disable Tours"
@@ -66,7 +65,7 @@ msgstr "Nome mostrado"
 #. module: web_tour
 #: model:ir.model,name:web_tour.model_ir_http
 msgid "HTTP Routing"
-msgstr "Roteiro HTTP "
+msgstr "Encamiñamento HTTP "
 
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__id
@@ -84,78 +83,78 @@ msgid "Menu"
 msgstr "Menú"
 
 #. module: web_tour
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.xml:0
 #, python-format
 msgid "Name"
 msgstr "Nome"
 
 #. module: web_tour
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.xml:0
 #, python-format
 msgid "Onboarding tours"
 msgstr "Percorridos de incorporación"
 
 #. module: web_tour
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_tour/static/src/js/tour_step_utils.js:0
 #, python-format
 msgid "Open bugger menu."
-msgstr "Abrir o menú bugger."
+msgstr "Abrir o menú de desarrollador."
 
 #. module: web_tour
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.xml:0
 #, python-format
 msgid "Path"
 msgstr "Roteiro"
 
 #. module: web_tour
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_tour/static/src/js/tip.js:0
 #, python-format
 msgid "Scroll to reach the next step."
 msgstr "Desprácese para chegar ao seguinte paso."
 
 #. module: web_tour
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.xml:0
 #, python-format
 msgid "Sequence"
 msgstr "Secuencia"
 
 #. module: web_tour
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.xml:0
 #, python-format
 msgid "Start"
-msgstr "Iniciar"
+msgstr "Comezar"
 
 #. module: web_tour
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_tour/static/src/debug/debug_manager.js:0
 #, python-format
 msgid "Start Tour"
 msgstr "Comezar percorrido"
 
 #. module: web_tour
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.xml:0
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.xml:0
 #, python-format
 msgid "Start tour"
-msgstr "Comezar circuíto"
+msgstr "Comezar percorrido"
 
 #. module: web_tour
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.xml:0
 #, python-format
 msgid "Test"
-msgstr "Test"
+msgstr "Proba"
 
 #. module: web_tour
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.xml:0
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.xml:0
 #, python-format
@@ -163,7 +162,7 @@ msgid "Test tour"
 msgstr "Percorrido de proba"
 
 #. module: web_tour
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.xml:0
 #, python-format
 msgid "Testing tours"
@@ -172,7 +171,7 @@ msgstr "Visitas de proba"
 #. module: web_tour
 #: model_terms:ir.ui.view,arch_db:web_tour.edit_tour_search
 msgid "Tip"
-msgstr "Propina"
+msgstr "Consello"
 
 #. module: web_tour
 #: model:ir.model.fields,field_description:web_tour.field_web_tour_tour__name
@@ -180,7 +179,7 @@ msgid "Tour name"
 msgstr "Nome do percorrido"
 
 #. module: web_tour
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_tour/static/src/debug/tour_dialog_component.js:0
 #: model:ir.actions.act_window,name:web_tour.edit_tour_action
 #: model:ir.model,name:web_tour.model_web_tour_tour

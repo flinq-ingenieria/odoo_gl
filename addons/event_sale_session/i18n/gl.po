@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 00:01\n"
-"PO-Revision-Date: 2024-11-08 00:01\n"
+"POT-Creation-Date: 2025-01-21 19:06\n"
+"PO-Revision-Date: 2025-01-21 19:06\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -25,12 +25,12 @@ msgstr "Todas as liñas de ordes de venda que apuntan a esta sesión"
 #. module: event_sale_session
 #: model:ir.model,name:event_sale_session.model_registration_editor
 msgid "Edit Attendee Details on Sales Confirmation"
-msgstr "Editar os Datos do Asistente na Confirmación de Venda"
+msgstr "Editar detalles do asistente na confirmación de vendas"
 
 #. module: event_sale_session
 #: model:ir.model,name:event_sale_session.model_registration_editor_line
 msgid "Edit Attendee Line on Sales Confirmation"
-msgstr "Editar Liña de Asistente en Confirmación de Vendas"
+msgstr "Editar liña de asistente en confirmación de vendas"
 
 #. module: event_sale_session
 #: model:ir.model.fields,field_description:event_sale_session.field_sale_report__event_id
@@ -41,29 +41,36 @@ msgstr "Evento"
 #. module: event_sale_session
 #: model:ir.model,name:event_sale_session.model_event_event_configurator
 msgid "Event Configurator"
-msgstr "Configurador de Eventos"
+msgstr "Configurador de eventos"
 
 #. module: event_sale_session
 #: model:ir.model,name:event_sale_session.model_event_registration
 msgid "Event Registration"
-msgstr "Inscrición no Evento"
+msgstr "Inscrición no evento"
 
 #. module: event_sale_session
+#: model:ir.model,name:event_sale_session.model_event_sale_report
+msgid "Event Sales Report"
+msgstr "Informe de vendas de eventos"
+
+#. module: event_sale_session
+#: model:ir.model.fields,field_description:event_sale_session.field_event_sale_report__event_session_id
 #: model:ir.model.fields,field_description:event_sale_session.field_sale_report__event_session_id
 msgid "Event Session"
-msgstr "Sesión do Evento"
+msgstr "Sesión do evento"
 
 #. module: event_sale_session
 #: model:ir.model.fields,field_description:event_sale_session.field_event_event_configurator__event_use_sessions
 #: model:ir.model.fields,field_description:event_sale_session.field_sale_order_line__event_use_sessions
+#: model_terms:ir.ui.view,arch_db:event_sale_session.event_sale_report_view_search
 msgid "Event Sessions"
-msgstr "Sesións do Evento"
+msgstr "Sesións do evento"
 
 #. module: event_sale_session
 #: model:ir.model.fields,field_description:event_sale_session.field_sale_report__event_ticket_id
 #: model_terms:ir.ui.view,arch_db:event_sale_session.view_order_product_search
 msgid "Event Ticket"
-msgstr "Billete para o Evento"
+msgstr "Entrada para o evento"
 
 #. module: event_sale_session
 #: model:ir.model,name:event_sale_session.model_event_session
@@ -94,12 +101,12 @@ msgstr "Vendas"
 #. module: event_sale_session
 #: model:ir.model.fields,field_description:event_sale_session.field_event_session__sale_price_subtotal
 msgid "Sales (Tax Excluded)"
-msgstr "Vendas ( Impostos Excluídos)"
+msgstr "Vendas (impostos non incluídos)"
 
 #. module: event_sale_session
 #: model:ir.model,name:event_sale_session.model_sale_report
 msgid "Sales Analysis Report"
-msgstr "Informe Analítico de Vendas"
+msgstr "Informe analítico de vendas"
 
 #. module: event_sale_session
 #: model:ir.model,name:event_sale_session.model_sale_order_line

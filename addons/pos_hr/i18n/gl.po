@@ -3,14 +3,16 @@
 # 	* pos_hr
 #
 # Translators:
-# Martin Trigaux, 2021
+# Martin Trigaux, 2022
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2022
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 16:59\n"
-"PO-Revision-Date: 2024-11-08 16:59\n"
+"POT-Creation-Date: 2025-01-22 22:55\n"
+"PO-Revision-Date: 2025-01-22 22:55\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -22,8 +24,9 @@ msgstr ""
 
 #. module: pos_hr
 #: model_terms:ir.ui.view,arch_db:pos_hr.pos_config_form_view_inherit
-msgid "<span class=\"o_form_label oe_edit_only\">Allowed Employees </span>"
-msgstr "<span class=\"o_form_label oe_edit_only\">Empregados permitidos </span>"
+#: model_terms:ir.ui.view,arch_db:pos_hr.res_config_settings_view_form
+msgid "Allowed Employees"
+msgstr "Empregados Permitidos"
 
 #. module: pos_hr
 #: model:ir.model.fields,field_description:pos_hr.field_pos_order__cashier
@@ -33,11 +36,16 @@ msgid "Cashier"
 msgstr "Caixeiro"
 
 #. module: pos_hr
-#. openerp-web
-#: code:addons/pos_hr/static/src/js/useSelectEmployee.js:0
+#. odoo-javascript
+#: code:addons/pos_hr/static/src/js/SelectCashierMixin.js:0
 #, python-format
 msgid "Change Cashier"
-msgstr "Cambiar Caixeiro"
+msgstr "Cambiar caixeiro"
+
+#. module: pos_hr
+#: model:ir.model,name:pos_hr.model_res_config_settings
+msgid "Config Settings"
+msgstr "Axustes de configuración"
 
 #. module: pos_hr
 #: model:ir.model,name:pos_hr.model_hr_employee
@@ -48,40 +56,43 @@ msgid "Employee"
 msgstr "Empregado"
 
 #. module: pos_hr
+#. odoo-python
 #: code:addons/pos_hr/models/hr_employee.py:0
 #, python-format
 msgid "Employee: %s - PoS Config(s): %s \n"
-msgstr "Empregado: %s - Configuración(é) de PoS: %s \n"
+msgstr "Empregado: %s - Configuracións do TPV: %s \n"
 
 #. module: pos_hr
 #: model:ir.model.fields,field_description:pos_hr.field_pos_config__employee_ids
+#: model:ir.model.fields,field_description:pos_hr.field_res_config_settings__pos_employee_ids
 msgid "Employees with access"
 msgstr "Empregados con acceso"
 
 #. module: pos_hr
 #: model:ir.model.fields,help:pos_hr.field_pos_config__employee_ids
+#: model:ir.model.fields,help:pos_hr.field_res_config_settings__pos_employee_ids
 msgid "If left empty, all employees can log in to the PoS session"
 msgstr ""
 "Se se deixa baleiro, todos os empregados poden iniciar sesión de usuario na "
 "sesión de PoS"
 
 #. module: pos_hr
-#. openerp-web
-#: code:addons/pos_hr/static/src/js/useSelectEmployee.js:0
+#. odoo-javascript
+#: code:addons/pos_hr/static/src/js/SelectCashierMixin.js:0
 #, python-format
 msgid "Incorrect Password"
 msgstr "Contrasinal incorrecto"
 
 #. module: pos_hr
-#. openerp-web
+#. odoo-javascript
 #: code:addons/pos_hr/static/src/xml/LoginScreen.xml:0
 #, python-format
 msgid "Log in to"
 msgstr "Iniciar sesión a"
 
 #. module: pos_hr
-#. openerp-web
-#: code:addons/pos_hr/static/src/js/useSelectEmployee.js:0
+#. odoo-javascript
+#: code:addons/pos_hr/static/src/js/SelectCashierMixin.js:0
 #, python-format
 msgid "Password ?"
 msgstr "Contrasinal?"
@@ -108,23 +119,29 @@ msgstr "Pedidos do TPV"
 #. module: pos_hr
 #: model:ir.model,name:pos_hr.model_report_pos_order
 msgid "Point of Sale Orders Report"
-msgstr "Informe de Ordes do Punto de Venda"
+msgstr "Informe de pedidos do TPV"
 
 #. module: pos_hr
-#. openerp-web
+#: model:ir.model,name:pos_hr.model_pos_session
+msgid "Point of Sale Session"
+msgstr "Sesión TPV"
+
+#. module: pos_hr
+#. odoo-javascript
 #: code:addons/pos_hr/static/src/xml/LoginScreen.xml:0
 #, python-format
 msgid "Scan your badge"
-msgstr "Escaneei a súa identificación"
+msgstr "Escanee a súa identificación"
 
 #. module: pos_hr
-#. openerp-web
+#. odoo-javascript
 #: code:addons/pos_hr/static/src/xml/LoginScreen.xml:0
 #, python-format
 msgid "Select Cashier"
-msgstr "Seleccionar Caixeiro"
+msgstr "Seleccionar caixeiro"
 
 #. module: pos_hr
+#. odoo-python
 #: code:addons/pos_hr/models/hr_employee.py:0
 #, python-format
 msgid ""
@@ -135,15 +152,8 @@ msgstr ""
 "TPV, primeiro peche as sesións: \n"
 
 #. module: pos_hr
-#. openerp-web
+#. odoo-javascript
 #: code:addons/pos_hr/static/src/xml/LoginScreen.xml:0
 #, python-format
 msgid "or"
 msgstr "ou"
-
-#. module: pos_hr
-#. openerp-web
-#: code:addons/pos_hr/static/src/xml/CashierName.xml:0
-#, python-format
-msgid "selectCashier"
-msgstr "selectCashier"

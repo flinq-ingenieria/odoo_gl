@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 23:50\n"
-"PO-Revision-Date: 2024-11-07 23:50\n"
+"POT-Creation-Date: 2025-01-22 09:46\n"
+"PO-Revision-Date: 2025-01-22 09:46\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,10 +15,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: mail_composer_cc_bcc
-#: model:ir.model.fields,field_description:mail_composer_cc_bcc.field_account_invoice_send__partner_bcc_ids
 #: model:ir.model.fields,field_description:mail_composer_cc_bcc.field_mail_compose_message__partner_bcc_ids
 #: model:ir.model.fields,field_description:mail_composer_cc_bcc.field_mail_mail__email_bcc
 #: model:ir.model.fields,field_description:mail_composer_cc_bcc.field_mail_template__email_bcc
@@ -29,7 +29,7 @@ msgstr "Bcc"
 #: model:ir.model.fields,field_description:mail_composer_cc_bcc.field_mail_mail__recipient_bcc_ids
 #: model:ir.model.fields,field_description:mail_composer_cc_bcc.field_mail_message__recipient_bcc_ids
 msgid "Bcc (Partners)"
-msgstr "CCO (Socios)"
+msgstr "Bcc (Socios)"
 
 #. module: mail_composer_cc_bcc
 #: model:ir.model.fields,help:mail_composer_cc_bcc.field_mail_mail__email_bcc
@@ -42,7 +42,6 @@ msgid "Blind cc recipients (placeholders may be used here)"
 msgstr "Destinatarios cc cegos (poden utilizarse marcadores de posición)"
 
 #. module: mail_composer_cc_bcc
-#: model:ir.model.fields,field_description:mail_composer_cc_bcc.field_account_invoice_send__partner_cc_ids
 #: model:ir.model.fields,field_description:mail_composer_cc_bcc.field_mail_compose_message__partner_cc_ids
 msgid "Cc"
 msgstr "Con copia (cc)"
@@ -67,7 +66,7 @@ msgstr "Compañías"
 #. module: mail_composer_cc_bcc
 #: model:ir.model.fields,field_description:mail_composer_cc_bcc.field_res_company__default_partner_bcc_ids
 msgid "Default Bcc"
-msgstr "CCO por defecto"
+msgstr "Bcc por defecto"
 
 #. module: mail_composer_cc_bcc
 #: model:ir.model.fields,field_description:mail_composer_cc_bcc.field_res_company__default_partner_cc_ids
@@ -82,14 +81,15 @@ msgstr "Modelos Correo Electrónico"
 #. module: mail_composer_cc_bcc
 #: model:ir.model,name:mail_composer_cc_bcc.model_mail_thread
 msgid "Email Thread"
-msgstr "Correo Electrónico"
+msgstr "Fío de Correo Electrónico"
 
 #. module: mail_composer_cc_bcc
 #: model:ir.model,name:mail_composer_cc_bcc.model_mail_compose_message
 msgid "Email composition wizard"
-msgstr "Asistente de composición de correo electrónico"
+msgstr "Asistente de redacción de correo electrónico"
 
 #. module: mail_composer_cc_bcc
+#. odoo-python
 #: code:addons/mail_composer_cc_bcc/models/mail_mail.py:0
 #, python-format
 msgid ""
@@ -101,6 +101,7 @@ msgstr ""
 "administrador."
 
 #. module: mail_composer_cc_bcc
+#. odoo-python
 #: code:addons/mail_composer_cc_bcc/models/mail_mail.py:0
 #, python-format
 msgid ""

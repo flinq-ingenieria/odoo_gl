@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 20:11\n"
-"PO-Revision-Date: 2024-11-07 20:11\n"
+"POT-Creation-Date: 2025-01-22 07:02\n"
+"PO-Revision-Date: 2025-01-22 07:02\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: l10n_es_vat_prorate
@@ -63,11 +64,6 @@ msgid "ID"
 msgstr "ID (identificación)"
 
 #. module: l10n_es_vat_prorate
-#: model:ir.model,name:l10n_es_vat_prorate.model_account_move
-msgid "Journal Entry"
-msgstr "Entrada Diaria"
-
-#. module: l10n_es_vat_prorate
 #: model:ir.model,name:l10n_es_vat_prorate.model_account_move_line
 msgid "Journal Item"
 msgstr "Artigo Diario"
@@ -75,7 +71,7 @@ msgstr "Artigo Diario"
 #. module: l10n_es_vat_prorate
 #: model:ir.model.fields,field_description:l10n_es_vat_prorate.field_res_company_vat_prorate____last_update
 msgid "Last Modified on"
-msgstr "Última Modifiación o"
+msgstr "Última Modificación o"
 
 #. module: l10n_es_vat_prorate
 #: model:ir.model.fields,field_description:l10n_es_vat_prorate.field_res_company_vat_prorate__write_uid
@@ -85,7 +81,7 @@ msgstr "Actualizado por Última vez por"
 #. module: l10n_es_vat_prorate
 #: model:ir.model.fields,field_description:l10n_es_vat_prorate.field_res_company_vat_prorate__write_date
 msgid "Last Updated on"
-msgstr "Ultima Actualización o"
+msgstr "Última Actualización o"
 
 #. module: l10n_es_vat_prorate
 #: model:ir.model.fields,field_description:l10n_es_vat_prorate.field_account_tax__prorate_account_ids
@@ -133,6 +129,11 @@ msgid "VAT Prorate table"
 msgstr "Táboa de prorrateo do IVE"
 
 #. module: l10n_es_vat_prorate
+#: model:ir.model.constraint,message:l10n_es_vat_prorate.constraint_res_company_vat_prorate_vat_prorate_percent_amount
+msgid "VAT prorate must be between 0.01 and 100!"
+msgstr "A prorrata do IVE debe estar comprendida entre 0,01 e 100!"
+
+#. module: l10n_es_vat_prorate
 #: model:ir.model.fields,field_description:l10n_es_vat_prorate.field_account_move_line__vat_prorate
 #: model:ir.model.fields,field_description:l10n_es_vat_prorate.field_res_company__vat_prorate_ids
 #: model:ir.model.fields,field_description:l10n_es_vat_prorate.field_res_company_vat_prorate__vat_prorate
@@ -144,3 +145,10 @@ msgstr "Prorrata do IVE"
 #: model:ir.model.fields,field_description:l10n_es_vat_prorate.field_res_company__with_vat_prorate
 msgid "With Vat Prorate"
 msgstr "Con prorrata de IVE"
+
+#. module: l10n_es_vat_prorate
+#. odoo-python
+#: code:addons/l10n_es_vat_prorate/models/res_company.py:0
+#, python-format
+msgid "You must complete VAT prorate information"
+msgstr "Debe cumprimentar a información sobre o prorrateo do IVE"

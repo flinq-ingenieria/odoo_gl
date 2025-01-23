@@ -3,17 +3,16 @@
 # 	* hr_work_entry_holidays
 #
 # Translators:
-# Martin Trigaux, 2021
-# José Cabrera Lozano <jose.cabrera@edukative.es>, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2023
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 21:37\n"
-"PO-Revision-Date: 2024-11-08 21:37\n"
+"POT-Creation-Date: 2025-01-22 13:46\n"
+"PO-Revision-Date: 2025-01-22 13:46\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -59,23 +58,14 @@ msgid "Employee Contract"
 msgstr "Contrato de empregado"
 
 #. module: hr_work_entry_holidays
-#: model:ir.model.fields,help:hr_work_entry_holidays.field_hr_work_entry_type__leave_type_ids
-msgid ""
-"Every new time off type in this list will be reported as select work entry "
-"in payslip."
-msgstr ""
-"Cada novo tipo de tempo persoal nesta lista reportarase como entrada de "
-"traballo seleccionado na nómina."
-
-#. module: hr_work_entry_holidays
 #: model:ir.model,name:hr_work_entry_holidays.model_hr_work_entry
 msgid "HR Work Entry"
-msgstr "Entrada de traballo de RRHH"
+msgstr "Entrada de traballo de RR. HH."
 
 #. module: hr_work_entry_holidays
 #: model:ir.model,name:hr_work_entry_holidays.model_hr_work_entry_type
 msgid "HR Work Entry Type"
-msgstr "Tipo de entrada de traballo de RRHH"
+msgstr "Tipo de entrada de traballo de RR. HH."
 
 #. module: hr_work_entry_holidays
 #: model_terms:ir.ui.view,arch_db:hr_work_entry_holidays.work_entry_type_leave_form_inherit
@@ -95,10 +85,10 @@ msgid ""
 "The status is 'Refused', when time off request is refused by manager.\n"
 "The status is 'Approved', when time off request is approved by manager."
 msgstr ""
-"O estado establécese en `Para enviar', cando se crea unha solicitude de ausencia.\n"
-"O estado é 'Para Aprobar', cando o usuario confirma a solicitude de ausencia.\n"
-"O estado é 'Rexeitado', cando o xerente rexeita a solicitude de ausencia.\n"
-"O estado é 'Aprobado', cando o xerente aproba a solicitude de ausencia."
+"O estado establécese en \"A enviar\" cando se crea unha solicitude de ausencia.\n"
+"O estado é \"A Aprobar\", cando o usuario confirma a solicitude de ausencia.\n"
+"O estado é \"Rexeitado\", cando o xerente rexeita a solicitude de ausencia.\n"
+"O estado é \"Aprobado\", cando o xerente aproba a solicitude de ausencia."
 
 #. module: hr_work_entry_holidays
 #: code:addons/hr_work_entry_holidays/models/hr_leave.py:0
@@ -107,14 +97,14 @@ msgid ""
 "There is no employee set on the time off. Please make sure you're logged in "
 "the correct company."
 msgstr ""
-"Non hai ningún empregado establecido no tempo libre. Asegúrese de iniciar "
-"sesión na empresa correcta."
+"Non hai ningún empregado establecido na ausencia. Asegúrese de iniciar "
+"sesión na compañía correcta."
 
 #. module: hr_work_entry_holidays
 #: model:ir.model,name:hr_work_entry_holidays.model_hr_leave
 #: model:ir.model.fields,field_description:hr_work_entry_holidays.field_hr_work_entry__leave_id
 msgid "Time Off"
-msgstr "Tempo persoal"
+msgstr "Ausencias"
 
 #. module: hr_work_entry_holidays
 #: model:ir.model,name:hr_work_entry_holidays.model_hr_leave_type
@@ -126,3 +116,8 @@ msgstr "Tipo de ausencia"
 #: model:ir.model.fields,field_description:hr_work_entry_holidays.field_hr_leave_type__work_entry_type_id
 msgid "Work Entry Type"
 msgstr "Tipo de entrada de traballo"
+
+#. module: hr_work_entry_holidays
+#: model:ir.model.fields,help:hr_work_entry_holidays.field_hr_work_entry_type__leave_type_ids
+msgid "Work entry used in the payslip."
+msgstr "Entrada de traballo utilizada no recibo de nómina."

@@ -5,10 +5,10 @@
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 20:21\n"
-"PO-Revision-Date: 2024-11-07 20:21\n"
+"POT-Creation-Date: 2025-01-21 23:38\n"
+"PO-Revision-Date: 2025-01-21 23:38\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. module: account_statement_import_ofx
 #: model:ir.model,name:account_statement_import_ofx.model_account_statement_import
 msgid "Import Bank Statement Files"
-msgstr "Importar Ficheiros de Extracto Bancario"
+msgstr "Importar arquivos de extractos bancarios"
 
 #. module: account_statement_import_ofx
 #: model:ir.model,name:account_statement_import_ofx.model_account_journal
@@ -31,9 +31,10 @@ msgstr "Diario"
 #. module: account_statement_import_ofx
 #: model_terms:ir.ui.view,arch_db:account_statement_import_ofx.account_statement_import_form
 msgid "Open Financial Exchange (.OFX Money)"
-msgstr "Abrir Intercambio Financeiro (.OFX Money)"
+msgstr "Abrir intercambio financeiro (.OFX Money)"
 
 #. module: account_statement_import_ofx
+#. odoo-python
 #: code:addons/account_statement_import_ofx/wizard/account_statement_import.py:0
 #, python-format
 msgid ""
@@ -41,6 +42,6 @@ msgid ""
 "\n"
 " %s"
 msgstr ""
-"Ocorreu o seguinte problema durante a importación. O arquivo podería non ser válido.\n"
+"O seguinte problema ocorreu durante a importación. É posible que o arquivo non sexa válido.\n"
 "\n"
-"%s"
+" %s"

@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 13:15\n"
-"PO-Revision-Date: 2024-11-08 13:15\n"
+"POT-Creation-Date: 2025-01-22 10:50\n"
+"PO-Revision-Date: 2025-01-22 10:50\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -18,15 +18,14 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: account_invoice_start_end_dates
-#: model:product.product,name:account_invoice_start_end_dates.product_insurance_contract_demo
 #: model:product.template,name:account_invoice_start_end_dates.product_insurance_contract_demo_product_template
 msgid "Car Insurance"
-msgstr "Seguro do coche"
+msgstr "Seguro de coche"
 
 #. module: account_invoice_start_end_dates
 #: model:ir.model.fields,field_description:account_invoice_start_end_dates.field_account_move_line__end_date
 msgid "End Date"
-msgstr "Data de finalización"
+msgstr "data final"
 
 #. module: account_invoice_start_end_dates
 #: model:ir.model.fields,help:account_invoice_start_end_dates.field_account_move_line__must_have_dates
@@ -34,35 +33,35 @@ msgstr "Data de finalización"
 #: model:ir.model.fields,help:account_invoice_start_end_dates.field_product_template__must_have_dates
 msgid ""
 "If this option is active, the user will have to enter a Start Date and an "
-"End Date on the invoice/move lines that have this product."
+"End Date on the invoice lines that have this product."
 msgstr ""
-"Se esta opción está activa, o usuario terá que introducir unha data de "
-"comezo e unha data de finalización nas lineas de facturacion que ten este "
-"produto."
+"Se está opción está activa, o usuario terá que introducir unha data de "
+"inicio e unha data de fin nas liñas de factura que conteñan este produto."
 
 #. module: account_invoice_start_end_dates
 #: model:ir.model,name:account_invoice_start_end_dates.model_account_move
 msgid "Journal Entry"
-msgstr "Entrada de bitácora"
+msgstr "entrada diaria"
 
 #. module: account_invoice_start_end_dates
 #: model:ir.model,name:account_invoice_start_end_dates.model_account_move_line
 msgid "Journal Item"
-msgstr "Entrada de bitácora"
+msgstr "artigo diario"
 
 #. module: account_invoice_start_end_dates
-#: model:product.product,name:account_invoice_start_end_dates.product_maintenance_contract_demo
 #: model:product.template,name:account_invoice_start_end_dates.product_maintenance_contract_demo_product_template
 msgid "Maintenance contract"
 msgstr "Contrato de mantemento"
 
 #. module: account_invoice_start_end_dates
+#. odoo-python
 #: code:addons/account_invoice_start_end_dates/models/account_move_line.py:0
 #, python-format
-msgid "Missing End Date for move line with Name '%s'."
-msgstr "Falta a data de finalización para a linea con nome '%s'."
+msgid "Missing End Date for line '%s'."
+msgstr "falta a data final para a liña'%s'."
 
 #. module: account_invoice_start_end_dates
+#. odoo-python
 #: code:addons/account_invoice_start_end_dates/models/account_move.py:0
 #, python-format
 msgid ""
@@ -73,10 +72,11 @@ msgstr ""
 "produto '%s' que ten a propiedade 'Debe ter datas de inicio/finalización'."
 
 #. module: account_invoice_start_end_dates
+#. odoo-python
 #: code:addons/account_invoice_start_end_dates/models/account_move_line.py:0
 #, python-format
-msgid "Missing Start Date for move line with Name '%s'."
-msgstr "Falta data de inicio para a linea con nome '%s'."
+msgid "Missing Start Date for line '%s'."
+msgstr "falta a data de inicio para a liña '%s'."
 
 #. module: account_invoice_start_end_dates
 #: model:ir.model.fields,field_description:account_invoice_start_end_dates.field_account_move_line__must_have_dates
@@ -87,28 +87,21 @@ msgstr "Debe ter datas de inicio/finalización"
 
 #. module: account_invoice_start_end_dates
 #: model:ir.model,name:account_invoice_start_end_dates.model_product_template
-msgid "Product Template"
-msgstr "Modelo de produto"
+msgid "Product"
+msgstr "produto"
 
 #. module: account_invoice_start_end_dates
 #: model:ir.model.fields,field_description:account_invoice_start_end_dates.field_account_move_line__start_date
 msgid "Start Date"
-msgstr "Data de inicio"
+msgstr "data de inicio"
 
 #. module: account_invoice_start_end_dates
+#. odoo-python
 #: code:addons/account_invoice_start_end_dates/models/account_move_line.py:0
 #, python-format
 msgid ""
-"Start Date ({start_date}) should be before End Date ({end_date}) for move "
-"line with Name '{name}'."
+"Start Date (%(start_date)s) should be before End Date (%(end_date)s) for "
+"line '%(name)s'."
 msgstr ""
-"A data de inicio ({start_dáche}) debe ser anterior á data de finalización "
-"({end_dáche}) para a linea con nome '{name}'."
-
-#. module: account_invoice_start_end_dates
-#: model:product.product,uom_name:account_invoice_start_end_dates.product_insurance_contract_demo
-#: model:product.product,uom_name:account_invoice_start_end_dates.product_maintenance_contract_demo
-#: model:product.template,uom_name:account_invoice_start_end_dates.product_insurance_contract_demo_product_template
-#: model:product.template,uom_name:account_invoice_start_end_dates.product_maintenance_contract_demo_product_template
-msgid "Units"
-msgstr "Unidades"
+"data de inicio (%(start_date)s) debe de ser antes que a data final "
+"(%(end_date)s) para a liña '%(name)s'."

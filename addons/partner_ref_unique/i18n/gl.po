@@ -7,10 +7,10 @@
 # Antonio Trueba <atgayol@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 20:38\n"
-"PO-Revision-Date: 2024-11-07 20:38\n"
+"POT-Creation-Date: 2025-01-22 07:25\n"
+"PO-Revision-Date: 2025-01-22 07:25\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -38,7 +38,7 @@ msgstr "Contacto"
 #. module: partner_ref_unique
 #: model:ir.model,name:partner_ref_unique.model_base_partner_merge_automatic_wizard
 msgid "Merge Partner Wizard"
-msgstr "Asistente para a fusión de socios"
+msgstr "Wizard de fusión de partner"
 
 #. module: partner_ref_unique
 #: model:ir.model.fields.selection,name:partner_ref_unique.selection__res_company__partner_ref_unique__none
@@ -56,6 +56,7 @@ msgid "Partners"
 msgstr "Empresas"
 
 #. module: partner_ref_unique
+#. odoo-python
 #: code:addons/partner_ref_unique/models/res_partner.py:0
 #, python-format
 msgid "This reference is equal to partner '%s'"

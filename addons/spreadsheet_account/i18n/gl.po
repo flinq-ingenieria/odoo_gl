@@ -1,0 +1,118 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* spreadsheet_account
+#
+# Translators:
+# Martin Trigaux, 2022
+# Oscar Yu, 2022
+# Wil Odoo, 2024
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-21 19:12\n"
+"PO-Revision-Date: 2025-01-21 19:12\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: spreadsheet_account
+#. odoo-javascript
+#: code:addons/spreadsheet_account/static/src/accounting_datasource.js:0
+#, python-format
+msgid "%s is not a valid year."
+msgstr "%s non é un ano validado"
+
+#. module: spreadsheet_account
+#. odoo-javascript
+#: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
+#, python-format
+msgid ""
+"'%s' is not a valid period. Supported formats are \"21/12/2022\", "
+"\"Q1/2022\", \"12/2022\", and \"2022\"."
+msgstr ""
+"'%s' non é un período validado. Os formatos de soportes son \"21/12/2022\","
+"  \"Q1/2022\", \"12/2022\", e \"2022\""
+
+#. module: spreadsheet_account
+#: model:ir.model,name:spreadsheet_account.model_account_account
+msgid "Account"
+msgstr "Conta"
+
+#. module: spreadsheet_account
+#: model:ir.model,name:spreadsheet_account.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: spreadsheet_account
+#. odoo-javascript
+#: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
+#, python-format
+msgid "Get the total balance for the specified account(s) and period."
+msgstr "Obteña o saldo total para a(s) conta(s) especificada(s) e o período."
+
+#. module: spreadsheet_account
+#. odoo-javascript
+#: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
+#, python-format
+msgid "Get the total credit for the specified account(s) and period."
+msgstr ""
+"Obteña o crédito total para a(s) conta(s) especificada(s) e o período."
+
+#. module: spreadsheet_account
+#. odoo-javascript
+#: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
+#, python-format
+msgid "Get the total debit for the specified account(s) and period."
+msgstr "Obteña o débito total para a(s) conta(s) especificada(s) e o período."
+
+#. module: spreadsheet_account
+#. odoo-python
+#: code:addons/spreadsheet_account/models/account.py:0
+#, python-format
+msgid "Journal items for account prefix %s"
+msgstr "Apuntamentos contables para o prefixo da conta %s"
+
+#. module: spreadsheet_account
+#. odoo-javascript
+#: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
+#, python-format
+msgid "Returns the account ids of a given group."
+msgstr "Devolve os ide de conta do grupo indicado."
+
+#. module: spreadsheet_account
+#. odoo-javascript
+#: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
+#, python-format
+msgid ""
+"Returns the ending date of the fiscal year encompassing the provided date."
+msgstr "Devolve a data final do exercicio fiscal englobando a data prevista."
+
+#. module: spreadsheet_account
+#. odoo-javascript
+#: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
+#, python-format
+msgid ""
+"Returns the starting date of the fiscal year encompassing the provided date."
+msgstr ""
+"Devolver a data inical do exercicio fiscal englobando a data prevista."
+
+#. module: spreadsheet_account
+#. odoo-javascript
+#: code:addons/spreadsheet_account/static/src/index.js:0
+#, python-format
+msgid "See records"
+msgstr "Ver rexistros"
+
+#. module: spreadsheet_account
+#. odoo-javascript
+#: code:addons/spreadsheet_account/static/src/accounting_datasource.js:0
+#, python-format
+msgid "The company fiscal year could not be found."
+msgstr "Non se puido atopar o exercicio fiscal da compañia."

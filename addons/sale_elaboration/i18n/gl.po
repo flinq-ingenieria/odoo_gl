@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 09:12\n"
-"PO-Revision-Date: 2024-11-08 09:12\n"
+"POT-Creation-Date: 2025-01-22 09:13\n"
+"PO-Revision-Date: 2025-01-22 09:13\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,17 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
-
-#. module: sale_elaboration
-#: model_terms:ir.ui.view,arch_db:sale_elaboration.report_delivery_document
-msgid "<strong>Elab.</strong>"
-msgstr "<strong>Elab.</strong>"
-
-#. module: sale_elaboration
-#: model_terms:ir.ui.view,arch_db:sale_elaboration.report_delivery_document
-msgid "<strong>Elaboration</strong>"
-msgstr "<strong>Elaboración</strong>"
 
 #. module: sale_elaboration
 #: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration__active
@@ -73,8 +64,8 @@ msgid ""
 "Creation date of draft/sent orders,\n"
 "Confirmation date of confirmed orders."
 msgstr ""
-"Data de creación do borrador/envío das ordes,\\n\n"
-"Data de confirmación dos pedidos confirmados."
+"Data de creación das ordes viradas/enviadas,\n"
+"Data de confirmación das ordes confirmadas."
 
 #. module: sale_elaboration
 #: model:ir.model.fields,field_description:sale_elaboration.field_sale_order_line__date_order
@@ -84,7 +75,12 @@ msgstr "Data"
 #. module: sale_elaboration
 #: model:ir.model.fields,field_description:sale_elaboration.field_res_config_settings__group_elaboration_note_on_delivery_slip
 msgid "Display Elaboration notes on Delivery Slips"
-msgstr "Mostrar elaboracións nos albarás"
+msgstr "Mostrar notas de elaboración nos albarás"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_res_config_settings__group_elaboration_note_on_picking_operations
+msgid "Display Elaboration notes on Picking Operations"
+msgstr "Mostrar notas de elaboración en Operacións de picking"
 
 #. module: sale_elaboration
 #: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration__display_name
@@ -95,12 +91,12 @@ msgstr "Nome a mostrar"
 #. module: sale_elaboration
 #: model:ir.model.fields,help:sale_elaboration.field_sale_order_line__is_prepared
 msgid "Dummy field to be able to find prepared lines"
-msgstr ""
+msgstr "Campo ficticio para poder atopar liñas preparadas"
 
 #. module: sale_elaboration
 #: model:ir.model.fields,field_description:sale_elaboration.field_sale_order_line__elaboration_price_unit
 msgid "Elab. Price"
-msgstr "Prezo elab."
+msgstr "Prezo elab"
 
 #. module: sale_elaboration
 #: model_terms:ir.ui.view,arch_db:sale_elaboration.elaboration_view_search
@@ -127,6 +123,12 @@ msgstr "Perfil de elaboración"
 #: model_terms:ir.ui.view,arch_db:sale_elaboration.res_config_settings_view
 msgid "Elaboration notes will appear on the delivery slip"
 msgstr "As notas de elaboración aparecerán nos albarás"
+
+#. module: sale_elaboration
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.res_config_settings_view
+msgid "Elaboration notes will appear on the picking operations report"
+msgstr ""
+"As notas de elaboración aparecerán no informe de operacións de picking"
 
 #. module: sale_elaboration
 #: model_terms:ir.ui.view,arch_db:sale_elaboration.view_order_form
@@ -176,6 +178,11 @@ msgid "Include elaboration notes on delivery slip"
 msgstr "Incluír notas de elaboración nos albarás"
 
 #. module: sale_elaboration
+#: model:res.groups,name:sale_elaboration.group_elaboration_note_on_picking_operations
+msgid "Include elaboration notes on picking operations"
+msgstr "Incluír notas de elaboración nas operacións de picking"
+
+#. module: sale_elaboration
 #: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration_mixin__is_elaboration
 #: model:ir.model.fields,field_description:sale_elaboration.field_product_product__is_elaboration
 #: model:ir.model.fields,field_description:sale_elaboration.field_product_template__is_elaboration
@@ -188,13 +195,13 @@ msgstr "É elaboración"
 #. module: sale_elaboration
 #: model_terms:ir.ui.view,arch_db:sale_elaboration.view_sales_order_line_filter
 msgid "Is Not Prepared"
-msgstr "Non preparada"
+msgstr "Non está preparado"
 
 #. module: sale_elaboration
 #: model:ir.model.fields,field_description:sale_elaboration.field_sale_order_line__is_prepared
 #: model_terms:ir.ui.view,arch_db:sale_elaboration.view_sales_order_line_filter
 msgid "Is Prepared"
-msgstr "Preparada"
+msgstr "Está preparado"
 
 #. module: sale_elaboration
 #: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration____last_update
@@ -226,7 +233,7 @@ msgid "Name must be unique!"
 msgstr "O nome debe ser único!"
 
 #. module: sale_elaboration
-#: model:ir.model,name:sale_elaboration.model_product_product
+#: model:ir.model,name:sale_elaboration.model_product_template
 #: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration__product_id
 #: model_terms:ir.ui.view,arch_db:sale_elaboration.elaboration_view_search
 msgid "Product"
@@ -243,9 +250,9 @@ msgid "Product Moves (Stock Move Line)"
 msgstr "Movementos de Produto (Stock Move Line)"
 
 #. module: sale_elaboration
-#: model:ir.model,name:sale_elaboration.model_product_template
-msgid "Product Template"
-msgstr "Modelo de produto"
+#: model:ir.model,name:sale_elaboration.model_product_product
+msgid "Product Variant"
+msgstr "Variante de Produto"
 
 #. module: sale_elaboration
 #: model:ir.model,name:sale_elaboration.model_product_elaboration_profile
@@ -323,7 +330,17 @@ msgid "Transfer"
 msgstr "Albará"
 
 #. module: sale_elaboration
+#. odoo-python
 #: code:addons/sale_elaboration/models/sale_order.py:0
 #, python-format
 msgid "Unsupported operator %s for searching on is_prepared"
-msgstr "Operador non compatible %s para buscar en is_prepared"
+msgstr "Operador %s non soportado para buscar en is_prepared"
+
+#~ msgid "<strong>Elab.</strong>"
+#~ msgstr "<strong>elab.</strong>"
+
+#~ msgid "<strong>Elaboration</strong>"
+#~ msgstr "<strong>Elaboración</strong>"
+
+#~ msgid "Product Template"
+#~ msgstr "Modelo de produto"

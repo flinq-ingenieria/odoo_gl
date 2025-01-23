@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 02:16\n"
-"PO-Revision-Date: 2024-11-08 02:16\n"
+"POT-Creation-Date: 2025-01-21 20:23\n"
+"PO-Revision-Date: 2025-01-21 20:23\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,19 +20,20 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: account_banking_sepa_credit_transfer
+#. odoo-python
 #: code:addons/account_banking_sepa_credit_transfer/models/account_payment_order.py:0
 #, python-format
 msgid ""
 "Bank account is missing on the bank payment line of partner '{partner}' "
 "(reference '{reference}')."
 msgstr ""
-"Falta a conta bancaria na liña de pago bancario do partner '{partner}' "
-"(reference '{reference}')."
+"Falta a conta bancaria na liña de pago do partner '{partner}' (reference "
+"'{reference}')."
 
 #. module: account_banking_sepa_credit_transfer
 #: model:ir.model.fields.selection,name:account_banking_sepa_credit_transfer.selection__account_payment_line__local_instrument__inst
 msgid "Instant Transfer"
-msgstr "Transferencia inmediata"
+msgstr "Transferencia instantánea"
 
 #. module: account_banking_sepa_credit_transfer
 #: model:ir.model.fields,field_description:account_banking_sepa_credit_transfer.field_account_payment_line__local_instrument
@@ -42,9 +43,10 @@ msgstr "Instrumento local"
 #. module: account_banking_sepa_credit_transfer
 #: model:ir.model.fields,field_description:account_banking_sepa_credit_transfer.field_account_payment_method__pain_version
 msgid "PAIN Version"
-msgstr "Version PAIN"
+msgstr "Versión PAIN"
 
 #. module: account_banking_sepa_credit_transfer
+#. odoo-python
 #: code:addons/account_banking_sepa_credit_transfer/models/account_payment_order.py:0
 #, python-format
 msgid "PAIN version '%s' is not supported."
@@ -69,7 +71,7 @@ msgstr "Orde de pago"
 #: model:account.payment.method,name:account_banking_sepa_credit_transfer.sepa_credit_transfer
 #: model:account.payment.mode,name:account_banking_sepa_credit_transfer.payment_mode_outbound_sepa_ct1
 msgid "SEPA Credit Transfer to suppliers"
-msgstr "Transferencia de crédito SEPA para provedores"
+msgstr "Transferencia de crédito SAIBA para provedores"
 
 #. module: account_banking_sepa_credit_transfer
 #: model:ir.model.fields.selection,name:account_banking_sepa_credit_transfer.selection__account_payment_method__pain_version__pain_001_001_02
@@ -79,7 +81,7 @@ msgstr "pain.001.001.02"
 #. module: account_banking_sepa_credit_transfer
 #: model:ir.model.fields.selection,name:account_banking_sepa_credit_transfer.selection__account_payment_method__pain_version__pain_001_001_03
 msgid "pain.001.001.03 (recommended for credit transfer)"
-msgstr "pain.001.001.03 (recomendado para transferencia de créditos)"
+msgstr "pain.001.001.03 (recomendado para pagos por transferencia)"
 
 #. module: account_banking_sepa_credit_transfer
 #: model:ir.model.fields.selection,name:account_banking_sepa_credit_transfer.selection__account_payment_method__pain_version__pain_001_001_04

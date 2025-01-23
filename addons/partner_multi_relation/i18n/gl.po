@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 22:32\n"
-"PO-Revision-Date: 2024-11-07 22:32\n"
+"POT-Creation-Date: 2025-01-22 13:33\n"
+"PO-Revision-Date: 2025-01-22 13:33\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,10 +20,16 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 #, python-format
 msgid "%s partner incompatible with relation type."
 msgstr "Empresa %s incompatible co tipo de relación."
+
+#. module: partner_multi_relation
+#: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
+msgid "+Inactive"
+msgstr ""
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_all__active
@@ -47,6 +53,7 @@ msgid "All relations with current partner"
 msgstr "Todas as relacións coa empresa actual"
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_type.py:0
 #: model:ir.model.fields.selection,name:partner_multi_relation.selection__res_partner_relation_type__handle_invalid_onchange__ignore
 #, python-format
@@ -82,6 +89,7 @@ msgid "Current record's partner type"
 msgstr "Tipo de empresa do rexistro actual"
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_type.py:0
 #: model:ir.model.fields.selection,name:partner_multi_relation.selection__res_partner_relation_type__handle_invalid_onchange__delete
 #, python-format
@@ -102,6 +110,7 @@ msgid "Display Name"
 msgstr "Nome mostrado"
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_type.py:0
 #: model:ir.model.fields.selection,name:partner_multi_relation.selection__res_partner_relation_type__handle_invalid_onchange__restrict
 #, python-format
@@ -109,6 +118,7 @@ msgid "Do not allow change that will result in invalid relations"
 msgstr "Non permitir cambios que resulten en relacións inválidas"
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_type.py:0
 #: model:ir.model.fields.selection,name:partner_multi_relation.selection__res_partner_relation_type__handle_invalid_onchange__end
 #, python-format
@@ -123,6 +133,7 @@ msgid "Ending date"
 msgstr "Data fin"
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 #, python-format
 msgid "Error!"
@@ -173,11 +184,6 @@ msgstr "Traballou para"
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type_selection__id
 msgid "ID"
 msgstr "ID"
-
-#. module: partner_multi_relation
-#: model_terms:ir.ui.view,arch_db:partner_multi_relation.search_res_partner_relation_all
-msgid "Include past records"
-msgstr "Incluír rexistros anteriores"
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__handle_invalid_onchange
@@ -259,12 +265,14 @@ msgid "Name"
 msgstr "Nome"
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 #, python-format
 msgid "No %s partner available for relation type."
 msgstr "Non hai %s contacto dispoñible para este tipo de relación."
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 #, python-format
 msgid "No relation type specified in vals: %s."
@@ -277,6 +285,7 @@ msgid "One Partner"
 msgstr "Un Contacto"
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_type.py:0
 #, python-format
 msgid "Organisation"
@@ -319,12 +328,14 @@ msgid "Partner relation"
 msgstr "Relación de empresa"
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation.py:0
 #, python-format
 msgid "Partners cannot have a relation with themselves."
 msgstr "Os socios non poden ter unha relación consigo mesmos."
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_type.py:0
 #, python-format
 msgid "Person"
@@ -342,14 +353,16 @@ msgid ""
 "                be linked to other partners with a type either directly\n"
 "                or inversely."
 msgstr ""
-"Rexistre e faga un seguimento das relacións dos seus socios. As relacións poden\n"
-"                estar vinculadas a outros socios dun tipo, xa sexa directamente\n"
+"Rexistre e siga as relacións dos seus socios. As relacións poden\n"
+"                estar vinculadas a outros interlocutores cun tipo, xa sexa directamente\n"
 "                ou inversamente."
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_all__active
-msgid "Records with date_end in the past are inactive"
-msgstr "Rexistros con fin de data no pasado están inactivos"
+msgid ""
+"Records with date_end in the past are inactive,  as well as records for "
+"inactive partners."
+msgstr ""
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,field_description:partner_multi_relation.field_res_partner_relation_type__allow_self
@@ -358,6 +371,7 @@ msgid "Reflexive"
 msgstr "Reflexiva"
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_type.py:0
 #, python-format
 msgid ""
@@ -386,6 +400,7 @@ msgid "Relation Types"
 msgstr "Tipo de Relación"
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 #, python-format
 msgid "Relation type incompatible with selected partner(s)."
@@ -468,10 +483,11 @@ msgid "Symmetric"
 msgstr "Simétrica"
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation.py:0
 #, python-format
 msgid "The %s partner is not applicable for this relation type."
-msgstr "A empresa %s non aplica para este tipo de relación."
+msgstr "O socio %s non é aplicable para este tipo de relación."
 
 #. module: partner_multi_relation
 #: model:ir.model.fields,help:partner_multi_relation.field_res_partner_relation_all__res_model
@@ -484,18 +500,21 @@ msgid "The id of the object in the model this relation is based on."
 msgstr "O ide do obxecto no modelo no que se basea esta relación."
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation.py:0
 #, python-format
 msgid "The starting date cannot be after the ending date."
 msgstr "A data de inicio non pode ser posterior á data de fin."
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation.py:0
 #, python-format
 msgid "The {partner} partner does not have category {category}."
 msgstr "O contacto {partner} non ten categoría {category}."
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_type.py:0
 #, python-format
 msgid ""
@@ -506,6 +525,7 @@ msgstr ""
 "socio."
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation.py:0
 #, python-format
 msgid "There is already a similar relation with overlapping dates"
@@ -534,6 +554,7 @@ msgid "Underlying Relation Type"
 msgstr "Tipo de relación subxacente"
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner.py:0
 #, python-format
 msgid "Unsupported search operator \"%s\""
@@ -571,16 +592,24 @@ msgstr ""
 "Especifique como debe xestionarse esta situación."
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 #, python-format
 msgid "other"
 msgstr "otr@"
 
 #. module: partner_multi_relation
+#. odoo-python
 #: code:addons/partner_multi_relation/models/res_partner_relation_all.py:0
 #, python-format
 msgid "this"
 msgstr "est@"
+
+#~ msgid "Include past records"
+#~ msgstr "Incluír rexistros anteriores"
+
+#~ msgid "Records with date_end in the past are inactive"
+#~ msgstr "Rexistros con fin de data no pasado están inactivos"
 
 #~ msgid "Partner Relations"
 #~ msgstr "Relacións entre empresas"

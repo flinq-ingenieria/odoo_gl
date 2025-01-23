@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 20:36\n"
-"PO-Revision-Date: 2024-11-07 20:36\n"
+"POT-Creation-Date: 2025-01-22 13:04\n"
+"PO-Revision-Date: 2025-01-22 13:04\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -24,9 +24,10 @@ msgstr "Pedido de compra"
 
 #. module: purchase_order_uninvoiced_amount
 #: model_terms:ir.ui.view,arch_db:purchase_order_uninvoiced_amount.purchase_order_tree
+#: model_terms:ir.ui.view,arch_db:purchase_order_uninvoiced_amount.purchase_order_tree_kpis
 #: model_terms:ir.ui.view,arch_db:purchase_order_uninvoiced_amount.purchase_order_view_tree
 msgid "Total Uninvoiced amount"
-msgstr "Total Importe non facturado"
+msgstr "Total pendente facturar"
 
 #. module: purchase_order_uninvoiced_amount
 #: model:ir.model.fields,field_description:purchase_order_uninvoiced_amount.field_purchase_order__amount_uninvoiced

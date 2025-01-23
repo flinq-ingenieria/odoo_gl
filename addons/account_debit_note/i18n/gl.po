@@ -3,15 +3,17 @@
 # 	* account_debit_note
 #
 # Translators:
-# Martin Trigaux, 2021
+# Martin Trigaux, 2022
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2022
 # Wil Odoo, 2024
+# Larissa Manderfeld, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 23:02\n"
-"PO-Revision-Date: 2024-11-07 23:02\n"
+"POT-Creation-Date: 2025-01-21 22:18\n"
+"PO-Revision-Date: 2025-01-21 22:18\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -24,17 +26,17 @@ msgstr ""
 #. module: account_debit_note
 #: model_terms:ir.ui.view,arch_db:account_debit_note.view_move_form_debit
 msgid "<span class=\"o_stat_text\">Debit Notes</span>"
-msgstr "<span class=\"o_stat_text\">Nota Débito</span>"
+msgstr "<span class=\"o_stat_text\">Notas de débito</span>"
 
 #. module: account_debit_note
 #: model_terms:ir.ui.view,arch_db:account_debit_note.view_move_form_debit
 msgid "Add Debit Note"
-msgstr "Agregar nota débito"
+msgstr "Engadir nota débito"
 
 #. module: account_debit_note
 #: model:ir.model,name:account_debit_note.model_account_debit_note
 msgid "Add Debit Note wizard"
-msgstr "Asistente para agregar nota débito"
+msgstr "Asistente para engadir nota de débito"
 
 #. module: account_debit_note
 #: model_terms:ir.ui.view,arch_db:account_debit_note.view_account_debit_note
@@ -44,7 +46,7 @@ msgstr "Cancelar"
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__copy_lines
 msgid "Copy Lines"
-msgstr "Copiar lineas"
+msgstr "Copiar liñas"
 
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__country_code
@@ -81,7 +83,7 @@ msgstr "Data de nota de débito"
 #: model:ir.model.fields,field_description:account_debit_note.field_account_payment__debit_note_ids
 #, python-format
 msgid "Debit Notes"
-msgstr "Notas débito"
+msgstr "Notas de débito"
 
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__display_name
@@ -91,7 +93,7 @@ msgstr "Nome mostrado"
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__id
 msgid "ID"
-msgstr "Identificación"
+msgstr "ID"
 
 #. module: account_debit_note
 #: model:ir.model.fields,help:account_debit_note.field_account_debit_note__journal_id
@@ -105,9 +107,8 @@ msgid ""
 "In case you need to do corrections for every line, it can be in handy to "
 "copy them.  We won't copy them for debit notes from credit notes. "
 msgstr ""
-"No caso de que necesites facer correccións para cada liña, podes facelo de "
-"forma sinxela ao copialas. Non as copiaremos para notas débito desde notas "
-"de crédito."
+"Pode ser útil copialas no caso de que faga correccións para cada liña. Non "
+"as copiaremos para as notas de débito desde as facturas rectificativas."
 
 #. module: account_debit_note
 #: model:ir.model,name:account_debit_note.model_account_move
@@ -137,19 +138,19 @@ msgstr "Última actualización o"
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__move_ids
 msgid "Move"
-msgstr "Movemento"
+msgstr "Asento"
 
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__move_type
 msgid "Move Type"
-msgstr "Tipo de movemento"
+msgstr "Tipo de asento"
 
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_bank_statement_line__debit_note_count
 #: model:ir.model.fields,field_description:account_debit_note.field_account_move__debit_note_count
 #: model:ir.model.fields,field_description:account_debit_note.field_account_payment__debit_note_count
 msgid "Number of Debit Notes"
-msgstr "Número de notas débito"
+msgstr "Número de notas de débito"
 
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_bank_statement_line__debit_origin_id
@@ -182,16 +183,16 @@ msgstr "Notas de débito creadas para esta factura"
 #. module: account_debit_note
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
 #, python-format
-msgid "This debit note was created from:"
-msgstr "Esta nota de débito creouse desde:"
+msgid "This debit note was created from: %s"
+msgstr "Esta nota de débito creouse desde: %s"
 
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__journal_id
 msgid "Use Specific Journal"
-msgstr "Utilizar diario específico"
+msgstr "Usar diario específico"
 
 #. module: account_debit_note
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
 #, python-format
 msgid "You can only debit posted moves."
-msgstr "Soamente podes debitar movementos publicados."
+msgstr "Só pode debitar asentos publicados."

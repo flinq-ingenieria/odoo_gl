@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 13:14\n"
-"PO-Revision-Date: 2024-11-08 13:14\n"
+"POT-Creation-Date: 2025-01-22 21:03\n"
+"PO-Revision-Date: 2025-01-22 21:03\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,19 +20,24 @@ msgstr ""
 #. module: delivery_procurement_group_carrier
 #: model:ir.model.fields,field_description:delivery_procurement_group_carrier.field_procurement_group__carrier_id
 msgid "Delivery Method"
-msgstr "Método de envío"
+msgstr "Método de Entrega"
 
 #. module: delivery_procurement_group_carrier
 #: model:ir.model,name:delivery_procurement_group_carrier.model_procurement_group
 msgid "Procurement Group"
-msgstr "Grupo de abastecemento"
+msgstr "Grupo de Adquisicións"
 
 #. module: delivery_procurement_group_carrier
 #: model:ir.model,name:delivery_procurement_group_carrier.model_sale_order
 msgid "Sales Order"
-msgstr "Pedido de venda"
+msgstr "Orde de Vendas"
 
 #. module: delivery_procurement_group_carrier
 #: model:ir.model,name:delivery_procurement_group_carrier.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Liña do pedido de venda"
+msgstr "Liña de Orde de Vendas"
+
+#. module: delivery_procurement_group_carrier
+#: model:ir.model,name:delivery_procurement_group_carrier.model_stock_move
+msgid "Stock Move"
+msgstr ""

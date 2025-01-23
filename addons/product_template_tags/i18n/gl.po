@@ -1,15 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * product_template_tags
+# 	* product_template_tags
 #
-# Translators:
-# Pedro M. Baeza <pedro.baeza@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 21:29\n"
-"PO-Revision-Date: 2024-11-07 21:29\n"
+"POT-Creation-Date: 2025-01-22 03:03\n"
+"PO-Revision-Date: 2025-01-22 03:03\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -17,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:29\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: product_template_tags
@@ -32,7 +31,7 @@ msgstr "Engadir etiquetas"
 #. module: product_template_tags
 #: model:ir.model.fields,field_description:product_template_tags.field_product_template_tag__child_ids
 msgid "Child"
-msgstr "Fillo"
+msgstr ""
 
 #. module: product_template_tags
 #: model:ir.model.fields,field_description:product_template_tags.field_product_template_tag__color
@@ -88,22 +87,22 @@ msgstr "Nome"
 #. module: product_template_tags
 #: model:ir.model.fields,field_description:product_template_tags.field_product_template_tag__parent_id
 msgid "Parent"
-msgstr "Parental"
+msgstr ""
 
 #. module: product_template_tags
 #: model:ir.model.fields,field_description:product_template_tags.field_product_template_tag__parent_path
 msgid "Parent Path"
-msgstr "Roteiro Parental"
+msgstr ""
+
+#. module: product_template_tags
+#: model:ir.model,name:product_template_tags.model_product_template
+msgid "Product"
+msgstr "Produto"
 
 #. module: product_template_tags
 #: model:ir.model,name:product_template_tags.model_product_template_tag
 msgid "Product Tag"
 msgstr "Etiqueta de produto"
-
-#. module: product_template_tags
-#: model:ir.model,name:product_template_tags.model_product_template
-msgid "Product Template"
-msgstr "Modelo de produto"
 
 #. module: product_template_tags
 #: model:ir.actions.act_window,name:product_template_tags.product_template_tag_act_window
@@ -133,10 +132,8 @@ msgid "Tags"
 msgstr "Etiquetas"
 
 #. module: product_template_tags
+#. odoo-python
 #: code:addons/product_template_tags/models/product_template_tag.py:0
 #, python-format
-msgid "Tags cannot be recursive."
-msgstr "As etiquetas non poden ser recursivas."
-
-#~ msgid "Product Tags"
-#~ msgstr "Etiquetas de produto"
+msgid "Tags can't be recursive."
+msgstr ""

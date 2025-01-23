@@ -7,10 +7,10 @@
 # enjolras <yo@miguelrevilla.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 14:31\n"
-"PO-Revision-Date: 2024-11-08 14:31\n"
+"POT-Creation-Date: 2025-01-22 23:17\n"
+"PO-Revision-Date: 2025-01-22 23:17\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -21,6 +21,7 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: mass_mailing_partner
+#. odoo-python
 #: code:addons/mass_mailing_partner/models/mailing_contact_subscription.py:0
 #: code:addons/mass_mailing_partner/models/mailing_list.py:0
 #, python-format
@@ -91,7 +92,7 @@ msgstr "Última actualización o"
 #. module: mass_mailing_partner
 #: model:ir.model,name:mass_mailing_partner.model_mailing_contact
 msgid "Mailing Contact"
-msgstr "Contacto por Correo"
+msgstr "Contacto por correo"
 
 #. module: mass_mailing_partner
 #: model:ir.model,name:mass_mailing_partner.model_mailing_list
@@ -103,7 +104,7 @@ msgstr "Lista de correo"
 #. module: mass_mailing_partner
 #: model:ir.model,name:mass_mailing_partner.model_mailing_trace
 msgid "Mailing Statistics"
-msgstr "Estatísticas de Correo"
+msgstr "Estatísticas de correo"
 
 #. module: mass_mailing_partner
 #: model:ir.model.fields,field_description:mass_mailing_partner.field_res_partner__mass_mailing_contact_ids
@@ -116,7 +117,7 @@ msgstr "Contactos de correo"
 #: model:ir.model.fields,field_description:mass_mailing_partner.field_res_partner__mass_mailing_contacts_count
 #: model:ir.model.fields,field_description:mass_mailing_partner.field_res_users__mass_mailing_contacts_count
 msgid "Mailing contacts number"
-msgstr "Número de estatísticas de envío masivo"
+msgstr "Número de contactos postais"
 
 #. module: mass_mailing_partner
 #: model:ir.model.fields,field_description:mass_mailing_partner.field_mailing_list__partner_mandatory
@@ -156,6 +157,7 @@ msgid "Partner"
 msgstr "Asociado"
 
 #. module: mass_mailing_partner
+#. odoo-python
 #: code:addons/mass_mailing_partner/wizard/partner_mail_list_wizard.py:0
 #, python-format
 msgid "Partner '%s' has no email."
@@ -167,12 +169,19 @@ msgid "Partner Tag"
 msgstr "Etiqueta do asociado"
 
 #. module: mass_mailing_partner
+#. odoo-python
 #: code:addons/mass_mailing_partner/models/mailing_contact.py:0
 #, python-format
 msgid "Partner already exists in one of these mailing lists"
 msgstr "O asociado xa existe nesta lista de correo"
 
 #. module: mass_mailing_partner
+#: model:ir.model.fields,field_description:mass_mailing_partner.field_mailing_contact__tag_ids
+msgid "Tags"
+msgstr "Etiquetas"
+
+#. module: mass_mailing_partner
+#. odoo-python
 #: code:addons/mass_mailing_partner/models/res_partner.py:0
 #, python-format
 msgid ""

@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-09 00:00\n"
-"PO-Revision-Date: 2024-11-09 00:00\n"
+"POT-Creation-Date: 2025-01-22 03:22\n"
+"PO-Revision-Date: 2025-01-22 03:22\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:29\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: account_fiscal_position_type
@@ -26,7 +27,7 @@ msgstr "Modelo de Plan Contable"
 #: model:ir.model.fields.selection,name:account_fiscal_position_type.selection__account_fiscal_position__type_position_use__all
 #: model:ir.model.fields.selection,name:account_fiscal_position_type.selection__account_fiscal_position_template__type_position_use__all
 msgid "All"
-msgstr "Todos/as"
+msgstr "Todas"
 
 #. module: account_fiscal_position_type
 #: model:ir.model,name:account_fiscal_position_type.model_account_fiscal_position
@@ -34,7 +35,7 @@ msgstr "Todos/as"
 #: model:ir.model.fields,field_description:account_fiscal_position_type.field_account_move__fiscal_position_id
 #: model:ir.model.fields,field_description:account_fiscal_position_type.field_account_payment__fiscal_position_id
 msgid "Fiscal Position"
-msgstr "Posición fiscal"
+msgstr "Posición Fiscal"
 
 #. module: account_fiscal_position_type
 #: model:ir.model.fields,help:account_fiscal_position_type.field_account_bank_statement_line__fiscal_position_id
@@ -45,41 +46,41 @@ msgid ""
 "customers or sales orders/invoices. The default value comes from the "
 "customer."
 msgstr ""
-"As posicións fiscais utilízanse para adaptar os impostos e as contas a "
-"determinados clientes ou ordes de venda/facturas. O valor por defecto "
-"procede do cliente."
+"As posicións fiscais utilízanse para adaptar impostos e contas para clientes"
+" particulares ou pedidos de venda/facturas. O valor predeterminado provén do"
+" cliente."
 
 #. module: account_fiscal_position_type
 #: model:ir.model,name:account_fiscal_position_type.model_account_move
 msgid "Journal Entry"
-msgstr "Entrada diaria"
+msgstr "Asento Contable"
 
 #. module: account_fiscal_position_type
 #: model:ir.model.fields,field_description:account_fiscal_position_type.field_account_fiscal_position__type_position_use
 #: model:ir.model.fields,field_description:account_fiscal_position_type.field_account_fiscal_position_template__type_position_use
 msgid "Position Application"
-msgstr "Solicitude de posición"
+msgstr "Aplícase en"
 
 #. module: account_fiscal_position_type
 #: model:ir.model.fields.selection,name:account_fiscal_position_type.selection__account_fiscal_position__type_position_use__purchase
 #: model:ir.model.fields.selection,name:account_fiscal_position_type.selection__account_fiscal_position_template__type_position_use__purchase
 msgid "Purchase"
-msgstr "Compra"
+msgstr "Compras"
 
 #. module: account_fiscal_position_type
 #: model:ir.model.fields.selection,name:account_fiscal_position_type.selection__account_fiscal_position__type_position_use__sale
 #: model:ir.model.fields.selection,name:account_fiscal_position_type.selection__account_fiscal_position_template__type_position_use__sale
 msgid "Sale"
-msgstr "Venda"
+msgstr "Vendas"
 
 #. module: account_fiscal_position_type
 #: model:ir.model.fields,field_description:account_fiscal_position_type.field_account_bank_statement_line__suitable_fiscal_position_ids
 #: model:ir.model.fields,field_description:account_fiscal_position_type.field_account_move__suitable_fiscal_position_ids
 #: model:ir.model.fields,field_description:account_fiscal_position_type.field_account_payment__suitable_fiscal_position_ids
 msgid "Suitable Fiscal Position"
-msgstr "Posición fiscal adecuada"
+msgstr "Posición Fiscal adecuada"
 
 #. module: account_fiscal_position_type
 #: model:ir.model,name:account_fiscal_position_type.model_account_fiscal_position_template
 msgid "Template for Fiscal Position"
-msgstr "Modelo para Posición Fiscal"
+msgstr "Modelo de Posición Fiscal"

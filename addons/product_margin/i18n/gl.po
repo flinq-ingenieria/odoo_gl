@@ -3,15 +3,16 @@
 # 	* product_margin
 #
 # Translators:
-# Martin Trigaux, 2021
+# Martin Trigaux, 2022
 # Larissa Manderfeld, 2024
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 11:06\n"
-"PO-Revision-Date: 2024-11-08 11:06\n"
+"POT-Creation-Date: 2025-01-22 14:02\n"
+"PO-Revision-Date: 2025-01-22 14:02\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -24,12 +25,12 @@ msgstr ""
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_product__purchase_num_invoiced
 msgid "# Invoiced in Purchase"
-msgstr "Nº facturado en compra"
+msgstr "# Facturado en compra"
 
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_product__sale_num_invoiced
 msgid "# Invoiced in Sale"
-msgstr "Nº facturado en venda"
+msgstr "# Facturado en venda"
 
 #. module: product_margin
 #: model_terms:ir.ui.view,arch_db:product_margin.view_product_margin_tree
@@ -44,27 +45,27 @@ msgstr "Criterios de análises"
 #. module: product_margin
 #: model:ir.model.fields,help:product_margin.field_product_product__sale_avg_price
 msgid "Avg. Price in Customer Invoices."
-msgstr "Prezo medio nas facturas de cliente"
+msgstr "Prezo medio nas facturas de clientes"
 
 #. module: product_margin
 #: model:ir.model.fields,help:product_margin.field_product_product__purchase_avg_price
-msgid "Avg. Price in Vendor Bills "
-msgstr "Avg . Prezo en facturas de provedores"
+msgid "Avg. Price in Vendor Bills"
+msgstr "Prezo medio en facturas de provedores"
 
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_product__purchase_avg_price
 msgid "Avg. Purchase Unit Price"
-msgstr "Prezo Unidade Media de Compra"
+msgstr "Prezo unitario medio de compra"
 
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_product__sale_avg_price
 msgid "Avg. Sale Unit Price"
-msgstr "Prezo Unidade Media de Venda"
+msgstr "Prezo unitario medio de venda"
 
 #. module: product_margin
 #: model_terms:ir.ui.view,arch_db:product_margin.view_product_margin_form
 msgid "Avg. Unit Price"
-msgstr "Prezo unidade media"
+msgstr "Prezo unitario medio"
 
 #. module: product_margin
 #: model_terms:ir.ui.view,arch_db:product_margin.product_margin_form_view
@@ -74,7 +75,7 @@ msgstr "Cancelar"
 #. module: product_margin
 #: model_terms:ir.ui.view,arch_db:product_margin.view_product_margin_form
 msgid "Catalog Price"
-msgstr "Prezo catálogo"
+msgstr "Prezo de catálogo"
 
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_margin__create_uid
@@ -135,7 +136,7 @@ msgstr "Desde"
 #. module: product_margin
 #: model_terms:ir.ui.view,arch_db:product_margin.product_margin_form_view
 msgid "General Information"
-msgstr "Información Xeral"
+msgstr "Información xeral"
 
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_margin__id
@@ -146,7 +147,7 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:product_margin.field_product_margin__invoice_state
 #: model:ir.model.fields,field_description:product_margin.field_product_product__invoice_state
 msgid "Invoice State"
-msgstr "Estado factura"
+msgstr "Estado da factura"
 
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_margin____last_update
@@ -206,14 +207,9 @@ msgid "Paid"
 msgstr "Pago"
 
 #. module: product_margin
-#: model:ir.model,name:product_margin.model_product_product
-msgid "Product"
-msgstr "Produto"
-
-#. module: product_margin
 #: model:ir.model,name:product_margin.model_product_margin
 msgid "Product Margin"
-msgstr "Marxe produto"
+msgstr "Marxe de produto"
 
 #. module: product_margin
 #: code:addons/product_margin/wizard/product_margin.py:0
@@ -227,14 +223,19 @@ msgid "Product Margins"
 msgstr "Marxes de produto"
 
 #. module: product_margin
+#: model:ir.model,name:product_margin.model_product_product
+msgid "Product Variant"
+msgstr "Variante de produto"
+
+#. module: product_margin
 #: model_terms:ir.ui.view,arch_db:product_margin.product_margin_form_view
 msgid "Properties categories"
-msgstr "Categorías propiedades"
+msgstr "Categorías das propiedades"
 
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_product__purchase_gap
 msgid "Purchase Gap"
-msgstr "Diferencia compra"
+msgstr "Diferenza de compra"
 
 #. module: product_margin
 #: model_terms:ir.ui.view,arch_db:product_margin.view_product_margin_form
@@ -250,7 +251,7 @@ msgstr "Vendas"
 #: model:ir.model.fields,field_description:product_margin.field_product_product__sales_gap
 #: model_terms:ir.ui.view,arch_db:product_margin.view_product_margin_tree
 msgid "Sales Gap"
-msgstr "Diferencia vendas"
+msgstr "Diferenza de vendas"
 
 #. module: product_margin
 #: model_terms:ir.ui.view,arch_db:product_margin.view_product_margin_form
@@ -261,7 +262,7 @@ msgstr "Prezo estándar"
 #: model:ir.model.fields,help:product_margin.field_product_product__normal_cost
 msgid "Sum of Multiplication of Cost price and quantity of Vendor Bills"
 msgstr ""
-"Suma de Multiplicación dos prezos de custo e cantidade de facturas de "
+"Suma da multiplicación dos prezos de custo e cantidade de facturas de "
 "provedores"
 
 #. module: product_margin
@@ -284,7 +285,9 @@ msgstr ""
 msgid ""
 "Sum of Multiplication of Sale Catalog price and quantity of Customer "
 "Invoices"
-msgstr "Suma da multiplicación do PVP e a cantidade das facturas de cliente."
+msgstr ""
+"Suma da multiplicación do prezo do catálogo de venda e a cantidade das "
+"facturas de cliente"
 
 #. module: product_margin
 #: model:ir.model.fields,help:product_margin.field_product_product__sale_num_invoiced
@@ -305,7 +308,7 @@ msgstr "Ata"
 #: model:ir.model.fields,field_description:product_margin.field_product_product__total_cost
 #: model_terms:ir.ui.view,arch_db:product_margin.view_product_margin_tree
 msgid "Total Cost"
-msgstr "Total custo"
+msgstr "Custo total"
 
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_product__total_margin

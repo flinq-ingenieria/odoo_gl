@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 14:01\n"
-"PO-Revision-Date: 2024-11-08 14:01\n"
+"POT-Creation-Date: 2025-01-22 06:51\n"
+"PO-Revision-Date: 2025-01-22 06:51\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -28,6 +28,7 @@ msgid "Additional information on return reason."
 msgstr "Información adicional do motivo da devolución."
 
 #. module: account_payment_return
+#. odoo-python
 #: code:addons/account_payment_return/models/payment_return.py:0
 #, python-format
 msgid "All payments must be owned by the same partner"
@@ -174,7 +175,7 @@ msgstr "Agrupar por"
 #. module: account_payment_return
 #: model:ir.model.fields,field_description:account_payment_return.field_payment_return__has_message
 msgid "Has Message"
-msgstr "Ten mensaxe"
+msgstr "Hai mensaxes"
 
 #. module: account_payment_return
 #: model:ir.model.fields,field_description:account_payment_return.field_payment_return__id
@@ -185,7 +186,6 @@ msgstr "ID (identificación)"
 
 #. module: account_payment_return
 #: model:ir.model.fields,help:account_payment_return.field_payment_return__message_needaction
-#: model:ir.model.fields,help:account_payment_return.field_payment_return__message_unread
 msgid "If checked, new messages require your attention."
 msgstr "Se está marcado hai novas mensaxes que requiren a súa atención."
 
@@ -201,13 +201,6 @@ msgid "Imported"
 msgstr "Importado"
 
 #. module: account_payment_return
-#. openerp-web
-#: code:addons/account_payment_return/static/src/xml/account_payment_return.xml:0
-#, python-format
-msgid "Info"
-msgstr "Info"
-
-#. module: account_payment_return
 #: model:ir.model.fields,help:account_payment_return.field_account_bank_statement_line__returned_payment
 #: model:ir.model.fields,help:account_payment_return.field_account_move__returned_payment
 #: model:ir.model.fields,help:account_payment_return.field_account_payment__returned_payment
@@ -215,6 +208,7 @@ msgid "Invoice has been included on a payment that has been returned later."
 msgstr "A factura foi incluída nun pago que foi devolto máis tarde."
 
 #. module: account_payment_return
+#. odoo-python
 #: code:addons/account_payment_return/models/payment_return.py:0
 #, python-format
 msgid "Invoice: %s"
@@ -298,12 +292,14 @@ msgid "Messages"
 msgstr "Mensaxes"
 
 #. module: account_payment_return
+#. odoo-python
 #: code:addons/account_payment_return/models/payment_return.py:0
 #, python-format
 msgid "Move lines: %s"
 msgstr "Apuntamentos: %s"
 
 #. module: account_payment_return
+#. odoo-python
 #: code:addons/account_payment_return/models/payment_return.py:0
 #, python-format
 msgid "Move: %s"
@@ -321,18 +317,13 @@ msgstr "Numero de erros"
 
 #. module: account_payment_return
 #: model:ir.model.fields,help:account_payment_return.field_payment_return__message_needaction_counter
-msgid "Number of messages which requires an action"
+msgid "Number of messages requiring action"
 msgstr "Número de mensaxes que requiren unha acción"
 
 #. module: account_payment_return
 #: model:ir.model.fields,help:account_payment_return.field_payment_return__message_has_error_counter
 msgid "Number of messages with delivery error"
 msgstr "Número de mensaxes con erro de envío"
-
-#. module: account_payment_return
-#: model:ir.model.fields,help:account_payment_return.field_payment_return__message_unread_counter
-msgid "Number of unread messages"
-msgstr "Número de mensaxes non leidos"
 
 #. module: account_payment_return
 #: model:ir.model.fields,help:account_payment_return.field_payment_return_line__date
@@ -360,13 +351,14 @@ msgid "Partner Name"
 msgstr "Nome do cliente"
 
 #. module: account_payment_return
-#. openerp-web
+#. odoo-javascript
 #: code:addons/account_payment_return/static/src/xml/account_payment_return.xml:0
 #, python-format
 msgid "Payment Info"
 msgstr "Información de pago"
 
 #. module: account_payment_return
+#. odoo-python
 #: code:addons/account_payment_return/models/payment_return.py:0
 #, python-format
 msgid ""
@@ -387,6 +379,7 @@ msgid "Payment Reference"
 msgstr "Referencia de cobranza"
 
 #. module: account_payment_return
+#. odoo-python
 #: code:addons/account_payment_return/models/payment_return.py:0
 #, python-format
 msgid ""
@@ -448,6 +441,7 @@ msgid "Reference to the created journal entry"
 msgstr "Referencia ao asento creado"
 
 #. module: account_payment_return
+#. odoo-python
 #: code:addons/account_payment_return/models/payment_return.py:0
 #, python-format
 msgid "Return %s"
@@ -480,9 +474,16 @@ msgid "Returned amount. Can be different from the move amount"
 msgstr "Importe devolto. Pode ser distinto ao importe pago"
 
 #. module: account_payment_return
+#. odoo-python
+#: code:addons/account_payment_return/models/account_move.py:0
+#, python-format
+msgid "Returned on"
+msgstr "Devolto o"
+
+#. module: account_payment_return
 #: model:ir.model.fields,field_description:account_payment_return.field_payment_return__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr "Erro na entrega do SMS"
+msgstr "Erro na entrega de SMS"
 
 #. module: account_payment_return
 #: model:ir.model.fields,field_description:account_payment_return.field_payment_return__state
@@ -512,16 +513,6 @@ msgid "Total charges amount"
 msgstr "Importe total da comisión"
 
 #. module: account_payment_return
-#: model:ir.model.fields,field_description:account_payment_return.field_payment_return__message_unread
-msgid "Unread Messages"
-msgstr "Mensaxes sen ler"
-
-#. module: account_payment_return
-#: model:ir.model.fields,field_description:account_payment_return.field_payment_return__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr "Contador de mensaxes sen ler"
-
-#. module: account_payment_return
 #: model:ir.model.fields,field_description:account_payment_return.field_payment_return__website_message_ids
 msgid "Website Messages"
 msgstr "Mensaxes do sitio web"
@@ -532,19 +523,31 @@ msgid "Website communication history"
 msgstr "Historial de comunicacións do sitio web"
 
 #. module: account_payment_return
+#. odoo-python
 #: code:addons/account_payment_return/models/payment_return.py:0
 #, python-format
 msgid "You can not remove a payment return if state is 'Done'"
 msgstr "Non pode borrar unha devolución de pagos en estado 'Realizado'"
 
 #. module: account_payment_return
+#. odoo-python
 #: code:addons/account_payment_return/models/payment_return.py:0
 #, python-format
 msgid "You must input all moves references in the payment return."
 msgstr "Debes informar todas as referencias de cobranza."
 
-#~ msgid "Automatic reconciliation failure"
-#~ msgstr "Erro de conciliación automática"
+#~ msgid "Number of messages which requires an action"
+#~ msgstr "Número de mensaxes que requiren unha acción"
 
-#~ msgid "The payment return could not be automatically reconciled."
-#~ msgstr "A devolución do pago non se puido conciliar automaticamente."
+#, python-format
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "Number of unread messages"
+#~ msgstr "Número de mensaxes non leidos"
+
+#~ msgid "Unread Messages"
+#~ msgstr "Mensaxes sen ler"
+
+#~ msgid "Unread Messages Counter"
+#~ msgstr "Contador de mensaxes sen ler"

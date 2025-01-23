@@ -1,0 +1,184 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* spreadsheet_dashboard_im_livechat
+#
+# Translators:
+# Martin Trigaux, 2022
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2022
+# oscaryuu, 2022
+# Wil Odoo, 2024
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-22 02:07\n"
+"PO-Revision-Date: 2025-01-22 02:07\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "Average Rating"
+msgstr "Cualificación media"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "Avg. Session Duration"
+msgstr "Duración media de sesións"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "Avg. Time to Answer"
+msgstr "Tempo media para responder"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "Avg. session duration"
+msgstr "Tempo media de sesións"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "Avg. time to answer"
+msgstr "Tempo media para responder"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "Current"
+msgstr "Actual"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "Daily Sessions"
+msgstr "Sesións diarios"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "KPI"
+msgstr "KPI"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "Livechat Support Statistics by Operator"
+msgstr "Estatísticas de soporte por chat en vivo por operador"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "Operator"
+msgstr "Operador"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "Period"
+msgstr "Período"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "Previous"
+msgstr "Anterior"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "Rating"
+msgstr "Cualificación"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "Sessions"
+msgstr "Sesións"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "Sessions by Operator"
+msgstr "Sesións por operador"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "Top Operators"
+msgstr "Operadores principais"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "last period"
+msgstr "último período"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "sessions count - current"
+msgstr "número de sesións - actual"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "sessions count - previous"
+msgstr "número de sesións - anterior"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "since last period"
+msgstr "desde o último período"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "stats 2 - current"
+msgstr "estatísticas 2 - actual"
+
+#. module: spreadsheet_dashboard_im_livechat
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_im_livechat/data/files/livechat_dashboard.json:0
+#, python-format
+msgid "stats 2 - previous"
+msgstr "estatísticas 2 - anterior"

@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 03:52\n"
-"PO-Revision-Date: 2024-11-08 03:52\n"
+"POT-Creation-Date: 2025-01-22 12:36\n"
+"PO-Revision-Date: 2025-01-22 12:36\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -46,4 +46,4 @@ msgstr ""
 #. module: report_qweb_decimal_place
 #: model:ir.model.fields,field_description:report_qweb_decimal_place.field_res_currency__price_decimal_places
 msgid "Price Decimal Places"
-msgstr "Prezo en decimais"
+msgstr "Decimais do Prezo"

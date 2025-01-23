@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 11:56\n"
-"PO-Revision-Date: 2024-11-08 11:56\n"
+"POT-Creation-Date: 2025-01-22 06:57\n"
+"PO-Revision-Date: 2025-01-22 06:57\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: dms_auto_classification
@@ -70,6 +71,11 @@ msgid "Created on"
 msgstr "Creado o"
 
 #. module: dms_auto_classification
+#: model:ir.model.fields,field_description:dms_auto_classification.field_wizard_dms_classification__data_filename
+msgid "Data Filename"
+msgstr ""
+
+#. module: dms_auto_classification
 #: model:ir.model.fields,field_description:dms_auto_classification.field_wizard_dms_classification__detail_ids
 #: model_terms:ir.ui.view,arch_db:dms_auto_classification.view_wizard_dms_classification_form
 msgid "Details"
@@ -104,10 +110,14 @@ msgstr "Borrador"
 
 #. module: dms_auto_classification
 #: model:ir.model.fields,field_description:dms_auto_classification.field_wizard_dms_classification__data_file
-#: model:ir.model.fields,field_description:dms_auto_classification.field_wizard_dms_classification_detail__data_file
 #: model:ir.model.fields,field_description:dms_auto_classification.field_wizard_dms_classification_detail__file_id
 msgid "File"
 msgstr "Arquivo"
+
+#. module: dms_auto_classification
+#: model:ir.model.fields,field_description:dms_auto_classification.field_wizard_dms_classification_detail__data_file
+msgid "File content"
+msgstr ""
 
 #. module: dms_auto_classification
 #: model:ir.model.fields,field_description:dms_auto_classification.field_wizard_dms_classification_detail__file_name
@@ -159,6 +169,7 @@ msgid "Name"
 msgstr "Nome"
 
 #. module: dms_auto_classification
+#. odoo-python
 #: code:addons/dms_auto_classification/wizards/wizard_dms_classification.py:0
 #, python-format
 msgid "Only .zip files are allowed"

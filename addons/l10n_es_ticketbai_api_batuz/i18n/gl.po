@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 13:26\n"
-"PO-Revision-Date: 2024-11-08 13:26\n"
+"POT-Creation-Date: 2025-01-22 03:01\n"
+"PO-Revision-Date: 2025-01-22 03:01\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -62,6 +62,7 @@ msgid "Company"
 msgstr "Compañía"
 
 #. module: l10n_es_ticketbai_api_batuz
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api_batuz/models/lroe_operation.py:0
 #, python-format
 msgid "Company %s VAT number should not be empty!"
@@ -144,15 +145,19 @@ msgid "File"
 msgstr "Ficheiro"
 
 #. module: l10n_es_ticketbai_api_batuz
-#: model:ir.model.fields,field_description:l10n_es_ticketbai_api_batuz.field_lroe_operation__trx_gzip_fsize
-#: model:ir.model.fields,field_description:l10n_es_ticketbai_api_batuz.field_lroe_operation__xml_file_size
-msgid "File Size"
-msgstr "Tamaño do ficheiro"
-
-#. module: l10n_es_ticketbai_api_batuz
 #: model_terms:ir.ui.view,arch_db:l10n_es_ticketbai_api_batuz.lroe_operation_form_view
 msgid "GZIP File"
 msgstr "Arquivo GZIP"
+
+#. module: l10n_es_ticketbai_api_batuz
+#: model:ir.model.fields,field_description:l10n_es_ticketbai_api_batuz.field_lroe_operation__trx_gzip_fname
+msgid "GZIP File Name"
+msgstr "Nome do arquivo GZIP"
+
+#. module: l10n_es_ticketbai_api_batuz
+#: model:ir.model.fields,field_description:l10n_es_ticketbai_api_batuz.field_lroe_operation__trx_gzip_fsize
+msgid "GZIP File Size"
+msgstr "Tamaño do arquivo GZIP"
 
 #. module: l10n_es_ticketbai_api_batuz
 #: model_terms:ir.ui.view,arch_db:l10n_es_ticketbai_api_batuz.lroe_chapter_search_view
@@ -175,6 +180,7 @@ msgid "Incorrect"
 msgstr "Incorrecto"
 
 #. module: l10n_es_ticketbai_api_batuz
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api_batuz/models/lroe_operation_response.py:0
 #, python-format
 msgid "Internal API or Operation error"
@@ -228,6 +234,7 @@ msgid "LROE Operation Response Line"
 msgstr "Liña de resposta de operación LROE"
 
 #. module: l10n_es_ticketbai_api_batuz
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api_batuz/models/lroe_operation_response.py:0
 #, python-format
 msgid "LROE Operation required!"
@@ -262,42 +269,49 @@ msgid "LROE source Operation"
 msgstr "Orígen de operación LROE"
 
 #. module: l10n_es_ticketbai_api_batuz
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api_batuz/models/lroe_operation_response.py:0
 #, python-format
 msgid "LROEOperationResponseLineState not VALID !"
 msgstr "Estado de liña de resoyesta de operación LROE non VALIDO!"
 
 #. module: l10n_es_ticketbai_api_batuz
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api_batuz/models/lroe_operation.py:0
 #, python-format
 msgid "LROE_model_pf_140_cancel"
 msgstr "LROE_model_pf_140_cancelar"
 
 #. module: l10n_es_ticketbai_api_batuz
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api_batuz/models/lroe_operation.py:0
 #, python-format
 msgid "LROE_model_pf_140_create"
 msgstr "LROE_model_pf_140_crear"
 
 #. module: l10n_es_ticketbai_api_batuz
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api_batuz/models/lroe_operation.py:0
 #, python-format
 msgid "LROE_model_pf_140_update"
 msgstr "LROE_model_pf_140_actualizar"
 
 #. module: l10n_es_ticketbai_api_batuz
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api_batuz/models/lroe_operation.py:0
 #, python-format
 msgid "LROE_model_pj_240_cancel"
 msgstr "LROE_model_pj_240_cancelar"
 
 #. module: l10n_es_ticketbai_api_batuz
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api_batuz/models/lroe_operation.py:0
 #, python-format
 msgid "LROE_model_pj_240_create"
 msgstr "LROE_model_pj_240_crear"
 
 #. module: l10n_es_ticketbai_api_batuz
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api_batuz/models/lroe_operation.py:0
 #, python-format
 msgid "LROE_model_pj_240_update"
@@ -476,7 +490,7 @@ msgstr "TicketBAI-Batuz Operación LROE"
 #. module: l10n_es_ticketbai_api_batuz
 #: model:ir.model.fields,field_description:l10n_es_ticketbai_api_batuz.field_lroe_operation__trx_gzip_file
 msgid "Trx Gzip File"
-msgstr "Trx Gzip File"
+msgstr "Arquivo TRX Gzip"
 
 #. module: l10n_es_ticketbai_api_batuz
 #: model:ir.model.fields,field_description:l10n_es_ticketbai_api_batuz.field_lroe_operation__type
@@ -494,11 +508,15 @@ msgid "XML File"
 msgstr "Ficheiro XML"
 
 #. module: l10n_es_ticketbai_api_batuz
-#: model:ir.model.fields,field_description:l10n_es_ticketbai_api_batuz.field_lroe_operation__trx_gzip_fname
 #: model:ir.model.fields,field_description:l10n_es_ticketbai_api_batuz.field_lroe_operation__xml_datas_fname
 #: model:ir.model.fields,field_description:l10n_es_ticketbai_api_batuz.field_lroe_operation_response__xml_fname
 msgid "XML File Name"
 msgstr "Nome de ficheiro XML"
+
+#. module: l10n_es_ticketbai_api_batuz
+#: model:ir.model.fields,field_description:l10n_es_ticketbai_api_batuz.field_lroe_operation__xml_file_size
+msgid "XML File Size"
+msgstr "Tamaño do arquivo XML"
 
 #. module: l10n_es_ticketbai_api_batuz
 #: model:ir.model.fields,field_description:l10n_es_ticketbai_api_batuz.field_lroe_operation_response__xml
@@ -509,3 +527,6 @@ msgstr "Resposta XML"
 #: model:ir.model.fields,field_description:l10n_es_ticketbai_api_batuz.field_lroe_operation__xml_datas
 msgid "Xml Datas"
 msgstr "Datos XML"
+
+#~ msgid "File Size"
+#~ msgstr "Tamaño do ficheiro"

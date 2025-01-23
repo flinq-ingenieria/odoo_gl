@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 20:40\n"
-"PO-Revision-Date: 2024-11-07 20:40\n"
+"POT-Creation-Date: 2025-01-22 08:42\n"
+"PO-Revision-Date: 2025-01-22 08:42\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -18,15 +18,23 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: web_group_expand
-#. openerp-web
-#: code:addons/web_group_expand/static/src/xml/expand_buttons.xml:0
+#. odoo-javascript
+#: code:addons/web_group_expand/static/src/xml/list_controller.xml:0
 #, python-format
-msgid "Collapse groups"
-msgstr "Colapsar grupos"
+msgid "Compress"
+msgstr "Comprimir"
 
 #. module: web_group_expand
-#. openerp-web
-#: code:addons/web_group_expand/static/src/xml/expand_buttons.xml:0
+#. odoo-javascript
+#: code:addons/web_group_expand/static/src/xml/list_controller.xml:0
 #, python-format
-msgid "Expand groups"
-msgstr "Expandir grupos"
+msgid "Expand"
+msgstr "Ampliar"
+
+#, python-format
+#~ msgid "Collapse groups"
+#~ msgstr "Colapsar grupos"
+
+#, python-format
+#~ msgid "Expand groups"
+#~ msgstr "Expandir grupos"

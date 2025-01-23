@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 11:55\n"
-"PO-Revision-Date: 2024-11-08 11:55\n"
+"POT-Creation-Date: 2025-01-22 22:57\n"
+"PO-Revision-Date: 2025-01-22 22:57\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -32,37 +32,55 @@ msgstr "Auto-validar dominio"
 #: model:ir.cron,cron_name:base_tier_validation_server_action.ir_cron_auto_tier_validation
 #: model:ir.cron,name:base_tier_validation_server_action.ir_cron_auto_tier_validation
 msgid "Automatic Tier Validation"
-msgstr ""
+msgstr "Validación Automática de Niveis"
+
+#. module: base_tier_validation_server_action
+#: model:ir.model.fields,field_description:base_tier_validation_server_action.field_tier_definition__display_name
+#: model:ir.model.fields,field_description:base_tier_validation_server_action.field_tier_review__display_name
+msgid "Display Name"
+msgstr "Nome mostrado"
+
+#. module: base_tier_validation_server_action
+#: model:ir.model.fields,field_description:base_tier_validation_server_action.field_tier_definition__id
+#: model:ir.model.fields,field_description:base_tier_validation_server_action.field_tier_review__id
+msgid "ID"
+msgstr "ID"
+
+#. module: base_tier_validation_server_action
+#: model:ir.model.fields,field_description:base_tier_validation_server_action.field_tier_definition____last_update
+#: model:ir.model.fields,field_description:base_tier_validation_server_action.field_tier_review____last_update
+msgid "Last Modified on"
+msgstr "Última modificación o"
 
 #. module: base_tier_validation_server_action
 #: model:ir.model.fields,field_description:base_tier_validation_server_action.field_tier_definition__server_action_id
 msgid "Post Approve Action"
-msgstr ""
+msgstr "Post Aprobar Acción"
 
 #. module: base_tier_validation_server_action
 #: model:ir.model.fields,field_description:base_tier_validation_server_action.field_tier_definition__rejected_server_action_id
 msgid "Post Reject Action"
-msgstr ""
+msgstr "Acción Post Rexeitamento"
 
 #. module: base_tier_validation_server_action
 #: model:ir.model.fields,help:base_tier_validation_server_action.field_tier_definition__server_action_id
 msgid "Server action triggered as soon as this step is approved"
-msgstr ""
+msgstr "A acción do servidor actívase en canto apróbase este paso"
 
 #. module: base_tier_validation_server_action
 #: model:ir.model.fields,help:base_tier_validation_server_action.field_tier_definition__rejected_server_action_id
 msgid "Server action triggered as soon as this step is rejected"
-msgstr ""
+msgstr "Acción do servidor activada en canto rexéitase este paso"
 
 #. module: base_tier_validation_server_action
 #: model:ir.model,name:base_tier_validation_server_action.model_tier_definition
 msgid "Tier Definition"
-msgstr ""
+msgstr "Definición do Nivel"
 
 #. module: base_tier_validation_server_action
 #: model:ir.model,name:base_tier_validation_server_action.model_tier_review
 msgid "Tier Review"
-msgstr ""
+msgstr "Revisión do Nivel"
 
 #. module: base_tier_validation_server_action
 #: model:ir.model.fields,help:base_tier_validation_server_action.field_tier_definition__auto_validate
@@ -72,17 +90,12 @@ msgid ""
 "- If 1 user matched as reviewer, use the user to validate\n"
 "- If > 1 user matched as reviewer, do not auto validate"
 msgstr ""
+"Utiliza o traballo programado para validar automaticamente se se cumpre a condición.\n"
+"- Se non se especifica ningún usuario, utilizar o usuario do sistema do traballo para validar.\n"
+"- Se 1 usuario coincide como revisor, utilizar o usuario para validar\n"
+"- Se > 1 usuario coincide como revisor, non validar automaticamente"
 
 #. module: base_tier_validation_server_action
 #: model_terms:ir.ui.view,arch_db:base_tier_validation_server_action.tier_definition_view_form
 msgid "if pass condition"
-msgstr ""
-
-#~ msgid "Display Name"
-#~ msgstr "Nome mostrado"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "Last Modified on"
-#~ msgstr "Última modificación o"
+msgstr "se pasa a condición"

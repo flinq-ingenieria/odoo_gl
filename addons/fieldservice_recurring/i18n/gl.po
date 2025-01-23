@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 03:26\n"
-"PO-Revision-Date: 2024-11-08 03:26\n"
+"POT-Creation-Date: 2025-01-22 09:07\n"
+"PO-Revision-Date: 2025-01-22 09:07\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,9 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: fieldservice_recurring
+#. odoo-python
 #: code:addons/fieldservice_recurring/models/fsm_frequency.py:0
 #, python-format
 msgid "'Day of Month must be between 1 and 31"
@@ -261,7 +263,6 @@ msgstr "Equipo de Servizo de Campo"
 #. module: fieldservice_recurring
 #: model:ir.actions.server,name:fieldservice_recurring.recurring_orders_cron_ir_actions_server
 #: model:ir.cron,cron_name:fieldservice_recurring.recurring_orders_cron
-#: model:ir.cron,name:fieldservice_recurring.recurring_orders_cron
 msgid "Field Service: generate recurring orders"
 msgstr "Servizo de campo: xerar pedidos recorrentes"
 
@@ -372,13 +373,9 @@ msgstr "Icona para indicar unha actividade de excepción."
 
 #. module: fieldservice_recurring
 #: model:ir.model.fields,help:fieldservice_recurring.field_fsm_frequency__message_needaction
-#: model:ir.model.fields,help:fieldservice_recurring.field_fsm_frequency__message_unread
 #: model:ir.model.fields,help:fieldservice_recurring.field_fsm_frequency_set__message_needaction
-#: model:ir.model.fields,help:fieldservice_recurring.field_fsm_frequency_set__message_unread
 #: model:ir.model.fields,help:fieldservice_recurring.field_fsm_recurring__message_needaction
-#: model:ir.model.fields,help:fieldservice_recurring.field_fsm_recurring__message_unread
 #: model:ir.model.fields,help:fieldservice_recurring.field_fsm_recurring_template__message_needaction
-#: model:ir.model.fields,help:fieldservice_recurring.field_fsm_recurring_template__message_unread
 msgid "If checked, new messages require your attention."
 msgstr "Se está marcado, as novas mensaxes requiren a súa atención."
 
@@ -534,6 +531,7 @@ msgid "Name"
 msgstr "Nome"
 
 #. module: fieldservice_recurring
+#. odoo-python
 #: code:addons/fieldservice_recurring/models/fsm_recurring.py:0
 #, python-format
 msgid "New"
@@ -585,7 +583,7 @@ msgstr "Número de erros"
 #: model:ir.model.fields,help:fieldservice_recurring.field_fsm_frequency_set__message_needaction_counter
 #: model:ir.model.fields,help:fieldservice_recurring.field_fsm_recurring__message_needaction_counter
 #: model:ir.model.fields,help:fieldservice_recurring.field_fsm_recurring_template__message_needaction_counter
-msgid "Number of messages which requires an action"
+msgid "Number of messages requiring action"
 msgstr "Número de mensaxes que requiren unha acción"
 
 #. module: fieldservice_recurring
@@ -595,14 +593,6 @@ msgstr "Número de mensaxes que requiren unha acción"
 #: model:ir.model.fields,help:fieldservice_recurring.field_fsm_recurring_template__message_has_error_counter
 msgid "Number of messages with delivery error"
 msgstr "Número de mensaxes con erro de entrega"
-
-#. module: fieldservice_recurring
-#: model:ir.model.fields,help:fieldservice_recurring.field_fsm_frequency__message_unread_counter
-#: model:ir.model.fields,help:fieldservice_recurring.field_fsm_frequency_set__message_unread_counter
-#: model:ir.model.fields,help:fieldservice_recurring.field_fsm_recurring__message_unread_counter
-#: model:ir.model.fields,help:fieldservice_recurring.field_fsm_recurring_template__message_unread_counter
-msgid "Number of unread messages"
-msgstr "Número de mensaxes non lidas"
 
 #. module: fieldservice_recurring
 #: model:ir.model.fields,field_description:fieldservice_recurring.field_fsm_frequency__oct
@@ -628,6 +618,7 @@ msgid "Orders Count"
 msgstr "Conta Ordenes"
 
 #. module: fieldservice_recurring
+#. odoo-python
 #: code:addons/fieldservice_recurring/models/fsm_frequency.py:0
 #, python-format
 msgid "Position must be between -366 and 366"
@@ -672,7 +663,7 @@ msgstr "Modelos Recorrentes"
 #. module: fieldservice_recurring
 #: model:ir.model.fields,field_description:fieldservice_recurring.field_fsm_team__recurring_draft_count
 msgid "Recurring in draft"
-msgstr "Recorrente en borrador"
+msgstr "Recorrente en Borrador"
 
 #. module: fieldservice_recurring
 #: model:ir.model.fields,help:fieldservice_recurring.field_fsm_recurring__end_date
@@ -839,22 +830,6 @@ msgid "Type of the exception activity on record."
 msgstr "Tipo de actividade de excepción rexistrada."
 
 #. module: fieldservice_recurring
-#: model:ir.model.fields,field_description:fieldservice_recurring.field_fsm_frequency__message_unread
-#: model:ir.model.fields,field_description:fieldservice_recurring.field_fsm_frequency_set__message_unread
-#: model:ir.model.fields,field_description:fieldservice_recurring.field_fsm_recurring__message_unread
-#: model:ir.model.fields,field_description:fieldservice_recurring.field_fsm_recurring_template__message_unread
-msgid "Unread Messages"
-msgstr "Mensaxes sen Ler"
-
-#. module: fieldservice_recurring
-#: model:ir.model.fields,field_description:fieldservice_recurring.field_fsm_frequency__message_unread_counter
-#: model:ir.model.fields,field_description:fieldservice_recurring.field_fsm_frequency_set__message_unread_counter
-#: model:ir.model.fields,field_description:fieldservice_recurring.field_fsm_recurring__message_unread_counter
-#: model:ir.model.fields,field_description:fieldservice_recurring.field_fsm_recurring_template__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr "Contador de Mensaxes sen Ler"
-
-#. module: fieldservice_recurring
 #: model:ir.model.fields,field_description:fieldservice_recurring.field_fsm_frequency__use_bymonthday
 msgid "Use Day of Month"
 msgstr "Usar Día do Mes"
@@ -940,6 +915,18 @@ msgstr "Anualmente"
 
 #~ msgid "SMS Delivery error"
 #~ msgstr "Erro de entrega do SMS"
+
+#~ msgid "Number of messages which requires an action"
+#~ msgstr "Número de mensaxes que requiren unha acción"
+
+#~ msgid "Number of unread messages"
+#~ msgstr "Número de mensaxes non lidas"
+
+#~ msgid "Unread Messages"
+#~ msgstr "Mensaxes sen Ler"
+
+#~ msgid "Unread Messages Counter"
+#~ msgstr "Contador de Mensaxes sen Ler"
 
 #~ msgid "Followers (Channels)"
 #~ msgstr "Seguidores (Canles)"

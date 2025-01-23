@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 00:32\n"
-"PO-Revision-Date: 2024-11-08 00:32\n"
+"POT-Creation-Date: 2025-01-21 16:06\n"
+"PO-Revision-Date: 2025-01-21 16:06\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -65,6 +65,11 @@ msgid "Claim type"
 msgstr "Tipo de reclamación"
 
 #. module: crm_claim_type
+#: model_terms:ir.ui.view,arch_db:crm_claim_type.crm_claim_type_tree
+msgid "Claim types"
+msgstr "Tipos de reclamacións"
+
+#. module: crm_claim_type
 #: model:ir.model.fields,field_description:crm_claim_type.field_crm_claim_stage__claim_common
 msgid "Common to All Claim Types"
 msgstr "Común para todos os tipos de reclamación"
@@ -116,7 +121,7 @@ msgid ""
 "claim type."
 msgstr ""
 "Se marca esta casa, propoñerase esta etapa por defecto en cada tipo de "
-"reclamación."
+"reclamación"
 
 #. module: crm_claim_type
 #: model:ir.model.fields,field_description:crm_claim_type.field_crm_claim_type____last_update
@@ -157,6 +162,3 @@ msgstr "Etapa"
 #: model:crm.claim.type,name:crm_claim_type.crm_claim_type_supplier
 msgid "Supplier"
 msgstr "Provedor"
-
-#~ msgid "Claim types"
-#~ msgstr "Tipos de reclamacións"

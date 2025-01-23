@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 20:38\n"
-"PO-Revision-Date: 2024-11-07 20:38\n"
+"POT-Creation-Date: 2025-01-22 00:51\n"
+"PO-Revision-Date: 2025-01-22 00:51\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -23,12 +23,14 @@ msgid "Cancel"
 msgstr "Cancelar"
 
 #. module: stock_split_picking
+#. odoo-python
 #: code:addons/stock_split_picking/models/stock_picking.py:0
 #, python-format
 msgid "Cannot split off all moves from picking %s"
-msgstr "Non se poden separar todos os movementos do albará %s"
+msgstr "Non poden dividir todos os movementos do albará %s"
 
 #. module: stock_split_picking
+#. odoo-python
 #: code:addons/stock_split_picking/models/stock_picking.py:0
 #, python-format
 msgid "Cannot split picking {name} in state {state}"
@@ -72,7 +74,7 @@ msgstr "Última Modificación o"
 #. module: stock_split_picking
 #: model:ir.model.fields,field_description:stock_split_picking.field_stock_split_picking__write_uid
 msgid "Last Updated by"
-msgstr "Última Actualización por"
+msgstr "Última actualización Por"
 
 #. module: stock_split_picking
 #: model:ir.model.fields,field_description:stock_split_picking.field_stock_split_picking__write_date
@@ -80,6 +82,7 @@ msgid "Last Updated on"
 msgstr "Última Actualización o"
 
 #. module: stock_split_picking
+#. odoo-python
 #: code:addons/stock_split_picking/models/stock_picking.py:0
 #, python-format
 msgid "Mark as todo this picking please."
@@ -93,7 +96,7 @@ msgstr "Modo"
 #. module: stock_split_picking
 #: model:ir.model.fields,field_description:stock_split_picking.field_stock_split_picking__move_ids
 msgid "Move"
-msgstr "Mover"
+msgstr "Movemento"
 
 #. module: stock_split_picking
 #: model:ir.model.fields.selection,name:stock_split_picking.selection__stock_split_picking__mode__move
@@ -103,12 +106,12 @@ msgstr "Un albará por movemento"
 #. module: stock_split_picking
 #: model:ir.model.fields,field_description:stock_split_picking.field_stock_split_picking__picking_ids
 msgid "Picking"
-msgstr "Albará"
+msgstr "Recollida"
 
 #. module: stock_split_picking
 #: model:ir.model.fields.selection,name:stock_split_picking.selection__stock_split_picking__mode__selection
 msgid "Select move lines to split off"
-msgstr "Seleccione as liñas de movementos a dividir"
+msgstr "Seleccione as liñas de movementos para dividir"
 
 #. module: stock_split_picking
 #: model_terms:ir.ui.view,arch_db:stock_split_picking.view_picking_form
@@ -127,14 +130,11 @@ msgid "Split pickings"
 msgstr "Dividir albarás"
 
 #. module: stock_split_picking
+#. odoo-python
 #: code:addons/stock_split_picking/models/stock_picking.py:0
 #, python-format
-msgid ""
-"The backorder <a href=\"#\" data-oe-model=\"stock.picking\" data-oe-"
-"id=\"%(id)d\">%(name)s</a> has been created."
-msgstr ""
-"Creouse o pedido pendente <a href=\"#\" data-oe-model=\"stock.picking\" "
-"data-oe-id=\"%(id)d\">%(name)s</a>."
+msgid "The backorder %s has been created."
+msgstr "Creouse o pedido pendente %s."
 
 #. module: stock_split_picking
 #: model:ir.model,name:stock_split_picking.model_stock_picking
@@ -147,6 +147,7 @@ msgid "Unit of Measure"
 msgstr "Unidade de Medida"
 
 #. module: stock_split_picking
+#. odoo-python
 #: code:addons/stock_split_picking/models/stock_picking.py:0
 #, python-format
 msgid ""

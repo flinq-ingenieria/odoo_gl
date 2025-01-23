@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 05:00\n"
-"PO-Revision-Date: 2024-11-08 05:00\n"
+"POT-Creation-Date: 2025-01-21 14:36\n"
+"PO-Revision-Date: 2025-01-21 14:36\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -18,10 +18,14 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: stock_picking_report_delivery_cost
-#: model_terms:ir.ui.view,arch_db:stock_picking_report_delivery_cost.report_delivery_document
 #: model_terms:ir.ui.view,arch_db:stock_picking_report_delivery_cost.report_picking
 msgid "<strong>Delivery cost:</strong>"
 msgstr "<strong>Custo de envío:</strong>"
+
+#. module: stock_picking_report_delivery_cost
+#: model_terms:ir.ui.view,arch_db:stock_picking_report_delivery_cost.report_delivery_document
+msgid "<strong>Delivery cost</strong>"
+msgstr ""
 
 #. module: stock_picking_report_delivery_cost
 #: model:ir.model.fields,field_description:stock_picking_report_delivery_cost.field_stock_picking__carrier_price_for_report

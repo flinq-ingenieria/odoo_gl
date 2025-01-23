@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 10:29\n"
-"PO-Revision-Date: 2024-11-08 10:29\n"
+"POT-Creation-Date: 2025-01-22 17:47\n"
+"PO-Revision-Date: 2025-01-22 17:47\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: product_attachment_zipped_download
@@ -24,12 +25,15 @@ msgid "Download attachments"
 msgstr "Descargar adxuntos"
 
 #. module: product_attachment_zipped_download
-#: model:ir.model,name:product_attachment_zipped_download.model_product_product
+#: model:ir.model,name:product_attachment_zipped_download.model_product_template
 #, fuzzy
 msgid "Product"
 msgstr "Produto"
 
 #. module: product_attachment_zipped_download
-#: model:ir.model,name:product_attachment_zipped_download.model_product_template
-msgid "Product Template"
-msgstr "Modelo de produto"
+#: model:ir.model,name:product_attachment_zipped_download.model_product_product
+msgid "Product Variant"
+msgstr ""
+
+#~ msgid "Product Template"
+#~ msgstr "Modelo de produto"

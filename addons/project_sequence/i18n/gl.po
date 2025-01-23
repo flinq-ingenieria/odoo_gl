@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 20:16\n"
-"PO-Revision-Date: 2024-11-07 20:16\n"
+"POT-Creation-Date: 2025-01-22 22:53\n"
+"PO-Revision-Date: 2025-01-22 22:53\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -26,6 +26,15 @@ msgstr "Configuración de Axustes"
 #: model:ir.model.fields,field_description:project_sequence.field_project_project__name
 msgid "Name"
 msgstr "Nome"
+
+#. module: project_sequence
+#: model:ir.model.fields,help:project_sequence.field_project_project__name
+msgid ""
+"Name of your project. It can be anything you want e.g. the name of a "
+"customer or a service."
+msgstr ""
+"Nome do seu proxecto. Pode ser calquera cousa, por exemplo, o nome dun "
+"cliente ou dun servizo."
 
 #. module: project_sequence
 #: model:ir.model,name:project_sequence.model_project_project
@@ -65,9 +74,6 @@ msgid ""
 msgstr ""
 "Utilice %(sequence_code)s e %(name)s para incluír o código de secuencia e o "
 "nome do proxecto no nome de visualización."
-
-#~ msgid "WBS element"
-#~ msgstr "Elemento WBS"
 
 #~ msgid "Display Name"
 #~ msgstr "Nome"

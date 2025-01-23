@@ -7,10 +7,10 @@
 # Fernando Lara <gennesis45@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 10:43\n"
-"PO-Revision-Date: 2024-11-08 10:43\n"
+"POT-Creation-Date: 2025-01-22 21:35\n"
+"PO-Revision-Date: 2025-01-22 21:35\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -47,6 +47,7 @@ msgid "Display Name"
 msgstr "Nome mostrado"
 
 #. module: report_wkhtmltopdf_param
+#. odoo-python
 #: code:addons/report_wkhtmltopdf_param/models/report_paperformat.py:0
 #, python-format
 msgid "Failed to create a PDF using the provided parameters."
@@ -105,4 +106,4 @@ msgstr "Valor"
 #. module: report_wkhtmltopdf_param
 #: model:ir.model,name:report_wkhtmltopdf_param.model_report_paperformat_parameter
 msgid "wkhtmltopdf parameters"
-msgstr "wkhtmltopdf parámetros"
+msgstr "Parámetros de wkhtmltopdf"

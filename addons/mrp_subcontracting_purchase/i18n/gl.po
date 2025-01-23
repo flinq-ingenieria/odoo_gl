@@ -3,17 +3,17 @@
 # 	* mrp_subcontracting_purchase
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
-# Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2024
+# Martin Trigaux, 2022
+# Óscar Fonseca <tecnico@pyming.com>, 2023
+# Carolina Fernández, 2024
 # Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 22:24\n"
-"PO-Revision-Date: 2024-11-08 22:24\n"
+"POT-Creation-Date: 2025-01-22 13:39\n"
+"PO-Revision-Date: 2025-01-22 13:39\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -31,27 +31,32 @@ msgstr "<span class=\"o_stat_text\">Reabastecer</span>"
 #. module: mrp_subcontracting_purchase
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting_purchase.stock_picking_form_mrp_subcontracting
 msgid "<span class=\"o_stat_text\">Source PO</span>"
-msgstr "<span class=\"o_stat_text\">PC orixe</span>"
+msgstr "<span class=\"o_stat_text\">Pedido de compra de orixe</span>"
+
+#. module: mrp_subcontracting_purchase
+#: model:ir.model,name:mrp_subcontracting_purchase.model_report_mrp_report_bom_structure
+msgid "BOM Overview Report"
+msgstr "Informe de resumo de LdM"
 
 #. module: mrp_subcontracting_purchase
 #: model:ir.model.fields,field_description:mrp_subcontracting_purchase.field_purchase_order__subcontracting_resupply_picking_count
 msgid "Count of Subcontracting Resupply"
-msgstr "Nº de reabastecimientos por subcontratación"
+msgstr "Número de reabastecimientos por subcontratación"
 
 #. module: mrp_subcontracting_purchase
 #: model:ir.model.fields,help:mrp_subcontracting_purchase.field_purchase_order__subcontracting_resupply_picking_count
 msgid "Count of Subcontracting Resupply for component"
-msgstr "Nº de reabastecimientos por subcontratación para o compoñente"
+msgstr "Número de reabastecimientos por subcontratación por compoñente"
 
 #. module: mrp_subcontracting_purchase
 #: model:ir.model.fields,field_description:mrp_subcontracting_purchase.field_stock_picking__subcontracting_source_purchase_count
 msgid "Number of subcontracting PO Source"
-msgstr "Nº de pedidos de compra orixe de subcontratación"
+msgstr "Número de pedidos de compra de orixe de subcontratación"
 
 #. module: mrp_subcontracting_purchase
 #: model:ir.model.fields,help:mrp_subcontracting_purchase.field_stock_picking__subcontracting_source_purchase_count
 msgid "Number of subcontracting Purchase Order Source"
-msgstr "Nº de pedidos de compra orixe de subcontratación"
+msgstr "Número de pedidos de compra de orixe de subcontratación"
 
 #. module: mrp_subcontracting_purchase
 #: model:ir.model,name:mrp_subcontracting_purchase.model_purchase_order
@@ -59,10 +64,11 @@ msgid "Purchase Order"
 msgstr "Pedido de compra"
 
 #. module: mrp_subcontracting_purchase
+#. odoo-python
 #: code:addons/mrp_subcontracting_purchase/models/stock_picking.py:0
 #, python-format
 msgid "Source PO of %s"
-msgstr "Pedido de compra orixe de %s"
+msgstr "Pedido de compra de orixe de %s"
 
 #. module: mrp_subcontracting_purchase
 #: model:ir.model,name:mrp_subcontracting_purchase.model_stock_move
@@ -72,4 +78,4 @@ msgstr "Movemento de stock"
 #. module: mrp_subcontracting_purchase
 #: model:ir.model,name:mrp_subcontracting_purchase.model_stock_picking
 msgid "Transfer"
-msgstr "Albará"
+msgstr "Traslado"

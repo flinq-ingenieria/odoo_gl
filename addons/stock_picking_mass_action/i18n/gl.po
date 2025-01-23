@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 09:15\n"
-"PO-Revision-Date: 2024-11-08 09:15\n"
+"POT-Creation-Date: 2025-01-22 14:14\n"
+"PO-Revision-Date: 2025-01-22 14:14\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -38,7 +38,7 @@ msgstr "Comprobar dispoñibilidade"
 #: model:ir.cron,cron_name:stock_picking_mass_action.ir_cron_check_assign_all
 #: model:ir.cron,name:stock_picking_mass_action.ir_cron_check_assign_all
 msgid "Check Availability of Stock Picking"
-msgstr "Comprobar dispoñibilidade da selección das existencias"
+msgstr "Comprobar dispoñibilidade dos albarás"
 
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__create_uid
@@ -64,7 +64,7 @@ msgstr "ID"
 #: code:addons/stock_picking_mass_action/models/stock_picking.py:0
 #, python-format
 msgid "Immediate Transfer?"
-msgstr "Transferencia inmediata?"
+msgstr "Transferir inmediatamente?"
 
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action____last_update
@@ -100,7 +100,7 @@ msgstr "Albarás"
 #. module: stock_picking_mass_action
 #: model:ir.model,name:stock_picking_mass_action.model_stock_picking_mass_action
 msgid "Stock Picking Mass Action"
-msgstr "Acción masiva de selección de valores de existencias"
+msgstr "Acción masiva en albarás"
 
 #. module: stock_picking_mass_action
 #: model:ir.actions.act_window,name:stock_picking_mass_action.action_transfer

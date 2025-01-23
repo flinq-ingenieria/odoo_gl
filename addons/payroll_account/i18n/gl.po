@@ -8,10 +8,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 10:45\n"
-"PO-Revision-Date: 2024-11-08 10:45\n"
+"POT-Creation-Date: 2025-01-22 06:05\n"
+"PO-Revision-Date: 2025-01-22 06:05\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -33,6 +33,7 @@ msgid "Accounting Entry"
 msgstr "Asento contable"
 
 #. module: payroll_account
+#. odoo-python
 #: code:addons/payroll_account/models/hr_payslip.py:0
 #, python-format
 msgid "Adjustment Entry"
@@ -106,6 +107,7 @@ msgid "Payslip Line"
 msgstr "Liña de nómina"
 
 #. module: payroll_account
+#. odoo-python
 #: code:addons/payroll_account/models/hr_payslip.py:0
 #, python-format
 msgid "Payslip of %s"
@@ -136,20 +138,20 @@ msgid "Tax lines"
 msgstr "Lineas de impostos"
 
 #. module: payroll_account
+#. odoo-python
 #: code:addons/payroll_account/models/hr_payslip.py:0
 #, python-format
-msgid "The Expense Journal '%s' has not properly configuredthe Debit Account!"
+msgid "The Expense Journal \"%s\" has not properly configured the Credit Account!"
 msgstr ""
+"A conta acredora do diario de gastos \"%s\" non se configurou correctamente!"
 
+#. module: payroll_account
+#. odoo-python
+#: code:addons/payroll_account/models/hr_payslip.py:0
 #, python-format
-#~ msgid "The Expense Journal \"%s\" has not properly configured the Credit Account!"
-#~ msgstr ""
-#~ "A conta acredora do diario de gastos \"%s\" non se configurou correctamente!"
-
-#, python-format
-#~ msgid "The Expense Journal \"%s\" has not properly configured the Debit Account!"
-#~ msgstr ""
-#~ "A conta debedora do diario de gastos \"%s\" non se configurou correctamente!"
+msgid "The Expense Journal \"%s\" has not properly configured the Debit Account!"
+msgstr ""
+"A conta debedora do diario de gastos \"%s\" non se configurou correctamente!"
 
 #~ msgid "Display Name"
 #~ msgstr "Nome para mostrar"

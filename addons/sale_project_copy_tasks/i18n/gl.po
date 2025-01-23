@@ -4,31 +4,30 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 14:38\n"
-"PO-Revision-Date: 2024-11-08 14:38\n"
+"POT-Creation-Date: 2025-01-22 15:08\n"
+"PO-Revision-Date: 2025-01-22 15:08\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: sale_project_copy_tasks
 #: model:ir.model.fields.selection,name:sale_project_copy_tasks.selection__product_template__service_tracking__copy_tasks_in_project
-#, fuzzy
 msgid "Copy tasks into sale order's project"
-msgstr "Copiar tarefas no proxecto do pedido de venda"
+msgstr "Copiar tarefas no proxecto da orde de venda"
 
 #. module: sale_project_copy_tasks
 #: model:ir.model.fields,field_description:sale_project_copy_tasks.field_product_product__service_tracking
 #: model:ir.model.fields,field_description:sale_project_copy_tasks.field_product_template__service_tracking
-#, fuzzy
 msgid "Create on Order"
-msgstr "Pedido de venda"
+msgstr "Crear sobre Pedido"
 
 #. module: sale_project_copy_tasks
 #: model:ir.model.fields,help:sale_project_copy_tasks.field_product_product__service_tracking

@@ -4,24 +4,25 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 16:47\n"
-"PO-Revision-Date: 2024-11-08 16:47\n"
+"POT-Creation-Date: 2025-01-22 14:54\n"
+"PO-Revision-Date: 2025-01-22 14:54\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: account_journal_general_sequence
+#. odoo-python
 #: code:addons/account_journal_general_sequence/models/account_journal.py:0
 #, python-format
-msgid "Account entry default numbering"
-msgstr "Numeración por defecto de asentos contables"
+msgid "Account entry default numbering (%s)"
+msgstr "Numeración por defecto da entrada contable (%s)"
 
 #. module: account_journal_general_sequence
 #: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_journal__entry_number_sequence_id
@@ -124,6 +125,7 @@ msgid "Last Updated on"
 msgstr "Última actualización o"
 
 #. module: account_journal_general_sequence
+#. odoo-python
 #: code:addons/account_journal_general_sequence/wizards/account_move_renumber_wizard.py:0
 #, python-format
 msgid "No account moves found."
@@ -161,6 +163,11 @@ msgid "Sequence"
 msgstr "Secuencia"
 
 #. module: account_journal_general_sequence
+#: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_journal__entry_number_sequence_id_name
+msgid "Sequence Code"
+msgstr "Código secuencial"
+
+#. module: account_journal_general_sequence
 #: model:ir.model.fields,help:account_journal_general_sequence.field_account_move_renumber_wizard__sequence_id
 msgid ""
 "Sequence to use for renumbering. Affects all journals that use this "
@@ -183,3 +190,7 @@ msgstr "Data de inicio"
 #: model:ir.model.fields,field_description:account_journal_general_sequence.field_account_move_renumber_wizard__starting_number
 msgid "Starting Number"
 msgstr "Número inicial"
+
+#, python-format
+#~ msgid "Account entry default numbering"
+#~ msgstr "Numeración por defecto de asentos contables"

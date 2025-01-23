@@ -3,14 +3,15 @@
 # 	* website_sms
 #
 # Translators:
-# Martin Trigaux, 2021
+# Martin Trigaux, 2022
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 01:01\n"
-"PO-Revision-Date: 2024-11-08 01:01\n"
+"POT-Creation-Date: 2025-01-22 17:38\n"
+"PO-Revision-Date: 2025-01-22 17:38\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -35,7 +36,7 @@ msgstr "Enviar SMS"
 #: code:addons/website_sms/models/website_visitor.py:0
 #, python-format
 msgid "Send SMS Text Message"
-msgstr "Manda Mensaxe de Texto SMS"
+msgstr "Enviar mensaxe de texto SMS"
 
 #. module: website_sms
 #: code:addons/website_sms/models/website_visitor.py:0
@@ -44,7 +45,7 @@ msgid ""
 "There are no contact and/or no phone or mobile numbers linked to this "
 "visitor."
 msgstr ""
-"Non hai contacto e / ou números de teléfono ou móbiles vinculados a este "
+"Non hai contacto e/ou números de teléfono ou móbiles vinculados a este "
 "visitante."
 
 #. module: website_sms

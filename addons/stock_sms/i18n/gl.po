@@ -3,15 +3,16 @@
 # 	* stock_sms
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2022
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 08:38\n"
-"PO-Revision-Date: 2024-11-08 08:38\n"
+"POT-Creation-Date: 2025-01-21 18:35\n"
+"PO-Revision-Date: 2025-01-21 18:35\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -19,6 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Revision-Date: 2025-01-23 10:05:29\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: stock_sms
@@ -29,7 +31,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"                {{ (object.company_ide.name + ': Agrádanos informarlle que a súa orde co número ' + object.origin + ' foi enviada.' if object.origin else object.company_ide.name + ': Agrádanos informarlle que a súa orde foi enviada.') + (' A súa referencia de rastrexo é ' + (object.carrier_tracking_ref) + '.' if hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref else '') }}\n"
+"                {{ (object.company_ide.name + ': Alégranos informarlle que a súa orde co número ' + object.origin + ' foi enviada.' if object.origin else object.company_ide.name + ': Alégranos informarlle que a súa orde foi enviada.') + (' A súa referencia de rastrexo é ' + (object.carrier_tracking_ref) + '.' if hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref else '') }}\n"
 "            "
 
 #. module: stock_sms
@@ -45,7 +47,7 @@ msgstr "Compañías"
 #. module: stock_sms
 #: model:ir.model,name:stock_sms.model_res_config_settings
 msgid "Config Settings"
-msgstr "Opcións de configuración"
+msgstr "Axustes de configuración"
 
 #. module: stock_sms
 #: model_terms:ir.ui.view,arch_db:stock_sms.view_confirm_stock_sms
@@ -110,7 +112,7 @@ msgstr "Última actualización o"
 #. module: stock_sms
 #: model:ir.model.fields,field_description:stock_sms.field_confirm_stock_sms__pick_ids
 msgid "Pick"
-msgstr "Recollida"
+msgstr "Recolección"
 
 #. module: stock_sms
 #: code:addons/stock_sms/models/stock_picking.py:0
@@ -140,13 +142,13 @@ msgstr "Validación de SMS con movemento de stock"
 #. module: stock_sms
 #: model:ir.model.fields,help:stock_sms.field_res_company__stock_sms_confirmation_template_id
 #: model:ir.model.fields,help:stock_sms.field_res_config_settings__stock_sms_confirmation_template_id
-msgid "SMS sent to the customer once the order is done."
-msgstr "SMS enviado ao cliente unha vez que se realize o pedido."
+msgid "SMS sent to the customer once the order is delivered."
+msgstr "SMS que se envía ao cliente unha vez que se entrega a orde."
 
 #. module: stock_sms
 #: model:ir.model,name:stock_sms.model_stock_picking
 msgid "Transfer"
-msgstr "Albará"
+msgstr "Traslado"
 
 #. module: stock_sms
 #: model_terms:ir.ui.view,arch_db:stock_sms.view_confirm_stock_sms
@@ -154,5 +156,5 @@ msgid ""
 "You are about to confirm this Delivery Order by SMS Text Message.<br/>\n"
 "                This feature can easily be disabled from the Settings of Inventory or by clicking on \"Disable SMS\".<br/>"
 msgstr ""
-"Está a piques de confirmar este pedido de entrega por mensaxe de texto SMS.<br/>\n"
-"                Esta característica pódese desactivar facilmente desde a Configuración de inventario ou facendo clic en \"Desactivar SMS\".<br/>"
+"Está a piques de confirmar esta orde de entrega por mensaxe de texto SMS.<br/>\n"
+"                Esta característica pódese desactivar facilmente desde os axustes de inventario ou facendo clic en \"Deshabilitar SMS\".<br/>"

@@ -3,15 +3,16 @@
 # 	* board
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
+# Wil Odoo, 2024
+# Larissa Manderfeld, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 00:31\n"
-"PO-Revision-Date: 2024-11-08 00:31\n"
+"POT-Creation-Date: 2025-01-22 02:44\n"
+"PO-Revision-Date: 2025-01-22 02:44\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -22,175 +23,141 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: board
-#. openerp-web
+#. odoo-javascript
 #: code:addons/board/static/src/add_to_board/add_to_board.js:0
 #, python-format
 msgid "\"%s\" added to dashboard"
 msgstr "\"%s\" engadido ao taboleiro"
 
 #. module: board
-#. openerp-web
-#: code:addons/board/static/src/legacy/xml/board.xml:0
+#. odoo-javascript
+#: code:addons/board/static/src/board_controller.xml:0
 #, python-format
 msgid ""
 "\"Add to\n"
-"                Dashboard\""
+"                  Dashboard\""
 msgstr ""
-"\"Engadir a Taboleiro\".\n"
-"                "
+"\"Engadir ao\n"
+"                taboleiro\""
 
 #. module: board
-#. openerp-web
-#: code:addons/board/static/src/legacy/xml/board.xml:0
-#, python-format
-msgid "&nbsp;"
-msgstr "&nbsp;"
-
-#. module: board
-#. openerp-web
-#: code:addons/board/static/src/legacy/js/add_to_board_menu.js:0
+#. odoo-javascript
+#: code:addons/board/static/src/add_to_board/legacy_add_to_board.js:0
 #, python-format
 msgid "'%s' added to dashboard"
 msgstr "'%s' engadido ao taboleiro"
 
 #. module: board
-#. openerp-web
+#. odoo-javascript
 #: code:addons/board/static/src/add_to_board/add_to_board.xml:0
-#: code:addons/board/static/src/legacy/xml/board.xml:0
 #, python-format
 msgid "Add"
 msgstr "Engadir"
 
 #. module: board
-#. openerp-web
-#: code:addons/board/static/src/legacy/xml/board.xml:0
-#, python-format
-msgid "Add to my Dashboard"
-msgstr "Engadir ao meu taboleiro"
-
-#. module: board
-#. openerp-web
+#. odoo-javascript
 #: code:addons/board/static/src/add_to_board/add_to_board.xml:0
 #, python-format
 msgid "Add to my dashboard"
 msgstr "Engadir ao meu taboleiro"
 
 #. module: board
-#. openerp-web
-#: code:addons/board/static/src/legacy/js/board_view.js:0
+#. odoo-javascript
+#: code:addons/board/static/src/board_controller.js:0
 #, python-format
-msgid "Are you sure you want to remove this item?"
-msgstr "Estás seguro de querer eliminar esta sección?"
+msgid "Are you sure that you want to remove this item?"
+msgstr "Está seguro de que desexa eliminar este elemento?"
 
 #. module: board
-#. openerp-web
-#: code:addons/board/static/src/legacy/js/board_view.js:0
+#. odoo-javascript
+#: code:addons/board/static/src/board_view.js:0
 #: model:ir.model,name:board.model_board_board
 #, python-format
 msgid "Board"
 msgstr "Taboleiro"
 
 #. module: board
-#. openerp-web
-#: code:addons/board/static/src/legacy/xml/board.xml:0
+#. odoo-javascript
+#: code:addons/board/static/src/board_controller.xml:0
 #, python-format
 msgid "Change Layout"
 msgstr "Cambiar deseño"
 
 #. module: board
-#. openerp-web
-#: code:addons/board/static/src/legacy/xml/board.xml:0
-#, python-format
-msgid "Change Layout.."
-msgstr "Cambiar deseño..."
-
-#. module: board
-#. openerp-web
-#: code:addons/board/static/src/legacy/xml/board.xml:0
-#, python-format
-msgid "Choose dashboard layout"
-msgstr "Elixe o deseño do teu taboleiro"
-
-#. module: board
-#. openerp-web
+#. odoo-javascript
 #: code:addons/board/static/src/add_to_board/add_to_board.js:0
-#: code:addons/board/static/src/legacy/js/add_to_board_menu.js:0
+#: code:addons/board/static/src/add_to_board/legacy_add_to_board.js:0
 #, python-format
 msgid "Could not add filter to dashboard"
 msgstr "Non se pode engadir un filtro ao taboleiro"
 
 #. module: board
-#. openerp-web
-#: code:addons/board/static/src/legacy/js/board_view.js:0
-#, python-format
-msgid "Edit Layout"
-msgstr "Editar deseño"
-
-#. module: board
 #: model:ir.model.fields,field_description:board.field_board_board__id
 msgid "ID"
-msgstr "Identificación"
+msgstr "ID"
 
 #. module: board
-#. openerp-web
-#: code:addons/board/static/src/legacy/xml/board.xml:0
-#: code:addons/board/static/src/legacy/xml/board.xml:0
+#. odoo-javascript
+#: code:addons/board/static/src/board_action.xml:0
+#, python-format
+msgid "Invalid action"
+msgstr "Acción non válida"
+
+#. module: board
+#. odoo-javascript
+#: code:addons/board/static/src/board_controller.xml:0
+#: code:addons/board/static/src/board_controller.xml:0
 #, python-format
 msgid "Layout"
 msgstr "Deseño"
 
 #. module: board
-#. openerp-web
-#: code:addons/board/static/src/legacy/js/board_view.js:0
 #: model:ir.actions.act_window,name:board.open_board_my_dash_action
 #: model:ir.ui.menu,name:board.menu_board_my_dash
 #: model_terms:ir.ui.view,arch_db:board.board_my_dash_view
-#, python-format
 msgid "My Dashboard"
 msgstr "O meu taboleiro"
 
 #. module: board
-#. openerp-web
+#. odoo-javascript
 #: code:addons/board/static/src/add_to_board/add_to_board.js:0
-#: code:addons/board/static/src/legacy/js/add_to_board_menu.js:0
+#: code:addons/board/static/src/add_to_board/legacy_add_to_board.js:0
 #, python-format
 msgid "Please refresh your browser for the changes to take effect."
-msgstr ""
-"Por favor volve cargar o teu navegador para que os cambios véxanse "
-"reflectidos."
+msgstr "Volva cargar o seu navegador para ver os cambios."
 
 #. module: board
-#. openerp-web
-#: code:addons/board/static/src/legacy/xml/board.xml:0
+#. odoo-javascript
+#: code:addons/board/static/src/board_controller.xml:0
 #, python-format
 msgid ""
 "To add your first report into this dashboard, go to any\n"
-"                menu, switch to list or graph view, and click"
+"                  menu, switch to list or graph view, and click"
 msgstr ""
-"Para engadir o teu primeiro informe neste taboleiro, ve a calquera\n"
-"                menú, cambia a vista a listaxe ou a gráfico, e dá clic en"
+"Para engadir o seu primeiro informe a este taboleiro, vaia a calquera\n"
+"                menú, cambie á vista de lista ou gráfico e faga clic en"
 
 #. module: board
-#. openerp-web
-#: code:addons/board/static/src/legacy/xml/board.xml:0
+#. odoo-javascript
+#: code:addons/board/static/src/board_controller.xml:0
 #, python-format
 msgid ""
 "You can filter and group data before inserting into the\n"
-"                dashboard using the search options."
+"                  dashboard using the search options."
 msgstr ""
-"Podes filtrar e agrupar datos antes de inserilos no\n"
-"                taboleiro usando as opcións de procura."
+"Pode filtrar e agrupar datos antes de agregalos ao\n"
+"                taboleiro mediante as opcións de procura."
 
 #. module: board
-#. openerp-web
-#: code:addons/board/static/src/legacy/xml/board.xml:0
+#. odoo-javascript
+#: code:addons/board/static/src/board_controller.xml:0
 #, python-format
 msgid "Your personal dashboard is empty"
-msgstr "O teu taboleiro está baleiro"
+msgstr "O seu taboleiro está baleiro"
 
 #. module: board
-#. openerp-web
-#: code:addons/board/static/src/legacy/xml/board.xml:0
+#. odoo-javascript
+#: code:addons/board/static/src/board_controller.xml:0
 #, python-format
 msgid "in the extended search options."
 msgstr "nas opcións de procura estendida."

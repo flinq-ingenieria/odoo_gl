@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 21:25\n"
-"PO-Revision-Date: 2024-11-08 21:25\n"
+"POT-Creation-Date: 2025-01-22 08:51\n"
+"PO-Revision-Date: 2025-01-22 08:51\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -39,8 +39,19 @@ msgstr "Pechar tarefa"
 
 #. module: hr_timesheet_task_stage
 #: model:ir.model.fields,field_description:hr_timesheet_task_stage.field_account_analytic_line__is_task_closed
-msgid "Closing Stage"
-msgstr "Etapa de Clausura"
+msgid "Folded in Kanban"
+msgstr "Dobrado en Kanban"
+
+#. module: hr_timesheet_task_stage
+#: model:ir.model.fields,help:hr_timesheet_task_stage.field_account_analytic_line__is_task_closed
+msgid ""
+"If enabled, this stage will be displayed as folded in the Kanban view of "
+"your tasks. Tasks in a folded stage are considered as closed (not applicable"
+" to personal stages)."
+msgstr ""
+"Se se activa, esta etapa mostrarase como encartada na vista Kanban das súas "
+"tarefas. As tarefas nunha etapa encartada considéranse pechadas (non "
+"aplicable ás etapas persoais)."
 
 #. module: hr_timesheet_task_stage
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_task_stage.account_analytic_line_tree
@@ -48,11 +59,7 @@ msgid "Open task"
 msgstr "Abrir tarefa"
 
 #. module: hr_timesheet_task_stage
-#: model:ir.model.fields,help:hr_timesheet_task_stage.field_account_analytic_line__is_task_closed
-msgid "Tasks in this stage are considered as closed."
-msgstr "As tarefas nesta etapa considéranse pechadas."
-
-#. module: hr_timesheet_task_stage
+#. odoo-python
 #: code:addons/hr_timesheet_task_stage/models/account_analytic_line.py:0
 #, python-format
 msgid "There isn't any stage with \"Closed\" checked. Please mark any."
@@ -60,12 +67,19 @@ msgstr ""
 "Non hai ningunha etapa con \"Pechado\" marcado. Por favor marque calquera."
 
 #. module: hr_timesheet_task_stage
+#. odoo-python
 #: code:addons/hr_timesheet_task_stage/models/account_analytic_line.py:0
 #, python-format
 msgid "There isn't any stage with \"Closed\" unchecked. Please unmark any."
 msgstr ""
 "Non hai ningunha etapa con \"Pechado\" sen marcar. Por favor, desmarque "
 "calquera."
+
+#~ msgid "Closing Stage"
+#~ msgstr "Etapa de Clausura"
+
+#~ msgid "Tasks in this stage are considered as closed."
+#~ msgstr "As tarefas nesta etapa considéranse pechadas."
 
 #~ msgid "Analytic Lines"
 #~ msgstr "Liñas analíticas"

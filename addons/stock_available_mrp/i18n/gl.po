@@ -5,10 +5,10 @@
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 13:40\n"
-"PO-Revision-Date: 2024-11-08 13:40\n"
+"POT-Creation-Date: 2025-01-22 23:16\n"
+"PO-Revision-Date: 2025-01-22 23:16\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -16,44 +16,39 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: stock_available_mrp
-#: model:product.product,name:stock_available_mrp.product_computer_desk_bolt_white
 #: model:product.template,name:stock_available_mrp.product_computer_desk_bolt_white_product_template
 msgid "Bolt"
 msgstr "Perno"
 
 #. module: stock_available_mrp
 #: model:ir.model,name:stock_available_mrp.model_product_product
-msgid "Product"
-msgstr "Produto"
-
-#. module: stock_available_mrp
-#: model:product.product,name:stock_available_mrp.product_kit_1a
-msgid "Table Kit"
-msgstr "Conxunto de mesa"
-
-#. module: stock_available_mrp
-#: model_terms:product.product,description:stock_available_mrp.product_kit_1a
-msgid "Table kit"
-msgstr "Conxunto de mesa"
-
-#. module: stock_available_mrp
-#: model:product.product,uom_name:stock_available_mrp.product_computer_desk_bolt_white
-#: model:product.product,uom_name:stock_available_mrp.product_kit_1a
-#: model:product.template,uom_name:stock_available_mrp.product_computer_desk_bolt_white_product_template
-msgid "Units"
-msgstr "Unidades"
+msgid "Product Variant"
+msgstr "Variante do Produto"
 
 #~ msgid "Display Name"
-#~ msgstr "Nome a Mostrar"
+#~ msgstr "Mostrar Nome"
 
 #~ msgid "ID"
 #~ msgstr "ID (identificación)"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Última Modificación o"
+
+#~ msgid "Product"
+#~ msgstr "Produto"
+
+#~ msgid "Table Kit"
+#~ msgstr "Conxunto de mesa"
+
+#~ msgid "Table kit"
+#~ msgstr "Conxunto de mesa"
+
+#~ msgid "Units"
+#~ msgstr "Unidades"
 
 #~ msgid "kg"
 #~ msgstr "quilogramos"

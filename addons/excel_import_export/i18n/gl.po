@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 06:40\n"
-"PO-Revision-Date: 2024-11-08 06:40\n"
+"POT-Creation-Date: 2025-01-22 02:45\n"
+"PO-Revision-Date: 2025-01-22 02:45\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:29\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: excel_import_export
@@ -23,7 +24,7 @@ msgid "${object.post_import_do_something()}"
 msgstr "${object.post_import_do_something()}"
 
 #. module: excel_import_export
-#: code:addons/excel_import_export/models/common.py:0
+#. odoo-python
 #: code:addons/excel_import_export/models/common.py:0
 #, python-format
 msgid "'%s' sheet not found"
@@ -69,28 +70,29 @@ msgstr ""
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
 msgid ""
-"<b>Field Cond.</b>: Python code in <code>${...}</code> to manipulate field "
-"value, e.g., if field = product_id, <code>value</code> will represent "
-"product object, e.g., <code>${value and value.uom_id.name or \"\"}</code>"
+"<b>Field Cond.</b>: Python code in <code>$</code><code>{...}</code> to "
+"manipulate field value, e.g., if field = product_id, <code>value</code> will"
+" represent product object, e.g., <code>$</code><code>{value and "
+"value.uom_id.name or \"\"}</code>"
 msgstr ""
-"<b>Cond. de campo</b>: código Python en <code>${...}</code> para manipular o"
-" valor do campo, por exemplo, se campo = product_ide, <code>value</code> "
-"representará o produto obxecto, por exemplo, <code>${valor e "
-"valor.uom_ide.name ou \"\"}</code>"
+"<b>Cond. de campo</b>: código Python en <code>$</code><code>{...}</code> "
+"para manipular o valor do campo, por exemplo, se campo = product_ide, "
+"<code>valor </code> representará o obxecto do produto, por exemplo, "
+"<code>$</code><code>{value e value.uom_ide.name ou \"\"}</code>"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
 msgid ""
-"<b>Field Cond.</b>: Python code in <code>${...}</code> value will represent "
-"data from excel cell, e.g., if A1 = 'ABC', <code>value</code> will represent"
-" 'ABC', e.g., <code>${value == \"ABC\" and \"X\" or \"Y\"}</code> thus can "
-"change from cell value to other value for import."
+"<b>Field Cond.</b>: Python code in <code>$</code><code>{...}</code> value "
+"will represent data from excel cell, e.g., if A1 = 'ABC', <code>value</code>"
+" will represent 'ABC', e.g., <code>$</code><code>{value == \"ABC\" and \"X\""
+" or \"Y\"}</code> thus can change from cell value to other value for import."
 msgstr ""
-"<b>Cond. de campo</b>: o código Python no valor <code>${...}</code> "
-"representará datos da cela de Excel, por exemplo, se A1 = 'ABC', "
-"<code>valor</code> representará 'ABC', por exemplo, <code>${value == \"ABC\""
-" e \"X\" ou \"E\"}</code>, polo que pode cambiar do valor da cela a outro "
-"valor para importar."
+"<b>Cond. de campo</b>: o código Python no valor "
+"<code>$</code><code>{...}</code> representará datos da cela de Excel, por "
+"exemplo, se A1 = 'ABC' , <code>value</code> representará 'ABC', por exemplo,"
+" <code>$</code><code>{value == \"ABC\" e \"X\" ou \"E\"}</code>, polo que "
+"pode cambie do valor de cela a outro valor para importar."
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -194,14 +196,14 @@ msgid ""
 "    '__EXPORT__': {\n"
 "        'sale_order': {  # sheet can be name (string) or index (integer)\n"
 "            '_HEAD_': {\n"
-"                'B2': 'partner_id.display_name${value or \"\"}#{align=left;style=text}',\n"
-"                'B3': 'name${value or \"\"}#{align=left;style=text}',\n"
+"                'B2': 'partner_id.display_name<span>$</span>{value or \"\"}#{align=left;style=text}',\n"
+"                'B3': 'name<span>$</span>{value or \"\"}#{align=left;style=text}',\n"
 "            },\n"
 "            'line_ids': {  # prefix with _CONT_ to continue rows from previous row field\n"
-"                'A6': 'product_id.display_name${value or \"\"}#{style=text}',\n"
-"                'C6': 'product_uom_qty${value or 0}#{style=number}',\n"
-"                'E6': 'price_unit${value or 0}#{style=number}',\n"
-"                'G6': 'price_subtotal${value or 0}#{style=number}',\n"
+"                'A6': 'product_id.display_name<span>$</span>{value or \"\"}#{style=text}',\n"
+"                'C6': 'product_uom_qty<span>$</span>{value or 0}#{style=number}',\n"
+"                'E6': 'price_unit<span>$</span>{value or 0}#{style=number}',\n"
+"                'G6': 'price_subtotal<span>$</span>{value or 0}#{style=number}',\n"
 "            },\n"
 "        },\n"
 "    },\n"
@@ -210,41 +212,41 @@ msgid ""
 "            'order_line': {  # prefix with _NODEL_ to not delete rows before import\n"
 "                'A6': 'product_id',\n"
 "                'C6': 'product_uom_qty',\n"
-"                'E6': 'price_unit${value &gt; 0 and value or 0}',\n"
+"                'E6': 'price_unit<span>$</span>{value &gt; 0 and value or 0}',\n"
 "            },\n"
 "        },\n"
 "    },\n"
-"    '__POST_IMPORT__': '${object.post_import_do_something()}',\n"
+"    '__POST_IMPORT__': '<span>$</span>{object.post_import_do_something()}',\n"
 "}\n"
 "\n"
 "                                </code>"
 msgstr ""
 "<code class=\"oe_grey\">\n"
 "{\n"
-"    '__EXPORT__': {\n"
-"        'sae_order': {  # sheet can be name (string) or index (integer)\n"
-"            '_HEAD_': {\n"
-"                'B2': 'partner_ide.display_name${value or \"\"}#{align=left;style=text}',\n"
-"                'B3': 'name${value or \"\"}#{align=left;style=text}',\n"
+"    '__EXPORTAR__': {\n"
+"        'sae_order': {# folla pode ser nomee (cadea) ou índice (enteiro)\n"
+"            '_CABEZA_': {\n"
+"                'B2': 'partner_ide.display_name<span>$</span>{valor ou \"\"}#{align=left;style=text}',\n"
+"                'B3': 'nome<span>$</span>{valor ou \"\"}#{align=left;style=text}',\n"
 "            },\n"
-"            'line_ids': {  # prefix with _CONT_ to continue rows from previous row field\n"
-"                'A6': 'product_ide.display_name${value or \"\"}#{style=text}',\n"
-"                'C6': 'product_uom_qty${value or 0}#{style=number}',\n"
-"                'E6': 'price_unit${value or 0}#{style=number}',\n"
-"                'G6': 'price_subtotal${value or 0}#{style=number}',\n"
+"            'line_ids': { # prefixo con _CONT_ para continuar filas do campo de fila anterior\n"
+"                'A6': 'product_ide.display_name<span>$</span>{valor ou \"\"}#{style=text}',\n"
+"                'C6': 'product_uom_qty<span>$</span>{valor ou 0}#{estilo=número}',\n"
+"                'E6': 'prezo_unidade<span>$</span>{valor ou 0}#{estilo=número}',\n"
+"                'G6': 'prezo_subtotal<span>$</span>{valor ou 0}#{estilo=número}',\n"
 "            },\n"
 "        },\n"
 "    },\n"
-"    '__IMPORT__': {\n"
-"        'sae_order': {  # sheet can be name (string) or index (integer)\n"
-"            'order_line': {  # prefix with _NODEL_ to not delete rows before import\n"
-"                'A6': 'product_ide',\n"
+"    '__IMPORTAR__': {\n"
+"        'sae_order': {# folla pode ser nomee (cadea) ou índice (enteiro)\n"
+"            'order_line': { # prefixo con _NODEL_ para non eliminar filas antes da importación\n"
+"                'A6': 'ide_produto',\n"
 "                'C6': 'product_uom_qty',\n"
-"                'E6': 'price_unit${value &gt; 0 and value or 0}',\n"
+"                'E6': 'prezo_unidade<span>$</span>{valor &gt; 0 e valor ou 0}',\n"
 "            },\n"
 "        },\n"
 "    },\n"
-"    '__POST_IMPORT__': '${object.post_import_do_something()}',\n"
+"    '__POST_IMPORT__': '<span>$</span>{object.post_import_do_something()}',\n"
 "}\n"
 "\n"
 "                                </code>"
@@ -325,6 +327,21 @@ msgid "Allow Choose Template"
 msgstr "Permitir Elixir Modelo"
 
 #. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__assigned_attachment_ids
+#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__assigned_attachment_ids
+#: model:ir.model.fields,field_description:excel_import_export.field_ir_actions_report__assigned_attachment_ids
+#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__assigned_attachment_ids
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_export__assigned_attachment_ids
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_import__assigned_attachment_ids
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__assigned_attachment_ids
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_styles__assigned_attachment_ids
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__assigned_attachment_ids
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__assigned_attachment_ids
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__assigned_attachment_ids
+msgid "Assigned Attachments"
+msgstr "Arquivos Adxuntos Asignados"
+
+#. module: excel_import_export
 #: model:ir.model,name:excel_import_export.model_xlsx_styles
 msgid "Available styles for excel"
 msgstr "Estilos dispoñibles para excel"
@@ -389,7 +406,7 @@ msgstr "Cela"
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__changeset_change_ids
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__changeset_change_ids
 msgid "Changeset Changes"
-msgstr "Cambios do conxunto de cambios"
+msgstr ""
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__changeset_ids
@@ -404,7 +421,7 @@ msgstr "Cambios do conxunto de cambios"
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__changeset_ids
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__changeset_ids
 msgid "Changesets"
-msgstr "Conxuntos de cambios"
+msgstr ""
 
 #. module: excel_import_export
 #: model:ir.model.fields.selection,name:excel_import_export.selection__export_xlsx_wizard__state__choose
@@ -463,6 +480,21 @@ msgid "Convert to CSV?"
 msgstr "Converter a CSV?"
 
 #. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__count_changesets
+#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__count_changesets
+#: model:ir.model.fields,field_description:excel_import_export.field_ir_actions_report__count_changesets
+#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__count_changesets
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_export__count_changesets
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_import__count_changesets
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__count_changesets
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_styles__count_changesets
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__count_changesets
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__count_changesets
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__count_changesets
+msgid "Count Changesets"
+msgstr ""
+
+#. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__count_pending_changeset_changes
 #: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__count_pending_changeset_changes
 #: model:ir.model.fields,field_description:excel_import_export.field_ir_actions_report__count_pending_changeset_changes
@@ -475,7 +507,7 @@ msgstr "Converter a CSV?"
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__count_pending_changeset_changes
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__count_pending_changeset_changes
 msgid "Count Pending Changeset Changes"
-msgstr "Contar os cambios do conxunto de cambios pendentes"
+msgstr ""
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__count_pending_changesets
@@ -490,7 +522,7 @@ msgstr "Contar os cambios do conxunto de cambios pendentes"
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__count_pending_changesets
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__count_pending_changesets
 msgid "Count Pending Changesets"
-msgstr "Contar conxuntos de cambios pendentes"
+msgstr ""
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__create_uid
@@ -549,12 +581,14 @@ msgid "Display Name"
 msgstr "Mostrar Nome"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
 #, python-format
 msgid "Document must be in %s states"
 msgstr "O documento debe estar en %s estados"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
 #, python-format
 msgid "Document must be in draft state"
@@ -566,6 +600,7 @@ msgid "Easy Reporting"
 msgstr "Informes fáciles"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/xlsx_import.py:0
 #, python-format
 msgid ""
@@ -576,6 +611,7 @@ msgstr ""
 "%s"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/xlsx_export.py:0
 #, python-format
 msgid ""
@@ -586,6 +622,7 @@ msgstr ""
 "%s"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/xlsx_import.py:0
 #, python-format
 msgid "Error importing data"
@@ -692,6 +729,7 @@ msgid "File"
 msgstr "Arquivo"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
 #, python-format
 msgid "File \"%(fname)s\" not found in template, %(name)s."
@@ -726,18 +764,20 @@ msgstr ""
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
 msgid ""
-"For code block <code>${...}</code> and <code>#?...?</code>, following object"
-" are available,"
+"For code block <code>$</code><code>{...}</code> and <code>#?...?</code>, "
+"following object are available,"
 msgstr ""
-"Para o bloque de código <code>${...}</code> e <code>#?...?</code>, están "
-"dispoñibles os seguintes obxectos,"
+"Para o bloque de código <code>$</code><code>{...}</code> e "
+"<code>#?...?</code>, están dispoñibles os seguintes obxectos,"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
-msgid "For code block <code>${...}</code>, following object are available,"
+msgid ""
+"For code block <code>$</code><code>{...}</code>, following object are "
+"available,"
 msgstr ""
-"Para o bloque de código <code>${...}</code>, están dispoñibles os seguintes "
-"obxectos,"
+"Para o bloque de código <code>$</code><code>{...}</code>, están dispoñibles "
+"os seguintes obxectos,"
 
 #. module: excel_import_export
 #: model:ir.model,name:excel_import_export.model_report_xlsx_wizard
@@ -808,6 +848,7 @@ msgid "If section type is row, this field is required"
 msgstr "Se o tipo de sección é fila, este campo é obrigatorio"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/xlsx_export.py:0
 #, python-format
 msgid ""
@@ -829,9 +870,10 @@ msgstr "Importar"
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__import_action_id
 msgid "Import Action"
-msgstr "Importar Acción"
+msgstr "Importar acción"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
 #, python-format
 msgid "Import Excel"
@@ -841,6 +883,11 @@ msgstr "Importar Excel"
 #: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__import_file
 msgid "Import File (*.xlsx)"
 msgstr "Importar arquivo (.xlsx)"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__filename
+msgid "Import File Name"
+msgstr "Nome do Arquivo de Importación"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.import_xlsx_wizard
@@ -932,30 +979,35 @@ msgid "Instruction on how to import/export, prepared by system."
 msgstr "Instrución sobre como importar/exportar, preparada polo sistema."
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/xlsx_import.py:0
 #, python-format
 msgid "Invalid declaration, %s has no valid field type"
 msgstr "Declaración non válida, %s non ten ningún tipo de campo válido"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/xlsx_import.py:0
 #, python-format
 msgid "Invalid file style, only .xls or .xlsx file allowed"
 msgstr "Estilo de arquivo non válido, só permítense arquivos .xls ou .xlsx"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/common.py:0
 #, python-format
 msgid "Invalid style type %s"
 msgstr "Tipo de estilo non válido %s"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/common.py:0
 #, python-format
 msgid "Invalid value %(value)s for style type %(key)s"
 msgstr "Valor non válido %(value)s para o tipo de estilo %(key)s"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/xlsx_export.py:0
 #, python-format
 msgid ""
@@ -983,7 +1035,7 @@ msgstr "Última Modificación o"
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__write_uid
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__write_uid
 msgid "Last Updated by"
-msgstr "Actualizado por Última vez por"
+msgstr "Última actualización por"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__write_date
@@ -1007,21 +1059,24 @@ msgstr ""
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__no_delete
 msgid "No Delete"
-msgstr "Sen Eliminar"
+msgstr "Sen eliminar"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/xlsx_import.py:0
 #, python-format
 msgid "No data_dict['__IMPORT__'] in template %s"
 msgstr "Non data_dict['__IMPORT__'] no modelo %s"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/xlsx_template.py:0
 #, python-format
 msgid "No file content!"
 msgstr "Sen contido de arquivo!"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/xlsx_report.py:0
 #: code:addons/excel_import_export/wizard/export_xlsx_wizard.py:0
 #, python-format
@@ -1029,6 +1084,7 @@ msgid "No file in %s"
 msgstr "Ningún arquivo en %s"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/xlsx_report.py:0
 #: code:addons/excel_import_export/wizard/export_xlsx_wizard.py:0
 #: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
@@ -1037,12 +1093,14 @@ msgid "No template found"
 msgstr "Non se atopou ningún modelo"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/xlsx_export.py:0
 #, python-format
 msgid "Not enough worksheets"
 msgstr "Non hai suficientes follas de traballo"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/ir_report.py:0
 #, python-format
 msgid "Only one id is allowed for excel_import_export"
@@ -1070,13 +1128,14 @@ msgid "Optional for CSV, default is full quoting."
 msgstr "Opcional para CSV, o valor predeterminado son as citas completas."
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
 #, python-format
 msgid "Please select Excel file to import"
 msgstr "Seleccione o arquivo Excel para importar"
 
 #. module: excel_import_export
-#: code:addons/excel_import_export/models/common.py:0
+#. odoo-python
 #: code:addons/excel_import_export/models/common.py:0
 #, python-format
 msgid "Position %s is not valid"
@@ -1093,6 +1152,7 @@ msgid "Post Import Hook"
 msgstr "Gancho posterior á importación"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/xlsx_import.py:0
 #, python-format
 msgid ""
@@ -1103,6 +1163,7 @@ msgstr ""
 "%s"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/xlsx_export.py:0
 #, python-format
 msgid "Records in %s exceed max records allowed"
@@ -1147,7 +1208,7 @@ msgstr "Tipo de Informe"
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__res_model
 msgid "Res Model"
-msgstr "Modelo Rec"
+msgstr "Modelo Res"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__res_id
@@ -1196,7 +1257,7 @@ msgstr "Exemplo"
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
 msgid "Sample Input Instruction as Dictionary"
-msgstr "Instrución de entrada de mostra como Dicionario"
+msgstr "Instrución de entrada de mostra como dicionario"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__domain
@@ -1216,10 +1277,11 @@ msgid "Sequence"
 msgstr "Secuencia"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
 #, python-format
 msgid "Set Templates"
-msgstr "Establecer Modelos"
+msgstr "Establecer modelos"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__sheet
@@ -1230,6 +1292,7 @@ msgid "Sheet"
 msgstr "Folla"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/xlsx_export.py:0
 #: code:addons/excel_import_export/models/xlsx_import.py:0
 #, python-format
@@ -1240,6 +1303,21 @@ msgstr "Folla %s s non atopada"
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__show_instruction
 msgid "Show Output"
 msgstr "Mostrar saída"
+
+#. module: excel_import_export
+#: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__smart_search
+#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__smart_search
+#: model:ir.model.fields,field_description:excel_import_export.field_ir_actions_report__smart_search
+#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__smart_search
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_export__smart_search
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_import__smart_search
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__smart_search
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_styles__smart_search
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__smart_search
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__smart_search
+#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__smart_search
+msgid "Smart Search"
+msgstr "Procura intelixente"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__state
@@ -1266,6 +1344,7 @@ msgid "Template"
 msgstr "Modelo"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/ir_report.py:0
 #, python-format
 msgid "Template %(report_name)s on model %(model)s is not unique!"
@@ -1278,6 +1357,7 @@ msgid "Template Name"
 msgstr "Nome de Modelo"
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/common.py:0
 #, python-format
 msgid ""
@@ -1288,6 +1368,7 @@ msgstr ""
 "o delimitador -> \"%s\""
 
 #. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/xlsx_export.py:0
 #: code:addons/excel_import_export/models/xlsx_import.py:0
 #, python-format
@@ -1300,6 +1381,52 @@ msgid "The database object this attachment will be attached to."
 msgstr "O obxecto da base de datos ao que se anexará este anexo."
 
 #. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_export_xlsx_wizard__count_pending_changeset_changes
+#: model:ir.model.fields,help:excel_import_export.field_import_xlsx_wizard__count_pending_changeset_changes
+#: model:ir.model.fields,help:excel_import_export.field_ir_actions_report__count_pending_changeset_changes
+#: model:ir.model.fields,help:excel_import_export.field_report_xlsx_wizard__count_pending_changeset_changes
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_export__count_pending_changeset_changes
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_import__count_pending_changeset_changes
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_report__count_pending_changeset_changes
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_styles__count_pending_changeset_changes
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template__count_pending_changeset_changes
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template_export__count_pending_changeset_changes
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template_import__count_pending_changeset_changes
+msgid "The number of pending changes of this record"
+msgstr ""
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_export_xlsx_wizard__count_pending_changesets
+#: model:ir.model.fields,help:excel_import_export.field_import_xlsx_wizard__count_pending_changesets
+#: model:ir.model.fields,help:excel_import_export.field_ir_actions_report__count_pending_changesets
+#: model:ir.model.fields,help:excel_import_export.field_report_xlsx_wizard__count_pending_changesets
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_export__count_pending_changesets
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_import__count_pending_changesets
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_report__count_pending_changesets
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_styles__count_pending_changesets
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template__count_pending_changesets
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template_export__count_pending_changesets
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template_import__count_pending_changesets
+msgid "The number of pending changesets of this record"
+msgstr ""
+
+#. module: excel_import_export
+#: model:ir.model.fields,help:excel_import_export.field_export_xlsx_wizard__count_changesets
+#: model:ir.model.fields,help:excel_import_export.field_import_xlsx_wizard__count_changesets
+#: model:ir.model.fields,help:excel_import_export.field_ir_actions_report__count_changesets
+#: model:ir.model.fields,help:excel_import_export.field_report_xlsx_wizard__count_changesets
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_export__count_changesets
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_import__count_changesets
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_report__count_changesets
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_styles__count_changesets
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template__count_changesets
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template_export__count_changesets
+#: model:ir.model.fields,help:excel_import_export.field_xlsx_template_import__count_changesets
+msgid "The overall number of changesets of this record"
+msgstr ""
+
+#. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/models/xlsx_template.py:0
 #, python-format
 msgid "The selected redirect action is not for model %s"
@@ -1319,6 +1446,17 @@ msgstr ""
 "polo usuario."
 
 #. module: excel_import_export
+#. odoo-python
+#: code:addons/excel_import_export/models/xlsx_import.py:0
+#, python-format
+msgid ""
+"The value for the '%(field)s' field is expected to be in cell "
+"%(cell_position)s, but no column exists for that cell in the Excel sheet. "
+"Please check your Excel file."
+msgstr ""
+
+#. module: excel_import_export
+#. odoo-python
 #: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
 #, python-format
 msgid "This import action is not usable in this document context"
@@ -1360,7 +1498,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__user_can_see_changeset
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__user_can_see_changeset
 msgid "User Can See Changeset"
-msgstr "Usuario pode ver conxunto de cambios"
+msgstr ""
 
 #. module: excel_import_export
 #: model:ir.model.fields,help:excel_import_export.field_xlsx_template__result_model_id

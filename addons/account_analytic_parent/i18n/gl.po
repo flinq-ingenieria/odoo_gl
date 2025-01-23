@@ -7,10 +7,10 @@
 # enjolras <yo@miguelrevilla.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 11:44\n"
-"PO-Revision-Date: 2024-11-08 11:44\n"
+"POT-Creation-Date: 2025-01-22 12:07\n"
+"PO-Revision-Date: 2025-01-22 12:07\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -21,12 +21,14 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: account_analytic_parent
+#. odoo-python
 #: code:addons/account_analytic_parent/models/account_analytic_account.py:0
 #, python-format
 msgid "%(name)s - %(partner)s"
 msgstr "%(name)s - %(partner)s"
 
 #. module: account_analytic_parent
+#. odoo-python
 #: code:addons/account_analytic_parent/models/account_analytic_account.py:0
 #, python-format
 msgid "%(parent)s / %(own)s"
@@ -64,12 +66,14 @@ msgid "Parent Path"
 msgstr "Conta do Pai"
 
 #. module: account_analytic_parent
+#. odoo-python
 #: code:addons/account_analytic_parent/models/account_analytic_account.py:0
 #, python-format
 msgid "Please activate first parent account %s"
 msgstr "Por favor primeiro activa cóntaa pai %s"
 
 #. module: account_analytic_parent
+#. odoo-python
 #: code:addons/account_analytic_parent/models/account_analytic_account.py:0
 #, python-format
 msgid "You can not create recursive analytic accounts."

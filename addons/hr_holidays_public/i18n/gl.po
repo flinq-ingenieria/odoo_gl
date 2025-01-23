@@ -7,10 +7,10 @@
 # José Antonio Cuello <yopli2000@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 21:42\n"
-"PO-Revision-Date: 2024-11-07 21:42\n"
+"POT-Creation-Date: 2025-01-22 09:16\n"
+"PO-Revision-Date: 2025-01-22 09:16\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -18,6 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: hr_holidays_public
@@ -93,6 +94,7 @@ msgid "Date may change"
 msgstr "A data pode cambiar"
 
 #. module: hr_holidays_public
+#. odoo-python
 #: code:addons/hr_holidays_public/models/hr_holidays_public.py:0
 #, python-format
 msgid ""
@@ -170,6 +172,7 @@ msgid "Name"
 msgstr "Nome"
 
 #. module: hr_holidays_public
+#. odoo-python
 #: code:addons/hr_holidays_public/wizards/holidays_public_next_year_wizard.py:0
 #, python-format
 msgid ""
@@ -282,6 +285,7 @@ msgstr ""
 "ano seguinte ao do modelo."
 
 #. module: hr_holidays_public
+#. odoo-python
 #: code:addons/hr_holidays_public/models/hr_holidays_public.py:0
 #, python-format
 msgid ""
@@ -291,18 +295,21 @@ msgstr ""
 "Non pode crear festivos duplicados para a data %s e unha das provincias."
 
 #. module: hr_holidays_public
+#. odoo-python
 #: code:addons/hr_holidays_public/models/hr_holidays_public.py:0
 #, python-format
 msgid "You can't create duplicate public holiday per date %s."
 msgstr "Non pode festivos duplicados para a data %s."
 
 #. module: hr_holidays_public
+#. odoo-python
 #: code:addons/hr_holidays_public/models/hr_holidays_public.py:0
 #, python-format
 msgid "You can't create duplicate public holiday per year and/or country"
 msgstr "Non pode crear festivos duplicados para o ano e/ou país"
 
 #. module: hr_holidays_public
+#. odoo-python
 #: code:addons/hr_holidays_public/wizards/holidays_public_next_year_wizard.py:0
 #, python-format
 msgid ""

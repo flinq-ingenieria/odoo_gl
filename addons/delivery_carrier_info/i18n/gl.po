@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 08:31\n"
-"PO-Revision-Date: 2024-11-08 08:31\n"
+"POT-Creation-Date: 2025-01-22 06:39\n"
+"PO-Revision-Date: 2025-01-22 06:39\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -28,12 +28,6 @@ msgid "Delivery Method Code (according to carrier)"
 msgstr "Código do método de envío (de acordo con o transportista)"
 
 #. module: delivery_carrier_info
-#: model:ir.model.fields,field_description:delivery_carrier_info.field_delivery_carrier__description
-#: model_terms:ir.ui.view,arch_db:delivery_carrier_info.view_delivery_carrier_form
-msgid "Description"
-msgstr "Descrición"
-
-#. module: delivery_carrier_info
 #: model:ir.model,name:delivery_carrier_info.model_delivery_carrier
 msgid "Shipping Methods"
-msgstr "Métodos de Envío"
+msgstr "Métodos de envío"

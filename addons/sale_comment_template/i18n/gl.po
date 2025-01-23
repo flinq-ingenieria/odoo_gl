@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 13:50\n"
-"PO-Revision-Date: 2024-11-08 13:50\n"
+"POT-Creation-Date: 2025-01-21 16:03\n"
+"PO-Revision-Date: 2025-01-21 16:03\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,12 +15,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:29\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: sale_comment_template
 #: model:ir.model.fields,field_description:sale_comment_template.field_sale_order__comment_template_ids
 msgid "Comment Template"
-msgstr "Modelo de Comentario"
+msgstr "Modelo de comentario"
 
 #. module: sale_comment_template
 #: model_terms:ir.ui.view,arch_db:sale_comment_template.sale_order_form_add_comment
@@ -40,7 +41,7 @@ msgstr "Comentarios de ordes de venda"
 #. module: sale_comment_template
 #: model:ir.model,name:sale_comment_template.model_sale_order
 msgid "Sales Order"
-msgstr "Orde de Venda"
+msgstr "Ordes de venda"
 
 #~ msgid "Bottom Comment"
 #~ msgstr "Comentario inferior"

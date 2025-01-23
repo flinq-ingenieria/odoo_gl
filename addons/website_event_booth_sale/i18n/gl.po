@@ -3,16 +3,16 @@
 # 	* website_event_booth_sale
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2022
 # Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 04:28\n"
-"PO-Revision-Date: 2024-11-08 04:28\n"
+"POT-Creation-Date: 2025-01-22 02:07\n"
+"PO-Revision-Date: 2025-01-22 02:07\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -24,8 +24,8 @@ msgstr ""
 
 #. module: website_event_booth_sale
 #: model_terms:ir.ui.view,arch_db:website_event_booth_sale.event_booth_registration
-msgid "<span class=\"font-weight-bold\">Total</span>"
-msgstr "<span class=\"font-weight-bold\">Total</span>"
+msgid "<span class=\"fw-bold\">Total</span>"
+msgstr "<span class=\"fw-bold\">Total</span>"
 
 #. module: website_event_booth_sale
 #: model_terms:ir.ui.view,arch_db:website_event_booth_sale.event_booth_registration
@@ -33,9 +33,14 @@ msgid "Free"
 msgstr "Gratuíto"
 
 #. module: website_event_booth_sale
-#: model:ir.model,name:website_event_booth_sale.model_product_product
+#: model:ir.model,name:website_event_booth_sale.model_product_template
 msgid "Product"
 msgstr "Produto"
+
+#. module: website_event_booth_sale
+#: model:ir.model,name:website_event_booth_sale.model_product_product
+msgid "Product Variant"
+msgstr "Variante de produto"
 
 #. module: website_event_booth_sale
 #: model:ir.model,name:website_event_booth_sale.model_sale_order
@@ -48,9 +53,10 @@ msgid "Website"
 msgstr "Sitio web"
 
 #. module: website_event_booth_sale
+#. odoo-python
 #: code:addons/website_event_booth_sale/models/sale_order.py:0
 #, python-format
 msgid "You cannot manually change the quantity of an Event Booth product."
 msgstr ""
-"Non se pode cambiar a cantidade dun produto de cabina de evento de forma "
-"manual."
+"Non pode modificar manualmente a cantidade dun produto do estands para "
+"eventos."

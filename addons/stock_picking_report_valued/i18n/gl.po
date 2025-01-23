@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 15:45\n"
-"PO-Revision-Date: 2024-11-08 15:45\n"
+"POT-Creation-Date: 2025-01-22 13:59\n"
+"PO-Revision-Date: 2025-01-22 13:59\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. module: stock_picking_report_valued
 #: model_terms:ir.ui.view,arch_db:stock_picking_report_valued.valued_report_picking
 msgid "<strong>Discount</strong>"
-msgstr "<strong>Dto</strong>"
+msgstr "<strong>Desconto</strong>"
 
 #. module: stock_picking_report_valued
 #: model_terms:ir.ui.view,arch_db:stock_picking_report_valued.valued_report_picking
@@ -65,7 +65,7 @@ msgstr "Subtotal"
 #. module: stock_picking_report_valued
 #: model:ir.model,name:stock_picking_report_valued.model_stock_move_line
 msgid "Product Moves (Stock Move Line)"
-msgstr "Movementos de Produto (Liña de Movemento de Existencias)"
+msgstr "Movementos de produto (liña de movemento de existencias)"
 
 #. module: stock_picking_report_valued
 #: model:ir.model.fields,field_description:stock_picking_report_valued.field_stock_move_line__sale_line
@@ -133,9 +133,8 @@ msgstr "Albará valorado"
 msgid "You can select which partners have valued pickings"
 msgstr "Pode seleccionar que empresas teñen albará valorado"
 
-#, fuzzy
 #~ msgid "<strong>Qty Reserved</strong>"
-#~ msgstr "<strong>Prezo Unidade</strong>"
+#~ msgstr "<strong>Cantidade Reservada</strong>"
 
 #~ msgid "Sale price unit"
 #~ msgstr "Prezo venda"

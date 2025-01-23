@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 08:15\n"
-"PO-Revision-Date: 2024-11-08 08:15\n"
+"POT-Creation-Date: 2025-01-22 12:23\n"
+"PO-Revision-Date: 2025-01-22 12:23\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -18,19 +18,31 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: product_assortment
-#: model_terms:ir.ui.view,arch_db:product_assortment.view_partner_form
-msgid "<span class=\"o_stat_text\">Product Assortments</span>"
-msgstr "<span class=\"o_stat_text\">Fornecido de produtos</span>"
+#: model_terms:ir.ui.view,arch_db:product_assortment.product_assortment_view_form
+msgid "&gt;"
+msgstr "&gt;"
 
 #. module: product_assortment
 #: model_terms:ir.ui.view,arch_db:product_assortment.product_assortment_view_form
-msgid "<span class=\"o_stat_text\">Products</span>"
-msgstr "<span class=\"o_stat_text\">Produtos</span>"
+msgid ""
+"<span attrs=\"{'invisible': [('record_count', '&lt;=', 1)]}\">\n"
+"                                        Products\n"
+"                                    </span>\n"
+"                                    <span attrs=\"{'invisible': [('record_count', '&gt;', 1)]}\">\n"
+"                                        Product\n"
+"                                    </span>"
+msgstr ""
+"<span attrs=\"{'invisible': [('record_count', '&lt;=', 1)]}\">\n"
+"                                        Produtos\n"
+"                                    </span>\n"
+"                                    <span attrs=\"{'invisible': [('record_count', '&gt;', 1)]}\">\n"
+"                                        Produto\n"
+"                                    </span>"
 
 #. module: product_assortment
-#: model:res.groups,comment:product_assortment.group_product_assortment_manager
-msgid "Access to all product assortment"
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:product_assortment.view_partner_form
+msgid "<span class=\"o_stat_text\">Product Assortments</span>"
+msgstr "<span class=\"o_stat_text\">Fornecido de produtos</span>"
 
 #. module: product_assortment
 #: model:ir.model.fields,field_description:product_assortment.field_ir_filters__all_partner_ids
@@ -51,12 +63,17 @@ msgstr "Produtos permitidos"
 #: model:ir.model.fields,field_description:product_assortment.field_res_partner__applied_assortment_ids
 #: model:ir.model.fields,field_description:product_assortment.field_res_users__applied_assortment_ids
 msgid "Applied Assortment"
-msgstr "Variedade Aplicada"
+msgstr ""
 
 #. module: product_assortment
 #: model:ir.model.fields,field_description:product_assortment.field_ir_filters__apply_black_list_product_domain
 msgid "Apply restricted product domain"
 msgstr "Aplicar dominio de produtos restrinxidos"
+
+#. module: product_assortment
+#: model_terms:ir.ui.view,arch_db:product_assortment.product_assortment_view_form
+msgid "Archived"
+msgstr "Arquivado"
 
 #. module: product_assortment
 #: model_terms:ir.ui.view,arch_db:product_assortment.product_assortment_view_form
@@ -106,7 +123,7 @@ msgid "Partners to apply"
 msgstr "Contactos aos que aplica"
 
 #. module: product_assortment
-#: model_terms:ir.ui.view,arch_db:product_assortment.product_assortment_view_form
+#: model_terms:ir.ui.view,arch_db:product_assortment.product_product_view_tree
 msgid "Product"
 msgstr "Produto"
 
@@ -116,11 +133,6 @@ msgid "Product Assortment"
 msgstr "Fornecido de produto"
 
 #. module: product_assortment
-#: model:res.groups,name:product_assortment.group_product_assortment_manager
-msgid "Product Assortment Manager"
-msgstr ""
-
-#. module: product_assortment
 #: model:ir.actions.act_window,name:product_assortment.actions_product_assortment_view
 msgid "Product assortment"
 msgstr "Fornecido de produto"
@@ -128,11 +140,11 @@ msgstr "Fornecido de produto"
 #. module: product_assortment
 #: model:ir.actions.server,name:product_assortment.action_product_assortment_recompute_all_partners
 #: model:ir.cron,cron_name:product_assortment.ir_cron_product_assortment_recompute_all_partners
-#: model:ir.cron,name:product_assortment.ir_cron_product_assortment_recompute_all_partners
 msgid "Product assortment recompute all partbers"
-msgstr "A variedade de produtos recalcula todos os compoñentes"
+msgstr ""
 
 #. module: product_assortment
+#. odoo-python
 #: code:addons/product_assortment/models/ir_filters.py:0
 #, python-format
 msgid "Products"
@@ -154,11 +166,6 @@ msgid "Record Count"
 msgstr "Número de rexistros"
 
 #. module: product_assortment
-#: model:ir.model,name:product_assortment.model_ir_rule
-msgid "Record Rule"
-msgstr ""
-
-#. module: product_assortment
 #: model:ir.model.fields,field_description:product_assortment.field_ir_filters__black_list_product_domain
 #: model_terms:ir.ui.view,arch_db:product_assortment.product_assortment_view_form
 msgid "Restricted product domain"
@@ -176,3 +183,6 @@ msgstr "Este campo permite relacionar un contacto cun dominio de produtos"
 
 #~ msgid "Product assortment reset cache"
 #~ msgstr "Restablecer cache de variedade de produto"
+
+#~ msgid "<span class=\"o_stat_text\">Products</span>"
+#~ msgstr "<span class=\"o_stat_text\">Produtos</span>"

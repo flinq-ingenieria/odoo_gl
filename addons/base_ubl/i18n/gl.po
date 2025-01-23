@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 19:35\n"
-"PO-Revision-Date: 2024-11-08 19:35\n"
+"POT-Creation-Date: 2025-01-21 22:08\n"
+"PO-Revision-Date: 2025-01-21 22:08\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -23,30 +23,28 @@ msgid "Common methods to generate and parse UBL XML files"
 msgstr "Métodos habituais para xerar e analizar arquivos XML UBL"
 
 #. module: base_ubl
+#. odoo-python
 #: code:addons/base_ubl/models/ubl.py:0
 #, python-format
-msgid "Missing UNECE Tax Category on tax '%s'"
-msgstr "Falta a categoría fiscal da UNECE (CEPE) no imposto \"%s\""
+msgid "Missing UNECE Tax Category on tax '%(tax_name)s'"
+msgstr "Falta a categoría fiscal da UNECE (CEPE) no imposto '%(tax_name)s'"
 
 #. module: base_ubl
+#. odoo-python
 #: code:addons/base_ubl/models/ubl.py:0
 #, python-format
-msgid "Missing UNECE Tax Type on tax '%s'"
-msgstr "Falta o tipo de imposto da UNECE (CEPE) no imposto '%s'"
+msgid "Missing UNECE Tax Type on tax '%(tax_name)s'"
+msgstr "Falta o tipo de imposto UNECE no imposto '%(tax_name)s'"
 
 #. module: base_ubl
+#. odoo-python
 #: code:addons/base_ubl/models/ubl.py:0
 #, python-format
 msgid "Missing UNECE code on unit of measure '%s'"
 msgstr "Falta o código UNECE na unidade de medida '%s'"
 
 #. module: base_ubl
-#: code:addons/base_ubl/models/ubl.py:0
-#, python-format
-msgid "Missing company!"
-msgstr "Falta a compañía!"
-
-#. module: base_ubl
+#. odoo-python
 #: code:addons/base_ubl/models/ubl.py:0
 #, python-format
 msgid ""
@@ -57,13 +55,15 @@ msgstr ""
 "esquema."
 
 #. module: base_ubl
+#. odoo-python
 #: code:addons/base_ubl/models/ubl.py:0
 #, python-format
 msgid ""
 "The UBL XML file is not valid against the official XML Schema Definition. "
 "The XML file and the full error have been written in the server logs. Here "
-"is the error, which may give you an idea on the cause of the problem : %s."
+"is the error, which may give you an idea on the cause of the problem : "
+"%(error)s."
 msgstr ""
-"O arquivo XML UBL non é válido para a definición oficial do esquema XML. O "
-"arquivo XML e o erro completo escribíronse nos rexistros do servidor. Aquí "
-"está o erro, que pode darlle unha idea sobre a causa do problema : %s."
+"O arquivo UBL XML non é válido fronte á definición de esquema XML oficial. O"
+" arquivo XML e o erro completo escribíronse nos rexistros do servidor. Aquí "
+"está o erro, que pode darlle unha idea da causa do problema: %(error)s."

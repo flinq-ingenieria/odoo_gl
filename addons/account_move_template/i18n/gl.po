@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 03:24\n"
-"PO-Revision-Date: 2024-11-08 03:24\n"
+"POT-Creation-Date: 2025-01-22 08:02\n"
+"PO-Revision-Date: 2025-01-22 08:02\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: account_move_template
@@ -35,10 +36,16 @@ msgstr ""
 "        "
 
 #. module: account_move_template
+#. odoo-python
 #: code:addons/account_move_template/models/account_move_template.py:0
 #, python-format
 msgid "%s (copy)"
 msgstr "%s(copia)"
+
+#. module: account_move_template
+#: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_line_form
+msgid "&gt;"
+msgstr "&gt;"
 
 #. module: account_move_template
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_line_form
@@ -53,8 +60,8 @@ msgstr "Conta"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__opt_account_id
-msgid "Account Opt."
-msgstr "Conta Op."
+msgid "Account if Negative"
+msgstr "Conta se é Negativa"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template__active
@@ -63,31 +70,26 @@ msgstr "Activo"
 
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__amount
-#: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_line_form
 msgid "Amount"
 msgstr "Importe"
 
 #. module: account_move_template
-#: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_line_form
+#: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__analytic_distribution
+#: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__analytic_distribution
 msgid "Analytic"
 msgstr "Analítica"
 
 #. module: account_move_template
-#: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__analytic_account_id
-#: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__analytic_account_id
-msgid "Analytic Account"
-msgstr "Conta analítica"
+#: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__analytic_distribution_search
+#: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__analytic_distribution_search
+msgid "Analytic Distribution Search"
+msgstr "Procura de Distribución Analítica"
 
 #. module: account_move_template
-#: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__analytic_tag_ids
-#: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__analytic_tag_ids
-msgid "Analytic Tags"
-msgstr "Etiquetas analíticas"
-
-#. module: account_move_template
-#: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_form
-msgid "Archive"
-msgstr "Arquivar"
+#: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__analytic_precision
+#: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__analytic_precision
+msgid "Analytic Precision"
+msgstr "Precisión Analítica"
 
 #. module: account_move_template
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_form
@@ -113,11 +115,6 @@ msgstr "Compañía"
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__company_currency_id
 msgid "Company Currency"
 msgstr "Moeda a compañía"
-
-#. module: account_move_template
-#: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_line_form
-msgid "Compute Formula"
-msgstr "Calcular fórmula"
 
 #. module: account_move_template
 #: model:ir.model.fields.selection,name:account_move_template.selection__account_move_template_line__type__computed
@@ -169,6 +166,7 @@ msgid "Debit"
 msgstr "Débito"
 
 #. module: account_move_template
+#. odoo-python
 #: code:addons/account_move_template/wizard/account_move_template_run.py:0
 #, python-format
 msgid "Debit and credit of all lines are null."
@@ -189,10 +187,16 @@ msgid "Display Name"
 msgstr "Nome mostrado"
 
 #. module: account_move_template
+#. odoo-python
 #: code:addons/account_move_template/wizard/account_move_template_run.py:0
 #, python-format
 msgid "Entry from template %s"
 msgstr "Asento desde modelo %s"
+
+#. module: account_move_template
+#: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__python_code
+msgid "Formula"
+msgstr "Fórmula"
 
 #. module: account_move_template
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_form
@@ -208,6 +212,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: account_move_template
+#. odoo-python
 #: code:addons/account_move_template/models/account_move_template.py:0
 #, python-format
 msgid ""
@@ -220,6 +225,7 @@ msgstr ""
 "teñan unha secuencia inferior á liña actual."
 
 #. module: account_move_template
+#. odoo-python
 #: code:addons/account_move_template/models/account_move_template.py:0
 #, python-format
 msgid ""
@@ -230,6 +236,7 @@ msgstr ""
 "%(code)s): a sintaxe da fórmula é incorrecta."
 
 #. module: account_move_template
+#. odoo-python
 #: code:addons/account_move_template/wizard/account_move_template_run.py:0
 #, python-format
 msgid ""
@@ -277,10 +284,11 @@ msgid "Journal Item Template"
 msgstr "Modelo de asento"
 
 #. module: account_move_template
+#. odoo-python
 #: code:addons/account_move_template/wizard/account_move_template_run.py:0
 #, python-format
-msgid "Keys must be line sequence, i..e, L1, L2, ..."
-msgstr "As claves deben ser unha liña de secuencia, p.e.: L1, L2, ..."
+msgid "Keys must be line sequence i.e. L1, L2, ..."
+msgstr "As claves deben ser secuencia de liña é dicir, L1, L2, ..."
 
 #. module: account_move_template
 #: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_line_form
@@ -371,6 +379,7 @@ msgid "Overwrite"
 msgstr "Sobreescribir"
 
 #. module: account_move_template
+#. odoo-python
 #: code:addons/account_move_template/wizard/account_move_template_run.py:0
 #, python-format
 msgid "Overwrite value must be a valid python dict"
@@ -389,11 +398,7 @@ msgid "Payment Terms"
 msgstr "Termos de pago"
 
 #. module: account_move_template
-#: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__python_code
-msgid "Python Code"
-msgstr "Código Python"
-
-#. module: account_move_template
+#. odoo-python
 #: code:addons/account_move_template/models/account_move_template.py:0
 #, python-format
 msgid "Python Code must be set for computed line with sequence %d."
@@ -406,11 +411,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_run__ref
 msgid "Reference"
 msgstr "Referencia"
-
-#. module: account_move_template
-#: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_form
-msgid "Restore"
-msgstr "Reestablecer"
 
 #. module: account_move_template
 #: model:ir.model.fields.selection,name:account_move_template.selection__account_move_template_run__state__select_template
@@ -442,7 +442,6 @@ msgstr "Liña de distribución de impostos"
 #. module: account_move_template
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line__tax_ids
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_line_run__tax_ids
-#: model_terms:ir.ui.view,arch_db:account_move_template.account_move_template_line_form
 msgid "Taxes"
 msgstr "Impostos"
 
@@ -450,16 +449,6 @@ msgstr "Impostos"
 #: model:ir.model.fields,field_description:account_move_template.field_account_move_template_run__template_id
 msgid "Template"
 msgstr "Modelo"
-
-#. module: account_move_template
-#: code:addons/account_move_template/wizard/account_move_template_run.py:0
-#, python-format
-msgid ""
-"The selected template (%(template)s) is not in the same company "
-"(%(company)s) as the current user (%(user_company)s)."
-msgstr ""
-"O modelo seleccionado (%(template)s) non está na mesma empresa (%(company)s)"
-" que o usuario actual (%(user_company)s)."
 
 #. module: account_move_template
 #: model:ir.model.constraint,message:account_move_template.constraint_account_move_template_line_sequence_template_uniq
@@ -487,6 +476,7 @@ msgid "User input"
 msgstr "Introdución de usuario"
 
 #. module: account_move_template
+#. odoo-python
 #: code:addons/account_move_template/wizard/account_move_template_run.py:0
 #, python-format
 msgid "Valid fields to overwrite are %s"
@@ -513,6 +503,7 @@ msgid "Wizard to generate move from template"
 msgstr "Asistente para xerar un asento a partir dun modelo"
 
 #. module: account_move_template
+#. odoo-python
 #: code:addons/account_move_template/models/account_move_template.py:0
 #, python-format
 msgid ""
@@ -534,6 +525,7 @@ msgstr ""
 "exemplo: <i>L1</i> para a liña con secuencia 1. Exemplos:"
 
 #. module: account_move_template
+#. odoo-python
 #: code:addons/account_move_template/models/account_move_template.py:0
 #, python-format
 msgid ""
@@ -544,6 +536,25 @@ msgstr ""
 "Eliminou unha liña no asistente. Isto non está permitido: debe ou ben "
 "actualizar o modelo ou modificar o asento que será xerado por este "
 "asistente."
+
+#~ msgid "Account Opt."
+#~ msgstr "Conta Op."
+
+#, python-format
+#~ msgid "Keys must be line sequence, i..e, L1, L2, ..."
+#~ msgstr "As claves deben ser unha liña de secuencia, p.e.: L1, L2, ..."
+
+#~ msgid "Analytic Account"
+#~ msgstr "Conta analítica"
+
+#~ msgid "Analytic Tags"
+#~ msgstr "Etiquetas analíticas"
+
+#~ msgid "Archive"
+#~ msgstr "Arquivar"
+
+#~ msgid "Compute Formula"
+#~ msgstr "Calcular fórmula"
 
 #, python-format
 #~ msgid ""
@@ -570,6 +581,12 @@ msgstr ""
 #~ msgstr ""
 #~ "Dicionario inválido: {}\n"
 #~ "{}"
+
+#~ msgid "Python Code"
+#~ msgstr "Código Python"
+
+#~ msgid "Restore"
+#~ msgstr "Reestablecer"
 
 #, python-format
 #~ msgid ""

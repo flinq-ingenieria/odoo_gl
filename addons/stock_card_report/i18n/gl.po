@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 07:59\n"
-"PO-Revision-Date: 2024-11-08 07:59\n"
+"POT-Creation-Date: 2025-01-22 06:55\n"
+"PO-Revision-Date: 2025-01-22 06:55\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -94,7 +94,7 @@ msgstr "Data Fin"
 #. module: stock_card_report
 #: model_terms:ir.ui.view,arch_db:stock_card_report.stock_card_report_wizard_form
 msgid "Export PDF"
-msgstr "Exportar a PDF"
+msgstr "Exportar PDF"
 
 #. module: stock_card_report
 #: model_terms:ir.ui.view,arch_db:stock_card_report.stock_card_report_wizard_form
@@ -106,7 +106,7 @@ msgstr "Exportar XLSX"
 #: model:ir.model.fields,field_description:stock_card_report.field_stock_card_report_wizard__id
 #: model:ir.model.fields,field_description:stock_card_report.field_stock_card_view__id
 msgid "ID"
-msgstr "ID (identificación)"
+msgstr "ID"
 
 #. module: stock_card_report
 #: model_terms:ir.ui.view,arch_db:stock_card_report.report_stock_card_lines_header
@@ -128,21 +128,21 @@ msgstr "É Inicial"
 #: model:ir.model.fields,field_description:stock_card_report.field_stock_card_report_wizard____last_update
 #: model:ir.model.fields,field_description:stock_card_report.field_stock_card_view____last_update
 msgid "Last Modified on"
-msgstr "Última Modifiación o"
+msgstr "Última Modificación o"
 
 #. module: stock_card_report
 #: model:ir.model.fields,field_description:stock_card_report.field_report_stock_card_report__write_uid
 #: model:ir.model.fields,field_description:stock_card_report.field_stock_card_report_wizard__write_uid
 #: model:ir.model.fields,field_description:stock_card_report.field_stock_card_view__write_uid
 msgid "Last Updated by"
-msgstr "Actualizado por Última vez por"
+msgstr "Última modificación por"
 
 #. module: stock_card_report
 #: model:ir.model.fields,field_description:stock_card_report.field_report_stock_card_report__write_date
 #: model:ir.model.fields,field_description:stock_card_report.field_stock_card_report_wizard__write_date
 #: model:ir.model.fields,field_description:stock_card_report.field_stock_card_view__write_date
 msgid "Last Updated on"
-msgstr "Ultima Actualización o"
+msgstr "Última Actualización o"
 
 #. module: stock_card_report
 #: model:ir.model.fields,field_description:stock_card_report.field_report_stock_card_report__location_id
@@ -160,7 +160,7 @@ msgstr "Localización Destino"
 #. module: stock_card_report
 #: model_terms:ir.ui.view,arch_db:stock_card_report.report_stock_card_lines_header
 msgid "Out"
-msgstr "Fóra"
+msgstr "Saída"
 
 #. module: stock_card_report
 #: model:ir.model.fields,field_description:stock_card_report.field_stock_card_report_wizard__date_range_id
@@ -181,22 +181,22 @@ msgstr "Produto"
 #. module: stock_card_report
 #: model:ir.model.fields,field_description:stock_card_report.field_stock_card_view__product_in
 msgid "Product In"
-msgstr "Produto En"
+msgstr "Entrada de produto"
 
 #. module: stock_card_report
 #: model:ir.model.fields,field_description:stock_card_report.field_stock_card_view__product_out
 msgid "Product Out"
-msgstr "Produto Fóra"
+msgstr "Saída de produto"
 
 #. module: stock_card_report
 #: model:ir.model.fields,field_description:stock_card_report.field_stock_card_view__product_qty
 msgid "Product Qty"
-msgstr "Cantd de Produto"
+msgstr "Cantidade"
 
 #. module: stock_card_report
 #: model:ir.model.fields,field_description:stock_card_report.field_stock_card_view__product_uom
 msgid "Product Uom"
-msgstr "Udm do Produto"
+msgstr "UdM do Produto"
 
 #. module: stock_card_report
 #: model:ir.model.fields,field_description:stock_card_report.field_stock_card_view__product_uom_qty
@@ -222,7 +222,7 @@ msgstr "Resultados"
 #. module: stock_card_report
 #: model:ir.model.fields,field_description:stock_card_report.field_stock_card_report_wizard__date_from
 msgid "Start Date"
-msgstr "data de Inicio"
+msgstr "data de inicio"
 
 #. module: stock_card_report
 #: model:ir.actions.act_window,name:stock_card_report.stock_card_report_action
@@ -275,7 +275,7 @@ msgstr ""
 #. module: stock_card_report
 #: model_terms:ir.ui.view,arch_db:stock_card_report.stock_card_report_wizard_form
 msgid "View"
-msgstr "Vista"
+msgstr "Ver"
 
 #. module: stock_card_report
 #: model_terms:ir.ui.view,arch_db:stock_card_report.stock_card_report_wizard_form

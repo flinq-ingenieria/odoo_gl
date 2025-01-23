@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 09:11\n"
-"PO-Revision-Date: 2024-11-08 09:11\n"
+"POT-Creation-Date: 2025-01-22 06:58\n"
+"PO-Revision-Date: 2025-01-22 06:58\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -105,10 +105,11 @@ msgid "Name"
 msgstr "Nome"
 
 #. module: fieldservice_size
+#. odoo-python
 #: code:addons/fieldservice_size/models/fsm_size.py:0
 #, python-format
 msgid "Only one default order size per type is allowed."
-msgstr "Só se permite un tamaño de pedido por defecto por tipo."
+msgstr "Só se permite por defecto un tamaño de pedido por tipo."
 
 #. module: fieldservice_size
 #: model:ir.model.constraint,message:fieldservice_size.constraint_fsm_location_size_one_size_per_location

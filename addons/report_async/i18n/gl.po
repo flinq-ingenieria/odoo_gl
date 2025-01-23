@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 04:24\n"
-"PO-Revision-Date: 2024-11-08 04:24\n"
+"POT-Creation-Date: 2025-01-22 02:12\n"
+"PO-Revision-Date: 2025-01-22 02:12\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:29\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: report_async
@@ -34,13 +35,13 @@ msgid ""
 "                                    % set download_url = '%s/web/content/ir.attachment/%s/datas/%s?download=true' % (base_url, object.id, object.name, )\n"
 "                                    <div>\n"
 "                                        Dear ${object.create_uid.partner_id.name or ''},\n"
-"                                        <br/><br/>\n"
+"                                        <br><br>\n"
 "                                        Your requested report, ${object.name}, is available for <b>\n"
-"                                                            <a href=\"${download_url}\">download</a>\n"
+"                                                            <a href=\"%24%7Bdownload_url%7D\">download</a>\n"
 "                                                        </b>.\n"
-"                                        <br/><br/>\n"
-"                                        Have a nice day!<br/>\n"
-"                                        --<br/>${object.company_id.name}\n"
+"                                        <br><br>\n"
+"                                        Have a nice day!<br>\n"
+"                                        --<br>${object.company_id.name}\n"
 "                                    </div>\n"
 "                                </td>\n"
 "                                            </tr>\n"
@@ -67,14 +68,14 @@ msgstr ""
 "                                    % set basee_url = object.env['ir.config_parameter'].súo().get_param('web.base.url')\n"
 "                                    % set download_url = '%s/web/content/ir.attachment/%s/datas/%s?download=true' % (basee_url, object.ide, object.name, )\n"
 "                                    <div>\n"
-"                                        Estimado/a ${object.create_uid.partner_ide.name or ''},\n"
-"                                        <br/><br/>\n"
-"                                        O seu informe solicitado, ${object.name}, está dispoñible para <b>\n"
-"                                                            <a href=\"${download_url}\">descargar</a>\n"
+"                                        Estimado ${object.create_uid.partner_ide.name or ''},\n"
+"                                        <br><br>\n"
+"                                        O seu informe solicitado, ${object.name}, está dispoñible para<b>\n"
+"                                                            <a href=\"%24%7Bdownload_url%7D\">descargar</a>\n"
 "                                                        </b>.\n"
-"                                        <br/><br/>\n"
-"                                        Teña un bo día!<br/>\n"
-"                                        --<br/>${object.company_ide.name}\n"
+"                                        <br><br>\n"
+"                                        Que teña un bo día!<br>\n"
+"                                        --<br>${object.company_ide.name}\n"
 "                                    </div>\n"
 "                                </td>\n"
 "                                            </tr>\n"
@@ -91,7 +92,7 @@ msgstr ""
 #. module: report_async
 #: model:ir.model,name:report_async.model_ir_actions_act_window
 msgid "Action Window"
-msgstr "Acción de xanela"
+msgstr "Xanela de acción"
 
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_report_async__allow_async
@@ -99,6 +100,7 @@ msgid "Allow Async"
 msgstr "Permitir Async"
 
 #. module: report_async
+#. odoo-python
 #: code:addons/report_async/models/report_async.py:0
 #, python-format
 msgid "Background process not allowed."
@@ -125,7 +127,7 @@ msgstr "Creado o"
 #: model:ir.model.fields,field_description:report_async.field_print_report_wizard__display_name
 #: model:ir.model.fields,field_description:report_async.field_report_async__display_name
 msgid "Display Name"
-msgstr "Nome a mostrar"
+msgstr "Mostrar Nome"
 
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_print_report_wizard__reference
@@ -135,7 +137,7 @@ msgstr "Documento"
 #. module: report_async
 #: model:ir.model.fields.selection,name:report_async.selection__report_async__job_status__done
 msgid "Done"
-msgstr "feito"
+msgstr "Feito"
 
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_report_async__email_notify
@@ -145,7 +147,7 @@ msgstr "Notificación de correo electrónico"
 #. module: report_async
 #: model:ir.model.fields.selection,name:report_async.selection__report_async__job_status__enqueued
 msgid "Enqueued"
-msgstr "En Cola"
+msgstr "Na cola"
 
 #. module: report_async
 #: model_terms:ir.ui.view,arch_db:report_async.print_report_wizard
@@ -160,13 +162,13 @@ msgstr "Errado"
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_report_async__file_ids
 msgid "File"
-msgstr "arquivo"
+msgstr "Ficheiro"
 
 #. module: report_async
 #: model_terms:ir.ui.view,arch_db:report_async.view_report_async_form
 #: model_terms:ir.ui.view,arch_db:report_async.view_report_async_tree
 msgid "Files"
-msgstr "arquivos"
+msgstr "Ficheiros"
 
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_report_async__group_ids
@@ -182,7 +184,7 @@ msgstr "ID (identificación)"
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_report_async__job_ids
 msgid "Job"
-msgstr "traballo"
+msgstr "Traballo"
 
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_report_async__job_info
@@ -203,7 +205,7 @@ msgstr "Traballos"
 #: model:ir.model.fields,field_description:report_async.field_print_report_wizard____last_update
 #: model:ir.model.fields,field_description:report_async.field_report_async____last_update
 msgid "Last Modified on"
-msgstr "modificado por última vez o"
+msgstr "Última Modificación o"
 
 #. module: report_async
 #: model_terms:ir.ui.view,arch_db:report_async.view_report_async_form
@@ -214,7 +216,7 @@ msgstr "Erro no último traballo executado"
 #: model:ir.model.fields,field_description:report_async.field_print_report_wizard__write_uid
 #: model:ir.model.fields,field_description:report_async.field_report_async__write_uid
 msgid "Last Updated by"
-msgstr "actualizado por última vez por"
+msgstr "Última actualización por"
 
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_print_report_wizard__write_date
@@ -259,7 +261,9 @@ msgstr "Non se atoparon arquivos"
 msgid ""
 "Only user in selected groups can use this report.If left blank, everyone can"
 " use"
-msgstr "Só os usuarios dos grupos seleccionados poden utilizar este informe"
+msgstr ""
+"Só os usuarios de grupos seleccionados poden utilizar este informe. Se se "
+"deixa en branco, todos poden utilizalo"
 
 #. module: report_async
 #: model:ir.model.fields.selection,name:report_async.selection__report_async__job_status__pending
@@ -306,7 +310,7 @@ msgstr "Arquivos de informes"
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_print_report_wizard__action_report_id
 msgid "Report Template"
-msgstr "modelo de informe"
+msgstr "Modelo de informe"
 
 #. module: report_async
 #: model:ir.model.fields,field_description:report_async.field_report_async__action_id

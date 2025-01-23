@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 22:44\n"
-"PO-Revision-Date: 2024-11-07 22:44\n"
+"POT-Creation-Date: 2025-01-21 14:46\n"
+"PO-Revision-Date: 2025-01-21 14:46\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -120,6 +120,7 @@ msgstr ""
 "    "
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/utils/utils.py:0
 #, python-format
 msgid ""
@@ -131,12 +132,14 @@ msgstr ""
 "díxitos decimais. O separador decimal debe ser '.'"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/res_partner.py:0
 #, python-format
 msgid "%s VAT Number"
 msgstr "%s NIF"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/utils/utils.py:0
 #, python-format
 msgid "%s value must be a positive percentage."
@@ -249,6 +252,7 @@ msgid "Company"
 msgstr "Compañía"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/res_company.py:0
 #, python-format
 msgid ""
@@ -259,12 +263,14 @@ msgstr ""
 "ter un máximo de 30 caracteres!"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/res_company.py:0
 #, python-format
 msgid "Company %s TicketBAI Certificate is required."
 msgstr "O certificado de TicketBAI na compañía %s é requirido."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/res_company.py:0
 #, python-format
 msgid "Company %s TicketBAI Tax Agency is required."
@@ -351,6 +357,7 @@ msgid "Developer"
 msgstr "Entidade desarrolladora"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_installation.py:0
 #: model:ir.model.constraint,message:l10n_es_ticketbai_api.constraint_tbai_installation_developer_ref_uniq
 #, python-format
@@ -488,6 +495,7 @@ msgid "Identification Type Code"
 msgstr "Tipo de identificación"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/utils/utils.py:0
 #, python-format
 msgid "Invalid %(field)s format '%(value)s'."
@@ -575,6 +583,7 @@ msgid "License Key"
 msgstr "Licenza TBAI"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_installation.py:0
 #: model:ir.model.constraint,message:l10n_es_ticketbai_api.constraint_tbai_installation_license_ref_uniq
 #, python-format
@@ -652,6 +661,7 @@ msgid "P12 Certificate"
 msgstr "Certificado P12"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/res_partner.py:0
 #, python-format
 msgid ""
@@ -783,6 +793,7 @@ msgid "Residence certificate"
 msgstr "Certificado de residencia"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid "Response"
@@ -857,6 +868,7 @@ msgid "Software Name"
 msgstr "Nome do software"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_installation.py:0
 #: model:ir.model.constraint,message:l10n_es_ticketbai_api.constraint_tbai_installation_name_ref_uniq
 #, python-format
@@ -969,6 +981,7 @@ msgid "Tax Agency name"
 msgstr "Facenda"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/res_company.py:0
 #, python-format
 msgid "Tax agency cannot be modified after a TicketBAI invoice has been sent."
@@ -1034,6 +1047,7 @@ msgid "Test QR Base URL"
 msgstr "URL basee do QR test"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid "The Company %s VAT Number is required."
@@ -1042,13 +1056,16 @@ msgstr "A compañía %s debe ter establecido un NIF válido."
 #. module: l10n_es_ticketbai_api
 #: model:ir.model.fields,help:l10n_es_ticketbai_api.field_tbai_installation__vat
 msgid ""
-"The Tax Identification Number. Complete it if the contact is subjected to "
-"government taxes. Used in some legal statements."
+"The Tax Identification Number. Values here will be validated based on the "
+"country format. You can use '/' to indicate that the partner is not subject "
+"to tax."
 msgstr ""
-"O número de identificación de imposto. Compléteo se o contacto está suxeito "
-"aos impostos do goberno. Utilizado nalgunhas declaracións legais."
+"O número de identificación fiscal. Os valores aquí validaranse en función do"
+" formato do país. Pode utilizar '/' para indicar que o socio non está "
+"suxeito a impostos."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/res_partner.py:0
 #, python-format
 msgid "The invoice customer %s does not have a valid country assigned."
@@ -1069,7 +1086,6 @@ msgstr "TicketBAI"
 #. module: l10n_es_ticketbai_api
 #: model:ir.actions.server,name:l10n_es_ticketbai_api.ir_cron_l10n_es_ticketbai_send_pending_invoices_ir_actions_server
 #: model:ir.cron,cron_name:l10n_es_ticketbai_api.ir_cron_l10n_es_ticketbai_send_pending_invoices
-#: model:ir.cron,name:l10n_es_ticketbai_api.ir_cron_l10n_es_ticketbai_send_pending_invoices
 msgid "TicketBAI - Send pending invoices"
 msgstr "TicketBAI - Enviar facturas pendentes"
 
@@ -1079,6 +1095,7 @@ msgid "TicketBAI API URL"
 msgstr "TicketBAI API URL"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_response.py:0
 #, python-format
 msgid "TicketBAI API required fields missing."
@@ -1098,6 +1115,7 @@ msgid "TicketBAI Certificates"
 msgstr "TicketBAI Certificados"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/res_company.py:0
 #, python-format
 msgid ""
@@ -1108,6 +1126,7 @@ msgstr ""
 "TicketBAI %s é requirido."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_installation.py:0
 #, python-format
 msgid "TicketBAI Developer is required."
@@ -1128,16 +1147,18 @@ msgid "TicketBAI Installations"
 msgstr "TicketBAI Instalacións"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
 "TicketBAI Invoice %(name)s:\n"
 " Refunded Invoice %(number)s Expedition Date"
 msgstr ""
-"TicketBAI Factura %(name)s:\n"
-"Factura rectificada ou substituída %(number)s data de expedición"
+"Factura TicketBAI %(name)s:\n"
+" Factura reembolsada %(number)s Data de expedición"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1148,6 +1169,7 @@ msgstr ""
 "A dirección de %(customer)s é requirida para a Facenda %(agency)s!"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_customer.py:0
 #, python-format
 msgid ""
@@ -1158,6 +1180,7 @@ msgstr ""
 "Cliente %(customer)s coa dirección %(address)s máis longo do esperado. Debería ter un máximo de 250 caracteres!"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_customer.py:0
 #, python-format
 msgid ""
@@ -1168,6 +1191,7 @@ msgstr ""
 "Cliente %(customer)s con número de identificación %(id)s máis longo do esperado. Debería ter un máximo de 20 caracteres!"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_customer.py:0
 #, python-format
 msgid ""
@@ -1178,6 +1202,7 @@ msgstr ""
 "Cliente %(customer)s número de identificación é requirido para clientes non españois."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_customer.py:0
 #, python-format
 msgid ""
@@ -1188,6 +1213,7 @@ msgstr ""
 "Cliente %(customer)s NIF ou número de identificación é requirido para clientes non españois."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_customer.py:0
 #, python-format
 msgid ""
@@ -1198,6 +1224,7 @@ msgstr ""
 "Cliente %(customer)s código postal %(zip)s máis longo do esperado. Debería ter un máximo de 20 caracteres!"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_customer.py:0
 #, python-format
 msgid ""
@@ -1208,6 +1235,7 @@ msgstr ""
 "Nome de cliente %(customer)s máis longo do esperado. Debería ter un máximo de 120 caracteres!"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_line.py:0
 #, python-format
 msgid ""
@@ -1218,6 +1246,7 @@ msgstr ""
 "Descrición %(desc)s máis longo do esperado. Debería ter un máximo de 250 caracteres!"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1228,6 +1257,7 @@ msgstr ""
 "Detalles factura é requirido para a Facenda %(agency)s!"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1238,6 +1268,7 @@ msgstr ""
 "Factura reembolsada %(number)s Número de prefixo %(prefix)s máis longo do esperado. Debe ter 20 caracteres como máximo!"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1248,6 +1279,7 @@ msgstr ""
 "Número factura rectificada ou substituída %(number)s máis longo do esperado. Debería ter un máximo de 20 caracteres!"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1258,6 +1290,7 @@ msgstr ""
 "Identificador TicketBAI %(id)s debería ter %(len)d caracteres con CRC-8!"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1268,6 +1301,7 @@ msgstr ""
 "Identificador TicketBAI sen CRC-8 %(id)s debería ter %(len)d caracteres!"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_tax.py:0
 #, python-format
 msgid ""
@@ -1278,6 +1312,7 @@ msgstr ""
 "Operación en recarga de equivalencia ou réxime simplificado debería ser '%(val)s'."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1288,46 +1323,53 @@ msgstr ""
 "Código postal para %(customer)s é requirido pola Facenda %(agency)s!"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_customer.py:0
 #, python-format
 msgid ""
 "TicketBAI Invoice %(name)s: Customer %(customer)s Country Code %(country)s "
 "not valid."
 msgstr ""
-"TicketBAI Factura %(name)s: TicketBAI Factura %(name)s: Cliente %(customer)s"
-" con código de país %(country)s non válido."
+"TicketBAI Factura %(name)s: Cliente %(customer)s Código de país %(country)s "
+"non válido."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_customer.py:0
 #, python-format
 msgid "TicketBAI Invoice %(name)s: Customer %(customer)s NIF"
 msgstr "TicketBAI Factura %(name)s: Cliente %(customer)s NIF"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_line.py:0
 #, python-format
 msgid "TicketBAI Invoice %(name)s: Line %(desc)s Amount Total"
 msgstr "TicketBAI Factura %(name)s: Liña %(desc)s importe total"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_line.py:0
 #, python-format
 msgid "TicketBAI Invoice %(name)s: Line %(desc)s Discount Amount"
 msgstr "TicketBAI Factura %(name)s: Liña %(desc)s importe desconto"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_line.py:0
 #, python-format
 msgid "TicketBAI Invoice %(name)s: Line %(desc)s Price Unit"
 msgstr "TicketBAI Factura %(name)s: Liña %(desc)s prezo unidade"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_line.py:0
 #, python-format
 msgid "TicketBAI Invoice %(name)s: Line %(desc)s Quantity"
 msgstr "TicketBAI Factura %(name)s: Liña %(desc)s cantidade"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1338,6 +1380,7 @@ msgstr ""
 "A descrición da factura é requirida."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1348,6 +1391,7 @@ msgstr ""
 "Retención soportada"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1358,6 +1402,7 @@ msgstr ""
 "Cota rectificada de factura substituída"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1368,6 +1413,7 @@ msgstr ""
 "Todos os destinatarios deben pertencer ao mesmo país."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1378,6 +1424,7 @@ msgstr ""
 "Xa existe unha factura TicketBAI co mesmo ligazón á factura TicketBAI previa."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1388,6 +1435,7 @@ msgstr ""
 "Serie factura máis longo do esperado. Debería ter un máximo de 20 caracteres!"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1398,6 +1446,7 @@ msgstr ""
 "Número factura máis longo do esperado. Debería ter un máximo de 20 caracteres!"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1408,6 +1457,7 @@ msgstr ""
 "Código factura rectificativa é requirido."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1418,6 +1468,7 @@ msgstr ""
 "Descrición factura máis longa do esperado. Debería ter un máximo de 250 caracteres!"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1428,6 +1479,7 @@ msgstr ""
 "Só se permite un máximo de 100 destinatarios por factura!"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1438,6 +1490,7 @@ msgstr ""
 "Só se permite un máximo de 1000 liñas/detalles por factura."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1448,6 +1501,7 @@ msgstr ""
 "Firma da factura anterior é requirida."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_customer.py:0
 #, python-format
 msgid ""
@@ -1458,6 +1512,7 @@ msgstr ""
 "NIF ou número de identificación é requirido para clientes non españois."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1468,6 +1523,7 @@ msgstr ""
 "Cota rectificada de factura substituída é requirida."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1478,6 +1534,7 @@ msgstr ""
 "Base rectificada de factura substituída"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -1488,30 +1545,35 @@ msgstr ""
 "Base rectificada de factura substituída é requirida."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: Amount Total"
 msgstr "TicketBAI Factura %s: Importe total"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_tax.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: Exempted taxes are Subject to taxes."
 msgstr "TicketBAI Factura %s: Os impostos exentos son suxeitos."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: Expedition Date"
 msgstr "TicketBAI Factura %s: Data expedición"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: Expedition Hour"
 msgstr "TicketBAI Factura %s: Hora expedición"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: Max. number of exempted taxes is 7!"
@@ -1519,6 +1581,7 @@ msgstr ""
 "TicketBAI Factura %s: O número máximo permitido de impostos exentos é 7!"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: Max. number of not subject to taxes is 2!"
@@ -1527,12 +1590,14 @@ msgstr ""
 "2!"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: Operation Date"
 msgstr "TicketBAI Factura %s: Data operación"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: Refund Code and Type are required."
@@ -1540,78 +1605,91 @@ msgstr ""
 "TicketBAI Factura %s: Código e tipo factura rectificativa son requiridos."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: Second VAT Regime Key not valid."
 msgstr "TicketBAI Factura %s: Segunda clave de réximes de IVE non válida."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_tax.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: Tax Amount (%%)"
 msgstr "TicketBAI Factura %s: Importe de imposto (%%)"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_tax.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: Tax Amount Total"
 msgstr "TicketBAI Factura %s: Importe total imposto"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_tax.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: Tax Base"
 msgstr "TicketBAI Factura %s: Base imposto"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_tax.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: Tax Exempted cause is required."
 msgstr "TicketBAI Factura %s: Causa de exención de imposto é requirido."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_tax.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: Tax Not exempted type is required."
 msgstr "TicketBAI Factura %s: Tipo non exención de imposto é requirido."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_tax.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: Tax Not subject to cause is required."
 msgstr "TicketBAI Factura %s: Causa non suxeición de imposto é requirido."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_tax.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: Tax Surcharge Amount (%%)"
 msgstr "TicketBAI Factura %s: Tipo recargo de equivalencia (%%)"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice_tax.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: Tax Surcharge Amount Total"
 msgstr "TicketBAI Factura %s: Cota recargo de equivalencia"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: Third VAT Regime Key not valid."
 msgstr "TicketBAI Factura %s: Terceira clave de réximes de IVE non válida."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: VAT Regime Key not valid."
 msgstr "TicketBAI Factura %s: Primeira clave de réximes de IVE non válida."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: XML Invoice schema not supported!"
 msgstr "TicketBAI Factura %s: Esquema XML de factura non soportado!"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid "TicketBAI Invoice %s: XML schema not supported!"
@@ -1658,12 +1736,14 @@ msgid "TicketBAI Invoices"
 msgstr "TicketBAI Facturas"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_installation.py:0
 #, python-format
 msgid "TicketBAI License Key is required."
 msgstr "Licenza TicketBAI é necesaria."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_installation.py:0
 #, python-format
 msgid ""
@@ -1684,6 +1764,7 @@ msgid "TicketBAI Refunded Invoices"
 msgstr "TicketBAI Facturas rectificadas"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_installation.py:0
 #, python-format
 msgid "TicketBAI Software Name is required."
@@ -1695,6 +1776,7 @@ msgid "TicketBAI Tax Agency"
 msgstr "TicketBAI Facenda"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_tax_agency.py:0
 #, python-format
 msgid ""
@@ -1705,6 +1787,7 @@ msgstr ""
 "TicketBAI versión %(version)s permite un máximo de 5 caracteres."
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_tax_agency.py:0
 #, python-format
 msgid ""
@@ -1756,6 +1839,7 @@ msgid "URL"
 msgstr "URL"
 
 #. module: l10n_es_ticketbai_api
+#. odoo-python
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_response.py:0
 #, python-format
 msgid "Unknown TicketBAI response code."
@@ -1794,3 +1878,10 @@ msgstr "XML Resposta"
 #: model:ir.model.fields,field_description:l10n_es_ticketbai_api.field_tbai_invoice_customer__zip
 msgid "ZIP Code"
 msgstr "Código postal"
+
+#~ msgid ""
+#~ "The Tax Identification Number. Complete it if the contact is subjected to "
+#~ "government taxes. Used in some legal statements."
+#~ msgstr ""
+#~ "O número de identificación de imposto. Compléteo se o contacto está suxeito "
+#~ "aos impostos do goberno. Utilizado nalgunhas declaracións legais."

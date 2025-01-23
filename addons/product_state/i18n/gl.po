@@ -7,10 +7,10 @@
 # enjolras <yo@miguelrevilla.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 21:41\n"
-"PO-Revision-Date: 2024-11-07 21:41\n"
+"POT-Creation-Date: 2025-01-22 01:01\n"
+"PO-Revision-Date: 2025-01-22 01:01\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -18,6 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:29\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: product_state
@@ -79,7 +80,7 @@ msgstr "Última Modificación o"
 #. module: product_state
 #: model:ir.model.fields,field_description:product_state.field_product_state__write_uid
 msgid "Last Updated by"
-msgstr "Última Actualización por"
+msgstr "Última actualización por"
 
 #. module: product_state
 #: model:ir.model.fields,field_description:product_state.field_product_state__write_date
@@ -107,32 +108,32 @@ msgid "Obsolete"
 msgstr "Obsoleto"
 
 #. module: product_state
+#: model:ir.model,name:product_state.model_product_template
+msgid "Product"
+msgstr "Produto"
+
+#. module: product_state
 #: model:ir.actions.act_window,name:product_state.action_open_single_product_state
 #: model:ir.model,name:product_state.model_product_state
 #: model_terms:ir.ui.view,arch_db:product_state.product_state_search_form_view
 msgid "Product State"
-msgstr "Estado do Produto"
+msgstr "Estado do produto"
 
 #. module: product_state
 #: model:ir.model.constraint,message:product_state.constraint_product_state_code_unique
 msgid "Product State Code must be unique."
-msgstr "O Código de Estado do Produto debe ser único."
+msgstr "O código de estado do produto debe ser único."
 
 #. module: product_state
 #: model:ir.ui.menu,name:product_state.menu_product_state
 msgid "Product States"
-msgstr "Estados do Produto"
+msgstr "Estados do produto"
 
 #. module: product_state
 #: model:ir.model.fields,field_description:product_state.field_product_product__state
 #: model:ir.model.fields,field_description:product_state.field_product_template__state
 msgid "Product Status"
-msgstr "Estado do Produto"
-
-#. module: product_state
-#: model:ir.model,name:product_state.model_product_template
-msgid "Product Template"
-msgstr "Modelo de produto"
+msgstr "Persoal de produto"
 
 #. module: product_state
 #: model_terms:ir.ui.view,arch_db:product_state.view_product_state_form
@@ -162,26 +163,28 @@ msgstr "Estado"
 #. module: product_state
 #: model:ir.model.fields,field_description:product_state.field_product_state__code
 msgid "State Code"
-msgstr "Código de Estado"
+msgstr "Código de estado"
 
 #. module: product_state
 #: model_terms:ir.ui.view,arch_db:product_state.view_product_state_form
 msgid "State Name"
-msgstr "Nome do Estado"
+msgstr "Nome do estado"
 
 #. module: product_state
 #: model:ir.actions.act_window,name:product_state.action_open_state_products
 #: model:ir.model.fields,field_description:product_state.field_product_state__product_ids
 msgid "State Products"
-msgstr "Produtos do Estado"
+msgstr "Produtos estatais"
 
 #. module: product_state
+#. odoo-python
 #: code:addons/product_state/models/product_template.py:0
 #, python-format
 msgid "The product state code %s could not be found."
 msgstr "Non se atopou o código de estado do produto %s."
 
 #. module: product_state
+#. odoo-python
 #: code:addons/product_state/models/product_state.py:0
 #, python-format
 msgid "There should be only one default state"
@@ -190,8 +193,10 @@ msgstr "Só debería haber un estado predeterminado"
 #. module: product_state
 #: model:ir.model.fields,help:product_state.field_product_state__sequence
 msgid "Used to order the States"
-msgstr "Utilizado para pedir os estados"
+msgstr "Usado para pedir aos estados"
 
-#, fuzzy
-#~ msgid "product.state"
+#~ msgid "Product Template"
 #~ msgstr "Modelo de produto"
+
+#~ msgid "product.state"
+#~ msgstr "produto.estado"

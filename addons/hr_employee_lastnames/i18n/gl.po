@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 16:45\n"
-"PO-Revision-Date: 2024-11-08 16:45\n"
+"POT-Creation-Date: 2025-01-22 07:38\n"
+"PO-Revision-Date: 2025-01-22 07:38\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -49,13 +49,13 @@ msgid "Second last name"
 msgstr "Segundo Apelido"
 
 #~ msgid "Display Name"
-#~ msgstr "Mostrar Nome"
+#~ msgstr "Mostrar nome"
 
 #~ msgid "ID"
 #~ msgstr "ID (identificación)"
 
 #~ msgid "Last Modified on"
-#~ msgstr "Última Modificación o"
+#~ msgstr "Modificado por última vez o"
 
 #~ msgid "No name set."
 #~ msgstr "Sen nome establecido."

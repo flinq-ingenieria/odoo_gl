@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 20:36\n"
-"PO-Revision-Date: 2024-11-08 20:36\n"
+"POT-Creation-Date: 2025-01-22 23:14\n"
+"PO-Revision-Date: 2025-01-22 23:14\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -16,11 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: tradutor Zerever\n"
-
-#. module: module_analysis
-#: model:ir.model.fields,field_description:module_analysis.field_base_module_update__analyse_installed_modules
-msgid "Analyse Installed Modules"
-msgstr "Analizar os módulos instalados"
 
 #. module: module_analysis
 #: model:ir.ui.menu,name:module_analysis.menu_module_analysis
@@ -40,7 +35,7 @@ msgstr "Código CSS Cantidade"
 #. module: module_analysis
 #: model_terms:ir.ui.view,arch_db:module_analysis.view_ir_module_module_form
 msgid "Code Size"
-msgstr "Código Talla"
+msgstr "Código Tamaño"
 
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__create_uid
@@ -84,7 +79,7 @@ msgstr "Cantidade de módulos instalados"
 #: model:ir.actions.act_window,name:module_analysis.action_ir_module_module_by_type
 #: model:ir.ui.menu,name:module_analysis.menu_module_by_type
 msgid "Installed Modules by Types"
-msgstr "Módulos Instalados por Tipos"
+msgstr "Módulos instalados por tipos"
 
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_module__js_code_qty
@@ -96,21 +91,21 @@ msgstr "Cantidade Código JS"
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_type____last_update
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule____last_update
 msgid "Last Modified on"
-msgstr "Última Modificación o"
+msgstr "Última modificación o"
 
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__write_uid
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__write_uid
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__write_uid
 msgid "Last Updated by"
-msgstr "Última Modificación por"
+msgstr "Actualizado por Última vez por"
 
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__write_date
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__write_date
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__write_date
 msgid "Last Updated on"
-msgstr "Última actualización o"
+msgstr "Última Actualización o"
 
 #. module: module_analysis
 #: model:ir.model,name:module_analysis.model_ir_module_module
@@ -142,7 +137,7 @@ msgstr "Módulos"
 #: model:ir.model,name:module_analysis.model_ir_module_author
 #: model:ir.ui.menu,name:module_analysis.menu_module_authors
 msgid "Modules Authors"
-msgstr "Autores dos Módulos"
+msgstr "Autores dos módulos"
 
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__installed_module_qty
@@ -182,7 +177,12 @@ msgstr "Análise do Código de Actualización"
 #. module: module_analysis
 #: model:ir.ui.menu,name:module_analysis.menu_module_analysis_reporting
 msgid "Reporting"
-msgstr "Informando"
+msgstr "Informes"
+
+#. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_module__scss_code_qty
+msgid "SCSS Code Quantity"
+msgstr "Código SCSS Cantidade"
 
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__sequence
@@ -196,6 +196,14 @@ msgid "Settings"
 msgstr "Configuracións"
 
 #. module: module_analysis
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__smart_search
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_module__smart_search
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__smart_search
+#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__smart_search
+msgid "Smart Search"
+msgstr "Procura intelixente"
+
+#. module: module_analysis
 #: model:ir.model.constraint,message:module_analysis.constraint_ir_module_author_name_uniq
 msgid "The name of the modules author should be unique per database!"
 msgstr "O nome do autor dos módulos debe ser único por base de datos!"
@@ -206,14 +214,8 @@ msgid "Type and Authors"
 msgstr "Tipo e Autores"
 
 #. module: module_analysis
-#: model:ir.model,name:module_analysis.model_base_module_update
-msgid "Update Module"
-msgstr "Módulo de actualización"
-
-#. module: module_analysis
 #: model:ir.actions.server,name:module_analysis.cron_module_analysis_ir_actions_server
 #: model:ir.cron,cron_name:module_analysis.cron_module_analysis
-#: model:ir.cron,name:module_analysis.cron_module_analysis
 msgid "Update Module Analysis"
 msgstr "Análise do Módulo de Actualización"
 

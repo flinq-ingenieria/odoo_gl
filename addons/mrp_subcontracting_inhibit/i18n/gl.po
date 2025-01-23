@@ -1,0 +1,81 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mrp_subcontracting_inhibit
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-21 20:36\n"
+"PO-Revision-Date: 2025-01-21 20:36\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: mrp_subcontracting_inhibit
+#: model:ir.model.fields,field_description:mrp_subcontracting_inhibit.field_product_product__display_name
+#: model:ir.model.fields,field_description:mrp_subcontracting_inhibit.field_product_supplierinfo__display_name
+#: model:ir.model.fields,field_description:mrp_subcontracting_inhibit.field_purchase_order_line__display_name
+#: model:ir.model.fields,field_description:mrp_subcontracting_inhibit.field_stock_location_route__display_name
+#: model:ir.model.fields,field_description:mrp_subcontracting_inhibit.field_stock_move__display_name
+msgid "Display Name"
+msgstr "Nome mostrado"
+
+#. module: mrp_subcontracting_inhibit
+#: model:ir.model.fields,field_description:mrp_subcontracting_inhibit.field_product_product__id
+#: model:ir.model.fields,field_description:mrp_subcontracting_inhibit.field_product_supplierinfo__id
+#: model:ir.model.fields,field_description:mrp_subcontracting_inhibit.field_purchase_order_line__id
+#: model:ir.model.fields,field_description:mrp_subcontracting_inhibit.field_stock_location_route__id
+#: model:ir.model.fields,field_description:mrp_subcontracting_inhibit.field_stock_move__id
+msgid "ID"
+msgstr "ID"
+
+#. module: mrp_subcontracting_inhibit
+#: model:ir.model.fields,field_description:mrp_subcontracting_inhibit.field_purchase_order_line__subcontracting_inhibit
+#: model:ir.model.fields,field_description:mrp_subcontracting_inhibit.field_stock_location_route__subcontracting_inhibit
+msgid "Inhibit subcontracting"
+msgstr "Inhibir a subcontratación"
+
+#. module: mrp_subcontracting_inhibit
+#: model:ir.model,name:mrp_subcontracting_inhibit.model_stock_location_route
+msgid "Inventory Routes"
+msgstr "Roteiros de inventario"
+
+#. module: mrp_subcontracting_inhibit
+#: model:ir.model.fields,field_description:mrp_subcontracting_inhibit.field_product_product____last_update
+#: model:ir.model.fields,field_description:mrp_subcontracting_inhibit.field_product_supplierinfo____last_update
+#: model:ir.model.fields,field_description:mrp_subcontracting_inhibit.field_purchase_order_line____last_update
+#: model:ir.model.fields,field_description:mrp_subcontracting_inhibit.field_stock_location_route____last_update
+#: model:ir.model.fields,field_description:mrp_subcontracting_inhibit.field_stock_move____last_update
+msgid "Last Modified on"
+msgstr "Última modificación o"
+
+#. module: mrp_subcontracting_inhibit
+#: model:ir.model,name:mrp_subcontracting_inhibit.model_product_product
+msgid "Product"
+msgstr "Produto"
+
+#. module: mrp_subcontracting_inhibit
+#: model:ir.model,name:mrp_subcontracting_inhibit.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "Liña de pedido de compra"
+
+#. module: mrp_subcontracting_inhibit
+#: model:ir.model,name:mrp_subcontracting_inhibit.model_stock_move
+msgid "Stock Move"
+msgstr "Movemento de existencias"
+
+#. module: mrp_subcontracting_inhibit
+#: model:ir.model.fields,field_description:mrp_subcontracting_inhibit.field_product_supplierinfo__subcontracting_inhibit
+msgid "Subcontracting inhibited"
+msgstr "Subcontratación inhibida"
+
+#. module: mrp_subcontracting_inhibit
+#: model:ir.model,name:mrp_subcontracting_inhibit.model_product_supplierinfo
+msgid "Supplier Pricelist"
+msgstr "Tarifa de provedor"

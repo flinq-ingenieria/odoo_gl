@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 12:02\n"
-"PO-Revision-Date: 2024-11-08 12:02\n"
+"POT-Creation-Date: 2025-01-22 23:39\n"
+"PO-Revision-Date: 2025-01-22 23:39\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -73,7 +73,6 @@ msgstr "Nome mostrado"
 
 #. module: stock_move_location
 #: model:ir.model.fields,field_description:stock_move_location.field_wiz_stock_move_location__edit_locations
-#: model_terms:ir.ui.view,arch_db:stock_move_location.view_wiz_stock_move_location_form_stock_move_location
 msgid "Edit Locations"
 msgstr "(editar)"
 
@@ -148,6 +147,7 @@ msgid "Move location Wizard"
 msgstr "Asistente para mover desde localización"
 
 #. module: stock_move_location
+#. odoo-python
 #: code:addons/stock_move_location/wizard/stock_move_location_line.py:0
 #, python-format
 msgid "Move quantity can not exceed max quantity or be negative"
@@ -160,6 +160,7 @@ msgid "Move to location..."
 msgstr "Mover a localización..."
 
 #. module: stock_move_location
+#. odoo-python
 #: code:addons/stock_move_location/models/stock_picking.py:0
 #, python-format
 msgid "Moves lines already exists"
@@ -198,6 +199,7 @@ msgid "Planned Transfer"
 msgstr "Transferencia Planificada"
 
 #. module: stock_move_location
+#. odoo-python
 #: code:addons/stock_move_location/models/stock_picking.py:0
 #, python-format
 msgid "Please choose a source end location"

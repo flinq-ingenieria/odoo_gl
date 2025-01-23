@@ -3,16 +3,17 @@
 # 	* event_sms
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2022
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2023
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 23:58\n"
-"PO-Revision-Date: 2024-11-07 23:58\n"
+"POT-Creation-Date: 2025-01-22 08:01\n"
+"PO-Revision-Date: 2025-01-22 08:01\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,6 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: event_sms
@@ -45,12 +47,21 @@ msgstr "Evento: recordatorio"
 #. module: event_sms
 #: model:ir.model,name:event_sms.model_event_type_mail
 msgid "Mail Scheduling on Event Category"
-msgstr "Programación de correo na categoría de eventos"
+msgstr "Planificación de correo na categoría de eventos"
+
+#. module: event_sms
+#: model:sms.template,body:event_sms.sms_template_data_event_reminder
+msgid ""
+"Ready for \"{{ object.event_id.name }}\" {{ object.get_date_range_str(object.partner_id.lang) }}?\n"
+"{{ 'It starts at %s' % format_time(time=object.event_begin_date, tz=object.event_id.date_tz, time_format='short', lang_code=object.partner_id.lang) + (', at %s' % object.event_id.address_inline if object.event_id.address_inline else '') + '.\\nSee you there!' if object.event_id.address_inline or 'website_published' not in object.event_id._fields else 'Join us on %s/event/%i !' % (object.get_base_url(), object.event_id.id) }}"
+msgstr ""
+"Está listo para \"{{ object.event_ide.name }}\" {{ object.get_dáche_range_str(object.partner_ide.lang) }}?\n"
+"{{ 'Empeza a %s' % format_estafe(estafe=object.event_begin_date, tz=object.event_ide.dáche_tz, estafe_format='short', lang_code=object.partner_ide.lang) + (', at %s' % object.event_ide.address_inline if object.event_ide.address_inline else '') + '.\\nVémonos aí!' if object.event_ide.address_inline or 'website_published' not in object.event_ide._fields else 'Acompáñenos en %s/event/%i' % (object.get_basee_url(), object.event_ide.ide) }}"
 
 #. module: event_sms
 #: model:ir.model,name:event_sms.model_event_mail_registration
 msgid "Registration Mail Scheduler"
-msgstr "Programador de correos de inscricións"
+msgstr "Planificador de correos de inscricións"
 
 #. module: event_sms
 #: model:ir.model.fields.selection,name:event_sms.selection__event_mail__notification_type__sms
@@ -68,19 +79,6 @@ msgstr "Modelos de SMS"
 #: model:ir.model.fields,field_description:event_sms.field_event_type_mail__notification_type
 msgid "Send"
 msgstr "Enviar"
-
-#. module: event_sms
-#: model:sms.template,body:event_sms.sms_template_data_event_reminder
-msgid ""
-"{{ object.event_id.organizer_id.name or object.event_id.company_id.name or "
-"user.env.company.name }}: We are excited to remind you that the {{ "
-"object.event_id.name }} event is starting {{ object.get_date_range_str() }}."
-" We confirm your registration and hope to meet you there."
-msgstr ""
-"{{ object.event_ide.organizer_ide.name or object.event_ide.company_ide.name "
-"or user.env.company.name }}: Comprácenos lembrarlle que o evento {{ "
-"object.event_ide.name }} comeza o {{ object.get_dáche_range_str() }}. "
-"Confirmamos a súa inscrición e esperamos velo."
 
 #. module: event_sms
 #: model:sms.template,body:event_sms.sms_template_data_event_registration

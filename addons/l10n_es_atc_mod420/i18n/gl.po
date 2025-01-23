@@ -1,0 +1,943 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_es_atc_mod420
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-22 20:09\n"
+"PO-Revision-Date: 2025-01-22 20:09\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: tradutor Zerever\n"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model,name:l10n_es_atc_mod420.model_l10n_es_atc_mod420_report
+#, fuzzy
+msgid "ATC 420 Report"
+msgstr "Informe ATC 420"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__move_id
+#, fuzzy
+msgid "Account entry"
+msgstr "Entrada de conta"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__message_needaction
+msgid "Action Needed"
+msgstr "Acción requirida"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__activity_ids
+msgid "Activities"
+msgstr "Actividades"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Decoración de Actividade  de Excepción"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__activity_state
+msgid "Activity State"
+msgstr "Estado da actividade"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Ícono de tipo de actividade"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__allow_posting
+#, fuzzy
+msgid "Allow posting"
+msgstr "Permitir publicación"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__regularizacion_cuotas
+#, fuzzy
+msgid ""
+"Amount corresponding to the quotas supported that could not be deducted and "
+"from which it is a debtor to the Treasury Public"
+msgstr ""
+"Importe correspondente ás cotas soportadas que non puideron ser deducidas e "
+"das que é debedor á Facenda Pública"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__message_attachment_count
+msgid "Attachment Count"
+msgstr "Nº de arquivos adxuntos"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__bank_account_id
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__partner_bank_id
+msgid "Bank account"
+msgstr "Conta Bancaria"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__casilla_23
+#, fuzzy
+msgid "Basis of the fee in the passenger regime made by the subject passive"
+msgstr "Base da taxa en réxime de pasaxeiros realizada polo suxeito pasivo"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__calculation_date
+#, fuzzy
+msgid "Calculation Date"
+msgstr "Data de cálculo"
+
+#. module: l10n_es_atc_mod420
+#: model_terms:ir.ui.view,arch_db:l10n_es_atc_mod420.view_l10n_es_atc_mod420_report_form
+#, fuzzy
+msgid "Carátula Sobre"
+msgstr "Portada Sobre"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__company_id
+msgid "Company"
+msgstr "Empresa"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__partner_bank_id
+#, fuzzy
+msgid "Company bank account used for the presentation"
+msgstr "Conta bancaria da empresa utilizada para a presentación"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__contact_email
+#, fuzzy
+msgid "Contact Email"
+msgstr "Email de contacto"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__counterpart_account_id
+#, fuzzy
+msgid "Counterpart account"
+msgstr "Conta de contrapartida"
+
+#. module: l10n_es_atc_mod420
+#: model_terms:ir.actions.act_window,help:l10n_es_atc_mod420.action_l10n_es_atc_mod420_report
+#, fuzzy
+msgid "Crear y consultar declaraciones del modelo ATC 420"
+msgstr "Crear e consultar declaracións do modelo ATC 420"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__create_date
+msgid "Created on"
+msgstr "Creado o"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__currency_id
+msgid "Currency"
+msgstr "Moeda"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__diferencia
+#, fuzzy
+msgid ""
+"Difference between the amounts of boxes 25-40, either its import positive or"
+" negative"
+msgstr ""
+"Diferenza entre os importes das casas 25 a 40, xa sexa a súa importación "
+"positiva ou negativa"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__display_name
+msgid "Display Name"
+msgstr "Nome para mostrar"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__date_end
+msgid "Ending date"
+msgstr "Data de finalización"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__error_count
+#, fuzzy
+msgid "Error Count"
+msgstr "Reconto de erros"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__export_config_id
+#, fuzzy
+msgid "Export config"
+msgstr "Exportar configuración"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__casilla_24
+#, fuzzy
+msgid "Fee in the passenger regime made by the taxpayer"
+msgstr "Taxa en réxime de pasaxeiros efectuada polo contribuínte"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Contactos)"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Icona de Font Awesome ex. fa-tasks"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__contact_name
+msgid "Full Name"
+msgstr "Nome completo"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__has_message
+#, fuzzy
+msgid "Has Message"
+msgstr "Mensaxes"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__activity_exception_icon
+msgid "Icon"
+msgstr "Icona"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icona para indicar unha actividade de excepción."
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Se está marcado, hai novas mensaxes que requiren a túa atención."
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Se se atopa seleccionado, algunhas mensaxes teñen erro de envío."
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__message_is_follower
+msgid "Is Follower"
+msgstr "É un seguidor"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__journal_id
+msgid "Journal"
+msgstr "Diario"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__journal_id
+#, fuzzy
+msgid "Journal in which post the move."
+msgstr "Diario no que publicar a mudanza."
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__representative_vat
+#, fuzzy
+msgid "L.R. VAT number"
+msgstr "Número de IVE L.R."
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report____last_update
+msgid "Last Modified on"
+msgstr "Última modificación o"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__write_uid
+msgid "Last Updated by"
+msgstr "Actualizado por"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__write_date
+msgid "Last Updated on"
+msgstr "Actualizado o"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__representative_vat
+#, fuzzy
+msgid "Legal Representative VAT number."
+msgstr "Número de IVE de representante legal."
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Adxunto principal"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__message_has_error
+msgid "Message Delivery error"
+msgstr "Erro de Envío de Mensaxe"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__message_ids
+msgid "Messages"
+msgstr "Mensaxes"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__number
+#, fuzzy
+msgid "Model number"
+msgstr "Número de modelo"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.ui.menu,name:l10n_es_atc_mod420.menu_atc_mod420_report
+#, fuzzy
+msgid "Modelo 420"
+msgstr "Modelo 420"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.actions.act_window,name:l10n_es_atc_mod420.action_l10n_es_atc_mod420_report
+#: model_terms:ir.ui.view,arch_db:l10n_es_atc_mod420.view_l10n_es_atc_mod420_report_tree
+#, fuzzy
+msgid "Modelo ATC 420"
+msgstr "Modelo ATC 420"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__contact_name
+#, fuzzy
+msgid "Must have name and surname."
+msgstr "Debe ter nome e apelidos."
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "A miña data límite de actividade"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Data límite da seguinte actividade"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resumo da seguinte actividade"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__activity_type_id
+msgid "Next Activity Type"
+msgstr "Seguinte tipo de actividade"
+
+#. module: l10n_es_atc_mod420
+#. odoo-python
+#: code:addons/l10n_es_atc_mod420/models/mod420.py:0
+#: model:ir.model.fields.selection,name:l10n_es_atc_mod420.selection__l10n_es_atc_mod420_report__result_type__n
+#, fuzzy, python-format
+msgid "No activity/Zero result"
+msgstr "Sen actividade/Resultado cero"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de accións"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__message_has_error_counter
+msgid "Number of errors"
+msgstr "Número de erros"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__message_needaction_counter
+#, fuzzy
+msgid "Number of messages requiring action"
+msgstr "Número de mensaxes que requiren unha acción"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensaxes con erro de envío"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__company_partner_id
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__partner_id
+msgid "Partner"
+msgstr "Socio"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__period_type
+#, fuzzy
+msgid "Period Type"
+msgstr "Tipo de período"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__contact_phone
+msgid "Phone"
+msgstr "Teléfono"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__previous_number
+#, fuzzy
+msgid "Previous declaration number"
+msgstr "Número de declaración anterior"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__casilla_36
+#, fuzzy
+msgid ""
+"Quota of taxpayers covered by the special regime of the agriculture, "
+"Livestock and fishing"
+msgstr ""
+"Cota de contribuíntes amparados no réxime especial da Agricultura, Gandería "
+"e Pesca"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__casilla_37
+#, fuzzy
+msgid ""
+"Quota with positive or negative sign, of the regularization of the quotas "
+"supported by the acquisition or import of goods of investment"
+msgstr ""
+"Cota con signo positivo ou negativo, da regularización das cotas apoiadas "
+"pola adquisición ou importación de bens de investimento"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__casilla_39
+#, fuzzy
+msgid "Quotas for application of the final percentage of pro rata"
+msgstr "Continxentes para a aplicación da porcentaxe final de prorrateo"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__casilla_38
+#, fuzzy
+msgid ""
+"Quotas supported by the acquisition or importation of goods or services "
+"before the start of business activities or professionals"
+msgstr ""
+"Continxentes apoiados pola adquisición ou importación de bens ou servizos "
+"antes do inicio de actividades empresariais ou profesionais"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__name
+#, fuzzy
+msgid "Report identifier"
+msgstr "Identificador de informe"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__activity_user_id
+msgid "Responsible User"
+msgstr "Usuario responsable"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__result_type
+#, fuzzy
+msgid "Result type"
+msgstr "Tipo de resultado"
+
+#. module: l10n_es_atc_mod420
+#: model_terms:ir.ui.view,arch_db:l10n_es_atc_mod420.view_l10n_es_atc_mod420_report_form
+msgid "Resultado"
+msgstr "Resultado"
+
+#. module: l10n_es_atc_mod420
+#. odoo-python
+#: code:addons/l10n_es_atc_mod420/models/mod420.py:0
+#, fuzzy, python-format
+msgid "Select an account for making the charge"
+msgstr "Seleccione unha conta para realizar o cargo"
+
+#. module: l10n_es_atc_mod420
+#. odoo-python
+#: code:addons/l10n_es_atc_mod420/models/mod420.py:0
+#, fuzzy, python-format
+msgid "Select an account for receiving the money"
+msgstr "Seleccione unha conta para recibir o diñeiro"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__date_start
+msgid "Starting date"
+msgstr "Data de inicio"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__state
+msgid "State"
+msgstr "Estado"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__statement_type
+#, fuzzy
+msgid "Statement Type"
+msgstr "Tipo de instrución"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Estado baseado en actividades\n"
+"Vencida: a data tope xa pasou\n"
+"Hoxe: A data tope é hoxe\n"
+"Planificada: futuras actividades."
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__support_type
+msgid "Support Type"
+msgstr "Tipo Soporte"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__tax_agency_ids
+msgid "Tax Agency"
+msgstr ""
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__tax_line_ids
+#, fuzzy
+msgid "Tax lines"
+msgstr "Liñas impositivas"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__cuotas_compensar
+#, fuzzy
+msgid ""
+"The installments in favor of the taxpayer from previous periods pending "
+"compensation "
+msgstr ""
+"As cotas a favor do contribuínte de períodos anteriores pendentes de "
+"indemnización "
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__counterpart_account_id
+#, fuzzy
+msgid ""
+"This account will be the counterpart for all the journal items that are "
+"regularized when posting the report."
+msgstr ""
+"Esta conta será a contrapartida de todos os artigos do diario que se "
+"regularicen ao publicar o informe."
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__a_deducir
+#, fuzzy
+msgid ""
+"This box will only be completed in the event of complementary self-"
+"assessment"
+msgstr "Esta casa só completarase en caso de autoavaliación complementaria"
+
+#. module: l10n_es_atc_mod420
+#. odoo-python
+#: code:addons/l10n_es_atc_mod420/models/mod420.py:0
+#: model:ir.model.fields.selection,name:l10n_es_atc_mod420.selection__l10n_es_atc_mod420_report__result_type__c
+#, fuzzy, python-format
+msgid "To compensate"
+msgstr "Para compensar"
+
+#. module: l10n_es_atc_mod420
+#. odoo-python
+#: code:addons/l10n_es_atc_mod420/models/mod420.py:0
+#: model:ir.model.fields.selection,name:l10n_es_atc_mod420.selection__l10n_es_atc_mod420_report__result_type__i
+#, fuzzy, python-format
+msgid "To enter"
+msgstr "Para participar"
+
+#. module: l10n_es_atc_mod420
+#. odoo-python
+#: code:addons/l10n_es_atc_mod420/models/mod420.py:0
+#: model:ir.model.fields.selection,name:l10n_es_atc_mod420.selection__l10n_es_atc_mod420_report__result_type__d
+#, fuzzy, python-format
+msgid "To return"
+msgstr "É devolución"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Tipo de actividade de excepción rexistrada."
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__company_vat
+msgid "VAT number"
+msgstr "Número de IVE"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__website_message_ids
+msgid "Website Messages"
+msgstr "Mensaxes do sitio web"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,help:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicacións do sitio web"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__year
+msgid "Year"
+msgstr "Ano"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__casilla_23
+#, fuzzy
+msgid "[23] Traveler Base"
+msgstr "[23] Base de viaxeiros"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__casilla_24
+#, fuzzy
+msgid "[24] Traveler Fees"
+msgstr "[24] Tarifas de viaxeiro"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__total_devengado
+#, fuzzy
+msgid "[25] Total accrued installments"
+msgstr "[25] Total de cotas acumuladas"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__casilla_36
+#, fuzzy
+msgid "[36] Livestock and fishing quotas"
+msgstr "[36] Cotas gandeiras e pesqueiras."
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__casilla_37
+#, fuzzy
+msgid "[37] Quotas Investment goods"
+msgstr "[37] Continxentes Bens de investimento"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__casilla_38
+#, fuzzy
+msgid "[38] Fee Before activity start"
+msgstr "[38] Tarifa antes do inicio da actividade"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__casilla_39
+#, fuzzy
+msgid "[39] Pro rata fee"
+msgstr "[39] Taxa prorrateada."
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__total_deducir
+#, fuzzy
+msgid "[40] Total deductible installments"
+msgstr "[40] Total de cotas deducibles"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__diferencia
+#, fuzzy
+msgid "[41] Difference"
+msgstr "[41] Diferenza"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__regularizacion_cuotas
+#, fuzzy
+msgid "[42] Regularization of quotas"
+msgstr "[42] Regularización das cotas."
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__cuotas_compensar
+#, fuzzy
+msgid "[43] quotas to compensate"
+msgstr "[43] Cotas de compensación"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__a_deducir
+#, fuzzy
+msgid "[44] To deduct"
+msgstr "[44] Para deducir"
+
+#. module: l10n_es_atc_mod420
+#: model:ir.model.fields,field_description:l10n_es_atc_mod420.field_l10n_es_atc_mod420_report__resultado_autoliquidacion
+#, fuzzy
+msgid "[45] Self-assessment result"
+msgstr "[45] Resultado da autoavaliación"
+
+#, fuzzy
+#~ msgid "0,00"
+#~ msgstr "0,00"
+
+#, fuzzy
+#~ msgid "13,50"
+#~ msgstr "13,50"
+
+#, fuzzy
+#~ msgid "20,00"
+#~ msgstr "20,00"
+
+#, fuzzy
+#~ msgid "3,00"
+#~ msgstr "3,00"
+
+#, fuzzy
+#~ msgid "7,00"
+#~ msgstr "7,00"
+
+#, fuzzy
+#~ msgid "9,50"
+#~ msgstr "9,50"
+
+#, fuzzy
+#~ msgid "<b>1. Período de liquidación</b>"
+#~ msgstr "<b>1. Período de liquidación</b>"
+
+#, fuzzy
+#~ msgid "<b>2.- Datos identificativos</b>"
+#~ msgstr "<b>2.- Datos identificativos</b>"
+
+#, fuzzy
+#~ msgid "<b>420</b>"
+#~ msgstr "<b>420</b>"
+
+#, fuzzy
+#~ msgid "<b>7.- Liquidación</b>"
+#~ msgstr "<b>7.- Liquidación</b>"
+
+#, fuzzy
+#~ msgid "<b>AUTOLIQUIDACIÓN TRIMESTRAL</b>"
+#~ msgstr "<b>AUTOLIQUIDACIÓN TRIMESTRAL</b>"
+
+#, fuzzy
+#~ msgid "<b>BORRADOR</b>"
+#~ msgstr "<b>BORRADOR</b>"
+
+#, fuzzy
+#~ msgid "<b>DOMICILIO FISCAL</b>"
+#~ msgstr "<b>DOMICILIO FISCAL</b>"
+
+#, fuzzy
+#~ msgid "<b>I.G.I.C. DEDUCIBLE Y RESULTADO AUTOLIQUIDACIÓN</b>"
+#~ msgstr "<b>I.G.I.C. DEDUCIBLE E RESULTADO AUTOLIQUIDACIÓN</b>"
+
+#, fuzzy
+#~ msgid "<b>I.G.I.C. DEVENGADO</b>"
+#~ msgstr "<b>I.G.I.C. DEVINDICADO</b>"
+
+#, fuzzy
+#~ msgid "<b>Modelo</b>"
+#~ msgstr "<b>Modelo</b>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<b>Resultado de la autoliquidación ( <span style=\"background-color: #808080;color:white\">23</span> -\t\t\t\t\t\t\t\t\t\t\t\t<span style=\"background-color: #808080;color:white\">24</span> -\t\t\t\t\t\t\t\t\t\t\t\t<span style=\"background-color: #808080;color:white\">25</span> )\n"
+#~ "\t\t\t\t\t\t\t\t\t\t\t</b> ____"
+#~ msgstr ""
+#~ "<b>Resultado da autoliquidación ( <span style=\"background-color: #808080;color:white\">23</span> - <span style=\"background-color: #808080;color:white\">24</span> - <span style=\"background-color: #808080;color:white\">25</span> )\n"
+#~ "\t\t\t\t\t\t\t\t\t\t\t</b> ____"
+
+#, fuzzy
+#~ msgid "<b>RÉGIMEN GENERAL</b>"
+#~ msgstr "<b>RÉXIME XERAL</b>"
+
+#, fuzzy
+#~ msgid "<b>Total cuotas deducibles_________________</b>"
+#~ msgstr "<b>Total cotas deducibles_________________</b>"
+
+#, fuzzy
+#~ msgid "<b>Total de cuotas devengadas</b>"
+#~ msgstr "<b>Total de cotas devindicadas</b>"
+
+#, fuzzy
+#~ msgid "<span style=\"padding:0 3px\">Importe</span>"
+#~ msgstr "<span style=\"padding:0 3px\">Importe</span>"
+
+#, fuzzy
+#~ msgid "<span style=\"padding:1px\">IBAN</span>"
+#~ msgstr "<span style=\"padding:1px\">IBAN</span>"
+
+#, fuzzy
+#~ msgid "<span>40</span>"
+#~ msgstr "<span>40</span>"
+
+#, fuzzy
+#~ msgid "<span>41</span>"
+#~ msgstr "<span>41</span>"
+
+#, fuzzy
+#~ msgid "<span>42</span>"
+#~ msgstr "<span>42</span>"
+
+#, fuzzy
+#~ msgid "<span>43</span>"
+#~ msgstr "<span>43</span>"
+
+#, fuzzy
+#~ msgid "<span>44</span>"
+#~ msgstr "<span>44</span>"
+
+#, fuzzy
+#~ msgid "<span>45</span>"
+#~ msgstr "<span>45</span>"
+
+#, fuzzy
+#~ msgid ""
+#~ "A deducir (exclusivamente en caso de autoliquidación "
+#~ "complementaria)__________________"
+#~ msgstr ""
+#~ "A deducir (exclusivamente en caso de autoliquidación complementaria)___"
+
+#, fuzzy
+#~ msgid "Base imponible"
+#~ msgstr "Base impoñible"
+
+#, fuzzy
+#~ msgid ""
+#~ "Compensaciones del régimen especial de la agricultura y "
+#~ "ganadería____________________"
+#~ msgstr ""
+#~ "Compensacións do réxime especial da agricultura e "
+#~ "gandería____________________"
+
+#, fuzzy
+#~ msgid "Cuota devengada"
+#~ msgstr "Cota devindicada"
+
+#, fuzzy
+#~ msgid ""
+#~ "Cuotas del I.G.I.C. a compensar de períodos "
+#~ "anteriores______________________________"
+#~ msgstr ""
+#~ "Cotas do I.G.I.C. a compensar de períodos "
+#~ "anteriores______________________________"
+
+#, fuzzy
+#~ msgid "Cuotas devengadas por inversión del sujeto pasivo"
+#~ msgstr "Cotas devindicadas por investimento do suxeito pasivo"
+
+#, fuzzy
+#~ msgid ""
+#~ "Cuotas devueltas en régimen de "
+#~ "viajeros_________________________________________"
+#~ msgstr ""
+#~ "Cotas devoltas en réxime de "
+#~ "viaxeiros_________________________________________"
+
+#, fuzzy
+#~ msgid "Código internacional de cuenta bancaria"
+#~ msgstr "Código internacional de conta bancaria"
+
+#, fuzzy
+#~ msgid "Código postal:"
+#~ msgstr "Código postal:"
+
+#, fuzzy
+#~ msgid "Dirección:"
+#~ msgstr "Dirección:"
+
+#, fuzzy
+#~ msgid "EJERCICIO:"
+#~ msgstr "EXERCICIO:"
+
+#~ msgid "Empresa"
+#~ msgstr "Company"
+
+#~ msgid "Followers (Channels)"
+#~ msgstr "Seguidores (Canles)"
+
+#, fuzzy
+#~ msgid ""
+#~ "I.G.I.C. deducible en operaciones "
+#~ "interiores________________________________________"
+#~ msgstr ""
+#~ "I.G.I.C. deducible en operacións "
+#~ "interiores________________________________________"
+
+#, fuzzy
+#~ msgid ""
+#~ "I.G.I.C. deducible por "
+#~ "importaciones______________________________________________"
+#~ msgstr ""
+#~ "I.G.I.C. deducible por "
+#~ "importacións______________________________________________"
+
+#, fuzzy
+#~ msgid "IMPUESTO GENERAL INDIRECTO CANARIO"
+#~ msgstr "IMPOSTO XERAL INDIRECTO CANARIO"
+
+#~ msgid "Model"
+#~ msgstr "Modelo"
+
+#, fuzzy
+#~ msgid "Municipio:"
+#~ msgstr "Municipio:"
+
+#, fuzzy
+#~ msgid "NIF:"
+#~ msgstr "NIF:"
+
+#~ msgid "Number of unread messages"
+#~ msgstr "Número de mensaxes non lidas"
+
+#, fuzzy
+#~ msgid "PERÍODO:"
+#~ msgstr "PERÍODO:"
+
+#, fuzzy
+#~ msgid "Provincia:"
+#~ msgstr "Provincia:"
+
+#, fuzzy
+#~ msgid "Razón social:"
+#~ msgstr "Razón social:"
+
+#, fuzzy
+#~ msgid "Rectificación de cuotas impositivas repercutidas"
+#~ msgstr "Rectificación de cotas impositivas repercutidas"
+
+#, fuzzy
+#~ msgid ""
+#~ "Rectificación de cuotas soportadas "
+#~ "deducidas_____________________________________"
+#~ msgstr ""
+#~ "Rectificación de cotas soportadas "
+#~ "deducidas_____________________________________"
+
+#, fuzzy
+#~ msgid ""
+#~ "Regularización de inversiones o por cuotas soportadas antes del inicio de la"
+#~ " actividad______"
+#~ msgstr ""
+#~ "Regularización de investimentos ou por cotas soportadas antes do inicio da "
+#~ "actividade______"
+
+#, fuzzy
+#~ msgid "Resultado:"
+#~ msgstr "Resultado"
+
+#~ msgid "SMS Delivery error"
+#~ msgstr "Erro de entrega do SMS"
+
+#, fuzzy
+#~ msgid "Sin actividad"
+#~ msgstr "Sen actividade"
+
+#~ msgid "Teléfono:"
+#~ msgstr "Teléfono:"
+
+#, fuzzy
+#~ msgid "Tipo de gravamen %"
+#~ msgstr "Tipo de gravame %"
+
+#~ msgid "Unread Messages"
+#~ msgstr "Mensaxes sen ler"
+
+#~ msgid "Unread Messages Counter"
+#~ msgstr "Nº de mensaxes sen ler"
+
+#~ msgid "________________"
+#~ msgstr "________________"
+
+#, fuzzy
+#~ msgid ""
+#~ "difference ( <span style=\"background-color: #808080;color:white\">15</span>"
+#~ " -\t\t\t\t\t\t\t\t\t\t\t<span style=\"background-color: "
+#~ "#808080;color:white\">22</span> ) _____________________"
+#~ msgstr ""
+#~ "diferenza ( <span style=\"background-color: #808080;color:white\">15</span> "
+#~ "- <span style=\"background-color: #808080;color:white\">22</span> ) ____"

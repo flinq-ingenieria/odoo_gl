@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 22:18\n"
-"PO-Revision-Date: 2024-11-07 22:18\n"
+"POT-Creation-Date: 2025-01-22 12:50\n"
+"PO-Revision-Date: 2025-01-22 12:50\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: dms_field_auto_classification
@@ -26,13 +27,6 @@ msgstr "Creado por"
 #: model:ir.model.fields,field_description:dms_field_auto_classification.field_dms_classification_template_detail__create_date
 msgid "Created on"
 msgstr "Creado o"
-
-#. module: dms_field_auto_classification
-#: model:ir.model.fields,field_description:dms_field_auto_classification.field_dms_classification_template__dms_directory_ids
-#: model:ir.model.fields,field_description:dms_field_auto_classification.field_dms_classification_template_detail__dms_directory_ids
-#: model:ir.model.fields,field_description:dms_field_auto_classification.field_wizard_dms_classification_detail__dms_directory_ids
-msgid "DMS Directories"
-msgstr "Directorios DMS"
 
 #. module: dms_field_auto_classification
 #: model:ir.model.fields,field_description:dms_field_auto_classification.field_dms_classification_template__detail_ids
@@ -85,11 +79,15 @@ msgid "Last Updated on"
 msgstr "Última modificación o"
 
 #. module: dms_field_auto_classification
-#: model:ir.model.fields,field_description:dms_field_auto_classification.field_dms_classification_template__model
 #: model:ir.model.fields,field_description:dms_field_auto_classification.field_dms_classification_template__model_id
 #: model:ir.model.fields,field_description:dms_field_auto_classification.field_dms_classification_template_detail__model_id
 msgid "Model"
 msgstr "Modelo"
+
+#. module: dms_field_auto_classification
+#: model:ir.model.fields,field_description:dms_field_auto_classification.field_dms_classification_template__model
+msgid "Model name"
+msgstr ""
 
 #. module: dms_field_auto_classification
 #: model:ir.model.fields,field_description:dms_field_auto_classification.field_dms_classification_template_detail__parent_id
@@ -115,3 +113,6 @@ msgstr "Modelo"
 #: model:ir.model,name:dms_field_auto_classification.model_wizard_dms_classification_detail
 msgid "Wizard Dms Classification Detail"
 msgstr "Asistente de Clasificación Dms Detalle"
+
+#~ msgid "DMS Directories"
+#~ msgstr "Directorios DMS"

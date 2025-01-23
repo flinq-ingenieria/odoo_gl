@@ -3,19 +3,16 @@
 # 	* crm_iap_mine
 #
 # Translators:
-# Martin Trigaux, 2021
-# Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2021
-# Braulio D. López Vázquez <bdl@odoo.com>, 2021
-# Ernesto Tejeda <ernesto.tejeda87@gmail.com>, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2023
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 00:16\n"
-"PO-Revision-Date: 2024-11-08 00:16\n"
+"POT-Creation-Date: 2025-01-22 01:45\n"
+"PO-Revision-Date: 2025-01-22 01:45\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -26,10 +23,11 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: crm_iap_mine
+#. odoo-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 #, python-format
 msgid "%d credits will be consumed to find %d companies."
-msgstr "consumiranse %d créditos para atopar %d empresas"
+msgstr "Consumiranse %d créditos para atopar %d empresas."
 
 #. module: crm_iap_mine
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.enrich_company
@@ -41,17 +39,17 @@ msgstr "<b>Contactos</b>"
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p>Dear,</p>\n"
-"    <p>There are no more credits on your IAP Lead Generation account.<br/>\n"
-"    You can charge your IAP Lead Generation account in the settings of the CRM app.<br/></p>\n"
+"    <p>There are no more credits on your IAP Lead Generation account.<br>\n"
+"    You can charge your IAP Lead Generation account in the settings of the CRM app.<br></p>\n"
 "    <p>Best regards,</p>\n"
 "    <p>Odoo S.A.</p>\n"
 "</div>"
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p>Estimado/a,</p>\n"
-"    <p>Non quedan máis créditos na túa conta IAP para a xeración de leads.<br/>\n"
-"    Podes cambiar a túa conta para IAP para a xeración de leads na configuración da aplicación de CRM.<br/></p>\n"
-"    <p>Atentamente,</p>\n"
+"    <p>Non quedan mais créditos na súa conta de compras dentro da aplicación para xerar leads.<br>\n"
+"    Pode cambiar a súa conta de compras dentro da aplicación para xerar leads na configuración da aplicación CRM.<br></p>\n"
+"    <p>Saúdos cordiais,</p>\n"
 "    <p>Odoo S.A.</p>\n"
 "</div>"
 
@@ -69,12 +67,12 @@ msgstr ""
 #. module: crm_iap_mine
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.crm_iap_lead_mining_request_view_form
 msgid "<span class=\"col-md-6\">Extra contacts per Company</span>"
-msgstr "<span class=\"col-md-6\">Contactos extra por compañía</span>"
+msgstr "<span class=\"col-md-6\">Contactos adicionais por compañía</span>"
 
 #. module: crm_iap_mine
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.crm_iap_lead_mining_request_view_form
 msgid "<span class=\"o_stat_text\">Leads</span>"
-msgstr "<span class=\"o_stat_text\">Iniciativas</span>"
+msgstr "<span class=\"o_stat_text\">Leads</span>"
 
 #. module: crm_iap_mine
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.crm_iap_lead_mining_request_view_form
@@ -84,7 +82,7 @@ msgstr "<span class=\"o_stat_text\">Oportunidades</span>"
 #. module: crm_iap_mine
 #: model:crm.iap.lead.industry,name:crm_iap_mine.crm_iap_mine_industry_238
 msgid "Automobiles & Components"
-msgstr "Automóbiles e Compoñentes"
+msgstr "Automóbiles e compoñentes"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_mining_request__available_state_ids
@@ -104,17 +102,17 @@ msgstr "Comprar créditos."
 #. module: crm_iap_mine
 #: model:crm.iap.lead.role,name:crm_iap_mine.crm_iap_mine_role_1
 msgid "CEO"
-msgstr "CEO"
+msgstr "Director executivo"
 
 #. module: crm_iap_mine
 #: model:ir.model,name:crm_iap_mine.model_crm_iap_lead_industry
 msgid "CRM IAP Lead Industry"
-msgstr "CRM IAP Industria líder "
+msgstr "CRM IAP Sector do lead"
 
 #. module: crm_iap_mine
 #: model:ir.model,name:crm_iap_mine.model_crm_iap_lead_mining_request
 msgid "CRM Lead Mining Request"
-msgstr "Solicitude de minado de leads de CRM"
+msgstr "Solicitude de minería de leads de CRM"
 
 #. module: crm_iap_mine
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.crm_iap_lead_mining_request_view_form
@@ -135,22 +133,22 @@ msgstr "Índice de Cores"
 #. module: crm_iap_mine
 #: model:crm.iap.lead.industry,name:crm_iap_mine.crm_iap_mine_industry_163
 msgid "Commercial & Professional Services"
-msgstr "Servizos Comerciais e Profesionais"
+msgstr "Servizos comerciais e profesionais"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields.selection,name:crm_iap_mine.selection__crm_iap_lead_mining_request__search_type__companies
 msgid "Companies"
-msgstr "Compañías"
+msgstr "Empresas"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields.selection,name:crm_iap_mine.selection__crm_iap_lead_mining_request__search_type__people
 msgid "Companies and their Contacts"
-msgstr "Empresas e os seus Contactos"
+msgstr "Empresas e os seus contactos"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_mining_request__company_size_max
 msgid "Company Size Max"
-msgstr "Tamaño Máximo da Empresa"
+msgstr "Tamaño máximo da empresa"
 
 #. module: crm_iap_mine
 #: model:crm.iap.lead.industry,name:crm_iap_mine.crm_iap_mine_industry_167
@@ -160,22 +158,22 @@ msgstr "Materiais de construción"
 #. module: crm_iap_mine
 #: model:crm.iap.lead.industry,name:crm_iap_mine.crm_iap_mine_industry_30_155
 msgid "Consumer Discretionary"
-msgstr "Bens de Consumo "
+msgstr "Discrecional do consumidor"
 
 #. module: crm_iap_mine
 #: model:crm.iap.lead.industry,name:crm_iap_mine.crm_iap_mine_industry_239
 msgid "Consumer Durables & Apparel"
-msgstr "Bens de Consumo Duradeiros e Roupa"
+msgstr "Bens de consumo duradeiros e roupa"
 
 #. module: crm_iap_mine
 #: model:crm.iap.lead.industry,name:crm_iap_mine.crm_iap_mine_industry_150_151
 msgid "Consumer Services"
-msgstr "Servizos ao Consumidor"
+msgstr "Servizos ao consumidor"
 
 #. module: crm_iap_mine
 #: model:crm.iap.lead.industry,name:crm_iap_mine.crm_iap_mine_industry_33
 msgid "Consumer Staples"
-msgstr "Bens de Consumo"
+msgstr "Artigos básicos de consumo"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_mining_request__country_ids
@@ -183,10 +181,11 @@ msgid "Countries"
 msgstr "Países"
 
 #. module: crm_iap_mine
+#. odoo-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 #, python-format
 msgid "Create a Lead Mining Request"
-msgstr "Crear unha solicitude de minado de leads"
+msgstr "Crear unha solicitude de minería de leads"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_helpers__create_uid
@@ -209,7 +208,7 @@ msgstr "Creado o"
 #. module: crm_iap_mine
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.crm_iap_lead_mining_request_view_form
 msgid "Default Tags"
-msgstr "Etiquetas predeterminadas"
+msgstr "Etiquetas por defecto"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_mining_request__display_lead_label
@@ -271,12 +270,12 @@ msgstr "Filtrar en"
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_mining_request__filter_on_size
 msgid "Filter on Size"
-msgstr "Filtrar por Tamaño"
+msgstr "Filtrar por tamaño"
 
 #. module: crm_iap_mine
 #: model:crm.iap.lead.industry,name:crm_iap_mine.crm_iap_mine_industry_153_154
 msgid "Food, Beverage & Tobacco"
-msgstr "Alimentos, Bebidas e Tabaco"
+msgstr "Alimentos, bebidas e tabaco"
 
 #. module: crm_iap_mine
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.crm_iap_lead_mining_request_view_form
@@ -284,25 +283,26 @@ msgid "From"
 msgstr "Desde"
 
 #. module: crm_iap_mine
-#. openerp-web
+#. odoo-python
+#. odoo-javascript
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
-#: code:addons/crm_iap_mine/static/src/xml/leads_tree_generate_leads_views.xml:0
+#: code:addons/crm_iap_mine/static/src/views/generate_leads_views.xml:0
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.crm_iap_lead_mining_request_view_form
 #, python-format
 msgid "Generate Leads"
-msgstr "Xerar Clientes Potenciais"
+msgstr "Xerar leads"
 
 #. module: crm_iap_mine
+#. odoo-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 #, python-format
 msgid "Generate new leads based on their country, industry, size, etc."
-msgstr ""
-"Xerar novas iniciativas en función do seu país, industrias, tamaño etc."
+msgstr "Xerar novas leads en función do seu país, industrias, tamaño etc."
 
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_mining_request__lead_ids
 msgid "Generated Lead / Opportunity"
-msgstr "Iniciativa / Oportunidade Xerada"
+msgstr "Lead/Oportunidade xerada"
 
 #. module: crm_iap_mine
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.crm_iap_lead_mining_request_view_search
@@ -312,7 +312,7 @@ msgstr "Agrupar por"
 #. module: crm_iap_mine
 #: model:crm.iap.lead.industry,name:crm_iap_mine.crm_iap_mine_industry_160
 msgid "Health Care Equipment & Services"
-msgstr "Equipos e Servizos de Atención Médica"
+msgstr "equipos e servizos de atención médica"
 
 #. module: crm_iap_mine
 #: model:ir.model,name:crm_iap_mine.model_crm_iap_lead_helpers
@@ -342,7 +342,7 @@ msgstr "Produtores independentes de enerxía e electricidade renovable"
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_mining_request__industry_ids
 msgid "Industries"
-msgstr "Industrias"
+msgstr "Sectores"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_industry__name
@@ -389,53 +389,48 @@ msgstr "Última actualización o"
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_mining_request__lead_contacts_credits
 msgid "Lead Contacts Credits"
-msgstr "Créditos de Contactos de Clientes Potenciais"
+msgstr "Créditos de contactos de leads"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_mining_request__lead_credits
 msgid "Lead Credits"
-msgstr "Créditos de Clientes Potenciais"
+msgstr "Créditos de leads"
 
 #. module: crm_iap_mine
 #: model:ir.ui.menu,name:crm_iap_mine.crm_menu_lead_generation
 msgid "Lead Generation"
-msgstr "Xeración de Iniciativas"
+msgstr "Xeración de leads"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_lead__lead_mining_request_id
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.crm_iap_lead_mining_request_view_search
 msgid "Lead Mining Request"
-msgstr "Solicitude de minado de leads"
+msgstr "Solicitude de minería de leads"
 
 #. module: crm_iap_mine
 #: model:ir.actions.act_window,name:crm_iap_mine.crm_iap_lead_mining_request_action
 #: model:ir.ui.menu,name:crm_iap_mine.crm_iap_lead_mining_request_menu_action
 msgid "Lead Mining Requests"
-msgstr "Solicitudes de minado de leads"
+msgstr "Solicitudes de minería de leads"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_mining_request__lead_total_credits
 msgid "Lead Total Credits"
-msgstr "Créditos Totais de Clientes Potenciais"
+msgstr "Créditos totais de leads"
 
 #. module: crm_iap_mine
 #: model:ir.model,name:crm_iap_mine.model_crm_lead
 msgid "Lead/Opportunity"
-msgstr "Iniciativa/Oportunidade"
+msgstr "Lead/Oportunidade"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields.selection,name:crm_iap_mine.selection__crm_iap_lead_mining_request__lead_type__lead
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.crm_iap_lead_mining_request_view_search
 msgid "Leads"
-msgstr "Iniciativas"
+msgstr "Leads"
 
 #. module: crm_iap_mine
-#: model:ir.model.fields,help:crm_iap_mine.field_crm_iap_lead_mining_request__available_state_ids
-msgid "List of available states based on selected countries"
-msgstr "Lista de estados dispoñibles de acordo con os países seleccionados"
-
-#. module: crm_iap_mine
-#. openerp-web
+#. odoo-javascript
 #: code:addons/crm_iap_mine/static/src/js/tours/crm_iap_lead.js:0
 #, python-format
 msgid ""
@@ -452,7 +447,7 @@ msgstr "Materiais"
 #. module: crm_iap_mine
 #: model:crm.iap.lead.industry,name:crm_iap_mine.crm_iap_mine_industry_86
 msgid "Media"
-msgstr "Media"
+msgstr "Medios"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_seniority__name
@@ -466,6 +461,7 @@ msgid "Name already exists!"
 msgstr "O nome xa existe!"
 
 #. module: crm_iap_mine
+#. odoo-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
@@ -480,11 +476,11 @@ msgid "No Result"
 msgstr "Sen resultado"
 
 #. module: crm_iap_mine
-#. openerp-web
+#. odoo-javascript
 #: code:addons/crm_iap_mine/static/src/js/tours/crm_iap_lead.js:0
 #, python-format
 msgid "Now, just let the magic happen!"
-msgstr "Agora só deixa que a maxia suceda!"
+msgstr "Agora só deixe que a maxia suceda!"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_mining_request__contact_number
@@ -494,13 +490,13 @@ msgstr "Número de contactos"
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_mining_request__lead_count
 msgid "Number of Generated Leads"
-msgstr "Número de Iniciativas Xeradas"
+msgstr "Número de leads xerados"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_mining_request__lead_number
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.crm_iap_lead_mining_request_view_tree
 msgid "Number of Leads"
-msgstr "Número de Iniciativas"
+msgstr "Número de leads"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields.selection,name:crm_iap_mine.selection__crm_iap_lead_mining_request__lead_type__opportunity
@@ -509,10 +505,11 @@ msgid "Opportunities"
 msgstr "Oportunidades"
 
 #. module: crm_iap_mine
+#. odoo-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 #, python-format
 msgid "Opportunity created by Odoo Lead Generation"
-msgstr "Oportunidade creada pola Xeración de Iniciativas de Odoo"
+msgstr "Oportunidade creada mediante a xeración de leads de Odoo"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_mining_request__role_ids
@@ -522,12 +519,12 @@ msgstr "Outros Roles"
 #. module: crm_iap_mine
 #: model:ir.model,name:crm_iap_mine.model_crm_iap_lead_role
 msgid "People Role"
-msgstr "Rol humano"
+msgstr "Roles das persoas"
 
 #. module: crm_iap_mine
 #: model:ir.model,name:crm_iap_mine.model_crm_iap_lead_seniority
 msgid "People Seniority"
-msgstr "Antigüedad das Persoas"
+msgstr "Antigüedad das persoas"
 
 #. module: crm_iap_mine
 #: model:crm.iap.lead.industry,name:crm_iap_mine.crm_iap_mine_industry_161
@@ -547,22 +544,22 @@ msgstr "Rol preferido"
 #. module: crm_iap_mine
 #: model:crm.iap.lead.industry,name:crm_iap_mine.crm_iap_mine_industry_114
 msgid "Real Estate"
-msgstr "Bens Raíces"
+msgstr "Inmobles"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_mining_request__name
 msgid "Request Number"
-msgstr "Número de Solicitude"
+msgstr "Número de solicitude"
 
 #. module: crm_iap_mine
 #: model:crm.iap.lead.industry,name:crm_iap_mine.crm_iap_mine_industry_152
 msgid "Retailing"
-msgstr "Venda retallista "
+msgstr "Venda retallista"
 
 #. module: crm_iap_mine
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.crm_iap_lead_mining_request_view_form
 msgid "Retry"
-msgstr "Reintentar"
+msgstr "Volver tentar"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_industry__reveal_ids
@@ -579,7 +576,7 @@ msgstr "Rol"
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_role__name
 msgid "Role Name"
-msgstr "Nome do Rol"
+msgstr "Nome do rol"
 
 #. module: crm_iap_mine
 #: model:ir.model.constraint,message:crm_iap_mine.constraint_crm_iap_lead_role_name_uniq
@@ -617,12 +614,12 @@ msgstr "Tamaño"
 #. module: crm_iap_mine
 #: model:crm.iap.lead.industry,name:crm_iap_mine.crm_iap_mine_industry_165
 msgid "Software & Services"
-msgstr "Software e Servizos"
+msgstr "Software e servizos"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_mining_request__state_ids
 msgid "States"
-msgstr "Estados"
+msgstr "Provincias"
 
 #. module: crm_iap_mine
 #: model:ir.model.fields,field_description:crm_iap_mine.field_crm_iap_lead_mining_request__state
@@ -652,14 +649,10 @@ msgstr "Tecnoloxía, hardware e equipo"
 #. module: crm_iap_mine
 #: model:crm.iap.lead.industry,name:crm_iap_mine.crm_iap_mine_industry_149
 msgid "Telecommunication Services"
-msgstr "Servizos de Telecomunicacións"
+msgstr "Servizos de telecomunicacións"
 
 #. module: crm_iap_mine
-#: model:ir.model.fields,help:crm_iap_mine.field_crm_iap_lead_industry__reveal_ids
-msgid "The list of reveal_ids for this industry, separated with ','"
-msgstr "A lista de varios reveal_ids para esta industria, separada con \",\""
-
-#. module: crm_iap_mine
+#. odoo-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 #, python-format
 msgid "This makes a total of %d credits for this request."
@@ -677,14 +670,15 @@ msgid "Type"
 msgstr "Tipo"
 
 #. module: crm_iap_mine
+#. odoo-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 #, python-format
 msgid ""
 "Up to %d additional credits will be consumed to identify %d contacts per "
 "company."
 msgstr ""
-"Ata un máximo de %d créditos adicionais serán consumidos para identificar "
-"%dcontactos por empresa."
+"Ata un máximo de %d créditos adicionais serán consumidos para identificar %d"
+" contactos por empresa."
 
 #. module: crm_iap_mine
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.crm_iap_lead_mining_request_view_form
@@ -692,18 +686,19 @@ msgid "What do you need ?"
 msgstr "Que necesitas?"
 
 #. module: crm_iap_mine
-#. openerp-web
+#. odoo-javascript
 #: code:addons/crm_iap_mine/static/src/js/tours/crm_iap_lead.js:0
 #, python-format
 msgid "Which Industry do you want to target?"
-msgstr "En que tipo de industria quéresche enfocar?"
+msgstr "En que tipo de industria quérese enfocar?"
 
 #. module: crm_iap_mine
 #: model_terms:ir.ui.view,arch_db:crm_iap_mine.crm_iap_lead_mining_request_view_form
 msgid "You do not have enough credits to submit this request."
-msgstr "Non ten os créditos suficientes para enviar esta solicitude"
+msgstr "Non ten os créditos suficientes para enviar esta solicitude."
 
 #. module: crm_iap_mine
+#. odoo-python
 #: code:addons/crm_iap_mine/models/crm_iap_lead_mining_request.py:0
 #, python-format
 msgid "Your request could not be executed: %s"
@@ -782,7 +777,7 @@ msgstr "legal"
 #. module: crm_iap_mine
 #: model:crm.iap.lead.seniority,name:crm_iap_mine.crm_iap_mine_seniority_3
 msgid "manager"
-msgstr "administrador"
+msgstr "xerente"
 
 #. module: crm_iap_mine
 #: model:crm.iap.lead.role,name:crm_iap_mine.crm_iap_mine_role_13

@@ -4,18 +4,67 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 16:13\n"
-"PO-Revision-Date: 2024-11-08 16:13\n"
+"POT-Creation-Date: 2025-01-21 15:51\n"
+"PO-Revision-Date: 2025-01-21 15:51\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: \n"
 "X-Generator: tradutor Zerever\n"
+
+#. module: l10n_es_pos_sii
+#: model:ir.model.fields,field_description:l10n_es_pos_sii.field_pos_order__aeat_send_error
+msgid "AEAT Send Error"
+msgstr ""
+
+#. module: l10n_es_pos_sii
+#: model:ir.model.fields,field_description:l10n_es_pos_sii.field_pos_order__aeat_content_sent
+msgid "AEAT last content sent"
+msgstr ""
+
+#. module: l10n_es_pos_sii
+#: model:ir.model.fields,field_description:l10n_es_pos_sii.field_pos_order__aeat_header_sent
+msgid "AEAT last header sent"
+msgstr ""
+
+#. module: l10n_es_pos_sii
+#: model:ir.model.fields,field_description:l10n_es_pos_sii.field_pos_order__aeat_state
+msgid "AEAT send state"
+msgstr ""
+
+#. module: l10n_es_pos_sii
+#: model_terms:ir.ui.view,arch_db:l10n_es_pos_sii.view_pos_order_filter
+msgid "Already sent but with local changes not sent yet"
+msgstr "Enviada previamente ao SII pero con cambios locais non enviados"
+
+#. module: l10n_es_pos_sii
+#: model_terms:ir.ui.view,arch_db:l10n_es_pos_sii.view_pos_order_filter
+msgid "Already sent to SII. It includes cancelled invoices"
+msgstr "Xa enviadas ao SII. Inclúe facturas canceladas"
+
+#. module: l10n_es_pos_sii
+#: model_terms:ir.ui.view,arch_db:l10n_es_pos_sii.view_pos_order_filter
+msgid "Cancelled invoices at SII"
+msgstr "Facturas anuladas no SII"
+
+#. module: l10n_es_pos_sii
+#. odoo-javascript
+#: code:addons/l10n_es_pos_sii/static/src/js/Screens/TicketScreen/ControlButtons/InvoiceButton.js:0
+#, python-format
+msgid "Cannot Invoice"
+msgstr "Non facturable"
+
+#. module: l10n_es_pos_sii
+#. odoo-javascript
+#: code:addons/l10n_es_pos_sii/static/src/js/Screens/TicketScreen/ControlButtons/InvoiceButton.js:0
+#, python-format
+msgid "Cannot invoice order from closed session."
+msgstr "Non se pode facturar un pedido dunha sesión pechada."
 
 #. module: l10n_es_pos_sii
 #: model:ir.model.fields,help:l10n_es_pos_sii.field_pos_order__sii_macrodata
@@ -38,6 +87,7 @@ msgstr "Compañía"
 
 #. module: l10n_es_pos_sii
 #: model:ir.model.fields,field_description:l10n_es_pos_sii.field_pos_order__order_jobs_ids
+#: model_terms:ir.ui.view,arch_db:l10n_es_pos_sii.view_pos_pos_form_inherit_inh_l10n_es_pos_sii
 msgid "Connector Jobs"
 msgstr "Traballos do conector"
 
@@ -52,13 +102,13 @@ msgid "General"
 msgstr "Xeneral"
 
 #. module: l10n_es_pos_sii
-#: model:ir.model.fields,help:l10n_es_pos_sii.field_pos_order__sii_send_failed
+#: model:ir.model.fields,help:l10n_es_pos_sii.field_pos_order__aeat_send_failed
 msgid ""
 "Indicates that the last attempt to communicate this document to the SII has "
 "failed. See SII return for details"
 msgstr ""
-"Indica que fallou o último intento de comunicar este documento ao SII. "
-"Véxase a devolución do SII para máis detalles"
+"Indica que o último intento de comunicar a factura ao SII fallou. Ver o "
+"retorno SII para máis detalles"
 
 #. module: l10n_es_pos_sii
 #: model:ir.model.fields,help:l10n_es_pos_sii.field_pos_order__sii_account_registration_date
@@ -67,31 +117,50 @@ msgid ""
 "date when the document is recorded in the system and is independent of the "
 "date of the accounting entry of the document"
 msgstr ""
-"Indica a data de rexistro contable fixada no SII, que debe ser a data en que"
-" o documento se rexistra no sistema e é independente da data do asento "
-"contable do documento"
+"Indica a data de rexistro contable establecida no SII, a cal debe ser a data"
+" en que se rexistra a factura no sistema con independencia da data do asento"
+" contable da factura"
 
 #. module: l10n_es_pos_sii
-#: model:ir.model.fields,help:l10n_es_pos_sii.field_pos_order__sii_state
+#: model:ir.model.fields,help:l10n_es_pos_sii.field_pos_order__aeat_state
 msgid ""
 "Indicates the state of this document in relation with the presentation at "
-"the SII"
-msgstr "Indica o estado desta factura en relación ao rexistro no SII"
+"the AEAT"
+msgstr ""
+
+#. module: l10n_es_pos_sii
+#. odoo-javascript
+#: code:addons/l10n_es_pos_sii/static/src/js/Screens/TicketScreen/ControlButtons/InvoiceButton.js:0
+#, python-format
+msgid "Invoice"
+msgstr "Factura"
 
 #. module: l10n_es_pos_sii
 #: model:ir.model.fields,field_description:l10n_es_pos_sii.field_pos_order__sii_macrodata
 msgid "MacroData"
-msgstr "MacroDatos"
+msgstr "MacroData"
+
+#. module: l10n_es_pos_sii
+#: model_terms:ir.ui.view,arch_db:l10n_es_pos_sii.view_pos_order_filter
+msgid "Never sent to SII"
+msgstr "Nunca enviadas ao SII"
 
 #. module: l10n_es_pos_sii
 #: model:ir.model,name:l10n_es_pos_sii.model_pos_order
 msgid "Point of Sale Orders"
-msgstr "Pedidos no punto de venda"
+msgstr "Pedidos do Punto de Venda"
 
 #. module: l10n_es_pos_sii
 #: model:ir.model,name:l10n_es_pos_sii.model_pos_session
 msgid "Point of Sale Session"
-msgstr "Sesións do Punto de Venda"
+msgstr "Sesión TPV"
+
+#. module: l10n_es_pos_sii
+#. odoo-javascript
+#: code:addons/l10n_es_pos_sii/static/src/js/Screens/TicketScreen/ControlButtons/InvoiceButton.js:0
+#, python-format
+msgid "Reprint Invoice"
+msgstr "Reimprimir factura"
 
 #. module: l10n_es_pos_sii
 #: model_terms:ir.ui.view,arch_db:l10n_es_pos_sii.view_pos_pos_form_inherit_inh_l10n_es_pos_sii
@@ -116,12 +185,12 @@ msgstr "Información SII"
 #. module: l10n_es_pos_sii
 #: model:ir.model.fields,field_description:l10n_es_pos_sii.field_res_company__sii_pos_description
 msgid "SII POS Description"
-msgstr "Descrición do SII POS"
+msgstr "Descrición SII TPV"
 
 #. module: l10n_es_pos_sii
 #: model:ir.model.fields,field_description:l10n_es_pos_sii.field_pos_order__sii_refund_type
 msgid "SII Refund Type"
-msgstr "Tipo de reembolso SII"
+msgstr "Tipo rectificativa SII"
 
 #. module: l10n_es_pos_sii
 #: model_terms:ir.ui.view,arch_db:l10n_es_pos_sii.view_pos_pos_form_inherit_inh_l10n_es_pos_sii
@@ -134,29 +203,39 @@ msgid "SII Return"
 msgstr "Retorno SII"
 
 #. module: l10n_es_pos_sii
-#: model:ir.model.fields,field_description:l10n_es_pos_sii.field_pos_order__sii_send_error
-msgid "SII Send Error"
-msgstr "Erro de envío SII"
-
-#. module: l10n_es_pos_sii
 #: model:ir.model.fields,field_description:l10n_es_pos_sii.field_pos_order__sii_account_registration_date
 msgid "SII account registration date"
-msgstr "Data de rexistro da conta SII"
+msgstr "Data de rexistro contable SII"
+
+#. module: l10n_es_pos_sii
+#: model_terms:ir.ui.view,arch_db:l10n_es_pos_sii.view_pos_order_filter
+msgid "SII cancelled"
+msgstr "Anuladas SII"
 
 #. module: l10n_es_pos_sii
 #: model:ir.model.fields,field_description:l10n_es_pos_sii.field_pos_order__sii_description
 msgid "SII computed description"
-msgstr "Descrición computada do SII"
+msgstr "Descrición calculada SII"
 
 #. module: l10n_es_pos_sii
-#: model:ir.model.fields,field_description:l10n_es_pos_sii.field_pos_order__sii_content_sent
-msgid "SII last content sent"
-msgstr "Último contido enviado ao SII"
+#: model_terms:ir.ui.view,arch_db:l10n_es_pos_sii.view_pos_order_filter
+msgid "SII error"
+msgstr "Erro SII"
 
 #. module: l10n_es_pos_sii
-#: model:ir.model.fields,field_description:l10n_es_pos_sii.field_pos_order__sii_header_sent
-msgid "SII last header sent"
-msgstr "Última cabeceira enviada ao SII"
+#: model_terms:ir.ui.view,arch_db:l10n_es_pos_sii.view_pos_order_filter
+msgid "SII failed"
+msgstr "SII fallo"
+
+#. module: l10n_es_pos_sii
+#: model_terms:ir.ui.view,arch_db:l10n_es_pos_sii.view_pos_order_filter
+msgid "SII filters"
+msgstr "Filtros SII"
+
+#. module: l10n_es_pos_sii
+#: model_terms:ir.ui.view,arch_db:l10n_es_pos_sii.view_pos_order_filter
+msgid "SII not sent"
+msgstr "Non enviadas SII"
 
 #. module: l10n_es_pos_sii
 #: model:ir.model.fields,field_description:l10n_es_pos_sii.field_pos_order__sii_registration_key
@@ -166,22 +245,29 @@ msgstr "Clave de rexistro SII"
 #. module: l10n_es_pos_sii
 #: model:ir.model.fields,field_description:l10n_es_pos_sii.field_pos_order__sii_registration_key_domain
 msgid "SII registration key domain"
-msgstr "Dominio da clave de rexistro SII"
+msgstr "Dominio de clave de rexistro SII"
 
 #. module: l10n_es_pos_sii
-#: model:ir.model.fields,field_description:l10n_es_pos_sii.field_pos_order__sii_send_failed
+#: model:ir.model.fields,field_description:l10n_es_pos_sii.field_pos_order__aeat_send_failed
 msgid "SII send failed"
-msgstr "Fallo no envío de SII"
+msgstr "Envío SII errado"
 
 #. module: l10n_es_pos_sii
-#: model:ir.model.fields,field_description:l10n_es_pos_sii.field_pos_order__sii_state
-msgid "SII send state"
-msgstr "Estado de envío SII"
+#: model_terms:ir.ui.view,arch_db:l10n_es_pos_sii.view_pos_order_filter
+msgid "SII sent"
+msgstr "Enviadas SII"
 
 #. module: l10n_es_pos_sii
 #: model_terms:ir.ui.view,arch_db:l10n_es_pos_sii.view_pos_pos_form_inherit_inh_l10n_es_pos_sii
 msgid "Send to SII"
 msgstr "Enviar ao SII"
+
+#. module: l10n_es_pos_sii
+#. odoo-javascript
+#: code:addons/l10n_es_pos_sii/static/src/js/Screens/TicketScreen/ControlButtons/InvoiceButton.js:0
+#, python-format
+msgid "Session is closed"
+msgstr "A sesión está pechada"
 
 #. module: l10n_es_pos_sii
 #: model_terms:ir.ui.view,arch_db:l10n_es_pos_sii.view_pos_pos_form_inherit_inh_l10n_es_pos_sii
@@ -191,14 +277,45 @@ msgstr "Técnico"
 #. module: l10n_es_pos_sii
 #: model:ir.model.fields,help:l10n_es_pos_sii.field_res_company__sii_pos_description
 msgid "The description for pos orders."
-msgstr "A descrición para as ordes pos."
+msgstr "Descrición para os pedidos do TPV"
 
 #. module: l10n_es_pos_sii
+#: model_terms:ir.ui.view,arch_db:l10n_es_pos_sii.view_pos_order_filter
+msgid "The last attempt to sent to SII has failed"
+msgstr "O último intento de envío ao SII fallou"
+
+#. module: l10n_es_pos_sii
+#. odoo-python
 #: code:addons/l10n_es_pos_sii/models/pos_order.py:0
 #, python-format
 msgid "There's a mismatch in taxes for RE. Check them."
-msgstr "Hai un desaxuste nos impostos para RE. Compróbaos."
+msgstr "Hai un cruzamento erróneo para taxas en RE. Chequéelas."
 
+#. module: l10n_es_pos_sii
+#: model_terms:ir.ui.view,arch_db:l10n_es_pos_sii.view_pos_order_filter
+msgid "With modifications not sent to SII"
+msgstr "Modificacións non enviadas ao SII"
+
+#. module: l10n_es_pos_sii
+#. odoo-python
+#: code:addons/l10n_es_pos_sii/models/pos_order.py:0
 #, python-format
-#~ msgid "You must define a default partner for POS {}"
-#~ msgstr "Debe definir un socio por defecto para o TPV {}"
+msgid "You must define a default partner for POS {}"
+msgstr "É necesario definir un cliente por defecto para o TPV {}"
+
+#~ msgid ""
+#~ "Indicates the state of this document in relation with the presentation at "
+#~ "the SII"
+#~ msgstr "Indica o estado desta factura en relación ao rexistro no SII"
+
+#~ msgid "SII Send Error"
+#~ msgstr "Erro de envío SII"
+
+#~ msgid "SII last content sent"
+#~ msgstr "Último contido enviado ao SII"
+
+#~ msgid "SII last header sent"
+#~ msgstr "Última cabeceira enviada ao SII"
+
+#~ msgid "SII send state"
+#~ msgstr "Estado de envío SII"

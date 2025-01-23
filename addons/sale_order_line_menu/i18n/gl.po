@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 13:38\n"
-"PO-Revision-Date: 2024-11-08 13:38\n"
+"POT-Creation-Date: 2025-01-22 14:55\n"
+"PO-Revision-Date: 2025-01-22 14:55\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -21,12 +21,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_order_line_menu.field_sale_order_line__account_analytic_id
 #: model_terms:ir.ui.view,arch_db:sale_order_line_menu.sale_order_line_search
 msgid "Analytic Account"
-msgstr "conta analítica"
-
-#. module: sale_order_line_menu
-#: model_terms:ir.ui.view,arch_db:sale_order_line_menu.sale_order_line_search
-msgid "Analytic Tags"
-msgstr "Etiquetas Analíticas"
+msgstr "Conta Analítica"
 
 #. module: sale_order_line_menu
 #: model_terms:ir.ui.view,arch_db:sale_order_line_menu.sale_order_line_search
@@ -39,8 +34,8 @@ msgid ""
 "Creation date of draft/sent orders,\n"
 "Confirmation date of confirmed orders."
 msgstr ""
-"Data de creación das ordes viradas/enviadas,\n"
-"Data de confirmación das ordes confirmadas."
+"Data de creación de borradores/pedidos enviados,\n"
+"Data de confirmación de pedidos confirmados."
 
 #. module: sale_order_line_menu
 #: model:ir.model.fields,field_description:sale_order_line_menu.field_sale_order_line__date_order
@@ -50,12 +45,12 @@ msgstr "Data"
 #. module: sale_order_line_menu
 #: model_terms:ir.ui.view,arch_db:sale_order_line_menu.sale_order_line_search
 msgid "Fully Invoiced"
-msgstr "Totalmente Facturada"
+msgstr "Totalmente Facturado"
 
 #. module: sale_order_line_menu
 #: model_terms:ir.ui.view,arch_db:sale_order_line_menu.sale_order_line_search
 msgid "Invoice Status"
-msgstr "Estado de factura"
+msgstr "Estado de Facturación"
 
 #. module: sale_order_line_menu
 #: model_terms:ir.ui.view,arch_db:sale_order_line_menu.sale_order_line_search
@@ -65,7 +60,7 @@ msgstr "Bloqueado"
 #. module: sale_order_line_menu
 #: model_terms:ir.ui.view,arch_db:sale_order_line_menu.sale_order_line_search
 msgid "Nothing to Invoice"
-msgstr "Nada que Facturar"
+msgstr "Nada para Facturar"
 
 #. module: sale_order_line_menu
 #: model_terms:ir.ui.view,arch_db:sale_order_line_menu.sale_order_line_search
@@ -97,17 +92,17 @@ msgstr "Prezo total"
 #. module: sale_order_line_menu
 #: model_terms:ir.ui.view,arch_db:sale_order_line_menu.sale_order_line_search
 msgid "Quotation"
-msgstr "Orzamento"
+msgstr "Cotización"
 
 #. module: sale_order_line_menu
 #: model_terms:ir.ui.view,arch_db:sale_order_line_menu.sale_order_line_search
 msgid "Quotation Sent"
-msgstr "Orzamento enviado"
+msgstr "Cotización Enviada"
 
 #. module: sale_order_line_menu
 #: model_terms:ir.ui.view,arch_db:sale_order_line_menu.sale_order_line_search
 msgid "Sales Order"
-msgstr "Orde de Venda"
+msgstr "Ordes de Venda"
 
 #. module: sale_order_line_menu
 #: model:ir.model,name:sale_order_line_menu.model_sale_order_line
@@ -115,14 +110,9 @@ msgid "Sales Order Line"
 msgstr "Liña de Orde de Venda"
 
 #. module: sale_order_line_menu
-#: model:ir.model.fields,help:sale_order_line_menu.field_sale_order_line__account_analytic_id
-msgid "The analytic account related to a sales order."
-msgstr "A conta analítica relacionada cun pedido de cliente."
-
-#. module: sale_order_line_menu
 #: model_terms:ir.ui.view,arch_db:sale_order_line_menu.sale_order_line_search
 msgid "To Invoice"
-msgstr "A facturar"
+msgstr "Por Facturar"
 
 #. module: sale_order_line_menu
 #: model_terms:ir.ui.view,arch_db:sale_order_line_menu.sale_order_line_search

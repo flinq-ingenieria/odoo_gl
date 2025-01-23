@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 19:56\n"
-"PO-Revision-Date: 2024-11-07 19:56\n"
+"POT-Creation-Date: 2025-01-22 03:14\n"
+"PO-Revision-Date: 2025-01-22 03:14\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -23,12 +23,14 @@ msgid "Length Report"
 msgstr "Lonxitude do informe"
 
 #. module: report_qweb_parameter
+#. odoo-python
 #: code:addons/report_qweb_parameter/models/ir_qweb.py:0
 #, python-format
 msgid "Length cannot be less than %s"
 msgstr "A lonxitude non pode ser menor a %s"
 
 #. module: report_qweb_parameter
+#. odoo-python
 #: code:addons/report_qweb_parameter/models/ir_qweb.py:0
 #, python-format
 msgid "Length cannot be more than %s"

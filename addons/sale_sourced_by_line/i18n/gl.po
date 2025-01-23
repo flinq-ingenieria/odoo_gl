@@ -7,10 +7,10 @@
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 21:42\n"
-"PO-Revision-Date: 2024-11-07 21:42\n"
+"POT-Creation-Date: 2025-01-22 16:34\n"
+"PO-Revision-Date: 2025-01-22 16:34\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -21,27 +21,13 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: sale_sourced_by_line
-#: model:ir.model.fields,field_description:sale_sourced_by_line.field_sale_order__warehouse_id
-msgid "Default Warehouse"
-msgstr "Almacén predeterminado"
-
-#. module: sale_sourced_by_line
-#: model:ir.model.fields,help:sale_sourced_by_line.field_sale_order_line__warehouse_id
+#: model:ir.model.fields,help:sale_sourced_by_line.field_sale_order_line_warehouse_id
 msgid ""
 "If a source warehouse is selected, it will be used to define the route. "
 "Otherwise, it will get the warehouse of the sale order"
 msgstr ""
 "Se se selecciona un almacén de orixe, utilizarase para definir o roteiro. "
 "Pola contra, obterá o almacén da orde de venda"
-
-#. module: sale_sourced_by_line
-#: model:ir.model.fields,help:sale_sourced_by_line.field_sale_order__warehouse_id
-msgid ""
-"If no source warehouse is selected on line, this warehouse is used as "
-"default. "
-msgstr ""
-"Se non se selecciona ningún almacén de orixe en liña, este almacén utilízase"
-" por defecto. "
 
 #. module: sale_sourced_by_line
 #: model:ir.model,name:sale_sourced_by_line.model_sale_order
@@ -54,6 +40,6 @@ msgid "Sales Order Line"
 msgstr "Liña de pedido de venda"
 
 #. module: sale_sourced_by_line
-#: model:ir.model.fields,field_description:sale_sourced_by_line.field_sale_order_line__warehouse_id
+#: model:ir.model.fields,field_description:sale_sourced_by_line.field_sale_order_line_warehouse_id
 msgid "Source Warehouse"
-msgstr "Almacén de orixe"
+msgstr "Almacén de Orixe"

@@ -3,15 +3,16 @@
 # 	* im_livechat_mail_bot
 #
 # Translators:
-# Martin Trigaux, 2021
+# Martin Trigaux, 2022
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2024
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 22:06\n"
-"PO-Revision-Date: 2024-11-07 22:06\n"
+"POT-Creation-Date: 2025-01-22 08:05\n"
+"PO-Revision-Date: 2025-01-22 08:05\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -31,9 +32,9 @@ msgid ""
 "class=\"o_odoobot_command\">start the tour</span>. Enjoy discovering Odoo!"
 msgstr ""
 "Ben, pode personalizar respostas predefinidas na aplicación de chat en "
-"vivo.<br/><br/><b>Isto é o final de de este resumo</b>, agora pode <b>pechar"
-" esta conversación</b> ou comezar o circuíto outra vez tecleando <span "
-"class=\"o_odoobot_command\">start the circuíto</span>. Gozar descubrindo "
+"vivo.<br/><br/><b>Isto é o final deste resumo</b>, agora pode <b>pechar esta"
+" conversación</b> ou comezar o percorrido outra vez tecleando <span "
+"class=\"o_odoobot_command\">iniciar o percorrido</span>. Gozar descubrindo "
 "Odoo!"
 
 #. module: im_livechat_mail_bot
@@ -64,11 +65,6 @@ msgid "Onboarding canned"
 msgstr "Incorporación predefinida"
 
 #. module: im_livechat_mail_bot
-#: model:ir.model,name:im_livechat_mail_bot.model_res_users
-msgid "Users"
-msgstr "Usuarios"
-
-#. module: im_livechat_mail_bot
 #: code:addons/im_livechat_mail_bot/models/mail_bot.py:0
 #, python-format
 msgid ""
@@ -77,3 +73,8 @@ msgid ""
 msgstr ""
 "Marabilloso! 😇<br/>Probe a teclear <span "
 "class=\"o_odoobot_command\">:</span> para usar respostas predefinidas."
+
+#. module: im_livechat_mail_bot
+#: model:ir.model,name:im_livechat_mail_bot.model_res_users
+msgid "User"
+msgstr "Usuario"

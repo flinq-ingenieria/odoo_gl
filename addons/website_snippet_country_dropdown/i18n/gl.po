@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 23:03\n"
-"PO-Revision-Date: 2024-11-07 23:03\n"
+"POT-Creation-Date: 2025-01-22 12:25\n"
+"PO-Revision-Date: 2025-01-22 12:25\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -21,7 +21,6 @@ msgstr ""
 
 #. module: website_snippet_country_dropdown
 #: model_terms:ir.ui.view,arch_db:website_snippet_country_dropdown.country_dropdown_demo_view
-#: model_terms:website.page,arch_db:website_snippet_country_dropdown.country_dropdown_demo_page
 msgid "A readonly country dropdown input"
 msgstr "Unha entrada despregable de país de só lectura"
 
@@ -32,30 +31,26 @@ msgstr "Demo do despregable de países"
 
 #. module: website_snippet_country_dropdown
 #: model_terms:ir.ui.view,arch_db:website_snippet_country_dropdown.country_dropdown_demo_view
-#: model_terms:website.page,arch_db:website_snippet_country_dropdown.country_dropdown_demo_page
 msgid "Other label"
 msgstr "Outra etiqueta"
 
 #. module: website_snippet_country_dropdown
 #: model_terms:ir.ui.view,arch_db:website_snippet_country_dropdown.country_dropdown_demo_view
-#: model_terms:website.page,arch_db:website_snippet_country_dropdown.country_dropdown_demo_page
 msgid "Submit (you will see the GET parameters in the URL)"
 msgstr "Enviar (verá os parámetros GET na URL)"
 
 #. module: website_snippet_country_dropdown
 #: model_terms:ir.ui.view,arch_db:website_snippet_country_dropdown.country_dropdown_demo_view
-#: model_terms:website.page,arch_db:website_snippet_country_dropdown.country_dropdown_demo_page
 msgid "Test here the country dropdown snippet behavior"
 msgstr "Probe aquí o comportamento do snippet despregable de países"
 
 #. module: website_snippet_country_dropdown
 #: model_terms:ir.ui.view,arch_db:website_snippet_country_dropdown.country_dropdown_demo_view
-#: model_terms:website.page,arch_db:website_snippet_country_dropdown.country_dropdown_demo_page
 msgid "This is a form"
 msgstr "Isto é un formulario"
 
 #. module: website_snippet_country_dropdown
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_snippet_country_dropdown/static/src/xml/country_dropdown.xml:0
 #, python-format
 msgid ""
@@ -63,7 +58,7 @@ msgid ""
 msgstr "Escriba o atributo \"name\" para o campo que se mandará ao formulario."
 
 #. module: website_snippet_country_dropdown
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_snippet_country_dropdown/static/src/xml/country_dropdown.xml:0
 #, python-format
 msgid "You can modify the label directly with the website editor."

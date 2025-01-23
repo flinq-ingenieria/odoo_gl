@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 21:40\n"
-"PO-Revision-Date: 2024-11-08 21:40\n"
+"POT-Creation-Date: 2025-01-22 21:35\n"
+"PO-Revision-Date: 2025-01-22 21:35\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -18,6 +18,7 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: password_security
+#. odoo-python
 #: code:addons/password_security/models/res_users.py:0
 #, python-format
 msgid ""
@@ -28,6 +29,7 @@ msgstr ""
 " Letra minúscula (polo menos %s caracteres)"
 
 #. module: password_security
+#. odoo-python
 #: code:addons/password_security/models/res_users.py:0
 #, python-format
 msgid ""
@@ -38,6 +40,7 @@ msgstr ""
 " Díxito numérico (polo menos %s caracteres)"
 
 #. module: password_security
+#. odoo-python
 #: code:addons/password_security/models/res_users.py:0
 #, python-format
 msgid ""
@@ -48,6 +51,7 @@ msgstr ""
 " Carácter especial (polo menos %s caracteres)"
 
 #. module: password_security
+#. odoo-python
 #: code:addons/password_security/models/res_users.py:0
 #, python-format
 msgid ""
@@ -58,22 +62,28 @@ msgstr ""
 " Letra maiúscula (polo menos %s caracteres)"
 
 #. module: password_security
+#: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
+msgid ""
+"<span id=\"minlength\">\n"
+"                               Minimum number of characters\n"
+"                          </span>"
+msgstr ""
+"<span id=\"minlength\">\n"
+"                               Número mínimo de caracteres\n"
+"                          </span>"
+
+#. module: password_security
 #: model:ir.model.fields,help:password_security.field_res_company__password_minimum
 #: model:ir.model.fields,help:password_security.field_res_config_settings__password_minimum
 msgid "Amount of hours until a user may change password again"
 msgstr "Número de horas antes que un usuario poida cambiar o contrasinal"
 
 #. module: password_security
+#. odoo-python
 #: code:addons/password_security/models/res_users.py:0
 #, python-format
 msgid "Cannot use the most recent %d passwords"
 msgstr "Non se pode utilizar unha das %d contrasinais máis recentes"
-
-#. module: password_security
-#: model:ir.model.fields,field_description:password_security.field_res_company__password_length
-#: model:ir.model.fields,field_description:password_security.field_res_config_settings__password_length
-msgid "Characters"
-msgstr "Caracteres"
 
 #. module: password_security
 #: model:ir.model,name:password_security.model_res_company
@@ -83,7 +93,7 @@ msgstr "Compañías"
 #. module: password_security
 #: model:ir.model,name:password_security.model_res_config_settings
 msgid "Config Settings"
-msgstr "Axustes Configuración"
+msgstr "Axustes de Configuración"
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__create_uid
@@ -130,12 +140,6 @@ msgstr "Nome Mostrado"
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__password_crypt
 msgid "Encrypted Password"
 msgstr "Contrasinal Encriptada"
-
-#. module: password_security
-#: model:ir.model.fields,field_description:password_security.field_res_company__password_estimate
-#: model:ir.model.fields,field_description:password_security.field_res_config_settings__password_estimate
-msgid "Estimation"
-msgstr "Estimación"
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_company__password_history
@@ -187,13 +191,6 @@ msgid "Minimum Hours"
 msgstr "Horas Mínimas"
 
 #. module: password_security
-#: model:ir.model.fields,help:password_security.field_res_company__password_length
-#: model:ir.model.fields,help:password_security.field_res_config_settings__password_length
-#: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
-msgid "Minimum number of characters"
-msgstr "Número mínimo de caracteres"
-
-#. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
 msgid "Minimum number of lowercase characters"
 msgstr "Número mínimo de caracteres minúsculas"
@@ -210,15 +207,11 @@ msgstr "Número mínimo de caracteres especiais"
 
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
-msgid "Minimum number of strength estimation"
-msgstr "Número mínimo de forza estimada"
-
-#. module: password_security
-#: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
 msgid "Minimum number of uppercase characters"
 msgstr "Número mínimo de caracteres maiúsculas"
 
 #. module: password_security
+#. odoo-python
 #: code:addons/password_security/models/res_users.py:0
 #, python-format
 msgid "Must contain the following:"
@@ -241,23 +234,19 @@ msgid "Password Policy"
 msgstr "Política de Contrasinais"
 
 #. module: password_security
-#: model:ir.model.fields,field_description:password_security.field_res_company__password_policy_enabled
-#: model:ir.model.fields,field_description:password_security.field_res_config_settings__password_policy_enabled
-msgid "Password Policy Enabled"
-msgstr "Política de Contrasinais Activada"
-
-#. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
 msgid "Password expires in"
 msgstr "O contrasinal caduco en"
 
 #. module: password_security
+#. odoo-python
 #: code:addons/password_security/models/res_users.py:0
 #, python-format
 msgid "Password must be %d characters or more."
 msgstr "O contrasinal debe ser de polo menos %d caracteres."
 
 #. module: password_security
+#. odoo-python
 #: code:addons/password_security/models/res_users.py:0
 #, python-format
 msgid ""
@@ -292,32 +281,15 @@ msgid "Require number of uppercase letters"
 msgstr "Requirir número de letras maiúsculas"
 
 #. module: password_security
-#: model:ir.model.fields,help:password_security.field_res_company__password_estimate
-#: model:ir.model.fields,help:password_security.field_res_config_settings__password_estimate
-msgid "Required score for the strength estimation. Between 0 and 4"
-msgstr "Puntuación requirida para a estimación de forza. Entre 0 e 4"
-
-#. module: password_security
 #: model:ir.model,name:password_security.model_res_users_pass_history
 msgid "Res Users Password History"
 msgstr "Res Usuarios Histórico de Contrasinais"
-
-#. module: password_security
-#: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
-msgid "Set password security requirements"
-msgstr "Establecer requisitos de seguridade para os contrasinais"
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_company__password_special
 #: model:ir.model.fields,field_description:password_security.field_res_config_settings__password_special
 msgid "Special"
 msgstr "Especial"
-
-#. module: password_security
-#: code:addons/password_security/models/res_company.py:0
-#, python-format
-msgid "The estimation must be between 0 and 4."
-msgstr "A estimación debe estar entre 0 e 4."
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_company__password_upper
@@ -331,6 +303,7 @@ msgid "Use negative number for infinite, or 0 to disable"
 msgstr "Utilizar un número negativo para infinito, ou 0 para deshabilitarlo"
 
 #. module: password_security
+#: model:ir.model,name:password_security.model_res_users
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__user_id
 msgid "User"
 msgstr "Usuario"
@@ -339,46 +312,6 @@ msgstr "Usuario"
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
 msgid "User can change password in"
 msgstr "O usuario pode volver cambiar o contrasinal en"
-
-#. module: password_security
-#: model:ir.model,name:password_security.model_res_users
-msgid "Users"
-msgstr "Usuarios"
-
-#. module: password_security
-#. openerp-web
-#: code:addons/password_security/static/src/js/password_gauge.js:0
-#, python-format
-msgid "at least %d characters"
-msgstr "polo menos %d caracteres"
-
-#. module: password_security
-#. openerp-web
-#: code:addons/password_security/static/src/js/password_gauge.js:0
-#, python-format
-msgid "at least %d lower case characters"
-msgstr "polo menos %d caracteres en minúsculas"
-
-#. module: password_security
-#. openerp-web
-#: code:addons/password_security/static/src/js/password_gauge.js:0
-#, python-format
-msgid "at least %d numeric characters"
-msgstr "polo menos %d caracteres numéricos"
-
-#. module: password_security
-#. openerp-web
-#: code:addons/password_security/static/src/js/password_gauge.js:0
-#, python-format
-msgid "at least %d special characters"
-msgstr "polo menos %d caracteres especiais"
-
-#. module: password_security
-#. openerp-web
-#: code:addons/password_security/static/src/js/password_gauge.js:0
-#, python-format
-msgid "at least %d upper case characters"
-msgstr "polo menos %d caracteres en maiúsculas"
 
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
@@ -394,6 +327,15 @@ msgstr "horas de novo."
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
 msgid "previous passwords."
 msgstr "contrasinais previos."
+
+#~ msgid "Characters"
+#~ msgstr "Caracteres"
+
+#~ msgid "Minimum number of characters"
+#~ msgstr "Número mínimo de caracteres"
+
+#~ msgid "Users"
+#~ msgstr "Usuarios"
 
 #~ msgid "Extra"
 #~ msgstr "Extra"

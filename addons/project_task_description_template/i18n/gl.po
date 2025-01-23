@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 12:43\n"
-"PO-Revision-Date: 2024-11-08 12:43\n"
+"POT-Creation-Date: 2025-01-21 23:50\n"
+"PO-Revision-Date: 2025-01-21 23:50\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,85 +20,85 @@ msgstr ""
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__active
 msgid "Active"
-msgstr "Activo"
+msgstr ""
 
 #. module: project_task_description_template
 #: model_terms:ir.actions.act_window,help:project_task_description_template.project_task_description_template_action
 msgid "Click to create a new description template."
-msgstr "Fai click para crear un novo modelo de descrición."
+msgstr ""
 
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__company_id
 msgid "Company"
-msgstr "Compañía"
+msgstr ""
 
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__create_uid
 msgid "Created by"
-msgstr "Creado por"
+msgstr ""
 
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__create_date
 msgid "Created on"
-msgstr "Creado en"
+msgstr ""
 
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__description
 #: model_terms:ir.ui.view,arch_db:project_task_description_template.project_task_description_template_view_form
 msgid "Description"
-msgstr "Descrición"
+msgstr ""
 
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task__description_template_id
 msgid "Description Template"
-msgstr "Modelo de descrición"
+msgstr ""
 
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__display_name
 msgid "Display Name"
-msgstr "Nome mostrado"
+msgstr ""
 
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template____last_update
 msgid "Last Modified on"
-msgstr "Última modificación o"
+msgstr ""
 
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__write_uid
 msgid "Last Updated by"
-msgstr "Última actualización por"
+msgstr ""
 
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__write_date
 msgid "Last Updated on"
-msgstr "Última actualización o"
+msgstr ""
 
 #. module: project_task_description_template
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__name
 msgid "Name"
-msgstr "Nome"
+msgstr ""
 
 #. module: project_task_description_template
 #: model:ir.model,name:project_task_description_template.model_project_task_description_template
 msgid "Project Task Description Template"
-msgstr "Modelo de descrición de tarefas"
+msgstr ""
 
 #. module: project_task_description_template
 #: model:ir.model,name:project_task_description_template.model_project_task
 msgid "Task"
-msgstr "Tarefa"
+msgstr ""
 
 #. module: project_task_description_template
 #: model:ir.ui.menu,name:project_task_description_template.project_task_description_template_menu
 msgid "Task Description Templates"
-msgstr "Modelos de descrición de tarefas"
+msgstr ""
 
 #. module: project_task_description_template
 #: model:ir.actions.act_window,name:project_task_description_template.project_task_description_template_action
 msgid "Task Description template"
-msgstr "Modelo de descrición de tarefa"
+msgstr ""

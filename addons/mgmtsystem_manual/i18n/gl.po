@@ -7,10 +7,10 @@
 # enjolras <yo@miguelrevilla.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 22:35\n"
-"PO-Revision-Date: 2024-11-08 22:35\n"
+"POT-Creation-Date: 2025-01-21 14:22\n"
+"PO-Revision-Date: 2025-01-21 14:22\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -23,7 +23,7 @@ msgstr ""
 #. module: mgmtsystem_manual
 #: model:ir.ui.menu,name:mgmtsystem_manual.menu_mgmtsystem_categories
 msgid "Categories"
-msgstr "Categorías"
+msgstr "categorías"
 
 #. module: mgmtsystem_manual
 #: model:ir.model.fields,field_description:mgmtsystem_manual.field_mgmtsystem_system__manual_id
@@ -39,9 +39,9 @@ msgstr "Manuais"
 #. module: mgmtsystem_manual
 #: model_terms:ir.actions.act_window,help:mgmtsystem_manual.action_manuals
 msgid "Manuals of your management systems."
-msgstr "Manuais dos seus sistemas de xestión."
+msgstr "Manuais dos teus sistemas de xestión."
 
 #. module: mgmtsystem_manual
 #: model:ir.model,name:mgmtsystem_manual.model_mgmtsystem_system
 msgid "System"
-msgstr "Sistema"
+msgstr "sistema"

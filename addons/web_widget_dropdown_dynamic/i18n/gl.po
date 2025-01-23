@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 04:55\n"
-"PO-Revision-Date: 2024-11-08 04:55\n"
+"POT-Creation-Date: 2025-01-22 18:42\n"
+"PO-Revision-Date: 2025-01-22 18:42\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -18,8 +18,8 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: web_widget_dropdown_dynamic
-#. openerp-web
-#: code:addons/web_widget_dropdown_dynamic/static/src/js/field_dynamic_dropdown.js:0
+#. odoo-javascript
+#: code:addons/web_widget_dropdown_dynamic/static/src/js/field_dynamic_dropdown.esm.js:0
 #, python-format
 msgid "Dynamic Dropdown"
 msgstr "Menú despregable dinámico"

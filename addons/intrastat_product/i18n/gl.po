@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 23:51\n"
-"PO-Revision-Date: 2024-11-07 23:51\n"
+"POT-Creation-Date: 2025-01-21 23:28\n"
+"PO-Revision-Date: 2025-01-21 23:28\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -16,6 +16,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: tradutor Zerever\n"
+
+#. module: intrastat_product
+#. odoo-python
+#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
+#, python-format
+msgid "%(invoice)s line %(line_nbr)s"
+msgstr "%(invoice)s liña %(line_nbr)s"
 
 #. module: intrastat_product
 #: model_terms:ir.ui.view,arch_db:intrastat_product.view_move_form
@@ -86,40 +93,42 @@ msgid "12"
 msgstr "12"
 
 #. module: intrastat_product
-#: model:ir.model.fields,help:intrastat_product.field_account_move_intrastat_line__product_origin_country_code
-#: model:ir.model.fields,help:intrastat_product.field_intrastat_product_computation_line__product_origin_country_code
 #: model:ir.model.fields,help:intrastat_product.field_intrastat_product_declaration_line__product_origin_country_code
 msgid ""
-"2 digit code of country of origin of the product except for the UK.\n"
-"Specify 'XI' for UK Northern Ireland and 'XU' for rest of the UK.\n"
+"2 letters ISO code of the country of origin of the product except for the UK.\n"
+"Specify 'XI' for Northern Ireland and 'XU' for Great Britain.\n"
 "Specify 'QU' when the country is unknown.\n"
 msgstr ""
-"Código de 2 díxitos do país de orixe do produto, excepto para o Reino Unido.\n"
-"Especifique \"XI\" para o Reino Unido e Irlanda do Norte e \"XU\" para o resto do Reino Unido.\n"
+"Código ISO de 2 letras do país de orixe do produto, excepto para o Reino Unido.\n"
+"Especifique \"XI\" para Irlanda do Norte e \"XU\" para Gran Bretaña.\n"
 "Especifique \"QU\" cando o país sexa descoñecido.\n"
+
+#. module: intrastat_product
+#: model:ir.model.fields,help:intrastat_product.field_intrastat_product_computation_line__product_origin_country_code
+msgid ""
+"2 letters ISO code of the country of origin of the product.\n"
+"Specify 'QU' when the country of origin is unknown.\n"
+msgstr ""
+"Código ISO de 2 letras do país de orixe do produto.\n"
+"Especifique 'QU' cando se descoñeza o país de orixe.\n"
 
 #. module: intrastat_product
 #: model:ir.model.fields,help:intrastat_product.field_intrastat_product_declaration_line__src_dest_country_code
 msgid ""
-"2 digit code of country of origin/destination.\n"
-"Specify 'XI' for UK Northern Ireland and 'XU' for rest of the UK."
+"2 letters ISO code of the country of origin/destination.\n"
+"Specify 'XI' for Northern Ireland and 'XU' for Great Britain."
 msgstr ""
-"Código de 2 díxitos do país de orixe/destino.\n"
-"Especifique \"XI\" para Irlanda do Norte e \"XU\" para o resto do Reino Unido."
+"Código ISO de 2 letras do país de orixe/destino.\n"
+"Especifique \"XI\" para Irlanda do Norte e \"XU\" para Gran Bretaña."
 
 #. module: intrastat_product
 #: model:ir.model.fields,help:intrastat_product.field_intrastat_product_computation_line__src_dest_country_code
 msgid ""
-"2 digit code of country of origin/destination.\n"
-"Specify 'XI' for UK Northern Ireland."
+"2 letters code of the country of origin/destination.\n"
+"Specify 'XI' for Northern Ireland."
 msgstr ""
-"Código de 2 díxitos do país de orixe/destino.\n"
-"Especifique \"XI\" para o Reino Unido e Irlanda do Norte."
-
-#. module: intrastat_product
-#: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_form
-msgid "<span>Intrastat Product Declaration </span>"
-msgstr "<span>Declaración de produto Intrastat </span>"
+"Código de 2 letras do país de orixe/destino.\n"
+"Especifique \"XI\" para Irlanda do Norte."
 
 #. module: intrastat_product
 #: model:ir.model.constraint,message:intrastat_product.constraint_intrastat_product_declaration_date_uniq
@@ -131,6 +140,7 @@ msgstr ""
 "Debe actualizar a declaración existente ou cambiar o número de revisión desta."
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__amount_accessory_cost_company_currency
 #, python-format
@@ -145,7 +155,7 @@ msgstr "Acción"
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__message_needaction
 msgid "Action Needed"
-msgstr "Acción Necesaria"
+msgstr "Acción necesaria"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_transaction__active
@@ -161,12 +171,12 @@ msgstr "Actividades"
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Decoración de excepción de actividade"
+msgstr "Actividade Excepción Decoración"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__activity_state
 msgid "Activity State"
-msgstr "Estado da actividade"
+msgstr "Estado de actividade"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__activity_type_icon
@@ -193,12 +203,12 @@ msgstr ""
 #: model:ir.model.fields,help:intrastat_product.field_intrastat_product_computation_line__amount_accessory_cost_company_currency
 msgid ""
 "Amount in company currency of the accessory costs related to this invoice "
-"line (by default, these accessory costs are computed at the pro-rata of the "
+"line. By default, these accessory costs are computed at the pro-rata of the "
 "amount of each invoice line."
 msgstr ""
-"Importe na moeda da compañía dos custos accesorios relacionados con esta "
-"liña de factura (por defecto, estes custos accesorios calcúlanse "
-"prorrateados do importe de cada liña de factura)."
+"Importe en moeda da empresa dos custos accesorios relacionados con esta liña"
+" de factura. Por defecto, estes custos accesorios calcúlanse a prorrata do "
+"importe de cada liña de factura."
 
 #. module: intrastat_product
 #: model:ir.model.fields,help:intrastat_product.field_intrastat_product_computation_line__amount_company_currency
@@ -212,6 +222,7 @@ msgstr ""
 " mesma, calcúlase coa taxa de cambio da data de factura."
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid ""
@@ -222,6 +233,7 @@ msgstr ""
 "eliminala."
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid "Append"
@@ -229,14 +241,23 @@ msgstr "Engadir"
 
 #. module: intrastat_product
 #: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_transaction_form
+#: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_transaction_mode_search
 #: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_unit_search
 msgid "Archived"
 msgstr "Arquivado"
 
 #. module: intrastat_product
+#: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_form
+msgid "Are you sure you want to go back to draft?"
+msgstr "Seguro que queres volver ao estado de borrador?"
+
+#. module: intrastat_product
+#. odoo-python
+#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #: model:ir.model.fields,field_description:intrastat_product.field_res_company__intrastat_arrivals
 #: model:ir.model.fields,field_description:intrastat_product.field_res_config_settings__intrastat_arrivals
 #: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_search
+#, python-format
 msgid "Arrivals"
 msgstr "Chegadas"
 
@@ -246,17 +267,22 @@ msgid "Attachment Count"
 msgstr "Total de adxuntos"
 
 #. module: intrastat_product
+#: model:intrastat.transaction,description:intrastat_product.intrastat_transaction_11
+msgid "B2B sale/purchase"
+msgstr "Venda/compra B2B"
+
+#. module: intrastat_product
+#: model:intrastat.transaction,description:intrastat_product.intrastat_transaction_12
+msgid "B2C sale/purchase (incl. distance sale)"
+msgstr "Compra/venda B2C (incl. venda a distancia)"
+
+#. module: intrastat_product
 #: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_form
 msgid "Back to Draft"
 msgstr "Volver a Borrador"
 
 #. module: intrastat_product
-#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
-#, python-format
-msgid "Before going back to draft, you must delete the XML export."
-msgstr "Antes de volver a borrador, debe eliminar a exportación XML."
-
-#. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid "Cannot delete the declaration %s because it is in Done state."
@@ -297,7 +323,9 @@ msgid "Company"
 msgstr "Compañía"
 
 #. module: intrastat_product
+#: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__company_country_code
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__company_country_code
+#: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration_line__company_country_code
 msgid "Company Country Code"
 msgstr "Código de país da compañía"
 
@@ -308,6 +336,7 @@ msgid "Company currency"
 msgstr "Moeda da compañía"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration_line__computation_line_ids
 #, python-format
@@ -325,45 +354,54 @@ msgid "Config Settings"
 msgstr "Axustes de configuración"
 
 #. module: intrastat_product
+#: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_form
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: intrastat_product
+#: model:ir.model.fields.selection,name:intrastat_product.selection__intrastat_product_declaration__state__confirmed
+#: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_search
+msgid "Confirmed"
+msgstr "Confirmado/a"
+
+#. module: intrastat_product
 #: model:ir.model,name:intrastat_product.model_res_partner
 msgid "Contact"
 msgstr "Contacto"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid ""
-"Conversion from Intrastat Supplementary Unit '%s' to Unit of Measure is not "
-"implemented yet."
+"Conversion from unit of measure <em>%(source_uom)s</em> to "
+"<em>%(target_uom)s</em>, which is configured on the intrastat supplementary "
+"unit <i>%(intrastat_unit)s</i> of H.S. code <i>%(hs_code)s</i>, is not "
+"implemented yet"
 msgstr ""
-"A conversión da Unidade Suplementaria Intrastat '%s' á Unidade de Medida "
-"aínda non está implementada."
+"Conversión da unidade de medida <em>%(source_uom)s</em> a "
+"<em>%(target_uom)s</em>, que se configura na unidade suplementaria Intrastat"
+" <i>%(intrastat_unit)s</i > de H.S. código <i>%(hs_code)s</i>, aínda non "
+"está implementado"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid ""
-"Conversion from unit of measure %(src_uom)s to %(dest_uom)s is not "
-"implemented."
+"Conversion from unit of measure <em>%(source_uom)s</em> to <em>Kg</em> "
+"cannot be done automatically. It is needed for product <i>%(product)s</i> "
+"whose unit of measure is <i>%(product_uom)s</i>"
 msgstr ""
-"A conversión da unidade de medida %(src_uom)s a %(dest_uom)s non está "
-"implementada."
-
-#. module: intrastat_product
-#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
-#, python-format
-msgid ""
-"Conversion from unit of measure %(uom)s to 'Kg' is not implemented. It is "
-"needed for product %(product)s."
-msgstr ""
-"A conversión da unidade de medida %(uom)s a 'Kg' non está implementada. "
-"Necesítase para o produto %(product)s."
+"A conversión da unidade de medida <em>%(source_uom)s</em> a <em>Kg</em> non "
+"se pode realizar automaticamente. É necesario para o produto "
+"<i>%(product)s</i> cuxa unidade de medida é <i>%(product_uom)s</i>"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__src_dest_country_id
-#: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration_line__src_dest_country_id
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_region__country_id
 #: model:ir.model.fields,field_description:intrastat_product.field_res_config_settings__country_id
+#: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_region_view_search
 msgid "Country"
 msgstr "País"
 
@@ -374,32 +412,36 @@ msgid "Country Code"
 msgstr "Código de país"
 
 #. module: intrastat_product
-#: model:ir.model.fields,field_description:intrastat_product.field_account_move_intrastat_line__product_origin_country_id
-msgid "Country of Origin"
-msgstr "País de Orixe"
+#: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__product_origin_country_code
+msgid "Country Code of Origin of the Product"
+msgstr "Código de país de orixe do produto"
 
 #. module: intrastat_product
-#: model:ir.model.fields,field_description:intrastat_product.field_account_move_intrastat_line__product_origin_country_code
-#: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__product_origin_country_code
+#. odoo-python
+#: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
+#, python-format
+msgid "Country Code of Origin/Destination"
+msgstr "Código de país de orixe/destino"
+
+#. module: intrastat_product
+#: model:ir.model.fields,field_description:intrastat_product.field_account_move_intrastat_line__product_origin_country_id
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__product_origin_country_id
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration_line__product_origin_country_code
-#: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration_line__product_origin_country_id
 msgid "Country of Origin of the Product"
 msgstr "País de orixe do produto"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
 #: model:ir.model.fields,help:intrastat_product.field_intrastat_product_computation_line__src_dest_country_id
-#: model:ir.model.fields,help:intrastat_product.field_intrastat_product_declaration_line__src_dest_country_id
 #, python-format
 msgid "Country of Origin/Destination"
 msgstr "País de orixe/destino"
 
 #. module: intrastat_product
 #: model:ir.model.fields,help:intrastat_product.field_intrastat_product_computation_line__product_origin_country_id
-#: model:ir.model.fields,help:intrastat_product.field_intrastat_product_declaration_line__product_origin_country_id
 msgid "Country of origin of the product i.e. product 'made in ____'"
-msgstr "País de orixe do produto, por exemplo 'Feito en ____'."
+msgstr "País de orixe do produto, por exemplo 'Feito en ____'"
 
 #. module: intrastat_product
 #: model:ir.model.fields,help:intrastat_product.field_account_move_intrastat_line__product_origin_country_id
@@ -453,23 +495,12 @@ msgid "Declaration Line"
 msgstr "Liña de declaración"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
 #: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_form
 #, python-format
 msgid "Declaration Lines"
 msgstr "Liñas de declaración"
-
-#. module: intrastat_product
-#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
-#, python-format
-msgid "Declaration for Arrivals"
-msgstr "Declaración de Chegadas"
-
-#. module: intrastat_product
-#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
-#, python-format
-msgid "Declaration for Dispatches"
-msgstr "Declaración de Despachos"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_res_company__intrastat_region_id
@@ -478,39 +509,10 @@ msgid "Default Intrastat Region"
 msgstr "Rexión Intrastat por defecto"
 
 #. module: intrastat_product
-#: model:ir.model.fields,field_description:intrastat_product.field_res_company__intrastat_transaction_out_invoice
-#: model:ir.model.fields,field_description:intrastat_product.field_res_config_settings__intrastat_transaction_out_invoice
-msgid "Default Intrastat Transaction For Customer Invoice"
-msgstr "Transacción Intrastat por defecto para a factura do cliente"
-
-#. module: intrastat_product
-#: model:ir.model.fields,field_description:intrastat_product.field_res_company__intrastat_transaction_in_invoice
-#: model:ir.model.fields,field_description:intrastat_product.field_res_config_settings__intrastat_transaction_in_invoice
-msgid "Default Intrastat Transaction For Supplier Invoices"
-msgstr "Transacción Intrastat por defecto para Facturas de Provedores"
-
-#. module: intrastat_product
-#: model:ir.model.fields,field_description:intrastat_product.field_res_company__intrastat_transaction_in_refund
-#: model:ir.model.fields,field_description:intrastat_product.field_res_config_settings__intrastat_transaction_in_refund
-msgid "Default Intrastat Transaction For Supplier Refunds"
-msgstr "Transacción Intrastat por defecto para Abonos de Provedor"
-
-#. module: intrastat_product
-#: model:ir.model.fields,field_description:intrastat_product.field_res_company__intrastat_transaction_out_refund
-#: model:ir.model.fields,field_description:intrastat_product.field_res_config_settings__intrastat_transaction_out_refund
-msgid "Default Intrastat Transaction for Customer Refunds"
-msgstr "Transacción Intrastat por defecto para Abonos a Clientes"
-
-#. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_res_company__intrastat_transport_id
 #: model:ir.model.fields,field_description:intrastat_product.field_res_config_settings__intrastat_transport_id
 msgid "Default Transport Mode"
 msgstr "Modo Transporte por defecto"
-
-#. module: intrastat_product
-#: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_form
-msgid "Delete XML Export"
-msgstr "Borrar a exportación XML"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_region__description
@@ -533,9 +535,12 @@ msgid "Destination country for dispatches. Origin country for arrivals."
 msgstr "País de destino para despachos. País de orígen para chegadas."
 
 #. module: intrastat_product
+#. odoo-python
+#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #: model:ir.model.fields,field_description:intrastat_product.field_res_company__intrastat_dispatches
 #: model:ir.model.fields,field_description:intrastat_product.field_res_config_settings__intrastat_dispatches
 #: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_search
+#, python-format
 msgid "Dispatches"
 msgstr "Despachos"
 
@@ -550,11 +555,10 @@ msgstr "Despachos"
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_transport_mode__display_name
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_unit__display_name
 msgid "Display Name"
-msgstr "Nome mostrado"
+msgstr "Nome a mostrar"
 
 #. module: intrastat_product
 #: model:ir.model.fields.selection,name:intrastat_product.selection__intrastat_product_declaration__state__done
-#: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_form
 #: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_search
 msgid "Done"
 msgstr "Feito"
@@ -566,17 +570,25 @@ msgid "Draft"
 msgstr "Borrador"
 
 #. module: intrastat_product
+#: model:ir.actions.report,name:intrastat_product.intrastat_product_xlsx_report
 #: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_form
 msgid "Excel Export"
 msgstr "Exportar a excel"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid "Extended"
 msgstr "Estendido"
 
 #. module: intrastat_product
+#: model:intrastat.transaction,description:intrastat_product.intrastat_transaction_33
+msgid "Financial leasing"
+msgstr "Arrendamento financeiro"
+
+#. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__amount_company_currency
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration_line__amount_company_currency
@@ -611,13 +623,7 @@ msgid "Font awesome icon e.g. fa-tasks"
 msgstr "Icona de Font Awesome ex. fa-tasks"
 
 #. module: intrastat_product
-#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
-#: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_form
-#, python-format
-msgid "Generate Declaration Lines"
-msgstr "Xerar Liñas de Declaración"
-
-#. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_form
 #, python-format
@@ -625,19 +631,36 @@ msgid "Generate Lines from Invoices"
 msgstr "Xerar Liñas desde Facturas"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
-#: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_form
 #, python-format
 msgid "Generate XML Declaration File"
 msgstr "Xerar Arquivo XML de Declaración"
 
 #. module: intrastat_product
+#: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_form
+msgid "Generate XML File"
+msgstr "Xerar Arquivo XML"
+
+#. module: intrastat_product
+#: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_form
+msgid "Generate XML file and set declaration to 'Done'"
+msgstr "Xerar arquivo XML e establecer a declaración en \"Feito\""
+
+#. module: intrastat_product
+#: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_form
+msgid "Generate declaration lines"
+msgstr "Xerar liñas de declaración"
+
+#. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid "Generate lines from invoices: results"
 msgstr "Xerar liñas desde facturas: resultados"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid "Go to Accounting Configuration Settings screen"
@@ -671,6 +694,11 @@ msgid "Has Message"
 msgstr "Ten mensaxe"
 
 #. module: intrastat_product
+#: model:intrastat.transaction,description:intrastat_product.intrastat_transaction_91
+msgid "Hire, loan, and operational leasing longer than 24 months"
+msgstr "Alugueiro, préstamo e arrendamento operativo a máis de 24 meses"
+
+#. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_account_move_intrastat_line__id
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__id
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__id
@@ -695,7 +723,6 @@ msgstr "Icona para indicar unha actividade de excepción."
 
 #. module: intrastat_product
 #: model:ir.model.fields,help:intrastat_product.field_intrastat_product_declaration__message_needaction
-#: model:ir.model.fields,help:intrastat_product.field_intrastat_product_declaration__message_unread
 msgid "If checked, new messages require your attention."
 msgstr "Se está marcado, hai novas mensaxes que requiren da súa atención."
 
@@ -711,12 +738,13 @@ msgid "Include Accessory Costs in Fiscal Value of Product"
 msgstr "Incluír Custos Accesorio en Valor Fiscal do Produto"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__incoterm_id
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration_line__incoterm_id
 #, python-format
 msgid "Incoterm"
-msgstr "Incoterm"
+msgstr "Incotérmino"
 
 #. module: intrastat_product
 #: model:intrastat.transport_mode,name:intrastat_product.intrastat_transport_8
@@ -729,11 +757,7 @@ msgid "Inland waterway transport"
 msgstr "Transporte fluvial"
 
 #. module: intrastat_product
-#: model_terms:ir.ui.view,arch_db:intrastat_product.view_move_form
-msgid "Intrastat"
-msgstr "Intrastat"
-
-#. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
 #: model:ir.model.fields,field_description:intrastat_product.field_account_move_intrastat_line__hs_code_id
 #: model:ir.model.fields,field_description:intrastat_product.field_account_move_line__hs_code_id
@@ -744,12 +768,6 @@ msgid "Intrastat Code"
 msgstr "Código Intrastat"
 
 #. module: intrastat_product
-#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
-#, python-format
-msgid "Intrastat Code %s:"
-msgstr "Código Intrastat %s:"
-
-#. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_account_bank_statement_line__intrastat
 #: model:ir.model.fields,field_description:intrastat_product.field_account_move__intrastat
 #: model:ir.model.fields,field_description:intrastat_product.field_account_payment__intrastat
@@ -757,45 +775,64 @@ msgstr "Código Intrastat %s:"
 #: model:ir.model.fields,field_description:intrastat_product.field_res_config_settings__intrastat
 #: model:ir.model.fields,field_description:intrastat_product.field_sale_order__intrastat
 msgid "Intrastat Declaration"
-msgstr "Declaración Intrastat"
+msgstr "Declaración de produto Intrastat"
+
+#. module: intrastat_product
+#: model:ir.model.fields,field_description:intrastat_product.field_account_bank_statement_line__intrastat_line_ids
+#: model:ir.model.fields,field_description:intrastat_product.field_account_move__intrastat_line_ids
+#: model:ir.model.fields,field_description:intrastat_product.field_account_payment__intrastat_line_ids
+msgid "Intrastat Declaration Details"
+msgstr "Detalles da declaración Intrastat"
+
+#. module: intrastat_product
+#: model:ir.model.fields,help:intrastat_product.field_account_bank_statement_line__intrastat_transaction_id
+#: model:ir.model.fields,help:intrastat_product.field_account_move__intrastat_transaction_id
+#: model:ir.model.fields,help:intrastat_product.field_account_payment__intrastat_transaction_id
+msgid "Intrastat Nature of Transaction"
+msgstr "Natureza intrastat da transacción"
 
 #. module: intrastat_product
 #: model:ir.model,name:intrastat_product.model_intrastat_product_computation_line
-msgid "Intrastat Product Computataion Lines"
-msgstr "Liñas de cálculo de produtos Intrastat"
-
-#. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__computation_line_ids
 msgid "Intrastat Product Computation Lines"
 msgstr "Liñas de cálculo de Intrastat"
 
 #. module: intrastat_product
+#: model:ir.model,name:intrastat_product.model_intrastat_product_declaration
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__parent_id
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration_line__parent_id
-#: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_form
 msgid "Intrastat Product Declaration"
 msgstr "Declaración de produto Intrastat"
+
+#. module: intrastat_product
+#. odoo-python
+#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
+#, python-format
+msgid "Intrastat Product Declaration %(declaration_type)s %(year_month)s"
+msgstr "Intrastat Declaración de produto %(declaration_type)s %(year_month)s"
 
 #. module: intrastat_product
 #: model:ir.model,name:intrastat_product.model_intrastat_product_declaration_line
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__declaration_line_ids
 msgid "Intrastat Product Declaration Lines"
-msgstr "Liñas de declaración de produto Intrastat"
+msgstr "Liñas de declaración Intrastat"
 
 #. module: intrastat_product
-#: model:ir.model,name:intrastat_product.model_intrastat_product_declaration
-msgid "Intrastat Product Report Base Object"
-msgstr "Obxecto base do informe de produtos Intrastat"
-
-#. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
 #: model:ir.model,name:intrastat_product.model_intrastat_region
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__region_id
-#: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration_line__region_id
 #: model:ir.model.fields,field_description:intrastat_product.field_stock_warehouse__region_id
 #, python-format
 msgid "Intrastat Region"
 msgstr "Rexión Intrastat"
+
+#. module: intrastat_product
+#. odoo-python
+#: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
+#, python-format
+msgid "Intrastat Region Code"
+msgstr "Código de rexión Intrastat"
 
 #. module: intrastat_product
 #: model:ir.actions.act_window,name:intrastat_product.intrastat_region_action
@@ -816,11 +853,15 @@ msgid "Intrastat Supplementary Unit"
 msgstr "Unidade Suplementaria Intrastat"
 
 #. module: intrastat_product
+#. odoo-python
+#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #: model:ir.model,name:intrastat_product.model_intrastat_unit
+#, python-format
 msgid "Intrastat Supplementary Units"
 msgstr "Unidades suplementarias de Intrastat"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
 #: model:ir.model,name:intrastat_product.model_intrastat_transaction
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__transaction_id
@@ -828,6 +869,13 @@ msgstr "Unidades suplementarias de Intrastat"
 #, python-format
 msgid "Intrastat Transaction"
 msgstr "Transacción Intrastat"
+
+#. module: intrastat_product
+#. odoo-python
+#: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
+#, python-format
+msgid "Intrastat Transaction Code"
+msgstr "Código de transacción Intrastat"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_account_bank_statement_line__intrastat_transaction_id
@@ -847,13 +895,10 @@ msgstr "Modo de transporte Intrastat"
 #. module: intrastat_product
 #: model:ir.model,name:intrastat_product.model_report_intrastat_product_product_declaration_xls
 msgid "Intrastat declaration"
-msgstr "Declaración Intrastat"
+msgstr "Declaración de produto Intrastat"
 
 #. module: intrastat_product
 #: model:ir.model,name:intrastat_product.model_account_move_intrastat_line
-#: model:ir.model.fields,field_description:intrastat_product.field_account_bank_statement_line__intrastat_line_ids
-#: model:ir.model.fields,field_description:intrastat_product.field_account_move__intrastat_line_ids
-#: model:ir.model.fields,field_description:intrastat_product.field_account_payment__intrastat_line_ids
 msgid "Intrastat declaration details"
 msgstr "Detalles declaración Intrastat"
 
@@ -863,18 +908,12 @@ msgid "Intrastat information"
 msgstr "Información Intrastat"
 
 #. module: intrastat_product
-#: model:ir.model.fields,help:intrastat_product.field_account_bank_statement_line__intrastat_transaction_id
-#: model:ir.model.fields,help:intrastat_product.field_account_move__intrastat_transaction_id
-#: model:ir.model.fields,help:intrastat_product.field_account_payment__intrastat_transaction_id
-msgid "Intrastat nature of transaction"
-msgstr "Natureza intrastat da transacción"
-
-#. module: intrastat_product
 #: model_terms:ir.ui.view,arch_db:intrastat_product.view_move_form
 msgid "Intrastat transaction details"
 msgstr "Detalles de transacción Intrastat"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid "Invalid Year!"
@@ -886,6 +925,7 @@ msgid "Inventory Locations"
 msgstr "Localizacións de inventario"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
 #: model:ir.model.fields,field_description:intrastat_product.field_account_move_intrastat_line__move_id
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__invoice_id
@@ -905,10 +945,11 @@ msgid "Invoice Line"
 msgstr "Liña de factura"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
-msgid "Invoice {invoice}, line {line}"
-msgstr "Factura {invoice}, liña {line}"
+msgid "Invoices/Refunds"
+msgstr "Facturas/Reembolsos"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__message_is_follower
@@ -942,7 +983,7 @@ msgstr "Kg"
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_transport_mode____last_update
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_unit____last_update
 msgid "Last Modified on"
-msgstr "Última modificación en"
+msgstr "Última modificación o"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_account_move_intrastat_line__write_uid
@@ -955,7 +996,7 @@ msgstr "Última modificación en"
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_transport_mode__write_uid
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_unit__write_uid
 msgid "Last Updated by"
-msgstr "Última modificación por"
+msgstr "Últ. actualización por"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_account_move_intrastat_line__write_date
@@ -971,6 +1012,16 @@ msgid "Last Updated on"
 msgstr "Última Actualización en"
 
 #. module: intrastat_product
+#: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_line_view_tree
+msgid "Line"
+msgstr "Liña"
+
+#. module: intrastat_product
+#: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration_line__line_number
+msgid "Line Number"
+msgstr "Número de Liña"
+
+#. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__message_main_attachment_id
 msgid "Main Attachment"
 msgstr "Adxunto principal"
@@ -978,7 +1029,7 @@ msgstr "Adxunto principal"
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__message_has_error
 msgid "Message Delivery error"
-msgstr "Erro de Envío de Mensaxe"
+msgstr "Mensaxe de erro de entrega"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__message_ids
@@ -986,38 +1037,46 @@ msgid "Messages"
 msgstr "Mensaxes"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
-msgid "Missing Intrastat Code on product %s. "
-msgstr "Falta o código Intrastat no produto %s. "
+msgid "Missing <em>Country of Origin</em>"
+msgstr "Falta <em>País de orixe</em>"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
-msgid "Missing VAT Number on partner '%s'"
-msgstr "Falta o NIF do contacto '%s'"
+msgid "Missing <em>Country</em>"
+msgstr "Falta <em>País</em>"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
-msgid ""
-"Missing country on invoice partner '{invoice_partner}' or on the delivery "
-"address (partner '{delivery_partner}'). "
-msgstr ""
-"Falta o país no contacto da factura '{invoice_partner}' ou na dirección de "
-"entrega (contacto '{delivery_partner}'). "
+msgid "Missing <em>H.S. Code</em>"
+msgstr "Falta <em>Código de H.S.</em>"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
-msgid "Missing unit of measure."
-msgstr "Falta a unidade de medida."
+msgid "Missing <em>VAT Number</em>"
+msgstr "Falta <em>Número de IVE</em>"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
-msgid "Missing weight on product %s."
-msgstr "Falta o peso do produto %s."
+msgid "Missing link to a <em>regular unit of measure</em>"
+msgstr "Falta a ligazón a unha <em>unidade de medida regular</em>"
+
+#. module: intrastat_product
+#. odoo-python
+#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
+#, python-format
+msgid "Missing unit of measure"
+msgstr "Falta a unidade de medida"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__month
@@ -1025,9 +1084,17 @@ msgid "Month"
 msgstr "Mes"
 
 #. module: intrastat_product
+#: model:intrastat.transaction,description:intrastat_product.intrastat_transaction_31
+msgid ""
+"Movements to/from a warehouse (excluding call-off and consignment stock)"
+msgstr ""
+"Movementos cara a/desde un almacén (excluídas as existencias á demanda e en "
+"consignación)"
+
+#. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "data límite da miña actividade"
+msgstr "A miña data de límite de actividade"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_region__name
@@ -1037,6 +1104,7 @@ msgid "Name"
 msgstr "Nome"
 
 #. module: intrastat_product
+#: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_region_view_search
 #: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_transport_mode_search
 msgid "Name, Code or Description"
 msgstr "Nome, Código ou Descrición"
@@ -1063,24 +1131,21 @@ msgid "Next Activity Type"
 msgstr "Tipo da seguinte actividade"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid "Nihil"
 msgstr "Nada"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
 #, python-format
 msgid "No"
 msgstr "Non"
 
 #. module: intrastat_product
-#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
-#, python-format
-msgid "No XML File has been generated."
-msgstr "Non se xerou un ficheiro XML."
-
-#. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid "No records found for the selected period !"
@@ -1110,65 +1175,18 @@ msgstr "Número de erros"
 
 #. module: intrastat_product
 #: model:ir.model.fields,help:intrastat_product.field_intrastat_product_declaration__message_needaction_counter
-msgid "Number of messages which requires an action"
+msgid "Number of messages requiring action"
 msgstr "Número de mensaxes que requiren unha acción"
 
 #. module: intrastat_product
 #: model:ir.model.fields,help:intrastat_product.field_intrastat_product_declaration__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Número de mensaxes con erro de envío"
-
-#. module: intrastat_product
-#: model:ir.model.fields,help:intrastat_product.field_intrastat_product_declaration__message_unread_counter
-msgid "Number of unread messages"
-msgstr "Número de mensaxes non leidos"
+msgstr "Nº de mensaxes con erro de entrega"
 
 #. module: intrastat_product
 #: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_result_view_form
 msgid "Ok"
 msgstr "OK"
-
-#. module: intrastat_product
-#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
-#, python-format
-msgid ""
-"On invoice '{invoice}', the source/destination country is '{country}' which "
-"is not part of the European Union."
-msgstr ""
-"Na factura '{invoice}', o país de orixe/destino é '{country}', que non forma"
-" parte da Unión Europea."
-
-#. module: intrastat_product
-#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
-#, python-format
-msgid ""
-"On invoice '{invoice}', the source/destination country is United-Kingdom and"
-" the fiscal position is '{fp}'. Make sure that the fiscal position is right."
-" If the origin/destination is Northern Ireland, please set the VAT number of"
-" the partner '{partner}' in Odoo with its new VAT number starting with 'XI' "
-"following Brexit."
-msgstr ""
-"Na factura '{invoice}', o país de orixe/destino é Reino Unido e a posición "
-"fiscal é '{fp}'. Asegúrese de que a posición fiscal é correcta. Se a "
-"orixe/destino é Irlanda do Norte, por favor, estableza o NIF do contacto "
-"'{partner}' en Odoo co seu novo NIF que comeza con 'XI' tras o Brexit."
-
-#. module: intrastat_product
-#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
-#, python-format
-msgid ""
-"On invoice '{invoice}', the source/destination country is United-Kingdom, "
-"the fiscal position is '{fp}' and the partner's VAT number is "
-"'{partner_vat}'. Make sure that the fiscal position is right. If the "
-"origin/destination is Northern Ireland, please update the VAT number of the "
-"partner '{partner}' in Odoo with its new VAT number starting with 'XI' "
-"following Brexit."
-msgstr ""
-"Na factura '{invoice}', o país de orixe/destino é Reino Unido, a posición "
-"fiscal é '{fp}' e o NIF do contacto é '{partner_vat}'. Asegúrese de que a "
-"posición fiscal é correcta. Se a orixe/destino é Irlanda do Norte, actualice"
-" o NIF do contacto '{partner}' en Odoo co seu novo NIF que empeza por 'XI' "
-"tras o Brexit."
 
 #. module: intrastat_product
 #: model_terms:ir.ui.view,arch_db:intrastat_product.view_move_form
@@ -1206,6 +1224,11 @@ msgid "Origin/Destination Region"
 msgstr "Rexión Orígen/Destino"
 
 #. module: intrastat_product
+#: model:intrastat.transaction,description:intrastat_product.intrastat_transaction_99
+msgid "Other"
+msgstr "Outra/ou"
+
+#. module: intrastat_product
 #: model:intrastat.transport_mode,name:intrastat_product.intrastat_transport_9
 msgid "Own propulsion"
 msgstr "Propulsión propia"
@@ -1221,11 +1244,19 @@ msgstr ""
 "barcos etc.)/ etc.)"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__partner_id
 #, python-format
 msgid "Partner"
 msgstr "Empresa"
+
+#. module: intrastat_product
+#. odoo-python
+#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
+#, python-format
+msgid "Partners"
+msgstr "Socios"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__year_month
@@ -1248,6 +1279,7 @@ msgid "Postal consignments"
 msgstr "Envíos postais"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
 #: model:ir.model.fields,field_description:intrastat_product.field_account_move_intrastat_line__product_id
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__product_id
@@ -1257,12 +1289,27 @@ msgid "Product"
 msgstr "Produto"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
 #: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_computation_line_view_tree
 #: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_line_view_tree
 #, python-format
 msgid "Product C/O"
-msgstr "Product C/Ou"
+msgstr "Produto C/Ou"
+
+#. module: intrastat_product
+#. odoo-python
+#: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
+#, python-format
+msgid "Product C/O Code"
+msgstr "Código C/Ou do produto"
+
+#. module: intrastat_product
+#. odoo-python
+#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
+#, python-format
+msgid "Products"
+msgstr "Produtos"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_account_move_intrastat_line__quantity
@@ -1285,6 +1332,12 @@ msgid "Reference"
 msgstr "Referencia"
 
 #. module: intrastat_product
+#: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__region_code
+#: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration_line__region_code
+msgid "Region Code"
+msgstr "Código da Rexión"
+
+#. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_unit__uom_id
 #: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_unit_search
 msgid "Regular UoM"
@@ -1296,10 +1349,31 @@ msgid "Related Transactions"
 msgstr "Transaccións Relacionadas"
 
 #. module: intrastat_product
+#: model:intrastat.transaction,description:intrastat_product.intrastat_transaction_71
+msgid ""
+"Release of goods for free circulation in a Member State with a subsequent "
+"export to another Member State"
+msgstr ""
+"Despacho a libre práctica de mercadorías nun Estado membro con exportación "
+"posterior a outro Estado membro"
+
+#. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid "Replace"
 msgstr "Substituír"
+
+#. module: intrastat_product
+#: model:intrastat.transaction,description:intrastat_product.intrastat_transaction_23
+msgid "Replacement (e.g. under warranty) for goods not being returned"
+msgstr ""
+"Substitución (por exemplo, en garantía) de mercadorías que non se devolven"
+
+#. module: intrastat_product
+#: model:intrastat.transaction,description:intrastat_product.intrastat_transaction_22
+msgid "Replacement for returned goods (free of charge)"
+msgstr "Substitución dos produtos devoltos (gratuíta)"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__reporting_level
@@ -1312,6 +1386,11 @@ msgstr "Nivel de informe"
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__activity_user_id
 msgid "Responsible User"
 msgstr "Usuario responsable"
+
+#. module: intrastat_product
+#: model:intrastat.transaction,description:intrastat_product.intrastat_transaction_21
+msgid "Return of goods (free of charge)"
+msgstr "Devolución de mercadorías (gratuíta)"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__revision
@@ -1368,6 +1447,7 @@ msgid "Show intrastat details in invoice report"
 msgstr "Mostrar detalles de intrastat no informe de factura"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid "Standard"
@@ -1375,17 +1455,9 @@ msgstr "Estándar"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__state
+#: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_declaration_view_search
 msgid "State"
 msgstr "Estado"
-
-#. module: intrastat_product
-#: model:ir.model.fields,help:intrastat_product.field_intrastat_product_declaration__state
-msgid ""
-"State of the declaration. When the state is set to 'Done', the parameters "
-"become read-only."
-msgstr ""
-"Estado da declaración. Cando o estado está como 'Realizado', os parámetros "
-"convértense a só lectura."
 
 #. module: intrastat_product
 #: model:ir.model.fields,help:intrastat_product.field_intrastat_product_declaration__activity_state
@@ -1395,12 +1467,13 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Estado baseado en actividades\n"
-"Vencida: a data tope xa pasou\n"
-"Hoxe: A data tope é hoxe\n"
-"Planificada: futuras actividades."
+"Estado baseado nas actividades\n"
+"Atrasado: A data de vencemento xa está vencida\n"
+"Hoxe: A data da actividade é hoxe\n"
+"Planificado: Actividades futuras."
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__intrastat_unit_id
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration_line__intrastat_unit_id
@@ -1409,6 +1482,7 @@ msgid "Suppl. Unit"
 msgstr "Unide. supl"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__suppl_unit_qty
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration_line__suppl_unit_qty
@@ -1420,7 +1494,7 @@ msgstr "Ctd. unide. supl"
 #: model:ir.actions.act_window,name:intrastat_product.intrastat_unit_action
 #: model:ir.ui.menu,name:intrastat_product.intrastat_unit_menu
 msgid "Supplementary Units"
-msgstr "Unidades suplementarias"
+msgstr "Cantidade de unidades suplementarias"
 
 #. module: intrastat_product
 #: model:ir.model.fields,help:intrastat_product.field_intrastat_product_computation_line__suppl_unit_qty
@@ -1429,24 +1503,48 @@ msgid "Supplementary Units Quantity"
 msgstr "Cantidade de unidades suplementarias"
 
 #. module: intrastat_product
-#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
-#, python-format
-msgid "The Declaration Action has been set to 'nihil'."
-msgstr "A acción de declaración estableceuse en 'nada'."
+#: model:intrastat.transaction,description:intrastat_product.intrastat_transaction_32
+msgid ""
+"Supply for sale on approval or after trial (including call-off and "
+"consignment stock)"
+msgstr ""
+"Subministración para a venda tras a aprobación ou despois da proba "
+"(incluídas as existencias á demanda e en consignación)"
 
 #. module: intrastat_product
+#: model:ir.model.fields,help:intrastat_product.field_intrastat_product_computation_line__company_country_code
+#: model:ir.model.fields,help:intrastat_product.field_intrastat_product_declaration__company_country_code
+#: model:ir.model.fields,help:intrastat_product.field_intrastat_product_declaration_line__company_country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+"Código ISO do país en dous caracteres.\n"
+"Podes utilizar este campo para a procura rápida."
+
+#. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid "The VAT number '%s' is invalid."
 msgstr "O NIF '%s' non é válido."
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid "The VAT number is not set for the partner '%s'."
 msgstr "O NIF non está establecido para '%s'."
 
 #. module: intrastat_product
+#. odoo-python
+#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
+#, python-format
+msgid "The declaration Action has been set to <em>nihil</em>."
+msgstr "A declaración Acción estableceuse en <em>nihil</em>."
+
+#. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid ""
@@ -1456,6 +1554,7 @@ msgstr ""
 "primeiro."
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid ""
@@ -1466,11 +1565,6 @@ msgstr ""
 "configurado, configúreo primeiro."
 
 #. module: intrastat_product
-#: model:ir.model.fields,help:intrastat_product.field_intrastat_product_computation_line__invoice_id
-msgid "The move of this entry line."
-msgstr "O movemento desta liña de entrada."
-
-#. module: intrastat_product
 #: model:ir.model.fields,help:intrastat_product.field_account_move_intrastat_line__quantity
 msgid ""
 "The optional quantity expressed by this line, eg: number of product sold. "
@@ -1479,6 +1573,16 @@ msgstr ""
 "A cantidade opcional expresada no apuntamento, por exemplo: número de "
 "produtos vendidos. Esta cantidade non supón un requisito legal pero é útil "
 "para algúns informes."
+
+#. module: intrastat_product
+#. odoo-python
+#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
+#, python-format
+msgid ""
+"The source/destination country is <em>%s</em> which is not part of the "
+"European Union"
+msgstr ""
+"O país de orixe/destino é <em>%s</em> que non forma parte da Unión Europea"
 
 #. module: intrastat_product
 #: model:ir.model.fields,help:intrastat_product.field_sale_order__intrastat_transport_id
@@ -1499,6 +1603,12 @@ msgstr "Importe fiscal total da declaración na moeda da compañía."
 #: model_terms:ir.ui.view,arch_db:intrastat_product.intrastat_product_computation_line_view_form
 msgid "Transaction"
 msgstr "Transacción"
+
+#. module: intrastat_product
+#: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__transaction_code
+#: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration_line__transaction_code
+msgid "Transaction Code"
+msgstr "Código de transacción"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_account_move_intrastat_line__transaction_suppl_unit_qty
@@ -1532,6 +1642,70 @@ msgid "Transactions"
 msgstr "Transaccións"
 
 #. module: intrastat_product
+#: model:intrastat.transaction,description:intrastat_product.intrastat_transaction_52
+msgid ""
+"Transactions following processing under contract (not involving change of "
+"ownership). Goods not returning to the initial Member State/country of "
+"export."
+msgstr ""
+"Operacións posteriores ao perfeccionamento baixo contrato (non se traspasa a"
+" propiedade ao contratista): Mercadorías que non regresan ao Estado membro "
+"de expedición."
+
+#. module: intrastat_product
+#: model:intrastat.transaction,description:intrastat_product.intrastat_transaction_51
+msgid ""
+"Transactions following processing under contract (not involving change of "
+"ownership). Goods returning to the initial Member State/country of export."
+msgstr ""
+"Operacións posteriores ao perfeccionamento baixo contrato (non se traspasa a"
+" propiedade ao contratista): Mercadorías que regresan ao Estado membro de "
+"expedición."
+
+#. module: intrastat_product
+#: model:intrastat.transaction,description:intrastat_product.intrastat_transaction_80
+msgid ""
+"Transactions involving the supply of building materials and technical "
+"equipment under a general construction or civil engineering contract for "
+"which no separate invoicing of the goods is required and an invoice for the "
+"total contract is issued"
+msgstr ""
+"Operacións de subministración de materiais de construción e equipos técnicos"
+" no marco dun contrato xeral de construción ou enxeñería civil para as que "
+"non se esixe unha facturación separada dos bens e emítese unha factura polo "
+"total do contrato"
+
+#. module: intrastat_product
+#: model:intrastat.transaction,description:intrastat_product.intrastat_transaction_34
+msgid ""
+"Transactions involving transfer of ownership without financial compensation"
+msgstr ""
+"Transaccións de transferencia de propiedade sen compensación económica"
+
+#. module: intrastat_product
+#: model:intrastat.transaction,description:intrastat_product.intrastat_transaction_41
+msgid ""
+"Transactions with a view to processing under contract (no change of "
+"ownership). Goods expected to return to the initial Member State/country of "
+"export"
+msgstr ""
+"Transaccións con vistas á transformación baixo contrato (sen cambio de "
+"propiedade). Mercadorías destinadas a regresar ao Estado membro/país de "
+"exportación inicial"
+
+#. module: intrastat_product
+#: model:intrastat.transaction,description:intrastat_product.intrastat_transaction_42
+msgid ""
+"Transactions with a view to processing under contract (no change of "
+"ownership). Goods not expected to return to the initial Member State/country"
+" of export"
+msgstr ""
+"Transaccións con vistas á transformación baixo contrato (sen cambio de "
+"propiedade). Mercadorías que non está previsto que regresen ao Estado "
+"membro/país de exportación inicial"
+
+#. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__transport_id
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration_line__transport_id
@@ -1541,10 +1715,26 @@ msgid "Transport Mode"
 msgstr "Modo de transporte"
 
 #. module: intrastat_product
+#. odoo-python
+#: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
+#, python-format
+msgid "Transport Mode Code"
+msgstr "Código de modo de transporte"
+
+#. module: intrastat_product
 #: model:ir.actions.act_window,name:intrastat_product.intrastat_transport_action
 #: model:ir.ui.menu,name:intrastat_product.intrastat_transport_menu
 msgid "Transport Modes"
 msgstr "Modos de transporte"
+
+#. module: intrastat_product
+#: model:intrastat.transaction,description:intrastat_product.intrastat_transaction_72
+msgid ""
+"Transportation of goods from one Member State to another Member State to "
+"place the goods under the export procedure"
+msgstr ""
+"Transporte de mercadorías dun Estado membro a outro para incluílas no réxime"
+" de exportación"
 
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__declaration_type
@@ -1557,7 +1747,7 @@ msgstr "Tipo"
 #. module: intrastat_product
 #: model:ir.model.fields,help:intrastat_product.field_intrastat_product_declaration__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Tipo de actividade de excepción en rexistro."
+msgstr "Tipo (ou clase) de actividade excepcional rexistrada."
 
 #. module: intrastat_product
 #: model_terms:ir.ui.view,arch_db:intrastat_product.report_invoice_document_intrastat_product
@@ -1565,21 +1755,12 @@ msgid "Unit Weight"
 msgstr "Peso unitario"
 
 #. module: intrastat_product
-#: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__message_unread
-msgid "Unread Messages"
-msgstr "Mensaxes non lidas"
-
-#. module: intrastat_product
-#: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr "Contador de mensaxes sen ler"
-
-#. module: intrastat_product
 #: model:ir.model.fields,help:intrastat_product.field_intrastat_product_declaration__revision
 msgid "Used to keep track of changes"
 msgstr "Usado para rastrexar os cambios"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
 #, python-format
 msgid "VAT"
@@ -1592,26 +1773,21 @@ msgid "VAT Number"
 msgstr "Número NIF"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
 msgid ""
-"VAT number of partner %(partner)s is %(partner_vat)s. If this partner is "
-"from Northern Ireland, his VAT number should be updated to his new VAT "
-"number starting with 'XI' following Brexit. If this partner is from Great "
-"Britain, maybe the fiscal position was wrong on invoice %(invoice)s (the "
-"fiscal position was %(fp)s)."
+"VAT number is <em>%(vat)s</em>. If this partner is from Northern Ireland, "
+"his VAT number should be updated to his new VAT number starting with "
+"<em>XI</em> following Brexit. If this partner is from Great Britain, maybe "
+"the fiscal position was wrong on the invoice (the fiscal position was "
+"<i>%(fiscal_position)s</i>)."
 msgstr ""
-"O NIF do contacto %(partner)s é %(partner_vat)s. Se este contacto é de "
-"Irlanda do Norte, o seu NIF debe actualizarse ao seu novo NIF que empeza por"
-" \"XI\" tras o Brexit. Se este contacto é de Gran Bretaña, quizais a "
-"posición fiscal era errónea na factura %(invoice)s (a posición fiscal era "
-"%(fp)s)."
-
-#. module: intrastat_product
-#: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__valid
-#: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__valid
-msgid "Valid"
-msgstr "Válido"
+"O número de IVE é <em>%(vat)s</em>. Se este socio é de Irlanda do Norte, o "
+"seu número de IVE debe actualizarse ao seu novo número de IVE que comeza con"
+" <em>XI</em> despois do Brexit. Se este socio é de Gran Bretaña, é posible "
+"que a posición fiscal estea incorrecta na factura (a posición fiscal era "
+"<i>%(fiscal_position)s</i>)."
 
 #. module: intrastat_product
 #: model:ir.model,name:intrastat_product.model_stock_warehouse
@@ -1621,14 +1797,15 @@ msgstr "Almacén"
 #. module: intrastat_product
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration__website_message_ids
 msgid "Website Messages"
-msgstr "Mensaxes do sitio wew"
+msgstr "Mensaxes do sitio web"
 
 #. module: intrastat_product
 #: model:ir.model.fields,help:intrastat_product.field_intrastat_product_declaration__website_message_ids
 msgid "Website communication history"
-msgstr "Historial de comunicacións do sitio web"
+msgstr "Historial de comunicación do sitio web"
 
 #. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_computation_line__weight
 #: model:ir.model.fields,field_description:intrastat_product.field_intrastat_product_declaration_line__weight
@@ -1663,21 +1840,311 @@ msgid "Year and month of the declaration."
 msgstr "Ano e mes da declaración."
 
 #. module: intrastat_product
-#: model:ir.model.fields,help:intrastat_product.field_intrastat_product_declaration__note
-msgid "You can add some comments here if you want."
-msgstr "Pode engadir algúns comentarios aquí se o prefire."
-
-#. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
 #, python-format
-msgid "You must set company's country !"
-msgstr "Debe establecer o país da comapñía!"
+msgid "You must set the country on company '%s'."
+msgstr "Debe establecer o país na compañía '%s'."
 
 #. module: intrastat_product
+#. odoo-python
+#: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
+#, python-format
+msgid "comput."
+msgstr "informática."
+
+#. module: intrastat_product
+#. odoo-python
+#: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
+#, python-format
+msgid "decl."
+msgstr "declinar."
+
+#. module: intrastat_product
+#. odoo-python
 #: code:addons/intrastat_product/report/intrastat_product_report_xls.py:0
 #, python-format
 msgid "for period %s"
 msgstr "para período %s"
 
+#. module: intrastat_product
+#. odoo-python
+#: code:addons/intrastat_product/models/intrastat_product_declaration.py:0
+#, python-format
+msgid "intrastat-%(year_month)s-%(declaration_type)s%(draft)s"
+msgstr "Intraestado-%(year_month)s-%(declaration_type)s%(draft)s"
+
+#. module: intrastat_product
+#: model:ir.actions.report,print_report_name:intrastat_product.intrastat_product_xlsx_report
+msgid "object._get_xlsx_report_filename()"
+msgstr "object._get_xlsx_report_filename()"
+
+#~ msgid "<span>Intrastat Product Declaration </span>"
+#~ msgstr "<span>Declaración de produto IntrastaT </span>"
+
+#~ msgid ""
+#~ "Generate declaration lines, generate XML export and set declaration to "
+#~ "'Done'"
+#~ msgstr ""
+#~ "Xerar liñas de declaración, xerar a exportación XML e establecer a "
+#~ "declaración en \"Feito\""
+
+#~ msgid ""
+#~ "State of the declaration. When the state is set to 'Done', the parameters "
+#~ "become read-only."
+#~ msgstr ""
+#~ "Estado da declaración. Cando o estado está como 'Realizado', os parámetros "
+#~ "convértense a só lectura."
+
+#~ msgid "You can add some comments here if you want."
+#~ msgstr "Pode engadir algúns comentarios aquí se o prefire."
+
+#~ msgid ""
+#~ "'intrastat-%s-%s%s' % (object.year_month, object.declaration_type, "
+#~ "object.state == 'draft' and '-draft' or '')"
+#~ msgstr ""
+#~ "'intrastat-%s-%s%s' % (object.year_month, object.declaration_type, "
+#~ "object.state == 'draft' and '-draft' or '')"
+
 #~ msgid "SMS Delivery error"
 #~ msgstr "Erro de entrega de SMS"
+
+#~ msgid "Number of messages which requires an action"
+#~ msgstr "Nº de mensaxes que requiren acción"
+
+#~ msgid ""
+#~ "2 digit code of country of origin of the product except for the UK.\n"
+#~ "Specify 'XI' for UK Northern Ireland and 'XU' for rest of the UK.\n"
+#~ "Specify 'QU' when the country is unknown.\n"
+#~ msgstr ""
+#~ "Código de 2 díxitos do país de orixe do produto, excepto para o Reino Unido.\n"
+#~ "Especifique \"XI\" para o Reino Unido e Irlanda do Norte e \"XU\" para o resto do Reino Unido.\n"
+#~ "Especifique \"QU\" cando o país sexa descoñecido.\n"
+
+#~ msgid ""
+#~ "2 digit code of country of origin/destination.\n"
+#~ "Specify 'XI' for UK Northern Ireland and 'XU' for rest of the UK."
+#~ msgstr ""
+#~ "Código de 2 díxitos do país de orixe/destino.\n"
+#~ "Especifique \"XI\" para Irlanda do Norte e \"XU\" para o resto do Reino Unido."
+
+#~ msgid ""
+#~ "2 digit code of country of origin/destination.\n"
+#~ "Specify 'XI' for UK Northern Ireland."
+#~ msgstr ""
+#~ "Código de 2 díxitos do país de orixe/destino.\n"
+#~ "Especifique \"XI\" para o Reino Unido e Irlanda do Norte."
+
+#~ msgid ""
+#~ "Amount in company currency of the accessory costs related to this invoice "
+#~ "line (by default, these accessory costs are computed at the pro-rata of the "
+#~ "amount of each invoice line."
+#~ msgstr ""
+#~ "Importe na moeda da compañía dos custos accesorios relacionados con esta "
+#~ "liña de factura (por defecto, estes custos accesorios calcúlanse "
+#~ "prorrateados do importe de cada liña de factura)."
+
+#~ msgid "Intrastat Product Computataion Lines"
+#~ msgstr "Liñas de cálculo de produtos Intrastat"
+
+#~ msgid "Intrastat Product Report Base Object"
+#~ msgstr "Obxecto base do informe de produtos Intrastat"
+
+#, python-format
+#~ msgid "Before going back to draft, you must delete the XML export."
+#~ msgstr "Antes de volver a borrador, debe eliminar a exportación XML."
+
+#, python-format
+#~ msgid ""
+#~ "Conversion from Intrastat Supplementary Unit '%s' to Unit of Measure is not "
+#~ "implemented yet."
+#~ msgstr ""
+#~ "A conversión da Unidade Suplementaria Intrastat '%s' á Unidade de Medida "
+#~ "aínda non está implementada."
+
+#, python-format
+#~ msgid "Conversion from unit of measure '%s' to '%s' is not implemented yet."
+#~ msgstr ""
+#~ "A conversión da unidade de medida '%s' a '%s' aínda non está implementada."
+
+#, python-format
+#~ msgid ""
+#~ "Conversion from unit of measure '%s' to 'Kg' is not implemented yet. It is "
+#~ "needed for product '%s'."
+#~ msgstr ""
+#~ "A conversión da unidade de medida '%s' a 'Kg' aínda non está implementada. "
+#~ "Necesítase para o produto '%s'."
+
+#~ msgid "Country of Origin"
+#~ msgstr "País de Orixe"
+
+#, python-format
+#~ msgid "Declaration for Arrivals"
+#~ msgstr "Declaración de Chegadas"
+
+#, python-format
+#~ msgid "Declaration for Dispatches"
+#~ msgstr "Declaración de Despachos"
+
+#~ msgid "Default Intrastat Transaction For Customer Invoice"
+#~ msgstr "Transacción Intrastat por defecto para a factura do cliente"
+
+#~ msgid "Default Intrastat Transaction For Supplier Invoices"
+#~ msgstr "Transacción Intrastat por defecto para Facturas de Provedores"
+
+#~ msgid "Default Intrastat Transaction For Supplier Refunds"
+#~ msgstr "Transacción Intrastat por defecto para Abonos de Provedor"
+
+#~ msgid "Default Intrastat Transaction for Customer Refunds"
+#~ msgstr "Transacción Intrastat por defecto para Abonos a Clientes"
+
+#~ msgid "Delete XML Export"
+#~ msgstr "Borrar a exportación XML"
+
+#~ msgid "Followers (Channels)"
+#~ msgstr "Seguidores (Canles)"
+
+#, python-format
+#~ msgid "Generate Declaration Lines"
+#~ msgstr "Xerar Liñas de Declaración"
+
+#, python-format
+#~ msgid "Intrastat Code %s:"
+#~ msgstr "Código Intrastat %s:"
+
+#~ msgid "Intrastat Declaration Line"
+#~ msgstr "Liña de declaración Intrastat"
+
+#~ msgid "Intrastat Declaration Lines"
+#~ msgstr "Liñas de declaración Intrastat"
+
+#~ msgid "Intrastat Product"
+#~ msgstr "Buscar declaracións de produto Intrastat españolas"
+
+#~ msgid "Intrastat Product Declarations"
+#~ msgstr "Declaracións de produto Intrastat"
+
+#~ msgid "Intrastat Transaction Types"
+#~ msgstr "Tipos de transaccións de Intrastat"
+
+#~ msgid "Intrastat Transportat Modes"
+#~ msgstr "Modos de transporte Intrastat"
+
+#~ msgid "Intrastat nature of transaction"
+#~ msgstr "Natureza intrastat da transacción"
+
+#, python-format
+#~ msgid "Invoice %s, line %s"
+#~ msgstr "Factura %s, liña %s"
+
+#, python-format
+#~ msgid "Missing Intrastat Code on product %s. "
+#~ msgstr "Falta o código Intrastat no produto %s. "
+
+#, python-format
+#~ msgid "Missing VAT Number on partner '%s'"
+#~ msgstr "Falta o NIF do contacto '%s'"
+
+#, python-format
+#~ msgid ""
+#~ "Missing country on invoice partner '%s' or on the delivery address (partner "
+#~ "'%s'). "
+#~ msgstr ""
+#~ "Falta o país no contacto da factura '%s' ou na dirección de entrega (socio "
+#~ "'%s'). "
+
+#, python-format
+#~ msgid "Missing unit of measure."
+#~ msgstr "Falta a unidade de medida."
+
+#, python-format
+#~ msgid "Missing weight on product %s."
+#~ msgstr "Falta o peso do produto %s."
+
+#, python-format
+#~ msgid "No XML File has been generated."
+#~ msgstr "Non se xerou un ficheiro XML."
+
+#~ msgid "Number of unread messages"
+#~ msgstr "Número de mensaxes non lidas"
+
+#, python-format
+#~ msgid ""
+#~ "On invoice '%s', the source/destination country is '%s' which is not part of"
+#~ " the European Union."
+#~ msgstr ""
+#~ "Na factura \"%s\", o país de orixe/destino é \"%s\", que non forma parte da "
+#~ "Unión Europea."
+
+#, python-format
+#~ msgid ""
+#~ "On invoice '%s', the source/destination country is United-Kingdom and the "
+#~ "fiscal position is '%s'. Make sure that the fiscal position is right. If the"
+#~ " origin/destination is Northern Ireland, please set the VAT number of the "
+#~ "partner '%s' in Odoo with its new VAT number starting with 'XI' following "
+#~ "Brexit."
+#~ msgstr ""
+#~ "Na factura \"%s\", o país de orixe/destino é Reino Unido e a posición fiscal"
+#~ " é \"%s\". Asegúrese de que a posición fiscal é correcta. Se a orixe/destino"
+#~ " é Irlanda do Norte, estableza o NIF do contacto '%s' en Odoo co seu novo "
+#~ "NIF que empeza por 'XI' tras o Brexit."
+
+#, python-format
+#~ msgid ""
+#~ "On invoice '%s', the source/destination country is United-Kingdom, the "
+#~ "fiscal position is '%s' and the partner's VAT number is '%s'. Make sure that"
+#~ " the fiscal position is right. If the origin/destination is Northern "
+#~ "Ireland, please update the VAT number of the partner '%s' in Odoo with its "
+#~ "new VAT number starting with 'XI' following Brexit."
+#~ msgstr ""
+#~ "Na factura \"%s\", o país de orixe/destino é Reino Unido, a posición fiscal "
+#~ "é \"%s\" e o NIF do contacto é \"%s\". Asegúrese de que a posición fiscal é "
+#~ "correcta. Se a orixe/destino é Irlanda do Norte, actualice o NIF do contacto"
+#~ " '%s' en Odoo co seu novo NIF que empeza por 'XI' tras o Brexit."
+
+#~ msgid "Search Intrastat Product Declarations"
+#~ msgstr "Buscar declaracións de produtos Intrastat"
+
+#~ msgid "Search Intrastat Supplementary Units"
+#~ msgstr "Buscar unidades suplementarias en Intrastat"
+
+#~ msgid "Search Intrastat Transaction Types"
+#~ msgstr "Buscar tipos de transaccións de Intrastat"
+
+#~ msgid "Search Intrastat Transport Modes"
+#~ msgstr "Search Intrastat Transport Modes"
+
+#, python-format
+#~ msgid "The Declaration Action has been set to 'nihil'."
+#~ msgstr "A acción de declaración estableceuse en 'nada'."
+
+#~ msgid "The move of this entry line."
+#~ msgstr "O movemento desta liña de entrada."
+
+#~ msgid "Total amount"
+#~ msgstr "Importe Total"
+
+#~ msgid "Unread Messages"
+#~ msgstr "Mensaxes non lidas"
+
+#~ msgid "Unread Messages Counter"
+#~ msgstr "Contador de mensaxes sen ler"
+
+#, python-format
+#~ msgid ""
+#~ "VAT number of partner '%s' is '%s'. If this partner is from Northern "
+#~ "Ireland, his VAT number should be updated to his new VAT number starting "
+#~ "with 'XI' following Brexit. If this partner is from Great Britain, maybe the"
+#~ " fiscal position was wrong on invoice '%s' (the fiscal position was '%s')."
+#~ msgstr ""
+#~ "O NIF do contacto \"%s\" é \"%s\". Se este contacto é de Irlanda do Norte, o"
+#~ " seu NIF debe actualizarse ao seu novo NIF que empeza por \"XI\" tras o "
+#~ "Brexit. Se este contacto é de Gran Bretaña, talvez a posición fiscal era "
+#~ "errónea na factura '%s' (a posición fiscal era '%s')."
+
+#~ msgid "Valid"
+#~ msgstr "Válido"
+
+#, python-format
+#~ msgid "You must set company's country !"
+#~ msgstr "Debe establecer o país da compañía!"

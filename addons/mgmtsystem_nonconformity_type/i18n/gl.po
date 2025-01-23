@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 10:47\n"
-"PO-Revision-Date: 2024-11-08 10:47\n"
+"POT-Creation-Date: 2025-01-22 22:54\n"
+"PO-Revision-Date: 2025-01-22 22:54\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -35,14 +35,14 @@ msgid ""
 msgstr ""
 "\n"
 "                \n"
-"                    <p>Estimado ${object.quality_contact_name}:<br/>><br/>\n"
-"                    adxunto ten o informe de Non Conformidade:<br/>\n"
-"                    <strong>N° de Non Conformidade</strong>: ${object.ide}<br/>\n"
-"                    <strong>Nome</strong>: ${object.name}<br/>\n"
-"                    <strong>Descrición</strong>: ${object.description}<br/>\n"
-"                    <br/>\n"
-"                    Saúdos cordiais<br>\n"
-"                    </p>\n"
+"                    <p>Dear ${object.quality_contact_name},<br/><br/>\n"
+"                                              in attachment you have the Nonconformity report:<br/>\n"
+"                                              <strong>Nonconformity N°</strong>: ${object.ide}<br/>\n"
+"                                              <strong>Name</strong>: ${object.name}<br/>\n"
+"                                              <strong>Description</strong>: ${object.description}<br/>\n"
+"                                              <br/>\n"
+"                                              Best regards<br>\n"
+"                                              </p>\n"
 "                      \n"
 "            "
 
@@ -103,6 +103,7 @@ msgid "Supplier"
 msgstr "Provedor"
 
 #. module: mgmtsystem_nonconformity_type
+#. odoo-python
 #: code:addons/mgmtsystem_nonconformity_type/models/mgmtsystem_nonconformity.py:0
 #: code:addons/mgmtsystem_nonconformity_type/tests/test_nonconformity_type.py:0
 #, python-format
@@ -114,6 +115,7 @@ msgstr ""
 " Comprobe se o módulo mgmtsystem_nonconformity_partner está instalado."
 
 #. module: mgmtsystem_nonconformity_type
+#. odoo-python
 #: code:addons/mgmtsystem_nonconformity_type/models/mgmtsystem_nonconformity.py:0
 #: code:addons/mgmtsystem_nonconformity_type/tests/test_nonconformity_type.py:0
 #, python-format
@@ -127,4 +129,4 @@ msgstr ""
 #. module: mgmtsystem_nonconformity_type
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity_type.field_mgmtsystem_nonconformity__nc_type
 msgid "Type"
-msgstr "Tipo"
+msgstr "tipo"

@@ -6,10 +6,10 @@
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 10:45\n"
-"PO-Revision-Date: 2024-11-08 10:45\n"
+"POT-Creation-Date: 2025-01-22 09:55\n"
+"PO-Revision-Date: 2025-01-22 09:55\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -35,6 +35,11 @@ msgid "Configuration"
 msgstr "Configuración"
 
 #. module: base_technical_user
+#: model:ir.model.fields,field_description:base_technical_user.field_res_company__smart_search
+msgid "Smart Search"
+msgstr "Procura intelixente"
+
+#. module: base_technical_user
 #: model_terms:ir.ui.view,arch_db:base_technical_user.res_company_view_form_inherit_base_technical_user
 msgid "Technical Parameters"
 msgstr "Parámetros técnicos"
@@ -45,12 +50,13 @@ msgid "Technical User"
 msgstr "Usuario técnico"
 
 #. module: base_technical_user
+#. odoo-python
 #: code:addons/base_technical_user/models/models.py:0
 #, python-format
 msgid "The technical user is missing in the company {}"
-msgstr "Na compañía {} non se atopa o usuario técnico"
+msgstr "Na compañia {} non se atopa o usuario técnico"
 
 #. module: base_technical_user
 #: model:ir.model.fields,help:base_technical_user.field_res_company__user_tech_id
 msgid "This user can be used by process for technical purpose"
-msgstr "Este usuario pode ser utilizado por proceso con fins técnicos"
+msgstr "Este usuario debe usarse para procesos con propósitos técnicos"

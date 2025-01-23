@@ -4,28 +4,28 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 23:00\n"
-"PO-Revision-Date: 2024-11-08 23:00\n"
+"POT-Creation-Date: 2025-01-21 22:22\n"
+"PO-Revision-Date: 2025-01-21 22:22\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: account_invoice_mass_sending
 #: model:ir.model,name:account_invoice_mass_sending.model_account_invoice_send
 msgid "Account Invoice Send"
-msgstr "Enviar Factura"
+msgstr "Conta de Envío de factura"
 
 #. module: account_invoice_mass_sending
 #: model_terms:ir.ui.view,arch_db:account_invoice_mass_sending.account_invoice_send_wizard_form
 msgid "Email mass sending (Job Queue)"
-msgstr "Encolar envío"
+msgstr "Envío masivo de correo electrónico (cola de traballo)"
 
 #. module: account_invoice_mass_sending
 #: model:ir.model.fields,help:account_invoice_mass_sending.field_account_bank_statement_line__sending_in_progress
@@ -39,16 +39,18 @@ msgstr ""
 "email duplicado."
 
 #. module: account_invoice_mass_sending
+#. odoo-python
 #: code:addons/account_invoice_mass_sending/wizards/account_invoice_send.py:0
 #, python-format
 msgid ""
 "Invoices %(ineligible_invoices)s were already in processing or do not have "
 "an email address defined."
 msgstr ""
-"Facturas %(ineligible_invoices)s xa están en proceso de envío ou non teñen "
-"correo electrónico."
+"As facturas %(ineligible_invoices)s xa se estaban procesando ou non teñen "
+"unha dirección de correo electrónico definida."
 
 #. module: account_invoice_mass_sending
+#. odoo-python
 #: code:addons/account_invoice_mass_sending/wizards/account_invoice_send.py:0
 #, python-format
 msgid "Invoices: Mass sending"
@@ -60,10 +62,11 @@ msgid "Journal Entry"
 msgstr "Asento contable"
 
 #. module: account_invoice_mass_sending
+#. odoo-python
 #: code:addons/account_invoice_mass_sending/models/account_move.py:0
 #, python-format
 msgid "Send invoice %(name)s by email"
-msgstr "Enviar factura %(name)s por email"
+msgstr "Enviar factura a %(name)s por correo electrónico"
 
 #. module: account_invoice_mass_sending
 #: model:ir.model.fields,field_description:account_invoice_mass_sending.field_account_bank_statement_line__sending_in_progress
@@ -73,9 +76,46 @@ msgid "Sending In Progress"
 msgstr "Envío en progreso"
 
 #. module: account_invoice_mass_sending
+#. odoo-python
 #: code:addons/account_invoice_mass_sending/wizards/account_invoice_send.py:0
 #, python-format
 msgid ""
 "The sending of %(invoices_count)d invoices will be processed in background."
-msgstr ""
-"O envío de %(invoices_count)d facturas será procesado en segundo plano."
+msgstr "O envío de %(invoices_count)d facturas procesarase en segundo plano."
+
+#~ msgid "Display Name"
+#~ msgstr "Nome mostrado"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Última modificación o"
+
+#, python-format
+#~ msgid "Invoices: Send & Print"
+#~ msgstr "Facturas: Enviar & Imprimir"
+
+#~ msgid "Mass Send & Print"
+#~ msgstr "Enviar & Imprimir"
+
+#, python-format
+#~ msgid "Missing email address on customer {customer_name}."
+#~ msgstr "Falta a dirección de correo electrónico do cliente {customer_name}."
+
+#, python-format
+#~ msgid ""
+#~ "The sending of {in_progress_invoices_count} invoices is already in progress."
+#~ msgstr "O envío de {in_progress_invoices_count} facturas xa está en progreso."
+
+#, python-format
+#~ msgid ""
+#~ "The sending of {invoices_count} invoices will be processed in background."
+#~ msgstr "O envío de {invoices_count} facturas procesarase en segundo plano."
+
+#~ msgid "Invoice"
+#~ msgstr "Factura"
+
+#, python-format
+#~ msgid "Missing email address on customer '{customer_name}'."
+#~ msgstr "Falta a dirección de email no cliente '{customer_name}'."

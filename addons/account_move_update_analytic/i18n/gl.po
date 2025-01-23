@@ -4,18 +4,23 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 23:09\n"
-"PO-Revision-Date: 2024-11-07 23:09\n"
+"POT-Creation-Date: 2025-01-21 14:25\n"
+"PO-Revision-Date: 2025-01-21 14:25\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: tradutor Zerever\n"
+
+#. module: account_move_update_analytic
+#: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__account_id
+msgid "Account"
+msgstr "Conta"
 
 #. module: account_move_update_analytic
 #: model:ir.model,name:account_move_update_analytic.model_account_move_update_analytic_wizard
@@ -23,16 +28,9 @@ msgid "Account Move Update Analytic Account Wizard"
 msgstr "Asistente de actualización de movemento de contas analíticas"
 
 #. module: account_move_update_analytic
-#: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_line__analytic_account_id
-#: model_terms:ir.ui.view,arch_db:account_move_update_analytic.view_account_move_update_analytic_account
-msgid "Analytic Account"
-msgstr "Conta analítica"
-
-#. module: account_move_update_analytic
-#: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_line__analytic_tag_ids
-#: model_terms:ir.ui.view,arch_db:account_move_update_analytic.view_account_move_update_analytic_account
-msgid "Analytic Tags"
-msgstr "Etiquetas Analíticas"
+#: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__analytic_precision
+msgid "Analytic Precision"
+msgstr "Precisión Analítica"
 
 #. module: account_move_update_analytic
 #: model_terms:ir.ui.view,arch_db:account_move_update_analytic.view_account_move_update_analytic_account
@@ -42,7 +40,7 @@ msgstr "Cancelar"
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__company_id
 msgid "Company"
-msgstr "Companía"
+msgstr "Compañía"
 
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__create_uid
@@ -55,19 +53,14 @@ msgid "Created on"
 msgstr "Creado o"
 
 #. module: account_move_update_analytic
-#: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__current_analytic_account_id
-msgid "Current Analytic Account"
-msgstr "Conta analítica corrente"
-
-#. module: account_move_update_analytic
-#: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__current_analytic_tag_ids
-msgid "Current Analytic Tags"
-msgstr "Etiquetas analíticas actuais"
+#: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__current_analytic_distribution
+msgid "Current Analytic Distribution"
+msgstr "Distribución analítica actual"
 
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__display_name
 msgid "Display Name"
-msgstr "Nome a mostrar"
+msgstr "Mostrar nome"
 
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__id
@@ -80,39 +73,39 @@ msgid "Invoice line"
 msgstr "Liña de factura"
 
 #. module: account_move_update_analytic
-#: model:ir.model,name:account_move_update_analytic.model_account_move_line
-msgid "Journal Item"
-msgstr "Apuntamento contable"
-
-#. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard____last_update
 msgid "Last Modified on"
-msgstr "Modificado por última vez o"
+msgstr "Última Modificación o"
 
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Actualizado por última vez por"
+msgstr "Última Actualzacíón por"
 
 #. module: account_move_update_analytic
 #: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__write_date
 msgid "Last Updated on"
-msgstr "Última actualización o"
+msgstr "Última Actualización o"
 
 #. module: account_move_update_analytic
-#: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__new_analytic_account_id
-msgid "New Analytic Account"
-msgstr "Nova conta analítica"
+#: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__analytic_distribution
+msgid "New Analytic Distribution"
+msgstr "Nova distribución analítica"
 
 #. module: account_move_update_analytic
-#: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__new_analytic_tag_ids
-msgid "New Analytic Tags"
-msgstr "Novas etiquetas analíticas"
+#: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__product_id
+msgid "Product"
+msgstr "Produto"
+
+#. module: account_move_update_analytic
+#: model:ir.model.fields,field_description:account_move_update_analytic.field_account_move_update_analytic_wizard__move_type
+msgid "Type"
+msgstr "Tipo"
 
 #. module: account_move_update_analytic
 #: model_terms:ir.ui.view,arch_db:account_move_update_analytic.view_account_move_update_analytic_account
-msgid "Update Analytic Accounts / Tags"
-msgstr "Actualizar contas analíticas / etiquetas"
+msgid "Update Analytic Distribution"
+msgstr "Actualizar distribución analítica"
 
 #. module: account_move_update_analytic
 #: model:ir.actions.act_window,name:account_move_update_analytic.action_view_account_move_update_analytic
@@ -122,9 +115,8 @@ msgstr "Actualización analítica para os movementos de conta seleccionados"
 #. module: account_move_update_analytic
 #: model_terms:ir.ui.view,arch_db:account_move_update_analytic.account_move_form_view
 #: model_terms:ir.ui.view,arch_db:account_move_update_analytic.account_move_line_tree_view
-#: model_terms:ir.ui.view,arch_db:account_move_update_analytic.view_move_line_tree_grouped
-msgid "Update analytic account and tags"
-msgstr "Actualizar contas e etiquetas analíticas"
+msgid "Update analytic distribution"
+msgstr "Actualizar distribución analítica"
 
 #. module: account_move_update_analytic
 #: model_terms:ir.ui.view,arch_db:account_move_update_analytic.view_account_move_update_analytic_account

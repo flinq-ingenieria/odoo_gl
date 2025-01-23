@@ -8,10 +8,10 @@
 # enjolras <yo@miguelrevilla.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 06:48\n"
-"PO-Revision-Date: 2024-11-08 06:48\n"
+"POT-Creation-Date: 2025-01-22 09:28\n"
+"PO-Revision-Date: 2025-01-22 09:28\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: product_profile
@@ -38,7 +39,7 @@ msgid "Config Settings"
 msgstr "Axustes de configuración"
 
 #. module: product_profile
-#: model:ir.model.fields.selection,name:product_profile.selection__product_profile__detailed_type__consu
+#: selection:product.profile,type:0
 msgid "Consumable"
 msgstr "Consumible"
 
@@ -62,11 +63,7 @@ msgstr ""
 "(non sincronizados cos campos product.template)"
 
 #. module: product_profile
-#: model:ir.model.fields,field_description:product_profile.field_product_profile__detailed_type
-msgid "Detailed Type"
-msgstr "Tipo Detallado"
-
-#. module: product_profile
+#: model:ir.model.fields,field_description:product_profile.field_product_mixin_profile__display_name
 #: model:ir.model.fields,field_description:product_profile.field_product_profile__display_name
 msgid "Display Name"
 msgstr "Nome mostrado"
@@ -83,13 +80,13 @@ msgid ""
 "Display fields computed by product profile module.\n"
 "For debugging purpose see menu\n"
 "Sales > Configuration \n"
-"> Products\n"
+"> Product Categories and Attributes\n"
 "> Product Profiles"
 msgstr ""
-"Mostra os campos calculados polo módulo de perfil de produto.\n"
-"Para depuración, véxase o menú\n"
-"Vendas > Configuración \n"
-"> Produtos\n"
+"Mostrar campos calculados por módulo de produto.\n"
+"Para debuggear ver o menú\n"
+"Veas > Configuración \n"
+"> Categorías de Produto e Atributos\n"
 "> Perfiles de produto"
 
 #. module: product_profile
@@ -100,12 +97,13 @@ msgid "Explanation"
 msgstr "Explicación"
 
 #. module: product_profile
+#: model:ir.model.fields,field_description:product_profile.field_product_mixin_profile__id
 #: model:ir.model.fields,field_description:product_profile.field_product_profile__id
 msgid "ID"
 msgstr "ID"
 
 #. module: product_profile
-#: code:addons/product_profile/models/product_profile.py:0
+#: code:addons/product_profile/models/product_profile.py:146
 #, python-format
 msgid ""
 "If you update this profile, all products using this profile could also be "
@@ -115,38 +113,34 @@ msgstr ""
 "tamén actualizarse. Os cambios poden tomar un tempo."
 
 #. module: product_profile
-#: code:addons/product_profile/models/product_profile.py:0
+#: code:addons/product_profile/models/product_profile.py:34
 #, python-format
 msgid ""
 "Issue\n"
 "------\n"
-"%(error)s\n"
-" %(value)s value can't be applied to %(field)s field.\n"
+"%s\n"
+"'%s' value can't be applied to '%s' field.\n"
 "There is no matching value between 'Product Profiles' \n"
-"and %(model)s models for this field.\n"
+"and '%s' models for this field.\n"
 "\n"
 "Resolution\n"
 "----------\n"
 "Check your settings on Profile model:\n"
-" Sales > Configuration \n"
-"> Products\n"
-"> Product Profiles"
+"%s"
 msgstr ""
-"Asunto\n"
+"Incidencia\n"
 "------\n"
-"%(error)s\n"
-" O valor de %(value)s non se pode aplicar ao campo de %(field)s.\n"
-"Non hai ningún valor coincidente entre 'Perfís de produtos'\n"
-"e %(model)s modelos para este campo.\n"
+"%s\n"
+"O valor '%s' non pode aplicarse ao campo '%s'.\n"
+"Non hai ningún valor coincidente entre os 'Perfís de produto' e '%s' modelos para este campo.\n"
 "\n"
 "Resolución\n"
 "----------\n"
-"Verifique a súa configuración no modelo de perfil:\n"
-" Vendas > Configuración\n"
-"> Produtos\n"
-"> Perfiles de produtos"
+"Comprobe a súa configuración no perfil do modelo:\n"
+"%s"
 
 #. module: product_profile
+#: model:ir.model.fields,field_description:product_profile.field_product_mixin_profile____last_update
 #: model:ir.model.fields,field_description:product_profile.field_product_profile____last_update
 msgid "Last Modified on"
 msgstr "Última modificación en"
@@ -215,9 +209,21 @@ msgstr ""
 "(non sincronizados cos campos product.template)"
 
 #. module: product_profile
-#: model:ir.model.fields,help:product_profile.field_product_profile__detailed_type
-msgid "See 'detailed_type' field in product.template"
-msgstr "Ver 'detailed_type' field en product.template"
+#: code:addons/product_profile/models/product_profile.py:12
+#, python-format
+msgid ""
+"Sales > Configuration \n"
+"> Product Categories and Attributes\n"
+"> Product Profiles"
+msgstr ""
+"Vendas > Configuración\n"
+"> Categorías de produto e Atributos\n"
+"> Perfiles de Produto"
+
+#. module: product_profile
+#: model:ir.model.fields,help:product_profile.field_product_profile__type
+msgid "See 'type' field in product.template"
+msgstr "Ver campo 'tipo' en 'product.template'"
 
 #. module: product_profile
 #: model:ir.model.fields,field_description:product_profile.field_product_profile__sequence
@@ -225,63 +231,14 @@ msgid "Sequence"
 msgstr "Secuencia"
 
 #. module: product_profile
-#: model:ir.model.fields.selection,name:product_profile.selection__product_profile__detailed_type__service
+#: selection:product.profile,type:0
 msgid "Service"
 msgstr "Servizo"
 
-#~ msgid ""
-#~ "Display fields computed by product profile module.\n"
-#~ "For debugging purpose see menu\n"
-#~ "Sales > Configuration \n"
-#~ "> Product Categories and Attributes\n"
-#~ "> Product Profiles"
-#~ msgstr ""
-#~ "Mostrar campos calculados por módulo de produto.\n"
-#~ "Para debuggear ver o menú\n"
-#~ "Veas > Configuración \n"
-#~ "> Categorías de Produto e Atributos\n"
-#~ "> Perfiles de produto"
-
-#, python-format
-#~ msgid ""
-#~ "Issue\n"
-#~ "------\n"
-#~ "%s\n"
-#~ "'%s' value can't be applied to '%s' field.\n"
-#~ "There is no matching value between 'Product Profiles' \n"
-#~ "and '%s' models for this field.\n"
-#~ "\n"
-#~ "Resolution\n"
-#~ "----------\n"
-#~ "Check your settings on Profile model:\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Incidencia\n"
-#~ "------\n"
-#~ "%s\n"
-#~ "O valor '%s' non pode aplicarse ao campo '%s'.\n"
-#~ "Non hai ningún valor coincidente entre os 'Perfís de produto' e '%s' modelos para este campo.\n"
-#~ "\n"
-#~ "Resolución\n"
-#~ "----------\n"
-#~ "Comprobe a súa configuración no perfil do modelo:\n"
-#~ "%s"
-
-#, python-format
-#~ msgid ""
-#~ "Sales > Configuration \n"
-#~ "> Product Categories and Attributes\n"
-#~ "> Product Profiles"
-#~ msgstr ""
-#~ "Vendas > Configuración\n"
-#~ "> Categorías de produto e Atributos\n"
-#~ "> Perfiles de Produto"
-
-#~ msgid "See 'type' field in product.template"
-#~ msgstr "Ver campo 'tipo' en 'product.template'"
-
-#~ msgid "Type"
-#~ msgstr "Tipo"
+#. module: product_profile
+#: model:ir.model.fields,field_description:product_profile.field_product_profile__type
+msgid "Type"
+msgstr "Tipo"
 
 #~ msgid "Stockable Product"
 #~ msgstr "Produto almacenable"

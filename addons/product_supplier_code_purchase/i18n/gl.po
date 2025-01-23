@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 12:40\n"
-"PO-Revision-Date: 2024-11-08 12:40\n"
+"POT-Creation-Date: 2025-01-22 07:35\n"
+"PO-Revision-Date: 2025-01-22 07:35\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -27,7 +27,7 @@ msgstr "Código Produto Provedor"
 #. module: product_supplier_code_purchase
 #: model:ir.model,name:product_supplier_code_purchase.model_purchase_order
 msgid "Purchase Order"
-msgstr "orde de compra"
+msgstr "Orde de Compra"
 
 #. module: product_supplier_code_purchase
 #: model:ir.model,name:product_supplier_code_purchase.model_purchase_order_line

@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 10:08\n"
-"PO-Revision-Date: 2024-11-08 10:08\n"
+"POT-Creation-Date: 2025-01-21 15:42\n"
+"PO-Revision-Date: 2025-01-21 15:42\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -30,13 +30,14 @@ msgstr ""
 
 #. module: l10n_es_pos_by_device
 #: model:ir.model.fields,field_description:l10n_es_pos_by_device.field_pos_config__pos_device_ids
+#: model:ir.model.fields,field_description:l10n_es_pos_by_device.field_res_config_settings__pos_device_ids
 msgid "Available POS devices"
 msgstr "Dispositivos TPV dispoñibles"
 
 #. module: l10n_es_pos_by_device
-#. openerp-web
-#: code:addons/l10n_es_pos_by_device/static/src/js/PaymentScreen.js:0
-#: code:addons/l10n_es_pos_by_device/static/src/js/models.js:0
+#. odoo-javascript
+#: code:addons/l10n_es_pos_by_device/static/src/js/PaymentScreen.esm.js:0
+#: code:addons/l10n_es_pos_by_device/static/src/js/Screens/Chrome/Chrome.esm.js:0
 #, python-format
 msgid "Cannot establish device. Clossing POS."
 msgstr "Non é posible establecer dispositivo. Pechando TPV."
@@ -79,10 +80,11 @@ msgstr "Nome mostrado"
 #. module: l10n_es_pos_by_device
 #: model:ir.model.fields,field_description:l10n_es_pos_by_device.field_pos_device__id
 msgid "ID"
-msgstr "ID (identificación)"
+msgstr "ID"
 
 #. module: l10n_es_pos_by_device
 #: model:ir.model.fields,help:l10n_es_pos_by_device.field_pos_config__pos_device_ids
+#: model:ir.model.fields,help:l10n_es_pos_by_device.field_res_config_settings__pos_device_ids
 msgid "If left empty, all devices will be selectable"
 msgstr "Se se deixa baleiro, pódense seleccionar todos os dispositivos"
 
@@ -112,8 +114,8 @@ msgid "Name"
 msgstr "Nome"
 
 #. module: l10n_es_pos_by_device
-#. openerp-web
-#: code:addons/l10n_es_pos_by_device/static/src/js/Screens/Chrome/DeviceName.js:0
+#. odoo-javascript
+#: code:addons/l10n_es_pos_by_device/static/src/js/Screens/Chrome/DeviceName.esm.js:0
 #, python-format
 msgid "No device"
 msgstr "Sen dispositivo"
@@ -127,9 +129,14 @@ msgstr "Dispositivo físico TPV"
 #. module: l10n_es_pos_by_device
 #: model:ir.actions.act_window,name:l10n_es_pos_by_device.pos_devices_act_window
 #: model:ir.ui.menu,name:l10n_es_pos_by_device.pos_device_menu
-#: model_terms:ir.ui.view,arch_db:l10n_es_pos_by_device.pos_config_view_form_by_device
+#: model_terms:ir.ui.view,arch_db:l10n_es_pos_by_device.view_res_config_settings_pos_seq_device
 msgid "POS Physical devices"
 msgstr "Dispositivos físicos TPV"
+
+#. module: l10n_es_pos_by_device
+#: model:ir.model,name:l10n_es_pos_by_device.model_pos_device
+msgid "PoS Device"
+msgstr ""
 
 #. module: l10n_es_pos_by_device
 #: model:ir.model,name:l10n_es_pos_by_device.model_pos_config
@@ -160,14 +167,14 @@ msgid "Secuencing by physical device"
 msgstr "Secuencia TPV por dispositivo"
 
 #. module: l10n_es_pos_by_device
-#. openerp-web
-#: code:addons/l10n_es_pos_by_device/static/src/js/models.js:0
+#. odoo-javascript
+#: code:addons/l10n_es_pos_by_device/static/src/js/Screens/Chrome/Chrome.esm.js:0
 #, python-format
 msgid "Select Physical Device"
 msgstr "Selecciona dispositivo físico"
 
 #. module: l10n_es_pos_by_device
-#: model_terms:ir.ui.view,arch_db:l10n_es_pos_by_device.pos_config_view_form_by_device
+#: model_terms:ir.ui.view,arch_db:l10n_es_pos_by_device.view_res_config_settings_pos_seq_device
 msgid "Select available physical devices for this POS configuration"
 msgstr ""
 "Selecciona os dispositivos físicos dispoñibles para esta configuración TPV"
@@ -198,6 +205,7 @@ msgid "Simplified Invoice prefix"
 msgstr "Prefixo de Factura Simplificada"
 
 #. module: l10n_es_pos_by_device
+#. odoo-python
 #: code:addons/l10n_es_pos_by_device/models/pos_config.py:0
 #, python-format
 msgid "There are no physical devices available. Cannot start session."
@@ -205,9 +213,9 @@ msgstr ""
 "Non hai dispositivos físicos dispoñibles. Non é posible iniciar sesión."
 
 #. module: l10n_es_pos_by_device
-#. openerp-web
-#: code:addons/l10n_es_pos_by_device/static/src/js/PaymentScreen.js:0
-#: code:addons/l10n_es_pos_by_device/static/src/js/models.js:0
+#. odoo-javascript
+#: code:addons/l10n_es_pos_by_device/static/src/js/PaymentScreen.esm.js:0
+#: code:addons/l10n_es_pos_by_device/static/src/js/Screens/Chrome/Chrome.esm.js:0
 #, python-format
 msgid "There was a connection error when trying to establish the device."
 msgstr "Houbo un erro de conexión ao tentar establecer o dispositivo."
@@ -221,9 +229,7 @@ msgstr "Desbloquear o dispositivo"
 #: model_terms:ir.ui.view,arch_db:l10n_es_pos_by_device.view_res_config_settings_pos_seq_device
 msgid "Use a different subsequence for each physical device on POS."
 msgstr ""
-"Utilice unha subsecuencia diferente para cada dispositivo físico en POS."
+"Utilice unha subsecuencia diferente para cada dispositivo físico no TPV."
 
-#. module: l10n_es_pos_by_device
-#: model:ir.model,name:l10n_es_pos_by_device.model_pos_device
-msgid "pos.device"
-msgstr "pos.dispositivo"
+#~ msgid "pos.device"
+#~ msgstr "pos.dispositivo"

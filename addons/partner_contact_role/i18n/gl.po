@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 06:01\n"
-"PO-Revision-Date: 2024-11-08 06:01\n"
+"POT-Creation-Date: 2025-01-22 08:01\n"
+"PO-Revision-Date: 2025-01-22 08:01\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -16,6 +16,16 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: tradutor Zerever\n"
+
+#. module: partner_contact_role
+#: model:ir.model.fields,field_description:partner_contact_role.field_res_partner_role__active
+msgid "Active"
+msgstr ""
+
+#. module: partner_contact_role
+#: model:ir.model.fields,help:partner_contact_role.field_res_partner_role__active
+msgid "By unchecking the active field, you may hide a role you will not use."
+msgstr ""
 
 #. module: partner_contact_role
 #: model:ir.model,name:partner_contact_role.model_res_partner

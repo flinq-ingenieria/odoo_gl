@@ -3,17 +3,18 @@
 # 	* hr_timesheet_attendance
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
-# Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2023
-# Larissa Manderfeld, 2024
+# Martin Trigaux, 2022
+# Ana Sanjuán, 2023
+# Larissa Manderfeld, 2023
+# Wil Odoo, 2024
+# Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 16:47\n"
-"PO-Revision-Date: 2024-11-08 16:47\n"
+"POT-Creation-Date: 2025-01-22 07:54\n"
+"PO-Revision-Date: 2025-01-22 07:54\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -24,9 +25,29 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: hr_timesheet_attendance
+#: model:ir.model.fields,field_description:hr_timesheet_attendance.field_hr_timesheet_attendance_report__attendance_cost
+msgid "Attendance Cost"
+msgstr "Custo de asistencia"
+
+#. module: hr_timesheet_attendance
+#: model:ir.model.fields,field_description:hr_timesheet_attendance.field_hr_timesheet_attendance_report__total_attendance
+msgid "Attendance Hours"
+msgstr "Horas de asistencia"
+
+#. module: hr_timesheet_attendance
 #: model:ir.model.fields,field_description:hr_timesheet_attendance.field_hr_timesheet_attendance_report__company_id
 msgid "Company"
 msgstr "Compañía"
+
+#. module: hr_timesheet_attendance
+#: model_terms:ir.actions.act_window,help:hr_timesheet_attendance.action_hr_timesheet_attendance_report
+msgid "Compare the time recorded by your employees with their attendance."
+msgstr "Compare o tempo rexistrado polos seus empregados coa súa asistencia."
+
+#. module: hr_timesheet_attendance
+#: model:ir.model.fields,field_description:hr_timesheet_attendance.field_hr_timesheet_attendance_report__cost_difference
+msgid "Cost Difference"
+msgstr "Diferenza de custos"
 
 #. module: hr_timesheet_attendance
 #: model:ir.model.fields,field_description:hr_timesheet_attendance.field_hr_timesheet_attendance_report__date
@@ -45,6 +66,11 @@ msgid "Employee"
 msgstr "Empregado"
 
 #. module: hr_timesheet_attendance
+#: model:ir.model.fields,field_description:hr_timesheet_attendance.field_hr_timesheet_attendance_report__total_difference
+msgid "Hours Difference"
+msgstr "Diferenza de horas"
+
+#. module: hr_timesheet_attendance
 #: model:ir.model.fields,field_description:hr_timesheet_attendance.field_hr_timesheet_attendance_report__id
 msgid "ID"
 msgstr "ID"
@@ -55,9 +81,14 @@ msgid "Last Modified on"
 msgstr "Última modificación o"
 
 #. module: hr_timesheet_attendance
+#: model:ir.model,name:hr_timesheet_attendance.model_ir_ui_menu
+msgid "Menu"
+msgstr "Menú"
+
+#. module: hr_timesheet_attendance
 #: model_terms:ir.actions.act_window,help:hr_timesheet_attendance.action_hr_timesheet_attendance_report
 msgid "No data yet!"
-msgstr "Non hai información aínda"
+msgstr "Aínda non hai información!"
 
 #. module: hr_timesheet_attendance
 #: model_terms:ir.ui.view,arch_db:hr_timesheet_attendance.hr_timesheet_attendance_report_view_tree
@@ -94,19 +125,14 @@ msgid "Timesheet Attendance Report"
 msgstr "Informe de partes de horas e asistencia"
 
 #. module: hr_timesheet_attendance
-#: model:ir.model.fields,field_description:hr_timesheet_attendance.field_hr_timesheet_attendance_report__total_attendance
-msgid "Total Attendance"
-msgstr "Asistencias totais"
-
-#. module: hr_timesheet_attendance
-#: model:ir.model.fields,field_description:hr_timesheet_attendance.field_hr_timesheet_attendance_report__total_difference
-msgid "Total Difference"
-msgstr "Diferenza total"
+#: model:ir.model.fields,field_description:hr_timesheet_attendance.field_hr_timesheet_attendance_report__timesheets_cost
+msgid "Timesheet Cost"
+msgstr "Custo de partes de horas"
 
 #. module: hr_timesheet_attendance
 #: model:ir.model.fields,field_description:hr_timesheet_attendance.field_hr_timesheet_attendance_report__total_timesheet
-msgid "Total Timesheet"
-msgstr "Total folla de horas"
+msgid "Timesheets Hours"
+msgstr "Horas do parte"
 
 #. module: hr_timesheet_attendance
 #: model:ir.model.fields,field_description:hr_timesheet_attendance.field_hr_timesheet_attendance_report__user_id

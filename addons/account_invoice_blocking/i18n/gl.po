@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 20:19\n"
-"PO-Revision-Date: 2024-11-07 20:19\n"
+"POT-Creation-Date: 2025-01-23 00:20\n"
+"PO-Revision-Date: 2025-01-23 00:20\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. module: account_invoice_blocking
 #: model:ir.model,name:account_invoice_blocking.model_account_move
 msgid "Journal Entry"
-msgstr "Entrada diaria"
+msgstr "entrada diaria"
 
 #. module: account_invoice_blocking
 #: model:ir.model.fields,field_description:account_invoice_blocking.field_account_bank_statement_line__blocked
@@ -34,6 +34,3 @@ msgstr "Sen seguimento"
 
 #~ msgid "Invoice"
 #~ msgstr "Factura"
-
-#~ msgid "This flag facilitates the blocking of the invoice's move lines."
-#~ msgstr "Esta casa facilita o bloque dos efectos contables da factura."

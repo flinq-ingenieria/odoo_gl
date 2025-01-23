@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 23:37\n"
-"PO-Revision-Date: 2024-11-08 23:37\n"
+"POT-Creation-Date: 2025-01-21 20:24\n"
+"PO-Revision-Date: 2025-01-21 20:24\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -17,9 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:29\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item__budget_company_id
+msgid "#Technical field: Budget Company"
+msgstr ""
+
+#. module: mis_builder_budget
+#. odoo-python
 #: code:addons/mis_builder_budget/models/mis_budget_item_abstract.py:0
 #, python-format
 msgid "%(rec_name)s is not within budget %(budget_name)s date range."
@@ -28,6 +35,7 @@ msgstr ""
 "%(budget_name)s."
 
 #. module: mis_builder_budget
+#. odoo-python
 #: code:addons/mis_builder_budget/models/mis_budget_item_abstract.py:0
 #, python-format
 msgid "%(rec_name)s overlaps %(res_name)s in budget %(budget_name)s"
@@ -36,12 +44,14 @@ msgstr ""
 "orzamento %(budget_name)s"
 
 #. module: mis_builder_budget
+#. odoo-python
 #: code:addons/mis_builder_budget/models/mis_budget_abstract.py:0
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (copia)"
 
 #. module: mis_builder_budget
+#. odoo-python
 #: code:addons/mis_builder_budget/models/mis_budget_item_abstract.py:0
 #, python-format
 msgid "%s start date must not be after end date"
@@ -60,6 +70,12 @@ msgid "Action Needed"
 msgstr "Acción Necesaria"
 
 #. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__active
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__active
+msgid "Active"
+msgstr ""
+
+#. module: mis_builder_budget
 #: model:ir.model.fields,help:mis_builder_budget.field_mis_report_instance_period__source
 msgid ""
 "Actuals: current data, from accounting and other queries.\n"
@@ -67,9 +83,9 @@ msgid ""
 "Sum columns: summation (+/-) of other columns.\n"
 "Compare to column: compare to other column.\n"
 msgstr ""
-"Actuais: datos actuais, procedentes da contabilidade e doutras consultas.\n"
-"Reais (alternativos): datos actuais procedentes dunha fonte alternativa (por exemplo, unha vista de base de datos que proporcione liñas de movemento de contas similares).\n"
-"Suma de columnas: suma (+/-) doutras columnas.\n"
+"Datos reais: datos actuais, de contabilidade e outras consultas.\n"
+"Datos reais (alternativa): datos actuais dunha fonte alternativa (por exemplo, unha vista de base de datos que proporciona liñas de movemento de conta similares).\n"
+"Columnas de suma: (+/-) suma doutras columnas.\n"
 "Comparar con columna: comparar con outra columna.\n"
 
 #. module: mis_builder_budget
@@ -83,18 +99,27 @@ msgid "Amount"
 msgstr "Importe"
 
 #. module: mis_builder_budget
-#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__analytic_tag_ids
-#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item__analytic_tag_ids
-#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item_abstract__analytic_tag_ids
-msgid "Analytic Tags"
-msgstr "Etiquetas analíticas"
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__analytic_distribution
+msgid "Analytic"
+msgstr ""
 
 #. module: mis_builder_budget
-#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__analytic_account_id
-#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item__analytic_account_id
-#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item_abstract__analytic_account_id
-msgid "Analytic account"
-msgstr "Conta analítica"
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__analytic_distribution_search
+msgid "Analytic Distribution Search"
+msgstr ""
+
+#. module: mis_builder_budget
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__analytic_precision
+msgid "Analytic Precision"
+msgstr ""
+
+#. module: mis_builder_budget
+#: model_terms:ir.ui.view,arch_db:mis_builder_budget.mis_budget_by_account_form_view
+#: model_terms:ir.ui.view,arch_db:mis_builder_budget.mis_budget_by_account_search_view
+#: model_terms:ir.ui.view,arch_db:mis_builder_budget.mis_budget_form_view
+#: model_terms:ir.ui.view,arch_db:mis_builder_budget.mis_budget_search_view
+msgid "Archived"
+msgstr ""
 
 #. module: mis_builder_budget
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__message_attachment_count
@@ -168,6 +193,7 @@ msgstr "Cancelado"
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_abstract__company_id
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__company_id
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account_item__company_id
+#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item__company_id
 msgid "Company"
 msgstr "Compañía"
 
@@ -289,7 +315,7 @@ msgstr "Desde"
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_abstract__has_message
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__has_message
 msgid "Has Message"
-msgstr "Ten Mensaxe"
+msgstr "Tes unha mensaxe"
 
 #. module: mis_builder_budget
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__id
@@ -301,11 +327,8 @@ msgstr "ID"
 
 #. module: mis_builder_budget
 #: model:ir.model.fields,help:mis_builder_budget.field_mis_budget__message_needaction
-#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget__message_unread
 #: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_abstract__message_needaction
-#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_abstract__message_unread
 #: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_by_account__message_needaction
-#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_by_account__message_unread
 msgid "If checked, new messages require your attention."
 msgstr "Se está marcado, as novas mensaxes requiren a súa atención."
 
@@ -500,7 +523,7 @@ msgstr "Número de erros"
 #: model:ir.model.fields,help:mis_builder_budget.field_mis_budget__message_needaction_counter
 #: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_abstract__message_needaction_counter
 #: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_by_account__message_needaction_counter
-msgid "Number of messages which requires an action"
+msgid "Number of messages requiring action"
 msgstr "Número de mensaxes que requiren unha acción"
 
 #. module: mis_builder_budget
@@ -509,13 +532,6 @@ msgstr "Número de mensaxes que requiren unha acción"
 #: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_by_account__message_has_error_counter
 msgid "Number of messages with delivery error"
 msgstr "Número de mensaxes con erro na entrega"
-
-#. module: mis_builder_budget
-#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget__message_unread_counter
-#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_abstract__message_unread_counter
-#: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_by_account__message_unread_counter
-msgid "Number of unread messages"
-msgstr "Número de mensaxes non lidas"
 
 #. module: mis_builder_budget
 #: model_terms:ir.ui.view,arch_db:mis_builder_budget.mis_budget_by_account_form_view
@@ -549,20 +565,6 @@ msgstr "Sub-KPI Secuencia"
 #: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_item_abstract__date_to
 msgid "To"
 msgstr "a"
-
-#. module: mis_builder_budget
-#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__message_unread
-#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_abstract__message_unread
-#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__message_unread
-msgid "Unread Messages"
-msgstr "Mensaxes non lidas"
-
-#. module: mis_builder_budget
-#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget__message_unread_counter
-#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_abstract__message_unread_counter
-#: model:ir.model.fields,field_description:mis_builder_budget.field_mis_budget_by_account__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr "Contador de mensaxes non lidas"
 
 #. module: mis_builder_budget
 #: model:ir.model.fields,help:mis_builder_budget.field_mis_budget_by_account_item__company_currency_id
@@ -603,6 +605,9 @@ msgstr ""
 #~ msgid "SMS Delivery error"
 #~ msgstr "SMS de erro na entrega"
 
+#~ msgid "Number of messages which requires an action"
+#~ msgstr "Número de mensaxes que requiren unha acción"
+
 #, python-format
 #~ msgid "%s is not within budget %s date range."
 #~ msgstr "%s non está dentro do rango de datas do orzamento %s."
@@ -611,8 +616,23 @@ msgstr ""
 #~ msgid "%s overlaps %s in budget %s"
 #~ msgstr "%s superpón %s no orzamento %s"
 
+#~ msgid "Analytic Tags"
+#~ msgstr "Etiquetas analíticas"
+
+#~ msgid "Analytic account"
+#~ msgstr "Conta analítica"
+
 #~ msgid "Followers (Channels)"
 #~ msgstr "Seguidores (Canles)"
+
+#~ msgid "Number of unread messages"
+#~ msgstr "Número de mensaxes non lidas"
+
+#~ msgid "Unread Messages"
+#~ msgstr "Mensaxes non lidas"
+
+#~ msgid "Unread Messages Counter"
+#~ msgstr "Contador de mensaxes non lidas"
 
 #~ msgid "MIS Budget"
 #~ msgstr "Orzamento Os meus"

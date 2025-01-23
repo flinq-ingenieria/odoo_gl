@@ -3,14 +3,15 @@
 # 	* pos_six
 #
 # Translators:
-# Martin Trigaux, 2021
+# Martin Trigaux, 2022
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 14:14\n"
-"PO-Revision-Date: 2024-11-08 14:14\n"
+"POT-Creation-Date: 2025-01-21 16:37\n"
+"PO-Revision-Date: 2025-01-21 16:37\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -21,11 +22,11 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: pos_six
-#. openerp-web
+#. odoo-javascript
 #: code:addons/pos_six/static/src/js/payment_six.js:0
 #, python-format
 msgid "Balance Failed"
-msgstr "Balance errado"
+msgstr "Erro no saldo"
 
 #. module: pos_six
 #: model:ir.model,name:pos_six.model_pos_config
@@ -38,7 +39,12 @@ msgid "Point of Sale Payment Methods"
 msgstr "Métodos de pago no punto de venda "
 
 #. module: pos_six
-#. openerp-web
+#: model:ir.model,name:pos_six.model_pos_session
+msgid "Point of Sale Session"
+msgstr "Sesión TPV"
+
+#. module: pos_six
+#. odoo-javascript
 #: code:addons/pos_six/static/src/xml/BalanceButton.xml:0
 #, python-format
 msgid "Send Balance"
@@ -50,14 +56,14 @@ msgid "Six Terminal IP"
 msgstr "IP do Terminal Six"
 
 #. module: pos_six
-#. openerp-web
+#. odoo-javascript
 #: code:addons/pos_six/static/src/js/payment_six.js:0
 #, python-format
 msgid "The balance operation failed."
-msgstr "A operación de balance fallou."
+msgstr "Ocorreu un erro na operación de saldo."
 
 #. module: pos_six
-#. openerp-web
+#. odoo-javascript
 #: code:addons/pos_six/static/src/js/payment_six.js:0
 #, python-format
 msgid "Transaction was not processed correctly"

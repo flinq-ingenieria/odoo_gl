@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 20:14\n"
-"PO-Revision-Date: 2024-11-07 20:14\n"
+"POT-Creation-Date: 2025-01-22 10:00\n"
+"PO-Revision-Date: 2025-01-22 10:00\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: intrastat_base
@@ -29,28 +30,28 @@ msgstr ""
 "reportes de Instratat."
 
 #. module: intrastat_base
-#: model:ir.model.fields,help:intrastat_base.field_account_fiscal_position_template__intrastat
-msgid ""
-"Check this if you want to generate intrastat declarations withthe created "
-"fiscal position"
-msgstr ""
-"Marque esta casa se desexa xerar declaracións intrastat coa posición fiscal "
-"creada"
+#. odoo-python
+#: code:addons/intrastat_base/models/account_fiscal_position.py:0
+#, python-format
+msgid "B2B"
+msgstr "B2B"
+
+#. module: intrastat_base
+#. odoo-python
+#: code:addons/intrastat_base/models/account_fiscal_position.py:0
+#, python-format
+msgid "B2C"
+msgstr "B2"
 
 #. module: intrastat_base
 #: model:ir.model,name:intrastat_base.model_res_company
 msgid "Companies"
-msgstr "compañías"
+msgstr "Compañías"
 
 #. module: intrastat_base
 #: model:ir.model,name:intrastat_base.model_res_config_settings
 msgid "Config Settings"
-msgstr "axustes de configuración"
-
-#. module: intrastat_base
-#: model:ir.model,name:intrastat_base.model_res_partner
-msgid "Contact"
-msgstr "Contacto"
+msgstr "Axustes de Configuración"
 
 #. module: intrastat_base
 #: model:ir.model,name:intrastat_base.model_account_fiscal_position
@@ -63,6 +64,8 @@ msgstr "Posición fiscal"
 #: model:ir.ui.menu,name:intrastat_base.menu_intrastat_base_root
 #: model:ir.ui.menu,name:intrastat_base.menu_intrastat_config_root
 #: model_terms:ir.ui.view,arch_db:intrastat_base.product_template_form_view
+#: model_terms:ir.ui.view,arch_db:intrastat_base.view_account_position_filter
+#: model_terms:ir.ui.view,arch_db:intrastat_base.view_account_position_template_search
 #: model_terms:ir.ui.view,arch_db:intrastat_base.view_intrastat_res_config_settings
 msgid "Intrastat"
 msgstr "Intrastat"
@@ -101,39 +104,28 @@ msgid "List of emails of Users Receiving the Intrastat Reminder"
 msgstr "Lista de emails de Usuarios que recibirán un recordatorio Intrastat"
 
 #. module: intrastat_base
+#. odoo-python
 #: code:addons/intrastat_base/models/res_company.py:0
 #, python-format
 msgid "Missing e-mail address on user '%s'."
-msgstr "Non hai dirección de email no usuario '%s'."
+msgstr "Falta a dirección de correo electrónico do usuario '%s'."
+
+#. module: intrastat_base
+#. odoo-python
+#: code:addons/intrastat_base/models/account_fiscal_position.py:0
+#, python-format
+msgid "No"
+msgstr "Non"
 
 #. module: intrastat_base
 #: model:ir.model,name:intrastat_base.model_product_template
-msgid "Product Template"
-msgstr "Modelo de Produto"
+msgid "Product"
+msgstr "Produto"
 
 #. module: intrastat_base
-#: code:addons/intrastat_base/models/res_partner.py:0
-#, python-format
-msgid "Programming Error when calling '_get_intrastat_country_code()"
-msgstr "Erro de programación ao chamar a '_get_intrastat_country_code()"
-
-#. module: intrastat_base
-#: model:ir.model.fields,help:intrastat_base.field_account_bank_statement_line__intrastat_fiscal_position
-#: model:ir.model.fields,help:intrastat_base.field_account_fiscal_position__intrastat
-#: model:ir.model.fields,help:intrastat_base.field_account_move__intrastat_fiscal_position
-#: model:ir.model.fields,help:intrastat_base.field_account_payment__intrastat_fiscal_position
-msgid ""
-"Set to True if the invoices with this fiscal position should be taken into "
-"account for the generation of the intrastat reports."
-msgstr ""
-"Establecer en Verdadeiro se as facturas con esta posición fiscal deben terse"
-" en conta para a xeración dos informes intrastat."
-
-#. module: intrastat_base
-#: model:product.product,name:intrastat_base.shipping_costs_exclude
 #: model:product.template,name:intrastat_base.shipping_costs_exclude_product_template
 msgid "Shipping costs"
-msgstr "Custos de envío"
+msgstr "Gastos de envío"
 
 #. module: intrastat_base
 #: model:ir.model,name:intrastat_base.model_account_fiscal_position_template
@@ -141,24 +133,42 @@ msgid "Template for Fiscal Position"
 msgstr "Modelo de Posición Fiscal"
 
 #. module: intrastat_base
+#. odoo-python
+#: code:addons/intrastat_base/models/account_fiscal_position.py:0
+#, python-format
+msgid ""
+"The fiscal position '%s' has intrastat set to B2B, so the option 'VAT "
+"Required' must be enabled."
+msgstr ""
+"A posición fiscal '%s' ten intrastat establecido en B2B, polo que a opción "
+"'IVE Requirido' debe estar activada."
+
+#. module: intrastat_base
+#. odoo-python
+#: code:addons/intrastat_base/models/account_fiscal_position.py:0
+#, python-format
+msgid ""
+"The fiscal position '%s' has intrastat set to B2C, so the option 'VAT "
+"Required' mustn't be enabled."
+msgstr ""
+"A posición fiscal '%s' ten intrastat establecido en B2C, polo que a opción "
+"'IVE requirido' non debe estar activada."
+
+#. module: intrastat_base
+#. odoo-python
 #: code:addons/intrastat_base/models/product_template.py:0
 #, python-format
 msgid ""
 "The option 'Is accessory cost?' should only be activated on 'Service' "
-"products. You have activated this option for the product '{product_name}' "
-"which is configured with type '{product_type}'."
+"products. You have activated this option for the product '%(product_name)s' "
+"which is configured with type '%(product_type)s'."
 msgstr ""
-"A opción 'Ten custo o accesorio?' só debe activarse en produtos de "
-"'Servizo'. Activaches esta opción para o produto '{product_name}' que está "
-"configurado co tipo '{product_type}'."
+"A opción 'O custo do accesorio?' só debe activarse en produtos de 'Servizo'."
+" Activou esta opción para o produto '%(product_name)s' que está configurado "
+"co tipo '%(product_type)s'."
 
 #. module: intrastat_base
-#: model:product.product,uom_name:intrastat_base.shipping_costs_exclude
-#: model:product.template,uom_name:intrastat_base.shipping_costs_exclude_product_template
-msgid "Units"
-msgstr "Unidades"
-
-#. module: intrastat_base
+#. odoo-python
 #: code:addons/intrastat_base/models/res_company.py:0
 #, python-format
 msgid "Unknown Error"
@@ -169,3 +179,16 @@ msgstr "Erro Descoñecido"
 #: model:ir.model.fields,field_description:intrastat_base.field_res_config_settings__intrastat_remind_user_ids
 msgid "Users Receiving the Intrastat Reminder"
 msgstr "Usuarios Recibindo o Recordatorio Intrastat"
+
+#. module: intrastat_base
+#: model:ir.model.fields,help:intrastat_base.field_account_bank_statement_line__intrastat_fiscal_position
+#: model:ir.model.fields,help:intrastat_base.field_account_fiscal_position__intrastat
+#: model:ir.model.fields,help:intrastat_base.field_account_fiscal_position_template__intrastat
+#: model:ir.model.fields,help:intrastat_base.field_account_move__intrastat_fiscal_position
+#: model:ir.model.fields,help:intrastat_base.field_account_payment__intrastat_fiscal_position
+msgid ""
+"When set to B2B or B2C, the invoices with this fiscal position will be taken"
+" into account for the generation of the intrastat reports."
+msgstr ""
+"Cando se configura en B2B ou B2C, as facturas con esta posición fiscal "
+"teranse en conta para a xeración dos informes intrastat."

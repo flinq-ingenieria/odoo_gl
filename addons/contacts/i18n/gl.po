@@ -3,16 +3,15 @@
 # 	* contacts
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
-# Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2022
+# Martin Trigaux, 2022
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 16:42\n"
-"PO-Revision-Date: 2024-11-08 16:42\n"
+"POT-Creation-Date: 2025-01-22 08:02\n"
+"PO-Revision-Date: 2025-01-22 08:02\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -68,7 +67,7 @@ msgstr "Grupo de países"
 #. module: contacts
 #: model_terms:ir.actions.act_window,help:contacts.action_contacts
 msgid "Create a Contact in your address book"
-msgstr "Crear un contacto no seu directorio"
+msgstr "Crear un contacto no seu caderno de direccións"
 
 #. module: contacts
 #: model:ir.ui.menu,name:contacts.menu_country_state_partner
@@ -78,7 +77,7 @@ msgstr "Provincias"
 #. module: contacts
 #: model:ir.ui.menu,name:contacts.res_partner_industry_menu
 msgid "Industries"
-msgstr "Industrias"
+msgstr "Sectores"
 
 #. module: contacts
 #: model:ir.ui.menu,name:contacts.menu_localisation
@@ -94,5 +93,5 @@ msgstr ""
 
 #. module: contacts
 #: model:ir.model,name:contacts.model_res_users
-msgid "Users"
-msgstr "Usuarios"
+msgid "User"
+msgstr "Usuario"

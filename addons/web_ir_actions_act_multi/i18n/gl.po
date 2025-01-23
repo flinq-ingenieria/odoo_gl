@@ -3,10 +3,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 02:05\n"
-"PO-Revision-Date: 2024-11-08 02:05\n"
+"POT-Creation-Date: 2025-01-22 02:16\n"
+"PO-Revision-Date: 2025-01-22 02:16\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -24,7 +24,12 @@ msgstr "Descrición da acción"
 #. module: web_ir_actions_act_multi
 #: model:ir.model,name:web_ir_actions_act_multi.model_ir_actions_act_multi
 msgid "Action Mulit"
-msgstr "Acción Mulit"
+msgstr "Acción múltiple"
+
+#. module: web_ir_actions_act_multi
+#: model:ir.model.fields,field_description:web_ir_actions_act_multi.field_ir_actions_act_multi__name
+msgid "Action Name"
+msgstr "Nomee Acción"
 
 #. module: web_ir_actions_act_multi
 #: model:ir.model.fields,field_description:web_ir_actions_act_multi.field_ir_actions_act_multi__type
@@ -49,7 +54,7 @@ msgstr "Tipos de vistas vinculantes"
 #. module: web_ir_actions_act_multi
 #: model:ir.model.fields,field_description:web_ir_actions_act_multi.field_ir_actions_act_multi__create_uid
 msgid "Created by"
-msgstr "creado por"
+msgstr "Creado por"
 
 #. module: web_ir_actions_act_multi
 #: model:ir.model.fields,field_description:web_ir_actions_act_multi.field_ir_actions_act_multi__create_date
@@ -69,27 +74,22 @@ msgstr "ID Externa"
 #. module: web_ir_actions_act_multi
 #: model:ir.model.fields,field_description:web_ir_actions_act_multi.field_ir_actions_act_multi__id
 msgid "ID"
-msgstr "ID(identificación)"
+msgstr "ID (identificación)"
 
 #. module: web_ir_actions_act_multi
 #: model:ir.model.fields,field_description:web_ir_actions_act_multi.field_ir_actions_act_multi____last_update
 msgid "Last Modified on"
-msgstr "Última Modificación en"
+msgstr "Última Modificación o"
 
 #. module: web_ir_actions_act_multi
 #: model:ir.model.fields,field_description:web_ir_actions_act_multi.field_ir_actions_act_multi__write_uid
 msgid "Last Updated by"
-msgstr "Última actualización Por"
+msgstr "Última actualización por"
 
 #. module: web_ir_actions_act_multi
 #: model:ir.model.fields,field_description:web_ir_actions_act_multi.field_ir_actions_act_multi__write_date
 msgid "Last Updated on"
 msgstr "Última Actualización o"
-
-#. module: web_ir_actions_act_multi
-#: model:ir.model.fields,field_description:web_ir_actions_act_multi.field_ir_actions_act_multi__name
-msgid "Name"
-msgstr "Nome"
 
 #. module: web_ir_actions_act_multi
 #: model:ir.model.fields,help:web_ir_actions_act_multi.field_ir_actions_act_multi__help

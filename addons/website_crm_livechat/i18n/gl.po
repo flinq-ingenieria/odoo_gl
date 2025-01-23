@@ -3,14 +3,16 @@
 # 	* website_crm_livechat
 #
 # Translators:
-# Martin Trigaux, 2021
+# Martin Trigaux, 2022
+# Larissa Manderfeld, 2023
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 05:06\n"
-"PO-Revision-Date: 2024-11-08 05:06\n"
+"POT-Creation-Date: 2025-01-22 00:33\n"
+"PO-Revision-Date: 2025-01-22 00:33\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -26,6 +28,17 @@ msgid "# Sessions"
 msgstr "# de Sesións"
 
 #. module: website_crm_livechat
+#: code:addons/website_crm_livechat/models/chatbot_script_step.py:0
+#, python-format
+msgid "%s's New Lead"
+msgstr "Novo lead de %s"
+
+#. module: website_crm_livechat
+#: model:ir.model,name:website_crm_livechat.model_chatbot_script_step
+msgid "Chatbot Script Step"
+msgstr "Paso de guion do chatbot"
+
+#. module: website_crm_livechat
 #: model:ir.model,name:website_crm_livechat.model_mail_channel
 msgid "Discussion Channel"
 msgstr "Canle de conversacións"
@@ -33,7 +46,7 @@ msgstr "Canle de conversacións"
 #. module: website_crm_livechat
 #: model:ir.model,name:website_crm_livechat.model_crm_lead
 msgid "Lead/Opportunity"
-msgstr "Iniciativa/Oportunidade"
+msgstr "Lead/Oportunidade"
 
 #. module: website_crm_livechat
 #: model_terms:ir.ui.view,arch_db:website_crm_livechat.crm_lead_view_form

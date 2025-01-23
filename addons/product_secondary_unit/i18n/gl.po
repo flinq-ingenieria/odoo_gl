@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 21:54\n"
-"PO-Revision-Date: 2024-11-07 21:54\n"
+"POT-Creation-Date: 2025-01-22 22:56\n"
+"PO-Revision-Date: 2025-01-22 22:56\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: product_secondary_unit
@@ -104,7 +105,7 @@ msgid "Name"
 msgstr "Nome"
 
 #. module: product_secondary_unit
-#: model:ir.model,name:product_secondary_unit.model_product_product
+#: model:ir.model,name:product_secondary_unit.model_product_template
 msgid "Product"
 msgstr "Produto"
 
@@ -119,12 +120,12 @@ msgid "Product Secondary Unit Mixin"
 msgstr "Produto Unidade secundaria Mixin"
 
 #. module: product_secondary_unit
-#: model:ir.model,name:product_secondary_unit.model_product_template
 #: model:ir.model.fields,field_description:product_secondary_unit.field_product_secondary_unit__product_tmpl_id
 msgid "Product Template"
 msgstr "Modelo de produto"
 
 #. module: product_secondary_unit
+#: model:ir.model,name:product_secondary_unit.model_product_product
 #: model:ir.model.fields,field_description:product_secondary_unit.field_product_secondary_unit__product_id
 msgid "Product Variant"
 msgstr "Variante de produto"

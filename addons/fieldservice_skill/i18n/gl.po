@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 09:45\n"
-"PO-Revision-Date: 2024-11-08 09:45\n"
+"POT-Creation-Date: 2025-01-22 00:20\n"
+"PO-Revision-Date: 2025-01-22 00:20\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:29\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: fieldservice_skill
@@ -135,6 +136,7 @@ msgid "Skills"
 msgstr "Habilidades"
 
 #. module: fieldservice_skill
+#. odoo-python
 #: code:addons/fieldservice_skill/models/fsm_person_skill.py:0
 #, python-format
 msgid ""
@@ -145,14 +147,15 @@ msgstr ""
 "coinciden"
 
 #. module: fieldservice_skill
+#. odoo-python
 #: code:addons/fieldservice_skill/models/fsm_person_skill.py:0
 #, python-format
 msgid ""
 "The skill level '%(skilllevel)s'                         is not valid for "
 "skill type: '%(skilltype)s' "
 msgstr ""
-"O nivel de habilidade '%(skilllevel)s'                                     "
-"non é válido para o tipo de habilidade: '%(skilltype)s' "
+"O nivel de habilidade '%(skilllevel)s' non é válido para o tipo de "
+"habilidade: '%(skilltype)s' "
 
 #. module: fieldservice_skill
 #: model:ir.model.constraint,message:fieldservice_skill.constraint_fsm_person_skill_person_skill_uniq

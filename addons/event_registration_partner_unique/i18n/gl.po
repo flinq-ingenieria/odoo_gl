@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 16:08\n"
-"PO-Revision-Date: 2024-11-08 16:08\n"
+"POT-Creation-Date: 2025-01-21 15:59\n"
+"PO-Revision-Date: 2025-01-21 15:59\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -29,8 +29,8 @@ msgstr ""
 #. module: event_registration_partner_unique
 #: code:addons/event_registration_partner_unique/models/event.py:0
 #, python-format
-msgid "Duplicated partners found in event %(name)s: %(partners)s."
-msgstr "Empresas duplicadas atopadas no evento %(name)s: %(partners)s."
+msgid "Duplicated partners found in event {0}: {1}."
+msgstr "Empresas duplicadas atopadas no evento {0}: {1}."
 
 #. module: event_registration_partner_unique
 #: model:ir.model,name:event_registration_partner_unique.model_event_event
@@ -47,22 +47,3 @@ msgstr "Rexistro do evento"
 #: model:ir.model.fields,field_description:event_registration_partner_unique.field_event_session__forbid_duplicates
 msgid "Forbid Duplicates"
 msgstr "Prohibir duplicados"
-
-#. module: event_registration_partner_unique
-#: model:ir.model.fields,help:event_registration_partner_unique.field_base_partner_merge_automatic_wizard__merge_duplicated_registrations
-msgid ""
-"If the merged partners were linked to registrations in an event that had "
-"unique attendees flag we'll take only the oldest one"
-msgstr ""
-"Se os socios fusionados estaban vinculados a inscricións nun evento que tiña"
-" un único indicador de asistentes, só tomaremos o máis antigo"
-
-#. module: event_registration_partner_unique
-#: model:ir.model.fields,field_description:event_registration_partner_unique.field_base_partner_merge_automatic_wizard__merge_duplicated_registrations
-msgid "Merge Duplicated Registrations"
-msgstr "Fusionar Rexistros Duplicados"
-
-#. module: event_registration_partner_unique
-#: model:ir.model,name:event_registration_partner_unique.model_base_partner_merge_automatic_wizard
-msgid "Merge Partner Wizard"
-msgstr "Asistente para a Fusión de Socios"

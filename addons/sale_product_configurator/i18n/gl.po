@@ -3,16 +3,17 @@
 # 	* sale_product_configurator
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
-# Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2023
+# Martin Trigaux, 2022
+# Francisco Santos, 2023
+# Wil Odoo, 2024
+# Larissa Manderfeld, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 02:24\n"
-"PO-Revision-Date: 2024-11-08 02:24\n"
+"POT-Creation-Date: 2025-01-21 15:53\n"
+"PO-Revision-Date: 2025-01-21 15:53\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -21,11 +22,6 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 "X-Generator: tradutor Zerever\n"
-
-#. module: sale_product_configurator
-#: model_terms:ir.ui.view,arch_db:sale_product_configurator.optional_product_items
-msgid "<i class=\"fa fa-shopping-cart add-optionnal-item\"/> Add to cart"
-msgstr "<i class=\"fa fa-shopping-cart add-optionnal-item\"/> Agregar ao carriño"
 
 #. module: sale_product_configurator
 #: model_terms:ir.ui.view,arch_db:sale_product_configurator.configure_optional_products
@@ -48,18 +44,12 @@ msgid "<strong>Total:</strong>"
 msgstr "<strong>Total:</strong>"
 
 #. module: sale_product_configurator
-#: model_terms:ir.ui.view,arch_db:sale_product_configurator.sale_product_configurator_view_form
-msgid "Add"
-msgstr "Engadir"
-
-#. module: sale_product_configurator
 #: model_terms:ir.ui.view,arch_db:sale_product_configurator.product_quantity_config
 msgid "Add one"
-msgstr "Agregue un"
+msgstr "Anada uno"
 
 #. module: sale_product_configurator
 #: model:ir.model.fields,field_description:sale_product_configurator.field_sale_order_line__product_template_attribute_value_ids
-#: model:ir.model.fields,field_description:sale_product_configurator.field_sale_product_configurator__product_template_attribute_value_ids
 msgid "Attribute Values"
 msgstr "Valores de atributo"
 
@@ -69,90 +59,35 @@ msgid "Available Options:"
 msgstr "Opcións dispoñibles: "
 
 #. module: sale_product_configurator
-#. openerp-web
-#: code:addons/sale_product_configurator/static/src/js/product_configurator_controller.js:0
+#. odoo-javascript
+#: code:addons/sale_product_configurator/static/src/js/sale_product_field.js:0
 #, python-format
 msgid "Back"
 msgstr "Volver"
 
 #. module: sale_product_configurator
-#: model_terms:ir.ui.view,arch_db:sale_product_configurator.sale_product_configurator_view_form
-msgid "Cancel"
-msgstr "Cancelar"
-
-#. module: sale_product_configurator
 #: model:product.template,name:sale_product_configurator.product_product_1_product_template
 msgid "Chair floor protection"
-msgstr "Protección do piso da cadeira"
+msgstr "Protector de piso para cadeira"
 
 #. module: sale_product_configurator
-#. openerp-web
-#: code:addons/sale_product_configurator/static/src/js/product_configurator_controller.js:0
+#. odoo-javascript
+#: code:addons/sale_product_configurator/static/src/js/sale_product_field.js:0
 #, python-format
 msgid "Configure"
 msgstr "Configurar"
 
 #. module: sale_product_configurator
-#: model:ir.actions.act_window,name:sale_product_configurator.sale_product_configurator_action
-msgid "Configure a product"
-msgstr "Configurar un produto"
-
-#. module: sale_product_configurator
-#. openerp-web
-#: code:addons/sale_product_configurator/static/src/js/product_configurator_controller.js:0
+#. odoo-javascript
+#: code:addons/sale_product_configurator/static/src/js/sale_product_field.js:0
 #, python-format
 msgid "Confirm"
 msgstr "Confirmar"
 
 #. module: sale_product_configurator
-#: model:ir.model.fields,field_description:sale_product_configurator.field_sale_product_configurator__create_uid
-msgid "Created by"
-msgstr "Creado por"
-
-#. module: sale_product_configurator
-#: model:ir.model.fields,field_description:sale_product_configurator.field_sale_product_configurator__create_date
-msgid "Created on"
-msgstr "Creado o"
-
-#. module: sale_product_configurator
-#: model:ir.model.fields,field_description:sale_product_configurator.field_sale_product_configurator__product_custom_attribute_value_ids
-msgid "Custom Values"
-msgstr "Valores personalizados"
-
-#. module: sale_product_configurator
-#: model:ir.model.fields,field_description:sale_product_configurator.field_sale_product_configurator__display_name
-msgid "Display Name"
-msgstr "Nome mostrado"
-
-#. module: sale_product_configurator
-#: model:ir.model.fields,field_description:sale_product_configurator.field_sale_product_configurator__product_no_variant_attribute_value_ids
-msgid "Extra Values"
-msgstr "Valores extra"
-
-#. module: sale_product_configurator
-#: model:ir.model.fields,field_description:sale_product_configurator.field_sale_product_configurator__id
-msgid "ID"
-msgstr "ID"
-
-#. module: sale_product_configurator
 #: model:ir.model.fields,field_description:sale_product_configurator.field_sale_order_line__is_configurable_product
 msgid "Is the product configurable?"
 msgstr "O produto é configurable?"
-
-#. module: sale_product_configurator
-#: model:ir.model.fields,field_description:sale_product_configurator.field_sale_product_configurator____last_update
-msgid "Last Modified on"
-msgstr "Última modificación o"
-
-#. module: sale_product_configurator
-#: model:ir.model.fields,field_description:sale_product_configurator.field_sale_product_configurator__write_uid
-msgid "Last Updated by"
-msgstr "Última actualización por"
-
-#. module: sale_product_configurator
-#: model:ir.model.fields,field_description:sale_product_configurator.field_sale_product_configurator__write_date
-msgid "Last Updated on"
-msgstr "Última actualización o"
 
 #. module: sale_product_configurator
 #: model:product.template,description_sale:sale_product_configurator.product_product_1_product_template
@@ -179,16 +114,11 @@ msgid ""
 "(cross-sell strategy, e.g. for computers: warranty, software, etc.)."
 msgstr ""
 "Os produtos opcionais aparecen como suxestións cada vez que o cliente pulsa "
-"en \"Engadir ao carro\" (estratexia de venda cruzada; p. ex., no caso dos "
+"en \"Engadir á cesta\" (estratexia de venda cruzada; p. ex., no caso dos "
 "computadores: garantía, software etc.)/ etc.)."
 
 #. module: sale_product_configurator
-#: model:ir.model.fields,field_description:sale_product_configurator.field_sale_product_configurator__pricelist_id
-msgid "Pricelist"
-msgstr "Tarifa"
-
-#. module: sale_product_configurator
-#: model:ir.model.fields,field_description:sale_product_configurator.field_sale_product_configurator__product_template_id
+#: model:ir.model,name:sale_product_configurator.model_product_template
 msgid "Product"
 msgstr "Produto"
 
@@ -200,44 +130,24 @@ msgid "Product Image"
 msgstr "Imaxe do produto"
 
 #. module: sale_product_configurator
-#: model:ir.model,name:sale_product_configurator.model_product_template
-msgid "Product Template"
-msgstr "Modelo de produto"
-
-#. module: sale_product_configurator
 #: model_terms:ir.ui.view,arch_db:sale_product_configurator.sale_order_view_form
 msgid "Product Variant"
-msgstr "Variantes de produto"
-
-#. module: sale_product_configurator
-#: model:ir.model.fields,field_description:sale_product_configurator.field_sale_product_configurator__quantity
-msgid "Quantity"
-msgstr "Cantidade"
+msgstr "Variante de produto"
 
 #. module: sale_product_configurator
 #: model_terms:ir.ui.view,arch_db:sale_product_configurator.product_template_view_form
 msgid "Recommend when 'Adding to Cart' or quotation"
-msgstr "Recomendar ao \"Engadir ao carriño\" ou á cotización"
+msgstr "Recomendar ao \"Engadir á cesta\" ou ao orzamento"
 
 #. module: sale_product_configurator
 #: model_terms:ir.ui.view,arch_db:sale_product_configurator.product_quantity_config
 msgid "Remove one"
-msgstr "Quitar un"
-
-#. module: sale_product_configurator
-#: model:ir.model,name:sale_product_configurator.model_sale_product_configurator
-msgid "Sale Product Configurator"
-msgstr "Configurador de produto en oferta"
+msgstr "Eliminar un"
 
 #. module: sale_product_configurator
 #: model:ir.model,name:sale_product_configurator.model_sale_order_line
 msgid "Sales Order Line"
 msgstr "Liña de pedido de venda"
-
-#. module: sale_product_configurator
-#: model_terms:ir.ui.view,arch_db:sale_product_configurator.sale_product_configurator_view_form
-msgid "Save"
-msgstr "Gardar"
 
 #. module: sale_product_configurator
 #: model_terms:ir.ui.view,arch_db:sale_product_configurator.configure
@@ -248,8 +158,3 @@ msgstr "Esta combinación non existe."
 #: model_terms:ir.ui.view,arch_db:sale_product_configurator.configure
 msgid "This product has no valid combination."
 msgstr "Este produto non ten combinacións válidas."
-
-#. module: sale_product_configurator
-#: model:product.template,uom_name:sale_product_configurator.product_product_1_product_template
-msgid "Units"
-msgstr "Unidades"

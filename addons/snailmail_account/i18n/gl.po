@@ -3,16 +3,17 @@
 # 	* snailmail_account
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2022
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2024
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 20:54\n"
-"PO-Revision-Date: 2024-11-07 20:54\n"
+"POT-Creation-Date: 2025-01-22 13:13\n"
+"PO-Revision-Date: 2025-01-22 13:13\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -74,13 +75,6 @@ msgid "Account Invoice Send"
 msgstr "Enviar Factura"
 
 #. module: snailmail_account
-#: model:ir.model.fields,help:snailmail_account.field_account_invoice_send__snailmail_is_letter
-msgid ""
-"Allows to send the document by Snailmail (conventional posting delivery "
-"service)"
-msgstr "Permítelle mandar un documento por correo postal"
-
-#. module: snailmail_account
 #: model:ir.model,name:snailmail_account.model_res_company
 msgid "Companies"
 msgstr "Compañías"
@@ -88,7 +82,7 @@ msgstr "Compañías"
 #. module: snailmail_account
 #: model:ir.model,name:snailmail_account.model_res_config_settings
 msgid "Config Settings"
-msgstr "Opcións de configuración"
+msgstr "Axustes de configuración"
 
 #. module: snailmail_account
 #: model_terms:ir.ui.view,arch_db:snailmail_account.account_invoice_send_inherit_account_wizard_form
@@ -170,11 +164,16 @@ msgid "Partner"
 msgstr "Contacto"
 
 #. module: snailmail_account
+#: model:ir.model.fields,help:snailmail_account.field_account_invoice_send__snailmail_is_letter
+msgid "Print and post the invoice by snailmail"
+msgstr "Imprimir e publicar a factura por correo postal"
+
+#. module: snailmail_account
 #: model:ir.model.fields,field_description:snailmail_account.field_account_invoice_send__snailmail_is_letter
 #: model:ir.model.fields,field_description:snailmail_account.field_res_company__invoice_is_snailmail
 #: model:ir.model.fields,field_description:snailmail_account.field_res_config_settings__invoice_is_snailmail
 msgid "Send by Post"
-msgstr "Enviar por Correo Postal"
+msgstr "Enviar por correo postal"
 
 #. module: snailmail_account
 #: model:ir.model,name:snailmail_account.model_snailmail_confirm_invoice

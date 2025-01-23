@@ -3,15 +3,17 @@
 # 	* website_sale_comparison
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2022
+# Larissa Manderfeld, 2023
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 00:22\n"
-"PO-Revision-Date: 2024-11-08 00:22\n"
+"POT-Creation-Date: 2025-01-22 06:25\n"
+"PO-Revision-Date: 2025-01-22 06:25\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -19,6 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: website_sale_comparison
@@ -38,32 +41,22 @@ msgid ""
 "role=\"img\" aria-label=\"Collapse\" title=\"Collapse\"/>"
 msgstr ""
 "<i class=\"fa fa-chevron-circle-down o_product_comparison_collpase\" "
-"role=\"img\" aria-label=\"Colapsar\" title=\"Colapsar\"/>"
-
-#. module: website_sale_comparison
-#: model_terms:ir.ui.view,arch_db:website_sale_comparison.recommended_product
-msgid "<i class=\"fa fa-exchange\"/> Compare"
-msgstr "<i class=\"fa fa-exchange\"/> Compara"
+"role=\"img\" aria-label=\"Collapse\" title=\"Collapse\"/>"
 
 #. module: website_sale_comparison
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.product_compare
-msgid "<i class=\"fa fa-shopping-cart mr-2\"/>Add to Cart"
-msgstr "<i class=\"fa fa-shopping-cart mr-2\"/>Engadir ao carriño"
+msgid "<i class=\"fa fa-shopping-cart me-2\"/>Add to Cart"
+msgstr "<i class=\"fa fa-shopping-cart me-2\"/>Engadir á cesta"
 
 #. module: website_sale_comparison
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.product_product
 msgid "<i class=\"fa fa-trash\" role=\"img\" aria-label=\"Remove\"/>"
-msgstr "<i class=\"fa fa-trash\" role=\"img\" aria-label=\"Eliminar\"/>"
+msgstr "<i class=\"fa fa-trash\" role=\"img\" aria-label=\"Remove\"/>"
 
 #. module: website_sale_comparison
-#: model_terms:ir.ui.view,arch_db:website_sale_comparison.add_to_compare_button
-msgid "<span class=\"fa fa-exchange mr-2\"/>Add to compare"
-msgstr "<span class=\"fa fa-exchange mr-2\"/>Engadir para comparar"
-
-#. module: website_sale_comparison
-#: model_terms:ir.ui.view,arch_db:website_sale_comparison.recommended_product
-msgid "<span class=\"h3\">Suggested alternatives: </span>"
-msgstr "<span class=\"h3\">Alternativas suxeridas: </span>"
+#: model_terms:ir.ui.view,arch_db:website_sale_comparison.product_add_to_compare
+msgid "<span class=\"fa fa-exchange me-2\"/>Compare"
+msgstr "<span class=\"fa fa-exchange me-2\"/>Comparar"
 
 #. module: website_sale_comparison
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.product_compare
@@ -87,6 +80,11 @@ msgid "Attribute Categories"
 msgstr "Categorías de atributos"
 
 #. module: website_sale_comparison
+#: model_terms:ir.ui.view,arch_db:website_sale_comparison.snippet_options
+msgid "Bottom of Page"
+msgstr "Pé de páxina"
+
+#. module: website_sale_comparison
 #: model:ir.model.fields,field_description:website_sale_comparison.field_product_attribute__category_id
 msgid "Category"
 msgstr "Categoría"
@@ -97,22 +95,33 @@ msgid "Category Name"
 msgstr "Nome de categoría"
 
 #. module: website_sale_comparison
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_sale_comparison/static/src/xml/comparison.xml:0
 #: code:addons/website_sale_comparison/static/src/xml/comparison.xml:0
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.add_to_compare
-#: model_terms:ir.ui.view,arch_db:website_sale_comparison.add_to_compare_button
+#: model_terms:ir.ui.view,arch_db:website_sale_comparison.product_add_to_compare
+#: model_terms:ir.ui.view,arch_db:website_sale_comparison.snippet_options
 #, python-format
 msgid "Compare"
 msgstr "Comparar"
 
 #. module: website_sale_comparison
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_sale_comparison/static/src/js/website_sale_comparison.js:0
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.product_compare
 #, python-format
 msgid "Compare Products"
-msgstr "Comparar Produtos"
+msgstr "Comparar produtos"
+
+#. module: website_sale_comparison
+#: model_terms:ir.ui.view,arch_db:website_sale_comparison.product_compare
+msgid "Contact Us"
+msgstr "Contáctar"
+
+#. module: website_sale_comparison
+#: model_terms:ir.actions.act_window,help:website_sale_comparison.product_attribute_category_action
+msgid "Create a new attribute category"
+msgstr "Crear unha nova categoría de atributo"
 
 #. module: website_sale_comparison
 #: model:ir.model.fields,field_description:website_sale_comparison.field_product_attribute_category__create_uid
@@ -143,7 +152,16 @@ msgstr "Duración"
 #. module: website_sale_comparison
 #: model:product.attribute.category,name:website_sale_comparison.product_attribute_category_general_features
 msgid "General Features"
-msgstr "Características Xerais"
+msgstr "Funcións xerais"
+
+#. module: website_sale_comparison
+#: model_terms:ir.actions.act_window,help:website_sale_comparison.product_attribute_category_action
+msgid ""
+"Group attributes by category that will appear in the specification\n"
+"                part of a product page."
+msgstr ""
+"Agrupe atributos por categoría que aparecerán na parte de especificacións\n"
+"               dunha páxina de produto."
 
 #. module: website_sale_comparison
 #: model:ir.model.fields,field_description:website_sale_comparison.field_product_attribute_category__id
@@ -166,10 +184,14 @@ msgid "Last Updated on"
 msgstr "Última actualización o"
 
 #. module: website_sale_comparison
-#. openerp-web
+#: model_terms:ir.ui.view,arch_db:website_sale_comparison.snippet_options
+msgid "None"
+msgstr "Ningún"
+
+#. module: website_sale_comparison
+#. odoo-javascript
 #: code:addons/website_sale_comparison/static/src/xml/comparison.xml:0
 #: code:addons/website_sale_comparison/static/src/xml/comparison.xml:0
-#: model:ir.model,name:website_sale_comparison.model_product_product
 #, python-format
 msgid "Product"
 msgstr "Produto"
@@ -188,7 +210,12 @@ msgstr "Categoría do atributo de produto"
 #. module: website_sale_comparison
 #: model:ir.model,name:website_sale_comparison.model_product_template_attribute_line
 msgid "Product Template Attribute Line"
-msgstr "Linea de atributo do modelo de produto"
+msgstr "Liña de atributo do modelo de produto"
+
+#. module: website_sale_comparison
+#: model:ir.model,name:website_sale_comparison.model_product_product
+msgid "Product Variant"
+msgstr "Variante de produto"
 
 #. module: website_sale_comparison
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.product_compare
@@ -223,7 +250,12 @@ msgstr ""
 #. module: website_sale_comparison
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.product_compare
 msgid "Shop Comparator"
-msgstr "Comparador de Tendas"
+msgstr "Comparador de tendas"
+
+#. module: website_sale_comparison
+#: model_terms:ir.ui.view,arch_db:website_sale_comparison.snippet_options
+msgid "Specification"
+msgstr "Especificación"
 
 #. module: website_sale_comparison
 #: model_terms:ir.ui.view,arch_db:website_sale_comparison.product_attributes_body
@@ -237,12 +269,12 @@ msgid "Uncategorized"
 msgstr "Sen categoría"
 
 #. module: website_sale_comparison
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_sale_comparison/static/src/xml/comparison.xml:0
 #: code:addons/website_sale_comparison/static/src/xml/comparison.xml:0
 #, python-format
 msgid "Warning"
-msgstr "Alerta"
+msgstr "Advertencia"
 
 #. module: website_sale_comparison
 #: model:product.attribute,name:website_sale_comparison.product_attribute_7
@@ -250,7 +282,7 @@ msgid "Weight"
 msgstr "Peso"
 
 #. module: website_sale_comparison
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_sale_comparison/static/src/xml/comparison.xml:0
 #, python-format
 msgid "You can compare max 4 products."

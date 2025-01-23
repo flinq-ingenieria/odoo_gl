@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 10:56\n"
-"PO-Revision-Date: 2024-11-08 10:56\n"
+"POT-Creation-Date: 2025-01-21 15:39\n"
+"PO-Revision-Date: 2025-01-21 15:39\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -16,20 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: tradutor Zerever\n"
-
-#. module: sale_layout_category_hide_detail
-#. openerp-web
-#: code:addons/sale_layout_category_hide_detail/static/src/js/boolean_fa_icon_widget.js:0
-#, python-format
-msgid "Click to check"
-msgstr "Click para marcar"
-
-#. module: sale_layout_category_hide_detail
-#. openerp-web
-#: code:addons/sale_layout_category_hide_detail/static/src/js/boolean_fa_icon_widget.js:0
-#, python-format
-msgid "Click to uncheck"
-msgstr "Click para desmarcar"
 
 #. module: sale_layout_category_hide_detail
 #: model:ir.model,name:sale_layout_category_hide_detail.model_account_move_line
@@ -57,7 +43,7 @@ msgstr "Mostrar o Importe da Liña"
 #: model:ir.model.fields,field_description:sale_layout_category_hide_detail.field_account_move_line__show_section_subtotal
 #: model:ir.model.fields,field_description:sale_layout_category_hide_detail.field_sale_order_line__show_section_subtotal
 msgid "Show Section Subtotal"
-msgstr "Mostrar Subtotal da Sección"
+msgstr "Mostrar subtotal da sección"
 
 #. module: sale_layout_category_hide_detail
 #: model:ir.model.fields,field_description:sale_layout_category_hide_detail.field_account_move_line__show_subtotal
@@ -72,32 +58,25 @@ msgid "Subtotal"
 msgstr "Subtotal"
 
 #. module: sale_layout_category_hide_detail
-#. openerp-web
-#: code:addons/sale_layout_category_hide_detail/static/src/js/hide_details_translations.js:0
+#. odoo-javascript
+#: code:addons/sale_layout_category_hide_detail/static/src/js/boolean_fa_icon_widget.esm.js:0
 #, python-format
 msgid "Switch to: details hidden"
 msgstr "Cambiar a: detalles ocultos"
 
 #. module: sale_layout_category_hide_detail
-#. openerp-web
-#: code:addons/sale_layout_category_hide_detail/static/src/js/hide_details_translations.js:0
+#. odoo-javascript
+#: code:addons/sale_layout_category_hide_detail/static/src/js/boolean_fa_icon_widget.esm.js:0
 #, python-format
 msgid "Switch to: details shown"
 msgstr "Cambiar a: detalles mostrados"
 
 #. module: sale_layout_category_hide_detail
-#. openerp-web
-#: code:addons/sale_layout_category_hide_detail/static/src/js/hide_details_translations.js:0
+#. odoo-javascript
+#: code:addons/sale_layout_category_hide_detail/static/src/js/boolean_fa_icon_widget.esm.js:0
 #, python-format
-msgid "Switch to: subtotal hidden"
-msgstr "Cambiar a: subtotal oculto"
-
-#. module: sale_layout_category_hide_detail
-#. openerp-web
-#: code:addons/sale_layout_category_hide_detail/static/src/js/hide_details_translations.js:0
-#, python-format
-msgid "Switch to: subtotal shown"
-msgstr "Cambiar a: subtotal mostrado"
+msgid "Toggle"
+msgstr "Alternar"
 
 #. module: sale_layout_category_hide_detail
 #: model:ir.model.fields,help:sale_layout_category_hide_detail.field_account_move_line__show_section_subtotal
@@ -105,6 +84,45 @@ msgstr "Cambiar a: subtotal mostrado"
 msgid "Uncheck this if you want to hide the subtotal on section part"
 msgstr ""
 "Desmarque esta opción se desexa ocultar o subtotal na parte da sección"
+
+#. module: sale_layout_category_hide_detail
+#. odoo-javascript
+#: code:addons/sale_layout_category_hide_detail/static/src/xml/boolean_fa_icon_widget.xml:0
+#, python-format
+msgid "{{state.text_tooltip}}"
+msgstr ""
+
+#, python-format
+#~ msgid "Click to check"
+#~ msgstr "Click para marcar"
+
+#, python-format
+#~ msgid "Click to uncheck"
+#~ msgstr "Click para desmarcar"
+
+#, python-format
+#~ msgid "Switch to: subtotal hidden"
+#~ msgstr "Cambiar a: subtotal oculto"
+
+#, python-format
+#~ msgid "Switch to: subtotal shown"
+#~ msgstr "Cambiar a: subtotal mostrado"
+
+#, python-format
+#~ msgid "Switch to: line amount hidden"
+#~ msgstr "Cambiar a: cantidade de liña oculta"
+
+#, python-format
+#~ msgid "Switch to: line amount shown"
+#~ msgstr "Cambiar a: cantidade de linea mostrado"
+
+#, python-format
+#~ msgid "Switch to: section subtotal hidden"
+#~ msgstr "Cambiar a: seccion subtotal oculto"
+
+#, python-format
+#~ msgid "Switch to: section subtotal shown"
+#~ msgstr "Cambiar a: móstrase o subtotal da sección"
 
 #~ msgid "Show details"
 #~ msgstr "Mostrar detalles"

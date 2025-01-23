@@ -8,10 +8,10 @@
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 19:58\n"
-"PO-Revision-Date: 2024-11-07 19:58\n"
+"POT-Creation-Date: 2025-01-22 12:34\n"
+"PO-Revision-Date: 2025-01-22 12:34\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -19,9 +19,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: report_py3o
+#. odoo-python
 #: code:addons/report_py3o/models/ir_actions_report.py:0
 #, python-format
 msgid "(Native)"
@@ -51,6 +53,7 @@ msgid "Fallback"
 msgstr "Retroceder"
 
 #. module: report_py3o
+#. odoo-python
 #: code:addons/report_py3o/models/ir_actions_report.py:0
 #, python-format
 msgid "Field 'Output Format' is required for Py3O report"
@@ -97,12 +100,12 @@ msgstr ""
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report__ir_actions_report_id
 msgid "Ir Actions Report"
-msgstr "Informe de Accións Ir"
+msgstr "Informe de accións Ir"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__is_py3o_native_format
 msgid "Is Py3O Native Format"
-msgstr "É o Formato Nativo de Py3Ou"
+msgstr "É o formato nativo de Py3Ou"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__is_py3o_report_not_available
@@ -139,6 +142,7 @@ msgid "LibreOffice Template File Type"
 msgstr "Tipo de Modelo de Documento de Oficina de Libros"
 
 #. module: report_py3o
+#. odoo-python
 #: code:addons/report_py3o/models/py3o_report.py:0
 #, python-format
 msgid "Libreoffice runtime not available. Please contact your administrator."
@@ -167,6 +171,7 @@ msgid "Name"
 msgstr "Nome"
 
 #. module: report_py3o
+#. odoo-python
 #: code:addons/report_py3o/models/py3o_report.py:0
 #, python-format
 msgid "No template found. Aborting."
@@ -200,7 +205,7 @@ msgstr "Documento de Texto ODF"
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__fodt
 msgid "ODF Text Document (Flat)"
-msgstr "Documento de Texto ODF (Plano)"
+msgstr "Documento de texto ODF (plano)"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__py3o_filetype
@@ -211,11 +216,6 @@ msgstr "Formato de Saída"
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__lo_bin_path
 msgid "Path to the libreoffice runtime"
 msgstr "Camiño ao tempo de execución de LibreOffice"
-
-#. module: report_py3o
-#: model:ir.ui.menu,name:report_py3o.py3o_config_menu
-msgid "Py3o"
-msgstr "Programa Py3ou"
 
 #. module: report_py3o
 #: model:ir.actions.report,name:report_py3o.res_users_report_py3o
@@ -230,8 +230,6 @@ msgstr "Reportes de Py3ou"
 #. module: report_py3o
 #: model:ir.actions.act_window,name:report_py3o.py3o_template_configuration_action
 #: model:ir.ui.menu,name:report_py3o.py3o_template_configuration_menu
-#: model_terms:ir.ui.view,arch_db:report_py3o.py3o_template_configuration_form_view
-#: model_terms:ir.ui.view,arch_db:report_py3o.py3o_template_configuration_search_view
 msgid "Py3o Templates"
 msgstr "Modelos Py3ou"
 
@@ -266,6 +264,7 @@ msgid "The implementer module that provides this report"
 msgstr "O módulo implementador que proporciona este informe"
 
 #. module: report_py3o
+#. odoo-python
 #: code:addons/report_py3o/models/ir_actions_report.py:0
 #, python-format
 msgid ""
@@ -295,9 +294,17 @@ msgstr ""
 "polo usuario."
 
 #. module: report_py3o
+#: model:ir.actions.report,print_report_name:report_py3o.res_users_report_py3o
+msgid "object.name.replace(' ', '_') + '-demo.odt'"
+msgstr "object.name.replace(' ', '_') + '-demo.odt'"
+
+#. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__ir_actions_report__report_type__py3o
 msgid "py3o"
 msgstr "py3ou"
+
+#~ msgid "Py3o"
+#~ msgstr "Programa Py3ou"
 
 #~ msgid "ir.actions.report.xml"
 #~ msgstr "ir.actions.report.xml"

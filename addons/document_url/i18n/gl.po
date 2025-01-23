@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-09 00:31\n"
-"PO-Revision-Date: 2024-11-09 00:31\n"
+"POT-Creation-Date: 2025-01-22 12:04\n"
+"PO-Revision-Date: 2025-01-22 12:04\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -25,13 +25,20 @@ msgid "Add"
 msgstr "Engadir"
 
 #. module: document_url
-#. openerp-web
+#. odoo-javascript
 #: code:addons/document_url/static/src/xml/url.xml:0
 #: model:ir.actions.act_window,name:document_url.action_ir_attachment_add_url
 #: model_terms:ir.ui.view,arch_db:document_url.view_ir_attachment_add_url_form
 #, python-format
 msgid "Add URL"
 msgstr "Engadir URL"
+
+#. module: document_url
+#. odoo-javascript
+#: code:addons/document_url/static/src/xml/url.xml:0
+#, python-format
+msgid "Attach files"
+msgstr "Anexar arquivos"
 
 #. module: document_url
 #: model:ir.model,name:document_url.model_ir_attachment
@@ -79,16 +86,16 @@ msgid "Last Updated on"
 msgstr "Última actualización o"
 
 #. module: document_url
-#. openerp-web
-#: code:addons/document_url/static/src/xml/url.xml:0
-#, python-format
-msgid "Link document by URL"
-msgstr "Enlazar documento por URL"
-
-#. module: document_url
 #: model:ir.model.fields,field_description:document_url.field_ir_attachment_add_url__name
 msgid "Name"
 msgstr "Nome"
+
+#. module: document_url
+#. odoo-javascript
+#: code:addons/document_url/static/src/xml/url.xml:0
+#, python-format
+msgid "Open"
+msgstr "Abrir"
 
 #. module: document_url
 #: model:ir.model.fields,field_description:document_url.field_ir_attachment_add_url__url
@@ -98,14 +105,7 @@ msgstr "URL"
 #. module: document_url
 #: model:ir.model,name:document_url.model_ir_attachment_add_url
 msgid "Wizard to add URL attachment"
-msgstr "Asistente para engadir URL do arquivo adxunto"
-
-#. module: document_url
-#. openerp-web
-#: code:addons/document_url/static/src/xml/url.xml:0
-#, python-format
-msgid "attachmentCard.attachment.mimetype != 'application/link'"
-msgstr "attachmentCard.attachment.mimetype != 'application/link'"
+msgstr "Asistenta para engadir unha URL adxunta"
 
 #. module: document_url
 #: model_terms:ir.ui.view,arch_db:document_url.view_ir_attachment_add_url_form

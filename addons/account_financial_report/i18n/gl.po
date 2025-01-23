@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 01:26\n"
-"PO-Revision-Date: 2024-11-08 01:26\n"
+"POT-Creation-Date: 2025-01-22 10:43\n"
+"PO-Revision-Date: 2025-01-22 10:43\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -54,6 +54,13 @@ msgid "<b>Taxes summary</b>"
 msgstr "<b>Resumo de Impostos</b>"
 
 #. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.trial_balance_wizard
+msgid ""
+"<i class=\"fa fa-exclamation-triangle mr-3\"/>\n"
+"                    Duplicate amounts may be shown because more than one analytical account may be defined in the journal items."
+msgstr ""
+
+#. module: account_financial_report
 #: model_terms:ir.ui.view,arch_db:account_financial_report.res_config_settings_view_form
 msgid "<span class=\"o_form_label\">Intervals configuration</span>"
 msgstr "<span class=\"o_form_label\">Configuración de intervalos</span>"
@@ -82,6 +89,7 @@ msgid "Abstract XLSX Account Financial Report"
 msgstr "Extracto XLSX Account Financial Report"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
@@ -124,12 +132,14 @@ msgid "Account Group"
 msgstr "Grupo de conta"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Account Name"
 msgstr "Conta"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_trial_balance_filters
 #, python-format
@@ -137,6 +147,7 @@ msgid "Account at 0 filter"
 msgstr "Filtrar por Conta a 0"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_filters
@@ -175,6 +186,7 @@ msgstr ""
 "                            d."
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Age ≤ 120 d."
@@ -190,6 +202,7 @@ msgstr ""
 "                            d."
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Age ≤ 30 d."
@@ -205,6 +218,7 @@ msgstr ""
 "                            d."
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Age ≤ 60 d."
@@ -220,12 +234,14 @@ msgstr ""
 "                            d."
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Age ≤ 90 d."
 msgstr "Tempo ≤ 90 d."
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #: model:ir.actions.act_window,name:account_financial_report.action_aged_partner_balance_wizard
 #: model:ir.actions.report,name:account_financial_report.action_print_report_aged_partner_balance_html
@@ -261,6 +277,7 @@ msgid "Aged Partner Balance XLSX"
 msgstr "Calidade da débeda XLSX"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/wizard/journal_ledger_wizard.py:0
 #, python-format
 msgid "All"
@@ -285,12 +302,7 @@ msgid "All Posted Entries"
 msgstr "Todos os asentos publicados"
 
 #. module: account_financial_report
-#: model:ir.model.fields,field_description:account_financial_report.field_aged_partner_balance_report_wizard__all_analytic
-#: model:ir.model.fields,field_description:account_financial_report.field_open_items_report_wizard__all_analytic
-msgid "All analytic items"
-msgstr ""
-
-#. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/open_items_xlsx.py:0
@@ -304,6 +316,7 @@ msgid "All entries"
 msgstr "Todos os asentos"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/open_items_xlsx.py:0
@@ -322,12 +335,14 @@ msgid "Amount Cur."
 msgstr "Importe moeda."
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Amount Currency"
 msgstr "Importe moeda"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_lines
 #, python-format
@@ -335,16 +350,18 @@ msgid "Amount cur."
 msgstr "Importe moeda."
 
 #. module: account_financial_report
-#: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
-#: code:addons/account_financial_report/report/open_items_xlsx.py:0
+#: model:ir.model.fields,field_description:account_financial_report.field_account_move_line__analytic_account_ids
 #: model:ir.model.fields.selection,name:account_financial_report.selection__trial_balance_report_wizard__grouped_by__analytic_account
-#: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_move_lines
-#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_lines
-#: model_terms:ir.ui.view,arch_db:account_financial_report.report_open_items_lines_header
-#, python-format
 msgid "Analytic Account"
 msgstr "Conta Analítica"
+
+#. module: account_financial_report
+#. odoo-python
+#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_lines
+#, python-format
+msgid "Analytic Distribution"
+msgstr "Distribución analítica"
 
 #. module: account_financial_report
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_journal_all_taxes
@@ -359,18 +376,21 @@ msgid "Base Amount"
 msgstr "Baseados en"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Base Balance"
 msgstr "Total Saldo"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Base Credit"
 msgstr "Haber"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Base Debit"
@@ -383,6 +403,7 @@ msgid "Based On"
 msgstr "Baseados en"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/vat_report_xlsx.py:0
 #, python-format
 msgid "Based on"
@@ -399,6 +420,7 @@ msgid "Cancel"
 msgstr "Cancelar"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_filters
 #, python-format
@@ -416,6 +438,7 @@ msgid "Child Groups"
 msgstr "Grupos Hijos"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
 #: code:addons/account_financial_report/report/vat_report_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_trial_balance_lines_header
@@ -425,6 +448,7 @@ msgid "Code"
 msgstr "Código"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #: model:ir.model.fields,field_description:account_financial_report.field_account_age_report_configuration__company_id
 #: model:ir.model.fields,field_description:account_financial_report.field_account_financial_report_abstract_wizard__company_id
@@ -478,6 +502,7 @@ msgid "Created on"
 msgstr "Creado o"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
@@ -491,6 +516,7 @@ msgid "Credit"
 msgstr "Haber"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_lines
 #, python-format
@@ -498,6 +524,7 @@ msgid "Cumul cur."
 msgstr "Acumulado moeda."
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_lines
 #, python-format
@@ -505,6 +532,7 @@ msgid "Cumul. Bal."
 msgstr "Saldo Acumu."
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_journal_ledger_journal_table_header
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_open_items_lines_header
@@ -513,6 +541,7 @@ msgid "Cur."
 msgstr "Actual."
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_open_items_lines_header
 #, python-format
@@ -520,6 +549,7 @@ msgid "Cur. Original"
 msgstr "Importe moeda"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_open_items_lines_header
 #, python-format
@@ -527,12 +557,14 @@ msgid "Cur. Residual"
 msgstr "Pdte. moeda"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Currency"
 msgstr "Moeda"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_move_lines
 #, python-format
@@ -540,6 +572,7 @@ msgid "Current"
 msgstr "Actual"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
@@ -576,6 +609,7 @@ msgid "Date To"
 msgstr "Data final"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_filters
@@ -585,6 +619,7 @@ msgid "Date at filter"
 msgstr "Filtro Data"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/vat_report_xlsx.py:0
 #, python-format
 msgid "Date from"
@@ -599,6 +634,7 @@ msgid "Date range"
 msgstr "Período"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
@@ -609,12 +645,14 @@ msgid "Date range filter"
 msgstr "Filtro período"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/vat_report_xlsx.py:0
 #, python-format
 msgid "Date to"
 msgstr "Ata"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
@@ -628,6 +666,7 @@ msgid "Debit"
 msgstr "Debe"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_journal_all_taxes
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_journal_ledger_journal_taxes
@@ -689,6 +728,7 @@ msgstr ""
 "                    vencemento"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #, python-format
@@ -723,6 +763,7 @@ msgid "Ending account in a range"
 msgstr "Conta final nun rango"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
@@ -742,12 +783,14 @@ msgstr ""
 "                        moeda."
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Entries sorted by"
 msgstr "Asentos ordenados por"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
@@ -761,13 +804,14 @@ msgid "Entry"
 msgstr "Asento"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/wizard/journal_ledger_wizard.py:0
 #, python-format
 msgid "Entry number"
 msgstr "Número de asento"
 
 #. module: account_financial_report
-#. openerp-web
+#. odoo-javascript
 #: code:addons/account_financial_report/static/src/xml/report.xml:0
 #, python-format
 msgid "Export"
@@ -803,17 +847,9 @@ msgid "Filter accounts"
 msgstr "Filtro Contas"
 
 #. module: account_financial_report
-#: model:ir.model.fields,field_description:account_financial_report.field_aged_partner_balance_report_wizard__analytic_account_ids
-#: model:ir.model.fields,field_description:account_financial_report.field_open_items_report_wizard__analytic_account_ids
 #: model_terms:ir.ui.view,arch_db:account_financial_report.general_ledger_wizard
 msgid "Filter analytic accounts"
 msgstr "Filtrar por contas analíticas"
-
-#. module: account_financial_report
-#: model:ir.model.fields,field_description:account_financial_report.field_general_ledger_report_wizard__analytic_tag_ids
-#: model_terms:ir.ui.view,arch_db:account_financial_report.general_ledger_wizard
-msgid "Filter analytic tags"
-msgstr "Filtrar por etiquetas analíticas"
 
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_general_ledger_report_wizard__cost_center_ids
@@ -854,12 +890,13 @@ msgid "From:"
 msgstr "Desde:"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
 #, python-format
 msgid "From: %(date_from)s To: %(date_to)s"
-msgstr "desde: %(date_from)s ata: %(date_to)s"
+msgstr "Desde: %(date_from)s Ata: %(date_to)s"
 
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_account_group__complete_code
@@ -878,6 +915,7 @@ msgid "Fy Start Date"
 msgstr "Data Inicio"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: model:ir.actions.act_window,name:account_financial_report.act_action_general_ledger_wizard_partner_relation
 #: model:ir.actions.act_window,name:account_financial_report.action_general_ledger_wizard
@@ -920,7 +958,7 @@ msgid ""
 "                        only one unaffected earnings account."
 msgstr ""
 "O Libro maior só pódese calcular se a empresa seleccionada ten \n"
-"                                                                só unha conta de resultados non afectados."
+"                                                             só unha conta de resultados non afectados."
 
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_journal_ledger_report_wizard__group_option
@@ -943,6 +981,7 @@ msgstr ""
 "débeda."
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
@@ -996,6 +1035,7 @@ msgid "Inferior Limit"
 msgstr "Límite inferior"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/models/account_age_report_configuration.py:0
 #, python-format
 msgid "Inferior Limit must be greather than zero"
@@ -1020,6 +1060,7 @@ msgstr ""
 "                        inicial"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_lines
@@ -1034,6 +1075,7 @@ msgid "Intervals configuration"
 msgstr "Configuración de intervalos"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/open_items_xlsx.py:0
@@ -1057,6 +1099,7 @@ msgid "Journal Items Domain"
 msgstr "Dominio Apuntes Contables"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #: model:ir.actions.act_window,name:account_financial_report.action_journal_ledger_wizard
 #: model:ir.actions.report,name:account_financial_report.action_print_journal_ledger_wizard_html
@@ -1091,6 +1134,7 @@ msgid "Journal Ledger XLSX Report"
 msgstr "Informe Libro de diario XLSX"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #: model:ir.model.fields,field_description:account_financial_report.field_journal_ledger_report_wizard__journal_ids
 #: model_terms:ir.ui.view,arch_db:account_financial_report.journal_ledger_wizard
@@ -1141,12 +1185,14 @@ msgid "Level"
 msgstr "Nivel"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
 #, python-format
 msgid "Level %s"
 msgstr "Nivel %s"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
 #: model:ir.model.fields,field_description:account_financial_report.field_trial_balance_report_wizard__limit_hierarchy_level
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_trial_balance_filters
@@ -1160,6 +1206,7 @@ msgid "Line"
 msgstr "Liña"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger.py:0
 #: code:addons/account_financial_report/report/open_items.py:0
 #: code:addons/account_financial_report/report/open_items_xlsx.py:0
@@ -1169,6 +1216,7 @@ msgid "Missing Partner"
 msgstr "Falta a empresa"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/open_items.py:0
 #, python-format
 msgid "Missing Salesperson"
@@ -1199,12 +1247,14 @@ msgid "Moves"
 msgstr "Asentos"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/models/account_age_report_configuration.py:0
 #, python-format
 msgid "Must complete Configuration Lines"
 msgstr "Debe completar as liñas de configuración"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/vat_report_xlsx.py:0
 #: model:ir.model.fields,field_description:account_financial_report.field_account_age_report_configuration__name
@@ -1217,6 +1267,7 @@ msgid "Name"
 msgstr "Nome"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/models/account_age_report_configuration.py:0
 #: model:ir.model.constraint,message:account_financial_report.constraint_account_age_report_configuration_line_unique_name_config_combination
 #, python-format
@@ -1224,6 +1275,7 @@ msgid "Name must be unique per report configuration"
 msgstr "O nome debe ser único por cada configuración do informe"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/vat_report_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_vat_report_base
 #, python-format
@@ -1231,6 +1283,7 @@ msgid "Net"
 msgstr "Neto"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
@@ -1240,12 +1293,14 @@ msgid "No"
 msgstr "Non"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/wizard/journal_ledger_wizard.py:0
 #, python-format
 msgid "No group"
 msgstr "Sen grupo"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_trial_balance_filters
 #, python-format
@@ -1264,6 +1319,7 @@ msgid "Not Only One Unaffected Earnings Account"
 msgstr "Non só unha conta de ganancias non afectadas"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/wizard/journal_ledger_wizard.py:0
 #, python-format
 msgid "Not Posted"
@@ -1285,6 +1341,7 @@ msgid "OCA accounting reports"
 msgstr "Informes de contabilidade OCA"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_move_lines
 #, python-format
@@ -1292,17 +1349,7 @@ msgid "Older"
 msgstr "Maior"
 
 #. module: account_financial_report
-#: model:ir.model.fields,field_description:account_financial_report.field_open_items_report_wizard__only_analytic
-msgid "Only analytic items"
-msgstr ""
-
-#. module: account_financial_report
-#: model:ir.model.fields,field_description:account_financial_report.field_aged_partner_balance_report_wizard__no_analytic
-#: model:ir.model.fields,field_description:account_financial_report.field_open_items_report_wizard__no_analytic
-msgid "Only no analytic items"
-msgstr ""
-
-#. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #: model:ir.actions.act_window,name:account_financial_report.action_open_items_wizard
 #: model:ir.actions.report,name:account_financial_report.action_print_report_open_items_html
@@ -1348,6 +1395,7 @@ msgid "Options"
 msgstr "Opcións"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_open_items_lines_header
 #, python-format
@@ -1355,6 +1403,7 @@ msgid "Original"
 msgstr "Inicial"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
@@ -1377,9 +1426,10 @@ msgid ""
 "                    cumul aged balance"
 msgstr ""
 "Saldo \n"
-"                                     Acumulado de Empresa"
+"                                      Acumulado de Empresa"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Partner Initial balance"
@@ -1391,12 +1441,14 @@ msgid "Partner Salesperson"
 msgstr "Comercial da empresa"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #, python-format
 msgid "Partner cumul aged balance"
 msgstr "Saldo Acumulado de Empresa"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_ending_cumul
@@ -1430,6 +1482,7 @@ msgid "Percents"
 msgstr "Porcentaxes"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_trial_balance_lines_header
 #, python-format
@@ -1442,19 +1495,14 @@ msgid "Periods"
 msgstr "Períodos"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/wizard/journal_ledger_wizard.py:0
 #, python-format
 msgid "Posted"
 msgstr "Posteado"
 
 #. module: account_financial_report
-#. openerp-web
-#: code:addons/account_financial_report/static/src/xml/report.xml:0
-#, python-format
-msgid "Print"
-msgstr "Imprimir"
-
-#. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_lines
 #, python-format
@@ -1471,22 +1519,25 @@ msgstr "Só contas a cobrar"
 
 #. module: account_financial_report
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_move_lines
-msgid ""
-"Ref -\n"
-"                            Label"
-msgstr ""
-
-#. module: account_financial_report
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_lines
-#: model_terms:ir.ui.view,arch_db:account_financial_report.report_open_items_lines_header
 msgid ""
 "Ref -\n"
 "                        Label"
 msgstr ""
 "Referencia\n"
-"                                      Etiqueta"
+"                                                 Etiqueta"
 
 #. module: account_financial_report
+#: model_terms:ir.ui.view,arch_db:account_financial_report.report_open_items_lines_header
+msgid ""
+"Ref -\n"
+"                    Label"
+msgstr ""
+"Ref -\n"
+"                    Etiqueta"
+
+#. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
@@ -1502,6 +1553,7 @@ msgid "Report Action"
 msgstr "Acción Informe"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_lines_header
@@ -1512,6 +1564,7 @@ msgid "Residual"
 msgstr "Remanente"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_journal_ledger_journal_table_header
 #, python-format
@@ -1519,6 +1572,7 @@ msgid "Sequence"
 msgstr "Secuencia"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
@@ -1533,11 +1587,6 @@ msgstr "Mostrar"
 #: model:ir.model.fields,field_description:account_financial_report.field_general_ledger_report_wizard__show_cost_center
 msgid "Show Analytic Account"
 msgstr "Mostrar conta analítica"
-
-#. module: account_financial_report
-#: model:ir.model.fields,field_description:account_financial_report.field_general_ledger_report_wizard__show_analytic_tags
-msgid "Show Analytic Tags"
-msgstr "Mostrar etiquetas analíticas"
 
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_journal_ledger_report_wizard__with_auto_sequence
@@ -1556,13 +1605,7 @@ msgid "Show Partner Details"
 msgstr "Mostrar detalles de empresa"
 
 #. module: account_financial_report
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
-#: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_filters
-#, python-format
-msgid "Show analytic tags"
-msgstr "Mostrar etiquetas analíticas"
-
-#. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
@@ -1576,7 +1619,7 @@ msgstr "Mostrar Moeda Estranxeira"
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_trial_balance_report_wizard__show_hierarchy
 msgid "Show hierarchy"
-msgstr "Mostrar xerarquía"
+msgstr "Mostrar con xerarquía"
 
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_journal_ledger_report_wizard__sort_option
@@ -1601,6 +1644,7 @@ msgid "Starting account in a range"
 msgstr "Conta inicial nun rango"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/trial_balance.py:0
 #: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
 #, python-format
@@ -1608,9 +1652,7 @@ msgid "TOTAL"
 msgstr ""
 
 #. module: account_financial_report
-#: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_lines
-#, python-format
 msgid "Tags"
 msgstr "Etiquetas"
 
@@ -1624,6 +1666,7 @@ msgid "Target Moves"
 msgstr "Movementos destino"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/aged_partner_balance_xlsx.py:0
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
@@ -1638,6 +1681,7 @@ msgid "Target moves filter"
 msgstr "Filtro movementos destino"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/vat_report_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_vat_report_base
 #, python-format
@@ -1651,24 +1695,28 @@ msgid "Tax Amount"
 msgstr "Total Impostos"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Tax Balance"
 msgstr "Saldo de Impostos"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Tax Credit"
 msgstr "Haber"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #, python-format
 msgid "Tax Debit"
 msgstr "Debe"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/vat_report_xlsx.py:0
 #: model:ir.model.fields.selection,name:account_financial_report.selection__vat_report_wizard__based_on__taxgroups
 #, python-format
@@ -1676,12 +1724,14 @@ msgid "Tax Groups"
 msgstr "Grupo de impostos"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #, python-format
 msgid "Tax Initial balance"
 msgstr "Saldo inicial de imposto"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/vat_report_xlsx.py:0
 #: model:ir.model.fields.selection,name:account_financial_report.selection__vat_report_wizard__based_on__taxtags
 #, python-format
@@ -1689,6 +1739,7 @@ msgid "Tax Tags"
 msgstr "Etiquetas de impostos"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_general_ledger_ending_cumul
 #, python-format
@@ -1701,6 +1752,7 @@ msgid "Tax initial balance"
 msgstr "Saldo inicial de imposto"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
 #: model:ir.model.fields.selection,name:account_financial_report.selection__general_ledger_report_wizard__grouped_by__taxes
@@ -1711,6 +1763,7 @@ msgid "Taxes"
 msgstr "Impostos"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/wizard/general_ledger_wizard.py:0
 #, python-format
 msgid ""
@@ -1721,6 +1774,7 @@ msgstr ""
 " debe ser a mesma."
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/wizard/trial_balance_wizard.py:0
 #, python-format
 msgid ""
@@ -1731,6 +1785,7 @@ msgstr ""
 "datas debe ser a mesma."
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/wizard/vat_report_wizard.py:0
 #, python-format
 msgid ""
@@ -1740,6 +1795,7 @@ msgstr ""
 "mesma."
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/wizard/trial_balance_wizard.py:0
 #, python-format
 msgid "The hierarchy level to filter on must be greater than 0."
@@ -1763,6 +1819,7 @@ msgid "To:"
 msgstr "A:"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_account_ending_cumul
 #, python-format
@@ -1770,6 +1827,7 @@ msgid "Total"
 msgstr "Total"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
 #: model:ir.actions.act_window,name:account_financial_report.action_trial_balance_wizard
 #: model:ir.actions.report,name:account_financial_report.action_report_trial_balance_html
@@ -1810,8 +1868,8 @@ msgid ""
 "Trial Balance can be computed only if selected company have only\n"
 "                        one unaffected earnings account."
 msgstr ""
-"O balance de sumas e saldos só pode calcularse se a compañía seleccionada ten unha e só \n"
-"                                                          unha conta de ganancias."
+"O balance de sumas e saldos só pode calcularse se a compañía seleccionada ten unha \n"
+"                                                      e só unha conta de ganancias."
 
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_general_ledger_report_wizard__unaffected_earnings_account
@@ -1834,7 +1892,7 @@ msgstr ""
 #. module: account_financial_report
 #: model:ir.model.fields,help:account_financial_report.field_trial_balance_report_wizard__show_hierarchy
 msgid "Use when your account groups are hierarchical"
-msgstr "Utilizar cando os grupos de contas son xerárquicos"
+msgstr "Úsese cando os seus grupos de contas sexan xerárquicos"
 
 #. module: account_financial_report
 #: model:ir.actions.act_window,name:account_financial_report.action_vat_report_wizard
@@ -1865,6 +1923,7 @@ msgid "VAT Report XLSX"
 msgstr "Informe de impostos XLSX"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/vat_report_xlsx.py:0
 #, python-format
 msgid "Vat Report"
@@ -1905,12 +1964,14 @@ msgid "With Account Name"
 msgstr "Conta con Nome"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/trial_balance.py:0
 #, python-format
 msgid "Without analytic account"
 msgstr ""
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger_xlsx.py:0
 #: code:addons/account_financial_report/report/open_items_xlsx.py:0
 #: code:addons/account_financial_report/report/trial_balance_xlsx.py:0
@@ -1920,6 +1981,7 @@ msgid "Yes"
 msgstr "Se"
 
 #. module: account_financial_report
+#. odoo-python
 #: code:addons/account_financial_report/report/general_ledger.py:0
 #, python-format
 msgid "future"
@@ -1937,7 +1999,7 @@ msgstr "ou"
 #. module: account_financial_report
 #: model:ir.actions.report,name:account_financial_report.action_print_journal_ledger_wizard_qweb
 msgid "ournal Ledger"
-msgstr "O noso diario"
+msgstr "Libro Diario"
 
 #. module: account_financial_report
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_journal_ledger_journal
@@ -1947,7 +2009,7 @@ msgstr "a"
 #. module: account_financial_report
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_journal_ledger_journal_table_header
 msgid "width: 16.21%;"
-msgstr "ancho: 16,21%;"
+msgstr "ancho: 16.21%;"
 
 #. module: account_financial_report
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_journal_ledger_journal_table_header
@@ -1962,7 +2024,7 @@ msgstr "ancho: 23.78%;"
 #. module: account_financial_report
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_journal_ledger_journal_table_header
 msgid "width: 31.35%;"
-msgstr "ancho: 31,35%;"
+msgstr "ancho:31.35%;"
 
 #. module: account_financial_report
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_journal_ledger_journal_table_header
@@ -1975,32 +2037,75 @@ msgid "width: 8.11%;"
 msgstr "ancho: 8.11%;"
 
 #~ msgid ""
-#~ "Ref -\n"
-#~ "                    Label"
+#~ "Age ≤ 120\n"
+#~ "                        d."
 #~ msgstr ""
-#~ "Ref -\n"
-#~ "                    Etiqueta"
+#~ "Tempo ≤ 120\n"
+#~ "· · · · · · · · · · · · · · · · · · · · · · · ·d."
 
 #~ msgid ""
 #~ "Age ≤ 30\n"
 #~ "                        d."
 #~ msgstr ""
 #~ "Tempo ≤ 30\n"
-#~ "                        d."
+#~ "· · · · · · · · · · · · · · · · · · · · · · · ·d."
 
 #~ msgid ""
 #~ "Age ≤ 60\n"
 #~ "                        d."
 #~ msgstr ""
 #~ "Tempo ≤ 60\n"
-#~ "                        d."
+#~ "· · · · · · · · · · · · · · · · · · · · · · · ·d."
 
 #~ msgid ""
 #~ "Age ≤ 90\n"
 #~ "                        d."
 #~ msgstr ""
 #~ "Tempo ≤ 90\n"
-#~ "                        d."
+#~ "· · · · · · · · · · · · · · · · · · · · · · · ·d."
 
 #~ msgid "Companies"
 #~ msgstr "Compañías"
+
+#~ msgid "Filter analytic tags"
+#~ msgstr "Filtrar por etiquetas analíticas"
+
+#, python-format
+#~ msgid "Print"
+#~ msgstr "Imprimir"
+
+#~ msgid "Show Analytic Tags"
+#~ msgstr "Mostrar etiquetas analíticas"
+
+#, python-format
+#~ msgid "Show analytic tags"
+#~ msgstr "Mostrar etiquetas analíticas"
+
+#~ msgid "Child Accounts"
+#~ msgstr "Contas Fillas"
+
+#~ msgid "Computed Accounts"
+#~ msgstr "Contas Calculadas"
+
+#~ msgid ""
+#~ "Computed Accounts: Use when the account group have codes\n"
+#~ "        that represent prefixes of the actual accounts.\n"
+#~ "\n"
+#~ "        Child Accounts: Use when your account groups are hierarchical.\n"
+#~ "\n"
+#~ "        No hierarchy: Use to display just the accounts, without any grouping.\n"
+#~ "        "
+#~ msgstr ""
+#~ "Contas Calculadas:  Usar cando o grupo de contas ten códigos \n"
+#~ "        que representan prefixos das contas reais.\n"
+#~ "\n"
+#~ "        Contas Fillas: Usar cando os grupos de contas son xerárquicos.\n"
+#~ "\n"
+#~ "        Sen xerarquía: Usar para mostrar só as contas, sen ningunha agrupación.\n"
+#~ "        "
+
+#~ msgid "Hierarchy On"
+#~ msgstr "Xerarquía en"
+
+#~ msgid "No hierarchy"
+#~ msgstr "Sen xerarquía"

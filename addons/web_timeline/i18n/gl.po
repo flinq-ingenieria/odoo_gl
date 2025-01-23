@@ -6,10 +6,10 @@
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 14:16\n"
-"PO-Revision-Date: 2024-11-08 14:16\n"
+"POT-Creation-Date: 2025-01-22 22:22\n"
+"PO-Revision-Date: 2025-01-22 22:22\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -17,38 +17,39 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: web_timeline
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_timeline/static/src/js/timeline_renderer.js:0
 #, python-format
 msgid "<b>UNASSIGNED</b>"
 msgstr "<b>SINASIGNAR</b>"
 
 #. module: web_timeline
-#. openerp-web
-#: code:addons/web_timeline/static/src/js/timeline_controller.js:0
+#. odoo-javascript
+#: code:addons/web_timeline/static/src/js/timeline_controller.esm.js:0
 #, python-format
 msgid "Are you sure you want to delete this record?"
 msgstr "Está seguro que desexa eliminar este rexistro?"
 
 #. module: web_timeline
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_timeline/static/src/xml/web_timeline.xml:0
 #, python-format
 msgid "Day"
 msgstr "Día"
 
 #. module: web_timeline
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_timeline/static/src/xml/web_timeline.xml:0
 #, python-format
 msgid "Month"
 msgstr "Mes"
 
 #. module: web_timeline
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_timeline/static/src/js/timeline_renderer.js:0
 #, python-format
 msgid "Template \"timeline-item\" not present in timeline view definition."
@@ -57,7 +58,7 @@ msgstr ""
 "vista de liña de tempo."
 
 #. module: web_timeline
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_timeline/static/src/js/timeline_view.js:0
 #: model:ir.model.fields.selection,name:web_timeline.selection__ir_ui_view__type__timeline
 #, python-format
@@ -65,14 +66,14 @@ msgid "Timeline"
 msgstr "Liña de tempo"
 
 #. module: web_timeline
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_timeline/static/src/js/timeline_renderer.js:0
 #, python-format
 msgid "Timeline view has not defined 'date_start' attribute."
 msgstr "A vista de liña de tempo non ten definido o atributo 'dáche_start'."
 
 #. module: web_timeline
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_timeline/static/src/xml/web_timeline.xml:0
 #, python-format
 msgid "Today"
@@ -86,24 +87,24 @@ msgstr "Vista"
 #. module: web_timeline
 #: model:ir.model.fields,field_description:web_timeline.field_ir_ui_view__type
 msgid "View Type"
-msgstr "Tipo de vista"
+msgstr "Tipo de Vista"
 
 #. module: web_timeline
-#. openerp-web
-#: code:addons/web_timeline/static/src/js/timeline_controller.js:0
+#. odoo-javascript
+#: code:addons/web_timeline/static/src/js/timeline_controller.esm.js:0
 #, python-format
 msgid "Warning"
-msgstr "Aviso"
+msgstr "Advertencia"
 
 #. module: web_timeline
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_timeline/static/src/xml/web_timeline.xml:0
 #, python-format
 msgid "Week"
 msgstr "Semana"
 
 #. module: web_timeline
-#. openerp-web
+#. odoo-javascript
 #: code:addons/web_timeline/static/src/xml/web_timeline.xml:0
 #, python-format
 msgid "Year"

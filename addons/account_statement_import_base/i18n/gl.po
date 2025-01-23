@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 22:58\n"
-"PO-Revision-Date: 2024-11-07 22:58\n"
+"POT-Creation-Date: 2025-01-21 15:47\n"
+"PO-Revision-Date: 2025-01-21 15:47\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -25,30 +25,20 @@ msgstr "Unha transacción bancaria só se pode importar unha vez!"
 #. module: account_statement_import_base
 #: model:ir.model,name:account_statement_import_base.model_account_bank_statement_line
 msgid "Bank Statement Line"
-msgstr "Liña do Extracto Bancario"
+msgstr "Liña de extracto bancario"
 
 #. module: account_statement_import_base
 #: model:ir.model.fields,field_description:account_statement_import_base.field_account_bank_statement_line__unique_import_id
 msgid "Import ID"
-msgstr "Importar ID"
+msgstr "ID importación"
 
 #. module: account_statement_import_base
 #: model:ir.model,name:account_statement_import_base.model_account_journal
 msgid "Journal"
-msgstr "Dario"
-
-#. module: account_statement_import_base
-#: model_terms:ir.ui.view,arch_db:account_statement_import_base.view_bank_statement_line_form
-msgid "Notes"
-msgstr "Notas"
+msgstr "Diario"
 
 #. module: account_statement_import_base
 #: model:ir.model.fields,field_description:account_statement_import_base.field_account_bank_statement_line__raw_data
-#: model_terms:ir.ui.view,arch_db:account_statement_import_base.view_bank_statement_line_form
+#: model_terms:ir.ui.view,arch_db:account_statement_import_base.account_bank_statement_line_form
 msgid "Raw Data"
-msgstr "Datos en Bruto"
-
-#. module: account_statement_import_base
-#: model_terms:ir.ui.view,arch_db:account_statement_import_base.view_bank_statement_line_form
-msgid "Technical Information"
-msgstr "Información Técnica"
+msgstr "Datos sen procesar"

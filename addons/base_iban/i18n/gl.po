@@ -3,14 +3,16 @@
 # 	* base_iban
 #
 # Translators:
-# Martin Trigaux, 2021
+# Martin Trigaux, 2022
+# Gelo, 2023
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 00:14\n"
-"PO-Revision-Date: 2024-11-08 00:14\n"
+"POT-Creation-Date: 2025-01-22 17:50\n"
+"PO-Revision-Date: 2025-01-22 17:50\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -21,11 +23,18 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: base_iban
-#. openerp-web
-#: code:addons/base_iban/static/src/js/iban_widget.js:0
+#. odoo-javascript
+#: code:addons/base_iban/static/src/js/legacy_iban_widget.js:0
 #, python-format
 msgid "Account isn't IBAN compliant."
 msgstr "A conta non cumpre con IBAN."
+
+#. module: base_iban
+#. odoo-javascript
+#: code:addons/base_iban/static/src/components/iban_widget/iban_widget.xml:0
+#, python-format
+msgid "Account isn't a valid IBAN"
+msgstr "A conta non é un IBAN válido"
 
 #. module: base_iban
 #: model:ir.model,name:base_iban.model_res_partner_bank
@@ -33,41 +42,47 @@ msgid "Bank Accounts"
 msgstr "Contas bancarias"
 
 #. module: base_iban
+#. odoo-python
 #: code:addons/base_iban/models/res_partner_bank.py:0
 #, python-format
 msgid "Cannot compute the BBAN because the account number is not an IBAN."
-msgstr "O número de conta debe ser un IBAN para poder obter o BBAN."
+msgstr "Non se pode calcular o BBAN porque o número de conta non é un IBAN."
 
 #. module: base_iban
+#. odoo-python
 #: code:addons/base_iban/models/res_partner_bank.py:0
 #, python-format
 msgid "IBAN"
 msgstr "IBAN"
 
 #. module: base_iban
+#. odoo-python
 #: code:addons/base_iban/models/res_partner_bank.py:0
 #, python-format
 msgid ""
 "The IBAN does not seem to be correct. You should have entered something like this %s\n"
 "Where B = National bank code, S = Branch code, C = Account No, k = Check digit"
 msgstr ""
-"O IBAN non é correcto. Introduza unha estrutura similar a esta %s\n"
+"O IBAN non parece correcto. Debería introducir algo como isto %s\n"
 "Onde B = Código nacional do banco, S = código de sucursal, C = Número de conta, k = Díxito de control"
 
 #. module: base_iban
+#. odoo-python
 #: code:addons/base_iban/models/res_partner_bank.py:0
 #, python-format
 msgid "The IBAN is invalid, it should begin with the country code"
-msgstr "O código IBAN é inválido, debe empezar polo código do país"
+msgstr "O IBAN non é válido, debería empezar polo código do país"
 
 #. module: base_iban
+#. odoo-python
 #: code:addons/base_iban/models/res_partner_bank.py:0
 #, python-format
 msgid "There is no IBAN code."
-msgstr "Non hai código IBAN"
+msgstr "Non hai código IBAN."
 
 #. module: base_iban
+#. odoo-python
 #: code:addons/base_iban/models/res_partner_bank.py:0
 #, python-format
 msgid "This IBAN does not pass the validation check, please verify it."
-msgstr "Este IBAN non supera o test de validación, por favor compróbeo."
+msgstr "Este IBAN non pasou a proba de validación, por favor verifíqueo."

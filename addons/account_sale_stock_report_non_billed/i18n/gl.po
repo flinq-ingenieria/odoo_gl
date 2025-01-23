@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 22:04\n"
-"PO-Revision-Date: 2024-11-08 22:04\n"
+"POT-Creation-Date: 2025-01-21 18:32\n"
+"PO-Revision-Date: 2025-01-21 18:32\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -70,11 +70,6 @@ msgid ""
 msgstr ""
 "Data a partir da que se van a ter en conta os movementos\n"
 "\t\t\tpara o informe de movementos non facturados."
-
-#. module: account_sale_stock_report_non_billed
-#: model:ir.model.fields,field_description:account_sale_stock_report_non_billed.field_stock_move__picking_partner_id
-msgid "Destination Address"
-msgstr "Dirección de destino da transferencia"
 
 #. module: account_sale_stock_report_non_billed
 #: model:ir.model.fields,field_description:account_sale_stock_report_non_billed.field_account_sale_stock_report_non_billed_wiz__display_name

@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 05:49\n"
-"PO-Revision-Date: 2024-11-08 05:49\n"
+"POT-Creation-Date: 2025-01-22 14:05\n"
+"PO-Revision-Date: 2025-01-22 14:05\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: brand_external_report_layout
@@ -31,7 +32,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__layout_background_image
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_res_brand__layout_background_image
 msgid "Background Image"
-msgstr "Imaxe de Fondo"
+msgstr "Imaxe de fondo"
 
 #. module: brand_external_report_layout
 #: model:ir.model.fields.selection,name:brand_external_report_layout.selection__res_brand__layout_background__blank
@@ -48,12 +49,12 @@ msgstr "Marca"
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__company_details
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_res_brand__company_details
 msgid "Brand Details"
-msgstr "Detalles da Marca"
+msgstr "Detalles da marca"
 
 #. module: brand_external_report_layout
 #: model:ir.model,name:brand_external_report_layout.model_brand_document_layout
 msgid "Brand Document Layout"
-msgstr "Deseño do Documento de Marca"
+msgstr "Deseño do documento de marca"
 
 #. module: brand_external_report_layout
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__logo
@@ -69,18 +70,19 @@ msgstr "Deseño do documento de marca"
 #. module: brand_external_report_layout
 #: model_terms:ir.ui.view,arch_db:brand_external_report_layout.res_brand_form_view
 msgid "Change Document Template"
-msgstr "Modelo de Documento de Modificación"
+msgstr "Modelo de documento de modificación"
 
 #. module: brand_external_report_layout
+#. odoo-python
 #: code:addons/brand_external_report_layout/models/res_brand.py:0
 #, python-format
 msgid "Choose Your Document Layout"
-msgstr "Elixa o Deseño do seu Documento"
+msgstr "Elixa o deseño do seu documento"
 
 #. module: brand_external_report_layout
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__company_id
 msgid "Company"
-msgstr "Compañía"
+msgstr "Companía"
 
 #. module: brand_external_report_layout
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__name
@@ -105,7 +107,7 @@ msgstr "Creado o"
 #. module: brand_external_report_layout
 #: model:ir.model.fields.selection,name:brand_external_report_layout.selection__res_brand__layout_background__custom
 msgid "Custom"
-msgstr "Personalizado"
+msgstr "Personalizar"
 
 #. module: brand_external_report_layout
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__custom_colors
@@ -115,13 +117,13 @@ msgstr "Cores Personalizadas"
 #. module: brand_external_report_layout
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__display_name
 msgid "Display Name"
-msgstr "Mostrar Nome"
+msgstr "Nome a Mostrar"
 
 #. module: brand_external_report_layout
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__external_report_layout_id
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_res_brand__external_report_layout_id
 msgid "Document Template"
-msgstr "Modelo de Documento"
+msgstr "Modelo de documento"
 
 #. module: brand_external_report_layout
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__email
@@ -159,6 +161,12 @@ msgid "ID"
 msgstr "ID (identificación)"
 
 #. module: brand_external_report_layout
+#: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__is_company_details_empty
+#: model:ir.model.fields,field_description:brand_external_report_layout.field_res_brand__is_company_details_empty
+msgid "Is Company Details Empty"
+msgstr "Están baleiros os detalles da empresa"
+
+#. module: brand_external_report_layout
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout____last_update
 msgid "Last Modified on"
 msgstr "Última Modificación o"
@@ -166,7 +174,7 @@ msgstr "Última Modificación o"
 #. module: brand_external_report_layout
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__write_uid
 msgid "Last Updated by"
-msgstr "Última Modificación Por"
+msgstr "Actualizado por última vez por"
 
 #. module: brand_external_report_layout
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__write_date
@@ -218,7 +226,7 @@ msgstr "Formato do papel"
 #. module: brand_external_report_layout
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__partner_id
 msgid "Partner"
-msgstr "Socio"
+msgstr "Provedor"
 
 #. module: brand_external_report_layout
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__phone
@@ -228,7 +236,7 @@ msgstr "Teléfono"
 #. module: brand_external_report_layout
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__preview
 msgid "Preview"
-msgstr "Previsualizar"
+msgstr "Previsualización"
 
 #. module: brand_external_report_layout
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__preview_logo
@@ -239,7 +247,7 @@ msgstr "Vista previa do logotipo"
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__primary_color
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_res_brand__primary_color
 msgid "Primary Color"
-msgstr "Cor Primaria"
+msgstr "Cor primaria"
 
 #. module: brand_external_report_layout
 #: model:ir.model.fields.selection,name:brand_external_report_layout.selection__res_brand__font__raleway
@@ -272,21 +280,23 @@ msgstr "Roboto"
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__secondary_color
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_res_brand__secondary_color
 msgid "Secondary Color"
-msgstr "Cor Secundaria"
+msgstr "Cor secundaria"
 
 #. module: brand_external_report_layout
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__vat
 msgid "Tax ID"
-msgstr "ID do imposto"
+msgstr "Número de identificación fiscal"
 
 #. module: brand_external_report_layout
 #: model:ir.model.fields,help:brand_external_report_layout.field_brand_document_layout__vat
 msgid ""
-"The Tax Identification Number. Complete it if the contact is subjected to "
-"government taxes. Used in some legal statements."
+"The Tax Identification Number. Values here will be validated based on the "
+"country format. You can use '/' to indicate that the partner is not subject "
+"to tax."
 msgstr ""
-"O Número de Identificación Fiscal. Encher se o contacto está suxeito a "
-"impostos gobernamentais. Utilízase nalgunhas declaracións legais."
+"O número de identificación fiscal. Os valores aquí validaranse en función do"
+" formato do país. Pode utilizar '/' para indicar que o socio non está "
+"suxeito a impostos."
 
 #. module: brand_external_report_layout
 #: model:ir.model.fields,field_description:brand_external_report_layout.field_brand_document_layout__website

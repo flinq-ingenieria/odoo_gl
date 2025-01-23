@@ -7,10 +7,10 @@
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 16:22\n"
-"PO-Revision-Date: 2024-11-08 16:22\n"
+"POT-Creation-Date: 2025-01-22 12:49\n"
+"PO-Revision-Date: 2025-01-22 12:49\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"

@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 11:24\n"
-"PO-Revision-Date: 2024-11-08 11:24\n"
+"POT-Creation-Date: 2025-01-22 00:24\n"
+"PO-Revision-Date: 2025-01-22 00:24\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -22,7 +22,7 @@ msgstr ""
 #. module: sale_order_line_sequence
 #: model_terms:ir.ui.view,arch_db:sale_order_line_sequence.report_saleorder_document_sequence
 msgid "<strong>Line Number</strong>"
-msgstr "<strong>Número de Liña</strong>"
+msgstr "<strong>Nº</strong>"
 
 #. module: sale_order_line_sequence
 #: model:ir.model.fields,help:sale_order_line_sequence.field_sale_order_line__visible_sequence
@@ -37,7 +37,7 @@ msgstr "Dá a secuencia desta liña ao mostrar a orde de venda."
 #. module: sale_order_line_sequence
 #: model:ir.model,name:sale_order_line_sequence.model_account_move_line
 msgid "Journal Item"
-msgstr "Artigo Diario"
+msgstr "artigo diario"
 
 #. module: sale_order_line_sequence
 #: model:ir.model.fields,field_description:sale_order_line_sequence.field_sale_order_line__visible_sequence
@@ -58,7 +58,7 @@ msgstr "Número de Liña de SO"
 #. module: sale_order_line_sequence
 #: model:ir.model,name:sale_order_line_sequence.model_sale_order
 msgid "Sales Order"
-msgstr "Orde de Venda"
+msgstr "Ordes de venda"
 
 #. module: sale_order_line_sequence
 #: model:ir.model,name:sale_order_line_sequence.model_sale_order_line
@@ -74,7 +74,7 @@ msgstr "Secuencia"
 #~ msgstr "<strong>Secuencia</strong>"
 
 #~ msgid "Shows the sequence of this line in the sale order."
-#~ msgstr "Mostra a secuencia desta liña no pedido de venda."
+#~ msgstr "Mostra a secuencia desta liña na orde de venda."
 
 #~ msgid "Sale Order"
 #~ msgstr "Pedido de venda"

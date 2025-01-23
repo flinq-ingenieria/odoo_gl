@@ -7,10 +7,10 @@
 # enjolras <yo@miguelrevilla.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 14:33\n"
-"PO-Revision-Date: 2024-11-08 14:33\n"
+"POT-Creation-Date: 2025-01-22 03:05\n"
+"PO-Revision-Date: 2025-01-22 03:05\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -21,18 +21,35 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: stock_analytic
-#: model:ir.model.fields,field_description:stock_analytic.field_stock_move__analytic_account_id
-#: model:ir.model.fields,field_description:stock_analytic.field_stock_move_line__analytic_account_id
-#: model:ir.model.fields,field_description:stock_analytic.field_stock_scrap__analytic_account_id
-#: model_terms:ir.ui.view,arch_db:stock_analytic.view_move_search_analytic
-msgid "Analytic Account"
-msgstr "Conta analítica"
+#: model:ir.model.fields,field_description:stock_analytic.field_stock_move__analytic_distribution
+#: model:ir.model.fields,field_description:stock_analytic.field_stock_move_line__analytic_distribution
+#: model:ir.model.fields,field_description:stock_analytic.field_stock_scrap__analytic_distribution
+msgid "Analytic"
+msgstr "Analítico"
 
 #. module: stock_analytic
-#: model:ir.model.fields,field_description:stock_analytic.field_stock_move__analytic_tag_ids
-#: model:ir.model.fields,field_description:stock_analytic.field_stock_scrap__analytic_tag_ids
-msgid "Analytic Tags"
-msgstr "Etiquetas Analíticas"
+#: model:ir.model.fields,field_description:stock_analytic.field_stock_move__analytic_distribution_search
+#: model:ir.model.fields,field_description:stock_analytic.field_stock_move_line__analytic_distribution_search
+#: model:ir.model.fields,field_description:stock_analytic.field_stock_scrap__analytic_distribution_search
+msgid "Analytic Distribution Search"
+msgstr "Procura de Distribución Analítica"
+
+#. module: stock_analytic
+#: model:ir.model,name:stock_analytic.model_account_analytic_applicability
+msgid "Analytic Plan's Applicabilities"
+msgstr "Aplicabilidade do Plan Analítico"
+
+#. module: stock_analytic
+#: model:ir.model.fields,field_description:stock_analytic.field_stock_move__analytic_precision
+#: model:ir.model.fields,field_description:stock_analytic.field_stock_move_line__analytic_precision
+#: model:ir.model.fields,field_description:stock_analytic.field_stock_scrap__analytic_precision
+msgid "Analytic Precision"
+msgstr "Precisión Analítica"
+
+#. module: stock_analytic
+#: model:ir.model.fields,field_description:stock_analytic.field_account_analytic_applicability__business_domain
+msgid "Domain"
+msgstr "Dominio"
 
 #. module: stock_analytic
 #: model:ir.model,name:stock_analytic.model_stock_move_line
@@ -46,8 +63,19 @@ msgstr "Restos"
 
 #. module: stock_analytic
 #: model:ir.model,name:stock_analytic.model_stock_move
+#: model:ir.model.fields.selection,name:stock_analytic.selection__account_analytic_applicability__business_domain__stock_move
 msgid "Stock Move"
 msgstr "Movemento de existencias"
 
-#~ msgid "Product"
-#~ msgstr "Produto"
+#. module: stock_analytic
+#: model:ir.model,name:stock_analytic.model_stock_rule
+msgid "Stock Rule"
+msgstr ""
+
+#. module: stock_analytic
+#: model:ir.model,name:stock_analytic.model_stock_picking
+msgid "Transfer"
+msgstr "Transferir"
+
+#~ msgid "Analytic Account"
+#~ msgstr "Conta analítica"

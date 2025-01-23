@@ -4,17 +4,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 09:40\n"
-"PO-Revision-Date: 2024-11-08 09:40\n"
+"POT-Creation-Date: 2025-01-22 22:36\n"
+"PO-Revision-Date: 2025-01-22 22:36\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: \n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: l10n_es_aeat_mod349
@@ -116,7 +117,7 @@ msgstr "Actividades"
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Decoración de Actividade de Excepción"
+msgstr "Decoración de excepción da actividade"
 
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__activity_state
@@ -126,7 +127,7 @@ msgstr "Estado da actividade"
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "Icona para o tipo de actividade"
+msgstr "Icona do tipo de actividade"
 
 #. module: l10n_es_aeat_mod349
 #: model:ir.ui.menu,name:l10n_es_aeat_mod349.menu_aeat_349_map
@@ -139,6 +140,7 @@ msgid "Aeat 349 Map Line"
 msgstr "Mapeo de Liña Aeat 349"
 
 #. module: l10n_es_aeat_mod349
+#. odoo-python
 #: code:addons/l10n_es_aeat_mod349/models/mod349.py:0
 #, python-format
 msgid "All partner records fields (country, VAT number) must be filled."
@@ -147,6 +149,7 @@ msgstr ""
 "enchidos."
 
 #. module: l10n_es_aeat_mod349
+#. odoo-python
 #: code:addons/l10n_es_aeat_mod349/models/mod349.py:0
 #, python-format
 msgid "All partner refunds fields (country, VAT number) must be filled."
@@ -218,9 +221,10 @@ msgstr "Complementaria ou sustitutiva:"
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__contact_email
 msgid "Contact Email"
-msgstr "Correo electrónico de contacto"
+msgstr "Email de contacto"
 
 #. module: l10n_es_aeat_mod349
+#. odoo-python
 #: code:addons/l10n_es_aeat_mod349/models/mod349.py:0
 #, python-format
 msgid "Contact name (Full name) must have name and surname"
@@ -241,6 +245,13 @@ msgstr "Conta de contrapartida"
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_partner_refund__country_id
 msgid "Country"
 msgstr "País"
+
+#. module: l10n_es_aeat_mod349
+#. odoo-python
+#: code:addons/l10n_es_aeat_mod349/models/mod349.py:0
+#, python-format
+msgid "Country code not found in Europe"
+msgstr "Código de país non atopado en Europa"
 
 #. module: l10n_es_aeat_mod349
 #: model_terms:ir.actions.act_window,help:l10n_es_aeat_mod349.action_l10n_es_aeat_mod349_report
@@ -323,12 +334,12 @@ msgstr "Data fin"
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__error_count
 msgid "Error Count"
-msgstr "Erro de cálculo"
+msgstr "Número de erros"
 
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_partner_record__error_text
 msgid "Error Text"
-msgstr "Texto de erro"
+msgstr "Texto do erro"
 
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__export_config_id
@@ -353,7 +364,7 @@ msgstr "Seguidores/as (Socios)"
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.fields,help:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr "Icona de fonte impresionante, por exemplo fa-tasks"
+msgstr "Fonte awesome icon p.e. fa-tasks"
 
 #. module: l10n_es_aeat_mod349
 #: model_terms:ir.ui.view,arch_db:l10n_es_aeat_mod349.report_aeat_mod349_document
@@ -377,12 +388,12 @@ msgstr "Nome completo"
 #. module: l10n_es_aeat_mod349
 #: model_terms:ir.ui.view,arch_db:l10n_es_aeat_mod349.view_l10n_es_aeat_mod349_report_form
 msgid "General"
-msgstr "Xeneral"
+msgstr ""
 
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__has_message
 msgid "Has Message"
-msgstr "Ten mensaxe"
+msgstr "Hai mensaxes"
 
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod349.selection__account_move_line__l10n_es_aeat_349_operation_key__i
@@ -407,11 +418,10 @@ msgstr "Icona"
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.fields,help:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "icona para indicar unha actividade por excepción."
+msgstr "Icona para indicar unha actividade de excepción."
 
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.fields,help:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__message_needaction
-#: model:ir.model.fields,help:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__message_unread
 msgid "If checked, new messages require your attention."
 msgstr "Se está seleccionado, novas mensaxes requiren a súa atención."
 
@@ -424,7 +434,7 @@ msgstr "Se está seleccionado, algunhas mensaxes teñen un erro de entrega."
 #: model_terms:ir.ui.view,arch_db:l10n_es_aeat_mod349.view_l10n_ES_aeat_mod349_partner_record_form
 #: model_terms:ir.ui.view,arch_db:l10n_es_aeat_mod349.view_l10n_ES_aeat_mod349_partner_refund_form
 msgid "Info"
-msgstr "Info"
+msgstr ""
 
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_partner_record_detail__move_id
@@ -455,7 +465,7 @@ msgstr "Diario"
 #. module: l10n_es_aeat_mod349
 #: model:ir.model,name:l10n_es_aeat_mod349.model_account_move
 msgid "Journal Entry"
-msgstr "Entrada Diaria"
+msgstr "Asento Contable"
 
 #. module: l10n_es_aeat_mod349
 #: model:ir.model,name:l10n_es_aeat_mod349.model_account_move_line
@@ -542,7 +552,14 @@ msgstr "O nome do contacto debe conter nome e apelidos."
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "Data límite da miña Actividade"
+msgstr "Data límite da miña actividade"
+
+#. module: l10n_es_aeat_mod349
+#. odoo-python
+#: code:addons/l10n_es_aeat_mod349/models/mod349.py:0
+#, python-format
+msgid "Negative amount"
+msgstr "Importe negativo"
 
 #. module: l10n_es_aeat_mod349
 #: model_terms:ir.ui.view,arch_db:l10n_es_aeat_mod349.mod349_partner_refund_head
@@ -565,6 +582,7 @@ msgid "Next Activity Type"
 msgstr "Próximo tipo de actividade"
 
 #. module: l10n_es_aeat_mod349
+#. odoo-python
 #: code:addons/l10n_es_aeat_mod349/models/mod349.py:0
 #, python-format
 msgid "No Tax Mapping was found"
@@ -582,18 +600,13 @@ msgstr "Número de erros"
 
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.fields,help:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__message_needaction_counter
-msgid "Number of messages which requires an action"
-msgstr "Núumero de mensaxes que requiren unha acción"
+msgid "Number of messages requiring action"
+msgstr ""
 
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.fields,help:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__message_has_error_counter
 msgid "Number of messages with delivery error"
 msgstr "Número de mensaxes cun erro de entrega"
-
-#. module: l10n_es_aeat_mod349
-#: model:ir.model.fields,help:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__message_unread_counter
-msgid "Number of unread messages"
-msgstr "Número de mensaxes non lidas"
 
 #. module: l10n_es_aeat_mod349
 #: model_terms:ir.ui.view,arch_db:l10n_es_aeat_mod349.mod349_partner_record_head
@@ -708,7 +721,7 @@ msgstr "Importes rectificacións empresas"
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_partner_refund__period_type
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__period_type
 msgid "Period Type"
-msgstr "Tipo de Período"
+msgstr "Tipo de período"
 
 #. module: l10n_es_aeat_mod349
 #: model_terms:ir.ui.view,arch_db:l10n_es_aeat_mod349.mod349_summary
@@ -773,7 +786,7 @@ msgstr "Usuario responsable"
 #. module: l10n_es_aeat_mod349
 #: model_terms:ir.ui.view,arch_db:l10n_es_aeat_mod349.view_l10n_es_aeat_mod349_report_form
 msgid "Resultado"
-msgstr "Resultado"
+msgstr ""
 
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod349.selection__account_move_line__l10n_es_aeat_349_operation_key__s
@@ -841,6 +854,11 @@ msgid "Tax"
 msgstr "Imposto"
 
 #. module: l10n_es_aeat_mod349
+#: model:ir.model.fields,field_description:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__tax_agency_ids
+msgid "Tax Agency"
+msgstr "Axencia Tributaria"
+
+#. module: l10n_es_aeat_mod349
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod349.field_aeat_349_map_line__tax_tmpl_ids
 msgid "Taxes"
 msgstr "Impostos"
@@ -849,12 +867,6 @@ msgstr "Impostos"
 #: model:ir.model,name:l10n_es_aeat_mod349.model_account_tax_template
 msgid "Templates for Taxes"
 msgstr "Modelo de impostos"
-
-#. module: l10n_es_aeat_mod349
-#: model:ir.model.fields,help:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_partner_record_detail__move_id
-#: model:ir.model.fields,help:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_partner_refund_detail__move_id
-msgid "The move of this entry line."
-msgstr "O movemento desta liña de entrada."
 
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.constraint,message:l10n_es_aeat_mod349.constraint_aeat_349_map_line_unique_operation_key
@@ -914,17 +926,7 @@ msgstr "Importe total tras rectificación"
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.fields,help:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Tipo (ou clase) de actividade excepcional rexistrada."
-
-#. module: l10n_es_aeat_mod349
-#: model:ir.model.fields,field_description:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__message_unread
-msgid "Unread Messages"
-msgstr "Mensaxes non lidas"
-
-#. module: l10n_es_aeat_mod349
-#: model:ir.model.fields,field_description:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr "Número de mensaxes non lidas"
+msgstr "Tipo da actividade de excepción rexistrada."
 
 #. module: l10n_es_aeat_mod349
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_partner_record__partner_vat
@@ -938,6 +940,14 @@ msgstr "NIF"
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod349.field_l10n_es_aeat_mod349_report__company_vat
 msgid "VAT number"
 msgstr "Número NIF"
+
+#. module: l10n_es_aeat_mod349
+#. odoo-python
+#: code:addons/l10n_es_aeat_mod349/models/mod349.py:0
+#: code:addons/l10n_es_aeat_mod349/tests/test_l10n_es_aeat_mod349.py:0
+#, python-format
+msgid "VAT without country code"
+msgstr "NIF sen código de país"
 
 #. module: l10n_es_aeat_mod349
 #: model_terms:ir.ui.view,arch_db:l10n_es_aeat_mod349.mod349_summary
@@ -955,19 +965,24 @@ msgid "Website communication history"
 msgstr "Historial de comunicación do sitio web"
 
 #. module: l10n_es_aeat_mod349
+#. odoo-python
 #: code:addons/l10n_es_aeat_mod349/models/mod349.py:0
+#: code:addons/l10n_es_aeat_mod349/tests/test_l10n_es_aeat_mod349.py:0
 #, python-format
 msgid "Without Country"
 msgstr "Sen país"
 
 #. module: l10n_es_aeat_mod349
+#. odoo-python
 #: code:addons/l10n_es_aeat_mod349/models/mod349.py:0
 #, python-format
 msgid "Without Total Operation Amount"
 msgstr "Sen Importe total da operación"
 
 #. module: l10n_es_aeat_mod349
+#. odoo-python
 #: code:addons/l10n_es_aeat_mod349/models/mod349.py:0
+#: code:addons/l10n_es_aeat_mod349/tests/test_l10n_es_aeat_mod349.py:0
 #, python-format
 msgid "Without VAT"
 msgstr "Sen NIF"
@@ -983,86 +998,5 @@ msgstr "Ano"
 msgid "aeat 349 Map"
 msgstr "Mapeo aeat 349"
 
-#~ msgid "SMS Delivery error"
-#~ msgstr "Erro na entrega de SMS"
-
-#~ msgid "Model"
-#~ msgstr "Modelo"
-
-#~ msgid "AEAT 349 Partner record detail"
-#~ msgstr "Detalle de Rexistro de Empresa AEAT 349"
-
-#~ msgid "AEAT 349 Partner refund detail"
-#~ msgstr "Detalle de rectificación modelo 349"
-
-#~ msgid "Amount untaxed"
-#~ msgstr "Importe sen impostos"
-
-#~ msgid "Calculation date"
-#~ msgstr "Data cálculo"
-
-#~ msgid "Cancelled"
-#~ msgstr "Cancelado"
-
-#~ msgid "Complementary"
-#~ msgstr "Complementaria"
-
-#~ msgid "Contact email"
-#~ msgstr "Email contacto"
-
-#~ msgid "DVD"
-#~ msgstr "DVD"
-
-#~ msgid "Done"
-#~ msgstr "Feito"
-
-#~ msgid "Draft"
-#~ msgstr "Borrador"
-
-#~ msgid "Followers (Channels)"
-#~ msgstr "Seguidores/as (Canles)"
-
-#~ msgid "Frequency change"
-#~ msgstr "Cambio de frecuencia"
-
-#~ msgid "If checked new messages require your attention."
-#~ msgstr "Se está seleccionado, novas mensaxes requiren a súa atención."
-
-#~ msgid "Invoice Line"
-#~ msgstr "Linea de Factura"
-
-#~ msgid "Keep empty to use the current date"
-#~ msgstr "Deixar baleiro para usar a data actual"
-
-#~ msgid "Normal"
-#~ msgstr "Normal"
-
-#~ msgid "Number of error"
-#~ msgstr "Número de erro"
-
-#~ msgid "Overdue"
-#~ msgstr "Con atraso"
-
-#~ msgid "Period type"
-#~ msgstr "Tipo de período"
-
-#~ msgid "Planned"
-#~ msgstr "Planificados"
-
-#~ msgid "Posted"
-#~ msgstr "Publicado"
-
-#~ msgid "Processed"
-#~ msgstr "Procesado"
-
-#~ msgid "Substitutive"
-#~ msgstr "Sustitutiva"
-
-#~ msgid "Telematics"
-#~ msgstr "Telemática"
-
-#~ msgid "Today"
-#~ msgstr "Hoxe"
-
-#~ msgid "Total operation amount"
-#~ msgstr "Importe total operación"
+#~ msgid "Number of messages which requires an action"
+#~ msgstr "Número de mensaxes que requiren unha acción"

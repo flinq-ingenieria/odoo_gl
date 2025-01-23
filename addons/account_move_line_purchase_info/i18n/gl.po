@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 22:05\n"
-"PO-Revision-Date: 2024-11-07 22:05\n"
+"POT-Creation-Date: 2025-01-22 00:52\n"
+"PO-Revision-Date: 2025-01-22 00:52\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -23,12 +23,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_move_line_purchase_info.field_purchase_order__journal_entry_ids
 #: model_terms:ir.ui.view,arch_db:account_move_line_purchase_info.view_move_line_journal_entries_form
 msgid "Journal Entries"
-msgstr "Entradas diarias"
+msgstr "Asentos contables"
 
 #. module: account_move_line_purchase_info
 #: model:ir.model.fields,field_description:account_move_line_purchase_info.field_purchase_order__journal_entries_count
 msgid "Journal Entries Count"
-msgstr "Reconto de entradas diarias"
+msgstr "Reconto de asentos contables"
 
 #. module: account_move_line_purchase_info
 #: model:ir.model,name:account_move_line_purchase_info.model_account_move_line
@@ -40,7 +40,7 @@ msgstr "Apuntamento contable"
 #: model:ir.model.fields,field_description:account_move_line_purchase_info.field_account_move_line__purchase_order_id
 #: model_terms:ir.ui.view,arch_db:account_move_line_purchase_info.view_account_move_line_filter
 msgid "Purchase Order"
-msgstr "Orde de compra"
+msgstr "Pedido de compra"
 
 #. module: account_move_line_purchase_info
 #: model:ir.model,name:account_move_line_purchase_info.model_purchase_order_line
@@ -51,12 +51,12 @@ msgstr "Liña orde de compra"
 #. module: account_move_line_purchase_info
 #: model:res.groups,name:account_move_line_purchase_info.group_account_move_purchase_info
 msgid "Purchase info in Journal Items"
-msgstr "Información de compra nos artigos do diario"
+msgstr "Información de compra nos apuntamentos contables"
 
 #. module: account_move_line_purchase_info
 #: model:ir.model,name:account_move_line_purchase_info.model_stock_move
 msgid "Stock Move"
-msgstr "Movemento de existencias"
+msgstr "Movemento de Stock"
 
 #~ msgid "Invoice"
 #~ msgstr "Factura"

@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 23:37\n"
-"PO-Revision-Date: 2024-11-07 23:37\n"
+"POT-Creation-Date: 2025-01-22 19:37\n"
+"PO-Revision-Date: 2025-01-22 19:37\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -25,7 +25,7 @@ msgstr "Contacto"
 #. module: sale_partner_selectable_option
 #: model:ir.model,name:sale_partner_selectable_option.model_sale_order
 msgid "Sales Order"
-msgstr "Ordes de Venda"
+msgstr "Orde de Venda"
 
 #. module: sale_partner_selectable_option
 #: model_terms:ir.ui.view,arch_db:sale_partner_selectable_option.view_partner_form

@@ -6,10 +6,10 @@
 # enjolras <yo@miguelrevilla.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 01:43\n"
-"PO-Revision-Date: 2024-11-08 01:43\n"
+"POT-Creation-Date: 2025-01-22 05:41\n"
+"PO-Revision-Date: 2025-01-22 05:41\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:29\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: base_comment_template
@@ -25,8 +26,8 @@ msgid ""
 "<span class=\"text-warning\" attrs=\"{'invisible': [('no_record', '=', False)]}\">No records\n"
 "                        </span>"
 msgstr ""
-"<span class=\"text-warning\" attrs=\"{'invisible': [('no_record', '=', False)]}\">sen rexistros\n"
-"                                                     </span>"
+"<span class=\"text-warning\" attrs=\"{'invisible': [('no_record', '=', False)]}\">Sen rexistros\n"
+"                                                      </span>"
 
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__active
@@ -61,7 +62,7 @@ msgstr "Contido do comentario de base"
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template_preview__body
 msgid "Body"
-msgstr "corpo"
+msgstr "Corpo"
 
 #. module: base_comment_template
 #: model:ir.model.fields.selection,name:base_comment_template.selection__base_comment_template__position__after_lines
@@ -133,11 +134,6 @@ msgid "Created on"
 msgstr "Creado o"
 
 #. module: base_comment_template
-#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__null_value
-msgid "Default Value"
-msgstr "Valor predeterminado"
-
-#. module: base_comment_template
 #: model_terms:ir.ui.view,arch_db:base_comment_template.base_comment_template_preview_form
 msgid "Discard"
 msgstr "Descartar"
@@ -149,28 +145,14 @@ msgid "Display Name"
 msgstr "Nome mostrado"
 
 #. module: base_comment_template
-#: model_terms:ir.ui.view,arch_db:base_comment_template.view_base_comment_template_form
-msgid "Dynamic Placeholder Generator"
-msgstr "Xerador dinámico de marcadores de posición"
-
-#. module: base_comment_template
-#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__model_object_field
-msgid "Field"
-msgstr "Campo"
+#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__engine
+msgid "Engine"
+msgstr "Motor"
 
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__domain
 msgid "Filter Domain"
 msgstr "Filtro de dominio"
-
-#. module: base_comment_template
-#: model:ir.model.fields,help:base_comment_template.field_base_comment_template__copyvalue
-msgid ""
-"Final placeholder expression, to be copy-pasted in the desired template "
-"field."
-msgstr ""
-"Expresión final do marcador de posición, que se copiará e pegará no campo de"
-" modelo desexado."
 
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__id
@@ -203,14 +185,14 @@ msgstr ""
 "seleccionados."
 
 #. module: base_comment_template
-#: model:ir.model.fields.selection,name:base_comment_template.selection__base_comment_template_preview__engine__inline_template
-msgid "Inline template"
+#: model:ir.model.fields.selection,name:base_comment_template.selection__base_comment_template__engine__inline_template
+msgid "Inline Template"
 msgstr "Modelo en liña"
 
 #. module: base_comment_template
-#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__lang
-msgid "Language"
-msgstr "Idioma"
+#: model:ir.model.fields.selection,name:base_comment_template.selection__base_comment_template_preview__engine__inline_template
+msgid "Inline template"
+msgstr "Modelo en liña"
 
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template____last_update
@@ -259,32 +241,9 @@ msgid "No Record"
 msgstr "Sen rexistro"
 
 #. module: base_comment_template
-#: model:ir.model.fields,help:base_comment_template.field_base_comment_template__lang
-msgid ""
-"Optional translation language (ISO code) to select when sending out an "
-"email. If not set, the english version will be used. This should usually be "
-"a placeholder expression that provides the appropriate language, e.g. {{ "
-"object.partner_id.lang }}."
-msgstr ""
-"Idioma de tradución opcional (código ISO) para seleccionar ao enviar un "
-"correo electrónico. Se non se establece, utilizarase a versión en inglés. "
-"Normalmente debe ser unha expresión de marcador de posición que proporcione "
-"o idioma adecuado, por exemplo {{ object.partner_ide.lang }}."
-
-#. module: base_comment_template
-#: model:ir.model.fields,help:base_comment_template.field_base_comment_template__null_value
-msgid "Optional value to use if the target field is empty"
-msgstr "Valor opcional que se utilizará se o campo de destino está baleiro"
-
-#. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__partner_ids
 msgid "Partner"
 msgstr "Contacto"
-
-#. module: base_comment_template
-#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__copyvalue
-msgid "Placeholder Expression"
-msgstr "Expresión de marcador de posición"
 
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__position
@@ -302,9 +261,15 @@ msgid "Preview of"
 msgstr "Previsualización de"
 
 #. module: base_comment_template
+#: model:ir.model.fields.selection,name:base_comment_template.selection__base_comment_template__engine__qweb
 #: model:ir.model.fields.selection,name:base_comment_template.selection__base_comment_template_preview__engine__qweb
 msgid "QWeb"
 msgstr "QWeb"
+
+#. module: base_comment_template
+#: model:ir.model.fields.selection,name:base_comment_template.selection__base_comment_template__engine__qweb_view
+msgid "QWeb View"
+msgstr "Vista da QWeb"
 
 #. module: base_comment_template
 #: model:ir.model.fields.selection,name:base_comment_template.selection__base_comment_template_preview__engine__qweb_view
@@ -317,25 +282,12 @@ msgid "Record reference"
 msgstr "Referencia do rexistro"
 
 #. module: base_comment_template
-#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__render_model
-msgid "Rendering Model"
-msgstr "Modelo de representación"
-
-#. module: base_comment_template
-#: model:ir.model.fields,help:base_comment_template.field_base_comment_template__model_object_field
-msgid ""
-"Select target field from the related document model.\n"
-"If it is a relationship field you will be able to select a target field at the destination of the relationship."
-msgstr ""
-"Seleccione o campo destino no modelo de documento relacionado.\n"
-"Se se trata dun campo de relación, poderá seleccionar un campo de destino no destino da relación."
-
-#. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__sequence
 msgid "Sequence"
 msgstr "Secuencia"
 
 #. module: base_comment_template
+#. odoo-python
 #: code:addons/base_comment_template/models/base_comment_template.py:0
 #, python-format
 msgid "Some model (%s) not found"
@@ -346,16 +298,6 @@ msgstr "Algún modelo (%s) non se atopou"
 #: model:ir.model.fields,help:base_comment_template.field_res_users__base_comment_template_ids
 msgid "Specific partner comments that can be included in reports"
 msgstr "Comentarios de contactos que se poden incluír en informes"
-
-#. module: base_comment_template
-#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__sub_model_object_field
-msgid "Sub-field"
-msgstr "Sub-campo"
-
-#. module: base_comment_template
-#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__sub_object
-msgid "Sub-model"
-msgstr "Sub-modelo"
 
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__text
@@ -370,7 +312,7 @@ msgstr "Vista previa do modelo"
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template_preview__engine
 msgid "Template Preview Engine"
-msgstr "Motor de previsualización de modelos"
+msgstr "Motor de previsualización de modelo"
 
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template_preview__lang
@@ -402,6 +344,14 @@ msgstr ""
 " a condición"
 
 #. module: base_comment_template
+#: model:ir.model.fields,help:base_comment_template.field_base_comment_template__engine
+msgid ""
+"This field allows to select the engine to use for rendering the template."
+msgstr ""
+"Este campo permite seleccionar o motor para utilizar para renderizar o "
+"modelo."
+
+#. module: base_comment_template
 #: model:ir.model.fields,help:base_comment_template.field_base_comment_template__position
 msgid "This field allows to select the position of the comment on reports."
 msgstr "Este campo permite seleccionar a posición do comentario nos informes."
@@ -414,26 +364,7 @@ msgstr "Esta é o modelo de texto que se inserirá nos informes."
 #. module: base_comment_template
 #: model:ir.model.fields.selection,name:base_comment_template.selection__base_comment_template__position__before_lines
 msgid "Top"
-msgstr "superior"
-
-#. module: base_comment_template
-#: model:ir.model.fields,help:base_comment_template.field_base_comment_template__sub_model_object_field
-msgid ""
-"When a relationship field is selected as first field, this field lets you "
-"select the target field within the destination document model (sub-model)."
-msgstr ""
-"Cando se selecciona un campo de relación como primeiro campo, este campo "
-"permite seleccionar o campo de destino dentro do modelo de documento de "
-"destino (sub-modelo)."
-
-#. module: base_comment_template
-#: model:ir.model.fields,help:base_comment_template.field_base_comment_template__sub_object
-msgid ""
-"When a relationship field is selected as first field, this field shows the "
-"document model the relationship goes to."
-msgstr ""
-"Cando se selecciona un campo de relación como primeiro campo, este campo "
-"mostra o modelo de documento ao que se dirixe a relación."
+msgstr "Superior"
 
 #. module: base_comment_template
 #: model:ir.model.fields,help:base_comment_template.field_ir_model__is_comment_template

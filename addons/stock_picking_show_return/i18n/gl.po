@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 01:44\n"
-"PO-Revision-Date: 2024-11-08 01:44\n"
+"POT-Creation-Date: 2025-01-21 21:20\n"
+"PO-Revision-Date: 2025-01-21 21:20\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. module: stock_picking_show_return
 #: model_terms:ir.ui.view,arch_db:stock_picking_show_return.view_picking_form
 msgid "<span class=\"o_stat_text\">Source picking</span>"
-msgstr "<span class=\"o_stat_text\">Albará orixe</span>"
+msgstr "<span class=\"o_stat_text\">Recollida de fontes</span>"
 
 #. module: stock_picking_show_return
 #: model:ir.model.fields,field_description:stock_picking_show_return.field_stock_picking__returned_ids

@@ -7,10 +7,10 @@
 # José Antonio Cuello <jcuello@artextrading.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 22:10\n"
-"PO-Revision-Date: 2024-11-07 22:10\n"
+"POT-Creation-Date: 2025-01-22 09:02\n"
+"PO-Revision-Date: 2025-01-22 09:02\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -23,7 +23,7 @@ msgstr ""
 #. module: account_fiscal_position_vat_check
 #: model_terms:ir.ui.view,arch_db:account_fiscal_position_vat_check.view_partner_property_form
 msgid "<b>Missing VAT number</b>: this partner has the fiscal position"
-msgstr "<b>Falta o CIF</b>: este socio ten a posición fiscal"
+msgstr "<b>Sen número VAT</b>: este partner ten a posición fiscal"
 
 #. module: account_fiscal_position_vat_check
 #: model:ir.model,name:account_fiscal_position_vat_check.model_res_partner
@@ -33,15 +33,16 @@ msgstr "Contacto"
 #. module: account_fiscal_position_vat_check
 #: model:ir.model,name:account_fiscal_position_vat_check.model_account_move
 msgid "Journal Entry"
-msgstr "Entrada diaria"
+msgstr "Asento contable"
 
 #. module: account_fiscal_position_vat_check
 #: model:ir.model.fields,field_description:account_fiscal_position_vat_check.field_res_partner__show_warning_vat_required
 #: model:ir.model.fields,field_description:account_fiscal_position_vat_check.field_res_users__show_warning_vat_required
 msgid "Show Warning Vat Required"
-msgstr "Mostrar IVE de advertencia requirido"
+msgstr "Mostrar aviso VAT obrigatorio"
 
 #. module: account_fiscal_position_vat_check
+#. odoo-python
 #: code:addons/account_fiscal_position_vat_check/models/account_move.py:0
 #, python-format
 msgid ""
@@ -50,24 +51,24 @@ msgid ""
 "Customer '%(rp)s' doesn't have a VAT number in Odoo. Please add the VAT "
 "number of this Customer in Odoo and try to validate again."
 msgstr ""
-"Vostede está a tratar de validar unha factura/reembolso dun cliente coa "
-"posición fiscal '%(fp)s' que require que o cliente teña un número de IVE. "
-"Pero o cliente '%(rp)s' non ten un número de IVE en Odoo. Por favor agregue "
-"o número de IVE deste cliente en Odoo e tente validar de novo."
+"Está a tratar de validar unha factura / fact. rectificativa coa posición "
+"fiscal '%(fp)s' que require que o cliente teña un NIF. Pero o cliente "
+"'%(rp)s' non ten un NIF nos seus datos. Anada por favor o NIF deste cliente "
+"e tente validala outra vez."
 
 #. module: account_fiscal_position_vat_check
 #: model_terms:ir.ui.view,arch_db:account_fiscal_position_vat_check.view_partner_property_form
 msgid "that require to know the VAT number of the partner."
-msgstr "que requiren coñecer o NIF do socio."
+msgstr "isto require coñecer o número VAT do partner."
 
 #~ msgid "Display Name"
-#~ msgstr "Mostrar Nome"
+#~ msgstr "Nome mostrado"
 
 #~ msgid "ID"
-#~ msgstr "ID (identificación)"
+#~ msgstr "ID"
 
 #~ msgid "Last Modified on"
-#~ msgstr "Modificado por última vez o"
+#~ msgstr "Última modificación en"
 
 #~ msgid "Invoice"
 #~ msgstr "Factura"

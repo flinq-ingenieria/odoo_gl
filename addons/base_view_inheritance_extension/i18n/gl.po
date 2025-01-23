@@ -6,10 +6,10 @@
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 08:17\n"
-"PO-Revision-Date: 2024-11-08 08:17\n"
+"POT-Creation-Date: 2025-01-21 15:00\n"
+"PO-Revision-Date: 2025-01-21 15:00\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -28,6 +28,11 @@ msgstr "Formulario de socio"
 #: model_terms:ir.ui.view,arch_db:base_view_inheritance_extension.view_partner_simple_form
 msgid "Phone numbers"
 msgstr "Números de teléfono"
+
+#. module: base_view_inheritance_extension
+#: model:ir.model.fields,field_description:base_view_inheritance_extension.field_ir_ui_view__smart_search
+msgid "Smart Search"
+msgstr "Procura intelixente"
 
 #. module: base_view_inheritance_extension
 #: model:ir.model,name:base_view_inheritance_extension.model_ir_ui_view

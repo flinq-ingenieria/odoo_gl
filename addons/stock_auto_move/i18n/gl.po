@@ -7,10 +7,10 @@
 # enjolras <yo@miguelrevilla.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 23:47\n"
-"PO-Revision-Date: 2024-11-08 23:47\n"
+"POT-Creation-Date: 2025-01-23 00:22\n"
+"PO-Revision-Date: 2025-01-23 00:22\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -62,7 +62,7 @@ msgid "Test push route 3=>1"
 msgstr ""
 
 #. module: stock_auto_move
-#: model:stock.location.route,name:stock_auto_move.test_route
+#: model:stock.route,name:stock_auto_move.test_route
 msgid "Test route"
 msgstr "Comprobar roteiro"
 

@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 22:35\n"
-"PO-Revision-Date: 2024-11-07 22:35\n"
+"POT-Creation-Date: 2025-01-22 17:35\n"
+"PO-Revision-Date: 2025-01-22 17:35\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -34,6 +34,7 @@ msgstr ""
 
 #. module: sale_timesheet_rounded
 #: model_terms:ir.ui.view,arch_db:sale_timesheet_rounded.account_analytic_line_kanban_inherit
+#, fuzzy
 msgid ""
 "<br/>\n"
 "                <strong>Rounded: </strong>"
@@ -71,6 +72,11 @@ msgstr ""
 "entradas (é dicir, as liñas existentes non se redondearán automaticamente)."
 
 #. module: sale_timesheet_rounded
+#: model:ir.model,name:sale_timesheet_rounded.model_account_move
+msgid "Journal Entry"
+msgstr ""
+
+#. module: sale_timesheet_rounded
 #: model:ir.model.fields.selection,name:sale_timesheet_rounded.selection__project_project__timesheet_rounding_method__no
 msgid "No rounding"
 msgstr "Sen redondeo"
@@ -94,12 +100,17 @@ msgstr "Cantidade redondeada"
 #. module: sale_timesheet_rounded
 #: model:ir.model.fields,field_description:sale_timesheet_rounded.field_project_project__timesheet_rounding_unit
 msgid "Rounding Unit"
-msgstr "Unidade de Redondeo"
+msgstr ""
 
 #. module: sale_timesheet_rounded
 #: model:ir.model.fields,field_description:sale_timesheet_rounded.field_project_project__timesheet_rounding_method
 msgid "Rounding method"
-msgstr "Método de Redondeo"
+msgstr ""
+
+#. module: sale_timesheet_rounded
+#: model:ir.model,name:sale_timesheet_rounded.model_sale_advance_payment_inv
+msgid "Sales Advance Payment Invoice"
+msgstr ""
 
 #. module: sale_timesheet_rounded
 #: model:ir.model,name:sale_timesheet_rounded.model_sale_order_line
@@ -133,15 +144,6 @@ msgstr "Cantidade total redondeada"
 #: model:ir.model.fields.selection,name:sale_timesheet_rounded.selection__project_project__timesheet_rounding_method__up
 msgid "Up"
 msgstr "Arriba"
-
-#~ msgid "Display Name"
-#~ msgstr "Mostrar Nome"
-
-#~ msgid "ID"
-#~ msgstr "ID(identificación)"
-
-#~ msgid "Last Modified on"
-#~ msgstr "Última Modifiación o"
 
 #~ msgid "Timesheet rounding method"
 #~ msgstr "Método de redondeo do Parte de horas"

@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 00:29\n"
-"PO-Revision-Date: 2024-11-08 00:29\n"
+"POT-Creation-Date: 2025-01-22 06:03\n"
+"PO-Revision-Date: 2025-01-22 06:03\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -18,37 +18,62 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: account_statement_import_online_ponto
-#: code:addons/account_statement_import_online_ponto/models/online_bank_statement_provider_ponto.py:0
+#. odoo-python
+#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py:0
 #, python-format
-msgid ""
-"Error during Create Synchronization %(code)s \n"
-"\n"
-" %(text)s"
-msgstr ""
-"Erro durante a sincronización de creación %(code)s \n"
-"\n"
-" %(text)s"
+msgid "%d transactions present in response data"
+msgstr "%d transaccións presentes nos datos de resposta"
 
 #. module: account_statement_import_online_ponto
-#: code:addons/account_statement_import_online_ponto/models/online_bank_statement_provider_ponto.py:0
+#: model:ir.model.fields.selection,name:account_statement_import_online_ponto.selection__online_bank_statement_provider__ponto_date_field__execution_date
+msgid "Execution Date"
+msgstr "Data de Execución"
+
+#. module: account_statement_import_online_ponto
+#. odoo-python
+#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py:0
 #, python-format
-msgid ""
-"Error during get transaction.\n"
-"\n"
-"%(code)s\n"
-"\n"
-"%(text)s"
+msgid "GET request on %(url)s"
+msgstr "Solicitude GET en %(url)s"
+
+#. module: account_statement_import_online_ponto
+#. odoo-python
+#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py:0
+#, python-format
+msgid "GET request to %(url)s with headers %(headers)s and params %(params)s"
 msgstr ""
-"Erro durante a obtención da transacción.\n"
-"\n"
-"%(code)s\n"
-"\n"
-"%(text)s"
+"Solicitude GET a %(url)s con cabeceiras %(headers)s e parámetros %(params)s"
+
+#. module: account_statement_import_online_ponto
+#. odoo-python
+#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py:0
+#, python-format
+msgid "HTTP answer code %(response_code)s from Ponto"
+msgstr "Código de resposta HTTP %(response_code)s de Ponto"
+
+#. module: account_statement_import_online_ponto
+#: model:ir.model,name:account_statement_import_online_ponto.model_ponto_interface
+msgid "Interface to all interactions with Ponto API"
+msgstr "Interface para todas as interaccións coa API Ponto"
 
 #. module: account_statement_import_online_ponto
 #: model_terms:ir.ui.view,arch_db:account_statement_import_online_ponto.online_bank_statement_provider_form
 msgid "Login"
-msgstr "Iniciar sesión"
+msgstr "Inicio de sesión"
+
+#. module: account_statement_import_online_ponto
+#. odoo-python
+#: code:addons/account_statement_import_online_ponto/models/online_bank_statement_provider_ponto.py:0
+#, python-format
+msgid "No lines were retrieved from Ponto"
+msgstr "Non se recuperaron liñas do Ponto"
+
+#. module: account_statement_import_online_ponto
+#. odoo-python
+#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py:0
+#, python-format
+msgid "No transactions where found in data %(data)s"
+msgstr "Non se atoparon transaccións nos datos %(data)s"
 
 #. module: account_statement_import_online_ponto
 #: model:ir.model,name:account_statement_import_online_ponto.model_online_bank_statement_provider
@@ -56,22 +81,42 @@ msgid "Online Bank Statement Provider"
 msgstr "Provedor de Extractos Bancarios en Liña"
 
 #. module: account_statement_import_online_ponto
-#: code:addons/account_statement_import_online_ponto/models/online_bank_statement_provider_ponto.py:0
+#. odoo-python
+#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py:0
+#, python-format
+msgid "POST request on %(url)s"
+msgstr "Petición POST en %(url)s"
+
+#. module: account_statement_import_online_ponto
+#. odoo-python
+#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py:0
 #, python-format
 msgid "Please fill login and key."
 msgstr "Por favor, encher login e clave."
 
 #. module: account_statement_import_online_ponto
-#: code:addons/account_statement_import_online_ponto/models/online_bank_statement_provider_ponto.py:0
+#. odoo-python
+#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py:0
 #, python-format
 msgid "Ponto : no token"
 msgstr "Ponto: sen ficha"
 
 #. module: account_statement_import_online_ponto
-#: code:addons/account_statement_import_online_ponto/models/online_bank_statement_provider_ponto.py:0
+#. odoo-python
+#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py:0
 #, python-format
-msgid "Ponto : wrong configuration, unknow account %s"
-msgstr "Ponto : configuración errónea, conta descoñecida %s"
+msgid "Ponto : wrong configuration, account {account} not found in {data}"
+msgstr "Ponto : configuración errónea, conta {account} non atopada en {data}"
+
+#. module: account_statement_import_online_ponto
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_ponto.online_bank_statement_provider_form
+msgid "Ponto Config"
+msgstr "Config Ponto"
+
+#. module: account_statement_import_online_ponto
+#: model:ir.model.fields,field_description:account_statement_import_online_ponto.field_online_bank_statement_provider__ponto_date_field
+msgid "Ponto Date Field"
+msgstr "Ponto Data Campo"
 
 #. module: account_statement_import_online_ponto
 #: model:ir.model.fields,field_description:account_statement_import_online_ponto.field_online_bank_statement_provider__ponto_last_identifier
@@ -79,45 +124,53 @@ msgid "Ponto Last Identifier"
 msgstr "Ponto Último Identificador"
 
 #. module: account_statement_import_online_ponto
-#: model:ir.model.fields,field_description:account_statement_import_online_ponto.field_online_bank_statement_provider__ponto_token
-msgid "Ponto Token"
-msgstr "Ficha Ponto"
+#. odoo-python
+#: code:addons/account_statement_import_online_ponto/models/online_bank_statement_provider_ponto.py:0
+#, python-format
+msgid "Ponto obtain all new statement data for journal %s"
+msgstr "Ponto obter todos os datos dos novos extractos para o diario %s"
 
 #. module: account_statement_import_online_ponto
-#: model:ir.model.fields,field_description:account_statement_import_online_ponto.field_online_bank_statement_provider__ponto_token_expiration
-msgid "Ponto Token Expiration"
-msgstr "Caducidade das fichas Ponto"
-
-#. module: account_statement_import_online_ponto
-#: model_terms:ir.ui.view,arch_db:account_statement_import_online_ponto.online_bank_statement_provider_form
-msgid "Reset Last identifier."
-msgstr "Restablecer Último identificador."
+#. odoo-python
+#: code:addons/account_statement_import_online_ponto/models/online_bank_statement_provider_ponto.py:0
+#, python-format
+msgid ""
+"Ponto obtain statement data for journal %(journal)s from %(date_since)s to "
+"%(date_until)s"
+msgstr ""
+"Ponto obtén os datos do extracto do diario %(journal)s desde %(date_since)s "
+"ata %(date_until)s"
 
 #. module: account_statement_import_online_ponto
 #: model_terms:ir.ui.view,arch_db:account_statement_import_online_ponto.online_bank_statement_provider_form
 msgid "Secret Key"
 msgstr "Clave Secreta"
 
-#, python-format
-#~ msgid ""
-#~ "Error during Create Synchronisation {} \n"
-#~ "\n"
-#~ " {}"
-#~ msgstr ""
-#~ "Erro durante a Sincronización de Creación {} \n"
-#~ "\n"
-#~ " {}"
+#. module: account_statement_import_online_ponto
+#: model:ir.model.fields,help:account_statement_import_online_ponto.field_online_bank_statement_provider__ponto_date_field
+msgid ""
+"Select the Ponto date field that will be used for the Odoo bank statement "
+"line date."
+msgstr ""
+"Seleccione o campo de data Ponto que se utilizará para a data da liña do "
+"extracto bancario de Odoo."
 
+#. module: account_statement_import_online_ponto
+#. odoo-python
+#: code:addons/account_statement_import_online_ponto/models/ponto_interface.py:0
 #, python-format
-#~ msgid ""
-#~ "Error during get transaction.\n"
-#~ "\n"
-#~ "{} \n"
-#~ "\n"
-#~ " {}"
-#~ msgstr ""
-#~ "Erro durante a obtención da transacción.\n"
-#~ "\n"
-#~ "{}\n"
-#~ "\n"
-#~ " {}"
+msgid "Server returned status code {response_code}: {response_text}"
+msgstr ""
+"O servidor devolveu o código de estado {response_code}: {response_text}"
+
+#. module: account_statement_import_online_ponto
+#. odoo-python
+#: code:addons/account_statement_import_online_ponto/tests/test_account_statement_import_online_ponto.py:0
+#, python-format
+msgid "Statement contains transactions: %s"
+msgstr "O extracto contén transaccións: %s"
+
+#. module: account_statement_import_online_ponto
+#: model:ir.model.fields.selection,name:account_statement_import_online_ponto.selection__online_bank_statement_provider__ponto_date_field__value_date
+msgid "Value Date"
+msgstr "Data Valor"

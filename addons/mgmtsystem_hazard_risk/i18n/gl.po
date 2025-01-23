@@ -7,10 +7,10 @@
 # Fernando La Chica, 2020
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 01:45\n"
-"PO-Revision-Date: 2024-11-08 01:45\n"
+"POT-Creation-Date: 2025-01-22 09:25\n"
+"PO-Revision-Date: 2025-01-22 09:25\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -50,7 +50,7 @@ msgstr "Compañías"
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_computation__company_id
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_type__company_id
 msgid "Company"
-msgstr "Companía"
+msgstr "Compañía"
 
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model,name:mgmtsystem_hazard_risk.model_mgmtsystem_hazard_risk_computation
@@ -61,7 +61,7 @@ msgstr "Risco de cómputo"
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model,name:mgmtsystem_hazard_risk.model_res_config_settings
 msgid "Config Settings"
-msgstr "Axustes Configuración"
+msgstr "axustes de configuración"
 
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__create_uid
@@ -88,7 +88,7 @@ msgstr "Descrición"
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_computation__display_name
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_type__display_name
 msgid "Display Name"
-msgstr "Mostrar Nome"
+msgstr "Nome para Mostrar"
 
 #. module: mgmtsystem_hazard_risk
 #: model:mgmtsystem.hazard.risk.type,name:mgmtsystem_hazard_risk.risk_type_environment
@@ -127,7 +127,7 @@ msgstr "Xustificación"
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_computation____last_update
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_type____last_update
 msgid "Last Modified on"
-msgstr "Última Modifiación o"
+msgstr "modificado por última vez o"
 
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__write_uid
@@ -249,6 +249,7 @@ msgid "Severity"
 msgstr "Severidade"
 
 #. module: mgmtsystem_hazard_risk
+#. odoo-python
 #: code:addons/mgmtsystem_hazard_risk/models/common.py:0
 #, python-format
 msgid "You must define the company's risk computing formula. Go to settings"

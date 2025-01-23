@@ -3,14 +3,15 @@
 # 	* website_partner
 #
 # Translators:
-# Martin Trigaux, 2021
+# Martin Trigaux, 2022
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 08:25\n"
-"PO-Revision-Date: 2024-11-08 08:25\n"
+"POT-Creation-Date: 2025-01-22 13:23\n"
+"PO-Revision-Date: 2025-01-22 13:23\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -44,30 +45,30 @@ msgstr "Descrición curta para a vista de listaxe"
 #: model:ir.model.fields,field_description:website_partner.field_res_partner__website_description
 #: model:ir.model.fields,field_description:website_partner.field_res_users__website_description
 msgid "Website Partner Full Description"
-msgstr "Descrición completa do socio para sitio web"
+msgstr "Descrición completa do sitio web do contacto"
 
 #. module: website_partner
 #: model:ir.model.fields,field_description:website_partner.field_res_partner__website_short_description
 #: model:ir.model.fields,field_description:website_partner.field_res_users__website_short_description
 msgid "Website Partner Short Description"
-msgstr "Descrición curta do socio para sitio web"
+msgstr "Descrición curta do sitio web do contacto"
 
 #. module: website_partner
 #: model:ir.model.fields,field_description:website_partner.field_res_partner__website_meta_description
 msgid "Website meta description"
-msgstr "Meta descrición do sitio web"
+msgstr "Descrición meta do sitio web"
 
 #. module: website_partner
 #: model:ir.model.fields,field_description:website_partner.field_res_partner__website_meta_keywords
 msgid "Website meta keywords"
-msgstr "Meta palabras chave do sitio web"
+msgstr "Palabras chave meta do sitio web"
 
 #. module: website_partner
 #: model:ir.model.fields,field_description:website_partner.field_res_partner__website_meta_title
 msgid "Website meta title"
-msgstr "Meta título do sitio web"
+msgstr "Título meta do sitio web"
 
 #. module: website_partner
 #: model:ir.model.fields,field_description:website_partner.field_res_partner__website_meta_og_img
 msgid "Website opengraph image"
-msgstr "Imaxe do Open Graph do sitio"
+msgstr "Imaxe Open Graph do sitio web"

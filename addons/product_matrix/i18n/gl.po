@@ -3,14 +3,15 @@
 # 	* product_matrix
 #
 # Translators:
-# Martin Trigaux, 2021
+# Martin Trigaux, 2022
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 23:00\n"
-"PO-Revision-Date: 2024-11-08 23:00\n"
+"POT-Creation-Date: 2025-01-22 23:28\n"
+"PO-Revision-Date: 2025-01-22 23:28\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -18,6 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: product_matrix
@@ -26,30 +28,9 @@ msgid "Blue"
 msgstr "Azul"
 
 #. module: product_matrix
-#. openerp-web
-#: code:addons/product_matrix/static/src/js/section_and_note_widget.js:0
-#, python-format
-msgid "Choose Product Variants"
-msgstr "Seleccione Variantes de Produto"
-
-#. module: product_matrix
-#. openerp-web
-#: code:addons/product_matrix/static/src/js/section_and_note_widget.js:0
-#, python-format
-msgid "Close"
-msgstr "Pechar"
-
-#. module: product_matrix
-#. openerp-web
-#: code:addons/product_matrix/static/src/js/section_and_note_widget.js:0
-#, python-format
-msgid "Confirm"
-msgstr "Confirmar"
-
-#. module: product_matrix
 #: model:product.attribute,name:product_matrix.product_attribute_gender
 msgid "Gender"
-msgstr "Sexo"
+msgstr "Xénero"
 
 #. module: product_matrix
 #: model:product.attribute.value,name:product_matrix.product_attribute_value_m
@@ -59,10 +40,10 @@ msgstr "Homes"
 #. module: product_matrix
 #: model:product.template,name:product_matrix.matrix_product_template_shirt
 msgid "My Company Tshirt (GRID)"
-msgstr "A miña Camiseta da miña Empresa (GRID)"
+msgstr "A miña camiseta de MiCompañía (TÁBOA)"
 
 #. module: product_matrix
-#. openerp-web
+#. odoo-javascript
 #: code:addons/product_matrix/static/src/xml/product_matrix.xml:0
 #, python-format
 msgid "Not available"
@@ -75,13 +56,13 @@ msgstr "Rosado"
 
 #. module: product_matrix
 #: model:ir.model,name:product_matrix.model_product_template
-msgid "Product Template"
-msgstr "Modelo de produto"
+msgid "Product"
+msgstr "Produto"
 
 #. module: product_matrix
 #: model:ir.model,name:product_matrix.model_product_template_attribute_value
 msgid "Product Template Attribute Value"
-msgstr "Valor de Atributo do Modelo de Produto"
+msgstr "Valor do atributo do modelo de produto"
 
 #. module: product_matrix
 #: model:product.attribute.value,name:product_matrix.product_attribute_value_color_4
@@ -97,11 +78,6 @@ msgstr "Mostre á súa compañía o amor ao seu ao redor =)."
 #: model:product.attribute,name:product_matrix.product_attribute_size
 msgid "Size"
 msgstr "Tamaño"
-
-#. module: product_matrix
-#: model:product.template,uom_name:product_matrix.matrix_product_template_shirt
-msgid "Units"
-msgstr "Unidades"
 
 #. module: product_matrix
 #: model:product.attribute.value,name:product_matrix.product_attribute_value_w

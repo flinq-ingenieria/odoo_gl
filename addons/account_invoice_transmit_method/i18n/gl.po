@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 21:10\n"
-"PO-Revision-Date: 2024-11-08 21:10\n"
+"POT-Creation-Date: 2025-01-22 15:42\n"
+"PO-Revision-Date: 2025-01-22 15:42\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,6 +20,12 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: account_invoice_transmit_method
+#: model_terms:ir.ui.view,arch_db:account_invoice_transmit_method.transmit_method_form
 #: model_terms:ir.ui.view,arch_db:account_invoice_transmit_method.transmit_method_search
 msgid "Archived"
 msgstr "Arquivado"
@@ -54,12 +60,12 @@ msgstr "Método de Transmisión en Facturas de Cliente"
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_partner__customer_invoice_transmit_method_code
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_users__customer_invoice_transmit_method_code
 msgid "Customer Invoice Transmission Method Code"
-msgstr "Código do método de transmisión da factura do cliente"
+msgstr "Código do Método de Transmisión en Facturas de Cliente"
 
 #. module: account_invoice_transmit_method
 #: model:transmit.method,name:account_invoice_transmit_method.portal
 msgid "Customer Portal"
-msgstr "Portal"
+msgstr "Portal de cliente"
 
 #. module: account_invoice_transmit_method
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__display_name
@@ -76,8 +82,8 @@ msgid ""
 "Do not modify the code of an existing Transmit Method because it may be used"
 " to identify a particular transmit method."
 msgstr ""
-"Non modifique o código dun método de transmisión existente porque pode "
-"utilizarse para identificar un método de transmisión concreto."
+"Non modificar o código dun Método de Transmisión existente porque se pode "
+"estar a usar xa para identificar un método de transmisión."
 
 #. module: account_invoice_transmit_method
 #: model:transmit.method,name:account_invoice_transmit_method.mail
@@ -92,7 +98,7 @@ msgstr "ID (identificación)"
 #. module: account_invoice_transmit_method
 #: model:ir.model,name:account_invoice_transmit_method.model_account_move
 msgid "Journal Entry"
-msgstr "Entrada Diaria"
+msgstr "Asento Contable"
 
 #. module: account_invoice_transmit_method
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method____last_update
@@ -117,24 +123,29 @@ msgstr "Nome"
 #. module: account_invoice_transmit_method
 #: model_terms:ir.ui.view,arch_db:account_invoice_transmit_method.transmit_method_search
 msgid "Name or Code"
-msgstr "Nome ou código"
+msgstr "Nome ou Código"
 
 #. module: account_invoice_transmit_method
 #: model:transmit.method,name:account_invoice_transmit_method.post
 msgid "Post"
-msgstr "Correo postal"
+msgstr "Publicar"
 
 #. module: account_invoice_transmit_method
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__customer_ok
 #: model_terms:ir.ui.view,arch_db:account_invoice_transmit_method.transmit_method_search
 msgid "Selectable on Customers"
-msgstr "Seleccionable nos clientes"
+msgstr "Seleccionable en Clientes"
 
 #. module: account_invoice_transmit_method
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__supplier_ok
 #: model_terms:ir.ui.view,arch_db:account_invoice_transmit_method.transmit_method_search
 msgid "Selectable on Vendors"
-msgstr "Seleccionable en Vendedores"
+msgstr "Seleccionable en Provedores"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__sequence
+msgid "Sequence"
+msgstr "Secuencia"
 
 #. module: account_invoice_transmit_method
 #: model:ir.model.fields,help:account_invoice_transmit_method.field_account_bank_statement_line__transmit_method_code
@@ -165,7 +176,7 @@ msgstr "Código de Método de Transmisión"
 #. module: account_invoice_transmit_method
 #: model:ir.model,name:account_invoice_transmit_method.model_transmit_method
 msgid "Transmit Method of a document"
-msgstr "Método de transmisión dun documento"
+msgstr "Método de Transmisión dun documento"
 
 #. module: account_invoice_transmit_method
 #: model:ir.actions.act_window,name:account_invoice_transmit_method.transmit_method_action
@@ -177,18 +188,16 @@ msgstr "Métodos de transmisión"
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_partner__supplier_invoice_transmit_method_id
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_users__supplier_invoice_transmit_method_id
 msgid "Vendor Invoice Reception Method"
-msgstr "Método de recepción de factura de vendedor"
+msgstr "Método de recepción en Facturas de Provedor"
 
 #. module: account_invoice_transmit_method
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_partner__supplier_invoice_transmit_method_code
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_users__supplier_invoice_transmit_method_code
 msgid "Vendor Invoice Reception Method Code"
-msgstr "Código de método de recepción de facturas de vendedor"
+msgstr "Código de Método de Recepción en Facturas de Provedor"
 
-#. module: account_invoice_transmit_method
-#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__active
-msgid "active"
-msgstr "Activo"
+#~ msgid "active"
+#~ msgstr "Activo"
 
 #~ msgid "Invoice"
 #~ msgstr "Factura"

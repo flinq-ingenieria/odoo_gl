@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 08:12\n"
-"PO-Revision-Date: 2024-11-08 08:12\n"
+"POT-Creation-Date: 2025-01-22 17:05\n"
+"PO-Revision-Date: 2025-01-22 17:05\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -34,13 +34,13 @@ msgid ""
 "Check if current currency is the original currency. This is used to hide "
 "custom rate field in the form view."
 msgstr ""
-"Comproba se a divisa actual é a divisa orixinal. Utilízase para ocultar o "
+"Comproba se a moeda actual é a moeda orixinal. Utilízase para ocultar o "
 "campo de tipo personalizado na vista de formulario."
 
 #. module: account_invoice_change_currency
 #: model:ir.model,name:account_invoice_change_currency.model_res_currency
 msgid "Currency"
-msgstr "Divisa"
+msgstr "Moeda"
 
 #. module: account_invoice_change_currency
 #: model:ir.model.fields,field_description:account_invoice_change_currency.field_account_bank_statement_line__custom_rate
@@ -55,24 +55,24 @@ msgstr "Cambio Personalizado"
 #: model:ir.model.fields,field_description:account_invoice_change_currency.field_account_move__is_original_currency
 #: model:ir.model.fields,field_description:account_invoice_change_currency.field_account_payment__is_original_currency
 msgid "Is Original Currency"
-msgstr "É a divisa orixinal"
+msgstr "É a moeda orixinal"
 
 #. module: account_invoice_change_currency
 #: model:ir.model,name:account_invoice_change_currency.model_account_move
 msgid "Journal Entry"
-msgstr "Entrada diaria"
+msgstr "Asento contable"
 
 #. module: account_invoice_change_currency
 #: model:ir.model,name:account_invoice_change_currency.model_account_move_line
 msgid "Journal Item"
-msgstr "artigo diario"
+msgstr "Apuntamento contable"
 
 #. module: account_invoice_change_currency
 #: model:ir.model.fields,field_description:account_invoice_change_currency.field_account_bank_statement_line__original_currency_id
 #: model:ir.model.fields,field_description:account_invoice_change_currency.field_account_move__original_currency_id
 #: model:ir.model.fields,field_description:account_invoice_change_currency.field_account_payment__original_currency_id
 msgid "Original Currency"
-msgstr "Divisa Orixinal"
+msgstr "Moeda Orixinal"
 
 #. module: account_invoice_change_currency
 #: model:ir.model.fields,field_description:account_invoice_change_currency.field_account_move_line__original_price_unit
@@ -87,8 +87,8 @@ msgid ""
 "Set new currency rate to apply on the invoice.\n"
 "This rate will be taken in order to convert amounts between the currency on the invoice and last currency"
 msgstr ""
-"Estableza o novo tipo de cambio que se aplicará á factura.\n"
-"Este tipo utilizarase para converter os importes entre a divisa da factura e a última divisa"
+"Establece o novo tipo de cambio que se aplicará á facturae.\n"
+"Este tipo tomarase para converter os importes entre a moeda da factura e a última moeda"
 
 #. module: account_invoice_change_currency
 #: model:ir.model.fields,help:account_invoice_change_currency.field_account_move_line__original_price_unit
@@ -97,9 +97,9 @@ msgid ""
 "conversion is called for the first time to use it to convert the amount in "
 "the new currency."
 msgstr ""
-"Almacena a unidade de prezo de cada liña cando se crea a factura ou se chama"
-" á conversión por primeira vez para utilizala para converter o importe na "
-"nova divisa."
+"Almacena a unidade de prezo de cada liña cando se crea a factura ou se crea "
+"a conversión por primeira vez para utilizala para converter o importe na "
+"nova moeda."
 
 #. module: account_invoice_change_currency
 #: model:ir.model.fields,help:account_invoice_change_currency.field_account_bank_statement_line__original_currency_id
@@ -110,14 +110,13 @@ msgid ""
 " called for the first time. This is used to calculate conversion from this "
 "currency."
 msgstr ""
-"Almacena a divisa orixinal cando se crea a factura ou se chama á conversión "
-"por primeira vez. Utilízase para calcular a conversión a partir desta "
-"divisa."
+"Almacena a moeda orixinal cando se crea a factura ou se usa a conversión por"
+" primeira vez. Utilízase para calcular a conversión a partir desta moeda."
 
 #. module: account_invoice_change_currency
 #: model_terms:ir.ui.view,arch_db:account_invoice_change_currency.view_move_form
 msgid "Update Currency"
-msgstr "Actualizar divisa"
+msgstr "Actualizar moeda"
 
 #~ msgid "Currency Updated"
 #~ msgstr "Moeda Actualizada"

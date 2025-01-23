@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 23:45\n"
-"PO-Revision-Date: 2024-11-08 23:45\n"
+"POT-Creation-Date: 2025-01-22 16:07\n"
+"PO-Revision-Date: 2025-01-22 16:07\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: sale_order_invoicing_finished_task
@@ -50,8 +51,8 @@ msgstr "Control de facturación por tarefa"
 
 #. module: sale_order_invoicing_finished_task
 #: model:ir.model,name:sale_order_invoicing_finished_task.model_product_template
-msgid "Product Template"
-msgstr "Modelo de produto"
+msgid "Product"
+msgstr "Produto"
 
 #. module: sale_order_invoicing_finished_task
 #: model:ir.model,name:sale_order_invoicing_finished_task.model_sale_order
@@ -79,6 +80,7 @@ msgid "Tasks"
 msgstr "Tarefas"
 
 #. module: sale_order_invoicing_finished_task
+#. odoo-python
 #: code:addons/sale_order_invoicing_finished_task/models/project.py:0
 #, python-format
 msgid ""
@@ -87,3 +89,6 @@ msgid ""
 msgstr ""
 "Non pode crear/modificar unha tarefa relacionada cunha liña de pedido "
 "facturada, realizada ou cancelada "
+
+#~ msgid "Product Template"
+#~ msgstr "Modelo de produto"

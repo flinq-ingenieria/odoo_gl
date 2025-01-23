@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 20:34\n"
-"PO-Revision-Date: 2024-11-07 20:34\n"
+"POT-Creation-Date: 2025-01-22 14:13\n"
+"PO-Revision-Date: 2025-01-22 14:13\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -50,7 +50,7 @@ msgstr "Orde de Servizo de Campo"
 #. module: fieldservice_crm
 #: model:ir.model,name:fieldservice_crm.model_crm_lead
 msgid "Lead/Opportunity"
-msgstr "Iniciativa/Oportunidade"
+msgstr "Iniciativa/oportunidade"
 
 #. module: fieldservice_crm
 #: model_terms:ir.ui.view,arch_db:fieldservice_crm.fsm_location_crm_form_view
@@ -65,4 +65,4 @@ msgstr "Oportunidade"
 #. module: fieldservice_crm
 #: model:ir.model.fields,field_description:fieldservice_crm.field_crm_lead__fsm_order_ids
 msgid "Service Orders"
-msgstr "Ordes de Servizo"
+msgstr "Ordes de servizo"

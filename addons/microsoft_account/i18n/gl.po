@@ -3,15 +3,15 @@
 # 	* microsoft_account
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 23:04\n"
-"PO-Revision-Date: 2024-11-07 23:04\n"
+"POT-Creation-Date: 2025-01-22 07:54\n"
+"PO-Revision-Date: 2025-01-22 07:54\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -26,7 +26,7 @@ msgstr ""
 #, python-format
 msgid "Method not supported [%s] not in [GET, POST, PUT, PATCH or DELETE]!"
 msgstr ""
-"Metodo non soportado [%s] non está  en [GET, POST, PUT, PATCH or DELETE]!"
+"Método non compatible [%s] non está en [GET, POST, PUT, PATCH ou DELETE]!"
 
 #. module: microsoft_account
 #: model:ir.model.fields,field_description:microsoft_account.field_res_users__microsoft_calendar_rtoken
@@ -55,8 +55,8 @@ msgid ""
 "Something went wrong during your token generation. Maybe your Authorization "
 "Code is invalid"
 msgstr ""
-"Algo saíu mal durante a xeración do token. É probable que o código de "
-"autorización sexa inválido."
+"Ocorreu un erro ao xerar o token. É probable que o código de autorización "
+"non sexa válido."
 
 #. module: microsoft_account
 #: code:addons/microsoft_account/models/microsoft_service.py:0
@@ -65,10 +65,10 @@ msgid ""
 "Something went wrong during your token generation. Maybe your Authorization "
 "Code is invalid or already expired"
 msgstr ""
-"Algo saíu mal durante a xeración do token. É probable que o código de "
-"autorización sexa inválido ou estea expirado."
+"Ocorreu un erro ao xerar o token. É probable que o código de autorización "
+"non sexa válido ou vencese."
 
 #. module: microsoft_account
 #: model:ir.model,name:microsoft_account.model_res_users
-msgid "Users"
-msgstr "Usuarios"
+msgid "User"
+msgstr "Usuario"

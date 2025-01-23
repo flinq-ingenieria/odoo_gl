@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 20:42\n"
-"PO-Revision-Date: 2024-11-07 20:42\n"
+"POT-Creation-Date: 2025-01-22 15:24\n"
+"PO-Revision-Date: 2025-01-22 15:24\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -91,6 +91,11 @@ msgid "Last Updated on"
 msgstr "Última actualización o"
 
 #. module: base_search_fuzzy
+#: model:ir.model.fields,field_description:base_search_fuzzy.field_trgm_index__smart_search
+msgid "Smart Search"
+msgstr "Procura intelixente"
+
+#. module: base_search_fuzzy
 #: model:ir.model.fields,help:base_search_fuzzy.field_trgm_index__index_name
 msgid ""
 "The index name is automatically generated like fieldname_indextype_idx. If "
@@ -103,6 +108,7 @@ msgstr ""
 "noutra táboa, engádese un número ao final do nome do índice."
 
 #. module: base_search_fuzzy
+#. odoo-python
 #: code:addons/base_search_fuzzy/models/trgm_index.py:0
 #, python-format
 msgid "The pg_trgm extension does not exists or cannot be installed."

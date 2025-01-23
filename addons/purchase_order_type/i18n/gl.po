@@ -20,10 +20,10 @@
 # SaFi J. <safi2266@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 23:22\n"
-"PO-Revision-Date: 2024-11-07 23:22\n"
+"POT-Creation-Date: 2025-01-21 17:02\n"
+"PO-Revision-Date: 2025-01-21 17:02\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -52,7 +52,7 @@ msgstr "Faga clic para establecer un novo tipo de orde de compra."
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__company_id
 #: model_terms:ir.ui.view,arch_db:purchase_order_type.view_purchase_order_type_search
 msgid "Company"
-msgstr "Compañía"
+msgstr "Companía"
 
 #. module: purchase_order_type
 #: model:ir.model,name:purchase_order_type.model_res_partner
@@ -80,6 +80,7 @@ msgid "Display Name"
 msgstr "Nome mostrado"
 
 #. module: purchase_order_type
+#. odoo-python
 #: code:addons/purchase_order_type/models/purchase_order.py:0
 #, python-format
 msgid "Document's company and type's company mismatch"
@@ -95,7 +96,7 @@ msgstr "Secuencia de entrada"
 #. module: purchase_order_type
 #: model_terms:ir.ui.view,arch_db:purchase_order_type.view_purchase_order_type_search
 msgid "Group By"
-msgstr "Agrupado por"
+msgstr "Agrupar Por"
 
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__id
@@ -136,7 +137,7 @@ msgstr "Prazo de pago"
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__payment_term_id
 msgid "Payment Terms"
-msgstr "Termos de pago"
+msgstr "Termos do Pago"
 
 #. module: purchase_order_type
 #: model:ir.model,name:purchase_order_type.model_purchase_order
@@ -148,19 +149,19 @@ msgstr "Orde de Compra"
 #: model:ir.model.fields,field_description:purchase_order_type.field_res_users__purchase_type
 #: model_terms:ir.ui.view,arch_db:purchase_order_type.res_partner_purchase_type_form_view
 msgid "Purchase Order Type"
-msgstr "Tipo de pedido de compra"
+msgstr "Tipo de Orde de Compra"
 
 #. module: purchase_order_type
 #: model:ir.actions.act_window,name:purchase_order_type.action_purchase_order_type_view
 #: model:ir.ui.menu,name:purchase_order_type.menu_purchase_order_type
 #: model_terms:ir.ui.view,arch_db:purchase_order_type.view_purchase_order_type_search
 msgid "Purchase Order Types"
-msgstr "Tipos de pedidos de compra"
+msgstr "Tipos de Ordes de Compra"
 
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__sequence
 msgid "Sequence"
-msgstr "secuencia"
+msgstr "Secuencia"
 
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order__order_type
@@ -172,7 +173,7 @@ msgstr "Tipo"
 #. module: purchase_order_type
 #: model:ir.model,name:purchase_order_type.model_purchase_order_type
 msgid "Type of purchase order"
-msgstr "Tipo de pedido de Compra"
+msgstr "Tipo de Orde de Compra"
 
 #~ msgid "Create Invoice"
 #~ msgstr "Crear factura"

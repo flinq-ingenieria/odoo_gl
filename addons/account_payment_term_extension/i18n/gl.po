@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 22:54\n"
-"PO-Revision-Date: 2024-11-07 22:54\n"
+"POT-Creation-Date: 2025-01-22 13:59\n"
+"PO-Revision-Date: 2025-01-22 13:59\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -49,6 +49,7 @@ msgid "Created on"
 msgstr "Creado en"
 
 #. module: account_payment_term_extension
+#. odoo-python
 #: code:addons/account_payment_term_extension/models/account_payment_term.py:0
 #, python-format
 msgid "Date %s cannot is both a holiday and a Postponed date"
@@ -65,12 +66,14 @@ msgid "Holiday"
 msgstr "Festivo"
 
 #. module: account_payment_term_extension
+#. odoo-python
 #: code:addons/account_payment_term_extension/models/account_payment_term.py:0
 #, python-format
 msgid "Holiday %s can only be postponed into the future"
 msgstr "O festivo %s soamente pode ser postpuesto ao futuro"
 
 #. module: account_payment_term_extension
+#. odoo-python
 #: code:addons/account_payment_term_extension/models/account_payment_term.py:0
 #, python-format
 msgid "Holiday %s is duplicated in current payment term"
@@ -88,11 +91,6 @@ msgid "ID"
 msgstr "ID (identificación)"
 
 #. module: account_payment_term_extension
-#: model:ir.model,name:account_payment_term_extension.model_account_move
-msgid "Journal Entry"
-msgstr "Entrada Diaria"
-
-#. module: account_payment_term_extension
 #: model:ir.model.fields,field_description:account_payment_term_extension.field_account_payment_term_holiday____last_update
 msgid "Last Modified on"
 msgstr "Última modificación en"
@@ -106,16 +104,6 @@ msgstr "Última actualización de"
 #: model:ir.model.fields,field_description:account_payment_term_extension.field_account_payment_term_holiday__write_date
 msgid "Last Updated on"
 msgstr "Última actualización en"
-
-#. module: account_payment_term_extension
-#: model:ir.model.fields,field_description:account_payment_term_extension.field_account_payment_term_line__months
-msgid "Number of Months"
-msgstr "Número de meses"
-
-#. module: account_payment_term_extension
-#: model:ir.model.fields,field_description:account_payment_term_extension.field_account_payment_term_line__weeks
-msgid "Number of Weeks"
-msgstr "Número de semanas"
 
 #. module: account_payment_term_extension
 #: model:ir.model.fields,field_description:account_payment_term_extension.field_account_payment_term_holiday__payment_id
@@ -143,6 +131,7 @@ msgid "Payment day(s)"
 msgstr "Día(s) de pago"
 
 #. module: account_payment_term_extension
+#. odoo-python
 #: code:addons/account_payment_term_extension/models/account_payment_term.py:0
 #, python-format
 msgid "Payment days field format is not valid."
@@ -154,6 +143,7 @@ msgid "Percent (Untaxed amount)"
 msgstr "Porcentaxe (Base impoñible)"
 
 #. module: account_payment_term_extension
+#. odoo-python
 #: code:addons/account_payment_term_extension/models/account_payment_term.py:0
 #, python-format
 msgid "Percentage of amount untaxed can't be used with foreign currencies"
@@ -161,6 +151,7 @@ msgstr ""
 "Porcentaxe de base impoñible que non pode usarse con divisas estranxeiras"
 
 #. module: account_payment_term_extension
+#. odoo-python
 #: code:addons/account_payment_term_extension/models/account_payment_term.py:0
 #, python-format
 msgid "Percentages on the Payment Terms lines must be between 0 and 100."
@@ -191,12 +182,19 @@ msgstr ""
 #. module: account_payment_term_extension
 #: model:ir.model.fields,field_description:account_payment_term_extension.field_account_payment_term__sequential_lines
 msgid "Sequential Lines"
-msgstr "Liñas secuenciales"
+msgstr "Vencemento en función do vencemento anterior"
 
 #. module: account_payment_term_extension
 #: model:ir.model.fields,help:account_payment_term_extension.field_account_payment_term_line__amount_round
 msgid "Sets the amount so that it is a multiple of this value."
-msgstr "Establece o importe para que sexa múltiplo deste valor."
+msgstr "Establecer o importe do redondeo."
+
+#. module: account_payment_term_extension
+#. odoo-python
+#: code:addons/account_payment_term_extension/models/account_payment_term.py:0
+#, python-format
+msgid "This module is not compatible with cash rounding"
+msgstr ""
 
 #. module: account_payment_term_extension
 #: model:ir.model.fields,field_description:account_payment_term_extension.field_account_payment_term_line__value
@@ -204,15 +202,25 @@ msgid "Type"
 msgstr "Tipo"
 
 #. module: account_payment_term_extension
+#: model:ir.model.fields,field_description:account_payment_term_extension.field_account_payment_term_line__weeks
+msgid "Weeks"
+msgstr "Semanas"
+
+#. module: account_payment_term_extension
 #: model_terms:ir.ui.view,arch_db:account_payment_term_extension.view_payment_term_form
 msgid ""
 "When a payment term coincides with a holiday, it is postponed to the chosen "
 "date."
-msgstr ""
-"Cando un prazo de pago coincide cun festivo, se postpone á data elixida."
+msgstr "Cando un prazo de pago coincide cun festivo, posponse á data elixida."
 
 #~ msgid "Journal Entries"
 #~ msgstr "Asentos contables"
+
+#~ msgid "Number of Months"
+#~ msgstr "Número de meses"
+
+#~ msgid "Number of Weeks"
+#~ msgstr "Número de semanas"
 
 #~ msgid "Sequential lines"
 #~ msgstr "Liñas secuenciales"

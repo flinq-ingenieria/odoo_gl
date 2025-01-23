@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 13:33\n"
-"PO-Revision-Date: 2024-11-08 13:33\n"
+"POT-Creation-Date: 2025-01-22 20:30\n"
+"PO-Revision-Date: 2025-01-22 20:30\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: l10n_es_ticketbai
@@ -90,6 +91,7 @@ msgid "Cancel and recreate"
 msgstr "Cancelar e recrear"
 
 #. module: l10n_es_ticketbai
+#. odoo-python
 #: code:addons/l10n_es_ticketbai/models/account_move.py:0
 #, python-format
 msgid "Cancellation"
@@ -119,6 +121,7 @@ msgid "Company"
 msgstr "Compañía"
 
 #. module: l10n_es_ticketbai
+#. odoo-python
 #: code:addons/l10n_es_ticketbai/models/account_tax.py:0
 #, python-format
 msgid "Country code for partner %s not found!"
@@ -396,6 +399,7 @@ msgid "Origin Invoices Data"
 msgstr "Datos facturas orixe"
 
 #. module: l10n_es_ticketbai
+#. odoo-python
 #: code:addons/l10n_es_ticketbai/models/account_move.py:0
 #, python-format
 msgid ""
@@ -419,6 +423,7 @@ msgid "Refund"
 msgstr "Rectificativa"
 
 #. module: l10n_es_ticketbai
+#. odoo-python
 #: code:addons/l10n_es_ticketbai/models/account_move.py:0
 #, python-format
 msgid ""
@@ -428,6 +433,7 @@ msgstr ""
 "orixinal."
 
 #. module: l10n_es_ticketbai
+#. odoo-python
 #: code:addons/l10n_es_ticketbai/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -438,6 +444,7 @@ msgstr ""
 "Debería de conter 20 caracteres como máximo!"
 
 #. module: l10n_es_ticketbai
+#. odoo-python
 #: code:addons/l10n_es_ticketbai/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -479,6 +486,7 @@ msgid "Software"
 msgstr "Software"
 
 #. module: l10n_es_ticketbai
+#. odoo-python
 #: code:addons/l10n_es_ticketbai/models/account_move.py:0
 #, python-format
 msgid "Some of the original invoices have related tbai cancelled invoices"
@@ -487,6 +495,7 @@ msgstr ""
 "relacionadas"
 
 #. module: l10n_es_ticketbai
+#. odoo-python
 #: code:addons/l10n_es_ticketbai/models/account_move.py:0
 #, python-format
 msgid ""
@@ -516,6 +525,7 @@ msgid "Tax"
 msgstr "Imposto"
 
 #. module: l10n_es_ticketbai
+#. odoo-python
 #: code:addons/l10n_es_ticketbai/models/account_fiscal_position.py:0
 #: code:addons/l10n_es_ticketbai/models/chart_template.py:0
 #: model:ir.model.constraint,message:l10n_es_ticketbai.constraint_account_fp_tbai_tax_position_tax_uniq
@@ -686,6 +696,7 @@ msgid "TicketBAI Invoice"
 msgstr "TicketBAI factura"
 
 #. module: l10n_es_ticketbai
+#. odoo-python
 #: code:addons/l10n_es_ticketbai/models/account_tax.py:0
 #, python-format
 msgid ""
@@ -696,6 +707,7 @@ msgstr ""
 " de recarga de equivalencia"
 
 #. module: l10n_es_ticketbai
+#. odoo-python
 #: code:addons/l10n_es_ticketbai/models/account_tax.py:0
 #, python-format
 msgid ""
@@ -763,6 +775,7 @@ msgid "TicketBAI is disabled."
 msgstr "TicketBAI está deshabilitado."
 
 #. module: l10n_es_ticketbai
+#. odoo-python
 #: code:addons/l10n_es_ticketbai/models/ticketbai_invoice.py:0
 #, python-format
 msgid ""
@@ -825,12 +838,14 @@ msgid "Wizard to Load AEAT Certificate"
 msgstr "Asistente para cargar a certificado AEAT"
 
 #. module: l10n_es_ticketbai
+#. odoo-python
 #: code:addons/l10n_es_ticketbai/models/account_move.py:0
 #, python-format
 msgid "You cannot change to draft a TicketBAI invoice!"
 msgstr "Non é posible cambiar o estado a borrador dunha factura TicketBAI!"
 
 #. module: l10n_es_ticketbai
+#. odoo-python
 #: code:addons/l10n_es_ticketbai/models/account_resequence.py:0
 #, python-format
 msgid "You cannot resequence a customer invoice when TicketBAI is enabled."
@@ -839,6 +854,7 @@ msgstr ""
 "habilitado."
 
 #. module: l10n_es_ticketbai
+#. odoo-python
 #: code:addons/l10n_es_ticketbai/models/account_journal.py:0
 #, python-format
 msgid ""

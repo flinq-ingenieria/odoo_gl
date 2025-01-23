@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 18:21\n"
-"PO-Revision-Date: 2024-11-08 18:21\n"
+"POT-Creation-Date: 2025-01-22 06:03\n"
+"PO-Revision-Date: 2025-01-22 06:03\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -72,7 +72,7 @@ msgstr "Definición"
 #: model:ir.model.fields,field_description:base_territory.field_res_region__description
 #: model:ir.model.fields,field_description:base_territory.field_res_territory__description
 msgid "Description"
-msgstr "Descrición"
+msgstr "descrición"
 
 #. module: base_territory
 #: model:ir.model.fields,field_description:base_territory.field_res_branch__display_name
@@ -80,7 +80,7 @@ msgstr "Descrición"
 #: model:ir.model.fields,field_description:base_territory.field_res_region__display_name
 #: model:ir.model.fields,field_description:base_territory.field_res_territory__display_name
 msgid "Display Name"
-msgstr "Nome a Mostrar"
+msgstr "nome a mostrar"
 
 #. module: base_territory
 #: model:ir.model,name:base_territory.model_res_district
@@ -107,7 +107,7 @@ msgstr "Distritos"
 #: model:ir.model.fields,field_description:base_territory.field_res_region__id
 #: model:ir.model.fields,field_description:base_territory.field_res_territory__id
 msgid "ID"
-msgstr "ID"
+msgstr "ID (identificación)"
 
 #. module: base_territory
 #: model:ir.model.fields,field_description:base_territory.field_res_branch____last_update
@@ -115,7 +115,7 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:base_territory.field_res_region____last_update
 #: model:ir.model.fields,field_description:base_territory.field_res_territory____last_update
 msgid "Last Modified on"
-msgstr "Última Modificación en"
+msgstr "modificado por última vez o"
 
 #. module: base_territory
 #: model:ir.model.fields,field_description:base_territory.field_res_branch__write_uid
@@ -123,7 +123,7 @@ msgstr "Última Modificación en"
 #: model:ir.model.fields,field_description:base_territory.field_res_region__write_uid
 #: model:ir.model.fields,field_description:base_territory.field_res_territory__write_uid
 msgid "Last Updated by"
-msgstr "Última Actualización por"
+msgstr "actualizado por última vez por"
 
 #. module: base_territory
 #: model:ir.model.fields,field_description:base_territory.field_res_branch__write_date
@@ -131,7 +131,7 @@ msgstr "Última Actualización por"
 #: model:ir.model.fields,field_description:base_territory.field_res_region__write_date
 #: model:ir.model.fields,field_description:base_territory.field_res_territory__write_date
 msgid "Last Updated on"
-msgstr "Última Actualización en"
+msgstr "Última Actualización o"
 
 #. module: base_territory
 #: model:ir.model.fields,field_description:base_territory.field_res_branch__name
@@ -164,7 +164,7 @@ msgstr "Rexións"
 #. module: base_territory
 #: model:ir.model.fields.selection,name:base_territory.selection__res_territory__type__state
 msgid "State"
-msgstr "Estado"
+msgstr "estado"
 
 #. module: base_territory
 #: model:ir.actions.act_window,name:base_territory.action_res_territory
@@ -182,7 +182,7 @@ msgstr "Territorio"
 #. module: base_territory
 #: model:ir.model.fields,field_description:base_territory.field_res_territory__type
 msgid "Type"
-msgstr "Tipo"
+msgstr "tipo"
 
 #. module: base_territory
 #: model:ir.model.fields,field_description:base_territory.field_res_territory__zip_codes
@@ -192,7 +192,7 @@ msgstr "Códigos postais"
 #. module: base_territory
 #: model:ir.model.fields.selection,name:base_territory.selection__res_territory__type__zip
 msgid "Zip"
-msgstr "Código postal"
+msgstr "Postal"
 
 #. module: base_territory
 #: model:ir.model,name:base_territory.model_res_branch

@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 20:16\n"
-"PO-Revision-Date: 2024-11-07 20:16\n"
+"POT-Creation-Date: 2025-01-21 20:40\n"
+"PO-Revision-Date: 2025-01-21 20:40\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -25,7 +25,7 @@ msgstr "Clicar aquí para crear un novo exercicio fiscal."
 #. module: account_fiscal_year
 #: model:ir.model,name:account_fiscal_year.model_res_company
 msgid "Companies"
-msgstr "Empresas"
+msgstr "Compañías"
 
 #. module: account_fiscal_year
 #: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year__company_id
@@ -51,6 +51,11 @@ msgstr "Nome mostrado"
 #: model:ir.model.fields,field_description:account_fiscal_year.field_account_fiscal_year__date_to
 msgid "End Date"
 msgstr "Data final"
+
+#. module: account_fiscal_year
+#: model:ir.model.fields,field_description:account_fiscal_year.field_res_company__fiscal_year_date_to
+msgid "End Date of the Fiscal Year"
+msgstr ""
 
 #. module: account_fiscal_year
 #: model:ir.model.fields,help:account_fiscal_year.field_account_fiscal_year__date_to
@@ -104,22 +109,29 @@ msgid "Start Date"
 msgstr "Data inicial"
 
 #. module: account_fiscal_year
-#: model:ir.model.fields,help:account_fiscal_year.field_account_fiscal_year__date_from
-msgid "Start Date, included in the fiscal year."
-msgstr "Data de inicio, incluída no exercicio fiscal."
+#: model:ir.model.fields,field_description:account_fiscal_year.field_res_company__fiscal_year_date_from
+msgid "Start Date of the Fiscal Year"
+msgstr ""
 
 #. module: account_fiscal_year
+#: model:ir.model.fields,help:account_fiscal_year.field_account_fiscal_year__date_from
+msgid "Start Date, included in the fiscal year."
+msgstr "Data de inicio, incluída no ano fiscal."
+
+#. module: account_fiscal_year
+#. odoo-python
 #: code:addons/account_fiscal_year/models/account_fiscal_year.py:0
 #, python-format
 msgid "The ending date must not be prior to the starting date."
 msgstr "A data de finalización non debe ser anterior á data de inicio."
 
 #. module: account_fiscal_year
+#. odoo-python
 #: code:addons/account_fiscal_year/models/account_fiscal_year.py:0
 #, python-format
 msgid ""
 "This fiscal year '{fy}' overlaps with '{overlapping_fy}'.\n"
 "Please correct the start and/or end dates of your fiscal years."
 msgstr ""
-"Este exercicio fiscal '{fy}' se lapela con '{overlapping_fy}'.\n"
+"O ano fiscal '{fy}' se lapela con '{overlapping_fy}'.\n"
 "Por favor, corrixa as datas de inicio e/ou fin dos seus exercicios fiscais."

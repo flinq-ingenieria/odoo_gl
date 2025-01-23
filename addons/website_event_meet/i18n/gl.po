@@ -3,16 +3,18 @@
 # 	* website_event_meet
 #
 # Translators:
-# Martin Trigaux, 2021
 # marcescu, 2022
+# Martin Trigaux, 2022
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2022
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2023
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 22:17\n"
-"PO-Revision-Date: 2024-11-08 22:17\n"
+"POT-Creation-Date: 2025-01-21 18:29\n"
+"PO-Revision-Date: 2025-01-21 18:29\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,6 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Revision-Date: 2025-01-23 10:05:29\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: website_event_meet
@@ -35,21 +38,21 @@ msgstr "<b>&amp;#9900;&amp;nbsp;</b>"
 #. module: website_event_meet
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
 msgid ""
-"<i class=\"fa fa-spin fa-circle-o-notch mr-3\"/>\n"
+"<i class=\"fa fa-spin fa-circle-o-notch me-3\"/>\n"
 "                        <span>Loading your room...</span>"
 msgstr ""
-"<i class=\"fa fa-spin fa-circle-o-notch mr-3\"/>\n"
+"<i class=\"fa fa-spin fa-circle-o-notch me-3\"/>\n"
 "                        <span>Cargando sala...</span>"
 
 #. module: website_event_meet
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
-msgid "<span class=\"badge badge-danger\">Unpublished</span>"
-msgstr "<span class=\"badge badge-danger\">Sen publicar</span>"
+msgid "<span class=\"badge text-bg-danger\">Unpublished</span>"
+msgstr "<span class=\"badge text-bg-danger\">Non publicado</span>"
 
 #. module: website_event_meet
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_aside
-msgid "<span class=\"h5 mb-0 pt-0 pt-md-3 pb-0 pb-md-2\">Other Rooms</span>"
-msgstr "<span class=\"h5 mb-0 pt-0 pt-md-3 pb-0 pb-md-2\">Outras salas</span>"
+msgid "<span class=\"h5 m-3\">Other Rooms</span>"
+msgstr "<span class=\"h5 m-3\">Outros Salas</span>"
 
 #. module: website_event_meet
 #: model_terms:ir.ui.view,arch_db:website_event_meet.community_aside
@@ -77,7 +80,7 @@ msgid ""
 "                        Join us here on the"
 msgstr ""
 "<span>Esta sala non se atopa dispoñible polo momento.</span><br/>\n"
-"                        Regrese o"
+"                        Únase aquí no"
 
 #. module: website_event_meet
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
@@ -95,23 +98,20 @@ msgid "All Languages"
 msgstr "Todos os idiomas"
 
 #. module: website_event_meet
-#. openerp-web
-#: code:addons/website_event_meet/static/src/xml/customize_options.xml:0
 #: model:ir.model.fields,field_description:website_event_meet.field_event_event__meeting_room_allow_creation
 #: model:ir.model.fields,field_description:website_event_meet.field_event_type__meeting_room_allow_creation
-#, python-format
 msgid "Allow Room Creation"
 msgstr "Permitir a creación de salas"
 
 #. module: website_event_meet
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_event_meet/static/src/js/website_event_meeting_room.js:0
 #, python-format
 msgid "Are you sure you want to close this room ?"
 msgstr "Está seguro de querer pechar esta sala?"
 
 #. module: website_event_meet
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_event_meet/static/src/js/website_event_meeting_room.js:0
 #, python-format
 msgid "Are you sure you want to duplicate this room ?"
@@ -124,15 +124,15 @@ msgid "Audience"
 msgstr "Audiencia"
 
 #. module: website_event_meet
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
 #, python-format
 msgid ""
 "Be sure you are ready to spend at least 10 minutes in the room if you want "
 "to initiate a new topic."
 msgstr ""
-"Teña en conta que se desexa iniciar un novo tema debe permanecer polo menos "
-"10 minutos na sala."
+"Teña en conta que se desexa iniciar un novo tema debe permanecer mínimo 10 "
+"minutos na sala."
 
 #. module: website_event_meet
 #: model:event.meeting.room,name:website_event_meet.event_meeting_room_0
@@ -145,7 +145,7 @@ msgid "Can Publish"
 msgstr "Pode publicar"
 
 #. module: website_event_meet
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
 #, python-format
 msgid "Capacity"
@@ -162,7 +162,7 @@ msgid ""
 "Choose a topic that interests you and start talking with the community. "
 "<br/> Don't forget to setup your camera and microphone."
 msgstr ""
-"Escolla un tema que lle interese e comece unha conversación coa comunidade. "
+"Elixa un tema do seu interese e inicie unha conversación coa comunidade. "
 "<br/> Non esqueza preparar o seu cámara e micrófono."
 
 #. module: website_event_meet
@@ -171,7 +171,7 @@ msgid "Close"
 msgstr "Pechar"
 
 #. module: website_event_meet
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
 #, python-format
 msgid "Create"
@@ -182,12 +182,12 @@ msgstr "Crear"
 #: model_terms:ir.actions.act_window,help:website_event_meet.event_meeting_room_action
 #: model_terms:ir.ui.view,arch_db:website_event_meet.community_aside
 msgid "Create a Room"
-msgstr "Crear sala"
+msgstr "Crear unha sala"
 
 #. module: website_event_meet
 #: model_terms:ir.ui.view,arch_db:website_event_meet.community_main
 msgid "Create one to get conversations going"
-msgstr "Crea unha para comezar a conversación"
+msgstr "Cre unha para comezar a conversación"
 
 #. module: website_event_meet
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__create_uid
@@ -200,7 +200,7 @@ msgid "Created on"
 msgstr "Creado o"
 
 #. module: website_event_meet
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
 #, python-format
 msgid "Discard"
@@ -232,12 +232,17 @@ msgstr "Evento"
 #. module: website_event_meet
 #: model:ir.model,name:website_event_meet.model_event_meeting_room
 msgid "Event Meeting Room"
-msgstr "Sala de xunta do evento"
+msgstr "Sala de reunión de evento"
 
 #. module: website_event_meet
 #: model:ir.model.fields.selection,name:website_event_meet.selection__website_event_menu__menu_type__meeting_room
 msgid "Event Meeting Room Menus"
-msgstr "Menú de sala de xunta do evento"
+msgstr "Menús de salas de reunións do evento"
+
+#. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.snippet_options
+msgid "Event Page"
+msgstr "Páxina do evento"
 
 #. module: website_event_meet
 #: model:ir.actions.act_window,name:website_event_meet.action_meeting_room_from_event
@@ -278,7 +283,7 @@ msgstr "Está publicado"
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
 msgid "Join us next time to chat about"
-msgstr "Únase á seguinte para falar de"
+msgstr "Únase a próxima vez para falar de"
 
 #. module: website_event_meet
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
@@ -286,7 +291,7 @@ msgid "Join us there to chat about"
 msgstr "Únase para falar de"
 
 #. module: website_event_meet
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__room_lang_id
 #, python-format
@@ -319,7 +324,7 @@ msgid "Last activity"
 msgstr "Última actividade"
 
 #. module: website_event_meet
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
 #, python-format
 msgid "Launch a new topic"
@@ -344,14 +349,14 @@ msgstr "Máxima capacidade"
 #. module: website_event_meet
 #: model:ir.model.fields,help:website_event_meet.field_event_meeting_room__room_max_participant_reached
 msgid "Maximum number of participant reached in the room at the same time"
-msgstr "Número máximo de participantes alcanzado na sala ao mesmo tempo"
+msgstr "Número máximo de participantes alcanzado na sala ao mesmo tempo "
 
 #. module: website_event_meet
 #: model:ir.actions.act_window,name:website_event_meet.event_meeting_room_action
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_form
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_tree
 msgid "Meeting Room"
-msgstr "Sala de reunións"
+msgstr "Sala de reunión"
 
 #. module: website_event_meet
 #: model:ir.model.fields,field_description:website_event_meet.field_event_event__meeting_room_ids
@@ -361,7 +366,7 @@ msgstr "Salas de reunións"
 #. module: website_event_meet
 #: model:ir.model.fields,field_description:website_event_meet.field_website_event_menu__menu_type
 msgid "Menu Type"
-msgstr "Tipo de Menú"
+msgstr "Tipo de menú"
 
 #. module: website_event_meet
 #: model_terms:ir.ui.view,arch_db:website_event_meet.community_main
@@ -371,7 +376,7 @@ msgstr "Non hai salas dispoñibles"
 #. module: website_event_meet
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__room_participant_count
 msgid "Participant count"
-msgstr "Reconto de participantes"
+msgstr "Número de participantes"
 
 #. module: website_event_meet
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__room_max_participant_reached
@@ -389,26 +394,31 @@ msgid "Reporting"
 msgstr "Informes"
 
 #. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.snippet_options
+msgid "Room Creation (Specific)"
+msgstr "Creación de sala (específica)"
+
+#. module: website_event_meet
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__room_is_full
 msgid "Room Is Full"
-msgstr "Sala chea"
+msgstr "A sala está chea"
 
 #. module: website_event_meet
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__room_name
 msgid "Room Name"
-msgstr "Nome da Sala"
+msgstr "Nome da sala"
 
 #. module: website_event_meet
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
 #, python-format
 msgid "Room Topic"
-msgstr "Tema de sala"
+msgstr "Tema da sala"
 
 #. module: website_event_meet
 #: model:ir.model.fields,field_description:website_event_meet.field_event_event__meeting_room_count
 msgid "Room count"
-msgstr "Número de participantes"
+msgstr "Número de salas"
 
 #. module: website_event_meet
 #: model_terms:ir.ui.view,arch_db:website_event_meet.community_aside
@@ -435,7 +445,7 @@ msgstr ""
 "Comparta os seus consellos de redución de impacto ecolóxico usando madeira."
 
 #. module: website_event_meet
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
 #, python-format
 msgid "Short Summary"
@@ -453,7 +463,7 @@ msgid "Summary"
 msgstr "Resumo"
 
 #. module: website_event_meet
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
 #, python-format
 msgid "Target People"
@@ -465,6 +475,7 @@ msgid "The event"
 msgstr "O evento"
 
 #. module: website_event_meet
+#. odoo-python
 #: code:addons/website_event_meet/controllers/website_event_main.py:0
 #, python-format
 msgid ""
@@ -486,6 +497,11 @@ msgid "Topic"
 msgstr "Tema"
 
 #. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_tree
+msgid "Total Participant Count"
+msgstr "Número total de participantes"
+
+#. module: website_event_meet
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_search
 msgid "Unpublished"
 msgstr "Non publicado"
@@ -494,7 +510,7 @@ msgstr "Non publicado"
 #: model:event.meeting.room,summary:website_event_meet.event_meeting_room_2
 msgid ""
 "Venez partager vos meubles préférés et l'utilisation que vous en faites."
-msgstr "Comparta cales son os seus mobles favoritos e para que os usa"
+msgstr "Comparta cales son os seus mobles favoritos e para que os usa."
 
 #. module: website_event_meet
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__website_published
@@ -514,7 +530,7 @@ msgstr "Desexa crear a súa propia sala de conversación?"
 #. module: website_event_meet
 #: model:ir.model,name:website_event_meet.model_website_event_menu
 msgid "Website Event Menu"
-msgstr "Menú de Eventos do Sitio web"
+msgstr "Menú de eventos do sitio web"
 
 #. module: website_event_meet
 #: model:ir.model.fields,field_description:website_event_meet.field_event_meeting_room__website_url
@@ -522,33 +538,38 @@ msgid "Website URL"
 msgstr "URL do sitio web"
 
 #. module: website_event_meet
+#: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_main
+msgid "a few seconds"
+msgstr "uns poucos segundos"
+
+#. module: website_event_meet
 #: model:event.meeting.room,target_audience:website_event_meet.event_meeting_room_2
 msgid "client(s)"
 msgstr "cliente(s)"
 
 #. module: website_event_meet
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_form
 #, python-format
 msgid "e.g. Accountants"
-msgstr "por exemplo, contadores"
+msgstr "p. ex. asesores fiscais"
 
 #. module: website_event_meet
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_form
 #, python-format
 msgid "e.g. Finance"
-msgstr "por exemplo, finanzas"
+msgstr "p. ex. finanzas"
 
 #. module: website_event_meet
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_event_meet/static/src/xml/website_event_meeting_room.xml:0
 #: model_terms:ir.ui.view,arch_db:website_event_meet.event_meeting_room_view_form
 #, python-format
 msgid "e.g. Let's talk about Corporate Finance"
-msgstr "por exemplo, falemos de finanzas corporativas"
+msgstr "p. ex. falemos de finanzas corporativas"
 
 #. module: website_event_meet
 #: model:event.meeting.room,target_audience:website_event_meet.event_meeting_room_1
@@ -591,7 +612,7 @@ msgstr "comeza o"
 #. module: website_event_meet
 #: model_terms:ir.ui.view,arch_db:website_event_meet.meeting_room_card
 msgid "to have a chat with us!"
-msgstr "para falar connosco!"
+msgstr "para falar connosco"
 
 #. module: website_event_meet
 #: model:event.meeting.room,target_audience:website_event_meet.event_meeting_room_0

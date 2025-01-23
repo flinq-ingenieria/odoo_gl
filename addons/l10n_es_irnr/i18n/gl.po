@@ -1,0 +1,24 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_es_irnr
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-22 09:03\n"
+"PO-Revision-Date: 2025-01-22 09:03\n"
+"Last-Translator: zvERP <galego@zverp.com>\n"
+"Language-Team: Xacobe\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: tradutor Zerever\n"
+
+#~ msgid "Retenciones no residentes UE"
+#~ msgstr "Retencións non residentes UE"
+
+#~ msgid "Retenciones no residentes no-UE"
+#~ msgstr "Retencións non residentes non-UE"

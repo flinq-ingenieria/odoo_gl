@@ -4,16 +4,16 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 19:23\n"
-"PO-Revision-Date: 2024-11-08 19:23\n"
+"POT-Creation-Date: 2025-01-21 23:38\n"
+"PO-Revision-Date: 2025-01-21 23:38\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: tradutor Zerever\n"
 
@@ -58,22 +58,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:product_harmonized_system.field_hs_code__company_id
 msgid "Company"
 msgstr "Compañía"
-
-#. module: product_harmonized_system
-#: model:ir.model.fields,field_description:product_harmonized_system.field_product_product__origin_state_id
-#: model:ir.model.fields,field_description:product_harmonized_system.field_product_template__origin_state_id
-msgid "Country State of Origin"
-msgstr "País Estado de orixe"
-
-#. module: product_harmonized_system
-#: model:ir.model.fields,help:product_harmonized_system.field_product_product__origin_state_id
-#: model:ir.model.fields,help:product_harmonized_system.field_product_template__origin_state_id
-msgid ""
-"Country State of origin of the product.\n"
-"This field is used for the Intrastat declaration, selecting one of the Northern Ireland counties will set the code 'XI' for products from the United Kingdom whereas code 'XU' will be used for the other UK counties."
-msgstr ""
-"País Estado de orixe do produto.\n"
-"Este campo utilízase para a declaración Intrastat, seleccionando un dos condados de Irlanda do Norte establecerase o código \"XI\" para os produtos procedentes do Reino Unido, mentres que o código \"XU\" utilizarase para os demais condados do Reino Unido."
 
 #. module: product_harmonized_system
 #: model:ir.model.fields,field_description:product_harmonized_system.field_product_product__origin_country_id
@@ -139,9 +123,9 @@ msgid ""
 "Organisation, see http://www.wcoomd.org/. You can leave this field empty and"
 " configure the H.S. code on the product category."
 msgstr ""
-"Código do Sistema Harmonizado. A nomenclatura está dispoñible na "
-"Organización Mundial de Aduanas, véxase http://www.wcoomd.org/. Pode deixar "
-"este campo baleiro e configurar o código H.S. na categoría de produto."
+"Código de Sistema Harmonizado. Nomenclatura dispoñible en World Customs "
+"Organisation, ver http://www.wcoomd.org/. Pode deixar este campo baleiro e "
+"configurar o código H.S. na categoría de produto.."
 
 #. module: product_harmonized_system
 #: model:ir.model.fields,help:product_harmonized_system.field_hs_code__hs_code
@@ -160,7 +144,7 @@ msgstr "ID"
 #. module: product_harmonized_system
 #: model_terms:ir.ui.view,arch_db:product_harmonized_system.product_category_form_view
 msgid "Import/Export Properties"
-msgstr "Propiedades de importación e exportación"
+msgstr "Propiedades de importación/exportación"
 
 #. module: product_harmonized_system
 #: model:ir.model.fields,field_description:product_harmonized_system.field_hs_code____last_update
@@ -180,7 +164,7 @@ msgstr "Última actualización"
 #. module: product_harmonized_system
 #: model:ir.model.fields,field_description:product_harmonized_system.field_hs_code__local_code
 msgid "Local Code"
-msgstr "Código local"
+msgstr "Código Local"
 
 #. module: product_harmonized_system
 #: model:hs.code,description:product_harmonized_system.85340090
@@ -188,14 +172,14 @@ msgid "Printed circuits"
 msgstr "Circuítos impresos"
 
 #. module: product_harmonized_system
-#: model:ir.model,name:product_harmonized_system.model_product_product
+#: model:ir.model,name:product_harmonized_system.model_product_template
 msgid "Product"
 msgstr "Produto"
 
 #. module: product_harmonized_system
 #: model:ir.model.fields,field_description:product_harmonized_system.field_hs_code__product_categ_count
 msgid "Product Categ Count"
-msgstr "Reconto de categorías de produtos"
+msgstr "Número de Categorías de Produto"
 
 #. module: product_harmonized_system
 #: model:ir.actions.act_window,name:product_harmonized_system.product_categ_hs_code_action
@@ -209,14 +193,14 @@ msgid "Product Category"
 msgstr "Categoría de produto"
 
 #. module: product_harmonized_system
-#: model:ir.model,name:product_harmonized_system.model_product_template
-msgid "Product Template"
-msgstr "Modelo de Produto"
-
-#. module: product_harmonized_system
 #: model:ir.model.fields,field_description:product_harmonized_system.field_hs_code__product_tmpl_count
 msgid "Product Tmpl Count"
-msgstr "Reconto de persoais de produto"
+msgstr "Número de Persoais de Produto"
+
+#. module: product_harmonized_system
+#: model:ir.model,name:product_harmonized_system.model_product_product
+msgid "Product Variant"
+msgstr "Variantes"
 
 #. module: product_harmonized_system
 #: model:ir.actions.act_window,name:product_harmonized_system.product_template_hs_code_action
@@ -227,7 +211,7 @@ msgstr "Produtos"
 #. module: product_harmonized_system
 #: model:ir.model.fields,help:product_harmonized_system.field_hs_code__description
 msgid "Short text description of the H.S. category"
-msgstr "Descricións curtas das categorías H"
+msgstr "Descricións curtas das categorías H.S."
 
 #. module: product_harmonized_system
 #: model:hs.code,description:product_harmonized_system.84717050

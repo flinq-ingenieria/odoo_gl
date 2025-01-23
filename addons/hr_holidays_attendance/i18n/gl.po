@@ -3,18 +3,17 @@
 # 	* hr_holidays_attendance
 #
 # Translators:
-# Martin Trigaux, 2021
-# Jairo Llopis <yajo.sk8@gmail.com>, 2022
-# marcescu, 2022
+# Martin Trigaux, 2022
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2022
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2023
 # Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 22:55\n"
-"PO-Revision-Date: 2024-11-07 22:55\n"
+"POT-Creation-Date: 2025-01-22 23:59\n"
+"PO-Revision-Date: 2025-01-22 23:59\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -25,12 +24,19 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: hr_holidays_attendance
+#. odoo-python
+#: code:addons/hr_holidays_attendance/models/hr_leave_type.py:0
+#, python-format
+msgid "%s hours available"
+msgstr "%s horas dispoñibles"
+
+#. module: hr_holidays_attendance
 #: model:ir.model,name:hr_holidays_attendance.model_hr_attendance
 msgid "Attendance"
 msgstr "Asistencia"
 
 #. module: hr_holidays_attendance
-#. openerp-web
+#. odoo-javascript
 #: code:addons/hr_holidays_attendance/static/src/xml/time_off_calendar.xml:0
 #, python-format
 msgid "Available"
@@ -44,14 +50,21 @@ msgstr "Compañías"
 #. module: hr_holidays_attendance
 #: model:ir.model.fields,field_description:hr_holidays_attendance.field_hr_leave_allocation__hr_attendance_overtime
 msgid "Count Extra Hours"
-msgstr "Contar horas extra"
+msgstr "Contar horas extras"
+
+#. module: hr_holidays_attendance
+#. odoo-javascript
+#: code:addons/hr_holidays_attendance/static/src/xml/time_off_calendar.xml:0
+#, python-format
+msgid "Days"
+msgstr "Días"
 
 #. module: hr_holidays_attendance
 #: model:ir.model.fields,field_description:hr_holidays_attendance.field_hr_leave_type__overtime_deductible
 #: model_terms:ir.ui.view,arch_db:hr_holidays_attendance.hr_employee_view_form_inherit
 #: model_terms:ir.ui.view,arch_db:hr_holidays_attendance.res_users_view_form
 msgid "Deduct Extra Hours"
-msgstr "Descontar horas extra"
+msgstr "Descontar horas extras"
 
 #. module: hr_holidays_attendance
 #: model_terms:ir.ui.view,arch_db:hr_holidays_attendance.hr_leave_allocation_overtime_view_form
@@ -63,23 +76,17 @@ msgstr "Descartar"
 #: model:ir.model.fields,field_description:hr_holidays_attendance.field_hr_leave__overtime_id
 #: model:ir.model.fields,field_description:hr_holidays_attendance.field_hr_leave_allocation__overtime_id
 msgid "Extra Hours"
-msgstr "Horas extra"
+msgstr "Horas extras"
 
 #. module: hr_holidays_attendance
 #: model_terms:ir.ui.view,arch_db:hr_holidays_attendance.hr_attendance_holidays_hr_leave_allocation_view_form_inherit
 #: model_terms:ir.ui.view,arch_db:hr_holidays_attendance.hr_leave_view_form
+#: model_terms:ir.ui.view,arch_db:hr_holidays_attendance.hr_leave_view_form_overtime
 msgid "Extra Hours Available"
-msgstr "Horas extra dispoñible"
+msgstr "Horas extras dispoñible"
 
 #. module: hr_holidays_attendance
-#. openerp-web
-#: code:addons/hr_holidays_attendance/static/src/xml/time_off_calendar.xml:0
-#, python-format
-msgid "HOURS AVAILABLE"
-msgstr "HORAS EXTRA"
-
-#. module: hr_holidays_attendance
-#. openerp-web
+#. odoo-javascript
 #: code:addons/hr_holidays_attendance/static/src/xml/time_off_calendar.xml:0
 #, python-format
 msgid "Hours"
@@ -88,7 +95,7 @@ msgstr "Horas"
 #. module: hr_holidays_attendance
 #: model:ir.model.fields,field_description:hr_holidays_attendance.field_hr_leave_type__hr_attendance_overtime
 msgid "Hr Attendance Overtime"
-msgstr "RR. HH. Asistencia de tempo extra"
+msgstr "Horas extraordinarias de asistencia de RR. HH."
 
 #. module: hr_holidays_attendance
 #: model:ir.actions.act_window,name:hr_holidays_attendance.hr_leave_allocation_overtime_action
@@ -102,19 +109,19 @@ msgid ""
 "Once a time off of this type is approved, extra hours in attendances will be"
 " deducted."
 msgstr ""
-"Unha ves que o tempo persoal deste tipo apróbese, descontaranse as horas "
-"extras en asistencias."
+"Unha vez que este tipo de ausencia apróbese, descontaranse as horas extras "
+"en asistencias."
 
 #. module: hr_holidays_attendance
 #: model:ir.model.fields,field_description:hr_holidays_attendance.field_hr_leave__overtime_deductible
 #: model:ir.model.fields,field_description:hr_holidays_attendance.field_hr_leave_allocation__overtime_deductible
 msgid "Overtime Deductible"
-msgstr "Tempo extra descontable"
+msgstr "Horas extraordinarias descontables"
 
 #. module: hr_holidays_attendance
 #: model:ir.model.fields,field_description:hr_holidays_attendance.field_res_users__request_overtime
 msgid "Request Overtime"
-msgstr "Pedir tempo extra"
+msgstr "Solicitar horas extraordinarias"
 
 #. module: hr_holidays_attendance
 #: model_terms:ir.ui.view,arch_db:hr_holidays_attendance.hr_leave_allocation_overtime_view_form
@@ -122,21 +129,24 @@ msgid "Save"
 msgstr "Gardar"
 
 #. module: hr_holidays_attendance
+#. odoo-python
 #: code:addons/hr_holidays_attendance/models/hr_leave_allocation.py:0
 #, python-format
 msgid ""
 "The employee does not have enough extra hours to extend this allocation."
 msgstr ""
-"O empregado non ten horas extras suficientes para estender esta asignación."
+"O empregado non ten suficientes horas extras para estender esta asignación."
 
 #. module: hr_holidays_attendance
+#. odoo-python
 #: code:addons/hr_holidays_attendance/models/hr_leave.py:0
 #, python-format
 msgid "The employee does not have enough extra hours to extend this leave."
 msgstr ""
-"O empregado non ten horas extras suficientes para estender este permiso."
+"O empregado non ten suficientes horas extras para estender este permiso."
 
 #. module: hr_holidays_attendance
+#. odoo-python
 #: code:addons/hr_holidays_attendance/models/hr_leave_allocation.py:0
 #, python-format
 msgid ""
@@ -145,23 +155,28 @@ msgstr ""
 "O empregado non ten horas extras suficientes para pedir esta asignación."
 
 #. module: hr_holidays_attendance
+#. odoo-python
 #: code:addons/hr_holidays_attendance/models/hr_leave.py:0
 #: code:addons/hr_holidays_attendance/models/hr_leave.py:0
 #, python-format
 msgid "The employee does not have enough extra hours to request this leave."
-msgstr "O empregado non ten horas extras suficientes para pedir este permiso."
+msgstr ""
+"O empregado non ten suficientes horas extras para solicitar este permiso."
 
 #. module: hr_holidays_attendance
+#. odoo-python
 #: code:addons/hr_holidays_attendance/models/hr_leave_allocation.py:0
 #, python-format
 msgid ""
 "The employee does not have enough overtime hours to request this leave."
-msgstr "O empregado non ten horas extras suficientes para pedir este permiso."
+msgstr ""
+"O empregado non ten suficientes horas extraordinarias para solicitar este "
+"permiso."
 
 #. module: hr_holidays_attendance
 #: model:ir.model,name:hr_holidays_attendance.model_hr_leave
 msgid "Time Off"
-msgstr "Tempo persoal"
+msgstr "Ausencias"
 
 #. module: hr_holidays_attendance
 #: model:ir.model,name:hr_holidays_attendance.model_hr_leave_allocation
@@ -177,24 +192,17 @@ msgstr "Tipo de ausencia"
 #: model:ir.model.fields,field_description:hr_holidays_attendance.field_hr_leave__employee_overtime
 #: model:ir.model.fields,field_description:hr_holidays_attendance.field_hr_leave_allocation__employee_overtime
 msgid "Total Overtime"
-msgstr "Total de tempo excedido"
+msgstr "Total de horas extraordinarias"
 
 #. module: hr_holidays_attendance
 #: model:ir.model,name:hr_holidays_attendance.model_res_users
-msgid "Users"
-msgstr "Usuarios"
+msgid "User"
+msgstr "Usuario"
 
 #. module: hr_holidays_attendance
+#. odoo-python
 #: code:addons/hr_holidays_attendance/models/hr_leave.py:0
 #: code:addons/hr_holidays_attendance/models/hr_leave.py:0
 #, python-format
 msgid "You do not have enough extra hours to request this leave"
-msgstr "Non ten horas extra suficientes para pedir este permiso"
-
-#. module: hr_holidays_attendance
-#. openerp-web
-#: code:addons/hr_holidays_attendance/static/src/xml/time_off_calendar.xml:0
-#: code:addons/hr_holidays_attendance/static/src/xml/time_off_calendar.xml:0
-#, python-format
-msgid "requires_allocation"
-msgstr "requires_allocation"
+msgstr "Non ten suficientes horas extras para solicitar este permiso"

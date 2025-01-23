@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 11:54\n"
-"PO-Revision-Date: 2024-11-08 11:54\n"
+"POT-Creation-Date: 2025-01-22 17:49\n"
+"PO-Revision-Date: 2025-01-22 17:49\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,6 +20,7 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: account_tax_balance
+#. odoo-python
 #: code:addons/account_tax_balance/wizard/open_tax_balances.py:0
 #, python-format
 msgid "%(name)s: %(target)s from %(from)s to %(to)s"
@@ -88,7 +89,7 @@ msgstr "Creado en"
 #. module: account_tax_balance
 #: model:ir.model.fields,field_description:account_tax_balance.field_wizard_open_tax_balances__date_range_id
 msgid "Date Range"
-msgstr "Rango Datas"
+msgstr "Período"
 
 #. module: account_tax_balance
 #: model:ir.model.fields,field_description:account_tax_balance.field_wizard_open_tax_balances__display_name
@@ -105,7 +106,7 @@ msgstr "Tipo"
 #. module: account_tax_balance
 #: model:ir.model.fields,field_description:account_tax_balance.field_wizard_open_tax_balances__from_date
 msgid "From Date"
-msgstr "Desde Data"
+msgstr "Desde"
 
 #. module: account_tax_balance
 #: model_terms:ir.ui.view,arch_db:account_tax_balance.view_tax_search_balance
@@ -125,7 +126,7 @@ msgstr "ID"
 #. module: account_tax_balance
 #: model:ir.model,name:account_tax_balance.model_account_move
 msgid "Journal Entry"
-msgstr "Entrada Diario"
+msgstr "Asento contable"
 
 #. module: account_tax_balance
 #: model:ir.model,name:account_tax_balance.model_account_move_line
@@ -148,6 +149,7 @@ msgid "Last Updated on"
 msgstr "Última actualización en"
 
 #. module: account_tax_balance
+#. odoo-python
 #: code:addons/account_tax_balance/models/account_move.py:0
 #, python-format
 msgid "Liquidity"
@@ -164,30 +166,35 @@ msgid "Open Taxes"
 msgstr "Ver impostos"
 
 #. module: account_tax_balance
+#. odoo-python
 #: code:addons/account_tax_balance/models/account_move.py:0
 #, python-format
 msgid "Other"
 msgstr "Outro"
 
 #. module: account_tax_balance
+#. odoo-python
 #: code:addons/account_tax_balance/models/account_move.py:0
 #, python-format
 msgid "Payable"
 msgstr "A pagar"
 
 #. module: account_tax_balance
+#. odoo-python
 #: code:addons/account_tax_balance/models/account_move.py:0
 #, python-format
 msgid "Payable refund"
 msgstr "Devolucións a cobrar"
 
 #. module: account_tax_balance
+#. odoo-python
 #: code:addons/account_tax_balance/models/account_move.py:0
 #, python-format
 msgid "Receivable"
 msgstr "A cobrar"
 
 #. module: account_tax_balance
+#. odoo-python
 #: code:addons/account_tax_balance/models/account_move.py:0
 #, python-format
 msgid "Receivable refund"
@@ -231,7 +238,7 @@ msgstr "Táboa de impostos"
 #. module: account_tax_balance
 #: model:ir.model.fields,field_description:account_tax_balance.field_wizard_open_tax_balances__to_date
 msgid "To Date"
-msgstr "Ata Data"
+msgstr "Ata data"
 
 #. module: account_tax_balance
 #: model_terms:ir.ui.view,arch_db:account_tax_balance.view_tax_tree_balance
@@ -249,6 +256,7 @@ msgid "Total Base Balance"
 msgstr "Total base impoñible"
 
 #. module: account_tax_balance
+#. odoo-python
 #: code:addons/account_tax_balance/models/account_tax.py:0
 #, python-format
 msgid "Unsupported search operator"

@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 16:03\n"
-"PO-Revision-Date: 2024-11-08 16:03\n"
+"POT-Creation-Date: 2025-01-21 16:01\n"
+"PO-Revision-Date: 2025-01-21 16:01\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -41,14 +41,14 @@ msgstr "Creado o"
 #: model:ir.model.fields,field_description:test_queue_job.field_test_queue_job__display_name
 #: model:ir.model.fields,field_description:test_queue_job.field_test_related_action__display_name
 msgid "Display Name"
-msgstr "Mostrar nome"
+msgstr "Mostrar Nome"
 
 #. module: test_queue_job
 #: model:ir.model.fields,field_description:test_queue_job.field_test_queue_channel__id
 #: model:ir.model.fields,field_description:test_queue_job.field_test_queue_job__id
 #: model:ir.model.fields,field_description:test_queue_job.field_test_related_action__id
 msgid "ID"
-msgstr "ID (identificación)"
+msgstr "ID(identificación)"
 
 #. module: test_queue_job
 #: model:ir.model.fields,field_description:test_queue_job.field_test_queue_channel____last_update
@@ -62,7 +62,7 @@ msgstr "Última Modificación o"
 #: model:ir.model.fields,field_description:test_queue_job.field_test_queue_job__write_uid
 #: model:ir.model.fields,field_description:test_queue_job.field_test_related_action__write_uid
 msgid "Last Updated by"
-msgstr "Última actualización por"
+msgstr "Actualizado por Última vez por"
 
 #. module: test_queue_job
 #: model:ir.model.fields,field_description:test_queue_job.field_test_queue_channel__write_date
@@ -79,7 +79,7 @@ msgstr "Nome"
 #. module: test_queue_job
 #: model:ir.model,name:test_queue_job.model_queue_job
 msgid "Queue Job"
-msgstr "Cola de traballo"
+msgstr "Cola de Traballo"
 
 #. module: test_queue_job
 #: model:ir.model,name:test_queue_job.model_test_queue_channel

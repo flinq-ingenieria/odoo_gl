@@ -6,10 +6,10 @@
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 08:38\n"
-"PO-Revision-Date: 2024-11-08 08:38\n"
+"POT-Creation-Date: 2025-01-22 07:38\n"
+"PO-Revision-Date: 2025-01-22 07:38\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,22 +20,36 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: mail_environment
+#: model:ir.model.fields,help:mail_environment.field_fetchmail_server__is_ssl
+msgid ""
+"Connections are encrypted with SSL/TLS through a dedicated port (default: "
+"IMAPS=993, POP3S=995)"
+msgstr ""
+"As conexións cífranse con SSL/TLS a través dun porto dedicado (por defecto: "
+"IMAPS=993, POP3S=995)"
+
+#. module: mail_environment
 #: model:ir.model,name:mail_environment.model_fetchmail_server
 msgid "Incoming Mail Server"
-msgstr "Servidor de Correo Entrante"
+msgstr "Servidor de correo entrante"
 
 #. module: mail_environment
 #: model:ir.model,name:mail_environment.model_ir_mail_server
 msgid "Mail Server"
-msgstr "Servidor de Correo"
+msgstr "Servidor de correo"
+
+#. module: mail_environment
+#: model:ir.model.fields,field_description:mail_environment.field_fetchmail_server__is_ssl
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
 
 #. module: mail_environment
 #: model:ir.model.fields,field_description:mail_environment.field_fetchmail_server__server_env_defaults
 #: model:ir.model.fields,field_description:mail_environment.field_ir_mail_server__server_env_defaults
 msgid "Server Env Defaults"
-msgstr "Valores por defecto da Contorna de Servidor"
+msgstr "Valores por defecto da contorna de servidor"
 
 #. module: mail_environment
 #: model:ir.model.fields,field_description:mail_environment.field_fetchmail_server__server_type
 msgid "Server Type"
-msgstr "Tipo de Servidor"
+msgstr "Tipo de servidor"

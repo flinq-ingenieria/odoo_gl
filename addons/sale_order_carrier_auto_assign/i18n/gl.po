@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 22:53\n"
-"PO-Revision-Date: 2024-11-07 22:53\n"
+"POT-Creation-Date: 2025-01-22 15:42\n"
+"PO-Revision-Date: 2025-01-22 15:42\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -16,6 +16,37 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: tradutor Zerever\n"
+
+#. module: sale_order_carrier_auto_assign
+#: model_terms:ir.ui.view,arch_db:sale_order_carrier_auto_assign.res_config_settings_view_form_sale
+msgid "Assigns automatically delivery carrier on sale order confirmation."
+msgstr ""
+
+#. module: sale_order_carrier_auto_assign
+#: model:ir.model.fields,field_description:sale_order_carrier_auto_assign.field_res_company__carrier_auto_assign
+#: model:ir.model.fields,field_description:sale_order_carrier_auto_assign.field_res_config_settings__carrier_auto_assign
+msgid "Carrier Auto Assign"
+msgstr ""
+
+#. module: sale_order_carrier_auto_assign
+#: model_terms:ir.ui.view,arch_db:sale_order_carrier_auto_assign.res_config_settings_view_form_sale
+msgid "Carrier auto assign"
+msgstr ""
+
+#. module: sale_order_carrier_auto_assign
+#: model:ir.model,name:sale_order_carrier_auto_assign.model_res_company
+msgid "Companies"
+msgstr ""
+
+#. module: sale_order_carrier_auto_assign
+#: model:ir.model,name:sale_order_carrier_auto_assign.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: sale_order_carrier_auto_assign
+#: model:ir.model.fields,help:sale_order_carrier_auto_assign.field_res_config_settings__carrier_auto_assign
+msgid "Enable carrier auto assign on sale order confirmation."
+msgstr ""
 
 #. module: sale_order_carrier_auto_assign
 #: model:ir.model,name:sale_order_carrier_auto_assign.model_sale_order

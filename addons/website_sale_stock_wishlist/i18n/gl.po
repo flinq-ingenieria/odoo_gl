@@ -3,16 +3,17 @@
 # 	* website_sale_stock_wishlist
 #
 # Translators:
-# Martin Trigaux, 2021
-# 36700cd705c35e1852bdffcd0b296648, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2022
+# Wil Odoo, 2024
+# Larissa Manderfeld, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 14:08\n"
-"PO-Revision-Date: 2024-11-08 14:08\n"
+"POT-Creation-Date: 2025-01-21 15:05\n"
+"PO-Revision-Date: 2025-01-21 15:05\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -23,35 +24,63 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: website_sale_stock_wishlist
-#. openerp-web
-#: code:addons/website_sale_stock_wishlist/static/src/xml/product_availability.xml:0
-#, python-format
+#: model_terms:ir.ui.view,arch_db:website_sale_stock_wishlist.product_wishlist
 msgid ""
-"Add the item to your wishlist to be notified when the product is back in "
-"stock."
+"<i class=\"fa fa-bell\"/>\n"
+"                        We'll notify you once the product is back in stock."
 msgstr ""
-"Agregue o artigo á súa lista de desexos para que se lle notifique cando o "
-"produto volva estar dispoñible"
+"<i class=\"fa fa-bell\"/>\n"
+"                        Notificarémoslle cando o produto volva estar dispoñible."
 
 #. module: website_sale_stock_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_stock_wishlist.product_wishlist
-msgid "Be notified when back in stock"
-msgstr "Reciba unha notificación cando volva estar dispoñible"
+msgid ""
+"<i class=\"fa fa-times text-danger\"/>\n"
+"                                Invalid email"
+msgstr ""
+"<i class=\"fa fa-times text-danger\"/>\n"
+"                                Correo electrónico non válido"
 
 #. module: website_sale_stock_wishlist
-#: model_terms:ir.ui.view,arch_db:website_sale_stock_wishlist.availability_email_body
-msgid "Dear Customer,"
-msgstr "Estimado cliente,"
+#: model_terms:ir.ui.view,arch_db:website_sale_stock_wishlist.product_wishlist
+msgid ""
+"<small>\n"
+"                            <i class=\"fa fa-envelope-o\"/>\n"
+"                            Get notified when back in stock\n"
+"                        </small>"
+msgstr ""
+"<small>\n"
+"                            <i class=\"fa fa-envelope-o\"/>\n"
+"                            Reciba unha notificación cando volva estar dispoñible\n"
+"                        </small>"
 
 #. module: website_sale_stock_wishlist
-#: model_terms:ir.ui.view,arch_db:website_sale_stock_wishlist.availability_email_body
-msgid "Order Now"
-msgstr "Pídaa agora"
+#: model_terms:ir.ui.view,arch_db:website_sale_stock_wishlist.product_wishlist
+msgid ""
+"Add\n"
+"                <span class=\"d-none d-md-inline\">to Cart</span>"
+msgstr ""
+"Engadir\n"
+"                <span class=\"d-none d-md-inline\">á cesta</span>"
+
+#. module: website_sale_stock_wishlist
+#. odoo-javascript
+#: code:addons/website_sale_stock_wishlist/static/src/xml/product_availability.xml:0
+#, python-format
+msgid "Add to wishlist"
+msgstr "Engadir a lista de desexos"
+
+#. module: website_sale_stock_wishlist
+#. odoo-javascript
+#: code:addons/website_sale_stock_wishlist/static/src/xml/product_availability.xml:0
+#, python-format
+msgid "Added to your wishlist"
+msgstr "Engadido á súa lista de desexos"
 
 #. module: website_sale_stock_wishlist
 #: model:ir.model,name:website_sale_stock_wishlist.model_product_template
-msgid "Product Template"
-msgstr "Modelo de produto"
+msgid "Product"
+msgstr "Produto"
 
 #. module: website_sale_stock_wishlist
 #: model:ir.model,name:website_sale_stock_wishlist.model_product_wishlist
@@ -59,9 +88,11 @@ msgid "Product Wishlist"
 msgstr "Lista de produtos desexados"
 
 #. module: website_sale_stock_wishlist
-#: model_terms:ir.ui.view,arch_db:website_sale_stock_wishlist.availability_email_body
-msgid "Regards,"
-msgstr "Saúdos, "
+#. odoo-javascript
+#: code:addons/website_sale_stock_wishlist/static/src/xml/product_availability.xml:0
+#, python-format
+msgid "Save for later"
+msgstr "Gardar para máis tarde"
 
 #. module: website_sale_stock_wishlist
 #: model:ir.model.fields,field_description:website_sale_stock_wishlist.field_product_wishlist__stock_notification
@@ -71,29 +102,9 @@ msgstr "Notificación de dispoñibilidade"
 #. module: website_sale_stock_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_stock_wishlist.product_wishlist
 msgid "Temporarily out of stock"
-msgstr "Temporalmente sen existencias"
+msgstr "Temporalmente fóra de stock"
 
 #. module: website_sale_stock_wishlist
-#: model_terms:ir.ui.view,arch_db:website_sale_stock_wishlist.availability_email_body
-msgid "The following product is now available."
-msgstr "O seguinte produto xa está dispoñible."
-
-#. module: website_sale_stock_wishlist
-#: code:addons/website_sale_stock_wishlist/models/product_wishlist.py:0
-#, python-format
-msgid "The product '%(product_name)s' is now available"
-msgstr "O produto \"%(product_name)s\" xa está dispoñible"
-
-#. module: website_sale_stock_wishlist
-#: code:addons/website_sale_stock_wishlist/models/product_wishlist.py:0
-#, python-format
-msgid "Wishlist"
-msgstr "Lista de desexos"
-
-#. module: website_sale_stock_wishlist
-#: model:ir.actions.server,name:website_sale_stock_wishlist.ir_cron_send_availability_email_ir_actions_server
-#: model:ir.cron,cron_name:website_sale_stock_wishlist.ir_cron_send_availability_email
-#: model:ir.cron,name:website_sale_stock_wishlist.ir_cron_send_availability_email
-msgid "Wishlist: send email regarding products availability"
-msgstr ""
-"Lista de desexos: enviar un correo respecto a a dispoñibilidade do produto"
+#: model_terms:ir.ui.view,arch_db:website_sale_stock_wishlist.product_wishlist
+msgid "youremail@gmail.com"
+msgstr "sucorreoelectronico@gmail.com"

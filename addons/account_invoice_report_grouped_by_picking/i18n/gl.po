@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-09 00:53\n"
-"PO-Revision-Date: 2024-11-09 00:53\n"
+"POT-Creation-Date: 2025-01-22 23:52\n"
+"PO-Revision-Date: 2025-01-22 23:52\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -46,7 +46,7 @@ msgstr "<strong>Subtotal: </strong>"
 #. module: account_invoice_report_grouped_by_picking
 #: model:ir.model,name:account_invoice_report_grouped_by_picking.model_account_move
 msgid "Journal Entry"
-msgstr "Entrada diaria"
+msgstr "Apuntamento contable"
 
 #~ msgid "Journal Entries"
 #~ msgstr "Asentos contables"

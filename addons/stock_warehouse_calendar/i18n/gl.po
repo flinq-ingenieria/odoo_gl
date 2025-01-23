@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 10:30\n"
-"PO-Revision-Date: 2024-11-08 10:30\n"
+"POT-Creation-Date: 2025-01-22 07:31\n"
+"PO-Revision-Date: 2025-01-22 07:31\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -30,4 +30,4 @@ msgstr "Almacén"
 #. module: stock_warehouse_calendar
 #: model:ir.model.fields,field_description:stock_warehouse_calendar.field_stock_warehouse__calendar_id
 msgid "Working Hours"
-msgstr "Horario de Traballo"
+msgstr "Horario de traballo"

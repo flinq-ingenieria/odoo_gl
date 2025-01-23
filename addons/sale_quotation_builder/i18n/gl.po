@@ -3,16 +3,15 @@
 # 	* sale_quotation_builder
 #
 # Translators:
-# Martin Trigaux, 2021
-# Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
+# Larissa Manderfeld, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 06:50\n"
-"PO-Revision-Date: 2024-11-08 06:50\n"
+"POT-Creation-Date: 2025-01-22 14:52\n"
+"PO-Revision-Date: 2025-01-22 14:52\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,6 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Revision-Date: 2025-01-23 10:05:30\n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: sale_quotation_builder
@@ -53,7 +53,7 @@ msgid ""
 msgstr ""
 ":\n"
 "                        o contido de abaixo desaparecerá se este produto\n"
-"                        elimínase da cotización."
+"                        elimínase do orzamento."
 
 #. module: sale_quotation_builder
 #: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
@@ -162,8 +162,8 @@ msgstr "Prezo"
 
 #. module: sale_quotation_builder
 #: model:ir.model,name:sale_quotation_builder.model_product_template
-msgid "Product Template"
-msgstr "Modelo de produto"
+msgid "Product"
+msgstr "Produto"
 
 #. module: sale_quotation_builder
 #: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
@@ -232,7 +232,6 @@ msgstr "Termos e condicións"
 #. module: sale_quotation_builder
 #: model:ir.model.fields,help:sale_quotation_builder.field_product_product__quotation_only_description
 #: model:ir.model.fields,help:sale_quotation_builder.field_product_template__quotation_only_description
-#: model:ir.model.fields,help:sale_quotation_builder.field_sale_order_template_line__website_description
 msgid "The quotation description (not used on eCommerce)"
 msgstr "A descrición do orzamento(non utilizada en eCommerce)"
 

@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 19:34\n"
-"PO-Revision-Date: 2024-11-08 19:34\n"
+"POT-Creation-Date: 2025-01-22 08:05\n"
+"PO-Revision-Date: 2025-01-22 08:05\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -59,7 +59,6 @@ msgstr "Motivo de Peche Automático"
 #. module: hr_attendance_autoclose
 #: model:ir.actions.server,name:hr_attendance_autoclose.check_attendance_cron_ir_actions_server
 #: model:ir.cron,cron_name:hr_attendance_autoclose.check_attendance_cron
-#: model:ir.cron,name:hr_attendance_autoclose.check_attendance_cron
 msgid "Check Attendance"
 msgstr "Comprobar asistencia"
 
@@ -71,7 +70,7 @@ msgstr "Compañías"
 #. module: hr_attendance_autoclose
 #: model:ir.model,name:hr_attendance_autoclose.model_res_config_settings
 msgid "Config Settings"
-msgstr "Configuración de Axustes"
+msgstr "Axustes de Configuración"
 
 #. module: hr_attendance_autoclose
 #: model:ir.model.fields,field_description:hr_attendance_autoclose.field_hr_employee__no_autoclose

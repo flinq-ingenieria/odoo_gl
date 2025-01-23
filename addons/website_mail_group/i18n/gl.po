@@ -3,15 +3,15 @@
 # 	* website_mail_group
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
+# Martin Trigaux, 2023
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 01:40\n"
-"PO-Revision-Date: 2024-11-08 01:40\n"
+"POT-Creation-Date: 2025-01-22 05:24\n"
+"PO-Revision-Date: 2025-01-22 05:24\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -24,7 +24,7 @@ msgstr ""
 #. module: website_mail_group
 #: model_terms:ir.ui.view,arch_db:website_mail_group.mail_group_view_form
 msgid "<span class=\"o_stat_text\">Go to <br/>Website</span>"
-msgstr "<span class=\"o_stat_text\">Ir ao  <br/>sitio web</span>"
+msgstr "<span class=\"o_stat_text\">Ir ao <br/>sitio web</span>"
 
 #. module: website_mail_group
 #: model_terms:ir.ui.view,arch_db:website_mail_group.s_group_options
@@ -32,14 +32,9 @@ msgid "Create a public discussion group in your backend"
 msgstr "Cre un grupo de discusión público desde a súa backend"
 
 #. module: website_mail_group
-#: model:ir.ui.menu,name:website_mail_group.mail_group_menu_website_root
-msgid "Groups"
-msgstr "Grupos"
-
-#. module: website_mail_group
-#: model:ir.ui.menu,name:website_mail_group.mail_group_moderation_menu_website
-msgid "List Moderation Rulings"
-msgstr "Lista de regras de moderación"
+#: model_terms:ir.ui.view,arch_db:website_mail_group.snippets
+msgid "Discussion Group"
+msgstr "Grupo de conversación"
 
 #. module: website_mail_group
 #: model:ir.model,name:website_mail_group.model_mail_group
@@ -48,25 +43,31 @@ msgstr "Grupo de correo "
 
 #. module: website_mail_group
 #: model:ir.ui.menu,name:website_mail_group.mail_group_menu_website
-msgid "Mailing List Groups"
-msgstr "Lista de grupos de envío de correo"
+#: model:ir.ui.menu,name:website_mail_group.mail_group_menu_website_root
+msgid "Mailing Lists"
+msgstr "Listas de correo"
 
 #. module: website_mail_group
-#. openerp-web
+#: model:ir.ui.menu,name:website_mail_group.mail_group_moderation_menu_website
+msgid "Moderation Rules"
+msgstr "Regras de moderación"
+
+#. module: website_mail_group
+#. odoo-javascript
 #: code:addons/website_mail_group/static/src/snippets/s_group/options.js:0
 #, python-format
 msgid "Name"
 msgstr "Nome"
 
 #. module: website_mail_group
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_mail_group/static/src/snippets/s_group/options.js:0
 #, python-format
 msgid "New Mail Group"
 msgstr "Novo grupo de correo"
 
 #. module: website_mail_group
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_mail_group/static/src/snippets/s_group/options.js:0
 #: model_terms:ir.ui.view,arch_db:website_mail_group.s_group
 #, python-format
@@ -74,11 +75,11 @@ msgid "Subscribe"
 msgstr "Subscribirse"
 
 #. module: website_mail_group
-#. openerp-web
+#. odoo-javascript
 #: code:addons/website_mail_group/static/src/snippets/s_group/000.js:0
 #, python-format
 msgid "Unsubscribe"
-msgstr "Anular subscrición"
+msgstr "Cancelar subscrición"
 
 #. module: website_mail_group
 #: model_terms:ir.ui.view,arch_db:website_mail_group.s_group

@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 21:42\n"
-"PO-Revision-Date: 2024-11-07 21:42\n"
+"POT-Creation-Date: 2025-01-22 13:57\n"
+"PO-Revision-Date: 2025-01-22 13:57\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,17 +20,17 @@ msgstr ""
 #. module: account_move_line_sale_info
 #: model:ir.model,name:account_move_line_sale_info.model_account_move
 msgid "Journal Entry"
-msgstr "Entradas de Diario"
+msgstr "Entrada Diaria"
 
 #. module: account_move_line_sale_info
 #: model:ir.model,name:account_move_line_sale_info.model_account_move_line
 msgid "Journal Item"
-msgstr "Artigo do Diario"
+msgstr "Artigo Diario"
 
 #. module: account_move_line_sale_info
 #: model_terms:ir.ui.view,arch_db:account_move_line_sale_info.view_account_move_line_filter
 msgid "Sale Order"
-msgstr "Orde de Venda"
+msgstr "Orde de venda"
 
 #. module: account_move_line_sale_info
 #: model:ir.model.fields,field_description:account_move_line_sale_info.field_account_move_line__sale_line_id
@@ -46,14 +46,14 @@ msgstr "Información de venda en Artigos do diario"
 #. module: account_move_line_sale_info
 #: model:ir.model.fields,field_description:account_move_line_sale_info.field_account_move_line__sale_order_id
 msgid "Sales Order"
-msgstr "Orde de Vendas"
+msgstr "Ordes de venda"
 
 #. module: account_move_line_sale_info
 #: model:ir.model,name:account_move_line_sale_info.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Liña de Orde de Vendas"
+msgstr "Liña de Ordes de Venda"
 
 #. module: account_move_line_sale_info
 #: model:ir.model,name:account_move_line_sale_info.model_stock_move
 msgid "Stock Move"
-msgstr "Movemento de Existencias"
+msgstr "Movemento de existencias"

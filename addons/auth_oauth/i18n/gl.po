@@ -3,16 +3,15 @@
 # 	* auth_oauth
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
 # Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 23:22\n"
-"PO-Revision-Date: 2024-11-08 23:22\n"
+"POT-Creation-Date: 2025-01-22 06:54\n"
+"PO-Revision-Date: 2025-01-22 06:54\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -41,12 +40,12 @@ msgstr "Acceso denegado"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_config_settings__auth_oauth_google_enabled
 msgid "Allow users to sign in with Google"
-msgstr "Permitir aos usuarios acceder con Google"
+msgstr "Permita que os usuarios inicien sesión con Google"
 
 #. module: auth_oauth
 #: model_terms:ir.ui.view,arch_db:auth_oauth.res_config_settings_view_form
 msgid "Allow users to sign in with their Google account"
-msgstr "Permitir aos usuarios asinar coa súa conta Google"
+msgstr "Permita que os usuarios inicien sesión coa súa conta de Google"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__enabled
@@ -56,7 +55,7 @@ msgstr "Permitido"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__auth_endpoint
 msgid "Authorization URL"
-msgstr "Ligazón de autorización"
+msgstr "URL de autorización"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__css_class
@@ -67,17 +66,17 @@ msgstr "Clase CSS"
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__client_id
 #: model:ir.model.fields,field_description:auth_oauth.field_res_config_settings__auth_oauth_google_client_id
 msgid "Client ID"
-msgstr "Identificación do cliente"
+msgstr "ID de cliente"
 
 #. module: auth_oauth
 #: model_terms:ir.ui.view,arch_db:auth_oauth.res_config_settings_view_form
 msgid "Client ID:"
-msgstr "Identificación do cliente:"
+msgstr "ID de cliente:"
 
 #. module: auth_oauth
 #: model:ir.model,name:auth_oauth.model_res_config_settings
 msgid "Config Settings"
-msgstr "Opcións de configuración"
+msgstr "Axustes de configuración"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__create_uid
@@ -112,7 +111,7 @@ msgstr "Autenticación de Google"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__id
 msgid "ID"
-msgstr "Identificación"
+msgstr "ID"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider____last_update
@@ -193,7 +192,7 @@ msgstr "Oauth"
 #. module: auth_oauth
 #: model:ir.model.fields,help:auth_oauth.field_res_users__oauth_uid
 msgid "Oauth Provider user_id"
-msgstr "Identificación de usuario OAuth para o provedor"
+msgstr "user_ide do provedor OAuth "
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__name
@@ -218,7 +217,7 @@ msgstr "Secuencia"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_config_settings__server_uri_google
 msgid "Server uri"
-msgstr "Servidor uri"
+msgstr "URI do servidor"
 
 #. module: auth_oauth
 #: code:addons/auth_oauth/controllers/main.py:0
@@ -232,14 +231,14 @@ msgid "System Parameter"
 msgstr "Parámetro do sistema"
 
 #. module: auth_oauth
-#: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__validation_endpoint
-msgid "UserInfo URL"
-msgstr "Ligazón da información do usuario"
+#: model:ir.model,name:auth_oauth.model_res_users
+msgid "User"
+msgstr "Usuario"
 
 #. module: auth_oauth
-#: model:ir.model,name:auth_oauth.model_res_users
-msgid "Users"
-msgstr "Usuarios"
+#: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__validation_endpoint
+msgid "UserInfo URL"
+msgstr "URL de UserInfo"
 
 #. module: auth_oauth
 #: code:addons/auth_oauth/controllers/main.py:0
@@ -249,17 +248,17 @@ msgid ""
 "Please ask for an invitation and be sure to follow the link in your "
 "invitation email."
 msgstr ""
-"Non ten permiso para acceder a esta base de datos ou a súa invitación "
-"expirou. Por favor solicite unha invitación e asegúrese de facer clic na "
-"ligazón no correo de invitación."
+"Non ten acceso a esta base de datos ou a súa invitación expirou. Solicite "
+"unha invitación e asegúrese de facer clic na ligazón do correo de "
+"invitación."
 
 #. module: auth_oauth
 #: model_terms:ir.ui.view,arch_db:auth_oauth.view_oauth_provider_form
 #: model_terms:ir.ui.view,arch_db:auth_oauth.view_oauth_provider_tree
 msgid "arch"
-msgstr "arco"
+msgstr "arquitectura"
 
 #. module: auth_oauth
 #: model_terms:ir.ui.view,arch_db:auth_oauth.res_config_settings_view_form
 msgid "e.g. 1234-xyz.apps.googleusercontent.com"
-msgstr "ex.. 1234-xyz.apps.googleusercontent.com"
+msgstr "ex. 1234-xyz.apps.googleusercontent.com"

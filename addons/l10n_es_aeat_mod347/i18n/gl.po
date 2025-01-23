@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 06:55\n"
-"PO-Revision-Date: 2024-11-08 06:55\n"
+"POT-Creation-Date: 2025-01-22 02:34\n"
+"PO-Revision-Date: 2025-01-22 02:34\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -169,6 +169,7 @@ msgstr ""
 "        "
 
 #. module: l10n_es_aeat_mod347
+#. odoo-python
 #: code:addons/l10n_es_aeat_mod347/models/mod347.py:0
 #, python-format
 msgid "- %(name)s %(id)s"
@@ -176,16 +177,19 @@ msgstr "- %(name)s %(id)s"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_real_estate_record__situation__1
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_real_estate_record__situation__1
 msgid "1 - Spain but Basque Country and Navarra"
 msgstr "1 - España excepto País Vasco e Navarra"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_real_estate_record__situation__2
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_real_estate_record__situation__2
 msgid "2 - Basque Country and Navarra"
 msgstr "2 - País Vasco e Navarra"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_real_estate_record__situation__3
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_real_estate_record__situation__3
 msgid "3 - Spain, without catastral reference"
 msgstr "3 - España, sen referencia catastral"
 
@@ -201,6 +205,7 @@ msgstr "347_details"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_real_estate_record__situation__4
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_real_estate_record__situation__4
 msgid "4 - Foreign"
 msgstr "4 - Estranxeiro"
 
@@ -217,12 +222,12 @@ msgstr "<strong>Importe 2T:</strong>"
 #. module: l10n_es_aeat_mod347
 #: model_terms:ir.ui.view,arch_db:l10n_es_aeat_mod347.report_347_partner_document
 msgid "<strong>Amount 3Q:</strong>"
-msgstr "<strong>Importe 3Q:</strong>"
+msgstr "<strong>Importe 3T:</strong>"
 
 #. module: l10n_es_aeat_mod347
 #: model_terms:ir.ui.view,arch_db:l10n_es_aeat_mod347.report_347_partner_document
 msgid "<strong>Amount 4Q:</strong>"
-msgstr "<strong>Importe 4Q:</strong>"
+msgstr "<strong>Importe 4T:</strong>"
 
 #. module: l10n_es_aeat_mod347
 #: model_terms:ir.ui.view,arch_db:l10n_es_aeat_mod347.report_347_partner_document
@@ -235,8 +240,8 @@ msgid ""
 "<strong>Color codes: </strong> <span class=\"text-info\">Normal "
 "invoices</span> - Refund invoices"
 msgstr ""
-"<strong>Códigos de cor: </strong> <span class=\"text-info\">Facturas "
-"normais</span> - Facturas de reembolso"
+"<strong>Código de cores: </strong> <span class=\"text-info\">Facturas</span>"
+" - Facturas Rectificativas"
 
 #. module: l10n_es_aeat_mod347
 #: model_terms:ir.ui.view,arch_db:l10n_es_aeat_mod347.view_l10n_es_aeat_mod347_partner_record_form
@@ -244,8 +249,8 @@ msgid ""
 "<strong>Color codes: </strong> <span class=\"text-info\">Refund "
 "invoices</span> - Normal invoices"
 msgstr ""
-"<strong>Código de cores: </strong> <span class=\"text-info\">Reembolso de "
-"facturas</span> - Facturas normais"
+"<strong>Código de cores: </strong> <span class=\"text-info\">Facturas "
+"rectificativas</span> - Facturas normais"
 
 #. module: l10n_es_aeat_mod347
 #: model_terms:ir.ui.view,arch_db:l10n_es_aeat_mod347.report_347_partner_document
@@ -254,6 +259,7 @@ msgstr "<strong>Clave de operación:</strong>"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_partner_record__operation_key__a
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_partner_record__operation_key__a
 msgid "A - Adquisiciones de bienes y servicios superiores al límite (1)"
 msgstr "A - Adquisicións de bens e servizos superiores ao límite (1)"
 
@@ -312,7 +318,7 @@ msgstr "Estado da actividade"
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_partner_record__activity_type_icon
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_report__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "Icona de tipo de actvidad"
+msgstr "Icona do tipo de actividade"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_real_estate_record__address
@@ -339,6 +345,7 @@ msgstr "Importe"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_real_estate_record__number_calification__ant
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_real_estate_record__number_calification__ant
 msgid "Ant"
 msgstr "Ant"
 
@@ -350,6 +357,7 @@ msgstr "Cálculo de arquivos adxuntos"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_partner_record__operation_key__b
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_partner_record__operation_key__b
 msgid "B - Entregas de bienes y servicios superiores al límite (1)"
 msgstr "B - Entregas de bens e servizos superiores ao límite (1)"
 
@@ -369,6 +377,7 @@ msgstr ""
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_real_estate_record__number_calification__bis
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_real_estate_record__number_calification__bis
 msgid "Bis"
 msgstr "Bis"
 
@@ -384,6 +393,7 @@ msgstr "Alugueiro do inmoble"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_partner_record__operation_key__c
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_partner_record__operation_key__c
 msgid "C - Cobros por cuenta de terceros superiores al límite (3)"
 msgstr "C - Cobranzas por conta de terceiros superiores ao límite (3)"
 
@@ -464,6 +474,7 @@ msgid "Complement (urbanization, industrial park...)"
 msgstr "Complemento (urbanización, parque industrial...)"
 
 #. module: l10n_es_aeat_mod347
+#. odoo-python
 #: code:addons/l10n_es_aeat_mod347/models/mod347.py:0
 #, python-format
 msgid "Compose Email"
@@ -489,6 +500,7 @@ msgstr "Confirmar como válido"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_partner_record__state__confirmed
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_partner_record__state__confirmed
 msgid "Confirmed"
 msgstr "Confirmado"
 
@@ -500,7 +512,7 @@ msgstr "Contacto"
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_report__contact_email
 msgid "Contact Email"
-msgstr "Correo electrónico de contacto"
+msgstr "Email de contacto"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_report__counterpart_account_id
@@ -540,6 +552,7 @@ msgstr "URL do portal do cliente"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_partner_record__operation_key__d
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_partner_record__operation_key__d
 msgid ""
 "D - Adquisiciones efectuadas por Entidades Públicas (...) superiores al "
 "límite (1)"
@@ -573,11 +586,13 @@ msgstr "Porta"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_real_estate_record__number_calification__dup
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_real_estate_record__number_calification__dup
 msgid "Dup"
 msgstr "Dup"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_partner_record__operation_key__e
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_partner_record__operation_key__e
 msgid ""
 "E - Subvenciones, auxilios y ayudas satisfechas por Ad. Públicas superiores "
 "al límite (1)"
@@ -598,7 +613,7 @@ msgstr "Nº de erros"
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_partner_record__error_text
 msgid "Error Text"
-msgstr "Texto de erro"
+msgstr "Texto de erros"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_real_estate_record__error_text
@@ -607,6 +622,7 @@ msgstr "Erros"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_partner_record__state__exception
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_partner_record__state__exception
 msgid "Exception"
 msgstr "Excepción"
 
@@ -617,6 +633,7 @@ msgstr "Exportar configuración"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_partner_record__operation_key__f
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_partner_record__operation_key__f
 msgid "F - Ventas agencia viaje"
 msgstr "F - Vendas axencia viaxe"
 
@@ -651,7 +668,7 @@ msgstr "Seguidores (Socios)"
 #: model:ir.model.fields,help:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_partner_record__activity_type_icon
 #: model:ir.model.fields,help:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_report__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr "Icona de fonte impresionante, por exemplo fa-tasks"
+msgstr "Fonte awesome icon p.e. fa-tasks"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_account_bank_statement_line__not_in_mod347
@@ -677,6 +694,7 @@ msgstr "Nome Completo"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_partner_record__operation_key__g
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_partner_record__operation_key__g
 msgid "G - Compras agencia viaje"
 msgstr "G - Compras axencia viaxe"
 
@@ -699,7 +717,7 @@ msgstr "Houbo un erro rexistrando a comunicación."
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_partner_record__has_message
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_report__has_message
 msgid "Has Message"
-msgstr "Ten mensaxe"
+msgstr "Hai mensaxes"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_move_record__id
@@ -723,9 +741,7 @@ msgstr "Icona para indicar unha actividade de excepción."
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,help:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_partner_record__message_needaction
-#: model:ir.model.fields,help:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_partner_record__message_unread
 #: model:ir.model.fields,help:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_report__message_needaction
-#: model:ir.model.fields,help:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_report__message_unread
 msgid "If checked, new messages require your attention."
 msgstr "Se está marcado, as novas mensaxes requirirán a súa atención."
 
@@ -798,7 +814,7 @@ msgstr "Diario"
 #. module: l10n_es_aeat_mod347
 #: model:ir.model,name:l10n_es_aeat_mod347.model_account_move
 msgid "Journal Entry"
-msgstr "Entrada Diaria"
+msgstr "Asento Contable"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,help:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_report__journal_id
@@ -807,6 +823,7 @@ msgstr "Diario no que se publica o movemento."
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_real_estate_record__number_type__km_
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_real_estate_record__number_type__km_
 msgid "Kilometer"
 msgstr "Quilómetro"
 
@@ -877,6 +894,7 @@ msgstr "Mensaxes"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_real_estate_record__number_calification__mod
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_real_estate_record__number_calification__mod
 msgid "Mod"
 msgstr "Mod"
 
@@ -894,12 +912,12 @@ msgstr "Modelo 347"
 #. module: l10n_es_aeat_mod347
 #: model:ir.model,name:l10n_es_aeat_mod347.model_l10n_es_aeat_mod347_move_record
 msgid "Move Record"
-msgstr "Mover rexistro"
+msgstr "Rexistro do Asento"
 
 #. module: l10n_es_aeat_mod347
 #: model_terms:ir.ui.view,arch_db:l10n_es_aeat_mod347.view_l10n_es_aeat_mod347_partner_record_form
 msgid "Move record"
-msgstr "Rexistro de asento"
+msgstr "Rexistro do Asento"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_partner_record__move_record_ids
@@ -915,7 +933,7 @@ msgstr "Debe ter nome e apelido."
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_partner_record__my_activity_date_deadline
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_report__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "Data límite da miña Actividade"
+msgstr "Data límite da miña actividade"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_partner_record__activity_date_deadline
@@ -936,6 +954,7 @@ msgid "Next Activity Type"
 msgstr "Seguinte tipo de actividade"
 
 #. module: l10n_es_aeat_mod347
+#. odoo-python
 #: code:addons/l10n_es_aeat_mod347/models/mod347.py:0
 #, python-format
 msgid "No Tax Mapping was found"
@@ -950,6 +969,7 @@ msgstr "Non incluído na declaración 347"
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_real_estate_record__number
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_real_estate_record__number_type__num
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_real_estate_record__number_type__num
 msgid "Number"
 msgstr "Número"
 
@@ -978,7 +998,7 @@ msgstr "Número de erros"
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,help:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_partner_record__message_needaction_counter
 #: model:ir.model.fields,help:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_report__message_needaction_counter
-msgid "Number of messages which requires an action"
+msgid "Number of messages requiring action"
 msgstr "Número de mensaxes que requiren unha acción"
 
 #. module: l10n_es_aeat_mod347
@@ -986,12 +1006,6 @@ msgstr "Número de mensaxes que requiren unha acción"
 #: model:ir.model.fields,help:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_report__message_has_error_counter
 msgid "Number of messages with delivery error"
 msgstr "Número de mensaxes con erro de entrega"
-
-#. module: l10n_es_aeat_mod347
-#: model:ir.model.fields,help:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_partner_record__message_unread_counter
-#: model:ir.model.fields,help:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_report__message_unread_counter
-msgid "Number of unread messages"
-msgstr "Número de mensaxes non lidas"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,help:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_partner_record__cash_basis_operation
@@ -1086,12 +1100,14 @@ msgid "Partner record"
 msgstr "Rexistro de empresa"
 
 #. module: l10n_es_aeat_mod347
+#. odoo-python
 #: code:addons/l10n_es_aeat_mod347/models/mod347.py:0
 #, python-format
 msgid "Partner record errors:\n"
 msgstr "Erros de rexistros de empresas:\n"
 
 #. module: l10n_es_aeat_mod347
+#. odoo-python
 #: code:addons/l10n_es_aeat_mod347/models/mod347.py:0
 #: model_terms:ir.ui.view,arch_db:l10n_es_aeat_mod347.view_l10n_es_aeat_mod347_report_form
 #, python-format
@@ -1105,6 +1121,7 @@ msgstr "Rexistros de empresas"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_partner_record__state__pending
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_partner_record__state__pending
 msgid "Pending"
 msgstr "Pendente"
 
@@ -1116,7 +1133,7 @@ msgstr "Rexistros pendentes"
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_report__period_type
 msgid "Period Type"
-msgstr "Tipo de período"
+msgstr "Período Tipo"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_report__contact_phone
@@ -1124,6 +1141,7 @@ msgid "Phone"
 msgstr "Teléfono"
 
 #. module: l10n_es_aeat_mod347
+#. odoo-python
 #: code:addons/l10n_es_aeat_mod347/models/mod347.py:0
 #, python-format
 msgid ""
@@ -1210,6 +1228,7 @@ msgid "Real estate info"
 msgstr "Información de inmobles"
 
 #. module: l10n_es_aeat_mod347
+#. odoo-python
 #: code:addons/l10n_es_aeat_mod347/models/mod347.py:0
 #, python-format
 msgid "Real estate record errors:\n"
@@ -1277,7 +1296,7 @@ msgstr "Usuario Responsable"
 msgid ""
 "Revíselo y vuelva a intentarlo, o pongase en contacto por correo con "
 "nosotros."
-msgstr "Revíseo e volva tentalo, ou póñase en contacto por correo connosco."
+msgstr "Revíseo e volva tentalo, ou pongase en contacto por correo connosco."
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_partner_record__user_id
@@ -1316,6 +1335,7 @@ msgstr "Enviar correos electrónicos"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_partner_record__state__sent
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_partner_record__state__sent
 msgid "Sent"
 msgstr "Enviado"
 
@@ -1364,6 +1384,7 @@ msgid "State Code"
 msgstr "Código de provincia"
 
 #. module: l10n_es_aeat_mod347
+#. odoo-python
 #: code:addons/l10n_es_aeat_mod347/models/mod347.py:0
 #, python-format
 msgid "State code can only contain digits"
@@ -1399,14 +1420,19 @@ msgid "Support Type"
 msgstr "Tipo de soporte"
 
 #. module: l10n_es_aeat_mod347
+#: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_report__tax_agency_ids
+msgid "Tax Agency"
+msgstr "Axencia Tributaria"
+
+#. module: l10n_es_aeat_mod347
 #: model_terms:ir.ui.view,arch_db:l10n_es_aeat_mod347.report_347_partner_document
 msgid "Tax ID"
-msgstr "Número de identificación fiscal"
+msgstr "NIF"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_partner_record__tax_person_operation
 msgid "Tax Person Operation"
-msgstr "Operación Persoa Fiscal"
+msgstr "Operación de suxeito pasivo"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,help:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_report__operations_limit
@@ -1423,6 +1449,13 @@ msgid "The declaration will show the total of cash operations over this limit"
 msgstr ""
 "A declaración mostrará o total de operacións de efectivo por encima deste "
 "límite"
+
+#. module: l10n_es_aeat_mod347
+#. odoo-python
+#: code:addons/l10n_es_aeat_mod347/models/mod347.py:0
+#, python-format
+msgid "The selected partner doesn't have a VAT or a state code"
+msgstr ""
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_partner_record__third_quarter
@@ -1458,8 +1491,8 @@ msgid ""
 "This will delete all records, and remove possible answers from partners. Are"
 " you sure you want to continue?"
 msgstr ""
-"Isto borrará todos os rexistros e eliminará as posibles respostas dos "
-"socios. Está seguro de que desexa continuar?"
+"Isto borrará todos os rexistros e eliminará as posibles respostas das "
+"empresas. Está seguro de que desexa continuar?"
 
 #. module: l10n_es_aeat_mod347
 #: model_terms:ir.ui.view,arch_db:l10n_es_aeat_mod347.view_l10n_es_aeat_mod347_report_form
@@ -1551,22 +1584,11 @@ msgid "Type of the exception activity on record."
 msgstr "Tipo de actividade de excepción rexistrada."
 
 #. module: l10n_es_aeat_mod347
-#: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_partner_record__message_unread
-#: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_report__message_unread
-msgid "Unread Messages"
-msgstr "Mensaxes non lidas"
-
-#. module: l10n_es_aeat_mod347
-#: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_partner_record__message_unread_counter
-#: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_report__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr "Contador de mensaxes non lidas"
-
-#. module: l10n_es_aeat_mod347
+#. odoo-python
 #: code:addons/l10n_es_aeat_mod347/models/mod347.py:0
 #, python-format
 msgid "VAT must be defined for Spanish Contacts"
-msgstr "Debe definirse o IVE para os contactos españois"
+msgstr "Debe definirse o NIF para os contactos españois"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod347.field_l10n_es_aeat_mod347_partner_record__partner_vat
@@ -1596,6 +1618,7 @@ msgid "Website communication history"
 msgstr "Historial de comunicación do sitio web"
 
 #. module: l10n_es_aeat_mod347
+#. odoo-python
 #: code:addons/l10n_es_aeat_mod347/models/mod347.py:0
 #, python-format
 msgid "Without country code"
@@ -1603,10 +1626,12 @@ msgstr "Sen código de país"
 
 #. module: l10n_es_aeat_mod347
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_aeat_mod347_real_estate_record__number_type__s/n
+#: model:ir.model.fields.selection,name:l10n_es_aeat_mod347.selection__l10n_es_atc_mod415_real_estate_record__number_type__s/n
 msgid "Without number"
 msgstr "Sen número"
 
 #. module: l10n_es_aeat_mod347
+#. odoo-python
 #: code:addons/l10n_es_aeat_mod347/models/mod347.py:0
 #, python-format
 msgid "Without state code"
@@ -1631,6 +1656,9 @@ msgstr "Ano"
 
 #~ msgid "SMS Delivery error"
 #~ msgstr "SMS de erro na entrega"
+
+#~ msgid "Number of messages which requires an action"
+#~ msgstr "Número de mensaxes que requiren unha acción"
 
 #~ msgid "Model"
 #~ msgstr "Modelo"
@@ -1664,6 +1692,15 @@ msgstr "Ano"
 
 #~ msgid "Amount:"
 #~ msgstr "Importe:"
+
+#~ msgid "Number of unread messages"
+#~ msgstr "Número de mensaxes non lidas"
+
+#~ msgid "Unread Messages"
+#~ msgstr "Mensaxes non lidas"
+
+#~ msgid "Unread Messages Counter"
+#~ msgstr "Contador de mensaxes non lidas"
 
 #~ msgid "- %s (%s)"
 #~ msgstr "- %s (%s)"

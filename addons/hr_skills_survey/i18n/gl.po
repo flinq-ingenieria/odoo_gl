@@ -3,14 +3,15 @@
 # 	* hr_skills_survey
 #
 # Translators:
-# Martin Trigaux, 2021
+# Martin Trigaux, 2022
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 05:12\n"
-"PO-Revision-Date: 2024-11-08 05:12\n"
+"POT-Creation-Date: 2025-01-22 15:17\n"
+"PO-Revision-Date: 2025-01-22 15:17\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -33,8 +34,8 @@ msgstr "Tipo de pantalla"
 
 #. module: hr_skills_survey
 #: model:ir.model,name:hr_skills_survey.model_hr_resume_line
-msgid "Resumé line of an employee"
-msgstr "Liña de currículo vitae dun empregado"
+msgid "Resume line of an employee"
+msgstr "Liña de currículo dun empregado"
 
 #. module: hr_skills_survey
 #: model:ir.model,name:hr_skills_survey.model_survey_user_input

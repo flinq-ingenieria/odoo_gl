@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 00:03\n"
-"PO-Revision-Date: 2024-11-08 00:03\n"
+"POT-Creation-Date: 2025-01-21 20:39\n"
+"PO-Revision-Date: 2025-01-21 20:39\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -231,6 +231,12 @@ msgstr "Vendas desde albarás"
 #: model_terms:ir.ui.view,arch_db:sale_report_delivered.view_sale_report_delivered_search
 msgid "Salesperson"
 msgstr "Comercial"
+
+#. module: sale_report_delivered
+#: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__user_from_partner_id
+#: model_terms:ir.ui.view,arch_db:sale_report_delivered.view_sale_report_delivered_search
+msgid "Salesperson From Partner"
+msgstr "Comercial do cliente"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__source_id

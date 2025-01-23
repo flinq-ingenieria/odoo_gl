@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 12:53\n"
-"PO-Revision-Date: 2024-11-08 12:53\n"
+"POT-Creation-Date: 2025-01-22 13:27\n"
+"PO-Revision-Date: 2025-01-22 13:27\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -72,7 +72,7 @@ msgstr "Creado o"
 #: model:ir.actions.act_window,name:jsonifier.act_ui_exports_resolver_view
 #: model:ir.ui.menu,name:jsonifier.ui_exports_resolvers
 msgid "Custom Export Resolvers"
-msgstr "Resolucionadores de exportación personalizados"
+msgstr "Resolucionadores de Exportación Personalizados"
 
 #. module: jsonifier
 #: model:ir.model.fields,field_description:jsonifier.field_ir_exports__global_resolver_id
@@ -90,6 +90,7 @@ msgid "Display Name"
 msgstr "Mostrar Nome"
 
 #. module: jsonifier
+#. odoo-python
 #: code:addons/jsonifier/models/ir_exports_line.py:0
 #, python-format
 msgid "Either set a function or a resolver, not both."
@@ -99,12 +100,12 @@ msgstr "Ou ben establece unha función ou unha resolución, non ambas."
 #: model:ir.actions.act_window,name:jsonifier.act_ui_exports_view
 #: model:ir.ui.menu,name:jsonifier.ui_exports
 msgid "Export Fields"
-msgstr "Exportar campos"
+msgstr "Exportar Campos"
 
 #. module: jsonifier
 #: model:ir.model,name:jsonifier.model_ir_exports_resolver
 msgid "Export Resolver"
-msgstr "Resolver exportacións"
+msgstr "Resolver Exportacións"
 
 #. module: jsonifier
 #: model:ir.model,name:jsonifier.model_ir_exports
@@ -114,7 +115,7 @@ msgstr "Exportacións"
 #. module: jsonifier
 #: model:ir.model,name:jsonifier.model_ir_exports_line
 msgid "Exports Line"
-msgstr "Liña de exportación"
+msgstr "Liña de Exportación"
 
 #. module: jsonifier
 #: model:ir.model.fields.selection,name:jsonifier.selection__ir_exports_resolver__type__field
@@ -178,12 +179,12 @@ msgstr "Agnóstico lingüístico"
 #. module: jsonifier
 #: model:ir.model.fields,field_description:jsonifier.field_ir_exports_resolver____last_update
 msgid "Last Modified on"
-msgstr "Última Modificación o"
+msgstr "Última Modifiación en"
 
 #. module: jsonifier
 #: model:ir.model.fields,field_description:jsonifier.field_ir_exports_resolver__write_uid
 msgid "Last Updated by"
-msgstr "Última Actualzacíón por"
+msgstr "Actualizado por Última vez por"
 
 #. module: jsonifier
 #: model:ir.model.fields,field_description:jsonifier.field_ir_exports_resolver__write_date
@@ -196,6 +197,7 @@ msgid "Name"
 msgstr "Nome"
 
 #. module: jsonifier
+#. odoo-python
 #: code:addons/jsonifier/models/ir_exports_line.py:0
 #, python-format
 msgid "Name and Target must have the same hierarchy depth"
@@ -205,6 +207,13 @@ msgstr "Nome e Destino deben ter a mesma profundidade xerárquica"
 #: model:ir.model.fields,field_description:jsonifier.field_ir_exports_resolver__python_code
 msgid "Python Code"
 msgstr "Código Python"
+
+#. module: jsonifier
+#: model:ir.model.fields,field_description:jsonifier.field_ir_exports__smart_search
+#: model:ir.model.fields,field_description:jsonifier.field_ir_exports_line__smart_search
+#: model:ir.model.fields,field_description:jsonifier.field_ir_exports_resolver__smart_search
+msgid "Smart Search"
+msgstr "Procura Intelixente"
 
 #. module: jsonifier
 #: model:ir.model.fields,field_description:jsonifier.field_ir_exports_line__target
@@ -221,6 +230,7 @@ msgstr ""
 "como field:target"
 
 #. module: jsonifier
+#. odoo-python
 #: code:addons/jsonifier/models/ir_exports_line.py:0
 #, python-format
 msgid ""
@@ -228,7 +238,7 @@ msgid ""
 "'%(name_with_target)s'"
 msgstr ""
 "O obxectivo debe facer referencia ao mesmo campo que en nome '%(name)s' non "
-"en %(name_with_target)s'"
+"en '%(name_with_target)s'"
 
 #. module: jsonifier
 #: model:ir.model.fields,field_description:jsonifier.field_ir_exports_resolver__type
@@ -236,6 +246,7 @@ msgid "Type"
 msgstr "Tipo"
 
 #. module: jsonifier
+#. odoo-python
 #: code:addons/jsonifier/models/models.py:0
 #, python-format
 msgid "Wrong parser configuration for field: `%s`"

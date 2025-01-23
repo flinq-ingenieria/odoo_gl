@@ -3,15 +3,16 @@
 # 	* base_geolocalize
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
+# Larissa Manderfeld, 2023
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 13:57\n"
-"PO-Revision-Date: 2024-11-08 13:57\n"
+"POT-Creation-Date: 2025-01-22 19:56\n"
+"PO-Revision-Date: 2025-01-22 19:56\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -20,30 +21,6 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 "X-Generator: tradutor Zerever\n"
-
-#. module: base_geolocalize
-#: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
-msgid "(refresh)"
-msgstr "(refrescar)"
-
-#. module: base_geolocalize
-#: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
-msgid ""
-"<br/>\n"
-"                                    <span attrs=\"{'invisible': [('date_localization', '=', False)]}\">Updated on: </span>"
-msgstr ""
-"<br/>\n"
-"                                    <span attrs=\"{'invisible': [('date_localization', '=', False)]}\">Actualizado o: </span>"
-
-#. module: base_geolocalize
-#: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
-msgid "<span>, Long: </span>"
-msgstr "<span>, Long.: </span>"
-
-#. module: base_geolocalize
-#: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
-msgid "<span>Lat : </span>"
-msgstr "<span>Lat.: </span>"
 
 #. module: base_geolocalize
 #: model:ir.model.fields,field_description:base_geolocalize.field_res_config_settings__geoloc_provider_id
@@ -58,7 +35,7 @@ msgid ""
 "Visit https://developers.google.com/maps/documentation/geocoding/get-api-key for more information."
 msgstr ""
 "Requírese a clave API para GeoCoding (Lugares).\n"
-"Visita https://developers.google.com/maps/documentation/geocoding/get-api-key para máis información."
+"Visite https://developers.google.com/maps/documentation/geocoding/get-api-key para máis información."
 
 #. module: base_geolocalize
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.res_config_settings_view_form
@@ -66,9 +43,19 @@ msgid "API:"
 msgstr "API:"
 
 #. module: base_geolocalize
+#: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
+msgid "Compute Localization"
+msgstr "Calcular localización"
+
+#. module: base_geolocalize
+#: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
+msgid "Compute based on address"
+msgstr "Calcular segundo a dirección"
+
+#. module: base_geolocalize
 #: model:ir.model,name:base_geolocalize.model_res_config_settings
 msgid "Config Settings"
-msgstr "Opcións de configuración"
+msgstr "Axustes de configuración"
 
 #. module: base_geolocalize
 #: model:ir.model,name:base_geolocalize.model_res_partner
@@ -109,7 +96,7 @@ msgstr "Xeolocalización"
 #. module: base_geolocalize
 #: model:ir.model,name:base_geolocalize.model_base_geo_provider
 msgid "Geo Provider"
-msgstr "Provedor Geo"
+msgstr "Provedor de xeolocalización"
 
 #. module: base_geolocalize
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
@@ -120,7 +107,7 @@ msgstr "Xeolocalización"
 #: model:ir.model.fields,field_description:base_geolocalize.field_res_partner__date_localization
 #: model:ir.model.fields,field_description:base_geolocalize.field_res_users__date_localization
 msgid "Geolocation Date"
-msgstr "Data de Xeolocalización"
+msgstr "Data de xeolocalización"
 
 #. module: base_geolocalize
 #: model:ir.model.fields,field_description:base_geolocalize.field_res_config_settings__geoloc_provider_googlemap_key
@@ -135,7 +122,7 @@ msgstr "ID"
 #. module: base_geolocalize
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.res_config_settings_view_form
 msgid "Key:"
-msgstr "Chave:"
+msgstr "Clave:"
 
 #. module: base_geolocalize
 #: model:ir.model.fields,field_description:base_geolocalize.field_base_geo_provider____last_update
@@ -153,14 +140,30 @@ msgid "Last Updated on"
 msgstr "Última actualización o"
 
 #. module: base_geolocalize
+#: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
+msgid "Lat :"
+msgstr "Latitude:"
+
+#. module: base_geolocalize
+#: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
+msgid "Long:"
+msgstr "Lonxitude:"
+
+#. module: base_geolocalize
 #: model:ir.model.fields,field_description:base_geolocalize.field_base_geo_provider__name
 msgid "Name"
 msgstr "Nome"
 
 #. module: base_geolocalize
+#: code:addons/base_geolocalize/models/res_partner.py:0
+#, python-format
+msgid "No match found for %(partner_names)s address(es)."
+msgstr "Non se atopou coincidencia para as direccións de %(partner_names)s."
+
+#. module: base_geolocalize
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
 msgid "Partner Assignment"
-msgstr "Asignar un partner"
+msgstr "Asignación de socio"
 
 #. module: base_geolocalize
 #: code:addons/base_geolocalize/models/base_geocoder.py:0
@@ -168,6 +171,16 @@ msgstr "Asignar un partner"
 msgid "Provider %s is not implemented for geolocation service."
 msgstr ""
 "O provedor %s non está implementado para o servizo de xeolocalización."
+
+#. module: base_geolocalize
+#: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
+msgid "Refresh"
+msgstr "Actualizar"
+
+#. module: base_geolocalize
+#: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
+msgid "Refresh Localization"
+msgstr "Actualizar localización"
 
 #. module: base_geolocalize
 #: model:ir.model.fields,field_description:base_geolocalize.field_base_geo_provider__tech_name
@@ -198,10 +211,21 @@ msgstr ""
 "Geocoding, Maps Static, Maps Javascript.\n"
 
 #. module: base_geolocalize
+#: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
+msgid "Updated on:"
+msgstr "Actualizado o:"
+
+#. module: base_geolocalize
 #: model:ir.model.fields,help:base_geolocalize.field_res_config_settings__geoloc_provider_googlemap_key
 msgid ""
 "Visit https://developers.google.com/maps/documentation/geocoding/get-api-key"
 " for more information."
 msgstr ""
-"Visita https://developers.google.com/maps/documentation/geocoding/get-api-"
-"key for more information."
+"Visite https://developers.google.com/maps/documentation/geocoding/get-api-"
+"key para obter máis información."
+
+#. module: base_geolocalize
+#: code:addons/base_geolocalize/models/res_partner.py:0
+#, python-format
+msgid "Warning"
+msgstr "Advertencia"

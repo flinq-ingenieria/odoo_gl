@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 23:44\n"
-"PO-Revision-Date: 2024-11-07 23:44\n"
+"POT-Creation-Date: 2025-01-21 20:34\n"
+"PO-Revision-Date: 2025-01-21 20:34\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -50,6 +50,7 @@ msgid "Sales Order Line"
 msgstr "Liña de pedido de vendas"
 
 #. module: sale_commission_salesman
+#. odoo-python
 #: code:addons/sale_commission_salesman/models/res_partner.py:0
 #, python-format
 msgid "You can't have a salesman auto-agent without commission."

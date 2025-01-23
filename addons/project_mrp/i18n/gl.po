@@ -3,15 +3,15 @@
 # 	* project_mrp
 #
 # Translators:
-# Martin Trigaux, 2021
-# marcescu, 2022
+# Martin Trigaux, 2022
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 09:10\n"
-"PO-Revision-Date: 2024-11-08 09:10\n"
+"POT-Creation-Date: 2025-01-22 21:53\n"
+"PO-Revision-Date: 2025-01-22 21:53\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -22,8 +22,8 @@ msgstr ""
 "X-Generator: tradutor Zerever\n"
 
 #. module: project_mrp
+#. odoo-python
 #: code:addons/project_mrp/models/project.py:0
-#: model_terms:ir.ui.view,arch_db:project_mrp.project_project_form_view_inherited
 #, python-format
 msgid "Bills of Materials"
 msgstr "Lista de materiais"
@@ -34,11 +34,12 @@ msgid "BoM Count"
 msgstr "Número de listas de materiais"
 
 #. module: project_mrp
+#. odoo-python
 #: code:addons/project_mrp/models/project.py:0
-#: model_terms:ir.ui.view,arch_db:project_mrp.project_project_form_view_inherited
+#: code:addons/project_mrp/models/project.py:0
 #, python-format
 msgid "Manufacturing Orders"
-msgstr "Ordes de produción"
+msgstr "Ordes de fabricación"
 
 #. module: project_mrp
 #: model:ir.model.fields,field_description:project_mrp.field_project_project__production_count
@@ -54,10 +55,3 @@ msgstr "Proxecto"
 #: model:ir.model.fields,field_description:project_mrp.field_project_project__workorder_count
 msgid "Work Order Count"
 msgstr "Número de ordes de traballo"
-
-#. module: project_mrp
-#: code:addons/project_mrp/models/project.py:0
-#: model_terms:ir.ui.view,arch_db:project_mrp.project_project_form_view_inherited
-#, python-format
-msgid "Work Orders"
-msgstr "Ordenes de traballo"

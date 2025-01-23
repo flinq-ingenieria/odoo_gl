@@ -6,10 +6,10 @@
 # OCA Transbot <transbot@odoo-community.org>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-07 21:55\n"
-"PO-Revision-Date: 2024-11-07 21:55\n"
+"POT-Creation-Date: 2025-01-21 19:07\n"
+"PO-Revision-Date: 2025-01-21 19:07\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -75,6 +75,7 @@ msgid "Quantity"
 msgstr "Cantidade"
 
 #. module: project_task_material
+#. odoo-python
 #: code:addons/project_task_material/models/project.py:0
 #, python-format
 msgid "Quantity of material consumed must be greater than 0."

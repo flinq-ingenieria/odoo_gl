@@ -3,14 +3,15 @@
 # 	* base_import_module
 #
 # Translators:
-# Martin Trigaux, 2021
+# Martin Trigaux, 2022
+# Wil Odoo, 2024
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 17:40\n"
-"PO-Revision-Date: 2024-11-08 17:40\n"
+"POT-Creation-Date: 2025-01-22 09:55\n"
+"PO-Revision-Date: 2025-01-22 09:55\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
@@ -49,13 +50,13 @@ msgstr "Creado o"
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__display_name
 msgid "Display Name"
-msgstr "Nome"
+msgstr "Nome mostrado"
 
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:0
 #, python-format
 msgid "File '%s' exceed maximum allowed file size"
-msgstr "O arquivo '%s' exced o máximo tamaño de arquivo permitido"
+msgstr "O arquivo '%s' excedeu o máximo tamaño de arquivo permitido"
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__force
@@ -171,7 +172,7 @@ msgstr "Estado"
 #: code:addons/base_import_module/models/ir_module.py:0
 #, python-format
 msgid "Studio customizations require Studio"
-msgstr "A personalización de Studio require contar con Studio"
+msgstr "A personalización de Studio require Studio"
 
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:0
@@ -194,7 +195,7 @@ msgstr ""
 #. module: base_import_module
 #: model:ir.model,name:base_import_module.model_ir_ui_view
 msgid "View"
-msgstr "Ver"
+msgstr "Vista"
 
 #. module: base_import_module
 #: model:ir.model.fields.selection,name:base_import_module.selection__base_import_module__state__done

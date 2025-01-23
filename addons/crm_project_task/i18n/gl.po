@@ -4,17 +4,17 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-09 00:08\n"
-"PO-Revision-Date: 2024-11-09 00:08\n"
+"POT-Creation-Date: 2025-01-22 06:02\n"
+"PO-Revision-Date: 2025-01-22 06:02\n"
 "Last-Translator: zvERP <galego@zverp.com>\n"
 "Language-Team: Xacobe\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: \n"
 "X-Generator: tradutor Zerever\n"
 
 #. module: crm_project_task
@@ -44,7 +44,7 @@ msgstr "Compañías"
 #. module: crm_project_task
 #: model:ir.model,name:crm_project_task.model_res_config_settings
 msgid "Config Settings"
-msgstr "Configuración de Axustes"
+msgstr "Opcións de configuración"
 
 #. module: crm_project_task
 #: model:ir.actions.act_window,name:crm_project_task.wizard_crm_create_task_action
@@ -82,27 +82,27 @@ msgstr "Descrición"
 #. module: crm_project_task
 #: model:ir.model.fields,field_description:crm_project_task.field_crm_create_task__display_name
 msgid "Display Name"
-msgstr "Mostrar Nome"
+msgstr "Nome mostrado"
 
 #. module: crm_project_task
 #: model:ir.model.fields,field_description:crm_project_task.field_crm_create_task__id
 msgid "ID"
-msgstr "ID (identificación)"
+msgstr "Identificación"
 
 #. module: crm_project_task
 #: model:ir.model.fields,field_description:crm_project_task.field_crm_create_task____last_update
 msgid "Last Modified on"
-msgstr "Última Modificación o"
+msgstr "Última modificación o"
 
 #. module: crm_project_task
 #: model:ir.model.fields,field_description:crm_project_task.field_crm_create_task__write_uid
 msgid "Last Updated by"
-msgstr "Actualizado por Última vez por"
+msgstr "Última actualización por"
 
 #. module: crm_project_task
 #: model:ir.model.fields,field_description:crm_project_task.field_crm_create_task__write_date
 msgid "Last Updated on"
-msgstr "Última Actualización o"
+msgstr "Última actualización o"
 
 #. module: crm_project_task
 #: model:ir.model.fields,field_description:crm_project_task.field_project_task__lead_id
@@ -116,6 +116,7 @@ msgid "Lead/Opportunity"
 msgstr "Iniciativa/Oportundad"
 
 #. module: crm_project_task
+#. odoo-python
 #: code:addons/crm_project_task/wizards/crm_create_task.py:0
 #, python-format
 msgid "Lead/Opportunity not found. Please, create task from lead/opportunity."
@@ -124,6 +125,7 @@ msgstr ""
 "iniciativa/Oportunidade."
 
 #. module: crm_project_task
+#. odoo-python
 #: code:addons/crm_project_task/wizards/crm_create_task.py:0
 #, python-format
 msgid ""
@@ -144,6 +146,7 @@ msgid "Task"
 msgstr "Tarefa"
 
 #. module: crm_project_task
+#. odoo-python
 #: code:addons/crm_project_task/wizards/crm_create_task.py:0
 #, python-format
 msgid ""
@@ -159,6 +162,7 @@ msgid "Task Name"
 msgstr "Nome de tarefa"
 
 #. module: crm_project_task
+#. odoo-python
 #: code:addons/crm_project_task/wizards/crm_create_task.py:0
 #, python-format
 msgid ""
