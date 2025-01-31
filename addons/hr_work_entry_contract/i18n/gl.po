@@ -172,7 +172,7 @@ msgid ""
 "work entries."
 msgstr ""
 "Co fin de rexenerar as entradas de traballo, necesitas proporcionar ao "
-"asistente o employee_ide, dáche_from e dáche_to. Ademais diso, o intervalo "
+"asistente o employee_id, dáche_from e dáche_to. Ademais diso, o intervalo "
 "de tempo definido por dáche_from e dáche_to non debe conter ningunha entrada"
 " de traballo validada."
 
