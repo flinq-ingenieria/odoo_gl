@@ -47,7 +47,7 @@ msgid ""
 "'Expenses - %s - %s' % (object.employee_id.name, (object.name).replace('/', "
 "''))"
 msgstr ""
-"'Gastos - %s - %s' % (object.employee_ide.name, (object.name).replace('/', "
+"'Gastos - %s - %s' % (object.employee_id.name, (object.name).replace('/', "
 "''))"
 
 #. module: hr_expense
