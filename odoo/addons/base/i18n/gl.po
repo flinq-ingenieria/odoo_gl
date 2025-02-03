@@ -31424,7 +31424,7 @@ msgstr ""
 "campos actuais. É unha lista separada por comas de nomes de campo, como "
 "<code>name, size</code>. Podes tamén referirche a campos accesibles a través"
 " doutros campos relacionales, por instancia "
-"<code>partner_ide.company_ide.name</code>."
+"<code>partner_ide.company_id.name</code>."
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_model_fields_form
@@ -31439,7 +31439,7 @@ msgstr ""
 "campos actuais. É unha lista separada por comas de nomes de campo, como "
 "<code>name, size</code>. Podes tamén referirche a campos accesibles a través"
 " doutros campos relacionales, por instancia "
-"<code>partner_ide.company_ide.name</code>."
+"<code>partner_ide.company_id.name</code>."
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall

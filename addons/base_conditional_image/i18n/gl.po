@@ -30,7 +30,7 @@ msgid ""
 "company then, if no match is found, the ones without a company."
 msgstr ""
 "Comprobación relacionada coa compañía. Se o obxecto herdado non ten un campo"
-" `company_ide`, será ignorado. A comprobación tomará primeiro os rexistros "
+" `company_id`, será ignorado. A comprobación tomará primeiro os rexistros "
 "con compañía e logo, se non se atopa ningunha coincidencia, os que non teñan"
 " compañía."
 

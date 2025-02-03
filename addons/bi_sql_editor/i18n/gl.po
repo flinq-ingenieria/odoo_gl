@@ -195,7 +195,7 @@ msgid ""
 msgstr ""
 "Defina aquí a restrición de acceso aos datos.\n"
 " Asegúrese de utilizar un nome de campo precedido por \"x_\". Crearase unha regra global. Unha regra multiempresa típica é, por exemplo \n"
-" ['|', ('x_company_ide','child_of', [user.company_ide.ide]),('x_company_ide','=',False)]."
+" ['|', ('x_company_id','child_of', [user.company_id.ide]),('x_company_id','=',False)]."
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__display_name

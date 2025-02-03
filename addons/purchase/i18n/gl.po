@@ -3248,4 +3248,4 @@ msgstr "día(s) antes"
 #: model:mail.template,subject:purchase.email_template_edi_purchase_done
 #: model:mail.template,subject:purchase.email_template_edi_purchase_reminder
 msgid "{{ object.company_id.name }} Order (Ref {{ object.name or 'n/a' }})"
-msgstr "{{ object.company_ide.name }} Pedido (Ref {{ object.name or 'n/a' }})"
+msgstr "{{ object.company_id.name }} Pedido (Ref {{ object.name or 'n/a' }})"

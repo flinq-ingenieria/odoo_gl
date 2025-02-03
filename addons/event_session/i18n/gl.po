@@ -2483,7 +2483,7 @@ msgstr "A súa insignia para {{ object.session_ide.name }}"
 #. module: event_session
 #: model:mail.template,subject:event_session.event_session_subscription
 msgid "Your registration at {{ object.session_id.name }}"
-msgstr "A súa inscrición para {{ object.user_ide.company_ide.name }}"
+msgstr "A súa inscrición para {{ object.user_ide.company_id.name }}"
 
 #. module: event_session
 #: model:ir.model.fields,help:event_session.field_event_session__event_registrations_started

@@ -623,7 +623,7 @@ msgstr "xp"
 #. module: website_profile
 #: model:mail.template,subject:website_profile.validation_email
 msgid "{{ object.company_id.name }} Profile validation"
-msgstr "{{ object.company_ide.name }} Validación do perfil"
+msgstr "{{ object.company_id.name }} Validación do perfil"
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_sub_nav
