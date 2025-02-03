@@ -422,7 +422,7 @@ msgid ""
 "object.company_id.name }} is pending to sign"
 msgstr ""
 "Mandato SAIBA {{ object.unique_mandate_reference or 'n/a' }} para {{ "
-"object.company_ide.name }} está pendente de asinar"
+"object.company_id.name }} está pendente de asinar"
 
 #. module: account_banking_sepa_direct_debit
 #: model:mail.template,name:account_banking_sepa_direct_debit.email_template_sepa_mandate

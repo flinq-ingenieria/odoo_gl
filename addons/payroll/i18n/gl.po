@@ -1803,7 +1803,7 @@ msgstr "Días traballados da nómina"
 msgid ""
 "Payslip for {{object.payslip_run_id.name}} from {{object.company_id.name}}"
 msgstr ""
-"Nómina para {{object.payslip_run_ide.name}} de {{object.company_ide.name}}"
+"Nómina para {{object.payslip_run_ide.name}} de {{object.company_id.name}}"
 
 #. module: payroll
 #. odoo-python
@@ -2490,7 +2490,7 @@ msgstr "total_net"
 #~ "Payslip for ${object.payslip_run_id.name} from ${object.company_id.name}"
 #~ msgstr ""
 #~ "Liquidacións para ${object.payslip_run_ide.name} de "
-#~ "${object.company_ide.name}"
+#~ "${object.company_id.name}"
 
 #~ msgid "Number of unread messages"
 #~ msgstr "Cantidade de mensaxes non leidos"

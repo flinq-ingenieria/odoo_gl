@@ -402,8 +402,8 @@ msgid ""
 "{{ object.pricelist_id.company_id.name or object.write_uid.company_id.name "
 "}} Pricelist (Ref {{ object.pricelist_id.name or 'n/a' }})"
 msgstr ""
-"{{ object.pricelist_ide.company_ide.name or "
-"object.write_uid.company_ide.name }} Tarifa (Ref {{ "
+"{{ object.pricelist_ide.company_id.name or "
+"object.write_uid.company_id.name }} Tarifa (Ref {{ "
 "object.pricelist_ide.name or 'n/a' }})"
 
 #. module: product_pricelist_direct_print

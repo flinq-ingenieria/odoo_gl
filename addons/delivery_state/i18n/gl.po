@@ -197,7 +197,7 @@ msgid ""
 "object.company_id.name }}"
 msgstr ""
 "O seu pedido {{ object.carrier_tracking_ref or object.name }} de {{ "
-"object.company_ide.name }}"
+"object.company_id.name }}"
 
 #~ msgid ""
 #~ "<div style=\"margin: 0px; padding: 0px;\">\n"

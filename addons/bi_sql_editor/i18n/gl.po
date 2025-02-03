@@ -207,7 +207,7 @@ msgid ""
 msgstr ""
 "Defina aquí a restrición de acceso aos datos.\n"
 " Teña coidado de utilizar o nome do campo co prefixo 'x_'. Crearase unha 'ir.rule' global. Unha regra típica de varias empresas é, por exemplo\n"
-" ['|', ('x_company_ide','child_of', [user.company_ide.ide]),('x_company_ide','=',False)]."
+" ['|', ('x_company_id','child_of', [user.company_id.ide]),('x_company_id','=',False)]."
 
 #. module: bi_sql_editor
 #: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form

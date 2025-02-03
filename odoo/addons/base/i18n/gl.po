@@ -34904,7 +34904,7 @@ msgstr ""
 "                                                depende o campo actual. É unha lista de nomes de campos\n"
 "                                                separados por comas, como <code>nome, tamaño</code>. Tamén se pode referir a campos \n"
 "                                                accesibles a través doutros campos relacionales, por exemplo\n"
-"                                                <code>partner_ide.company_ide.name</code>."
+"                                                <code>partner_ide.company_id.name</code>."
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_model_fields_form
@@ -34919,7 +34919,7 @@ msgstr ""
 "                                                depende o campo actual. É unha lista de nomes de campos\n"
 "                                                separados por compas, como <code>nome, tamaño</code>. Tamén se pode referir a campos \n"
 "                                                accesibles a través doutros campos relacionales, por exemplo\n"
-"                                                <code>partner_ide.company_ide.name</code>."
+"                                                <code>partner_ide.company_id.name</code>."
 
 #. module: base
 #. odoo-python

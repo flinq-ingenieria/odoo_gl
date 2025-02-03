@@ -2496,7 +2496,7 @@ msgstr "en"
 #: model:mail.template,subject:contract.email_contract_template
 msgid "{{ object.company_id.name }} Contract (Ref {{ object.name or 'n/a' }})"
 msgstr ""
-"{{ object.company_ide.name }} Contrato (Ref {{ object.name or 'n/a' }})"
+"{{ object.company_id.name }} Contrato (Ref {{ object.name or 'n/a' }})"
 
 #. module: contract
 #: model:mail.template,subject:contract.mail_template_contract_modification
@@ -2504,5 +2504,5 @@ msgid ""
 "{{ object.company_id.name }} Contract (Ref {{ object.name or 'n/a' }}) - "
 "Modifications"
 msgstr ""
-"{{ object.company_ide.name }} Contrato (Ref {{ object.name or 'n/a' }}) - "
+"{{ object.company_id.name }} Contrato (Ref {{ object.name or 'n/a' }}) - "
 "Modificacións"

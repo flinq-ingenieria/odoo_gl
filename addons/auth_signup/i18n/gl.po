@@ -992,7 +992,7 @@ msgstr "Usuarios: notificar usuarios non rexistrados"
 #. module: auth_signup
 #: model:mail.template,subject:auth_signup.mail_template_user_signup_account_created
 msgid "Welcome to {{ object.company_id.name }}!"
-msgstr "Dámoslle a benvida a {{ object.company_ide.name }}!"
+msgstr "Dámoslle a benvida a {{ object.company_id.name }}!"
 
 #. module: auth_signup
 #. odoo-python
@@ -1023,5 +1023,5 @@ msgid ""
 "{{ object.create_uid.name }} from {{ object.company_id.name }} invites you "
 "to connect to Odoo"
 msgstr ""
-"{{ object.create_uid.name }} de {{ object.company_ide.name }} convídalle a "
+"{{ object.create_uid.name }} de {{ object.company_id.name }} convídalle a "
 "conectarse con Odoo"

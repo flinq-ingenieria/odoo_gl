@@ -31,7 +31,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"                {{ (object.company_ide.name + ': Alégranos informarlle que a súa orde co número ' + object.origin + ' foi enviada.' if object.origin else object.company_ide.name + ': Alégranos informarlle que a súa orde foi enviada.') + (' A súa referencia de rastrexo é ' + (object.carrier_tracking_ref) + '.' if hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref else '') }}\n"
+"                {{ (object.company_id.name + ': Alégranos informarlle que a súa orde co número ' + object.origin + ' foi enviada.' if object.origin else object.company_id.name + ': Alégranos informarlle que a súa orde foi enviada.') + (' A súa referencia de rastrexo é ' + (object.carrier_tracking_ref) + '.' if hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref else '') }}\n"
 "            "
 
 #. module: stock_sms

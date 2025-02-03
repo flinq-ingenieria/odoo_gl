@@ -199,7 +199,7 @@ msgid ""
 " and company_id fields."
 msgstr ""
 "Modelo que sexa 'de tipo apunte', é dicir, que teña polo menos os campos "
-"debit, credit, dáche, account_ide e company_ide."
+"debit, credit, dáche, account_ide e company_id."
 
 #. module: mis_builder
 #: model:ir.model.fields,help:mis_builder.field_mis_report__move_lines_source

@@ -6583,4 +6583,4 @@ msgstr "xerarán tarefas no seu proxecto"
 #. module: project
 #: model:mail.template,subject:project.rating_project_request_email_template
 msgid "{{ object.project_id.company_id.name }}: Satisfaction Survey"
-msgstr "{{ object.project_ide.company_ide.name }}: Enquisa de satisfacción"
+msgstr "{{ object.project_ide.company_id.name }}: Enquisa de satisfacción"

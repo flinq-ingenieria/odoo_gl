@@ -1994,13 +1994,13 @@ msgstr "A súa tarxeta de agasallo"
 #. module: loyalty
 #: model:mail.template,subject:loyalty.mail_template_gift_card
 msgid "Your Gift Card at {{ object.company_id.name }}"
-msgstr "A súa tarxeta de agasallo de {{ object.company_ide.name }}"
+msgstr "A súa tarxeta de agasallo de {{ object.company_id.name }}"
 
 #. module: loyalty
 #: model:mail.template,subject:loyalty.mail_template_loyalty_card
 msgid "Your reward coupon from {{ object.program_id.company_id.name }} "
 msgstr ""
-"O seu cupón de recompensa de {{ object.program_ide.company_ide.name }}"
+"O seu cupón de recompensa de {{ object.program_ide.company_id.name }}"
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban

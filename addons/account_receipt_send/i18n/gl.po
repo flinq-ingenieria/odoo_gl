@@ -115,4 +115,4 @@ msgstr "Enviar & Imprimir"
 #. module: account_receipt_send
 #: model:mail.template,subject:account_receipt_send.email_template_edi_receipt
 msgid "{{ object.company_id.name }} Receipt (Ref {{ object.name or 'n/a' }})"
-msgstr "{{ object.company_ide.name }} Recibo (Ref {{ object.name or 'n/a' }})"
+msgstr "{{ object.company_id.name }} Recibo (Ref {{ object.name or 'n/a' }})"
