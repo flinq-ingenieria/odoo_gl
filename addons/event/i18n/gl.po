@@ -49,7 +49,7 @@ msgid ""
 "'Foldable Badge - %s - %s' % ((object.event_id.name or "
 "'Event').replace('/',''), object.name.replace('/',''))"
 msgstr ""
-"'Insignia pregable - %s - %s' % ((object.event_ide.name or "
+"'Insignia pregable - %s - %s' % ((object.event_id.name or "
 "'Event').replace('/',''), object.name.replace('/',''))"
 
 #. module: event
@@ -63,7 +63,7 @@ msgid ""
 "'Full Page Ticket - %s - %s' % ((object.event_id.name or "
 "'Event').replace('/',''), object.name.replace('/',''))"
 msgstr ""
-"'Ticket de páxina completa - %s - %s' % ((object.event_ide.name or "
+"'Ticket de páxina completa - %s - %s' % ((object.event_id.name or "
 "'Evento').replace('/',''), object.name.replace('/',''))"
 
 #. module: event
@@ -2155,7 +2155,7 @@ msgstr "Insignia pregable"
 msgid ""
 "Foldable Badge - {{ (object.event_id.name or 'Event').replace('/','_') }}"
 msgstr ""
-"Insignia pregable - {{ (object.event_ide.name or 'Evento').replace('/','_') "
+"Insignia pregable - {{ (object.event_id.name or 'Evento').replace('/','_') "
 "}}"
 
 #. module: event
@@ -2251,7 +2251,7 @@ msgstr "Entrada de páxina completa"
 msgid ""
 "Full Page Ticket - {{ (object.event_id.name or 'Event').replace('/','') }}"
 msgstr ""
-"Ticket de páxina completa - {{ (object.event_ide.name or "
+"Ticket de páxina completa - {{ (object.event_id.name or "
 "'Event').replace('/','') }}"
 
 #. module: event
@@ -3963,12 +3963,12 @@ msgstr ""
 #. module: event
 #: model:mail.template,subject:event.event_registration_mail_template_badge
 msgid "Your badge for {{ object.event_id.name }}"
-msgstr "A súa insignia para {{ object.event_ide.name }}"
+msgstr "A súa insignia para {{ object.event_id.name }}"
 
 #. module: event
 #: model:mail.template,subject:event.event_subscription
 msgid "Your registration at {{ object.event_id.name }}"
-msgstr "A súa inscrición a {{ object.event_ide.name }}"
+msgstr "A súa inscrición a {{ object.event_id.name }}"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_view_form_quick_create
@@ -4068,4 +4068,4 @@ msgstr "non confirmado"
 #. module: event
 #: model:mail.template,subject:event.event_reminder
 msgid "{{ object.event_id.name }}: {{ object.get_date_range_str() }}"
-msgstr "{{ object.event_ide.name }}: {{ object.get_dáche_range_str() }}"
+msgstr "{{ object.event_id.name }}: {{ object.get_dáche_range_str() }}"

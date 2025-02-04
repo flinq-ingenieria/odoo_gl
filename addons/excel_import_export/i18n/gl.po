@@ -76,7 +76,7 @@ msgstr ""
 "<b>Cond. de campo</b>: código Python en <code>${...}</code> para manipular o"
 " valor do campo, por exemplo, se campo = product_ide, <code>value</code> "
 "representará o produto obxecto, por exemplo, <code>${valor e "
-"valor.uom_ide.name ou \"\"}</code>"
+"valor.uom_id.name ou \"\"}</code>"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -105,7 +105,7 @@ msgid ""
 "<b>Field</b>: Field of the record, e.g., product_id.uom_id.name. They are "
 "orm compliant."
 msgstr ""
-"<b>Campo</b>: Campo do rexistro, por exemplo, product_ide.uom_ide.name. "
+"<b>Campo</b>: Campo do rexistro, por exemplo, product_id.uom_id.name. "
 "Cumpren coas normas."
 
 #. module: excel_import_export
@@ -224,11 +224,11 @@ msgstr ""
 "    '__EXPORT__': {\n"
 "        'sae_order': {  # sheet can be name (string) or index (integer)\n"
 "            '_HEAD_': {\n"
-"                'B2': 'partner_ide.display_name${value or \"\"}#{align=left;style=text}',\n"
+"                'B2': 'partner_id.display_name${value or \"\"}#{align=left;style=text}',\n"
 "                'B3': 'name${value or \"\"}#{align=left;style=text}',\n"
 "            },\n"
 "            'line_ids': {  # prefix with _CONT_ to continue rows from previous row field\n"
-"                'A6': 'product_ide.display_name${value or \"\"}#{style=text}',\n"
+"                'A6': 'product_id.display_name${value or \"\"}#{style=text}',\n"
 "                'C6': 'product_uom_qty${value or 0}#{style=number}',\n"
 "                'E6': 'price_unit${value or 0}#{style=number}',\n"
 "                'G6': 'price_subtotal${value or 0}#{style=number}',\n"
@@ -877,7 +877,7 @@ msgid ""
 " cells (e.g., B1, B2)."
 msgstr ""
 "Na parte da sección do encabezado, asigne os campos de datos (por exemplo, "
-"número, socio_ide.nome) a celas (por exemplo, B1, B2)."
+"número, socio_id.nome) a celas (por exemplo, B1, B2)."
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -897,7 +897,7 @@ msgid ""
 msgstr ""
 "Na sección de filas, a lista de datos despregarase desde o campo de fila "
 "one2many (por exemplo, order_line) e o campo de datos do mapa (é dicir, "
-"product_ide.name, uom_ide.name, qty) ás celas da primeira fila para comezar "
+"product_id.name, uom_id.name, qty) ás celas da primeira fila para comezar "
 "a rodar (por exemplo, A6, B6, C6)."
 
 #. module: excel_import_export

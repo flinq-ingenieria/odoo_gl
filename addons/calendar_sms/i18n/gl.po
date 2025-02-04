@@ -55,7 +55,7 @@ msgid ""
 "object.get_display_time_tz(object.partner_id.tz) }}"
 msgstr ""
 "Recordatorio de evento: {{ object.name }}, {{ "
-"object.get_display_estafe_tz(object.partner_ide.tz) }}"
+"object.get_display_estafe_tz(object.partner_id.tz) }}"
 
 #. module: calendar_sms
 #: model_terms:ir.ui.view,arch_db:calendar_sms.view_calendar_event_form_inherited

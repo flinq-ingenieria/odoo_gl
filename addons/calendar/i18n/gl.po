@@ -1264,7 +1264,7 @@ msgstr "Invitación para"
 #. module: calendar
 #: model:mail.template,subject:calendar.calendar_template_meeting_invitation
 msgid "Invitation to {{ object.event_id.name }}"
-msgstr "Invitación a {{ object.event_ide.name }}"
+msgstr "Invitación a {{ object.event_id.name }}"
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -1977,7 +1977,7 @@ msgid ""
 "calendar view for the user_id."
 msgstr ""
 "Este campo utilízase para saber se o partner está seleccionado no filtro da "
-"vista de calendario para o user_ide."
+"vista de calendario para o user_id."
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__thu
@@ -2174,12 +2174,12 @@ msgstr "ata o %s"
 #. module: calendar
 #: model:mail.template,subject:calendar.calendar_template_meeting_reminder
 msgid "{{ object.event_id.name }} - Reminder"
-msgstr "{{ object.event_ide.name }} - Recordatorio"
+msgstr "{{ object.event_id.name }} - Recordatorio"
 
 #. module: calendar
 #: model:mail.template,subject:calendar.calendar_template_meeting_changedate
 msgid "{{ object.event_id.name }}: Date updated"
-msgstr "{{ object.event_ide.name }}: Data actualizada"
+msgstr "{{ object.event_id.name }}: Data actualizada"
 
 #. module: calendar
 #: model:mail.template,subject:calendar.calendar_template_meeting_update

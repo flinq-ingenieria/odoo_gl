@@ -547,7 +547,7 @@ msgstr "O teu código de cupón"
 #: model:mail.template,subject:sale_coupon.mail_template_sale_coupon
 msgid "Your reward coupon from {{ object.program_id.company_id.name }} "
 msgstr ""
-"O seu cupón de recompensa de {{ object.program_ide.company_id.name }}"
+"O seu cupón de recompensa de {{ object.program_id.company_id.name }}"
 
 #. module: sale_coupon
 #: model:mail.template,name:sale_coupon.mail_template_sale_coupon

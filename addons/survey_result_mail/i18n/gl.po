@@ -20,7 +20,7 @@ msgstr ""
 #. module: survey_result_mail
 #: model:ir.actions.report,print_report_name:survey_result_mail.survey_result_report
 msgid "'Survey results - %s' % (object.survey_id.display_name)"
-msgstr "'Resultados da enquisa - %s' % (object.survey_ide.display_name)"
+msgstr "'Resultados da enquisa - %s' % (object.survey_id.display_name)"
 
 #. module: survey_result_mail
 #: model:mail.template,body_html:survey_result_mail.mail_template_user_input_result_inline
@@ -101,7 +101,7 @@ msgstr "Modelo de resultados de enquisa"
 #: model:mail.template,subject:survey_result_mail.mail_template_user_input_result_inline
 #: model:mail.template,subject:survey_result_mail.mail_template_user_input_result_report
 msgid "Results for your {{object.survey_id.title}} survey"
-msgstr "Resultados para a súa enquisa {{object.survey_ide.title}}"
+msgstr "Resultados para a súa enquisa {{object.survey_id.title}}"
 
 #. module: survey_result_mail
 #: model:ir.model.fields,field_description:survey_result_mail.field_survey_survey__send_result_mail

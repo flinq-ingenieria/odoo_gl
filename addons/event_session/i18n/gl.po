@@ -1357,7 +1357,7 @@ msgstr "Primeiro"
 msgid ""
 "Foldable Badge - {{ (object.session_id.name or 'Event').replace('/','_') }}"
 msgstr ""
-"Insignia Pregable - {{ (object.session_ide.name or 'Event').replace('/','_')"
+"Insignia Pregable - {{ (object.session_id.name or 'Event').replace('/','_')"
 " }}"
 
 #. module: event_session
@@ -1420,7 +1420,7 @@ msgstr "Desde"
 msgid ""
 "Full Page Ticket - {{ (object.session_id.name or 'Event').replace('/','') }}"
 msgstr ""
-"Billete de páxina completa - {{ (object.session_ide.name or "
+"Billete de páxina completa - {{ (object.session_id.name or "
 "'Event').replace('/','') }}"
 
 #. module: event_session
@@ -2478,12 +2478,12 @@ msgstr "Tes que elixir polo menos un día da semana"
 #. module: event_session
 #: model:mail.template,subject:event_session.event_session_registration_mail_template_badge
 msgid "Your badge for {{ object.session_id.name }}"
-msgstr "A súa insignia para {{ object.session_ide.name }}"
+msgstr "A súa insignia para {{ object.session_id.name }}"
 
 #. module: event_session
 #: model:mail.template,subject:event_session.event_session_subscription
 msgid "Your registration at {{ object.session_id.name }}"
-msgstr "A súa inscrición para {{ object.user_ide.company_id.name }}"
+msgstr "A súa inscrición para {{ object.user_id.company_id.name }}"
 
 #. module: event_session
 #: model:ir.model.fields,help:event_session.field_event_session__event_registrations_started
@@ -2497,7 +2497,7 @@ msgstr ""
 #. module: event_session
 #: model:mail.template,subject:event_session.event_session_reminder
 msgid "{{ object.session_id.name }}: {{ object.get_date_range_str() }}"
-msgstr "{{ object.session_ide.name }}: {{ object.get_dáche_range_str() }}"
+msgstr "{{ object.session_id.name }}: {{ object.get_dáche_range_str() }}"
 
 #, fuzzy
 #~ msgid " # No of Confirmed Registrations"

@@ -269,7 +269,7 @@ msgstr ""
 "Idioma de tradución opcional (código ISO) para seleccionar ao enviar un "
 "correo electrónico. Se non se establece, utilizarase a versión en inglés. "
 "Normalmente debe ser unha expresión de marcador de posición que proporcione "
-"o idioma adecuado, por exemplo {{ object.partner_ide.lang }}."
+"o idioma adecuado, por exemplo {{ object.partner_id.lang }}."
 
 #. module: base_comment_template
 #: model:ir.model.fields,help:base_comment_template.field_base_comment_template__null_value

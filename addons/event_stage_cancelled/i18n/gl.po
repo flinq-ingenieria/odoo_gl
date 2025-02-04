@@ -312,4 +312,4 @@ msgstr "Desencadear "
 #. module: event_stage_cancelled
 #: model:mail.template,subject:event_stage_cancelled.event_cancelled
 msgid "{{ object.event_id.name }}: event cancelled"
-msgstr "{{ object.event_ide.name }}: evento cancelado"
+msgstr "{{ object.event_id.name }}: evento cancelado"

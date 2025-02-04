@@ -2906,7 +2906,7 @@ msgstr "Debes definir un nome de contacto para este candidato."
 #: model:mail.template,subject:hr_recruitment.email_template_data_applicant_not_interested
 #: model:mail.template,subject:hr_recruitment.email_template_data_applicant_refuse
 msgid "Your Job Application: {{ object.job_id.name }}"
-msgstr "A súa solicitude de emprego: {{ object.job_ide.name }}"
+msgstr "A súa solicitude de emprego: {{ object.job_id.name }}"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_recruitment_source_tree

@@ -20,7 +20,7 @@ msgstr ""
 #. module: stock_card_report
 #: model:ir.actions.report,print_report_name:stock_card_report.action_stock_card_report_pdf
 msgid "'Stock Card Report - [%s]' % (object.location_id.complete_name)"
-msgstr "'Stock Card Report - [%s]' % (object.location_ide.complete_name)"
+msgstr "'Stock Card Report - [%s]' % (object.location_id.complete_name)"
 
 #. module: stock_card_report
 #: model_terms:ir.ui.view,arch_db:stock_card_report.report_buttons

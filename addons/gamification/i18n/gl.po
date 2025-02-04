@@ -1740,7 +1740,7 @@ msgid ""
 "other, e.g. user_id, partner_id..."
 msgstr ""
 "No modo de lotes, isto indica que campo distingue a un usuario doutro, por "
-"exemplo user_ide, partner_ide..."
+"exemplo user_ide, partner_id..."
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal__last_update
@@ -1991,12 +1991,12 @@ msgstr "Novo valor de karma"
 #. module: gamification
 #: model:mail.template,subject:gamification.email_template_badge_received
 msgid "New badge {{ object.badge_id.name }} granted"
-msgstr "Nova insignia {{ object.badge_ide.name }} outorgada"
+msgstr "Nova insignia {{ object.badge_id.name }} outorgada"
 
 #. module: gamification
 #: model:mail.template,subject:gamification.mail_template_data_new_rank_reached
 msgid "New rank: {{ object.rank_id.name }}"
-msgstr "Novo rango: {{ object.rank_ide.name }}"
+msgstr "Novo rango: {{ object.rank_id.name }}"
 
 #. module: gamification
 #: model:gamification.karma.rank,name:gamification.rank_newbie
@@ -2172,7 +2172,7 @@ msgid ""
 msgstr ""
 "O código Python a executar para cada usuario. 'result' debe conter o novo "
 "valor actual. O rexistro do usuario avaliado pode ser accedido mediante "
-"object_user_ide."
+"object_user_id."
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_res_users__rank_id
@@ -2616,7 +2616,7 @@ msgid ""
 "res_id for action."
 msgstr ""
 "O nome do campo no perfil de usuario (res.users) que contén o valor para a "
-"acción para res_ide."
+"acción para res_id."
 
 #. module: gamification
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal_definition__condition__higher
@@ -2767,7 +2767,7 @@ msgid ""
 msgstr ""
 "O valor para comparar co campo distintivo. A expresión pode conter "
 "referencias a 'user', que é o rexistro do usuario actual. Por exemplo: "
-"user.ide, user.partner_ide.ide..."
+"user.ide, user.partner_id.ide..."
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.goals_from_challenge_act
@@ -3061,7 +3061,7 @@ msgstr "Por exemplo, días"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "e.g. user.partner_id.id"
-msgstr "Por exemplo, user.partner_ide.ide"
+msgstr "Por exemplo, user.partner_id.ide"
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_kanban_view
