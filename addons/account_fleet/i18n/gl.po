@@ -74,7 +74,7 @@ msgstr ""
 #. module: account_fleet
 #: model:ir.model.fields,help:account_fleet.field_account_move_line__need_vehicle
 msgid "Technical field to decide whether the vehicle_id field is editable"
-msgstr "Campo técnico para decidir se o campo vehicle_ide é editable"
+msgstr "Campo técnico para decidir se o campo vehicle_id é editable"
 
 #. module: account_fleet
 #: model:ir.model,name:account_fleet.model_fleet_vehicle

@@ -2256,7 +2256,7 @@ msgid ""
 "(parent_model) and task (model))"
 msgstr ""
 "Modelo pai que contén o pseudónimo. O modelo que contén a referencia do "
-"pseudónimo non é necesariamente o modelo dado por alias_model_ide (exemplo: "
+"pseudónimo non é necesariamente o modelo dado por alias_model_id (exemplo: "
 "proxecto (parent_model) e tarefas (model))"
 
 #. module: hr_recruitment

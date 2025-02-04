@@ -36,7 +36,7 @@ msgstr ""
 #: code:addons/project/static/src/project_sharing/components/chatter.xml:0
 #, python-format
 msgid "!!widget.options.res_id && widget.get('messages') || []"
-msgstr "!!widget.options.res_ide && widget.get('messages') || []"
+msgstr "!!widget.options.res_id && widget.get('messages') || []"
 
 #. module: project
 #. openerp-web
@@ -3424,7 +3424,7 @@ msgid ""
 "(parent_model) and task (model))"
 msgstr ""
 "Modelo pai que contén o alias. O modelo que contén a referencia alias non é "
-"necesariamente o modelo dado por alias_model_ide (example: project "
+"necesariamente o modelo dado por alias_model_id (example: project "
 "(parent_model) and task (model))"
 
 #. module: project

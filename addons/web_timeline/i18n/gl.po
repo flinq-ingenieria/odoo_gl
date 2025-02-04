@@ -69,7 +69,7 @@ msgstr "Liña de tempo"
 #: code:addons/web_timeline/static/src/js/timeline_renderer.js:0
 #, python-format
 msgid "Timeline view has not defined 'date_start' attribute."
-msgstr "A vista de liña de tempo non ten definido o atributo 'dáche_start'."
+msgstr "A vista de liña de tempo non ten definido o atributo 'date_start'."
 
 #. module: web_timeline
 #. openerp-web

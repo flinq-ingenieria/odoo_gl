@@ -990,7 +990,7 @@ msgstr "Barra de ferramentas do calendario"
 #: code:addons/web/static/src/legacy/js/views/calendar/calendar_view.js:0
 #, python-format
 msgid "Calendar view has not defined 'date_start' attribute."
-msgstr "A vista de calendario non ten definido o atributo 'dáche_start'"
+msgstr "A vista de calendario non ten definido o atributo 'date_start'"
 
 #. module: web
 #. openerp-web

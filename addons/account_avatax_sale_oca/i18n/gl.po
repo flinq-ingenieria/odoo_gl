@@ -30,7 +30,7 @@ msgid ""
 "product_uom_qty"
 msgstr ""
 "Activación automática da API para calcular os impostos se se realizan "
-"cambios en: SO's warehouse_ide, tax_on_shipping_address, SO line's "
+"cambios en: SO's warehouse_id, tax_on_shipping_address, SO line's "
 "price_unit, discount, product_uom_qty"
 
 #. module: account_avatax_sale_oca

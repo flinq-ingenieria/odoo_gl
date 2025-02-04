@@ -70,7 +70,7 @@ msgid ""
 msgstr ""
 "Expresión Python booleana. Pode usar a palabra chave 'records' para facer "
 "referencia aos rexistros seleccionados ao executar a acción contextual. Ex.:"
-" bool(records.mapped('parent_ide'))"
+" bool(records.mapped('parent_id'))"
 
 #. module: chained_swapper
 #: model:ir.model,name:chained_swapper.model_chained_swapper

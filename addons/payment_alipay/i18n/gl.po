@@ -103,7 +103,7 @@ msgstr "Provedor"
 #: code:addons/payment_alipay/models/payment_transaction.py:0
 #, python-format
 msgid "Received data with missing reference %(r)s or txn_id %(t)s."
-msgstr "Datos recibidos sen referencia %(r)s ou txn_ide %(t)s."
+msgstr "Datos recibidos sen referencia %(r)s ou txn_id %(t)s."
 
 #. module: payment_alipay
 #: code:addons/payment_alipay/controllers/main.py:0

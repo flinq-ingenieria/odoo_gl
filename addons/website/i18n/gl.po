@@ -4259,7 +4259,7 @@ msgstr "Editor e Deseñador"
 #: code:addons/website/models/website_snippet_filter.py:0
 #, python-format
 msgid "Either action_server_id or filter_id must be provided."
-msgstr "Débese proporcionar action_server_ide ou filter_id."
+msgstr "Débese proporcionar action_server_id ou filter_id."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu
@@ -7555,7 +7555,7 @@ msgid ""
 "One and only one of the two fields 'page_view_id' and 'module_id' should be "
 "set"
 msgstr ""
-"Un e só un dos dous campos 'page_view_ide' e'module_ide' deben ser "
+"Un e só un dos dous campos 'page_view_id' e'module_id' deben ser "
 "establecidos"
 
 #. module: website
@@ -7576,9 +7576,9 @@ msgid ""
 "(<xpath/>) are applied, and the result is used as if it were this view's\n"
 "actual arch.\n"
 msgstr ""
-"Só aplica se esta vista herda doutra (inherit_ide non é False/Null).\n"
+"Só aplica se esta vista herda doutra (inherit_id non é False/Null).\n"
 "\n"
-" Se ten extensión (predeterminado), cando esta vista é solicitada, búscase cara arriba a vista primaria máis próxima (vía inherit_ide), entón todas as vistas herdando delas co modelo desta vista, aplicarán estes cambios.\n"
+" Se ten extensión (predeterminado), cando esta vista é solicitada, búscase cara arriba a vista primaria máis próxima (vía inherit_id), entón todas as vistas herdando delas co modelo desta vista, aplicarán estes cambios.\n"
 " Se a vista primaria máis próxima é totalmente resolta (mesmo se usa un modelo diferente ao desta)/desta), entón aplícanse as especificacións de herdanza (<xpath/>), e o resultado úsase coma se fóra da vista actual.\n"
 
 #. module: website
@@ -12339,7 +12339,7 @@ msgstr "separador, divisor"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid "session_id (Odoo)<br/>"
-msgstr "sesión_ide (Odoo)<br/>"
+msgstr "sesión_id (Odoo)<br/>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets

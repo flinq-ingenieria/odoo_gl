@@ -76,7 +76,7 @@ msgid ""
 msgstr ""
 "Algúns provedores de Oauth non asignan as claves nas súas respostas "
 "exactamente como se require.  É importante asegurarse de que polo menos "
-"user_ide e correo electrónico están asignados. Para OpenID Connect user_ide "
+"user_id e correo electrónico están asignados. Para OpenID Connect user_id "
 "é a subclave no estándar."
 
 #. module: auth_oidc
@@ -115,7 +115,7 @@ msgstr "Usuarios"
 #. module: auth_oidc
 #: model_terms:ir.ui.view,arch_db:auth_oidc.view_oidc_provider_form
 msgid "e.g from:to upn:email sub:user_id"
-msgstr "e.g from:to upn:email sub:user_ide"
+msgstr "e.g from:to upn:email sub:user_id"
 
 #. module: auth_oidc
 #: model:auth.oauth.provider,body:auth_oidc.local_keycloak

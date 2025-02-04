@@ -30,8 +30,8 @@ msgid ""
 msgstr ""
 "\n"
 "Validar dicionario para sobreescribir liñas:\n"
-"{'L1': {'partner_ide': 1, 'amount': 100, 'name': 'some label'},\n"
-" 'L2': {'partner_ide': 2, 'amount': 200, 'name': 'some label 2'}, }\n"
+"{'L1': {'partner_id': 1, 'amount': 100, 'name': 'some label'},\n"
+" 'L2': {'partner_id': 2, 'amount': 200, 'name': 'some label 2'}, }\n"
 "        "
 
 #. module: account_move_template

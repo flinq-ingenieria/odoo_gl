@@ -333,7 +333,7 @@ msgid ""
 "Attachments are linked to a document through model / res_id and to the "
 "message through this field."
 msgstr ""
-"Os adxuntos asócianse a un documento mediante o modelo / res_ide e á mensaxe"
+"Os adxuntos asócianse a un documento mediante o modelo / res_id e á mensaxe"
 " mediante este campo."
 
 #. module: mail_group
@@ -535,7 +535,7 @@ msgid ""
 "found and replaces the author_id field in the chatter."
 msgstr ""
 "Dirección de correo do remitente. Este campo establécese cando non se atopa "
-"ningún partner coincidente e substitúe o campo author_ide no chatter."
+"ningún partner coincidente e substitúe o campo author_id no chatter."
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
@@ -1078,7 +1078,7 @@ msgid ""
 "(parent_model) and task (model))"
 msgstr ""
 "Modelo pai que contén o pseudónimo. O modelo que contén o pseudónimo de "
-"referencia non é necesariamente o modelo dado por alias_model_ide (exemplo: "
+"referencia non é necesariamente o modelo dado por alias_model_id (exemplo: "
 "proxecto (modelo pai) e tarefas (modelo))"
 
 #. module: mail_group

@@ -5812,7 +5812,7 @@ msgid ""
 "found and replaces the author_id field in the chatter."
 msgstr ""
 "Dirección de correo do remitente. Este campo establécese cando non se atopa "
-"ningún partner coincidente e substitúe o campo author_ide no chatter."
+"ningún partner coincidente e substitúe o campo author_id no chatter."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company__invoice_is_email
@@ -13018,7 +13018,7 @@ msgid ""
 "set together."
 msgstr ""
 "Os modelos da liña de distribución de impostos deben aplicarse a facturas ou"
-" reembolsos, non a ambos ao mesmo tempo. invoice_tax_ide e refund_tax_ide "
+" reembolsos, non a ambos ao mesmo tempo. invoice_tax_id e refund_tax_id "
 "non deben configurarse xuntos."
 
 #. module: account
@@ -13038,7 +13038,7 @@ msgid ""
 "together."
 msgstr ""
 "As liñas de distribución de impostos deben aplicarse a facturas ou "
-"reembolsos, non a ambos ao mesmo tempo. invoice_tax_ide e refund_tax_ide non"
+"reembolsos, non a ambos ao mesmo tempo. invoice_tax_id e refund_tax_id non"
 " deben configurarse xuntos."
 
 #. module: account
@@ -13460,7 +13460,7 @@ msgid ""
 "Technical field used to know whether the field `partner_bank_id` needs to be"
 " displayed or not in the payments form views"
 msgstr ""
-"Campo técnico utilizado para saber se o campo `partner_bank_ide` debe "
+"Campo técnico utilizado para saber se o campo `partner_bank_id` debe "
 "mostrarse ou non nas vistas do formulario de pagos"
 
 #. module: account
@@ -13470,7 +13470,7 @@ msgid ""
 "Technical field used to know whether the field `partner_bank_id` needs to be"
 " required or not in the payments form views"
 msgstr ""
-"Campo técnico utilizado para saber se o campo `partner_bank_ide` debe ser "
+"Campo técnico utilizado para saber se o campo `partner_bank_id` debe ser "
 "obrigatorio ou non nas vistas do formulario de pagos"
 
 #. module: account
@@ -14718,7 +14718,7 @@ msgstr ""
 #, python-format
 msgid "The tax group must have the same country_id as the tax using it."
 msgstr ""
-"O grupo de impostos debe ter o mesmo country_ide que o imposto que o "
+"O grupo de impostos debe ter o mesmo country_id que o imposto que o "
 "utiliza."
 
 #. module: account
@@ -14734,7 +14734,7 @@ msgid ""
 "refund_tax_id"
 msgstr ""
 "O imposto establecido para aplicar esta distribución nas facturas. "
-"Mutuamente excluínte con refund_tax_ide"
+"Mutuamente excluínte con refund_tax_id"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_repartition_line__refund_tax_id
@@ -14744,7 +14744,7 @@ msgid ""
 "exclusive with invoice_tax_id"
 msgstr ""
 "O imposto establecido para aplicar esta distribución nas facturas de "
-"devolución. Mutuamente excluíntes con invoice_tax_ide"
+"devolución. Mutuamente excluíntes con invoice_tax_id"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_cash_rounding__rounding_method

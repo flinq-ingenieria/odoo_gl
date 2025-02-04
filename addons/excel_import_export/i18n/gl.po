@@ -74,7 +74,7 @@ msgid ""
 "product object, e.g., <code>${value and value.uom_id.name or \"\"}</code>"
 msgstr ""
 "<b>Cond. de campo</b>: código Python en <code>${...}</code> para manipular o"
-" valor do campo, por exemplo, se campo = product_ide, <code>value</code> "
+" valor do campo, por exemplo, se campo = product_id, <code>value</code> "
 "representará o produto obxecto, por exemplo, <code>${valor e "
 "valor.uom_id.name ou \"\"}</code>"
 
@@ -97,7 +97,7 @@ msgstr ""
 msgid "<b>Field</b>: Field of the record to be imported to, e.g., product_id"
 msgstr ""
 "<b>Campo</b>: campo do rexistro ao que se importará, por exemplo, "
-"product_ide"
+"product_id"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -238,7 +238,7 @@ msgstr ""
 "    '__IMPORT__': {\n"
 "        'sae_order': {  # sheet can be name (string) or index (integer)\n"
 "            'order_line': {  # prefix with _NODEL_ to not delete rows before import\n"
-"                'A6': 'product_ide',\n"
+"                'A6': 'product_id',\n"
 "                'C6': 'product_uom_qty',\n"
 "                'E6': 'price_unit${value &gt; 0 and value or 0}',\n"
 "            },\n"
@@ -886,7 +886,7 @@ msgid ""
 "partner_id)."
 msgstr ""
 "Na sección do encabezado, asigne celas (por exemplo, B1, B2) a campos de "
-"datos (por exemplo, número, socio_ide)."
+"datos (por exemplo, número, socio_id)."
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -909,7 +909,7 @@ msgid ""
 msgstr ""
 "Na sección de filas, a táboa de datos de Excel pódese importar a un campo de"
 " fila one2many (p. ex., order_line) asignando celas da primeira fila en "
-"diante (p. ex., A6, B6, C6) aos campos (p. ex., product_ide, uom_ide, qty)"
+"diante (p. ex., A6, B6, C6) aos campos (p. ex., product_id, uom_id, qty)"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form

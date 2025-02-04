@@ -478,7 +478,7 @@ msgid ""
 "this value thru the `program_id` of the reward lines."
 msgstr ""
 "Campo técnico. Establécese cando se valida a orde. Usualmente obtemos este "
-"valor a través do \"program_ide\" das liñas de recompensa."
+"valor a través do \"program_id\" das liñas de recompensa."
 
 #. module: pos_coupon
 #: model:ir.model.fields,help:pos_coupon.field_coupon_program__pos_order_ids

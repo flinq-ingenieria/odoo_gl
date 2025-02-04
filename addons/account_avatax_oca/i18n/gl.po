@@ -104,7 +104,7 @@ msgid ""
 "quantity"
 msgstr ""
 "Activa automaticamente a API para calcular os impostos se se realizan "
-"cambios nos datos da factura warehouse_ide, tax_on_shipping_address, "
+"cambios nos datos da factura warehouse_id, tax_on_shipping_address, "
 "price_unit, discount, quantity da liña de factura"
 
 #. module: account_avatax_oca

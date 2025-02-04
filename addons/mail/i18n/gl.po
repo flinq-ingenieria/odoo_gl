@@ -1168,7 +1168,7 @@ msgid ""
 "Attachments are linked to a document through model / res_id and to the "
 "message through this field."
 msgstr ""
-"Os adxuntos asócianse a un documento mediante o modelo / res_ide e á mensaxe"
+"Os adxuntos asócianse a un documento mediante o modelo / res_id e á mensaxe"
 " mediante este campo."
 
 #. module: mail
@@ -2135,7 +2135,7 @@ msgid ""
 "- email (using email_from or email field)"
 msgstr ""
 "Destinatarios por defecto do rexistro:\n"
-"- Empresa (usando o ide da empresa ou do campo partner_ide) Ou\n"
+"- Empresa (usando o ide da empresa ou do campo partner_id) Ou\n"
 "- Correo electrónico (usando os campos email_from ou email)"
 
 #. module: mail
@@ -2645,7 +2645,7 @@ msgid ""
 "found and replaces the author_id field in the chatter."
 msgstr ""
 "Dirección de correo do remitente. Este campo establécese cando non se atopa "
-"ningún socio coincidente e substitúe o campo author_ide na charla."
+"ningún socio coincidente e substitúe o campo author_id na charla."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
@@ -2899,7 +2899,7 @@ msgstr "Non se puido visualizar no modelo inline_template : %s)"
 #: code:addons/mail/models/mail_render_mixin.py:0
 #, python-format
 msgid "Failed to render template : %(xml_id)s (%(view_id)d)"
-msgstr "Non se puido visualizar o modelo:  %(xml_id)s (%(view_ide)d)"
+msgstr "Non se puido visualizar o modelo:  %(xml_id)s (%(view_id)d)"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail__failure_reason
@@ -4889,7 +4889,7 @@ msgstr "Non hai mensaxes de historial"
 #: code:addons/mail/wizard/mail_resend_message.py:0
 #, python-format
 msgid "No message_id found in context"
-msgstr "Non se atopou message_ide en contexto"
+msgstr "Non se atopou message_id en contexto"
 
 #. module: mail
 #: code:addons/mail/wizard/mail_compose_message.py:0
@@ -5482,7 +5482,7 @@ msgid ""
 "(parent_model) and task (model))"
 msgstr ""
 "Modelo pai que contén o alias. O modelo que contén a referencia alias non é "
-"necesariamente o modelo dado por alias_model_ide (example: project "
+"necesariamente o modelo dado por alias_model_id (example: project "
 "(parent_model) and task (model))"
 
 #. module: mail
@@ -5493,7 +5493,7 @@ msgid ""
 "to task-related subtypes."
 msgstr ""
 "Subtipo pai, utilizado para a subscrición automática. Este campo non esta "
-"correctamente nomeado. Por exemplo nun proxecto, o parent_ide do subtipo de "
+"correctamente nomeado. Por exemplo nun proxecto, o parent_id do subtipo de "
 "proxecto refírese aos subtipos de tarefas relacionadas."
 
 #. module: mail
@@ -8610,7 +8610,7 @@ msgid ""
 "message_post does not support subtype parameter anymore. Please give a valid"
 " subtype_id or subtype_xmlid value instead."
 msgstr ""
-"message_post xa non admite o parámetro subtype. Indique un valor subtype_ide"
+"message_post xa non admite o parámetro subtype. Indique un valor subtype_id"
 " ou subtype_xmlid válido para substituílo."
 
 #. module: mail
