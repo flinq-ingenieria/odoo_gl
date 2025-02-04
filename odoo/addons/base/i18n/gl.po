@@ -18767,7 +18767,7 @@ msgid ""
 msgstr ""
 "Dependencias do método de cálculo; unha lista de nomes de campos separados por comas, como\n"
 "\n"
-"    name, partner_ide.name"
+"    name, partner_id.name"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_module_module_dependency__depend_id
@@ -34904,7 +34904,7 @@ msgstr ""
 "                                                depende o campo actual. É unha lista de nomes de campos\n"
 "                                                separados por comas, como <code>nome, tamaño</code>. Tamén se pode referir a campos \n"
 "                                                accesibles a través doutros campos relacionales, por exemplo\n"
-"                                                <code>partner_ide.company_id.name</code>."
+"                                                <code>partner_id.company_id.name</code>."
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_model_fields_form
@@ -34919,7 +34919,7 @@ msgstr ""
 "                                                depende o campo actual. É unha lista de nomes de campos\n"
 "                                                separados por compas, como <code>nome, tamaño</code>. Tamén se pode referir a campos \n"
 "                                                accesibles a través doutros campos relacionales, por exemplo\n"
-"                                                <code>partner_ide.company_id.name</code>."
+"                                                <code>partner_id.company_id.name</code>."
 
 #. module: base
 #. odoo-python

@@ -92,7 +92,7 @@ msgstr "Nº de tarefas"
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_kanban
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "#{record.commercial_partner_id.value}"
-msgstr "#{record.commercial_partner_ide.value}"
+msgstr "#{record.commercial_partner_id.value}"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
@@ -107,7 +107,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_kanban
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "#{record.partner_id.value}"
-msgstr "#{record.partner_ide.value}"
+msgstr "#{record.partner_id.value}"
 
 #. module: project
 #. odoo-python
@@ -6583,4 +6583,4 @@ msgstr "xerarán tarefas no seu proxecto"
 #. module: project
 #: model:mail.template,subject:project.rating_project_request_email_template
 msgid "{{ object.project_id.company_id.name }}: Satisfaction Survey"
-msgstr "{{ object.project_ide.company_id.name }}: Enquisa de satisfacción"
+msgstr "{{ object.project_id.company_id.name }}: Enquisa de satisfacción"

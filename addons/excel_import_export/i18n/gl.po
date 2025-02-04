@@ -78,7 +78,7 @@ msgstr ""
 "<b>Cond. de campo</b>: código Python en <code>$</code><code>{...}</code> "
 "para manipular o valor do campo, por exemplo, se campo = product_ide, "
 "<code>valor </code> representará o obxecto do produto, por exemplo, "
-"<code>$</code><code>{value e value.uom_ide.name ou \"\"}</code>"
+"<code>$</code><code>{value e value.uom_id.name ou \"\"}</code>"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -107,7 +107,7 @@ msgid ""
 "<b>Field</b>: Field of the record, e.g., product_id.uom_id.name. They are "
 "orm compliant."
 msgstr ""
-"<b>Campo</b>: Campo do rexistro, por exemplo, product_ide.uom_ide.name. "
+"<b>Campo</b>: Campo do rexistro, por exemplo, product_id.uom_id.name. "
 "Cumpren coas normas."
 
 #. module: excel_import_export
@@ -226,11 +226,11 @@ msgstr ""
 "    '__EXPORTAR__': {\n"
 "        'sae_order': {# folla pode ser nomee (cadea) ou índice (enteiro)\n"
 "            '_CABEZA_': {\n"
-"                'B2': 'partner_ide.display_name<span>$</span>{valor ou \"\"}#{align=left;style=text}',\n"
+"                'B2': 'partner_id.display_name<span>$</span>{valor ou \"\"}#{align=left;style=text}',\n"
 "                'B3': 'nome<span>$</span>{valor ou \"\"}#{align=left;style=text}',\n"
 "            },\n"
 "            'line_ids': { # prefixo con _CONT_ para continuar filas do campo de fila anterior\n"
-"                'A6': 'product_ide.display_name<span>$</span>{valor ou \"\"}#{style=text}',\n"
+"                'A6': 'product_id.display_name<span>$</span>{valor ou \"\"}#{style=text}',\n"
 "                'C6': 'product_uom_qty<span>$</span>{valor ou 0}#{estilo=número}',\n"
 "                'E6': 'prezo_unidade<span>$</span>{valor ou 0}#{estilo=número}',\n"
 "                'G6': 'prezo_subtotal<span>$</span>{valor ou 0}#{estilo=número}',\n"
@@ -924,7 +924,7 @@ msgid ""
 " cells (e.g., B1, B2)."
 msgstr ""
 "Na parte da sección do encabezado, asigne os campos de datos (por exemplo, "
-"número, socio_ide.nome) a celas (por exemplo, B1, B2)."
+"número, socio_id.nome) a celas (por exemplo, B1, B2)."
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -944,7 +944,7 @@ msgid ""
 msgstr ""
 "Na sección de filas, a lista de datos despregarase desde o campo de fila "
 "one2many (por exemplo, order_line) e o campo de datos do mapa (é dicir, "
-"product_ide.name, uom_ide.name, qty) ás celas da primeira fila para comezar "
+"product_id.name, uom_id.name, qty) ás celas da primeira fila para comezar "
 "a rodar (por exemplo, A6, B6, C6)."
 
 #. module: excel_import_export

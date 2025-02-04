@@ -26,7 +26,7 @@ msgid ""
 "object.partner_id.name.replace(' ', '_') or '')"
 msgstr ""
 "'Mandato-%s-%s' % (object.unique_mandate_reference, object.partner_ide and "
-"object.partner_ide.name.replace(' ', '_') or '')"
+"object.partner_id.name.replace(' ', '_') or '')"
 
 #. module: account_banking_sepa_direct_debit
 #: model:mail.template,body_html:account_banking_sepa_direct_debit.email_template_sepa_mandate

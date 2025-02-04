@@ -10459,7 +10459,7 @@ msgstr ""
 "Idioma de tradución opcional (código ISO) a seleccionar para o envío de "
 "correos electrónicos. Se non se selecciona esta opción, utilizarase a "
 "versión en inglés. Polo xeral, úsase unha expresión de marcador de posición "
-"para indicar o idioma adecuado, por exemplo, {{ object.partner_ide.lang }}."
+"para indicar o idioma adecuado, por exemplo, {{ object.partner_id.lang }}."
 
 #. module: account
 #. odoo-python
@@ -15070,7 +15070,7 @@ msgid ""
 "exclusive with invoice_tax_id"
 msgstr ""
 "O imposto establecido para aplicar esta distribución nas facturas "
-"rectificativas. Mutuamente excluíntes con invoice_tax_ide."
+"rectificativas. Mutuamente excluíntes con invoice_tax_id."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_cash_rounding__rounding_method

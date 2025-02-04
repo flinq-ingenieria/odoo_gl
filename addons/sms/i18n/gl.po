@@ -719,7 +719,7 @@ msgstr ""
 "Idioma de tradución opcional (código ISO) a seleccionar para o envío de "
 "correos electrónicos. Se non se selecciona esta opción, utilizarase a "
 "versión en inglés. Polo xeral, úsase unha expresión de marcador de posición "
-"para indicar o idioma adecuado, por exemplo, {{ object.partner_ide.lang }}."
+"para indicar o idioma adecuado, por exemplo, {{ object.partner_id.lang }}."
 
 #. module: sms
 #: model:ir.model,name:sms.model_sms_sms
@@ -1383,7 +1383,7 @@ msgstr "p. ex. contacto"
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_form
 msgid "e.g. en_US or {{ object.partner_id.lang }}"
-msgstr "p. ex. en_US ou {{ object.partner_ide.lang }}"
+msgstr "p. ex. en_US ou {{ object.partner_id.lang }}"
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_composer_view_form

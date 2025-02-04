@@ -2299,7 +2299,7 @@ msgstr ""
 "Idioma de tradución opcional (código ISO) a seleccionar para o envío de "
 "correos electrónicos. Se non se selecciona esta opción, utilizarase a "
 "versión en inglés. Polo xeral, úsase unha expresión de marcador de posición "
-"para indicar o idioma adecuado, por exemplo, {{ object.partner_ide.lang }}."
+"para indicar o idioma adecuado, por exemplo, {{ object.partner_id.lang }}."
 
 #. module: hr_recruitment
 #. odoo-javascript
@@ -3194,7 +3194,7 @@ msgstr "Debe definir un nome de contacto para este candidato."
 #: model:mail.template,subject:hr_recruitment.email_template_data_applicant_not_interested
 #: model:mail.template,subject:hr_recruitment.email_template_data_applicant_refuse
 msgid "Your Job Application: {{ object.job_id.name }}"
-msgstr "A súa solicitude de emprego: {{ object.job_ide.name }}"
+msgstr "A súa solicitude de emprego: {{ object.job_id.name }}"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_applicant_view_form

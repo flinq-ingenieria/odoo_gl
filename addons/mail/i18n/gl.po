@@ -7092,7 +7092,7 @@ msgstr ""
 "Idioma de tradución opcional (código ISO) a seleccionar para o envío de "
 "correos electrónicos. Se non se selecciona esta opción, utilizarase a "
 "versión en inglés. Polo xeral, úsase unha expresión de marcador de posición "
-"para indicar o idioma adecuado, por exemplo, {{ object.partner_ide.lang }}."
+"para indicar o idioma adecuado, por exemplo, {{ object.partner_id.lang }}."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_compose_message__reply_to_mode
@@ -24447,7 +24447,7 @@ msgid ""
 "message_post does not support model and res_id parameters anymore. Please "
 "call message_post on record."
 msgstr ""
-"message_post xa non admite os parámetros model e res_ide. Solicite "
+"message_post xa non admite os parámetros model e res_id. Solicite "
 "message_post no rexistro."
 
 #. module: mail
@@ -36108,7 +36108,7 @@ msgstr "zombi "
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
 msgid "{{ object.partner_id.lang }}"
-msgstr "{{ object.partner_ide.lang }}"
+msgstr "{{ object.partner_id.lang }}"
 
 #. module: mail
 #. odoo-javascript

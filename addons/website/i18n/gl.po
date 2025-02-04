@@ -4192,7 +4192,7 @@ msgstr "Efecto"
 #: code:addons/website/models/website_snippet_filter.py:0
 #, python-format
 msgid "Either action_server_id or filter_id must be provided."
-msgstr "Débese proporcionar action_server_ide ou filter_ide."
+msgstr "Débese proporcionar action_server_ide ou filter_id."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu

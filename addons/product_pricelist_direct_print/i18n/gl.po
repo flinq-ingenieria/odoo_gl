@@ -402,14 +402,14 @@ msgid ""
 "{{ object.pricelist_id.company_id.name or object.write_uid.company_id.name "
 "}} Pricelist (Ref {{ object.pricelist_id.name or 'n/a' }})"
 msgstr ""
-"{{ object.pricelist_ide.company_id.name or "
+"{{ object.pricelist_id.company_id.name or "
 "object.write_uid.company_id.name }} Tarifa (Ref {{ "
-"object.pricelist_ide.name or 'n/a' }})"
+"object.pricelist_id.name or 'n/a' }})"
 
 #. module: product_pricelist_direct_print
 #: model:mail.template,report_name:product_pricelist_direct_print.email_template_edi_pricelist
 msgid "{{ object.pricelist_id.name }}"
-msgstr "{{ object.pricelist_ide.name }}"
+msgstr "{{ object.pricelist_id.name }}"
 
 #~ msgid ""
 #~ "<div style=\"margin: 0px; padding: 0px;\">\n"

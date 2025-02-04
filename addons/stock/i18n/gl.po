@@ -212,7 +212,7 @@ msgstr "'Folla de reconto'"
 msgid ""
 "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
 msgstr ""
-"'Albará de entrega - %s - %s' % (object.partner_ide.name or '', object.name)"
+"'Albará de entrega - %s - %s' % (object.partner_id.name or '', object.name)"
 
 #. module: stock
 #: model:ir.actions.report,print_report_name:stock.action_report_location_barcode
@@ -239,7 +239,7 @@ msgstr "'Paquetes - %s' % (object.name)"
 msgid ""
 "'Picking Operations - %s - %s' % (object.partner_id.name or '', object.name)"
 msgstr ""
-"'Operacións de picking - %s - %s' % (object.partner_ide.name or '', "
+"'Operacións de picking - %s - %s' % (object.partner_id.name or '', "
 "object.name)"
 
 #. module: stock

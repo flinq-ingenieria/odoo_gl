@@ -160,7 +160,7 @@ msgstr "Solicitude de activación de módulo"
 #: model:mail.template,subject:base_install_request.mail_template_base_install_request
 msgid "Module Activation Request for \"{{ object.module_id.shortdesc }}\""
 msgstr ""
-"Solicitude de activación de módulo para \"{{ object.module_ide.shortdesc "
+"Solicitude de activación de módulo para \"{{ object.module_id.shortdesc "
 "}}\""
 
 #. module: base_install_request

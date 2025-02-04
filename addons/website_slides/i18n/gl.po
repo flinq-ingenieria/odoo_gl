@@ -2017,7 +2017,7 @@ msgstr "Configuración"
 #. module: website_slides
 #: model:mail.template,subject:website_slides.mail_template_channel_completed
 msgid "Congratulations! You completed {{ object.channel_id.name }}"
-msgstr "Felicidades! Completou {{ object.channel_ide.name }}"
+msgstr "Felicidades! Completou {{ object.channel_id.name }}"
 
 #. module: website_slides
 #. odoo-javascript
@@ -4119,7 +4119,7 @@ msgstr "Novo curso"
 msgid ""
 "New {{ object.slide_category }} published on {{ object.channel_id.name }}"
 msgstr ""
-"Nova {{ object.slide_category }} publicada en {{ object.channel_ide.name }}"
+"Nova {{ object.slide_category }} publicada en {{ object.channel_id.name }}"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_cards
@@ -4423,7 +4423,7 @@ msgstr ""
 "Idioma de tradución opcional (código ISO) a seleccionar para o envío de "
 "correos electrónicos. Se non se selecciona esta opción, utilizarase a "
 "versión en inglés. Polo xeral, úsase unha expresión de marcador de posición "
-"para indicar o idioma adecuado, por exemplo, {{ object.partner_ide.lang }}."
+"para indicar o idioma adecuado, por exemplo, {{ object.partner_id.lang }}."
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
@@ -6580,7 +6580,7 @@ msgstr "Xa se uniu a esta canle"
 #. module: website_slides
 #: model:mail.template,subject:website_slides.mail_template_slide_channel_invite
 msgid "You have been invited to join {{ object.channel_id.name }}"
-msgstr "Foi convidado a unirse a {{  object.channel_ide.name }}"
+msgstr "Foi convidado a unirse a {{  object.channel_id.name }}"
 
 #. module: website_slides
 #. odoo-python
