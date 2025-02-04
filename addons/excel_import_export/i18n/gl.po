@@ -877,7 +877,7 @@ msgid ""
 " cells (e.g., B1, B2)."
 msgstr ""
 "Na parte da sección do encabezado, asigne os campos de datos (por exemplo, "
-"número, socio_id.nome) a celas (por exemplo, B1, B2)."
+"número, partner_id.nome) a celas (por exemplo, B1, B2)."
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -886,7 +886,7 @@ msgid ""
 "partner_id)."
 msgstr ""
 "Na sección do encabezado, asigne celas (por exemplo, B1, B2) a campos de "
-"datos (por exemplo, número, socio_id)."
+"datos (por exemplo, número, partner_id)."
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
