@@ -74,7 +74,7 @@ msgid ""
 "Authorize: received data with missing reference (%s) or trans_id (%s) or "
 "fingerprint (%s)"
 msgstr ""
-"Authorize: datos recibidos sen referencia (%s) ou trans_ide (%s) ou pegada "
+"Authorize: datos recibidos sen referencia (%s) ou trans_id (%s) ou pegada "
 "dixital (%s)"
 
 #. module: payment_authorize

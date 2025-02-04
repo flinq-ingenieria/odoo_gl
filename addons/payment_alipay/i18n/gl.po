@@ -90,7 +90,7 @@ msgstr "Alipay: datos recibidos para referencia %s"
 #: code:addons/payment_alipay/models/payment.py:0
 #, python-format
 msgid "Alipay: received data with missing reference (%s) or txn_id (%s)"
-msgstr "Alipay: datos recibidos con referencia faltante (%s) ou txn_ide (%s)"
+msgstr "Alipay: datos recibidos con referencia faltante (%s) ou txn_id (%s)"
 
 #. module: payment_alipay
 #: model:ir.model.fields.selection,name:payment_alipay.selection__payment_acquirer__alipay_payment_method__standard_checkout

@@ -94,7 +94,7 @@ msgid ""
 msgstr ""
 "Algúns provedores de Oauth non mapean as claves nas súas respostas "
 "exactamente como se require.  É importante asegurarse de que polo menos "
-"user_ide e email están mapeados. Para OpenID Connect user_ide é a subclave "
+"user_id e email están mapeados. Para OpenID Connect user_id é a subclave "
 "no estándar."
 
 #. module: auth_oidc
@@ -133,7 +133,7 @@ msgstr "URL de información do usuario"
 #. module: auth_oidc
 #: model_terms:ir.ui.view,arch_db:auth_oidc.view_oidc_provider_form
 msgid "e.g from:to upn:email sub:user_id"
-msgstr "p.ex. from:to upn:email sub:user_ide"
+msgstr "p.ex. from:to upn:email sub:user_id"
 
 #. module: auth_oidc
 #: model:auth.oauth.provider,body:auth_oidc.local_keycloak

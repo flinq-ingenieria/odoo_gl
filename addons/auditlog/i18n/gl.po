@@ -161,7 +161,7 @@ msgstr "Campo"
 #: code:addons/auditlog/models/rule.py:0
 #, python-format
 msgid "Field 'model_id' cannot be empty."
-msgstr "O campo 'model_ide' non pode estar baleiro."
+msgstr "O campo 'model_id' non pode estar baleiro."
 
 #. module: auditlog
 #: model:ir.model.fields,field_description:auditlog.field_auditlog_rule__fields_to_exclude_ids
@@ -528,14 +528,14 @@ msgstr "Nome técnico"
 #: code:addons/auditlog/models/log.py:0
 #, python-format
 msgid "The field 'field_id' cannot be empty."
-msgstr "O campo 'field_ide' non pode estar baleiro."
+msgstr "O campo 'field_id' non pode estar baleiro."
 
 #. module: auditlog
 #. odoo-python
 #: code:addons/auditlog/models/log.py:0
 #, python-format
 msgid "The field 'model_id' cannot be empty."
-msgstr "O campo 'model_ide' non pode estar baleiro."
+msgstr "O campo 'model_id' non pode estar baleiro."
 
 #. module: auditlog
 #: model:ir.model.constraint,message:auditlog.constraint_auditlog_rule_model_uniq

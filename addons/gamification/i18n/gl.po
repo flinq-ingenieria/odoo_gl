@@ -1748,7 +1748,7 @@ msgid ""
 "other, e.g. user_id, partner_id..."
 msgstr ""
 "No modo de lotes, isto indica que campo distingue a un usuario doutro, por "
-"exemplo user_ide, partner_id..."
+"exemplo user_id, partner_id..."
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal__last_update

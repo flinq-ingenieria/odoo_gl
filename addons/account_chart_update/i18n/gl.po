@@ -725,7 +725,7 @@ msgstr "Actualizar grupos de contas"
 #: model:ir.model.fields,help:account_chart_update.field_wizard_update_charts_accounts__update_tax_repartition_line_account
 msgid "Update account_id field on existing Tax repartition lines"
 msgstr ""
-"Actualizar o campo account_ide en liñas de repartición de imposto existentes"
+"Actualizar o campo account_id en liñas de repartición de imposto existentes"
 
 #. module: account_chart_update
 #: model:ir.model.fields,field_description:account_chart_update.field_wizard_update_charts_accounts__update_account

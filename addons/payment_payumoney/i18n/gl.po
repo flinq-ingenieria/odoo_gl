@@ -61,7 +61,7 @@ msgid ""
 "PayUmoney: received data with missing reference (%s) or pay_id (%s) or "
 "shashign (%s)"
 msgstr ""
-"PayUmoney: datos recibidos sen referencia (%s) ou pay_ide (%s) ou shashign "
+"PayUmoney: datos recibidos sen referencia (%s) ou pay_id (%s) ou shashign "
 "(%s)"
 
 #. module: payment_payumoney

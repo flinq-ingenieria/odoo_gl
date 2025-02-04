@@ -56,7 +56,7 @@ msgid ""
 "Buckaroo: received data with missing reference (%s) or pay_id (%s) or "
 "shasign (%s)"
 msgstr ""
-"Buckaroo: received data with missing reference (%s) or pay_ide (%s) or "
+"Buckaroo: received data with missing reference (%s) or pay_id (%s) or "
 "shasign (%s)"
 
 #. module: payment_buckaroo

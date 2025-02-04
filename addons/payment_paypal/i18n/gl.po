@@ -108,7 +108,7 @@ msgstr "Notificación de pago instantáneo de Paypal"
 #: code:addons/payment_paypal/models/payment.py:0
 #, python-format
 msgid "Paypal: received data with missing reference (%s) or txn_id (%s)"
-msgstr "Paypal: received data with missing reference (%s) or txn_ide (%s)"
+msgstr "Paypal: received data with missing reference (%s) or txn_id (%s)"
 
 #. module: payment_paypal
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_acquirer__provider

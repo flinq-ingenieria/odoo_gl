@@ -4662,7 +4662,7 @@ msgstr "Total de correos devoltos"
 #: model:ir.model.constraint,message:mass_mailing.constraint_mailing_trace_check_res_id_is_set
 msgid "Traces have to be linked to records with a not null res_id."
 msgstr ""
-"Os rastros deben estar vinculados a rexistros cun res_ide que non sexa nulo."
+"Os rastros deben estar vinculados a rexistros cun res_id que non sexa nulo."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form

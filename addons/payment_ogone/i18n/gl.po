@@ -100,7 +100,7 @@ msgid ""
 "Ogone: received data with missing reference (%s) or pay_id (%s) or shasign "
 "(%s)"
 msgstr ""
-"Ogone: received data with missing reference (%s) or pay_ide (%s) or shasign "
+"Ogone: received data with missing reference (%s) or pay_id (%s) or shasign "
 "(%s)"
 
 #. module: payment_ingenico

@@ -59,7 +59,7 @@ msgid ""
 "Defines the order of the entries of profile_id field\n"
 "(not synchronized with product.template fields)"
 msgstr ""
-"Define a orde das entradas de campo profile_ide \n"
+"Define a orde das entradas de campo profile_id \n"
 "(non sincronizados cos campos product.template)"
 
 #. module: product_profile

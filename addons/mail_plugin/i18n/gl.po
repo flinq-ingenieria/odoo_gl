@@ -834,7 +834,7 @@ msgstr "Non ten os créditos suficientes para enriquecer."
 #, python-format
 msgid "You need to specify at least the partner_id or the name and the email"
 msgstr ""
-"É necesario especificar polo menos o socio_ide ou o nome e o correo "
+"É necesario especificar polo menos o partner_id ou o nome e o correo "
 "electrónico"
 
 #. module: mail_plugin

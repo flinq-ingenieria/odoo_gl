@@ -44,7 +44,7 @@ msgstr "Creando traballos para crear movementos de activos a {}"
 #: code:addons/account_asset_batch_compute/models/account_asset.py:0
 #, python-format
 msgid "Creating move for asset with id {rec_id} to {date_end}"
-msgstr "Creando movemento de activo con ide {rec_ide} a {dáche_end}"
+msgstr "Creando movemento de activo con ide {rec_id} a {date_end}"
 
 #~ msgid "Display Name"
 #~ msgstr "Nome a mostrar"

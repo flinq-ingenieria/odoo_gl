@@ -1133,7 +1133,7 @@ msgstr "Actividades"
 #: model:ir.model.constraint,message:mail.constraint_mail_activity_check_res_id_is_set
 msgid "Activities have to be linked to records with a not null res_id."
 msgstr ""
-"As actividades deben estar vinculadas a rexistros cun res_ide non nulo."
+"As actividades deben estar vinculadas a rexistros cun res_id non nulo."
 
 #. module: mail
 #. odoo-javascript
@@ -2969,7 +2969,7 @@ msgid ""
 "- email (using email_from or email field)"
 msgstr ""
 "Destinatarios por defecto do rexistro:\n"
-"- contacto (usa o ide do contacto ou partner_ide) Ou\n"
+"- contacto (usa o ide do contacto ou partner_id) Ou\n"
 "- correo electrónico (usa email_from ou o correo electrónico)"
 
 #. module: mail
@@ -3519,7 +3519,7 @@ msgid ""
 "found and replaces the author_id field in the chatter."
 msgstr ""
 "Dirección de correo do remitente. Este campo establécese cando non se atopa "
-"ningún contacto que coincida e substitúe o campo author_ide no chatter."
+"ningún contacto que coincida e substitúe o campo author_id no chatter."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
@@ -6536,7 +6536,7 @@ msgstr "Sen mensaxes de historial"
 #: code:addons/mail/wizard/mail_resend_message.py:0
 #, python-format
 msgid "No message_id found in context"
-msgstr "Nose atopou ningún message_ide en contexto"
+msgstr "Nose atopou ningún message_id en contexto"
 
 #. module: mail
 #. odoo-python
@@ -7240,7 +7240,7 @@ msgid ""
 "(parent_model) and task (model))"
 msgstr ""
 "Modelo pai que contén o alias. O modelo que contén a referencia do alias non"
-" é necesariamente o modelo dado por alias_model_ide (example: project "
+" é necesariamente o modelo dado por alias_model_id (example: project "
 "(parent_model) and task (model))"
 
 #. module: mail
@@ -7251,7 +7251,7 @@ msgid ""
 "to task-related subtypes."
 msgstr ""
 "Subtipo pai, utilizado para a subscrición automática. Este campo non esta "
-"correctamente nomeado. Por exemplo nun proxecto, o parent_ide do subtipo de "
+"correctamente nomeado. Por exemplo nun proxecto, o parent_id do subtipo de "
 "proxecto refírese aos subtipos de tarefas relacionadas."
 
 #. module: mail
@@ -24458,7 +24458,7 @@ msgid ""
 "message_post does not support subtype parameter anymore. Please give a valid"
 " subtype_id or subtype_xmlid value instead."
 msgstr ""
-"message_post xa non admite o parámetro subtype. Indique un valor subtype_ide"
+"message_post xa non admite o parámetro subtype. Indique un valor subtype_id"
 " ou subtype_xmlid válido para substituílo."
 
 #. module: mail

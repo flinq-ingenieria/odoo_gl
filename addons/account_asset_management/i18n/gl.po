@@ -1883,7 +1883,7 @@ msgstr "ou"
 #~ msgstr "Use anos bisiestos"
 
 #~ msgid "account_analytic_id"
-#~ msgstr "account_analytic_ide"
+#~ msgstr "account_analytic_id"
 
 #~ msgid "Delete Move"
 #~ msgstr "Borrar asento"

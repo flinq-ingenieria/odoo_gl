@@ -1055,7 +1055,7 @@ msgid ""
 "(parent_model) and task (model))"
 msgstr ""
 "Modelo pai que contén o alias. O modelo que contén a referencia do alias non"
-" é necesariamente o modelo dado por alias_model_ide (example: project "
+" é necesariamente o modelo dado por alias_model_id (example: project "
 "(parent_model) and task (model))"
 
 #. module: maintenance

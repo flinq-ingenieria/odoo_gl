@@ -525,7 +525,7 @@ msgid ""
 "found and replaces the author_id field in the chatter."
 msgstr ""
 "Dirección de correo do remitente. Este campo establécese cando non se atopa "
-"ningún contacto que coincida e substitúe o campo author_ide no chatter."
+"ningún contacto que coincida e substitúe o campo author_id no chatter."
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
@@ -1066,7 +1066,7 @@ msgid ""
 "(parent_model) and task (model))"
 msgstr ""
 "Modelo pai que contén o alias. O modelo que contén a referencia do alias non"
-" é necesariamente o modelo dado por alias_model_ide (example: project "
+" é necesariamente o modelo dado por alias_model_id (example: project "
 "(parent_model) and task (model))"
 
 #. module: mail_group

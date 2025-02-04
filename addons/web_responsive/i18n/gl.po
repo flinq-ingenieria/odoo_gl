@@ -163,7 +163,7 @@ msgstr "Vista do conmutador"
 #~ msgstr "Usuarios"
 
 #~ msgid "#menu_id=#{app.menuID}&action_id=#{app.actionID}"
-#~ msgstr "#menu_ide=#{app.menuID}&action_ide=#{app.actionID}"
+#~ msgstr "#menu_id=#{app.menuID}&action_id=#{app.actionID}"
 
 #~ msgid "Close"
 #~ msgstr "Pechar"

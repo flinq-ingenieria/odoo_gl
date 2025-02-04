@@ -214,8 +214,8 @@ msgid ""
 "Evaluated expression. E.g. \"'FY%s' % date_start.strftime('%Y%m%d')\"\n"
 "You can use the Date types 'date_end' and 'date_start', as well as the 'index' variable."
 msgstr ""
-"Expresión avaliada. P.ex. \"'FY%s' % dáche_start.strftime('%E%m%d')\"\n"
-"Pode utilizar os tipos de data 'dáche_end' e 'dáche_start', así como a variable 'index'."
+"Expresión avaliada. P.ex. \"'FY%s' % date_start.strftime('%E%m%d')\"\n"
+"Pode utilizar os tipos de data 'date_end' e 'date_start', así como a variable 'index'."
 
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range_search_mixin__date_range_search_id

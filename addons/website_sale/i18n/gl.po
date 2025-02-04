@@ -4080,7 +4080,7 @@ msgid ""
 "True only for product filters that require a product_id because they relate "
 "to cross selling"
 msgstr ""
-"True só para os filtros de produtos que requiren un product_ide porque están"
+"True só para os filtros de produtos que requiren un product_id porque están"
 " relacionados coa venda cruzada"
 
 #. module: website_sale
